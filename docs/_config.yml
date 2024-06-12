@@ -1,6 +1,6 @@
 title: Techie Venki Hub
 remote_theme: zendesk/jekyll-theme-zendesk-garden@main
-baseurl: https://techievenki.ai/techie-venki-hub
+baseurl: https://techievenki.ai
 sidebar:
   - label: System Design
     children:
