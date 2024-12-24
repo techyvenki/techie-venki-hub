@@ -5,7 +5,7 @@ auto_title: false
 ---
 
 
-![Profile Picture] 
+![Profile Picture](../images/mypic.jpg) 
 
 # About Me
 Application Architect
