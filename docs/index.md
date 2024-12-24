@@ -5,7 +5,7 @@ auto_title: false
 ---
 
 
-![Profile Picture](../images/mypic.jpg) 
+![Profile Picture](https://github.com/techyvenki/techie-venki-hub/blob/main/images/mypic.jpg) 
 
 # About Me
 Application Architect
