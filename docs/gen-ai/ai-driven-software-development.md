@@ -35,9 +35,9 @@ Table of contents
   * [Next-Gen DevX Platform](#next-gen-devx-platform)
 <!--te-->
 
-## AI Code Assistant
+## <span style="background-color: antiquewhite;">AI Code Assistant</span>
 
-### Developers Coding Companion
+### <span style="background-color: antiquewhite;">Developers Coding Companion</span>
 ![DCC](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ai-driven-software-development/0001-DCC.png)
 
 -----
