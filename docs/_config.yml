@@ -1,22 +1,7 @@
 title: Techie Venki Hub
-remote_theme: cotes2020/jekyll-theme-chirpy@7.2.4
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 plugins:
   - jekyll-include-cache
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-archives
-  - jekyll-avatar
-  - jekyll-coffeescript
-  - jekyll-commonmark-ghpages
-  - jekyll-github-metadata
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-default-layout
-  - jekyll-titles-from-headings
 sidebar:
   - label: System Design
     children:
