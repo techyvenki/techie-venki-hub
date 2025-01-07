@@ -1,5 +1,5 @@
-title: Tech Pulse
-remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+title: Techie Venki Hub
+remote_theme: mmistakes/minimal-mistakes@latest
 baseurl: /tech-pulse
 sidebar:
   - label: System Design
