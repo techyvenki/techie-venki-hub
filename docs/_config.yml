@@ -1,5 +1,5 @@
 title: Techie Venki Hub
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+remote_theme: cotes2020/jekyll-theme-chirpy@4.3.2
 plugins:
   - jekyll-include-cache
 sidebar:
