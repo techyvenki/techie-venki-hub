@@ -1,5 +1,5 @@
 title: Techie Venki Hub
-remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+remote_theme: carlosperate/jekyll-theme-rtd
 sidebar:
   - label: System Design
     children:
