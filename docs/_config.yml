@@ -52,3 +52,10 @@ sidebar:
       - industrial-iot/industry-5.0
       - industrial-iot/edge-gateway
       - industrial-iot/iiot-protocols
+# Include the custom stylesheet
+sass:
+  style: compressed
+
+# Add the custom stylesheet to the list of stylesheets
+include:
+  - assets/css/custom.css
