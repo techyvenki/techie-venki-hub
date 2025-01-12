@@ -1,54 +1,77 @@
 title: Techie Venki Hub
 remote_theme: just-the-docs/just-the-docs
-sidebar:
-  - label: System Design
+
+# Enable the sidebar
+just_the_docs:
+  show_sidebar: true
+  collections:
+    system_design:
+      output: true
+      permalink: /system-design/:path/
+    computing_models:
+      output: true
+      permalink: /computing-models/:path/
+    cloud_services:
+      output: true
+      permalink: /cloud-services/:path/
+    cloud_native:
+      output: true
+      permalink: /cloud-native/:path/
+    data_ai:
+      output: true
+      permalink: /data-ai/:path/
+# Sidebar navigation
+nav:
+  - title: "System Design"
+    url: /system-design/
     children:
-      - system-design/characteristics
-      - system-design/load-balancing
-      - system-design/api-gateway
-      - system-design/caching
-      - system-design/messaging-system
-      - system-design/communication-protocols
-      - system-design/patterns
-  - label: Computing Models
+      - title: "Characteristics"
+        url: /system-design/characteristics/
+      - title: "Load Balancing"
+        url: /system-design/load-balancing/
+      - title: "API Gateway"
+        url: /system-design/api-gateway/
+      - title: "Caching"
+        url: /system-design/caching/
+      - title: "Messaging System"
+        url: /system-design/messaging-system/
+      - title: "Communication Protocols"
+        url: /system-design/communication-protocols/
+      - title: "Patterns"
+        url: /system-design/patterns/
+  - title: "Computing Models"
+    url: /computing-models/
     children:
-      - computing-models/cloud-computing
-      - computing-models/serverless-computing
-      - computing-models/edge-computing
-  - label: Cloud Services
+      - title: "Cloud Computing"
+        url: /computing-models/cloud-computing/
+      - title: "Serverless Computing"
+        url: /computing-models/serverless-computing/
+      - title: "Edge Computing"
+        url: /computing-models/edge-computing/
+  - title: "Cloud Services"
+    url: /cloud-services/
     children:
-      - cloud-services/aws
-      - cloud-services/azure
-      - cloud-services/gcp
-  - label: Cloud Native
+      - title: "AWS"
+        url: /cloud-services/aws/
+      - title: "Azure"
+        url: /cloud-services/azure/
+      - title: "GCP"
+        url: /cloud-services/gcp/
+  - title: "Cloud Native"
+    url: /cloud-native/
     children:
-      - cloud-native/app-definition-and-development
-      - cloud-native/orchestration-and-management
-      - cloud-native/observability-and-analysis
-      - cloud-native/provisioning
-      - cloud-native/runtime
-  - label: Data & AI
+      - title: "App Definition and Development"
+        url: /cloud-native/app-definition-and-development/
+      - title: "Orchestration and Management"
+        url: /cloud-native/orchestration-and-management/
+      - title: "Observability and Analysis"
+        url: /cloud-native/observability-and-analysis/
+  - title: "Data & AI"
+    url: /data-ai/
     children:
-      - data-ai/data-analyst
-      - data-ai/data-engineer
-      - data-ai/ml-engineer
-  - label: Ops Mastery
-    children:
-      - ops-mastery/dev-sec-ops
-      - ops-mastery/git-ops
-      - ops-mastery/fin-ops
-      - ops-mastery/ml-ops
-      - ops-mastery/ai-ops
-      - ops-mastery/green-ops
-  - label: GenAI
-    children:
-      - gen-ai/prompt-engineering
-      - gen-ai/llm-tier
-      - gen-ai/rag
-      - gen-ai/ai-driven-software-development
-  - label: Industrial IoT
-    children:
-      - industrial-iot/industrial-iot
-      - industrial-iot/industry-5.0
-      - industrial-iot/edge-gateway
-      - industrial-iot/iiot-protocols
+      - title: "Data Analyst"
+        url: data-ai/data-analyst/
+      - title: "Data Engineer"
+        url: data-ai/data-engineer/
+      - title: "ML Engineer"
+        url: data-ai/ml-engineer/
