@@ -1,26 +1,27 @@
 title: Techie Venki Hub
 remote_theme: just-the-docs/just-the-docs
+nav_enabled: true
+search_enabled: true
 
 # Enable the sidebar
 just_the_docs:
   show_sidebar: true
-  
-collections:
-  system_design:
-    output: true
-    permalink: /system-design/:path/
-  computing_models:
-    output: true
-    permalink: /computing-models/:path/
-  cloud_services:
-    output: true
-    permalink: /cloud-services/:path/
-  cloud_native:
-    output: true
-    permalink: /cloud-native/:path/
-  data_ai:
-    output: true
-    permalink: /data-ai/:path/
+  collections:
+    system_design:
+      output: true
+      permalink: /system-design/:path/
+    computing_models:
+      output: true
+      permalink: /computing-models/:path/
+    cloud_services:
+      output: true
+      permalink: /cloud-services/:path/
+    cloud_native:
+      output: true
+      permalink: /cloud-native/:path/
+    data_ai:
+      output: true
+      permalink: /data-ai/:path/
 # Sidebar navigation
 nav:
   - title: "System Design"
