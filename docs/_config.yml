@@ -3,6 +3,13 @@ remote_theme: just-the-docs/just-the-docs
 nav_enabled: true
 search_enabled: true
 
+# Theme settings
+color_scheme: light
+enable_copy_code_button: true
+
+# Enable navigation
+enable_nav_buttons: true
+
 # Enable support for callouts
 callouts:
   note:
@@ -73,9 +80,23 @@ whitelist:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
+# Footer content 
+footer_content: "Copyright &copy; 2024 Techie Venki Hub. Distributed by an <a href=\"https://github.com/techyvenki/techie-venki-hub/blob/main/LICENSE\">MIT license.</a>"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer last edited timestamp
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+
+# Enable copy code button
+#enable_copy_code_button: true
+
 # Add the navigation settings
-prev_next_buttons_location: bottom  # Can be 'bottom', 'top', or 'both'
-prev_next_buttons_enabled: true
+#prev_next_buttons_location: bottom  # Can be 'bottom', 'top', or 'both'
+#prev_next_buttons_enabled: true
 
 # Main Navigation Structure
 # defaults:

@@ -1,0 +1,70 @@
+{% if page.has_children != true %}
+<hr>
+<div class="navigation-footer">
+  <div class="navigation-footer-previous">
+    {% if page.parent %}
+      {% assign parent = site.pages | where: "title", page.parent | first %}
+      {% assign pages = site.html_pages | where: "parent", page.parent | sort: "nav_order" %}
+      {% for p in pages %}
+        {% if p.title == page.title %}
+          {% assign prev_index = forloop.index0 | minus: 1 %}
+          {% if prev_index >= 0 %}
+            {% assign prev_page = pages[prev_index] %}
+            <a href="{{ prev_page.url | relative_url }}" class="navigation-footer-link">
+              ← {{ prev_page.title }}
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+
+  <div class="navigation-footer-next">
+    {% if page.parent %}
+      {% assign pages = site.html_pages | where: "parent", page.parent | sort: "nav_order" %}
+      {% for p in pages %}
+        {% if p.title == page.title %}
+          {% assign next_index = forloop.index0 | plus: 1 %}
+          {% if next_index < pages.size %}
+            {% assign next_page = pages[next_index] %}
+            <a href="{{ next_page.url | relative_url }}" class="navigation-footer-link">
+              {{ next_page.title }} →
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+
+<style>
+.navigation-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.navigation-footer-link {
+  color: #5c5962;
+  padding: 0.5rem 1rem;
+  border: 1px solid #e6e1e8;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.navigation-footer-link:hover {
+  background-color: #f5f6fa;
+  text-decoration: none;
+}
+
+.navigation-footer-previous {
+  text-align: left;
+}
+
+.navigation-footer-next {
+  text-align: right;
+}
+</style>
+{% endif %}
