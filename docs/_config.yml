@@ -3,77 +3,95 @@ remote_theme: just-the-docs/just-the-docs
 nav_enabled: true
 search_enabled: true
 
-# Enable the sidebar
+# Enable support for callouts
+callouts:
+  note:
+    title: Note
+    color: blue
+  warning:
+    title: Warning
+    color: red
+
+# Collections configuration
+collections:
+  system_design:
+    output: true
+    permalink: /:collection/:path/
+  computing_models:
+    output: true
+    permalink: /:collection/:path/
+  cloud_services:
+    output: true
+    permalink: /:collection/:path/
+  cloud_native:
+    output: true
+    permalink: /:collection/:path/
+  data_ai:
+    output: true
+    permalink: /:collection/:path/
+
+# Just the Docs specific configuration
 just_the_docs:
-  show_sidebar: true
   collections:
     system_design:
-      output: true
-      permalink: /system-design/:path/
+      name: System Design
+      nav_fold: true
     computing_models:
-      output: true
-      permalink: /computing-models/:path/
+      name: Computing Models
+      nav_fold: true
     cloud_services:
-      output: true
-      permalink: /cloud-services/:path/
+      name: Cloud Services
+      nav_fold: true
     cloud_native:
-      output: true
-      permalink: /cloud-native/:path/
+      name: Cloud Native
+      nav_fold: true
     data_ai:
-      output: true
-      permalink: /data-ai/:path/
-# Sidebar navigation
-nav:
-  - title: "System Design"
-    url: /system-design/
-    children:
-      - title: "Characteristics"
-        url: /system-design/characteristics/
-      - title: "Load Balancing"
-        url: /system-design/load-balancing/
-      - title: "API Gateway"
-        url: /system-design/api-gateway/
-      - title: "Caching"
-        url: /system-design/caching/
-      - title: "Messaging System"
-        url: /system-design/messaging-system/
-      - title: "Communication Protocols"
-        url: /system-design/communication-protocols/
-      - title: "Patterns"
-        url: /system-design/patterns/
-  - title: "Computing Models"
-    url: /computing-models/
-    children:
-      - title: "Cloud Computing"
-        url: /computing-models/cloud-computing/
-      - title: "Serverless Computing"
-        url: /computing-models/serverless-computing/
-      - title: "Edge Computing"
-        url: /computing-models/edge-computing/
-  - title: "Cloud Services"
-    url: /cloud-services/
-    children:
-      - title: "AWS"
-        url: /cloud-services/aws/
-      - title: "Azure"
-        url: /cloud-services/azure/
-      - title: "GCP"
-        url: /cloud-services/gcp/
-  - title: "Cloud Native"
-    url: /cloud-native/
-    children:
-      - title: "App Definition and Development"
-        url: /cloud-native/app-definition-and-development/
-      - title: "Orchestration and Management"
-        url: /cloud-native/orchestration-and-management/
-      - title: "Observability and Analysis"
-        url: /cloud-native/observability-and-analysis/
-  - title: "Data & AI"
-    url: /data-ai/
-    children:
-      - title: "Data Analyst"
-        url: data-ai/data-analyst/
-      - title: "Data Engineer"
-        url: data-ai/data-engineer/
-      - title: "ML Engineer"
-        url: data-ai/ml-engineer/
+      name: Data & AI
+      nav_fold: true
+
+# Navigation Structure
+aux_links:
+  "GitHub":
+    - "//github.com/yourusername/techie-venki-hub"
+
+# Navigation Order and Structure
+nav_external_links:
+  - title: Techie Venki Hub on GitHub
+    url: https://github.com/yourusername/techie-venki-hub
+    hide_icon: false
+
+# Define the order of pages
+nav_sort: case_sensitive
+
+# Main Navigation Structure
+defaults:
+  - scope:
+      path: "system_design"
+      type: system_design
+    values:
+      layout: default
+      parent: System Design
+  - scope:
+      path: "computing_models"
+      type: computing_models
+    values:
+      layout: default
+      parent: Computing Models
+  - scope:
+      path: "cloud_services"
+      type: cloud_services
+    values:
+      layout: default
+      parent: Cloud Services
+  - scope:
+      path: "cloud_native"
+      type: cloud_native
+    values:
+      layout: default
+      parent: Cloud Native
+  - scope:
+      path: "data_ai"
+      type: data_ai
+    values:
+      layout: default
+      parent: Data & AI
