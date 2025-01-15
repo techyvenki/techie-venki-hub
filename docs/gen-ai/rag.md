@@ -1,6 +1,8 @@
 ---
 id: gen-ai/rag
 title: Retrieval-Augmented Generation (RAG)
+parent: Gen AI
+nav_order: 4
 sidebar_label: Retrieval-Augmented Generation (RAG)
 previous_page: gen-ai/llm-tier
 next_page: gen-ai/ai-driven-software-development

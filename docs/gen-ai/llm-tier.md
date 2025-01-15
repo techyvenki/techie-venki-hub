@@ -1,6 +1,8 @@
 ---
 id: gen-ai/llm-tier
 title: LLM Tiers
+parent: Gen AI
+nav_order: 3
 sidebar_label: LLM Tiers
 next_page: gen-ai/rag
 previous_page: gen-ai/prompt-engineering

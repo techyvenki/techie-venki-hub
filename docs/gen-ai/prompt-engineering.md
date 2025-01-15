@@ -1,6 +1,8 @@
 ---
 id: gen-ai/prompt-engineering
 title: Prompt Engineering
+parent: Gen AI
+nav_order: 2
 sidebar_label: Prompt Engineering
 next_page: gen-ai/llm-tier
 ---

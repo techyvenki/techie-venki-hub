@@ -1,6 +1,8 @@
 ---
 id: industrial-iot/industrial-iot
 title: Industrial IoT
+parent: Industrial IoT Main
+nav_order: 2
 sidebar_label: Industrial IoT
 next_page: industrial-iot/industry-5.0
 ---

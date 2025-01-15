@@ -1,6 +1,8 @@
 ---
 id: gen-ai/ai-driven-software-development
 title: AI Driven Software Development
+parent: Gen AI
+nav_order: 5
 sidebar_label: AI Driven Software Development
 previous_page: gen-ai/llm-tier
 ---

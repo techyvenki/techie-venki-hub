@@ -1,6 +1,8 @@
 ---
 id: industrial-iot/edge-gateway
 title: Edge Gateway
+parent: Industrial IoT Main
+nav_order: 4
 sidebar_label: Edge Gateway
 previous_page: industrial-iot/industry-5.0
 ---
