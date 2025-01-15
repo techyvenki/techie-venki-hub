@@ -44,7 +44,7 @@ Table of contents
 <!--te-->
 
 ## Smart Edge Gateway Platform
-![SG](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0001-SG.png)
+![SG](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0001-SG.png)
 
 An IoT smart Gateway platform serves as a central node in the IoT ecosystem, enabling seamless data transfer and communication between various devices and the cloud. By converting several protocols, it fosters interoperability by aggregating, processing, and translating data from many sources. Through the facilitation of localized decision-making, the reduction of latency, and the enhancement of energy efficiency, this platform improves real-time responsiveness.
 
@@ -71,7 +71,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 ## AWS Greengrass (V2)
 
 ### AWS IoT Services
-![IS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0002-IS.png)
+![IS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0002-IS.png)
 
 `Device software`
    * Device software refers to the operating system, middleware, or applications that run on an IoT device and provide its functionality. It enables devices to interact with other devices, sensors, and actuators in real-time, making it possible for them to collect data, perform computations, and control physical processes.
@@ -95,7 +95,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Key Concepts
-![GG](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0003-GG.png)
+![GG](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0003-GG.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -111,7 +111,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Capabilities
-![CP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0004-CP.png)
+![CP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0004-CP.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -127,7 +127,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Requirements
-![RQ](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0005-RQ.png)
+![RQ](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0005-RQ.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -143,7 +143,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Install Options
-![IOA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0006-IOA.png)
+![IOA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0006-IOA.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -158,7 +158,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 
 -----
 
-![IOB](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0007-IOB.png)
+![IOB](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0007-IOB.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -174,7 +174,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Component Lifecycle
-![CL](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0008-CL.png)
+![CL](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0008-CL.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -190,7 +190,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 #### Components - AWS Provided
-![CLA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0009-CLA.png)
+![CLA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0009-CLA.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -206,7 +206,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Inter Process Communication (IPC)
-![IPC](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0010-IPC.png)
+![IPC](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0010-IPC.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -222,7 +222,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Manage Data Streams
-![DS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0011-DS.png)
+![DS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0011-DS.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -240,7 +240,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 ### Security
 
 #### Shared Responsibility Model
-![SE](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0012-SE.png)
+![SE](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0012-SE.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -256,7 +256,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 #### Approach
-![SEA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0013-SEA.png)
+![SEA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0013-SEA.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -282,7 +282,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 #### Telemetry Metrics
-![LM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0014-LM.png)
+![LM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0014-LM.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -298,7 +298,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Deployment Options
-![DO](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0015-DO.png)
+![DO](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0015-DO.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -314,7 +314,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ## Azure IoT Edge
-![AE](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0016-AE.png)
+![AE](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0016-AE.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -330,7 +330,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Offers
-![OF](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0017-OF.png)
+![OF](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0017-OF.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -348,7 +348,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 ### Gateways
 
 #### Transparent Gateway
-![TG](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0018-TG.png)
+![TG](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0018-TG.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -364,7 +364,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 #### Translation Gateways
-![IG](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0019-IG.png)
+![IG](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0019-IG.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -380,7 +380,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Platform Support
-![PS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0020-PS.png)
+![PS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0020-PS.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -395,7 +395,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 
 -----
 
-![PSA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0021-PSA.png)
+![PSA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0021-PSA.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -411,7 +411,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Security Model
-![AS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0022-AS.png)
+![AS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0022-AS.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -427,7 +427,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 #### Security Manager
-![ASA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0023-ASA.png)
+![ASA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0023-ASA.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -443,7 +443,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 #### Security Daemon Architecture
-![ASB](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0024-ASB.png)
+![ASB](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0024-ASB.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -459,7 +459,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 #### Security Attestation
-![ASC](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0025-ASC.png)
+![ASC](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0025-ASC.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -475,7 +475,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Devops Tools
-![AD](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0026-AD.png)
+![AD](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0026-AD.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
@@ -491,7 +491,7 @@ An IoT smart Gateway platform serves as a central node in the IoT ecosystem, ena
 -----
 
 ### Logging and Monitoring
-![LM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/edge-gateway/0027-LM.png)
+![LM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/edge-gateway/0027-LM.png)
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`
  * `<<PLACEHOLDEER>> - <<PLACEHOLDEER>> - <<PLACEHOLDEER>>`

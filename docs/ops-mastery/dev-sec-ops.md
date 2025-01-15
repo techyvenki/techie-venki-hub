@@ -55,7 +55,7 @@ Table of contents
 ## Foundations
 
 ### Secure-Software-Development-Framework(SSDF)
-![SSDF](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0001-SSDF.png)
+![SSDF](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0001-SSDF.png)
 
  * The importance of Secure Software Development: A comprehensive guide
    * `Prepare the Organization`
@@ -105,7 +105,7 @@ Table of contents
 -----
 
 ### Software-Supply-Chain-Continuum
-![SSCC](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0002-SSCC.png)
+![SSCC](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0002-SSCC.png)
 
  * The Software Supply Chain Continuum is a conceptual framework that represents the flow of software development and deployment from its inception to its final delivery to users. It encompasses various stages, including hardware, software, and data collection, processing, and analysis
    * **Hardware**
@@ -138,7 +138,7 @@ Table of contents
 -----
 
 ### Evolution-of-Best-Practices
-![EBSD](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0003-EBSD.png)
+![EBSD](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0003-EBSD.png)
 
  * This represents evolution of best practices in software development, showcasing how various technologies and approached have transformed over time
    * **Development Process**
@@ -181,7 +181,7 @@ Table of contents
 -----
 
 ### DORA-Capabilities
-![DORA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0004-DORA.png)
+![DORA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0004-DORA.png)
 
  * **Technical**
    * `Why Use Cloud Infrastructure?`
@@ -270,7 +270,7 @@ Table of contents
 ## DevSecOps
 
 ### Conceptual Model
-![CM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0005-CM.png)
+![CM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0005-CM.png)
 
  * In today's fast-paced digital landscape, ensuring the security and resilience of software applications has become a top priority. This is where DevSecOps comes into play - an innovative approach that integrates cybersecurity practices into every stage of the software development lifecycle.
  * *DevSecOps Ecosystem*
@@ -312,7 +312,7 @@ Table of contents
 -----
 
 ### Core-Practices
-![CP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0006-CP.png)
+![CP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0006-CP.png)
 
  * `Practice 1: Analyze - Identify Your Assets`
    * *Define the Scope*: Determine what assets or entities you wish to protect.
@@ -337,36 +337,36 @@ Table of contents
 -----
 
 #### Analyze
-![CPA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0006A-CP.png)
+![CPA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0006A-CP.png)
 
 -----
 
 #### Secure
-![CPS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0006B-CP.png)
+![CPS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0006B-CP.png)
 
 -----
 
 #### Verify
-![CPV](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0006C-CP.png)
+![CPV](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0006C-CP.png)
 
 -----
 
 #### Defend
-![CPD](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0006D-CP.png)
+![CPD](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0006D-CP.png)
 
 -----
 
 #### Additional Practices
-![CPAA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0006EA-CP.png)
+![CPAA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0006EA-CP.png)
 
 -----
 
-![CPAB](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0006EB-CP.png)
+![CPAB](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0006EB-CP.png)
 
 -----
 
 ### Lifecycle-Phases
-![LM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0007-LP.png)
+![LM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0007-LP.png)
  * `Key Components`
    * *Development (DEV)*
      * *Security as Code*: Security as Code is an approach to integrating security into the development process by writing security-related code alongside application code.
@@ -404,145 +404,145 @@ Table of contents
 -----
 
 ### Continuous-Feedback-Loops
-![CFL](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0008-CFL.png)
+![CFL](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0008-CFL.png)
 
 -----
 
 ### Activities-N-Tools
 
 #### Continuous Security
-![ATCS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0009-CS.png)
+![ATCS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0009-CS.png)
 
 -----
 
 #### Continuous Testing
-![ATCTA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0010A-CT.png)
+![ATCTA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0010A-CT.png)
 
 -----
 
-![ATCTB](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0010B-CT.png)
+![ATCTB](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0010B-CT.png)
 
 -----
 
 #### Configuration Management
-![ATCMA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0011A-CM.png)
+![ATCMA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0011A-CM.png)
 
 -----
 
-![ATCMB](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0011B-CM.png)
+![ATCMB](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0011B-CM.png)
 
 -----
 
 ### SMART-Metrics
 
 #### Specific
-![SMS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0012A-SM.png)
+![SMS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0012A-SM.png)
 
 -----
 
 #### Measurable
-![SMM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0012B-SM.png)
+![SMM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0012B-SM.png)
 
 -----
 
 #### Attainable
-![SMA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0012C-SM.png)
+![SMA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0012C-SM.png)
 
 -----
 
 #### Relevant
-![SMR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0012D-SM.png)
+![SMR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0012D-SM.png)
 
 -----
 
 #### Time Bound
-![SMT](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0012E-SM.png)
+![SMT](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0012E-SM.png)
 
 -----
 
 ## References
 ### Container Application Pipeline Reference
-![CAPRA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0013A-CAR.png)
+![CAPRA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0013A-CAR.png)
 
 -----
 
-![CAPRB](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0013B-CAR.png)
+![CAPRB](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0013B-CAR.png)
 
 -----
 
 ### Enterprise-DevSecOps
 
 #### CNCF Certified Kubernetes
-![CCK](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0014A-EM.png)
+![CCK](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0014A-EM.png)
 
 -----
 
 ##### Sidecar Container Security Stack (SCSS)
-![CCKS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0014B-EM.png)
+![CCKS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0014B-EM.png)
 
 -----
 
 #### Multi-Cluster CNCF Kubernetes
-![MCK](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0015A-EM.png)
+![MCK](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0015A-EM.png)
 
 -----
 
 ##### K8s Global & Regional Control Plane
-![MCKK](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0015B-EM.png)
+![MCKK](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0015B-EM.png)
 
 -----
 
 #### AWS Managed Services
-![AWS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0016.png)
+![AWS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0016.png)
 
 -----
 
 #### Microsoft Azure + GitHub
-![Azure](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0017.png)
+![Azure](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0017.png)
 
 -----
 
 #### Container Monitoring Reference
-![CM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0018.png)
+![CM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0018.png)
 
 -----
 
 ## Patterns-AntiPatterns
 
 ### Continuous-Integration
-![CIPA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0019A.png)
+![CIPA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0019A.png)
 
 -----
 
-![CIPB](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0019B.png)
+![CIPB](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0019B.png)
 
 -----
 
-![CIPC](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0019C.png)
+![CIPC](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0019C.png)
 
 -----
 
-![CIPD](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0019D.png)
+![CIPD](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0019D.png)
 
 -----
 
 ### Continuous-Delivery
-![CDPA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0020A.png)
+![CDPA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0020A.png)
 
 -----
 
-![CDPB](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0020B.png)
+![CDPB](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0020B.png)
 
 -----
 
-![CDPC](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0020C.png)
+![CDPC](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0020C.png)
 
 -----
 
-![CDPD](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0020D.png)
+![CDPD](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0020D.png)
 
 -----
 
-![CDPE](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/ops-mastery/dev-sec-ops/0020E.png)
+![CDPE](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/ops-mastery/dev-sec-ops/0020E.png)
 
 -----

@@ -143,7 +143,7 @@ An LLM Tier is a classification system that ranks large language models (LLMs) b
 -----
 
 ### LLMs Tier List - 2024
-![TL24](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/llm-tier/0001-Tier_List-2024.png)
+![TL24](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/llm-tier/0001-Tier_List-2024.png)
 
   * *Gemini 2.0 Flash* - Debuting in December 2024, Gemini 2.0 Flash has quickly gained traction as a multimodal powerhouse capable of processing inputs and outputs, including audio. Known for its remarkable speed and zero cost, it rivals GPT-40 in performance while being versatile enough to serve both reasoning and general-purpose needs.
   * *3.5 Sonnet* - An elite, top-tier model celebrated for its outstanding efficiency and reliability, making it a strong choice for a wide range of applications

@@ -29,43 +29,43 @@ Table of contents
 
 ### Tooling Landscape
 
-![TLS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/platform-engineering/0001-TLS.png)
+![TLS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/platform-engineering/0001-TLS.png)
 
 -----
 
 #### Developer Control Plane
 
-![DCP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/platform-engineering/0002-DCP.png)
+![DCP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/platform-engineering/0002-DCP.png)
 
 -----
 
 #### Integration & Delivery Plane
 
-![IDP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/platform-engineering/0003-IDP.png)
+![IDP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/platform-engineering/0003-IDP.png)
 
 -----
 
 #### Security Plane
 
-![PSP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/platform-engineering/0004-PSP.png)
+![PSP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/platform-engineering/0004-PSP.png)
 
 -----
 
 #### Monitoring & Logging Plane
 
-![MLP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/platform-engineering/0005-MLP.png)
+![MLP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/platform-engineering/0005-MLP.png)
 
 -----
 
 #### Resource Plane
 
-![PRP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/platform-engineering/0006-PRP.png)
+![PRP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/platform-engineering/0006-PRP.png)
 
 -----
 
 #### Landscape
 
-![LSS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/platform-engineering/0007-LSS.png)
+![LSS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/platform-engineering/0007-LSS.png)
 
 -----
 
@@ -77,30 +77,30 @@ Table of contents
 
 #### Internal Developer Platform on AWS Cloud
 
-![AWS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/platform-engineering/0008-AWS.png)
+![AWS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/platform-engineering/0008-AWS.png)
 
 -----
 
 #### Internal Developer Platform on Google Cloud
 
-![GCP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/platform-engineering/0009-GCP.png)
+![GCP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/platform-engineering/0009-GCP.png)
 
 -----
 
 #### Internal Developer Platform on Azure Cloud
 
-![AZR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/platform-engineering/0010-AZR.png)
+![AZR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/platform-engineering/0010-AZR.png)
 
 -----
 
 #### Internal Developer Platform on Openshift
 
-![OSR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/platform-engineering/0011-OSR.png)
+![OSR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/platform-engineering/0011-OSR.png)
 
 -----
 
 #### Internal Developer Platform on Multi-Cloud
 
-![PML](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/platform-engineering/0012-PML.png)
+![PML](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/platform-engineering/0012-PML.png)
 
 -----

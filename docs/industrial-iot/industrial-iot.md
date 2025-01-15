@@ -72,7 +72,7 @@ Table of contents
 <!--te-->
 
 ## Industrial Revolution
-![IR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0001-IR.png)
+![IR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0001-IR.png)
 The Industrial Revolution was a pivotal period in human history, marking a significant shift from manual labor to machine-based manufacturing. This transformation had far-reaching consequences, impacting various aspects of society and shaping the modern world as we know it today.
    
 `First Industrial Revolution (18th Century)`
@@ -124,7 +124,7 @@ The Industrial Revolution was a pivotal period in human history, marking a signi
 ## Smart Manufacturing
 
 ### Manufacturing Paradigms
-![IR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0002-MP.png)
+![IR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0002-MP.png)
 Smart manufacturing is an emerging trend that combines advanced technologies such as artificial intelligence, robotics, IoT, and big data analytics to transform traditional manufacturing processes into more efficient, agile, and sustainable systems
 `Characteristics of Smart Manufacturing:`
    * *Digitization:* The integration of digital technologies to create a virtual representation of the physical world.
@@ -165,7 +165,7 @@ Smart manufacturing is an emerging trend that combines advanced technologies suc
 -----
 
 ### Evolution of Digital Manufacturing
-![EDM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0003-EDM.png)
+![EDM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0003-EDM.png)
 Digital manufacturing has revolutionized the way products are designed, manufactured, and delivered. From its humble beginnings in the 1970s to the present day, digital manufacturing has evolved significantly, driven by advances in technology, changing business needs, and shifting consumer demands.
 
 `Notable Milestones`
@@ -196,7 +196,7 @@ Digital manufacturing has revolutionized the way products are designed, manufact
 -----
 
 ### Discrete vs Process Manufacturing
-![DMPM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0004-DMPM.png)
+![DMPM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0004-DMPM.png)
 
 `Discrete Manufacturing`
   * *Definition*
@@ -237,7 +237,7 @@ Digital manufacturing has revolutionized the way products are designed, manufact
 -----
 
 ### Key Capabilities
-![KP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0005-KP.png)
+![KP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0005-KP.png)
 
 Smart Manufacturing is a multifaceted concept that encompasses various aspects of production, including cost control and differentiation through four key areas: Productivity, Quality, Agility, and Sustainability.
 These dimensions are interconnected and interdependent, working together to drive innovation, efficiency, and competitiveness in the manufacturing sector. By understanding these perspectives, businesses can better navigate the complexities of smart manufacturing and make informed decisions that align with their strategic goals
@@ -267,7 +267,7 @@ These dimensions are interconnected and interdependent, working together to driv
 -----
 
 ### Design Principles & Smart System Elements
-![DPSSE](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0006-DPSSE.png)
+![DPSSE](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0006-DPSSE.png)
 A comprehensive framework for designing and implementing industrial production systems in the modern era.
 
 `Core Components`
@@ -289,7 +289,7 @@ A comprehensive framework for designing and implementing industrial production s
 -----
 
 ### Ecosystem
-![ES](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0007-ES.png)
+![ES](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0007-ES.png)
 `Product Lifecycle Management (PLM)`
   * PLM is a set of business processes and tools that enable companies to design, manufacture, and manage products throughout their lifecycle.
   * *Capability Mapping*:
@@ -353,7 +353,7 @@ A comprehensive framework for designing and implementing industrial production s
 -----
 
 ### Landscape
-![LS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0008-LS.png)
+![LS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0008-LS.png)
 `Product Development Lifecycle`
   * *Design*: The design phase involves creating detailed specifications for a product or system, including its functionality, performance, and aesthetics.
   * *Manufacturing*: In the manufacturing stage, raw materials are transformed into the final product using various processes such as machining, assembly, and testing.
@@ -384,7 +384,7 @@ A comprehensive framework for designing and implementing industrial production s
 -----
 
 ### Standard Opportunities
-![SP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0009-SP.png)
+![SP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0009-SP.png)
 `Cyber Security`
   * The rise of Industry 4.0 has led to the increasing use of cyber-physical systems (CPS) and industrial internet of things (IIoT) devices, which are connected to the Internet and can be accessed remotely.
   * This connectivity creates new opportunities for hackers to attack these systems and cause significant damage.
@@ -495,7 +495,7 @@ Enhanced flexibility: M2M communication enables the easy reconfiguration of prod
 -----
 
 ## Nine Pillars
-![SP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0010-NP.png)
+![SP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0010-NP.png)
 *Autonomous Robots*: These robots can operate independently without human intervention.
 
 *Simulation*: This pillar allows for the creation of digital models of physical systems, enabling simulations and analysis.
@@ -517,7 +517,7 @@ Enhanced flexibility: M2M communication enables the easy reconfiguration of prod
 -----
 
 ### Additive Manufacturing
-![AM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0011-AM.png)
+![AM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0011-AM.png)
 `Binder Jetting (3DP)`
   * Binder jetting is a 3D printing process that uses a liquid binder to "glue" together powder particles. The process works by layering the powder and then using the binder to connect the layers. This method allows for complex geometries and can be used with various materials, including metals and ceramics.
 
@@ -543,7 +543,7 @@ Enhanced flexibility: M2M communication enables the easy reconfiguration of prod
 -----
 
 ### AR / VR / MR / Haptics
-![AM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0012-IE.png)
+![AM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0012-IE.png)
 `Augmented Reality (AR)`
   * AR enhances the real world by overlaying digital information onto it.
   * It uses visual displays such as smartphones or tablets to project virtual objects or text onto the real environment.
@@ -567,7 +567,7 @@ Enhanced flexibility: M2M communication enables the easy reconfiguration of prod
 -----
 
 ### Autonomous Robots
-![AR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0013-AR.png)
+![AR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0013-AR.png)
 `Key Features`
   * *Sensing*: Autonomous robots can perceive and respond to their surroundings using various sensors such as cameras, lidars, and radar.
   * *Navigation*: They can navigate through complex environments with ease, avoiding obstacles and finding the most efficient paths to their destinations.
@@ -587,7 +587,7 @@ Enhanced flexibility: M2M communication enables the easy reconfiguration of prod
 -----
 
 ### The Cloud
-![CL](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0014-CL.png)
+![CL](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0014-CL.png)
 `Cloud Computing`
   * *Application*: This layer includes various applications such as monitoring, collaboration, communication, finance, and desktops.
   * *Platform*: The platform layer consists of infrastructure, identity management, runtime, queue, database, network, and block storage.
@@ -619,7 +619,7 @@ Enhanced flexibility: M2M communication enables the easy reconfiguration of prod
 -----
 
 ### Big Data & Analytics
-![BD](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0015-BD.png)
+![BD](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0015-BD.png)
 Big Data refers to the vast amounts of structured and unstructured data that organizations generate daily. It has become essential for businesses to manage and analyze this data effectively to gain meaningful insights and make informed decisions
 
 `5 Vs of Big Data`
@@ -660,7 +660,7 @@ Big Data refers to the vast amounts of structured and unstructured data that org
 -----
 
 ### Cybersecurity
-![CS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0016-CS.png)
+![CS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0016-CS.png)
 `Vulnerabilities & Attacks`
   * *Backdoor*: A type of malware that allows unauthorized access to a computer system or network.
   * *Denial of Service (DoS) Attacks*: A type of cyber attack where an attacker attempts to make a computer resource unavailable by overwhelming it with traffic.
@@ -705,7 +705,7 @@ Big Data refers to the vast amounts of structured and unstructured data that org
 -----
 
 ### IIOT
-![IIOT](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0017-IIOT.png)
+![IIOT](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0017-IIOT.png)
 
 IIoT (Industrial Internet of Things) is a technology that connects various devices, machines, sensors, and systems to the internet for real-time monitoring, control, and automation. It enables the collection and analysis of large amounts of data from industrial processes, equipment, and assets.
 
@@ -740,7 +740,7 @@ The IIoT architecture consists of four layers:
 -----
 
 ### Simulation
-![SM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0018-SM.png)
+![SM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0018-SM.png)
 `Simulation Techniques`
   * *Discrete Event Simulation (DES)*: This technique models complex systems by dividing them into discrete events or stages. It's particularly useful for analyzing production lines and supply chains.
   * *System Dynamics (SD)*: SD focuses on the dynamic behavior of complex systems over time. It helps analyze how different variables interact within a system.
@@ -764,7 +764,7 @@ The IIoT architecture consists of four layers:
 -----
 
 ### Horizontal and Vertical Integration
-![HIVI](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0019-HIVI.png)
+![HIVI](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0019-HIVI.png)
 
 `Horizontal System Integration`
   * Horizontal system integration refers to the process of connecting all parts of a supply chain together using technology.
@@ -803,82 +803,82 @@ The IIoT architecture consists of four layers:
 ## Reference Architectures
 
 ### RAMI 4.0
-![RAMI](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0020-RAMI.png)
+![RAMI](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0020-RAMI.png)
 
 -----
 
 ### AWS Industrial
-![AWS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0021-AWS.png)
+![AWS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0021-AWS.png)
 
 -----
 
 ### Azure Industrial
-![AZURE](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0022-AZURE.png)
+![AZURE](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0022-AZURE.png)
 
 -----
 
 ### Edge Compute
-![EC](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0023-EC.png)
+![EC](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0023-EC.png)
 
 -----
 
 ### Predictive Maintenance
-![PM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0024-PM.png)
+![PM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0024-PM.png)
 
 -----
 
 ### Overall Equipment Effectiveness
-![OEE](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0025-OEE.png)
+![OEE](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0025-OEE.png)
 
 -----
 
 ### Plant Architecture
-![PA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0026-PA.png)
+![PA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0026-PA.png)
 
 -----
 
 #### Industrial Control System Components
-![ICS](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0027-ICS.png)
+![ICS](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0027-ICS.png)
 
 -----
 
 ## Workloads
 
 ### Key Enablers
-![KE](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0028-KE.png)
+![KE](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0028-KE.png)
 
 -----
 
 ### Digitalization Journey
-![DJ](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0029-DJ.png)
+![DJ](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0029-DJ.png)
 
 -----
 
 ### Use cases
-![IW1](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0030-IW1.png)
+![IW1](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0030-IW1.png)
 
 -----
 
-![IW2](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0031-IW2.png)
+![IW2](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0031-IW2.png)
 
 -----
 
 ### Capabilities
-![CP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0032-CP.png)
+![CP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0032-CP.png)
 
 ### Demos
 
 #### OPC-UA Pipeline (On-Premise)
-![OPCA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0033-OPCA.png)
+![OPCA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0033-OPCA.png)
 
 -----
 
-![OPCB](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0034-OPCB.png)
+![OPCB](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0034-OPCB.png)
 
 #### Computer Vision at the Edge
 
 ##### Virtual Andon
-![VA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0035-CV.png)
+![VA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0035-CV.png)
 
 -----
 
@@ -893,93 +893,93 @@ https://www.youtube.com/watch?v=_2Wfz4T_yP0
 ## IT vs OT Security
 
 ### Network Topologies in OT Environment
-![NT](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0036-NT.png)
+![NT](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0036-NT.png)
 
 -----
 
 ### IT and OT Networking Background
-![NB](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0037-NB.png)
+![NB](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0037-NB.png)
 
 -----
 
 ### Challenges
-![CL](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0038-CL.png)
+![CL](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0038-CL.png)
 
 #### Business Risk
-![BR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0039-BR.png)
+![BR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0039-BR.png)
 
 -----
 
 #### TRITON Attack
-![TA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0040-BR1.png)
+![TA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0040-BR1.png)
 
 -----
 
 ### How Gartner Defines?
-![GT](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0041-GT.png)
+![GT](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0041-GT.png)
 
 -----
 
 ### IT Security vs OT Security
-![ITOT](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0042-ITOT.png)
+![ITOT](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0042-ITOT.png)
 
 -----
 
 #### SCADA
-![SCADA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0043-SC.png)
+![SCADA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0043-SC.png)
 
 -----
 
 ### Aligning IT & OT
-![OT](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0044-OT.png)
+![OT](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0044-OT.png)
 
 -----
 
 ### Events that Affect IoT / OT Networks
-![OT](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0045-ET.png)
+![OT](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0045-ET.png)
 
 -----
 
 ### Microsoft Defender for IoT
 
 #### Features
-![FR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0046-FR.png)
+![FR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0046-FR.png)
 
 -----
 
 #### Reference Architecture
-![AR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0047-AR.png)
+![AR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0047-AR.png)
 
 -----
 
 #### Unified, E2E Protection
-![UE](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0048-UE.png)
+![UE](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0048-UE.png)
 
 -----
 
 #### Deployment Options
-![DP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0049-DP.png)
+![DP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0049-DP.png)
 
 -----
 
 ##### Recommended Deployment Process
-![DPA](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0050-DPA.png)
+![DPA](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0050-DPA.png)
 
 -----
 
 ##### 9 Steps Deployment Process
-![DPB](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0050-DPB.png)
+![DPB](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0050-DPB.png)
 
 -----
 
 ## Readniess
 
 ### Model Dimensions
-![MR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0051-MR.png)
+![MR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0051-MR.png)
 
 -----
 
 ### Maturity Models
-![MM](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/industrial-iot/industrial-iot/0052-MM.png)
+![MM](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/industrial-iot/industrial-iot/0052-MM.png)
 
 -----

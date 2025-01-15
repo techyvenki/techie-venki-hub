@@ -157,7 +157,7 @@ For example, if you designed a new nail art collection and want to market it on 
 
 *"Write a social media post featuring this image. The post should be fun, short, and focus on the fact that it's a collection of new designs I'm selling."*  
 
-![SMP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0001-SMP.png)
+![SMP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0001-SMP.png)
 
 #### Examples of Multimodal Usage
 - **Suggest recipes based on a photo of the ingredients in your fridge.**
@@ -237,7 +237,7 @@ Generative AI can significantly streamline data analysis tasks, from creating ne
 #### Example Dataset
 
 Download the dataset from the following URL:  
-[StoreData.xlsx](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/files/StoreData.xlsx)  
+[StoreData.xlsx](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/files/StoreData.xlsx)  
 
 This dataset contains information about a grocery store chain, including store details, areas, items available, daily customer counts, and store sales.
 
@@ -310,7 +310,7 @@ Generative AI can be leveraged not only as a tool but as a creative or expert pa
 
 Prompt chaining guides the AI tool through a series of interconnected prompts, adding layers of complexity along the way.  
 
-![Prompt Chaining Diagram](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0005-PCT.png)  
+![Prompt Chaining Diagram](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0005-PCT.png)  
 
 **Example Scenario:**  
 You’re an author who has written a novel and now needs a marketing plan.  
@@ -319,19 +319,19 @@ You’re an author who has written a novel and now needs a marketing plan.
    *Prompt:*  
    *“Generate three options for a one-sentence summary of this novel manuscript. The summary should be similar in voice and tone to the manuscript but more catchy and engaging.”*  
 
-   ![Output Example](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0005-A-PCT.png)  
+   ![Output Example](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0005-A-PCT.png)  
 
 2. **Create a Tagline:**  
    *Prompt:*  
    *“Create a tagline that is a combination of the previous three options, with a special focus on the exciting plot twist and mystery of the book. Find the catchiest and most impactful combination. The tagline should be concise and leave the reader hooked and wanting to read more.”*  
 
-   ![Output Example](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0005-B-PCT.png)  
+   ![Output Example](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0005-B-PCT.png)  
 
 3. **Design a Marketing Plan:**  
    *Prompt:*  
    *“Generate a six-week promotional plan for a book tour, including what locations I should visit and what channels I should utilize to promote each stop on the tour.”*  
 
-   ![Output Example](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0005-C-PCT.png)  
+   ![Output Example](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0005-C-PCT.png)  
 
 
 ##### **Chain of Thought Prompting**
@@ -341,7 +341,7 @@ Chain of thought prompting involves asking AI to explain its reasoning step by s
 *Prompt:*  
 *“Explain your thought process step by step.”*  
 
-![Chain of Thought Diagram](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0006-COT.png)  
+![Chain of Thought Diagram](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0006-COT.png)  
 
 
 ##### **Tree of Thought Prompting**
@@ -351,7 +351,7 @@ Tree of thought prompting allows you to explore multiple reasoning paths simulta
 *Example Prompt:*  
 *“Imagine three different designers are pitching their design to me. Each designer writes one step of their thinking and shares it with the group. If any expert realizes they’re wrong at any point, they leave. The question is: Generate an image that’s visually energetic, featuring art supplies and computers. Show me three suggestions in different styles from simple to detailed.”*  
 
-![Tree of Thought Diagram](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0007-TOT.png)  
+![Tree of Thought Diagram](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0007-TOT.png)  
 
 *Follow-up Prompt:*  
 *“I like the first option. Expand the idea and generate three different color schemes for that concept.”*  
@@ -381,7 +381,7 @@ AI agents are specialized virtual assistants designed to help with specific task
       - Discussing future career goals  
    Continue the role play until the intern replies with ‘JAZZ HANDS’. Then provide key takeaways from the simulation and areas for improvement.”*  
 
-   ![Simulation Agent Example](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0008-ASM.png)  
+   ![Simulation Agent Example](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0008-ASM.png)  
 
 2. **Expert Feedback Agent (“Agent X”):**  
    Acts as a tutor or consultant to provide feedback.  
@@ -389,20 +389,20 @@ AI agents are specialized virtual assistants designed to help with specific task
    *Example Prompt:*  
    *“You’re my potential client, the VP of Advertising at a world-famous sports car company known for innovation and performance. Critique my answers, ask follow-up questions, and provide feedback until I say ‘BREAK.’ Summarize areas for improvement after the session.”*  
 
-   ![Expert Agent Example](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0009-AGX.png)  
+   ![Expert Agent Example](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0009-AGX.png)  
 
 ##### **Designing Effective AI Agents**
 
 1. Assign a persona to the agent.  
-   ![Assigning a Persona](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0010-A-AGL.png)  
+   ![Assigning a Persona](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0010-A-AGL.png)  
 2. Provide context and detail about the scenario.  
-   ![Providing Context](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0010-B-AGL.png)  
+   ![Providing Context](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0010-B-AGL.png)  
 3. Specify conversation types and interaction rules.  
-   ![Specifying Rules](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0010-C-AGL.png)  
+   ![Specifying Rules](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0010-C-AGL.png)  
 4. Define a stop phrase for ending interactions.  
-   ![Defining a Stop Phrase](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0010-D-AGL.png)  
+   ![Defining a Stop Phrase](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0010-D-AGL.png)  
 5. Request feedback after the interaction.  
-   ![Requesting Feedback](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0010-E-AGL.png)  
+   ![Requesting Feedback](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0010-E-AGL.png)  
 
 AI agents can be incredibly versatile and effective when designed thoughtfully.  
 
@@ -410,7 +410,7 @@ AI agents can be incredibly versatile and effective when designed thoughtfully.
 
 ### Rules to Prompt Engineering
 
-| Rules                | ![No](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0011-A-NO.jpeg)              | ![Yes](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0011-B-TCK.png)                | 
+| Rules                | ![No](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0011-A-NO.jpeg)              | ![Yes](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0011-B-TCK.png)                | 
 | --------------------- | ---------------------- | ---------------------- |
 | **Rule-1**: Ditch the fluff / Forget all the pleasantries                | Can you please write me a short story about a robot and a dog who go on adventure together?              | Write a short story about a robot and a dog going on an adventure               | 
 | **Rule-2**: Be Descriptive - The more detail we give, the less the AI has to guess | A blog post about the economics of the Middle East in the 1960s | Write a 1000-word blog about the economic situation of Kuwait from 1961 to 1967, aimed at begineers, in a conversational tone |
@@ -501,13 +501,13 @@ By following this framework, you can harness AI’s power to create stunning vis
 #### Rules for image generation prompting
 
 1. **Rule-1**: Don't overthink it - Descibe the image you would to a friend who's never seen it 
-  - ![No](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0011-A-NO.jpeg) - cat, urban street, cyberpunk, neon, nighttime, high quality 
-  - ![Yes](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0011-B-TCK.png) - A sleek black cat perched on a rain-slicked urban street in a glowing cyberpynk city at night. Neon signs in electric blues and purples reflect off the wet pavement, casting a dreamy glow. The cat's cybernetic eyes shimmer softly as it watches hover cars zip through the misty air in the background
+  - ![No](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0011-A-NO.jpeg) - cat, urban street, cyberpunk, neon, nighttime, high quality 
+  - ![Yes](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0011-B-TCK.png) - A sleek black cat perched on a rain-slicked urban street in a glowing cyberpynk city at night. Neon signs in electric blues and purples reflect off the wet pavement, casting a dreamy glow. The cat's cybernetic eyes shimmer softly as it watches hover cars zip through the misty air in the background
 2. **Rule-2**: Find the right prompt length depending on the complexity of the image we're trying to generate.Short Promts are like quick sketches and they are great for getting ideas down fast, medium prompts are like roof drafts balanced in creativity and control, long prompts are detailed masterpieces where you have the final say over every element 
-  - ![No](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0011-A-NO.jpeg) - A snowy mountain range at sunrise, golden light hitting icy peaks, with a lone climber in the distance
-  - ![Yes](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0011-B-TCK.png) - A stunning snowy mountain range illuminated by the warm glow of sunrise. Golden light glints off icy peaks, contrasting against the deep blue shadows. A lone climber in vibrant gear scales the ridge, surrounded by an expense of untouched snow
+  - ![No](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0011-A-NO.jpeg) - A snowy mountain range at sunrise, golden light hitting icy peaks, with a lone climber in the distance
+  - ![Yes](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0011-B-TCK.png) - A stunning snowy mountain range illuminated by the warm glow of sunrise. Golden light glints off icy peaks, contrasting against the deep blue shadows. A lone climber in vibrant gear scales the ridge, surrounded by an expense of untouched snow
 3. **Rule-3**: Negative prompting - You have to tell AI what you don't want in your image. You just type "avoid" or "exclude" and then list of things you don't want 
-  - ![No](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0011-A-NO.jpeg) - Generate me an image of A serene beach scene with crystal clear water and white sand
-  - ![Yes](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0011-B-TCK.png) - Generate me an image of A serene beach scene with crystal clear water and white sand, exclude trees
+  - ![No](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0011-A-NO.jpeg) - Generate me an image of A serene beach scene with crystal clear water and white sand
+  - ![Yes](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0011-B-TCK.png) - Generate me an image of A serene beach scene with crystal clear water and white sand, exclude trees
 4. **Rule-4**:  Resolution and quality settings. Layout - use terms like "square", "landscape" or "portrait"
-  - ![No](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0011-A-NO.jpeg) - - ![Yes](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/prompt-engineering/0011-B-TCK.png) - Generate me an image of a cat , 4k, high resolution, detailed textures
+  - ![No](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0011-A-NO.jpeg) - - ![Yes](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/prompt-engineering/0011-B-TCK.png) - Generate me an image of a cat , 4k, high resolution, detailed textures

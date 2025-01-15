@@ -85,7 +85,7 @@ The "Reliable-RAG" method enhances the traditional Retrieval-Augmented Generatio
 - **Hallucination Detection**: Includes a dedicated step to identify and eliminate unsupported or erroneous information, ensuring that generated answers are grounded in the retrieved documents.
 - **Document Snippet Highlighting**: Identifies and highlights the specific document segments directly used in generating the answer, providing transparency and traceability.
 
-![REL](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0001-REL.png)
+![REL](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0001-REL.png)
 
 -----
 
@@ -101,7 +101,7 @@ Inspired by recent ([research from Tony Chen et al.](https://arxiv.org/abs/2312.
 - **Embedding and Vector Store**: Encoding both the refined propositions and larger document chunks into a vector store to support fast and efficient retrieval.
 - **Retrieval and Comparison**: Conducting retrieval tests with various query sizes, comparing the results from proposition-based retrieval with those from larger chunk-based models to highlight the advantages of this approach.
 
-![PRP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0002-PRP.png)
+![PRP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0002-PRP.png)
 
 -----
 
@@ -143,9 +143,9 @@ Traditional retrieval methods often face challenges in bridging the semantic gap
 - **Adaptability**: Supports a wide range of query types and document domains, making it flexible for various applications.
 - **Potential for Better Context Understanding**: Expanded queries provide a richer representation of the context and intent, improving the overall retrieval quality.
 
-![AHDE](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0003-A-HDE.png)
+![AHDE](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0003-A-HDE.png)
 
-![BHDE](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0003-B-HDE.png)
+![BHDE](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0003-B-HDE.png)
 
 -----
 
@@ -173,7 +173,7 @@ Retrieval-Augmented Generation (RAG) systems often struggle with insufficient co
 - **Enhanced Retrieval Accuracy**: Makes it easier to retrieve relevant chunks even when implicit references are used.
 - **Reduced Hallucinations**: Helps the language model understand chunks within the appropriate context, minimizing errors in generated responses.
 
-![CCH](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0004-CCH.png)
+![CCH](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0004-CCH.png)
 
 -----
 
@@ -192,7 +192,7 @@ When chunking documents for Retrieval-Augmented Generation (RAG), determining th
 - **Segment Reconstruction**: Rebuilds segments of contiguous text from nearby chunks, preserving their order in the original document. This step enhances the context provided to the language model.
 
 
-![RSE](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0005-RSE.png)
+![RSE](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0005-RSE.png)
 
 -----
 
@@ -213,9 +213,9 @@ Traditional vector search methods often retrieve isolated chunks of text, which 
 2. **Enhanced Utility of Vector Search**: Retains the benefits of vector-based retrieval while addressing its limitations of returning fragmented text.
 3. **Flexible Context Adjustment**: Allows fine-tuning of the context window size to meet specific retrieval needs, enabling adaptability for different use cases.
 
-![ACEW](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0006-A-CEW.png)
+![ACEW](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0006-A-CEW.png)
 
-![BCEW](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0006-B-CEW.png)
+![BCEW](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0006-B-CEW.png)
 
 -----
 
@@ -237,7 +237,7 @@ Traditional text splitting methods often divide documents at arbitrary points, d
 3. **Adaptability**: Allows for customization of chunking methods based on document characteristics and retrieval requirements.
 4. **Enhanced Understanding**: Facilitates better performance of LLMs and downstream tasks by providing more coherent and meaningful text segments.
 
-![SCD](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0007-SCD.png)
+![SCD](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0007-SCD.png)
 
 -----
 
@@ -260,7 +260,7 @@ Traditional document retrieval systems often return entire chunks or documents, 
 3. **Enhanced Context Understanding**: Leverages the contextual analysis capabilities of LLMs to extract precise information aligned with the query intent.
 4. **Flexibility**: Easily adaptable to various document types and query requirements, ensuring versatility in application.
 
-![CCR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0008-CCR.png)
+![CCR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0008-CCR.png)
 
 -----
 
@@ -304,7 +304,7 @@ Traditional retrieval methods often rely on either semantic understanding (vecto
 3. **Robustness**: The combined approach can handle a wider range of queries effectively, mitigating weaknesses of individual methods.
 4. **Customizability**: The system can be easily adapted to use different vector stores or keyword-based retrieval methods.
 
-![FRR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0009-FRR.png)
+![FRR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0009-FRR.png)
 
 -----
 
@@ -328,9 +328,9 @@ The primary motivation for reranking in RAG systems is to overcome limitations o
 3. **Enhanced Context Quality**: Providing more relevant documents to the RAG system improves the quality of generated responses.
 4. **Reduced Noise**: Reranking helps filter out less relevant information, focusing on the most pertinent content.
 
-![AIRR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0010-A-IRR.png)
+![AIRR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0010-A-IRR.png)
 
-![BIRR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0010-B-IRR.png)
+![BIRR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0010-B-IRR.png)
 
 -----
 
@@ -367,9 +367,9 @@ Flat indexing methods often face challenges with large documents or corpora, suc
    Allows customization of the retrieval process, such as adjusting the number of summaries and detailed chunks retrieved, to suit different use cases or query types.  
 
 
-![AHIR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0011-A-HIR.png)
+![AHIR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0011-A-HIR.png)
 
-![BHIR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0011-B-HIR.png)
+![BHIR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0011-B-HIR.png)
 
 -----
 
@@ -405,7 +405,7 @@ Multi-modal Retrieval-Augmented Generation (RAG) systems are designed to handle 
 3. **Flexible Architecture**  
    Supports scalability and adaptation to additional document types, expanding its applicability across various domains.  
 
-![MMR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0012-MMR.png)
+![MMR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0012-MMR.png)
 
 -----
 
@@ -458,7 +458,7 @@ Traditional Retrieval-Augmented Generation (RAG) systems can occasionally genera
 5. **Adaptability**  
    Adjusts to changes in user needs or content within the knowledge base, ensuring long-term reliability and effectiveness.  
 
-![RFL](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0013-RFL.png)
+![RFL](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0013-RFL.png)
 
 -----
 
@@ -502,7 +502,7 @@ Traditional Retrieval-Augmented Generation (RAG) systems often rely on a uniform
    The analytical strategy provides in-depth exploration of complex topics, supporting thorough and well-rounded responses.  
 
 
-![ARR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0014-ARR.png)
+![ARR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0014-ARR.png)
 
 -----
 
@@ -557,7 +557,7 @@ Evaluating the outputs of Retrieval-Augmented Generation (RAG) pipelines manuall
 4. **Scalability**: Supports large-scale evaluation of RAG systems across diverse queries and contexts.  
 
 
-![GER](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0015-GER.png)
+![GER](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0015-GER.png)
 
 -----
 
@@ -605,9 +605,9 @@ GraphRAG offers a novel approach to Retrieval-Augmented Generation (RAG) by addr
 4. **Flexible Knowledge Representation**: Easily adapts to new information and evolving relationships, ensuring up-to-date and comprehensive knowledge.  
 5. **Efficient Information Traversal**: Utilizes weighted graph edges to prioritize the most relevant pathways, optimizing the query resolution process.  
 
-![AGRG](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0016-A-GRG.png)
+![AGRG](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0016-A-GRG.png)
 
-![BGRG](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0016-B-GRG.png)
+![BGRG](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0016-B-GRG.png)
 
 -----
 
@@ -630,7 +630,7 @@ Microsoft introduces a graph-based approach to Retrieval-Augmented Generation (R
 4. **Efficiency**: Summarizes clusters to provide concise, relevant contexts for query processing, reducing computational overhead.  
 5. **Holistic Understanding**: Facilitates the discovery of new insights by highlighting interrelations within large datasets.  
 
-![MGR](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0017-MGR.png)
+![MGR](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0017-MGR.png)
 
 -----
 
@@ -654,7 +654,7 @@ RAPTOR redefines document retrieval by employing a hierarchical structure that e
 4. **Efficiency**: Leverages embeddings and vectorstore for rapid and precise retrieval, minimizing processing time.  
 5. **Traceability**: Maintains connections between summaries and original documents, allowing users to verify sources easily.  
 
-![RPT](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0018-RPT.png)
+![RPT](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0018-RPT.png)
 
 -----
 
@@ -679,7 +679,7 @@ Self-RAG introduces a refined approach to question answering by dynamically bala
 4. **Flexibility**: Allows for response generation with or without retrieval, making it versatile across different contexts.  
 5. **Improved Accuracy**: Combines relevant retrieved data with robust generation techniques to produce precise and contextually grounded outputs.  
 
-![SRG](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0019-SRG.png)
+![SRG](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0019-SRG.png)
 
 -----
 
@@ -711,6 +711,6 @@ Corrective RAG is a methodology designed to address shortcomings in traditional 
 6. **Comprehensive Context**: Merges insights from multiple sources for more complete and nuanced answers.  
 7. **Real-Time Updates**: Incorporates the latest information from the web to supplement outdated local data.  
 
-![SRG](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/images/rag/0020-CRG.png)
+![SRG](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/rag/0020-CRG.png)
 
 -----
