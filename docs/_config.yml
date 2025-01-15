@@ -63,6 +63,20 @@ nav_external_links:
 # Define the order of pages
 nav_sort: case_sensitive
 
+# Add to your existing _config.yml
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Enable plugins in safe mode
+whitelist:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Add the navigation settings
+prev_next_buttons_location: bottom  # Can be 'bottom', 'top', or 'both'
+prev_next_buttons_enabled: true
+
 # Main Navigation Structure
 # defaults:
 #   - scope:

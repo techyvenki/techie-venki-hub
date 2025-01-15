@@ -1,0 +1,57 @@
+---
+layout: default
+---
+{{ content }}
+
+<div class="page-nav">
+  <div class="prev-next-wrapper">
+    {% if page.prev_page %}
+      <a href="{{ page.prev_page | relative_url }}" class="prev-link">
+        ← {{ page.prev_page_title | default: 'Previous' }}
+      </a>
+    {% endif %}
+    
+    {% if page.next_page %}
+      <a href="{{ page.next_page | relative_url }}" class="next-link">
+        {{ page.next_page_title | default: 'Next' }} →
+      </a>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+.page-nav {
+  width: 100%;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eeebee;
+}
+
+.prev-next-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.prev-link, .next-link {
+  padding: 0.5rem 1rem;
+  border: 1px solid #eeebee;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.prev-link:hover, .next-link:hover {
+  background-color: #f5f6fa;
+  text-decoration: none;
+}
+
+.prev-link {
+  margin-right: auto;
+}
+
+.next-link {
+  margin-left: auto;
+}
+</style>
