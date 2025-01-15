@@ -5,7 +5,8 @@ auto_title: false
 ---
 
 <div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/2bd549b1-d967-4526-ad1f-908824601fcb" alt="Profile Picture" style="border-radius: 50%; width: 150px; height: 150px;">
+  <img src="https://github.com/user-attachments/assets/2bd549b1-d967-4526-ad1f-908824601fcb" alt="Profile Picture" style="height: 450px;">
+  <!-- <img src="https://github.com/user-attachments/assets/2bd549b1-d967-4526-ad1f-908824601fcb" alt="Profile Picture" style="border-radius: 50%; width: 150px; height: 450px;"> -->
 </div>
 
 # About Me
