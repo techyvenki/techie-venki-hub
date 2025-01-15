@@ -1,6 +1,8 @@
 ---
 id: ops-mastery/dev-sec-ops
 title: DevSecOps
+parent: Ops Mastery
+nav_order: 2
 sidebar_label: DevSecOps
 next_page: ops-mastery/git-ops
 ---
