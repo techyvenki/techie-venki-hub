@@ -52,46 +52,46 @@ just_the_docs:
 # Navigation Structure
 aux_links:
   "GitHub":
-    - "//github.com/yourusername/techie-venki-hub"
+    - "//github.com/techyvenki/techie-venki-hub"
 
 # Navigation Order and Structure
 nav_external_links:
   - title: Techie Venki Hub on GitHub
-    url: https://github.com/yourusername/techie-venki-hub
+    url: https://github.com/techyvenki/techie-venki-hub
     hide_icon: false
 
 # Define the order of pages
 nav_sort: case_sensitive
 
 # Main Navigation Structure
-defaults:
-  - scope:
-      path: "system_design"
-      type: system_design
-    values:
-      layout: default
-      parent: System Design
-  - scope:
-      path: "computing_models"
-      type: computing_models
-    values:
-      layout: default
-      parent: Computing Models
-  - scope:
-      path: "cloud_services"
-      type: cloud_services
-    values:
-      layout: default
-      parent: Cloud Services
-  - scope:
-      path: "cloud_native"
-      type: cloud_native
-    values:
-      layout: default
-      parent: Cloud Native
-  - scope:
-      path: "data_ai"
-      type: data_ai
-    values:
-      layout: default
-      parent: Data & AI
+# defaults:
+#   - scope:
+#       path: "system_design"
+#       type: system_design
+#     values:
+#       layout: default
+#       parent: System Design
+#   - scope:
+#       path: "computing_models"
+#       type: computing_models
+#     values:
+#       layout: default
+#       parent: Computing Models
+#   - scope:
+#       path: "cloud_services"
+#       type: cloud_services
+#     values:
+#       layout: default
+#       parent: Cloud Services
+#   - scope:
+#       path: "cloud_native"
+#       type: cloud_native
+#     values:
+#       layout: default
+#       parent: Cloud Native
+#   - scope:
+#       path: "data_ai"
+#       type: data_ai
+#     values:
+#       layout: default
+#       parent: Data & AI
