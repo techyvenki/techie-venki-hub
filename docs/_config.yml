@@ -3,10 +3,48 @@ title: Techie Venki Hub
 #remote_theme: jekyll/minima
 #theme: minima
 #theme: jekyll-theme-cayman
+description         : >-
+                      I turn coffee :coffee: into code,
+                      use tabs over spaces
+                      and never broke production.
 remote_theme: yousinix/portfolYOU
+author:
+  name              : Venkatesh Duvvuri
+  image             : https://github.com/user-attachments/assets/2bd549b1-d967-4526-ad1f-908824601fcb
+  behance           : techie_venki
+  email             : username@domain.com
+  facebook          : your_username
+  github            : your_username
+  linkedin          : your_username
+  medium            : your_username
+  twitter           : your_username
 nav_enabled: true
 search_enabled: true
 
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
 # Theme settings
 color_scheme: light
 enable_copy_code_button: true
@@ -78,6 +116,7 @@ nav_sort: case_sensitive
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jemoji
 
 # Enable plugins in safe mode
 whitelist:
