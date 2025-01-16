@@ -106,17 +106,17 @@ website:
             - text: "What is a Tensor"
               href: posts/2022-03-28-What_is_a_Tensor_in_Deep_Learning.html
 
-    - id: notes
-      title: "Notes"
-      style: "floating"
-      collapse-level: 2
-      align: left
-      contents:
-        - section: "🗣️ **Large language models**"
-          contents: "notes/Large Language Models/*"
-        - text: "---"
-        - section: "💡 **Machine learning**"
-          contents: "notes/Machine Learning/*"
+    # - id: notes
+    #   title: "Notes"
+    #   style: "floating"
+    #   collapse-level: 2
+    #   align: left
+    #   contents:
+    #     - section: "🗣️ **Large language models**"
+    #       contents: "notes/Large Language Models/*"
+    #     - text: "---"
+    #     - section: "💡 **Machine learning**"
+    #       contents: "notes/Machine Learning/*"
 format:
   html:
     page-layout: article
