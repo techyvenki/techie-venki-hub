@@ -1,8 +1,8 @@
 title: Techie Venki Hub
-#remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs
 #remote_theme: jekyll/minima
 #theme: minima
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
 nav_enabled: true
 search_enabled: true
 
