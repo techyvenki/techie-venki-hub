@@ -1,6 +1,6 @@
 title: Techie Venki Hub
 #remote_theme: just-the-docs/just-the-docs
-remote_theme: ages-themes/minimal@v0.2.0
+remote_theme: jekyll/minima
 #theme: minima
 nav_enabled: true
 search_enabled: true
