@@ -7,7 +7,7 @@ description         : >-
                       Running on coffee.compile() ☕️
                       tab.indent() ⌨️, and 
                       production.stable()🛡️.
-remote_theme: cotes2020/jekyll-theme-chirpy@4.3.2
+remote_theme: yousinix/portfolYOU
 author:
   name              : Venkatesh Duvvuri
   image             : https://github.com/user-attachments/assets/2bd549b1-d967-4526-ad1f-908824601fcb
