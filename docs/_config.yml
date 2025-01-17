@@ -4,9 +4,8 @@ title: Techie Venki Hub
 #theme: minima
 #theme: jekyll-theme-cayman
 description         : >-
-                      Running on coffee.compile() ☕️
-                      tab.indent() ⌨️, and 
-                      production.stable()🛡️.
+                      Debugging with espresso ☕️,formatting with tabs
+                      deploying without naps 🚀
 remote_theme: yousinix/portfolYOU
 author:
   name              : Venkatesh Duvvuri
