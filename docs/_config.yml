@@ -1,4 +1,4 @@
-title: Techie Venki Hub
+title: TechieVenkiHub
 #remote_theme: just-the-docs/just-the-docs
 #remote_theme: jekyll/minima
 #theme: minima
@@ -11,10 +11,10 @@ author:
   name              : Venkatesh Duvvuri
   image             : https://github.com/user-attachments/assets/2bd549b1-d967-4526-ad1f-908824601fcb
   behance           : techie_venki
-  email             : username@domain.com
+  email             : techievenkatesh@gmail.com
   facebook          : your_username
   github            : your_username
-  linkedin          : your_username
+  linkedin          : techievenki
   medium            : your_username
   twitter           : your_username
 nav_enabled: true
