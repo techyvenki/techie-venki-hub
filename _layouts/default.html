@@ -1,57 +1,29 @@
----
-layout: default
----
-{{ content }}
+<!DOCTYPE html>
 
-<div class="page-nav">
-  <div class="prev-next-wrapper">
-    {% if page.prev_page %}
-      <a href="{{ page.prev_page | relative_url }}" class="prev-link">
-        ← {{ page.prev_page_title | default: 'Previous' }}
-      </a>
-    {% endif %}
-    
-    {% if page.next_page %}
-      <a href="{{ page.next_page | relative_url }}" class="next-link">
-        {{ page.next_page_title | default: 'Next' }} →
-      </a>
-    {% endif %}
-  </div>
-</div>
+<!--
+  portfolYOU Jekyll theme by yousinix
+  Free for personal and commercial use under the MIT license
+  https://github.com/yousinix/portfolYOU
+-->
 
-<style>
-.page-nav {
-  width: 100%;
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid #eeebee;
-}
+<html lang="en" class="h-100">
 
-.prev-next-wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
+{% include head.html %}
 
-.prev-link, .next-link {
-  padding: 0.5rem 1rem;
-  border: 1px solid #eeebee;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: background-color 0.2s ease;
-}
+<body class="h-100 d-flex flex-column">
 
-.prev-link:hover, .next-link:hover {
-  background-color: #f5f6fa;
-  text-decoration: none;
-}
+  <main class="flex-shrink-0 container mt-5">
+    {% include navbar.html %}
+    {{ content }}
+  </main>
+  {% include footer.html %}
 
-.prev-link {
-  margin-right: auto;
-}
+  {% include analytics.html %}
+  {% include scripts.html %}
 
-.next-link {
-  margin-left: auto;
-}
-</style>
+  {%- if site.buymeacoffee.enabled == true -%}
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="{{ site.buymeacoffee.username }}" data-description="{{ site.buymeacoffee.description }}" data-message="{{ site.buymeacoffee.message }}" data-color="{{ site.buymeacoffee.color }}" data-position="Right" data-x_margin="16" data-y_margin="16"></script>
+  {%- endif -%}
+</body>
+
+</html>
