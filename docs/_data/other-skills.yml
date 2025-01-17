@@ -1,0 +1,11 @@
+- name: Git
+  percentage: 95
+  color: info
+
+- name: Agile
+  percentage: 85
+  color: success
+
+- name: DevOps
+  percentage: 75
+  color: warning
