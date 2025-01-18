@@ -2,7 +2,7 @@
 title: Modern Computing Models Overview
 tags: [Cloud Computing, Edge Computing, Serverless]
 style: fill
-color: dark
+color: info
 description: A comprehensive overview of modern computing paradigms and their applications
 ---
 

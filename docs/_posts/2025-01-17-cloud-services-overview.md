@@ -2,7 +2,7 @@
 title: Cloud Services - A Comprehensive Overview
 tags: [Cloud Computing, AWS, Azure, GCP]
 style: fill
-color: dark
+color: info
 description: Understanding cloud computing services and comparing major providers
 ---
 

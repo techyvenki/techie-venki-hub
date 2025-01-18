@@ -2,7 +2,7 @@
 title: System Design Fundamentals
 tags: [System Design, Architecture, Scalability]
 style: fill
-color: dark
+color: info
 description: Comprehensive guide to system design principles and best practices
 ---
 

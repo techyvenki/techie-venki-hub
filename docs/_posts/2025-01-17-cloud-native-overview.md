@@ -2,7 +2,7 @@
 title: Cloud Native Technologies Overview
 tags: [Cloud Native, DevOps, Kubernetes]
 style: fill
-color: dark
+color: info
 description: A comprehensive overview of cloud native technologies and practices
 ---
 

@@ -2,7 +2,7 @@
 title: Data & AI - The Modern Landscape
 tags: [Data Science, AI, Machine Learning]
 style: fill
-color: dark
+color: info
 description: A comprehensive overview of Data Science and Artificial Intelligence
 ---
 

@@ -2,7 +2,7 @@
 title: Generative AI - The Next Frontier
 tags: [Generative AI, LLM, AI]
 style: fill
-color: dark
+color: info
 description: A comprehensive overview of Generative AI and its transformative impact
 ---
 
