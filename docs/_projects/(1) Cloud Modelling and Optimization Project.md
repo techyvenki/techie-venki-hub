@@ -7,7 +7,7 @@ description: This project explores cloud cost optimization by modeling cloud res
 
 # The Cloud Cost Optimization Project
 
-Cloud computing has revolutionized how we deploy and manage applications, but with this flexibility comes the challenge of managing costs effectively. In this Project, I'll explore an innovative approach to cloud cost optimization using graph theory and mathematical modeling. We'll look at how representing cloud resources as a graph can help make smarter decisions about resource allocation and cost management.
+Cloud computing has revolutionized how we deploy and manage applications, but with this flexibility comes the challenge of managing costs effectively. In this Project, I'll explore an innovative approach to cloud cost optimization using graph theory modeling. We'll look at how representing cloud resources as a graph can help make smarter decisions about resource allocation and cost management.
 
 ![preview](https://github.com/user-attachments/assets/f5281be9-94f3-4d3d-99b4-cf2e2d45deae)
 
