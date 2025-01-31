@@ -11,5 +11,5 @@ This project uses edge-tts, nltk, transformers, and beautifulsoup4 to generate a
 ![preview](https://github.com/user-attachments/assets/f1ab4f4a-4bb4-409a-9d6b-35d525b574c5)
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/techyvenki/techievenki-smart-blog-audio-summarizer" text="Learn More" %}
+{% include elements/button.html link="https://github.com/techyvenki/smart-blog-audio-summarizer" text="Learn More" %}
 
