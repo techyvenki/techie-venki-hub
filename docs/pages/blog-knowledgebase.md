@@ -68,7 +68,7 @@ description: Blog (Knowledge base)
       </h3>
       <p style="margin-top: 0; color: #24292e; font-size: 14px;">Internal developer platforms, infrastructure automation, and delivery excellence.</p>
       <div style="text-align: right;">
-        <a href="https://kranthib.github.io/tech-pulse/platform-engineering.html" style="display: inline-block; padding: 6px 14px; background-color: #2054a6; color: white; text-decoration: none; border-radius: 3px; font-size: 14px; font-weight: 500; transition: background-color 0.3s;">Explore <i class="fa fa-arrow-right"></i></a>
+        <a href="https://techievenki.ai/2025/03/07/platform-engineering.html" style="display: inline-block; padding: 6px 14px; background-color: #2054a6; color: white; text-decoration: none; border-radius: 3px; font-size: 14px; font-weight: 500; transition: background-color 0.3s;">Explore <i class="fa fa-arrow-right"></i></a>
       </div>
     </div>
   </div>
