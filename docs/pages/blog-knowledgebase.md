@@ -40,31 +40,7 @@ description: Blog (Knowledge base)
   color: white !important;
 }
 </style>
-
-<div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-  <div style="flex: 0 0 250px; margin-right: 30px;">
-    <img src="https://github.com/kranthiB/tech-pulse/assets/20100300/9a736590-5588-4b5b-813c-7e25c031942e" alt="Profile Picture" style="width: 100%; border-radius: 5px;">
-    <div style="margin-top: 15px;">
-      <h3>Connect</h3>
-      <ul style="list-style-type: none; padding-left: 0;">
-        <li style="margin-bottom: 8px;"><a href="https://github.com/kranthiB" style="display: flex; align-items: center; text-decoration: none; color: #0366d6;"><i class="fab fa-github" style="margin-right: 8px; font-size: 18px;"></i>GitHub</a></li>
-        <li style="margin-bottom: 8px;"><a href="https://www.linkedin.com/in/kranthi-kumar-bitra/" style="display: flex; align-items: center; text-decoration: none; color: #0366d6;"><i class="fab fa-linkedin" style="margin-right: 8px; font-size: 18px;"></i>LinkedIn</a></li>
-        <li><a href="https://kranthib.github.io/tech-pulse" style="display: flex; align-items: center; text-decoration: none; color: #0366d6;"><i class="fa fa-rss" style="margin-right: 8px; font-size: 18px;"></i>TechPulse</a></li>
-      </ul>
-    </div>
-  </div>
   
-  <div style="flex: 1;">
-    <h1>About Me</h1>
-    <p>In my role as a leader in engineering practice, I hold expertise in strategic thinking, system integrations, and design. My skills include tech stack selection, crafting solutions across multiple platforms and leveraging the latest technologies, ensuring industry security, managing migration processes, and offering thought leadership.</p>
-    
-    <p>I have successfully led the delivery and advancement of specialized services, showcasing proficiency in developing bespoke solutions. My capabilities extend modernization services emphasizing cloud-native characteristics and pioneering digital edge solutions encompassing IoT, IIoT, edge computing, and blockchain technologies.</p>
-    
-    <p>In addressing operational challenges, I have implemented solutions to detect events at the scale and respond effectively. This has proven instrumental in solving issues such as predictive maintenance, predictive quality, accurate failure diagnosis, and overall efficiency improvement.</p>
-    
-    <p>Additionally, I bring extensive experience in creating sustainable platforms that empower businesses to implement data-driven operations. This involves strategically placing computation and data storage close to the source of data.</p>
-  </div>
-</div>
 
 <h1 style="text-align: center; margin-bottom: 30px; color: #24292e; border-bottom: 1px solid #e1e4e8; padding-bottom: 10px;">Knowledge Areas</h1>
 
