@@ -122,9 +122,9 @@ description: Blog (Knowledge base)
         <i class="fa fa-industry" style="margin-right: 10px;"></i>Industrial IoT
       </h3>
       <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-        <a href="https://kranthib.github.io/tech-pulse/industrial-iot/industrial-iot.html" style="flex: 1; min-width: 120px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-industry" style="margin-right: 5px;"></i>Smart Manufacturing</a>
-        <a href="https://kranthib.github.io/tech-pulse/industrial-iot/edge-gateway.html" style="flex: 1; min-width: 120px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-network-wired" style="margin-right: 5px;"></i>Edge Gateway</a>
-        <a href="https://kranthib.github.io/tech-pulse/industrial-iot/industry-5.0.html" style="flex: 1; min-width: 120px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-rocket" style="margin-right: 5px;"></i>Industry 5.0</a>
+        <a href="https://techievenki.ai/2025/01/17/industrial-iot-overview.html" style="flex: 1; min-width: 120px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-industry" style="margin-right: 5px;"></i>Smart Manufacturing</a>
+        <a href="https://techievenki.ai/2025/01/17/edge-gateway-systems.html" style="flex: 1; min-width: 120px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-network-wired" style="margin-right: 5px;"></i>Edge Gateway</a>
+        <a href="https://techievenki.io/2025/01/17/industry-5-revolution.html" style="flex: 1; min-width: 120px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-rocket" style="margin-right: 5px;"></i>Industry 5.0</a>
       </div>
     </div>
   </div>
