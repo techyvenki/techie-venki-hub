@@ -182,7 +182,7 @@ description: Blog (Knowledge base)
 
 <!-- <h1 style="text-align: center; margin-bottom: 30px; color: #24292e; border-bottom: 1px solid #e1e4e8; padding-bottom: 10px;"></h1> -->
 
-# Certifications
+# <h1 style="text-align: center; margin-bottom: 30px; padding-bottom: 10px;"> Certifications</h1>
 
 <!-- Certifications Card -->
 <div style="margin-bottom: 25px; box-shadow: 0 3px 6px rgba(0,0,0,0.16); border-radius: 6px; overflow: hidden; border: 1px solid #e1e4e8;">
