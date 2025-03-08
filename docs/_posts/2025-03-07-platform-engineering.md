@@ -13,13 +13,13 @@ Platform engineering is the discipline of designing and building toolchains and 
 The platform engineering ecosystem consists of several interconnected planes that together create a comprehensive environment for developers and operations teams.
 
 ```mermaid
-graph TD
-    subgraph "Platform Engineering Tooling Landscape"
-    A[Developer Control Plane] --- B[Integration & Delivery Plane]
-    B --- C[Security Plane]
-    C --- D[Monitoring & Logging Plane]
-    D --- E[Resource Plane]
-    E --- A
+ graph TD;
+    subgraph "Platform Engineering Tooling Landscape";
+    A[Developer Control Plane] --- B[Integration & Delivery Plane];
+    B --- C[Security Plane];
+    C --- D[Monitoring & Logging Plane];
+    D --- E[Resource Plane];
+    E --- A;
     end
     
     style A fill:#f9d5e5,stroke:#333,stroke-width:2px
