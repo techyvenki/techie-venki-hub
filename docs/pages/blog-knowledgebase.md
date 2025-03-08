@@ -88,8 +88,8 @@ description: Blog (Knowledge base)
       </div>
       <div style="display: flex; flex-wrap: wrap; gap: 8px;">
         <a href="https://techievenki.ai/2025/01/17/data-analysis-mastery.html" style="flex: 1; min-width: 120px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-chart-bar" style="margin-right: 5px;"></i>Data Analysis</a>
-        <a href="https://kranthib.github.io/tech-pulse/data-ai/conventional-ml.html" style="flex: 1; min-width: 120px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-cog" style="margin-right: 5px;"></i>Conventional ML</a>
-        <a href="https://kranthib.github.io/tech-pulse/data-ai/deep-learning.html" style="flex: 1; min-width: 120px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-brain" style="margin-right: 5px;"></i>Deep Learning</a>
+        <a href="https://techievenki.ai/2025/03/08/data-ai-conventional-ml.html" style="flex: 1; min-width: 120px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-cog" style="margin-right: 5px;"></i>Conventional ML</a>
+        <a href="https://techievenki.ai/2025/03/08/data-ai-deep-learning.html" style="flex: 1; min-width: 120px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-brain" style="margin-right: 5px;"></i>Deep Learning</a>
       </div>
     </div>
   </div>
