@@ -6,7 +6,7 @@ color: info
 description: Deep dive into AI Driven Software Development
 ---
 
-able of contents
+Table of contents
 =================
 
 <!--ts-->
