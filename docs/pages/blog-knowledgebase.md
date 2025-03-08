@@ -102,7 +102,7 @@ description: Blog (Knowledge base)
       </h3>
       <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px;">
         <a href="https://techievenki.ai/2025/01/17/prompt-engineering.html" style="flex: 1; min-width: 120px; padding: 8px 12px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-keyboard" style="margin-right: 5px;"></i>Prompt Engineering</a>
-        <a href="https://techievenki.ai/2025/01/17/llm-architecture-guide.html" style="flex: 1; min-width: 120px; padding: 8px 12px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-layer-group" style="margin-right: 5px;"></i>LLM Architecture</a>
+        <a href="https://techievenki.ai/2025/01/07/genai-llm-tier.html" style="flex: 1; min-width: 120px; padding: 8px 12px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-layer-group" style="margin-right: 5px;"></i>GenAI LLM Tier</a>
       </div>
       <div style="display: flex; flex-wrap: wrap; gap: 8px;">
         <a href="https://techievenki.ai/2025/01/07/retrieval-augmented-generation.html" style="width: 32%; min-width: 100px; padding: 10px 12px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px; display: flex; justify-content: center; align-items: center;"><i class="fa fa-search" style="margin-right: 5px;"></i>RAG-Retrieval Augmented Generation</a>
