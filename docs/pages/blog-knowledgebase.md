@@ -42,7 +42,8 @@ description: Blog (Knowledge base)
 </style>
   
 
-<h1 style="text-align: center; margin-bottom: 30px; color: #24292e; border-bottom: 1px solid #e1e4e8; padding-bottom: 10px;">Knowledge Areas</h1>
+<!-- <h1 style="text-align: center; margin-bottom: 30px; color: #24292e; border-bottom: 1px solid #e1e4e8; padding-bottom: 10px;"></h1> -->
+# Knowledge Areas
 
 <!-- Redesigned Knowledge Areas section with multi-column layout -->
 <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 40px;">
