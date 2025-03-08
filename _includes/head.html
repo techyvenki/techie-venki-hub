@@ -25,6 +25,12 @@
   <!-- Theme style -->
   <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 
+   <!-- Mermaid script -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+  
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 
