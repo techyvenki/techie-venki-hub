@@ -1,14 +1,10 @@
 ---
-title: Data & AI - The Modern Landscape
+title: Data Foundations - A Comprehensive Guide
 tags: [Data Science, AI, Machine Learning]
 style: fill
 color: info
 description: A comprehensive overview of Data Science and Artificial Intelligence
 ---
-
-# Data & AI: The Modern Landscape
-
-# Data Foundations: A Comprehensive Guide
 
 ## Table of Contents
 - [Fundamentals of Data Management](#fundamentals-of-data-management)
