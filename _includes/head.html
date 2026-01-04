@@ -25,41 +25,51 @@
   <!-- Theme style -->
   <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 
-  <!-- Mermaid script -->
-  <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    
-    mermaid.initialize({ 
-      startOnLoad: false,
-      theme: 'default',
-      securityLevel: 'loose'
-    });
-    
-    // Wait for DOM to be ready
+  <!-- Mermaid CDN (non-module version for better compatibility) -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
     document.addEventListener('DOMContentLoaded', function() {
-      // Find all code blocks with mermaid language
-      const mermaidBlocks = document.querySelectorAll('pre code.language-mermaid, pre > code.highlighter-rouge.language-mermaid');
-      
-      mermaidBlocks.forEach((block, index) => {
-        const pre = block.parentElement;
-        const container = document.createElement('div');
-        container.className = 'mermaid';
-        container.textContent = block.textContent;
-        pre.parentNode.replaceChild(container, pre);
+      // Initialize mermaid with configuration
+      mermaid.initialize({ 
+        startOnLoad: false,
+        theme: 'default',
+        securityLevel: 'loose',
+        flowchart: { 
+          useMaxWidth: true,
+          htmlLabels: true,
+          curve: 'basis'
+        }
       });
       
-      // Also handle Jekyll's highlight blocks for mermaid
-      const highlightBlocks = document.querySelectorAll('div.language-mermaid.highlighter-rouge pre code, div.highlighter-rouge.language-mermaid pre code');
+      // Find all code blocks that contain mermaid diagrams
+      // Jekyll wraps code blocks in: <div class="language-mermaid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...</code></pre></div></div>
+      // Or sometimes: <pre><code class="language-mermaid">...</code></pre>
       
-      highlightBlocks.forEach((block) => {
-        const wrapper = block.closest('.highlighter-rouge');
-        const container = document.createElement('div');
-        container.className = 'mermaid';
-        container.textContent = block.textContent;
-        wrapper.parentNode.replaceChild(container, wrapper);
+      var selectors = [
+        'div.language-mermaid pre code',
+        'div.highlighter-rouge.language-mermaid pre code',
+        'pre code.language-mermaid',
+        'pre > code.language-mermaid'
+      ];
+      
+      var mermaidBlocks = document.querySelectorAll(selectors.join(', '));
+      
+      mermaidBlocks.forEach(function(codeBlock, index) {
+        var code = codeBlock.textContent || codeBlock.innerText;
+        
+        // Create a new div for mermaid
+        var mermaidDiv = document.createElement('div');
+        mermaidDiv.className = 'mermaid';
+        mermaidDiv.textContent = code;
+        
+        // Find the outermost wrapper to replace
+        var wrapper = codeBlock.closest('.highlighter-rouge') || codeBlock.closest('pre');
+        if (wrapper && wrapper.parentNode) {
+          wrapper.parentNode.replaceChild(mermaidDiv, wrapper);
+        }
       });
       
-      // Run mermaid
+      // Run mermaid to render the diagrams
       mermaid.run();
     });
   </script>
@@ -72,6 +82,7 @@
       border-radius: 8px;
       margin: 20px 0;
       overflow-x: auto;
+      text-align: center;
     }
     .mermaid svg {
       max-width: 100%;
