@@ -1,6 +1,6 @@
 ---
 title: Industry 5.0 - The Next Industrial Revolution
-tags: [Industry 5.0, Manufacturing, Innovation]
+tags: [IIoT, Industry 4.0, Manufacturing]
 style: fill
 color: danger
 description: Exploring the next phase of industrial evolution - Industry 5.0

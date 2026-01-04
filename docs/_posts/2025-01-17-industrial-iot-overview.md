@@ -6,7 +6,7 @@ color: warning
 description: Comprehensive guide to Industrial IoT implementation and best practices
 ---
 
-Table of contents
+## Table of contents
 =================
 
 <!--ts-->
