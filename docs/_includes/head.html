@@ -1,0 +1,122 @@
+<head>
+
+  {% assign title = page.title | default: site.title | escape %}
+  {% assign description = page.description | default: site.description | strip_html | strip_newlines | truncate: 160 %}
+  {% assign image = page.image | default: site.author.image %}
+
+  {% if page.name and page.collection == 'projects' %}
+    {% assign title = page.name | escape %}
+  {% endif %}
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:image" content="{{ image }}">
+
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+
+  <!-- Theme style -->
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+
+  <!-- Mermaid CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Initialize mermaid
+      mermaid.initialize({ 
+        startOnLoad: false,
+        theme: 'default',
+        securityLevel: 'loose',
+        flowchart: { 
+          useMaxWidth: true,
+          htmlLabels: true,
+          curve: 'basis'
+        }
+      });
+      
+      // Find all code blocks that contain mermaid diagrams
+      // Jekyll wraps code blocks in: <div class="language-mermaid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...</code></pre></div></div>
+      var selectors = [
+        'div.language-mermaid pre code',
+        'div.language-mermaid.highlighter-rouge pre code',
+        'div.highlighter-rouge.language-mermaid pre code',
+        'pre code.language-mermaid',
+        'pre > code.language-mermaid',
+        '.highlight code.language-mermaid'
+      ];
+      
+      var mermaidBlocks = document.querySelectorAll(selectors.join(', '));
+      
+      if (mermaidBlocks.length === 0) {
+        // Try alternative: find pre elements that contain mermaid-like content
+        var allCodeBlocks = document.querySelectorAll('pre code, .highlight code');
+        allCodeBlocks.forEach(function(codeBlock) {
+          var text = codeBlock.textContent || codeBlock.innerText;
+          // Check if content looks like mermaid (starts with graph, flowchart, sequenceDiagram, etc.)
+          if (/^\s*(graph|flowchart|sequenceDiagram|classDiagram|stateDiagram|erDiagram|gantt|pie|journey)\s/i.test(text)) {
+            var code = text;
+            var mermaidDiv = document.createElement('div');
+            mermaidDiv.className = 'mermaid';
+            mermaidDiv.textContent = code;
+            
+            var wrapper = codeBlock.closest('.highlighter-rouge') || codeBlock.closest('pre');
+            if (wrapper && wrapper.parentNode) {
+              wrapper.parentNode.replaceChild(mermaidDiv, wrapper);
+            }
+          }
+        });
+      } else {
+        mermaidBlocks.forEach(function(codeBlock) {
+          var code = codeBlock.textContent || codeBlock.innerText;
+          var mermaidDiv = document.createElement('div');
+          mermaidDiv.className = 'mermaid';
+          mermaidDiv.textContent = code;
+          
+          var wrapper = codeBlock.closest('.highlighter-rouge') || codeBlock.closest('pre');
+          if (wrapper && wrapper.parentNode) {
+            wrapper.parentNode.replaceChild(mermaidDiv, wrapper);
+          }
+        });
+      }
+      
+      // Run mermaid to render the diagrams
+      mermaid.run();
+    });
+  </script>
+  
+  <style>
+    /* Mermaid diagram styling */
+    .mermaid {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 20px 0;
+      overflow-x: auto;
+      text-align: center;
+    }
+    .mermaid svg {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+  
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+</head>
