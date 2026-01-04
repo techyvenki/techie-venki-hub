@@ -6,10 +6,6 @@ color: primary
 description: Understanding and implementing agentic AI systems
 ---
 
-# Agentic AI Systems
-
-# Comprehensive Guide to Agentic AI: Architecture, Implementation, and Applications
-
 ## Table of Contents
 
 1. [Introduction to Agentic AI](#introduction-to-agentic-ai)

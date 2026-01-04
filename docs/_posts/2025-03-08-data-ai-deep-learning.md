@@ -1,11 +1,9 @@
 ---
-title: Data & AI - Deep Learning
+title: Deep Learning
 tags: [Data & AI, Deep Learning]
 style: fill
 color: info
 ---
-
-# Deep Learning
 
 ## Table of Contents
 

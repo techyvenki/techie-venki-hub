@@ -1,11 +1,9 @@
 ---
-title: Data & AI - Conventional Machine Learning
+title: Conventional Machine Learning
 tags: [Data & AI, Conventional ML]
 style: fill
 color: info
 ---
-
-# Conventional Machine Learning
 
 ## Table of Contents
 - [Machine Learning Fundamentals](#machine-learning-fundamentals)

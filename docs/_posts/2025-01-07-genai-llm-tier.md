@@ -1,5 +1,5 @@
 ---
-title: LLM Tiers
+title: Large Language Models Tiers
 tags: [LLM, GENAI, AI]
 style: fill
 color: info

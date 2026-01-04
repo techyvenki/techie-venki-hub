@@ -6,8 +6,6 @@ color: info
 description: Master the art and science of data analysis with comprehensive techniques and tools
 ---
 
-# Data Analysis Mastery
-
 # Comprehensive Enterprise Data Analysis Guide
 
 ```mermaid

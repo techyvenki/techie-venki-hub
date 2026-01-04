@@ -1,14 +1,10 @@
 ---
-title: The Complete Data Engineering Guide
+title: Comprehensive Guide to Data Engineering - Concepts, Technologies, and Best Practices
 tags: [Data Engineering, ETL, Big Data]
 style: fill
 color: primary
 description: Comprehensive guide to data engineering principles, tools, and best practices
 ---
-
-# Data Engineering Guide
-
-# Comprehensive Guide to Data Engineering: Concepts, Technologies, and Best Practices
 
 ---
 
