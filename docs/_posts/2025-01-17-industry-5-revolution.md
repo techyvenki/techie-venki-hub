@@ -6,8 +6,6 @@ color: danger
 description: Exploring the next phase of industrial evolution - Industry 5.0
 ---
 
-# Industry 5.0: The Human-Centered, Sustainable and Resilient Industrial Revolution
-
 ## Table of Contents
 - [Introduction to Industry 5.0](#introduction-to-industry-50)
 - [Evolution: From Industry 4.0 to 5.0](#evolution-from-industry-40-to-50)
