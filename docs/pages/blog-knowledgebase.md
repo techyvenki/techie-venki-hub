@@ -138,12 +138,12 @@ description: Blog (Knowledge base)
       <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px;">
         <a href="https://techievenki.ai/2025/03/08/dev-sec-ops.html" style="flex: 1; min-width: 90px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-shield-alt" style="margin-right: 5px;"></i>DevSecOps</a>
         <a href="https://techievenki.ai/2025/03/08/git-ops.html" style="flex: 1; min-width: 90px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-code-branch" style="margin-right: 5px;"></i>GitOps</a>
-        <a href="https://kranthib.github.io/tech-pulse/ops-mastery/fin-ops.html" style="flex: 1; min-width: 90px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-money-bill" style="margin-right: 5px;"></i>FinOps</a>
+        <a href="https://techievenki.ai/2025/03/08/fin-ops.html" style="flex: 1; min-width: 90px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-money-bill" style="margin-right: 5px;"></i>FinOps</a>
       </div>
       <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-        <a href="https://kranthib.github.io/tech-pulse/ops-mastery/ml-ops.html" style="flex: 1; min-width: 90px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-cogs" style="margin-right: 5px;"></i>MLOps</a>
-        <a href="https://kranthib.github.io/tech-pulse/ops-mastery/ai-ops.html" style="flex: 1; min-width: 90px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-robot" style="margin-right: 5px;"></i>AIOps</a>
-        <a href="https://kranthib.github.io/tech-pulse/ops-mastery/green-ops.html" style="flex: 1; min-width: 90px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-leaf" style="margin-right: 5px;"></i>GreenOps</a>
+        <a href="https://techievenki.ai/2025/03/08/ml-ops.html" style="flex: 1; min-width: 90px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-cogs" style="margin-right: 5px;"></i>MLOps</a>
+        <a href="https://techievenki.ai/2025/03/08/ai-ops.html" style="flex: 1; min-width: 90px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-robot" style="margin-right: 5px;"></i>AIOps</a>
+        <a href="https://techievenki.ai/2025/03/08/green-ops.html" style="flex: 1; min-width: 90px; padding: 8px; background-color: white; border-radius: 3px; text-decoration: none; color: #0366d6; text-align: center; border: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-leaf" style="margin-right: 5px;"></i>GreenOps</a>
       </div>
     </div>
   </div>
@@ -161,8 +161,8 @@ description: Blog (Knowledge base)
         <i class="fa fa-th-large" style="margin-right: 10px;"></i>Security & Integration
       </h3>
       <div style="display: flex; flex-direction: column; gap: 8px;">
-        <a href="https://kranthib.github.io/tech-pulse/frameworks-n-platforms/enterprise-application-security-framework.html" style="padding: 8px; background-color: white; border-left: 3px solid #0366d6; text-decoration: none; color: #0366d6; border-radius: 0 3px 3px 0; border-top: 1px solid #e1e4e8; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-lock" style="margin-right: 8px;"></i>Enterprise Application Security Framework</a>
-        <a href="https://kranthib.github.io/tech-pulse/frameworks-n-platforms/enterprise-api-integration-and-management-platform.html" style="padding: 8px; background-color: white; border-left: 3px solid #0366d6; text-decoration: none; color: #0366d6; border-radius: 0 3px 3px 0; border-top: 1px solid #e1e4e8; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-exchange-alt" style="margin-right: 8px;"></i>Enterprise API Integration and Management Platform</a>
+        <a href="https://techievenki.ai/2025/03/08/enterprise-application-security-framework.html" style="padding: 8px; background-color: white; border-left: 3px solid #0366d6; text-decoration: none; color: #0366d6; border-radius: 0 3px 3px 0; border-top: 1px solid #e1e4e8; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-lock" style="margin-right: 8px;"></i>Enterprise Application Security Framework</a>
+        <a href="https://techievenki.ai/2025/03/08/enterprise-api-integration-and-management-platform.html" style="padding: 8px; background-color: white; border-left: 3px solid #0366d6; text-decoration: none; color: #0366d6; border-radius: 0 3px 3px 0; border-top: 1px solid #e1e4e8; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-exchange-alt" style="margin-right: 8px;"></i>Enterprise API Integration and Management Platform</a>
       </div>
     </div>
   </div>
@@ -174,8 +174,8 @@ description: Blog (Knowledge base)
         <i class="fa fa-th-large" style="margin-right: 10px;"></i>Optimization & Performance
       </h3>
       <div style="display: flex; flex-direction: column; gap: 8px;">
-        <a href="https://kranthib.github.io/tech-pulse/frameworks-n-platforms/cloud-cost-optimization-framework.html" style="padding: 8px; background-color: white; border-left: 3px solid #0366d6; text-decoration: none; color: #0366d6; border-radius: 0 3px 3px 0; border-top: 1px solid #e1e4e8; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-cloud" style="margin-right: 8px;"></i>Cloud Cost Optimization Framework</a>
-        <a href="https://kranthib.github.io/tech-pulse/frameworks-n-platforms/ai-code-assistant-performance-scorecard.html" style="padding: 8px; background-color: white; border-left: 3px solid #0366d6; text-decoration: none; color: #0366d6; border-radius: 0 3px 3px 0; border-top: 1px solid #e1e4e8; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-chart-line" style="margin-right: 8px;"></i>AI Code Assistant Performance Scorecard</a>
+        <a href="https://techievenki.ai/2025/03/08/cloud-cost-optimization-framework.html" style="padding: 8px; background-color: white; border-left: 3px solid #0366d6; text-decoration: none; color: #0366d6; border-radius: 0 3px 3px 0; border-top: 1px solid #e1e4e8; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-cloud" style="margin-right: 8px;"></i>Cloud Cost Optimization Framework</a>
+        <a href="https://techievenki.ai/2025/03/08/ai-code-assistant-performance-scorecard.html" style="padding: 8px; background-color: white; border-left: 3px solid #0366d6; text-decoration: none; color: #0366d6; border-radius: 0 3px 3px 0; border-top: 1px solid #e1e4e8; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8; font-size: 13px;"><i class="fa fa-chart-line" style="margin-right: 8px;"></i>AI Code Assistant Performance Scorecard</a>
       </div>
     </div>
   </div>
@@ -201,23 +201,12 @@ description: Blog (Knowledge base)
             Databricks
           </h3>
           <div style="display: flex; flex-direction: column; gap: 8px;">
-            <a href="https://kranthib.github.io/tech-pulse/certifications/databricks/data-analyst-associate.html" style="display: block; padding: 8px 10px; background-color: white; border-radius: 4px; text-decoration: none; color: #0366d6; font-weight: 500; border: 1px solid #e1e4e8; font-size: 13px; transition: all 0.2s ease;">
+            <a  style="display: block; padding: 8px 10px; background-color: white; border-radius: 4px; text-decoration: none; color: #0366d6; font-weight: 500; border: 1px solid #e1e4e8; font-size: 13px; transition: all 0.2s ease;">
               <i class="fa fa-chart-pie" style="margin-right: 8px; color: #ff3621;"></i>Data Analyst Associate
-            </a>
-            <a href="https://kranthib.github.io/tech-pulse/certifications/databricks/data-engineer-associate.html" style="display: block; padding: 8px 10px; background-color: white; border-radius: 4px; text-decoration: none; color: #0366d6; font-weight: 500; border: 1px solid #e1e4e8; font-size: 13px; transition: all 0.2s ease;">
-              <i class="fa fa-database" style="margin-right: 8px; color: #ff3621;"></i>Data Engineer Associate
-            </a>
-            <a href="https://kranthib.github.io/tech-pulse/certifications/databricks/data-engineer-professional.html" style="display: block; padding: 8px 10px; background-color: white; border-radius: 4px; text-decoration: none; color: #0366d6; font-weight: 500; border: 1px solid #e1e4e8; font-size: 13px; transition: all 0.2s ease;">
-              <i class="fa fa-cogs" style="margin-right: 8px; color: #ff3621;"></i>Data Engineer Professional
-            </a>
-            <a href="https://kranthib.github.io/tech-pulse/certifications/databricks/generative-ai-engineer-associate.html" style="display: block; padding: 8px 10px; background-color: white; border-radius: 4px; text-decoration: none; color: #0366d6; font-weight: 500; border: 1px solid #e1e4e8; font-size: 13px; transition: all 0.2s ease;">
-              <i class="fa fa-robot" style="margin-right: 8px; color: #ff3621;"></i>Generative AI Engineer Associate
             </a>
           </div>
         </div>
-      </div>
-      
-      <!-- Google Cloud Column -->
+      </div><!-- Google Cloud Column -->
       <div style="flex: 1; min-width: 230px;">
         <div style="padding: 12px; background-color: #f6f8fa; border-radius: 5px; border: 1px solid #e1e4e8;">
           <h3 style="margin-top: 0; margin-bottom: 12px; font-size: 16px; color: #24292e; border-bottom: 1px solid #e1e4e8; padding-bottom: 6px;">
@@ -225,7 +214,7 @@ description: Blog (Knowledge base)
             Google Cloud
           </h3>
           <div style="display: flex; flex-direction: column; gap: 8px;">
-            <a href="https://kranthib.github.io/tech-pulse/certifications/google-cloud/professional-cloud-architect.html" style="display: block; padding: 8px 10px; background-color: white; border-radius: 4px; text-decoration: none; color: #0366d6; font-weight: 500; border: 1px solid #e1e4e8; font-size: 13px; transition: all 0.2s ease;">
+            <a style="display: block; padding: 8px 10px; background-color: white; border-radius: 4px; text-decoration: none; color: #0366d6; font-weight: 500; border: 1px solid #e1e4e8; font-size: 13px; transition: all 0.2s ease;">
               <i class="fa fa-cloud" style="margin-right: 8px; color: #4285F4;"></i>Professional Cloud Architect
             </a>
           </div>

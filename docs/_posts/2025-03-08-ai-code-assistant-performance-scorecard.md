@@ -268,7 +268,7 @@ This scorecard can be applied to evaluate the following AI code assistants:
 7. **CodeGPT**
 8. **Google Code Assist**
 
-![CAP](https://raw.githubusercontent.com/kranthiB/tech-pulse/main/gif/CodingAssistants-PerformanceScorecard.gif)
+![CAP](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/gif/CodingAssistants-PerformanceScorecard.gif)
 
 ## Conclusion
 
