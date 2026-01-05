@@ -7,7 +7,6 @@ description: Comprehensive guide to Industrial IoT implementation and best pract
 ---
 
 ## Table of contents
-=================
 
 <!--ts-->
    * [Industrial Revolution](#industrial-revolution)

@@ -5,8 +5,6 @@ style: fill
 color: success
 ---
 
-# AI Code Assistant Performance Scoring Framework
-
 ## Overview
 
 This scorecard provides a comprehensive evaluation framework for AI code assistants, measuring performance across four key domains: Intelligence, Acceleration, Experience, and Value. Each domain contains specific criteria rated on a scale of 0-10 points, creating a total potential score of 100 points.

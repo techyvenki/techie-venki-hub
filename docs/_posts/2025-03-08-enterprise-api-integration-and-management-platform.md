@@ -5,7 +5,7 @@ style: fill
 color: success
 ---
 
-# Enterprise API Integration and Management Platform: Strategic Enabler for Digital Transformation
+# Strategic Enabler for Digital Transformation
 
 ## Table of Contents
 1. [The Enterprise API Revolution](#the-enterprise-api-revolution)

@@ -1,11 +1,9 @@
 ---
-title: DevSecOps
+title: DevSecOps Comprehensive Framework
 tags: [DevSecOps, AIOps, GitOps,Machine Learning]
 style: fill
 color: success
 ---
-
-# DevSecOps Comprehensive Framework
 
 1. [Introduction to DevSecOps](#1-introduction-to-devsecops)
    - [Defining DevSecOps](#11-defining-devsecops)

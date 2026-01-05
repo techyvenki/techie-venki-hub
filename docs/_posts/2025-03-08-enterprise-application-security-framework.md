@@ -5,8 +5,6 @@ style: fill
 color: success
 ---
 
-# Enterprise Application Security Framework
-
 ## Executive Summary
 
 This framework provides a comprehensive approach to application security designed specifically for enterprise environments. It organizes security requirements into strategic domains with implementation guidance, risk indicators, and compliance mappings to help organizations build robust security programs.
