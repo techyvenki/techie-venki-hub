@@ -26,14 +26,16 @@ function initTheme() {
   // Watch for system theme changes
   window.matchMedia(QUERY_KEY).addEventListener("change", (e) => {
     const newTheme = e.matches ? themes.DARK : themes.LIGHT;
-    setTheme(newTheme);
+    //setTheme(newTheme);
+    setTheme(themes.LIGHT);
   });
 }
 
 function toggleTheme() {
   const theme = getTheme();
   const newTheme = theme === themes.DARK ? themes.LIGHT : themes.DARK;
-  setTheme(newTheme);
+  //setTheme(newTheme);
+  setTheme(themes.LIGHT);
   localStorage.setItem(STORAGE_KEY, newTheme);
 }
 
