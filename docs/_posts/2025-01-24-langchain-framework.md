@@ -207,25 +207,18 @@ LangChain is typically designed for **sequential tasks**, but it encapsulates al
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-```plantuml
-@startuml LangChain Pipeline
-!theme cerulean
-
-skinparam backgroundColor #FEFEFE
-skinparam roundcorner 15
-
-rectangle "User Query" as query #E3F2FD
-rectangle "Prompt Template\n+ Documents" as prompt #FFF3E0
-rectangle "LLM\n(Brain)" as llm #E8F5E9
-rectangle "Output Parser" as parser #FCE4EC
-rectangle "Answer" as answer #F3E5F5
-
-query -right-> prompt : Input
-prompt -right-> llm : Formatted Prompt
-llm -right-> parser : Raw Response
-parser -right-> answer : Structured Output
-
-@enduml
+```mermaid
+flowchart LR
+    A["🔍 User Query"] -->|Input| B["📝 Prompt Template\n+ Documents"]
+    B -->|Formatted Prompt| C["🧠 LLM\n(Brain)"]
+    C -->|Raw Response| D["⚙️ Output Parser"]
+    D -->|Structured Output| E["✅ Answer"]
+    
+    style A fill:#E3F2FD,stroke:#1976D2
+    style B fill:#FFF3E0,stroke:#F57C00
+    style C fill:#E8F5E9,stroke:#388E3C
+    style D fill:#FCE4EC,stroke:#C2185B
+    style E fill:#F3E5F5,stroke:#7B1FA2
 ```
 
 ## What LangChain Solves

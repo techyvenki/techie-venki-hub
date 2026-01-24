@@ -220,32 +220,20 @@ class ConversationState(TypedDict):
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-```plantuml
-@startuml LangGraph Flow
-!theme cerulean
-
-skinparam backgroundColor #FEFEFE
-skinparam roundcorner 15
-
-state "User Query" as query
-state "LLM Processing" as llm
-state "Document Retrieval" as docs
-state "Answer Generation" as answer
-
-[*] --> query
-query --> llm
-llm --> docs : Need context
-docs --> llm : Return documents
-llm --> answer : Ready to respond
-answer --> [*]
-
-note right of llm
-  LLM can loop back
-  to documents multiple
-  times if needed
-end note
-
-@enduml
+```mermaid
+stateDiagram-v2
+    [*] --> UserQuery
+    UserQuery --> LLMProcessing
+    LLMProcessing --> DocumentRetrieval: Need context
+    DocumentRetrieval --> LLMProcessing: Return documents
+    LLMProcessing --> AnswerGeneration: Ready to respond
+    AnswerGeneration --> [*]
+    
+    note right of LLMProcessing
+        LLM can loop back
+        to documents multiple
+        times if needed
+    end note
 ```
 
 ## Real-World Example Flow
