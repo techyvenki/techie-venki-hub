@@ -213,7 +213,7 @@ mindmap
       Framework
 ```
 
-📖 **Lessons in this module:**
+📖 **Topics in this module:**
 1. [Introduction to AI and Azure AI Services](ai-102/introduction-to-ai-azure-services.html) **
 2. [Get Started with Azure AI Services](ai-102/get-started-azure-ai-services.html) *(4 Lessons)*
 3. [Using Azure AI Services for Enterprise Applications](ai-102/azure-ai-enterprise-applications.html) *(4 Lessons)*
@@ -248,7 +248,7 @@ mindmap
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-📖 **Lessons in this module:**
+📖 **Topics in this module:**
 1. [Analyze and Manipulate Images](ai-102/analyze-manipulate-images.html) **
 2. [Detecting Faces with Azure AI Vision](ai-102/detecting-faces-azure-ai.html) **
 3. [Custom Vision Models with Azure AI Custom Vision](ai-102/custom-vision-models.html) **
@@ -290,7 +290,7 @@ mindmap
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-📖 **Lessons in this module:**
+📖 **Topics in this module:**
 1. [Analyzing Text](ai-102/analyzing-text.html) *(3 Lessons)*
 2. [Translating Text](ai-102/translating-text.html) **
 3. [Develop a Question Answering Solution](ai-102/question-answering-solution.html) **
@@ -332,7 +332,7 @@ mindmap
 - Summarize content and power dynamic chatbots
 - Unlock innovative possibilities with Azure OpenAI
 
-📖 **Lessons in this module:**
+📖 **Topics in this module:**
 1. [Get Started with Azure OpenAI Service](ai-102/get-started-azure-openai.html) **
 2. [Develop Apps with Azure OpenAI Service](ai-102/develop-apps-azure-openai.html) **
 3. [Apply Prompt Engineering](ai-102/prompt-engineering.html) *(8 Lessons)*
@@ -374,7 +374,7 @@ As data continuously grows, making sense of it is critical. Azure AI Search enab
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-📖 **Lessons in this module:**
+📖 **Topics in this module:**
 1. [Implementing an Intelligent Search Solution](ai-102/intelligent-search-solution.html) *(4 Lessons)*
 2. [Create a Custom Skill for Azure AI Search](ai-102/custom-skill-azure-search.html) **
 3. [Creating a Knowledge Store](ai-102/creating-knowledge-store.html) **
@@ -413,7 +413,7 @@ As data continuously grows, making sense of it is critical. Azure AI Search enab
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-📖 **Lessons in this module:**
+📖 **Topics in this module:**
 1. [Develop a Document Intelligence Solution](ai-102/document-intelligence-solution.html) **
 
 ---
@@ -489,7 +489,7 @@ As data continuously grows, making sense of it is critical. Azure AI Search enab
 | Resource | Link |
 |----------|------|
 | **Official Exam Page** | [Microsoft AI-102 Certification](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer) |
-| **Sample Questions** | Available on Microsoft Learn |
+| **Practice Test** | [Available on Microsoft Learn] (https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/practice/assessment?assessment-type=practice&assessmentId=61&practice-assessment-type=certification) |
 | **Azure AI Documentation** | [Azure AI Services Docs](https://learn.microsoft.com/en-us/azure/ai-services/) |
 | **Azure OpenAI Documentation** | [Azure OpenAI Docs](https://learn.microsoft.com/en-us/azure/ai-services/openai/) |
 
