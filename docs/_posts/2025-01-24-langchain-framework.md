@@ -37,6 +37,8 @@ Table of contents
 
 What would building AI applications with large language models look like **without** a toolkit like LangChain?
 
+![LangChain Without and With Comparison](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/images/llm-opensoruce-framework/langchainwithoutandwth.png)
+
 Before LangChain, building LLM applications required developers to:
 
 - **Hardcode function definitions** for every API call
