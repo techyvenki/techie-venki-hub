@@ -58,7 +58,7 @@ The **Microsoft Certified: Azure AI Engineer Associate (AI-102)** certification 
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-### What You'll Learn
+### What You should Learn
 
 | Module | Focus Area | Key Skills |
 |--------|------------|------------|
@@ -71,7 +71,7 @@ The **Microsoft Certified: Azure AI Engineer Associate (AI-102)** certification 
 
 ---
 
-## Who Should Take This Course
+## Who Should Take This Exam
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1rem 0;">
 
@@ -187,7 +187,7 @@ The AI-102 exam validates your ability to **design and implement Azure AI Servic
 
 > 📚 **Begin with the Essentials**: Unpacking the AI ecosystem and exploring Azure AI services
 
-**What You'll Learn:**
+**What You should Learn:**
 - Introduction to AI concepts and the Azure AI platform
 - Understanding the ecosystem of services and tools within Azure
 - How to select the right solution for any business challenge
@@ -214,7 +214,7 @@ mindmap
 ```
 
 📖 **Lessons in this module:**
-1. [Introduction to AI and Azure AI Services](ai-102/introduction-to-ai-azure-services.html) *(7 Lessons)*
+1. [Introduction to AI and Azure AI Services](ai-102/introduction-to-ai-azure-services.html) **
 2. [Get Started with Azure AI Services](ai-102/get-started-azure-ai-services.html) *(4 Lessons)*
 3. [Using Azure AI Services for Enterprise Applications](ai-102/azure-ai-enterprise-applications.html) *(4 Lessons)*
 
@@ -224,7 +224,7 @@ mindmap
 
 > 👁️ **See the World Through AI**: Process and analyze images and videos using Azure AI Services
 
-**What You'll Learn:**
+**What You should Learn:**
 - Build models that detect objects, extract text, and recognize faces
 - Skills applicable to retail, security, and healthcare industries
 
@@ -249,9 +249,9 @@ mindmap
 ```
 
 📖 **Lessons in this module:**
-1. [Analyze and Manipulate Images](ai-102/analyze-manipulate-images.html) *(5 Lessons)*
-2. [Detecting Faces with Azure AI Vision](ai-102/detecting-faces-azure-ai.html) *(6 Lessons)*
-3. [Custom Vision Models with Azure AI Custom Vision](ai-102/custom-vision-models.html) *(5 Lessons)*
+1. [Analyze and Manipulate Images](ai-102/analyze-manipulate-images.html) **
+2. [Detecting Faces with Azure AI Vision](ai-102/detecting-faces-azure-ai.html) **
+3. [Custom Vision Models with Azure AI Custom Vision](ai-102/custom-vision-models.html) **
 4. [Analyzing Videos](ai-102/analyzing-videos.html) *(4 Lessons)*
 
 ---
@@ -260,7 +260,7 @@ mindmap
 
 > 💬 **Enable Human-Machine Communication**: Analyze text, translate languages, and build conversational AI
 
-**What You'll Learn:**
+**What You should Learn:**
 - Detect sentiment and analyze text
 - Translate languages with Azure AI Language Services
 - Build intelligent bots for seamless human-machine interaction
@@ -292,11 +292,11 @@ mindmap
 
 📖 **Lessons in this module:**
 1. [Analyzing Text](ai-102/analyzing-text.html) *(3 Lessons)*
-2. [Translating Text](ai-102/translating-text.html) *(5 Lessons)*
-3. [Develop a Question Answering Solution](ai-102/question-answering-solution.html) *(5 Lessons)*
-4. [Develop a Conversational Language Understanding App](ai-102/conversational-language-understanding.html) *(6 Lessons)*
-5. [Custom Classification and Named Entity Extraction](ai-102/custom-classification-ner.html) *(5 Lessons)*
-6. [Speech Recognition, Translation, and Synthesis](ai-102/speech-recognition-synthesis.html) *(7 Lessons)*
+2. [Translating Text](ai-102/translating-text.html) **
+3. [Develop a Question Answering Solution](ai-102/question-answering-solution.html) **
+4. [Develop a Conversational Language Understanding App](ai-102/conversational-language-understanding.html) **
+5. [Custom Classification and Named Entity Extraction](ai-102/custom-classification-ner.html) **
+6. [Speech Recognition, Translation, and Synthesis](ai-102/speech-recognition-synthesis.html) **
 
 ---
 
@@ -327,16 +327,16 @@ mindmap
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-**What You'll Learn:**
+**What You should Learn:**
 - Create applications that generate natural language
 - Summarize content and power dynamic chatbots
 - Unlock innovative possibilities with Azure OpenAI
 
 📖 **Lessons in this module:**
-1. [Get Started with Azure OpenAI Service](ai-102/get-started-azure-openai.html) *(7 Lessons)*
-2. [Develop Apps with Azure OpenAI Service](ai-102/develop-apps-azure-openai.html) *(5 Lessons)*
+1. [Get Started with Azure OpenAI Service](ai-102/get-started-azure-openai.html) **
+2. [Develop Apps with Azure OpenAI Service](ai-102/develop-apps-azure-openai.html) **
 3. [Apply Prompt Engineering](ai-102/prompt-engineering.html) *(8 Lessons)*
-4. [Implement RAG with Azure OpenAI Service](ai-102/implement-rag-azure-openai.html) *(5 Lessons)*
+4. [Implement RAG with Azure OpenAI Service](ai-102/implement-rag-azure-openai.html) **
 
 ---
 
@@ -376,8 +376,8 @@ As data continuously grows, making sense of it is critical. Azure AI Search enab
 
 📖 **Lessons in this module:**
 1. [Implementing an Intelligent Search Solution](ai-102/intelligent-search-solution.html) *(4 Lessons)*
-2. [Create a Custom Skill for Azure AI Search](ai-102/custom-skill-azure-search.html) *(5 Lessons)*
-3. [Creating a Knowledge Store](ai-102/creating-knowledge-store.html) *(5 Lessons)*
+2. [Create a Custom Skill for Azure AI Search](ai-102/custom-skill-azure-search.html) **
+3. [Creating a Knowledge Store](ai-102/creating-knowledge-store.html) **
 
 ---
 
@@ -385,7 +385,7 @@ As data continuously grows, making sense of it is critical. Azure AI Search enab
 
 > ⚡ **Automation: A Pillar of Modern AI Solutions**
 
-**What You'll Learn:**
+**What You should Learn:**
 - Automate document processing
 - Extract key information from forms
 - Enhance business workflows for greater accuracy and efficiency
@@ -414,7 +414,7 @@ As data continuously grows, making sense of it is critical. Azure AI Search enab
 ```
 
 📖 **Lessons in this module:**
-1. [Develop a Document Intelligence Solution](ai-102/document-intelligence-solution.html) *(7 Lessons)*
+1. [Develop a Document Intelligence Solution](ai-102/document-intelligence-solution.html) **
 
 ---
 
@@ -422,30 +422,30 @@ As data continuously grows, making sense of it is critical. Azure AI Search enab
 
 ### Complete Lesson Plan
 
-| Module | Lesson | Topics |
-|--------|--------|--------|
-| **1. Azure AI Intro** | Introduction to AI and Azure AI Services | 7 Lessons |
-| | Get Started with Azure AI Services | 4 Lessons |
-| | Using Azure AI Services for Enterprise | 4 Lessons |
-| **2. Computer Vision** | Analyze and Manipulate Images | 5 Lessons |
-| | Detecting Faces with Azure AI Vision | 6 Lessons |
-| | Custom Vision Models | 5 Lessons |
-| | Analyzing Videos | 4 Lessons |
-| **3. NLP** | Analyzing Text | 3 Lessons |
-| | Translating Text | 5 Lessons |
-| | Question Answering Solution | 5 Lessons |
-| | Conversational Language Understanding | 6 Lessons |
-| | Custom Classification and NER | 5 Lessons |
-| | Speech Recognition & Synthesis | 7 Lessons |
-| **4. Generative AI** | Get Started with Azure OpenAI | 7 Lessons |
-| | Develop Apps with Azure OpenAI | 5 Lessons |
-| | Apply Prompt Engineering | 8 Lessons |
-| | Implement RAG with Azure OpenAI | 5 Lessons |
-| **5. Knowledge Mining** | Intelligent Search Solution | 4 Lessons |
-| | Custom Skill for Azure AI Search | 5 Lessons |
-| | Creating a Knowledge Store | 5 Lessons |
-| **6. Document Intelligence** | Document Intelligence Solution | 7 Lessons |
-| **Practice** | Mock Exams | 2 Exams |
+| Module | Topics |
+|--------|--------|
+| **1. Azure AI Intro** | Introduction to AI and Azure AI Services |
+| | Get Started with Azure AI Services |
+| | Using Azure AI Services for Enterprise |
+| **2. Computer Vision** | Analyze and Manipulate Images |
+| | Detecting Faces with Azure AI Vision |
+| | Custom Vision Models |
+| | Analyzing Videos |
+| **3. NLP** | Analyzing Text |
+| | Translating Text |
+| | Question Answering Solution |
+| | Conversational Language Understanding |
+| | Custom Classification and NER |
+| | Speech Recognition & Synthesis |
+| **4. Generative AI** | Get Started with Azure OpenAI |
+| | Develop Apps with Azure OpenAI |
+| | Apply Prompt Engineering |
+| | Implement RAG with Azure OpenAI |
+| **5. Knowledge Mining** | Intelligent Search Solution |
+| | Custom Skill for Azure AI Search |
+| | Creating a Knowledge Store |
+| **6. Document Intelligence** | Document Intelligence Solution |
+| **Practice** | Mock Exams |
 
 **Total: 107+ Lessons across 21 Topic Areas**
 
