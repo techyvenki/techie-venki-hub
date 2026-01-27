@@ -11,7 +11,7 @@ description: Learn the fundamentals of AI and explore Azure AI Services ecosyste
 <div style="background: linear-gradient(135deg, #0078D4 0%, #00BCF2 100%); color: white; padding: 1.5rem; border-radius: 10px; margin-bottom: 2rem;">
   <div style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-      <h2 style="margin: 0; color: white;">📚 7 Lessons</h2>
+      <h2 style="margin: 0; color: white;">📚 7 Topics</h2>
       <p style="margin: 0.5rem 0 0 0; opacity: 0.9;">Exam Weight: Part of 20-25%</p>
     </div>
     <div style="text-align: right;">
