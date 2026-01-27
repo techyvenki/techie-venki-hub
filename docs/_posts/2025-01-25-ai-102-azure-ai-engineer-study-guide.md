@@ -214,9 +214,9 @@ mindmap
 ```
 
 📖 **Topics in this module:**
-1. [Introduction to AI and Azure AI Services](ai-102/introduction-to-ai-azure-services.html) 
-2. [Get Started with Azure AI Services](ai-102/get-started-azure-ai-services.html)
-3. [Using Azure AI Services for Enterprise Applications](ai-102/azure-ai-enterprise-applications.html)
+1. [Introduction to AI and Azure AI Services](/2025/01/25/introduction-to-ai-azure-services.html) 
+2. [Get Started with Azure AI Services](/2025/01/25/get-started-azure-ai-services.html)
+3. [Using Azure AI Services for Enterprise Applications](/2025/01/25/azure-ai-enterprise-applications.html)
 
 ---
 
@@ -249,10 +249,10 @@ mindmap
 ```
 
 📖 **Topics in this module:**
-1. [Analyze and Manipulate Images](ai-102/analyze-manipulate-images.html)
-2. [Detecting Faces with Azure AI Vision](ai-102/detecting-faces-azure-ai.html)
-3. [Custom Vision Models with Azure AI Custom Vision](ai-102/custom-vision-models.html)
-4. [Analyzing Videos](ai-102/analyzing-videos.html)
+1. [Analyze and Manipulate Images](/2025/01/25/analyze-manipulate-images.html)
+2. [Detecting Faces with Azure AI Vision](/2025/01/25/detecting-faces-azure-ai.html)
+3. [Custom Vision Models with Azure AI Custom Vision](/2025/01/25/custom-vision-models.html)
+4. [Analyzing Videos](/2025/01/25/analyzing-videos.html)
 
 ---
 
@@ -291,12 +291,12 @@ mindmap
 ```
 
 📖 **Topics in this module:**
-1. [Analyzing Text](ai-102/analyzing-text.html)
-2. [Translating Text](ai-102/translating-text.html)
-3. [Develop a Question Answering Solution](ai-102/question-answering-solution.html)
-4. [Develop a Conversational Language Understanding App](ai-102/conversational-language-understanding.html)
-5. [Custom Classification and Named Entity Extraction](ai-102/custom-classification-ner.html)
-6. [Speech Recognition, Translation, and Synthesis](ai-102/speech-recognition-synthesis.html)
+1. [Analyzing Text](/2025/01/25/analyzing-text.html)
+2. [Translating Text](/2025/01/25/translating-text.html)
+3. [Develop a Question Answering Solution](/2025/01/25/question-answering-solution.html)
+4. [Develop a Conversational Language Understanding App](/2025/01/25/conversational-language-understanding.html)
+5. [Custom Classification and Named Entity Extraction](/2025/01/25/custom-classification-ner.html)
+6. [Speech Recognition, Translation, and Synthesis](/2025/01/25/speech-recognition-synthesis.html)
 
 ---
 
@@ -333,10 +333,10 @@ mindmap
 - Unlock innovative possibilities with Azure OpenAI
 
 📖 **Topics in this module:**
-1. [Get Started with Azure OpenAI Service](ai-102/get-started-azure-openai.html)
-2. [Develop Apps with Azure OpenAI Service](ai-102/develop-apps-azure-openai.html)
-3. [Apply Prompt Engineering](ai-102/prompt-engineering.html)
-4. [Implement RAG with Azure OpenAI Service](ai-102/implement-rag-azure-openai.html)
+1. [Get Started with Azure OpenAI Service](/2025/01/25/get-started-azure-openai.html)
+2. [Develop Apps with Azure OpenAI Service](/2025/01/25/develop-apps-azure-openai.html)
+3. [Apply Prompt Engineering](/2025/01/25/prompt-engineering.html)
+4. [Implement RAG with Azure OpenAI Service](/2025/01/25/implement-rag-azure-openai.html)
 
 ---
 
@@ -375,9 +375,9 @@ As data continuously grows, making sense of it is critical. Azure AI Search enab
 ```
 
 📖 **Topics in this module:**
-1. [Implementing an Intelligent Search Solution](ai-102/intelligent-search-solution.html)
-2. [Create a Custom Skill for Azure AI Search](ai-102/custom-skill-azure-search.html)
-3. [Creating a Knowledge Store](ai-102/creating-knowledge-store.html)
+1. [Implementing an Intelligent Search Solution](/2025/01/25/intelligent-search-solution.html)
+2. [Create a Custom Skill for Azure AI Search](/2025/01/25/custom-skill-azure-search.html)
+3. [Creating a Knowledge Store](/2025/01/25/creating-knowledge-store.html)
 
 ---
 
@@ -414,7 +414,7 @@ As data continuously grows, making sense of it is critical. Azure AI Search enab
 ```
 
 📖 **Topics in this module:**
-1. [Develop a Document Intelligence Solution](ai-102/document-intelligence-solution.html)
+1. [Develop a Document Intelligence Solution](/2025/01/25/document-intelligence-solution.html)
 
 ---
 

@@ -348,7 +348,7 @@ Test your understanding with these questions:
   <a href="/2025/01/25/ai-102-azure-ai-engineer-study-guide.html" style="padding: 1rem; background: #f5f5f5; border-radius: 8px; text-decoration: none; color: #333;">
     ← Back to Study Guide
   </a>
-  <a href="get-started-azure-ai-services.html" style="padding: 1rem; background: #0078D4; border-radius: 8px; text-decoration: none; color: white;">
+  <a href="/2025/01/25/get-started-azure-ai-services.html" style="padding: 1rem; background: #0078D4; border-radius: 8px; text-decoration: none; color: white;">
     Next: Get Started with Azure AI Services →
   </a>
 </div>
