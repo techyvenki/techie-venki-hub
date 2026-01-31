@@ -233,3 +233,13 @@ Graph-based cloud cost optimization, enhanced with agentic AI for continuous cos
 - ✅ **Make informed decisions** based on current, normalized pricing data
 
 By combining graph theory with advanced optimization techniques and natural language interfaces, this framework transforms cloud cost optimization from a **reactive, post-deployment activity** into a **proactive, design-time capability**.
+
+---
+
+## References
+
+<a href="https://github.com/techyvenki/graph-based-cloud-cost-optimizer/" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-Source_Code-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
+</a>
+
+Explore the complete implementation on GitHub: [graph-based-cloud-cost-optimizer](https://github.com/techyvenki/graph-based-cloud-cost-optimizer/)
