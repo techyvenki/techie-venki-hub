@@ -1,5 +1,5 @@
 ---
-title: Mastra AI Framework - TypeScript-First AI Application Development
+title: Mastra AI Framework - AI First Application Development
 tags: [GENAI, Mastra, LLM, AI, TypeScript, Agents, Open Source]
 style: fill
 color: info
