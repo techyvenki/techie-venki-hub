@@ -561,7 +561,7 @@ flowchart TB
         end
     end
 
-    style studio fill:#202124,stroke:#3C4043,color:#fff
+    style studio fill:#aeb8d5,stroke:#3C4043,color:#fff
     style agents fill:#E8F0FE,stroke:#4285F4,color:#1967D2
     style workflows fill:#FEF7E0,stroke:#FBBC05,color:#B06000
     style traces fill:#E6F4EA,stroke:#34A853,color:#1E8E3E
