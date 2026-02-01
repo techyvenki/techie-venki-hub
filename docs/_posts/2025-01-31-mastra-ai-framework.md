@@ -40,6 +40,8 @@ Table of contents
 
 **Mastra** is a TypeScript-first, all-in-one framework for building production-ready AI applications. Unlike fragmented ecosystems that require multiple packages for agents, workflows, memory, observability, and evaluations, Mastra provides everything in a single, cohesive package.
 
+![Mastra AI Framework](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/gif/mastraai/mastraAIFirst.gif)
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                        Mastra AI Framework                               │
