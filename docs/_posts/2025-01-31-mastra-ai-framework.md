@@ -535,62 +535,46 @@ Access at **http://localhost:4111** when running the dev server:
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4285F4', 'primaryTextColor': '#fff', 'primaryBorderColor': '#1967D2', 'lineColor': '#5F6368'}}}%%
-block-beta
-    columns 3
-    
-    block:header:3
-        studioTitle["🖥️ MASTRA STUDIO"]
-        dashboard["[Dashboard]"]
-    end
-    
-    block:agents:3
-        agentsLabel["🤖 Agents"]
-        block:agentsList:2
+flowchart TB
+    subgraph studio["🖥️ MASTRA STUDIO"]
+        direction TB
+        
+        subgraph agents["🤖 Agents"]
             agent1["architectureAgent"]
             agent2["architectureAgentDemo"]
             agent3["architectureAgentLocal"]
         end
-    end
-    
-    block:workflows:3
-        workflowsLabel["🔄 Workflows"]
-        block:workflowsList:2
+        
+        subgraph workflows["🔄 Workflows"]
             wf1["architectureWorkflow"]
             wf2["completeArchitectureWorkflow"]
         end
-    end
-    
-    block:traces:3
-        tracesLabel["📊 Traces"]
-        block:tracesList:2
+        
+        subgraph traces["📊 Traces"]
             trace1["View all API calls, tool invocations"]
             trace2["Token usage, latency, errors"]
         end
-    end
-    
-    block:evals:3
-        evalsLabel["📈 Evaluations"]
-        block:evalsList:2
+        
+        subgraph evals["📈 Evaluations"]
             eval1["Scorer results over time"]
             eval2["Quality trends, regression detection"]
         end
     end
 
-    style studioTitle fill:#4285F4,stroke:#1967D2,color:#fff
-    style dashboard fill:#202124,stroke:#3C4043,color:#9AA0A6
-    style agentsLabel fill:#4285F4,stroke:#1967D2,color:#fff
-    style workflowsLabel fill:#FBBC05,stroke:#F9AB00,color:#202124
-    style tracesLabel fill:#34A853,stroke:#1E8E3E,color:#fff
-    style evalsLabel fill:#EA4335,stroke:#C5221F,color:#fff
-    style agent1 fill:#E8F0FE,stroke:#D2E3FC,color:#1967D2
-    style agent2 fill:#E8F0FE,stroke:#D2E3FC,color:#1967D2
-    style agent3 fill:#E8F0FE,stroke:#D2E3FC,color:#1967D2
-    style wf1 fill:#FEF7E0,stroke:#FEEFC3,color:#B06000
-    style wf2 fill:#FEF7E0,stroke:#FEEFC3,color:#B06000
-    style trace1 fill:#E6F4EA,stroke:#CEEAD6,color:#1E8E3E
-    style trace2 fill:#E6F4EA,stroke:#CEEAD6,color:#1E8E3E
-    style eval1 fill:#FCE8E6,stroke:#F5C6C2,color:#C5221F
-    style eval2 fill:#FCE8E6,stroke:#F5C6C2,color:#C5221F
+    style studio fill:#202124,stroke:#3C4043,color:#fff
+    style agents fill:#E8F0FE,stroke:#4285F4,color:#1967D2
+    style workflows fill:#FEF7E0,stroke:#FBBC05,color:#B06000
+    style traces fill:#E6F4EA,stroke:#34A853,color:#1E8E3E
+    style evals fill:#FCE8E6,stroke:#EA4335,color:#C5221F
+    style agent1 fill:#4285F4,stroke:#1967D2,color:#fff
+    style agent2 fill:#4285F4,stroke:#1967D2,color:#fff
+    style agent3 fill:#4285F4,stroke:#1967D2,color:#fff
+    style wf1 fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style wf2 fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style trace1 fill:#34A853,stroke:#1E8E3E,color:#fff
+    style trace2 fill:#34A853,stroke:#1E8E3E,color:#fff
+    style eval1 fill:#EA4335,stroke:#C5221F,color:#fff
+    style eval2 fill:#EA4335,stroke:#C5221F,color:#fff
 ```
 
 ### Trace Visualization
