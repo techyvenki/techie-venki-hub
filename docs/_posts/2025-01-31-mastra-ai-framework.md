@@ -42,29 +42,50 @@ Table of contents
 
 ![Mastra AI Framework](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/gif/mastraai/mastraAIFirst.gif)
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                        Mastra AI Framework                               │
-├─────────────────────────────────────────────────────────────────────────┤
-│                                                                          │
-│   ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐          │
-│   │ AGENTS  │ │  TOOLS  │ │WORKFLOWS│ │ MEMORY  │ │ STORAGE │          │
-│   │         │ │         │ │         │ │         │ │         │          │
-│   │ AI      │ │ Typed   │ │ Multi-  │ │ Persist │ │ LibSQL  │          │
-│   │ Agents  │ │ Funcs   │ │ Step    │ │ Context │ │ SQLite  │          │
-│   └─────────┘ └─────────┘ └─────────┘ └─────────┘ └─────────┘          │
-│                                                                          │
-│   ┌─────────┐ ┌─────────┐ ┌─────────┐                                   │
-│   │OBSERVE  │ │ EVALS   │ │ LOGGING │                                   │
-│   │         │ │         │ │         │                                   │
-│   │OpenTelem│ │Scorers  │ │ Pino    │                                   │
-│   │ Traces  │ │ LLM-as- │ │Structured│                                  │
-│   │         │ │ Judge   │ │         │                                   │
-│   └─────────┘ └─────────┘ └─────────┘                                   │
-│                                                                          │
-│              🎯 All-in-One • TypeScript-First • Production-Ready         │
-│                                                                          │
-└─────────────────────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'primaryBorderColor': '#4f46e5', 'lineColor': '#94a3b8', 'secondaryColor': '#f1f5f9', 'tertiaryColor': '#e2e8f0'}}}%%
+block-beta
+    columns 5
+    
+    block:header:5
+        title["🤖 MASTRA AI FRAMEWORK"]
+    end
+    
+    space:5
+    
+    block:row1:5
+        agents["🤖 AGENTS<br/>AI Agents"]
+        tools["🔧 TOOLS<br/>Typed Funcs"]
+        workflows["🔄 WORKFLOWS<br/>Multi-Step"]
+        memory["🧠 MEMORY<br/>Persist Context"]
+        storage["💾 STORAGE<br/>LibSQL/SQLite"]
+    end
+    
+    space:5
+    
+    block:row2:5
+        observe["👁️ OBSERVE<br/>OpenTelemetry"]
+        evals["📊 EVALS<br/>LLM-as-Judge"]
+        logging["📝 LOGGING<br/>Pino Structured"]
+        space:2
+    end
+    
+    space:5
+    
+    block:footer:5
+        tagline["🎯 All-in-One • TypeScript-First • Production-Ready"]
+    end
+
+    style title fill:#6366f1,stroke:#4f46e5,color:#fff
+    style agents fill:#8b5cf6,stroke:#7c3aed,color:#fff
+    style tools fill:#3b82f6,stroke:#2563eb,color:#fff
+    style workflows fill:#f59e0b,stroke:#d97706,color:#fff
+    style memory fill:#10b981,stroke:#059669,color:#fff
+    style storage fill:#ec4899,stroke:#db2777,color:#fff
+    style observe fill:#06b6d4,stroke:#0891b2,color:#fff
+    style evals fill:#f97316,stroke:#ea580c,color:#fff
+    style logging fill:#84cc16,stroke:#65a30d,color:#fff
+    style tagline fill:#1e293b,stroke:#334155,color:#fff
 ```
 
 > 🚀 **Transform Ideas to Production**: Build AI applications with type safety, built-in observability, and zero configuration overhead.
@@ -75,33 +96,85 @@ Table of contents
 
 Building production AI applications typically requires assembling multiple packages:
 
-```
-Traditional Approach (Multiple Packages):
-┌─────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
-│  LangChain     +  LangGraph    +  LangSmith    +  Memory      = 5+      │
-│  (Chains)         (State)         (Monitor)       (External)    packages │
-│                                                                          │
-│  • Different APIs for each component                                     │
-│  • Complex integration requirements                                      │
-│  • Inconsistent type safety                                              │
-│  • Multiple configuration files                                          │
-│  • Fragmented documentation                                              │
-│                                                                          │
-└─────────────────────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ef4444', 'primaryTextColor': '#fff', 'primaryBorderColor': '#dc2626', 'lineColor': '#94a3b8'}}}%%
+block-beta
+    columns 6
+    
+    block:tradHeader:6
+        tradTitle["⚠️ TRADITIONAL APPROACH (Multiple Packages)"]
+    end
+    
+    space:6
+    
+    block:packages:6
+        langchain["🔗 LangChain<br/>(Chains)"]
+        plus1["+"]
+        langgraph["📊 LangGraph<br/>(State)"]
+        plus2["+"]
+        langsmith["🔍 LangSmith<br/>(Monitor)"]
+        result["= 5+ packages"]
+    end
+    
+    space:6
+    
+    block:issues:6
+        issue1["❌ Different APIs"]
+        issue2["❌ Complex Integration"]
+        issue3["❌ Inconsistent Types"]
+        issue4["❌ Multiple Configs"]
+        issue5["❌ Fragmented Docs"]
+        space
+    end
 
-Mastra Approach (Single Package):
-┌─────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
-│  @mastra/core  =  Everything you need in ONE package                    │
-│                                                                          │
-│  • Unified API across all features                                       │
-│  • Native TypeScript with full type inference                           │
-│  • Zero-config observability                                             │
-│  • Built-in dev studio                                                   │
-│  • Consistent documentation                                              │
-│                                                                          │
-└─────────────────────────────────────────────────────────────────────────┘
+    style tradTitle fill:#ef4444,stroke:#dc2626,color:#fff
+    style langchain fill:#1c3c3c,stroke:#0f2525,color:#fff
+    style langgraph fill:#2d4a4a,stroke:#1c3c3c,color:#fff
+    style langsmith fill:#3d5a5a,stroke:#2d4a4a,color:#fff
+    style plus1 fill:#f1f5f9,stroke:#e2e8f0,color:#64748b
+    style plus2 fill:#f1f5f9,stroke:#e2e8f0,color:#64748b
+    style result fill:#fbbf24,stroke:#f59e0b,color:#000
+    style issue1 fill:#fee2e2,stroke:#fecaca,color:#991b1b
+    style issue2 fill:#fee2e2,stroke:#fecaca,color:#991b1b
+    style issue3 fill:#fee2e2,stroke:#fecaca,color:#991b1b
+    style issue4 fill:#fee2e2,stroke:#fecaca,color:#991b1b
+    style issue5 fill:#fee2e2,stroke:#fecaca,color:#991b1b
+```
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#22c55e', 'primaryTextColor': '#fff', 'primaryBorderColor': '#16a34a', 'lineColor': '#94a3b8'}}}%%
+block-beta
+    columns 5
+    
+    block:mastraHeader:5
+        mastraTitle["✅ MASTRA APPROACH (Single Package)"]
+    end
+    
+    space:5
+    
+    block:package:5
+        space
+        mastraCore["📦 @mastra/core = Everything in ONE"]
+        space
+    end
+    
+    space:5
+    
+    block:benefits:5
+        benefit1["✅ Unified API"]
+        benefit2["✅ Native TypeScript"]
+        benefit3["✅ Zero-Config Observability"]
+        benefit4["✅ Built-in Dev Studio"]
+        benefit5["✅ Consistent Docs"]
+    end
+
+    style mastraTitle fill:#22c55e,stroke:#16a34a,color:#fff
+    style mastraCore fill:#6366f1,stroke:#4f46e5,color:#fff
+    style benefit1 fill:#dcfce7,stroke:#bbf7d0,color:#166534
+    style benefit2 fill:#dcfce7,stroke:#bbf7d0,color:#166534
+    style benefit3 fill:#dcfce7,stroke:#bbf7d0,color:#166534
+    style benefit4 fill:#dcfce7,stroke:#bbf7d0,color:#166534
+    style benefit5 fill:#dcfce7,stroke:#bbf7d0,color:#166534
 ```
 
 ---
@@ -460,42 +533,113 @@ llm = Ollama(model="llama3.1:8b")
 
 Access at **http://localhost:4111** when running the dev server:
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│  MASTRA STUDIO                                              [Dashboard]  │
-├──────────────────┬──────────────────────────────────────────────────────┤
-│ 🤖 Agents        │  architectureAgent                                    │
-│                  │  architectureAgentDemo                                │
-│                  │  architectureAgentLocal                               │
-├──────────────────┼──────────────────────────────────────────────────────┤
-│ 🔄 Workflows     │  architectureWorkflow                                 │
-│                  │  completeArchitectureWorkflow                         │
-├──────────────────┼──────────────────────────────────────────────────────┤
-│ 📊 Traces        │  View all API calls, tool invocations                 │
-│                  │  Token usage, latency, errors                         │
-├──────────────────┼──────────────────────────────────────────────────────┤
-│ 📈 Evaluations   │  Scorer results over time                             │
-│                  │  Quality trends, regression detection                 │
-└──────────────────┴──────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'primaryBorderColor': '#4f46e5', 'lineColor': '#94a3b8'}}}%%
+block-beta
+    columns 3
+    
+    block:header:3
+        studioTitle["🖥️ MASTRA STUDIO"]
+        dashboard["[Dashboard]"]
+    end
+    
+    block:agents:3
+        agentsLabel["🤖 Agents"]
+        block:agentsList:2
+            agent1["architectureAgent"]
+            agent2["architectureAgentDemo"]
+            agent3["architectureAgentLocal"]
+        end
+    end
+    
+    block:workflows:3
+        workflowsLabel["🔄 Workflows"]
+        block:workflowsList:2
+            wf1["architectureWorkflow"]
+            wf2["completeArchitectureWorkflow"]
+        end
+    end
+    
+    block:traces:3
+        tracesLabel["📊 Traces"]
+        block:tracesList:2
+            trace1["View all API calls, tool invocations"]
+            trace2["Token usage, latency, errors"]
+        end
+    end
+    
+    block:evals:3
+        evalsLabel["📈 Evaluations"]
+        block:evalsList:2
+            eval1["Scorer results over time"]
+            eval2["Quality trends, regression detection"]
+        end
+    end
+
+    style studioTitle fill:#6366f1,stroke:#4f46e5,color:#fff
+    style dashboard fill:#1e293b,stroke:#334155,color:#94a3b8
+    style agentsLabel fill:#8b5cf6,stroke:#7c3aed,color:#fff
+    style workflowsLabel fill:#f59e0b,stroke:#d97706,color:#fff
+    style tracesLabel fill:#06b6d4,stroke:#0891b2,color:#fff
+    style evalsLabel fill:#10b981,stroke:#059669,color:#fff
+    style agent1 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
+    style agent2 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
+    style agent3 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
+    style wf1 fill:#fef3c7,stroke:#fde68a,color:#92400e
+    style wf2 fill:#fef3c7,stroke:#fde68a,color:#92400e
+    style trace1 fill:#cffafe,stroke:#a5f3fc,color:#155e75
+    style trace2 fill:#cffafe,stroke:#a5f3fc,color:#155e75
+    style eval1 fill:#d1fae5,stroke:#a7f3d0,color:#065f46
+    style eval2 fill:#d1fae5,stroke:#a7f3d0,color:#065f46
 ```
 
 ### Trace Visualization
 
 Every agent interaction creates a detailed trace:
 
-```
-[Trace: req-12345]
-├── 📥 Input: "A ride-sharing app for 100k users"
-├── 🔧 Tool: analyzeRequirementsTool (45ms)
-│   └── Output: { domain: "ride-sharing", scale: "large" }
-├── 🔧 Tool: generateServerlessDiagramTool (120ms)
-│   └── Output: { mermaidCode: "graph TB..." }
-├── 🔧 Tool: generateMicroservicesDiagramTool (115ms)
-│   └── Output: { mermaidCode: "graph TB..." }
-├── 🔧 Tool: compareArchitecturesTool (85ms)
-│   └── Output: { recommendation: "Serverless" }
-├── 🤖 LLM: gemini-2.5-pro (1.2s, 2500 tokens)
-└── 📤 Output: "Based on your requirements..."
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'lineColor': '#94a3b8'}}}%%
+flowchart TD
+    subgraph trace["🔍 Trace: req-12345"]
+        direction TB
+        
+        input["📥 <b>Input</b><br/>A ride-sharing app for 100k users"]
+        
+        tool1["🔧 <b>analyzeRequirementsTool</b><br/>⏱️ 45ms"]
+        out1["📄 domain: ride-sharing, scale: large"]
+        
+        tool2["🔧 <b>generateServerlessDiagramTool</b><br/>⏱️ 120ms"]
+        out2["📄 mermaidCode: graph TB..."]
+        
+        tool3["🔧 <b>generateMicroservicesDiagramTool</b><br/>⏱️ 115ms"]
+        out3["📄 mermaidCode: graph TB..."]
+        
+        tool4["🔧 <b>compareArchitecturesTool</b><br/>⏱️ 85ms"]
+        out4["📄 recommendation: Serverless"]
+        
+        llm["🤖 <b>LLM: gemini-2.5-pro</b><br/>⏱️ 1.2s • 🎫 2500 tokens"]
+        
+        output["📤 <b>Output</b><br/>Based on your requirements..."]
+    end
+    
+    input --> tool1 --> out1
+    out1 --> tool2 --> out2
+    out2 --> tool3 --> out3
+    out3 --> tool4 --> out4
+    out4 --> llm --> output
+
+    style trace fill:#f8fafc,stroke:#e2e8f0,color:#1e293b
+    style input fill:#dbeafe,stroke:#93c5fd,color:#1e40af
+    style tool1 fill:#8b5cf6,stroke:#7c3aed,color:#fff
+    style tool2 fill:#8b5cf6,stroke:#7c3aed,color:#fff
+    style tool3 fill:#8b5cf6,stroke:#7c3aed,color:#fff
+    style tool4 fill:#8b5cf6,stroke:#7c3aed,color:#fff
+    style out1 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
+    style out2 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
+    style out3 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
+    style out4 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
+    style llm fill:#f59e0b,stroke:#d97706,color:#fff
+    style output fill:#dcfce7,stroke:#86efac,color:#166534
 ```
 
 ### Sensitive Data Protection
