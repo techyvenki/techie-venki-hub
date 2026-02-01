@@ -43,7 +43,7 @@ Table of contents
 ![Mastra AI Framework](https://raw.githubusercontent.com/techyvenki/techie-venki-hub/main/gif/mastraai/mastraAIFirst.gif)
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'primaryBorderColor': '#4f46e5', 'lineColor': '#94a3b8', 'secondaryColor': '#f1f5f9', 'tertiaryColor': '#e2e8f0'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4285F4', 'primaryTextColor': '#fff', 'primaryBorderColor': '#1967D2', 'lineColor': '#5F6368', 'secondaryColor': '#F1F3F4', 'tertiaryColor': '#E8EAED'}}}%%
 block-beta
     columns 5
     
@@ -76,16 +76,16 @@ block-beta
         tagline["🎯 All-in-One • TypeScript-First • Production-Ready"]
     end
 
-    style title fill:#6366f1,stroke:#4f46e5,color:#fff
-    style agents fill:#8b5cf6,stroke:#7c3aed,color:#fff
-    style tools fill:#3b82f6,stroke:#2563eb,color:#fff
-    style workflows fill:#f59e0b,stroke:#d97706,color:#fff
-    style memory fill:#10b981,stroke:#059669,color:#fff
-    style storage fill:#ec4899,stroke:#db2777,color:#fff
-    style observe fill:#06b6d4,stroke:#0891b2,color:#fff
-    style evals fill:#f97316,stroke:#ea580c,color:#fff
-    style logging fill:#84cc16,stroke:#65a30d,color:#fff
-    style tagline fill:#1e293b,stroke:#334155,color:#fff
+    style title fill:#4285F4,stroke:#1967D2,color:#fff
+    style agents fill:#4285F4,stroke:#1967D2,color:#fff
+    style tools fill:#34A853,stroke:#1E8E3E,color:#fff
+    style workflows fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style memory fill:#EA4335,stroke:#C5221F,color:#fff
+    style storage fill:#4285F4,stroke:#1967D2,color:#fff
+    style observe fill:#34A853,stroke:#1E8E3E,color:#fff
+    style evals fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style logging fill:#EA4335,stroke:#C5221F,color:#fff
+    style tagline fill:#202124,stroke:#3C4043,color:#fff
 ```
 
 > 🚀 **Transform Ideas to Production**: Build AI applications with type safety, built-in observability, and zero configuration overhead.
@@ -97,7 +97,7 @@ block-beta
 Building production AI applications typically requires assembling multiple packages:
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ef4444', 'primaryTextColor': '#fff', 'primaryBorderColor': '#dc2626', 'lineColor': '#94a3b8'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#EA4335', 'primaryTextColor': '#fff', 'primaryBorderColor': '#C5221F', 'lineColor': '#5F6368'}}}%%
 block-beta
     columns 6
     
@@ -109,10 +109,10 @@ block-beta
     
     block:packages:6
         langchain["🔗 LangChain<br/>(Chains)"]
-        plus1["+"]
         langgraph["📊 LangGraph<br/>(State)"]
-        plus2["+"]
         langsmith["🔍 LangSmith<br/>(Monitor)"]
+        memoryPkg["🧠 Memory<br/>(External)"]
+        vectordb["🗄️ Vector DB<br/>(External)"]
         result["= 5+ packages"]
     end
     
@@ -127,22 +127,22 @@ block-beta
         space
     end
 
-    style tradTitle fill:#ef4444,stroke:#dc2626,color:#fff
-    style langchain fill:#1c3c3c,stroke:#0f2525,color:#fff
-    style langgraph fill:#2d4a4a,stroke:#1c3c3c,color:#fff
-    style langsmith fill:#3d5a5a,stroke:#2d4a4a,color:#fff
-    style plus1 fill:#f1f5f9,stroke:#e2e8f0,color:#64748b
-    style plus2 fill:#f1f5f9,stroke:#e2e8f0,color:#64748b
-    style result fill:#fbbf24,stroke:#f59e0b,color:#000
-    style issue1 fill:#fee2e2,stroke:#fecaca,color:#991b1b
-    style issue2 fill:#fee2e2,stroke:#fecaca,color:#991b1b
-    style issue3 fill:#fee2e2,stroke:#fecaca,color:#991b1b
-    style issue4 fill:#fee2e2,stroke:#fecaca,color:#991b1b
-    style issue5 fill:#fee2e2,stroke:#fecaca,color:#991b1b
+    style tradTitle fill:#EA4335,stroke:#C5221F,color:#fff
+    style langchain fill:#5F6368,stroke:#3C4043,color:#fff
+    style langgraph fill:#5F6368,stroke:#3C4043,color:#fff
+    style langsmith fill:#5F6368,stroke:#3C4043,color:#fff
+    style memoryPkg fill:#5F6368,stroke:#3C4043,color:#fff
+    style vectordb fill:#5F6368,stroke:#3C4043,color:#fff
+    style result fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style issue1 fill:#FCE8E6,stroke:#F5C6C2,color:#C5221F
+    style issue2 fill:#FCE8E6,stroke:#F5C6C2,color:#C5221F
+    style issue3 fill:#FCE8E6,stroke:#F5C6C2,color:#C5221F
+    style issue4 fill:#FCE8E6,stroke:#F5C6C2,color:#C5221F
+    style issue5 fill:#FCE8E6,stroke:#F5C6C2,color:#C5221F
 ```
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#22c55e', 'primaryTextColor': '#fff', 'primaryBorderColor': '#16a34a', 'lineColor': '#94a3b8'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#34A853', 'primaryTextColor': '#fff', 'primaryBorderColor': '#1E8E3E', 'lineColor': '#5F6368'}}}%%
 block-beta
     columns 5
     
@@ -168,13 +168,13 @@ block-beta
         benefit5["✅ Consistent Docs"]
     end
 
-    style mastraTitle fill:#22c55e,stroke:#16a34a,color:#fff
-    style mastraCore fill:#6366f1,stroke:#4f46e5,color:#fff
-    style benefit1 fill:#dcfce7,stroke:#bbf7d0,color:#166534
-    style benefit2 fill:#dcfce7,stroke:#bbf7d0,color:#166534
-    style benefit3 fill:#dcfce7,stroke:#bbf7d0,color:#166534
-    style benefit4 fill:#dcfce7,stroke:#bbf7d0,color:#166534
-    style benefit5 fill:#dcfce7,stroke:#bbf7d0,color:#166534
+    style mastraTitle fill:#34A853,stroke:#1E8E3E,color:#fff
+    style mastraCore fill:#4285F4,stroke:#1967D2,color:#fff
+    style benefit1 fill:#E6F4EA,stroke:#CEEAD6,color:#1E8E3E
+    style benefit2 fill:#E6F4EA,stroke:#CEEAD6,color:#1E8E3E
+    style benefit3 fill:#E6F4EA,stroke:#CEEAD6,color:#1E8E3E
+    style benefit4 fill:#E6F4EA,stroke:#CEEAD6,color:#1E8E3E
+    style benefit5 fill:#E6F4EA,stroke:#CEEAD6,color:#1E8E3E
 ```
 
 ---
@@ -534,7 +534,7 @@ llm = Ollama(model="llama3.1:8b")
 Access at **http://localhost:4111** when running the dev server:
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'primaryBorderColor': '#4f46e5', 'lineColor': '#94a3b8'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4285F4', 'primaryTextColor': '#fff', 'primaryBorderColor': '#1967D2', 'lineColor': '#5F6368'}}}%%
 block-beta
     columns 3
     
@@ -576,21 +576,21 @@ block-beta
         end
     end
 
-    style studioTitle fill:#6366f1,stroke:#4f46e5,color:#fff
-    style dashboard fill:#1e293b,stroke:#334155,color:#94a3b8
-    style agentsLabel fill:#8b5cf6,stroke:#7c3aed,color:#fff
-    style workflowsLabel fill:#f59e0b,stroke:#d97706,color:#fff
-    style tracesLabel fill:#06b6d4,stroke:#0891b2,color:#fff
-    style evalsLabel fill:#10b981,stroke:#059669,color:#fff
-    style agent1 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
-    style agent2 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
-    style agent3 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
-    style wf1 fill:#fef3c7,stroke:#fde68a,color:#92400e
-    style wf2 fill:#fef3c7,stroke:#fde68a,color:#92400e
-    style trace1 fill:#cffafe,stroke:#a5f3fc,color:#155e75
-    style trace2 fill:#cffafe,stroke:#a5f3fc,color:#155e75
-    style eval1 fill:#d1fae5,stroke:#a7f3d0,color:#065f46
-    style eval2 fill:#d1fae5,stroke:#a7f3d0,color:#065f46
+    style studioTitle fill:#4285F4,stroke:#1967D2,color:#fff
+    style dashboard fill:#202124,stroke:#3C4043,color:#9AA0A6
+    style agentsLabel fill:#4285F4,stroke:#1967D2,color:#fff
+    style workflowsLabel fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style tracesLabel fill:#34A853,stroke:#1E8E3E,color:#fff
+    style evalsLabel fill:#EA4335,stroke:#C5221F,color:#fff
+    style agent1 fill:#E8F0FE,stroke:#D2E3FC,color:#1967D2
+    style agent2 fill:#E8F0FE,stroke:#D2E3FC,color:#1967D2
+    style agent3 fill:#E8F0FE,stroke:#D2E3FC,color:#1967D2
+    style wf1 fill:#FEF7E0,stroke:#FEEFC3,color:#B06000
+    style wf2 fill:#FEF7E0,stroke:#FEEFC3,color:#B06000
+    style trace1 fill:#E6F4EA,stroke:#CEEAD6,color:#1E8E3E
+    style trace2 fill:#E6F4EA,stroke:#CEEAD6,color:#1E8E3E
+    style eval1 fill:#FCE8E6,stroke:#F5C6C2,color:#C5221F
+    style eval2 fill:#FCE8E6,stroke:#F5C6C2,color:#C5221F
 ```
 
 ### Trace Visualization
@@ -598,7 +598,7 @@ block-beta
 Every agent interaction creates a detailed trace:
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'lineColor': '#94a3b8'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4285F4', 'primaryTextColor': '#fff', 'lineColor': '#5F6368'}}}%%
 flowchart TD
     subgraph trace["🔍 Trace: req-12345"]
         direction TB
@@ -628,18 +628,18 @@ flowchart TD
     out3 --> tool4 --> out4
     out4 --> llm --> output
 
-    style trace fill:#f8fafc,stroke:#e2e8f0,color:#1e293b
-    style input fill:#dbeafe,stroke:#93c5fd,color:#1e40af
-    style tool1 fill:#8b5cf6,stroke:#7c3aed,color:#fff
-    style tool2 fill:#8b5cf6,stroke:#7c3aed,color:#fff
-    style tool3 fill:#8b5cf6,stroke:#7c3aed,color:#fff
-    style tool4 fill:#8b5cf6,stroke:#7c3aed,color:#fff
-    style out1 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
-    style out2 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
-    style out3 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
-    style out4 fill:#f1f5f9,stroke:#e2e8f0,color:#475569
-    style llm fill:#f59e0b,stroke:#d97706,color:#fff
-    style output fill:#dcfce7,stroke:#86efac,color:#166534
+    style trace fill:#F1F3F4,stroke:#DADCE0,color:#202124
+    style input fill:#E8F0FE,stroke:#D2E3FC,color:#1967D2
+    style tool1 fill:#4285F4,stroke:#1967D2,color:#fff
+    style tool2 fill:#4285F4,stroke:#1967D2,color:#fff
+    style tool3 fill:#4285F4,stroke:#1967D2,color:#fff
+    style tool4 fill:#4285F4,stroke:#1967D2,color:#fff
+    style out1 fill:#F1F3F4,stroke:#DADCE0,color:#5F6368
+    style out2 fill:#F1F3F4,stroke:#DADCE0,color:#5F6368
+    style out3 fill:#F1F3F4,stroke:#DADCE0,color:#5F6368
+    style out4 fill:#F1F3F4,stroke:#DADCE0,color:#5F6368
+    style llm fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style output fill:#E6F4EA,stroke:#CEEAD6,color:#1E8E3E
 ```
 
 ### Sensitive Data Protection
@@ -688,25 +688,26 @@ Designing system architecture requires considering:
 - **Best for:** Startups, variable traffic, cost optimization
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4285F4', 'primaryTextColor': '#fff', 'lineColor': '#5F6368'}}}%%
 graph TB
-    subgraph "Clients"
+    subgraph clients["Clients"]
         Mobile[📱 Mobile App]
         Web[🌐 Web App]
     end
     
-    subgraph "AWS Serverless"
+    subgraph serverless["AWS Serverless"]
         API[🚪 API Gateway]
         Auth[⚡ Auth Lambda]
         Ride[⚡ Ride Lambda]
         Match[⚡ Matching Lambda]
     end
     
-    subgraph "Events"
+    subgraph events["Events"]
         EB[📨 EventBridge]
         SQS[📬 SQS Queue]
     end
     
-    subgraph "Data"
+    subgraph data["Data"]
         DDB[(🗄️ DynamoDB)]
         Redis[(⚡ ElastiCache)]
     end
@@ -717,6 +718,21 @@ graph TB
     Ride --> EB --> SQS --> Match
     Ride --> DDB
     Ride --> Redis
+
+    style clients fill:#E8F0FE,stroke:#D2E3FC,color:#1967D2
+    style serverless fill:#FEF7E0,stroke:#FEEFC3,color:#B06000
+    style events fill:#E6F4EA,stroke:#CEEAD6,color:#1E8E3E
+    style data fill:#FCE8E6,stroke:#F5C6C2,color:#C5221F
+    style Mobile fill:#4285F4,stroke:#1967D2,color:#fff
+    style Web fill:#4285F4,stroke:#1967D2,color:#fff
+    style API fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style Auth fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style Ride fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style Match fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style EB fill:#34A853,stroke:#1E8E3E,color:#fff
+    style SQS fill:#34A853,stroke:#1E8E3E,color:#fff
+    style DDB fill:#EA4335,stroke:#C5221F,color:#fff
+    style Redis fill:#EA4335,stroke:#C5221F,color:#fff
 ```
 
 ### Architecture 2: Microservices on Kubernetes
@@ -727,24 +743,25 @@ graph TB
 - **Best for:** Large teams, complex domains, multi-cloud
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4285F4', 'primaryTextColor': '#fff', 'lineColor': '#5F6368'}}}%%
 graph TB
-    subgraph "Ingress"
+    subgraph ingress["Ingress"]
         LB[⚖️ Load Balancer]
         Istio[🕸️ Service Mesh]
     end
     
-    subgraph "Services"
+    subgraph services["Services"]
         User[👤 User Service]
         Ride[🚗 Ride Service]
         Payment[💳 Payment Service]
         Location[📍 Location Service]
     end
     
-    subgraph "Messaging"
+    subgraph messaging["Messaging"]
         Kafka[📨 Kafka]
     end
     
-    subgraph "Databases"
+    subgraph databases["Databases"]
         PG[(🐘 PostgreSQL)]
         Mongo[(🍃 MongoDB)]
         Redis[(⚡ Redis)]
@@ -757,6 +774,21 @@ graph TB
     User --> PG
     Ride --> Mongo
     Location --> Redis
+
+    style ingress fill:#E8F0FE,stroke:#D2E3FC,color:#1967D2
+    style services fill:#FEF7E0,stroke:#FEEFC3,color:#B06000
+    style messaging fill:#E6F4EA,stroke:#CEEAD6,color:#1E8E3E
+    style databases fill:#FCE8E6,stroke:#F5C6C2,color:#C5221F
+    style LB fill:#4285F4,stroke:#1967D2,color:#fff
+    style Istio fill:#4285F4,stroke:#1967D2,color:#fff
+    style User fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style Ride fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style Payment fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style Location fill:#FBBC05,stroke:#F9AB00,color:#202124
+    style Kafka fill:#34A853,stroke:#1E8E3E,color:#fff
+    style PG fill:#EA4335,stroke:#C5221F,color:#fff
+    style Mongo fill:#EA4335,stroke:#C5221F,color:#fff
+    style Redis fill:#EA4335,stroke:#C5221F,color:#fff
 ```
 
 ### Trade-off Matrix
