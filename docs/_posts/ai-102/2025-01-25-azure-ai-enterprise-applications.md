@@ -293,201 +293,157 @@ graph TB
 
 #### 1️⃣ Metrics
 
-<div style="background: #E3F2FD; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #1976D2; margin: 1rem 0;">
-
 **What are Metrics?**
 
-Numerical performance data captured at regular intervals in time-series format. Metrics help you understand how your AI service is performing in real-time.
+Numerical performance data captured at regular intervals. Metrics help you understand how your AI service is performing.
 
 **Common AI Service Metrics:**
 
 | Metric | What It Measures | Why It Matters |
 |--------|-----------------|----------------|
-| **Request Count** | Total API calls made | Understand usage volume |
-| **Latency** | Response time in milliseconds | Monitor performance |
-| **Error Rate** | Percentage of failed requests | Detect service issues |
-| **Throttled Requests** | Calls rejected due to rate limits | Identify capacity problems |
-| **Successful Requests** | API calls that succeeded | Track reliability |
+| Request Count | Total API calls made | Understand usage volume |
+| Latency | Response time in milliseconds | Monitor performance |
+| Error Rate | Percentage of failed requests | Detect service issues |
+| Throttled Requests | Calls rejected due to rate limits | Identify capacity problems |
+| Successful Requests | API calls that succeeded | Track reliability |
 
-**How to View Metrics in Azure Portal:**
+**How to View Metrics:**
 
-1. Open your AI service resource
-2. Click **Metrics** in the left navigation menu
-3. Select your desired timeframe (last hour, 24 hours, 7 days)
-4. Choose metric to visualize (Request Count, Latency, Error Rate, etc.)
-5. View interactive charts with trends and patterns
-6. Pin to dashboards for quick access
+1. Open your AI service resource in Azure Portal
+2. Click Metrics in the left navigation menu
+3. Select timeframe (last hour, 24 hours, 7 days, etc.)
+4. Choose metric to visualize
+5. View charts and trends
+6. Pin to dashboards
 
-**Metrics Storage Details:**
+**Metrics Details:**
 
 - Retained for 30 days by default
 - Available in 1-minute intervals
 - Free to view in Azure Portal
-- Can export to Log Analytics for longer retention (up to 2 years)
-
-</div>
+- Can export to Log Analytics for longer retention
 
 #### 2️⃣ Logs and Diagnostics
 
-<div style="background: #E8F5E9; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #388E3C; margin: 1rem 0;">
-
 **What are Logs?**
 
-Time-stamped records of events and changes for detailed analysis, troubleshooting, and compliance auditing. Logs capture everything that happens in your AI service.
+Time-stamped records of events and changes in your AI service. Logs capture everything that happens for troubleshooting and compliance.
 
-**Diagnostic Settings Flow:**
+**Where Logs Go:**
 
-Your AI service generates logs → Diagnostic settings route them to destinations:
+- Log Analytics Workspace - Query and analyze logs
+- Azure Storage - Long-term archive
+- Event Hubs - Send to external tools like Splunk or Datadog
 
-- **Log Analytics Workspace** - For querying and analyzing logs in real-time
-- **Azure Storage** - For long-term archival and compliance retention
-- **Event Hubs** - For streaming to external tools like Splunk or Datadog
+**Destination Comparison:**
 
-**Destination Options:**
-
-| Destination | Best For | Retention | Cost |
-|------------|----------|-----------|------|
-| **Log Analytics** | Query, analyze, create alerts | 30-730 days | Pay per GB ingested |
-| **Azure Storage** | Compliance, long-term archive | Up to 999 years | Low cost storage |
-| **Event Hubs** | Real-time integration | Variable | Pay per event unit |
+| Destination | Best For | Retention |
+|------------|----------|-----------|
+| Log Analytics | Real-time analysis and alerts | 30-730 days |
+| Azure Storage | Compliance and long-term archive | Up to 999 years |
+| Event Hubs | Integration with external tools | Configurable |
 
 **How to Enable Diagnostics:**
 
-**Step 1:** Open your AI service in Azure Portal  
-**Step 2:** Click Diagnostic settings in the left menu  
-**Step 3:** Click Add diagnostic setting  
-**Step 4:** Select which log categories to capture  
-**Step 5:** Choose your destination (Log Analytics, Storage, or Event Hubs)  
-**Step 6:** Name the setting and click Save  
-**Step 7:** Wait 5 minutes for logs to start flowing  
+1. Open your AI service in Azure Portal
+2. Click Diagnostic settings in the left menu
+3. Click Add diagnostic setting
+4. Select log categories to capture
+5. Choose destination
+6. Click Save
+7. Wait 5 minutes for logs to start flowing
 
-**Log Categories:**
+**Log Types:**
 
-| Category | What It Contains |
-|----------|-----------------|
-| **Audit Logs** | Who accessed the service, when, and from where |
-| **API Logs** | Detailed request/response data, headers, payloads |
-| **Error Logs** | Failed requests, exceptions, and error details |
-| **Performance Logs** | Response times, resource usage, latency metrics |
-
-**Sample Log Entry:**
-
-```json
-{
-  "time": "2025-02-03T10:30:45Z",
-  "operationName": "TextAnalytics.AnalyzeSentiment",
-  "callerIPAddress": "203.0.113.45",
-  "resultSignature": "200",
-  "durationMs": 287,
-  "category": "APILog"
-}
-```
-
-</div>
+- Audit Logs - Who accessed the service and when
+- API Logs - Request and response details
+- Error Logs - Failed requests and exceptions
+- Performance Logs - Response times and resource usage
 
 #### 3️⃣ Alerts and Notifications
 
-<div style="background: #FFF3E0; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #F57C00; margin: 1rem 0;">
-
 **What are Alerts?**
 
-Automated notifications triggered when predefined conditions are met. Alerts enable proactive issue resolution before users are impacted.
+Automated notifications triggered when conditions are met. Alerts help you respond to issues before they impact users.
 
-**Alert Flow:**
+**Common Alerts:**
 
-Metrics/Logs → Alert Rule Evaluation → Condition Met → Send Notification
+| Alert Type | When to Trigger | Action |
+|-----------|-----------------|--------|
+| High Error Rate | Errors > 5% for 5 minutes | Email ops team |
+| Rate Limiting | Throttled requests > 10/min | Page engineer |
+| High Latency | Response > 2 seconds for 2 min | Alert team |
+| Cost Anomaly | Daily cost > 150% baseline | Email billing |
+| Security Issue | Failed auth > 10/min | Immediate alert |
 
-**Common Alert Scenarios:**
+**How to Create an Alert:**
 
-| Alert Type | Condition | Action |
-|-----------|-----------|--------|
-| **High Error Rate** | Errors > 5% for 5 minutes | Email ops team, trigger auto-remediation |
-| **Rate Limiting** | Throttled requests > 10/min | Page on-call engineer |
-| **High Latency** | Avg response > 2 sec for 2 min | Alert team, create support ticket |
-| **Cost Anomaly** | Daily cost > 150% of baseline | Email billing team |
-| **Security Issue** | Failed auth attempts > 10/min | Immediate alert, block suspicious IP |
+1. Open your AI service in Azure Portal
+2. Click Alerts in the left menu
+3. Click New alert rule
+4. Set the scope to your AI service
+5. Select a metric (Failed Requests, Latency, etc.)
+6. Set the condition (greater than, less than, etc.)
+7. Set the time window (5 minutes, 15 minutes, etc.)
+8. Add an action group (email, SMS, etc.)
+9. Give the alert a name and save
 
-**How to Create an Error Rate Alert:**
+**Alert Actions:**
 
-**Step 1:** Open your AI service in Azure Portal  
-**Step 2:** Click Alerts in the left menu  
-**Step 3:** Click New alert rule  
-**Step 4:** Set Scope to your AI service  
-**Step 5:** Select Metric: "Failed Requests"  
-**Step 6:** Set Condition: "Greater than 5%" for "5 minutes"  
-**Step 7:** Add Action Group to define notifications  
-**Step 8:** Choose action type: Email, SMS, Webhook, etc.  
-**Step 9:** Save alert rule with a descriptive name  
+- Email notification
+- SMS text message
+- Push notification
+- Trigger Azure Function
+- Webhook to external system
+- Create ITSM ticket (ServiceNow, Jira)
+- Trigger Logic App automation
 
-**Available Alert Actions:**
+**Best Practices:**
 
-| Action Type | Details | Use Case |
-|------------|---------|----------|
-| **Email** | Send to individuals or groups | All scenarios |
-| **SMS** | Text message to phone | Critical issues |
-| **Push Notification** | Mobile app notification | On-call teams |
-| **Azure Functions** | Trigger code automation | Auto-remediation |
-| **Webhook** | POST to custom endpoint | External tools |
-| **Logic Apps** | Trigger workflow automation | Complex orchestration |
-| **ITSM Integration** | Create tickets automatically | ServiceNow, Jira, etc. |
-
-**Best Practices for Alerts:**
-
-- Create alerts for business-critical thresholds (error rate, latency)
-- Include cost anomaly alerts to catch unexpected usage spikes
-- Set up security alerts for authentication failures
-- Route alerts to appropriate teams using action groups
-- Tune thresholds to avoid alert fatigue
+- Create alerts for critical metrics (error rate, latency)
+- Set up cost alerts to catch unexpected spikes
+- Route alerts to the right teams
+- Tune thresholds to avoid false alerts
 - Suppress alerts during maintenance windows
-- Establish escalation policies for severity levels
-
-</div>
+- Review and adjust alerts quarterly
 
 ### Monitoring Best Practices
 
-<div style="background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); padding: 1.5rem; border-radius: 10px; margin: 2rem 0;">
+**Track Key Metrics**
+- Monitor request count, latency, error rate, and throttled requests
+- Review daily trends to identify patterns
+- Set baseline performance expectations
+- Create dashboards for different teams
 
-#### Key Recommendations:
+**Enable Diagnostic Logging**
+- Turn on diagnostics from day one of production
+- Send logs to Log Analytics for real-time analysis
+- Archive to Azure Storage for compliance
+- Stream to Event Hubs for external tools
 
-**📊 Metrics Strategy**
-- Track essential metrics: request count, latency (p50, p95, p99), error rate, throttled requests
-- Review daily trends to identify patterns and anomalies
-- Set baseline performance expectations (SLA targets)
-- Create dashboards for different audiences (ops, management, engineering)
+**Set Up Alerts**
+- Create alerts for error rate, latency, and cost anomalies
+- Route alerts to appropriate teams
+- Tune thresholds to avoid false alerts
+- Suppress alerts during maintenance
 
-**📝 Diagnostic Logging**
-- Enable diagnostic settings on day one of production deployment
-- Send logs to Log Analytics for searchable, queryable data
-- Archive to Azure Storage for compliance and long-term retention
-- Stream to Event Hubs for real-time analysis with external tools
-
-**🔔 Alert Configuration**
-- Create alerts for business-critical thresholds (error rate, latency)
-- Include cost anomaly alerts to catch unexpected usage spikes
-- Set up security alerts for authentication failures
-- Use action groups to route alerts to appropriate teams
-- Avoid alert fatigue by tuning thresholds appropriately
-
-**📋 Log Analysis Practices**
-- Review audit logs monthly for access patterns and anomalies
-- Investigate error logs for recurring issues or patterns
+**Review Logs Regularly**
+- Check audit logs monthly for access patterns
+- Investigate error logs for recurring issues
 - Use Log Analytics queries to find root causes
-- Maintain compliance by auditing sensitive operations
+- Maintain compliance records
 
-**💰 Cost Optimization**
-- Monitor API usage against budget and quotas
-- Identify high-cost operations and optimize them
-- Set up budget alerts to prevent overspending
-- Review pricing tier usage and adjust if needed
+**Monitor Costs**
+- Track API usage against budget
+- Identify high-cost operations
+- Set budget alerts
+- Review pricing tier efficiency
 
-**📈 Operational Excellence**
-- Pin critical metrics to main dashboard for visibility
-- Document baseline performance for your service
-- Establish runbooks for common alerts
-- Perform regular drill exercises (chaos engineering)
+**Operational Excellence**
+- Pin critical metrics to main dashboard
+- Document baseline performance
+- Create runbooks for common alerts
 - Review monitoring strategy quarterly
-
-</div>
 
 ---
 
