@@ -83,129 +83,92 @@ Security is paramount in enterprise environments. Azure provides multiple method
 
 #### 1️⃣ Key Rotation Strategy
 
-<div style="background: #FFEBEE; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #F44336; margin: 1rem 0;">
-
 **Why Rotate Keys?**
-- 🔄 Reduces exposure from leaked credentials
-- 🛡️ Industry best practice for security
-- 📋 Compliance requirement for many organizations
 
-**How to Rotate Keys Safely:**
+- Reduces exposure from leaked credentials
+- Industry best practice for security
+- Compliance requirement for many organizations
 
-```mermaid
-flowchart LR
-    A["Active\nKey 1"] -->|Applications\nUse This| B["Production\nTraffic"]
-    
-    A -->|Step 1:\nRegenerate| C["New\nKey 2"]
-    
-    C -->|Step 2:\nSwitch Apps\nto Key 2| D["Apps Now\nUse Key 2"]
-    
-    D -->|Step 3:\nRegenerate| E["New\nKey 1"]
-    
-    E -->|Rotation\nComplete| F["Both Keys\nFresh"]
-    
-    style A fill:#E57373
-    style B fill:#4DB6AC
-    style C fill:#FFE082
-    style D fill:#4DB6AC
-    style E fill:#FFE082
-    style F fill:#81C784
-```
+**How to Rotate Keys:**
 
-**Rotation Process:**
+Step 1: Regenerate your Secondary Key (Key 2)  
+Step 2: Update all applications to use Key 2  
+Step 3: Regenerate your Primary Key (Key 1)  
+Step 4: Both keys are now fresh and secure  
 
-| Step | Action | Details |
-|------|--------|---------|
-| **1** | Regenerate Secondary Key | Generate a new Key 2 |
-| **2** | Update Applications | Switch all apps to use Key 2 |
-| **3** | Regenerate Primary Key | Generate a new Key 1 while apps use Key 2 |
-| **4** | Complete Rotation | Both keys are now fresh and secure |
+**Rotation Schedule:**
 
-**🎯 Best Practice:** Rotate keys every 90 days or when staff with access leaves your organization.
+- Rotate keys every 90 days
+- Rotate immediately when staff with access leaves
+- Rotate if you suspect a key has been compromised
 
-</div>
+**How It Works:**
+
+You have two keys (Key 1 and Key 2). When rotating:
+- Applications use one key while you regenerate the other
+- This ensures zero downtime during key rotation
+- You can regenerate keys one at a time without service interruption
 
 #### 2️⃣ Azure Key Vault Integration
 
-<div style="background: #E8F5E9; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #388E3C; margin: 1rem 0;">
-
 **The Problem:**
 
+Never hardcode credentials in your application:
+
 ```python
-# ❌ BAD: Hardcoded keys
+# BAD - Do not do this
 api_key = "abc123xyz789abc123xyz789abc123"
 endpoint = "https://ai102.cognitiveservices.azure.com/"
 ```
 
 **The Solution:**
 
-<div style="background: #E3F2FD; padding: 1rem; border-radius: 8px; margin: 1rem 0; border-left: 4px solid #1976D4;">
-
-**Azure Key Vault** is a secure vault for storing and retrieving secrets:
+Use Azure Key Vault to store and retrieve secrets securely:
 
 ```python
-# ✅ GOOD: Store keys in Key Vault
+# GOOD - Store keys in Key Vault
 from azure.identity import DefaultAzureCredential
 from azure.keyvault.secrets import SecretClient
 
-# Initialize Key Vault client
 credential = DefaultAzureCredential()
 vault_url = "https://myvault.vault.azure.net/"
 client = SecretClient(vault_url=vault_url, credential=credential)
 
-# Retrieve API key securely
 api_key = client.get_secret("ai-service-key").value
 endpoint = client.get_secret("ai-service-endpoint").value
-
-# Use credentials in your application
 ```
 
-</div>
+**Key Vault Benefits:**
 
-**Benefits:**
+| Benefit | Details |
+|---------|---------|
+| Encryption at Rest | Keys encrypted when stored in vault |
+| Encryption in Transit | Keys encrypted when retrieved |
+| Audit Logging | All access attempts logged |
+| Easy Rotation | Update secrets without redeploying |
+| Access Control | Grant vault access to specific people/apps |
 
-| Benefit | Explanation |
-|---------|-------------|
-| 🔒 **Encryption at Rest** | Keys encrypted when stored in the vault |
-| 🔑 **Encryption in Transit** | Keys encrypted when retrieved over network |
-| 📝 **Audit Logging** | All access attempts logged for compliance |
-| 🔄 **Easy Rotation** | Update secrets without redeploying apps |
-| 👥 **Access Control** | Grant vault access only to who needs it |
+**Best Practice:**
 
-**🎯 Best Practice:** Always use Key Vault for production credentials, never hardcode or commit keys to source control.
-
-</div>
+- Always use Key Vault for production credentials
+- Never hardcode keys in code
+- Never commit keys to source control
+- Grant Key Vault access only to who needs it
 
 #### 3️⃣ Managed Identity
 
-<div style="background: #F3E5F5; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #7B1FA2; margin: 1rem 0;">
+**What is Managed Identity?**
 
-**The Concept:**
-
-Managed Identity allows Azure resources (VMs, Web Apps, Functions) to authenticate to Azure AI services **without managing credentials**.
-
-```mermaid
-flowchart TB
-    A["Azure Web App\nor VM or Function"] -->|Has| B["Managed Identity"]
-    B -->|Authenticates to| C["Azure AI Services"]
-    D["No Credentials\nto Manage"] -.->|Enables| B
-    
-    style A fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
-    style B fill:#81C784,stroke:#388E3C,stroke-width:2px
-    style C fill:#FFB74D,stroke:#F57C00,stroke-width:2px
-    style D fill:#F8BBD0,stroke:#C2185B,stroke-width:2px
-```
+Managed Identity allows Azure resources (Web Apps, VMs, Functions) to authenticate to AI services without managing credentials.
 
 **How It Works:**
 
-| Step | Process |
-|------|---------|
-| **1. Enable** | Enable managed identity on your Azure resource (Web App, VM, etc.) |
-| **2. Assign Role** | Assign the identity a role (e.g., "Cognitive Services User") |
-| **3. Authenticate** | Resource automatically authenticates without storing credentials |
-| **4. Access** | Resource can call AI services using its identity |
+1. Enable managed identity on your Azure resource
+2. Assign the identity a role (e.g., "Cognitive Services User")
+3. Resource automatically authenticates without storing credentials
+4. Resource can call AI services using its identity
 
-**Example: Azure Web App calling AI Service**
+**Example: Web App calling AI Service**
 
 ```python
 from azure.identity import DefaultAzureCredential
@@ -219,30 +182,24 @@ client = TextAnalyticsClient(
     credential=credential
 )
 
-# Use client to analyze text
 result = client.analyze_sentiment(["The service is excellent!"])
 ```
 
 **Benefits:**
 
-✅ **No Secrets to Manage** - Azure handles credential generation  
-✅ **Automatic Rotation** - Azure rotates credentials automatically  
-✅ **Reduced Attack Surface** - Credentials never exposed to developers  
-✅ **Audit Trail** - All access logged with identity information
-
-</div>
+- No secrets to manage - Azure handles credential generation
+- Automatic rotation - Azure rotates credentials automatically
+- Reduced attack surface - Credentials never exposed to developers
+- Audit trail - All access logged with identity information
 
 ### Security Best Practices Summary
 
-<div style="background: linear-gradient(135deg, #FFEBEE 0%, #FFCDD2 100%); padding: 1.5rem; border-radius: 10px; margin: 1rem 0;">
-
-🔑 **Key Rotation** - Rotate credentials every 90 days  
-🔐 **Key Vault** - Store all secrets in Azure Key Vault  
-🆔 **Managed Identity** - Use for Azure-to-Azure service communication  
-🔒 **RBAC** - Grant minimum required permissions  
-📋 **Audit Logging** - Enable and review access logs regularly
-
-</div>
+- Rotate credentials every 90 days
+- Store all secrets in Azure Key Vault
+- Use managed identities for Azure-to-Azure communication
+- Grant minimum required permissions (principle of least privilege)
+- Enable and review access logs regularly
+- Never hardcode or commit credentials to source control
 
 ---
 
