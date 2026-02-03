@@ -542,11 +542,9 @@ graph TB
 
 #### Step 1: Pull the Container Image
 
-<div style="background: #E3F2FD; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #1976D2; margin: 1rem 0;">
+Azure AI container images are stored in Microsoft Container Registry (MCR).
 
-Azure AI container images are stored in **Microsoft Container Registry (MCR)**.
-
-**Example: Pull Text Analytics (Sentiment Analysis) image**
+**Pull Text Analytics (Sentiment Analysis) image:**
 
 ```bash
 docker pull mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:latest
@@ -554,25 +552,16 @@ docker pull mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:l
 
 **Available Container Images:**
 
-```
-mcr.microsoft.com/azure-cognitive-services/
-├── textanalytics/sentiment
-├── textanalytics/language
-├── vision/read
-├── vision/face
-├── speech/speech-to-text
-└── ... (many more)
-```
-
-</div>
+- mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment
+- mcr.microsoft.com/azure-cognitive-services/textanalytics/language
+- mcr.microsoft.com/azure-cognitive-services/vision/read
+- mcr.microsoft.com/azure-cognitive-services/vision/face
+- mcr.microsoft.com/azure-cognitive-services/speech/speech-to-text
+- And many more...
 
 #### Step 2: Deploy Container to Host
 
-<div style="background: #E8F5E9; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #388E3C; margin: 1rem 0;">
-
-**Deployment Options:**
-
-##### Option A: Docker Host (Local Development)
+**Option A: Docker Host (Local Development)**
 
 ```bash
 docker run --rm -it -p 5000:5000 \
@@ -584,7 +573,7 @@ docker run --rm -it -p 5000:5000 \
 
 The container starts an HTTP server on port 5000.
 
-##### Option B: Azure Container Instances
+**Option B: Azure Container Instances**
 
 Deploy without managing servers:
 
@@ -597,7 +586,7 @@ az container create \
   --environment-variables Eula=accept Billing=https://... ApiKey=...
 ```
 
-##### Option C: Azure Kubernetes Service (AKS)
+**Option C: Azure Kubernetes Service (AKS)**
 
 For large-scale, highly available deployments:
 
@@ -608,28 +597,22 @@ metadata:
   name: sentiment-analyzer
 spec:
   replicas: 3
-  template:
-    spec:
-      containers:
-      - name: sentiment
-        image: mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:latest
-        env:
-        - name: Eula
-          value: "accept"
-        - name: Billing
-          value: "https://ai102.cognitiveservices.azure.com/"
-        - name: ApiKey
-          valueFrom:
-            secretKeyRef:
-              name: ai-credentials
-              key: api-key
+  containers:
+  - name: sentiment
+    image: mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:latest
+    env:
+    - name: Eula
+      value: "accept"
+    - name: Billing
+      value: "https://ai102.cognitiveservices.azure.com/"
+    - name: ApiKey
+      valueFrom:
+        secretKeyRef:
+          name: ai-credentials
+          key: api-key
 ```
 
-</div>
-
 #### Step 3: Process Data Locally
-
-<div style="background: #FFF3E0; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #F57C00; margin: 1rem 0;">
 
 Your application sends requests to the local container:
 
@@ -639,7 +622,6 @@ Your application sends requests to the local container:
 import requests
 import json
 
-# Send request to local container
 url = "http://localhost:5000/text/analytics/v3.0/sentiment"
 
 payload = {
@@ -657,86 +639,60 @@ headers = {
     "Content-Type": "application/json"
 }
 
-# Local processing - data stays on-premises
 response = requests.post(url, json=payload, headers=headers)
 results = response.json()
-
 print(results)
 ```
 
 **Key Benefits:**
-- ✅ Data processed locally
-- ✅ Sensitive information never leaves your network
-- ✅ Instant response (no cloud latency)
-- ✅ Works offline or in restricted networks
 
-</div>
+- Data processed locally
+- Sensitive information never leaves your network
+- Instant response (no cloud latency)
+- Works offline or in restricted networks
 
 #### Step 4: Billing and Licensing
 
-<div style="background: #F3E5F5; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #7B1FA2; margin: 1rem 0;">
-
 **How Billing Works:**
 
-```mermaid
-graph LR
-    A["Container\nProcesses Data<br/>Locally"] -->|Usage Telemetry<br/>Periodic Report| B["Azure AI Service<br/>Resource"]
-    B -->|Tracks Usage| C["Azure Billing"]
-    C -->|Invoice| D["Your Account"]
-    
-    style A fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
-    style B fill:#FFE082,stroke:#F57C00,stroke-width:2px
-    style C fill:#F8BBD0,stroke:#C2185B,stroke-width:2px
-    style D fill:#CE93D8,stroke:#7B1FA2,stroke-width:2px
-```
+1. Container processes data locally
+2. Container periodically sends usage telemetry to Azure
+3. Azure AI resource tracks the usage
+4. You are charged based on actual API calls
 
-**Key Points:**
+**Requirements:**
 
-1. **Container Requires Azure Credential** - Must authenticate with your Azure AI service key
-2. **Usage Reporting** - Container periodically sends usage metrics to your Azure resource
-3. **Billing** - You're charged based on actual API calls made through the container
-4. **Licensing** - Accepts "Eula=accept" environment variable to acknowledge terms
+- Valid Azure subscription
+- Azure AI service resource created
+- API key from that resource
+- Network access to Azure (for licensing validation)
+- Container must accept Eula=accept environment variable
 
-**Requirements for Container to Function:**
-
-- ✅ Valid Azure subscription
-- ✅ Azure AI service resource created
-- ✅ API key from that resource
-- ✅ Network access to Azure (for licensing validation)
-
-</div>
-
-### Container Deployment Options Comparison
+### Container Deployment Options
 
 | Aspect | Docker Host | Container Instance | Kubernetes |
 |--------|-------------|-------------------|-----------|
-| **Setup Complexity** | Low | Medium | High |
-| **Scalability** | Manual | Limited | Unlimited |
-| **High Availability** | No | Yes | Yes |
-| **Cost** | Low | Medium | Higher |
-| **Use Case** | Development | Small production | Enterprise scale |
+| Setup Complexity | Low | Medium | High |
+| Scalability | Manual | Limited | Unlimited |
+| High Availability | No | Yes | Yes |
+| Cost | Low | Medium | Higher |
+| Use Case | Development | Small production | Enterprise scale |
 
 ### Containerization Best Practices
 
-<div style="background: linear-gradient(135deg, #E0F7FA 0%, #B3E5FC 100%); padding: 1.5rem; border-radius: 10px; margin: 1rem 0;">
-
-📦 **Use Official Images** - Always pull from Microsoft Container Registry (MCR)  
-🔐 **Secure API Keys** - Store in Key Vault, not environment variables  
-🌐 **Network Connectivity** - Containers need to reach Azure for licensing  
-📊 **Resource Limits** - Allocate sufficient CPU and memory  
-🔄 **Update Regularly** - Pull latest image versions for security patches  
-📝 **Enable Logging** - Capture container logs for troubleshooting  
-📈 **Monitor Performance** - Track container health and resource usage
-
-</div>
+- Use official images from Microsoft Container Registry
+- Store API keys in Azure Key Vault
+- Ensure containers have network access to Azure for licensing
+- Allocate sufficient CPU and memory
+- Pull latest image versions regularly for security patches
+- Enable container logging for troubleshooting
+- Monitor container health and resource usage
 
 ---
 
 ## ✅ Production Best Practices
 
-<div style="background: linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%); padding: 1.5rem; border-radius: 10px; margin: 2rem 0;">
-
-### 🔐 Security
+**Security**
 
 - Use Azure Key Vault for all credentials
 - Implement managed identities for Azure services
@@ -744,7 +700,7 @@ graph LR
 - Enable Azure RBAC for fine-grained access control
 - Audit all access attempts and API calls
 
-### 📊 Monitoring
+**Monitoring**
 
 - Track key metrics: requests, latency, errors, throttling
 - Enable diagnostic logging to Log Analytics
@@ -752,7 +708,7 @@ graph LR
 - Review logs regularly for security issues
 - Monitor costs and optimize API usage
 
-### 📦 Containerization
+**Containerization**
 
 - Use official Microsoft Container Registry images
 - Deploy with proper resource limits and requests
@@ -760,7 +716,7 @@ graph LR
 - Implement health checks and auto-restart
 - Keep images updated with latest security patches
 
-### 🏗️ Architecture
+**Architecture**
 
 - Design for failure and implement retries
 - Use exponential backoff for rate limiting
@@ -768,7 +724,7 @@ graph LR
 - Monitor quota usage and scale appropriately
 - Implement circuit breakers for fault tolerance
 
-### 📋 Compliance
+**Compliance**
 
 - Ensure data residency requirements are met
 - Use containers for sensitive on-premises data
@@ -776,21 +732,15 @@ graph LR
 - Encrypt data in transit and at rest
 - Document security and access controls
 
-</div>
-
 ---
 
 ## 📝 Summary
 
-<div style="background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); padding: 1.5rem; border-radius: 10px; margin: 1rem 0;">
-
-✅ **Secure AI Services** using key rotation, Azure Key Vault, and managed identities  
-✅ **Monitor Usage** with metrics, logs, diagnostics, and alerts  
-✅ **Deploy Containers** for on-premises processing while maintaining Azure integration  
-✅ **Operate at Scale** with enterprise-grade security and observability  
-✅ **Stay Compliant** with audit logging and data isolation
-
-</div>
+- Secure AI Services using key rotation, Azure Key Vault, and managed identities
+- Monitor Usage with metrics, logs, diagnostics, and alerts
+- Deploy Containers for on-premises processing while maintaining Azure integration
+- Operate at Scale with enterprise-grade security and observability
+- Stay Compliant with audit logging and data isolation
 
 ---
 
