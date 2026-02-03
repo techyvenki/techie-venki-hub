@@ -295,8 +295,9 @@ graph TB
 
 <div style="background: #E3F2FD; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #1976D2; margin: 1rem 0;">
 
-**What are Metrics?**  
-Numerical performance data captured at regular intervals in time-series format.
+**What are Metrics?**
+
+Numerical performance data captured at regular intervals in time-series format. Metrics help you understand how your AI service is performing in real-time.
 
 **Common AI Service Metrics:**
 
@@ -308,24 +309,21 @@ Numerical performance data captured at regular intervals in time-series format.
 | **Throttled Requests** | Calls rejected due to rate limits | Identify capacity problems |
 | **Successful Requests** | API calls that succeeded | Track reliability |
 
-**How to View Metrics:**
+**How to View Metrics in Azure Portal:**
 
-<div style="background: #F5F5F5; padding: 1rem; border-radius: 8px; margin: 1rem 0;">
+1. Open your AI service resource
+2. Click **Metrics** in the left navigation menu
+3. Select your desired timeframe (last hour, 24 hours, 7 days)
+4. Choose metric to visualize (Request Count, Latency, Error Rate, etc.)
+5. View interactive charts with trends and patterns
+6. Pin to dashboards for quick access
 
-1. 🏠 Open your **AI service resource** in Azure Portal
-2. 📊 Click **Metrics** in the left navigation menu
-3. ⏰ Select your desired **timeframe** (last hour, last 24 hours, last 7 days)
-4. 🎯 Choose **metric** to visualize (Request Count, Latency, Error Rate, etc.)
-5. 📈 View **interactive charts** with trends and patterns
-6. 📌 **Pin to dashboards** for quick access
+**Metrics Storage Details:**
 
-</div>
-
-**Metrics Storage:**
-- ✅ Retained for **30 days** by default
-- ✅ Available in **1-minute intervals**
-- ✅ Free to view in Azure Portal
-- ✅ Can export to Log Analytics for longer retention
+- Retained for 30 days by default
+- Available in 1-minute intervals
+- Free to view in Azure Portal
+- Can export to Log Analytics for longer retention (up to 2 years)
 
 </div>
 
@@ -333,74 +331,54 @@ Numerical performance data captured at regular intervals in time-series format.
 
 <div style="background: #E8F5E9; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #388E3C; margin: 1rem 0;">
 
-**What are Logs?**  
-Time-stamped records of events and changes for detailed analysis, troubleshooting, and compliance auditing.
+**What are Logs?**
+
+Time-stamped records of events and changes for detailed analysis, troubleshooting, and compliance auditing. Logs capture everything that happens in your AI service.
 
 **Diagnostic Settings Flow:**
 
-<div style="background: white; padding: 1.5rem; border-radius: 8px; margin: 1rem 0; border: 2px solid #A5D6A7;">
+Your AI service generates logs → Diagnostic settings route them to destinations:
 
-```
-AI Service Resource
-      ↓
-  Enable Diagnostic Settings
-      ↓
-  ┌─────┴─────────┬────────┐
-  ↓               ↓        ↓
-Log Analytics  Azure     Event Hubs
-              Storage    
-  ↓               ↓        ↓
-Query &       Archive   Real-time
-Analyze       Logs      Integration
-  ↓               ↓        ↓
-Monitor        Retention  Splunk/
-& Alert                   Datadog
-```
-
-</div>
+- **Log Analytics Workspace** - For querying and analyzing logs in real-time
+- **Azure Storage** - For long-term archival and compliance retention
+- **Event Hubs** - For streaming to external tools like Splunk or Datadog
 
 **Destination Options:**
 
-| Destination | Use Case | Retention | Cost |
+| Destination | Best For | Retention | Cost |
 |------------|----------|-----------|------|
-| **Log Analytics** | Query, analyze, and alert on logs | 30-730 days | Pay per GB |
-| **Azure Storage** | Long-term archive and compliance | 1-999 years | Low cost |
-| **Event Hubs** | Stream to external tools in real-time | Variable | Pay per event |
+| **Log Analytics** | Query, analyze, create alerts | 30-730 days | Pay per GB ingested |
+| **Azure Storage** | Compliance, long-term archive | Up to 999 years | Low cost storage |
+| **Event Hubs** | Real-time integration | Variable | Pay per event unit |
 
 **How to Enable Diagnostics:**
 
-<div style="background: #F5F5F5; padding: 1rem; border-radius: 8px; margin: 1rem 0;">
+**Step 1:** Open your AI service in Azure Portal  
+**Step 2:** Click Diagnostic settings in the left menu  
+**Step 3:** Click Add diagnostic setting  
+**Step 4:** Select which log categories to capture  
+**Step 5:** Choose your destination (Log Analytics, Storage, or Event Hubs)  
+**Step 6:** Name the setting and click Save  
+**Step 7:** Wait 5 minutes for logs to start flowing  
 
-**Step 1:** 🏠 Open your **AI service** in Azure Portal  
-**Step 2:** ⚙️ Click **Diagnostic settings** in the left menu  
-**Step 3:** ➕ Click **Add diagnostic setting**  
-**Step 4:** ✓ Select log categories to capture  
-**Step 5:** 🎯 Choose destination (Log Analytics, Storage, or Event Hubs)  
-**Step 6:** 💾 Name the setting and click **Save**  
-**Step 7:** ⏳ Wait 5 minutes for logs to start flowing
+**Log Categories:**
 
-</div>
-
-**Log Categories Available:**
-
-| Category | Description |
-|----------|------------|
-| 📝 **Audit Logs** | Who accessed the service, when, and from where |
-| 🔍 **API Logs** | Detailed request/response data, headers, payloads |
-| ⚠️ **Error Logs** | Failed requests, exceptions, and error details |
-| 🎯 **Performance Logs** | Timing, resource usage, latency metrics |
+| Category | What It Contains |
+|----------|-----------------|
+| **Audit Logs** | Who accessed the service, when, and from where |
+| **API Logs** | Detailed request/response data, headers, payloads |
+| **Error Logs** | Failed requests, exceptions, and error details |
+| **Performance Logs** | Response times, resource usage, latency metrics |
 
 **Sample Log Entry:**
 
 ```json
 {
-  "time": "2025-02-03T10:30:45.123Z",
-  "resourceId": "/subscriptions/xyz/resourceGroups/mygroup/providers/Microsoft.CognitiveServices/accounts/myservice",
+  "time": "2025-02-03T10:30:45Z",
   "operationName": "TextAnalytics.AnalyzeSentiment",
   "callerIPAddress": "203.0.113.45",
   "resultSignature": "200",
   "durationMs": 287,
-  "requestCount": 1,
   "category": "APILog"
 }
 ```
@@ -411,79 +389,57 @@ Monitor        Retention  Splunk/
 
 <div style="background: #FFF3E0; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #F57C00; margin: 1rem 0;">
 
-**What are Alerts?**  
-Automated notifications triggered when predefined conditions are met, enabling proactive issue resolution.
+**What are Alerts?**
 
-**Alert Processing Flow:**
+Automated notifications triggered when predefined conditions are met. Alerts enable proactive issue resolution before users are impacted.
 
-<div style="background: white; padding: 1.5rem; border-radius: 8px; margin: 1rem 0; border: 2px solid #FFE0B2;">
+**Alert Flow:**
 
-```
-Metrics/Logs Data
-      ↓
-Evaluate Alert Rule
-  (Check Conditions)
-      ↓
-   ┌─ YES ─┬─ NO ─┐
-   ↓       ↓
-Create   Exit
-Alert
-   ↓
-Notify Teams
-   ↓
-┌──┴────┬──────┬────────┬─────┐
-↓       ↓      ↓        ↓     ↓
-📧      💬     🔔      🚀    🔗
-Email   SMS   Push    Auto   Web
-             Notif   Action  hook
-```
-
-</div>
+Metrics/Logs → Alert Rule Evaluation → Condition Met → Send Notification
 
 **Common Alert Scenarios:**
 
 | Alert Type | Condition | Action |
 |-----------|-----------|--------|
-| 📈 **High Error Rate** | Errors > 5% for 5 min | 📧 Email ops + 🚀 Auto-remediate |
-| 🛑 **Rate Limiting** | Throttled requests > 10/min | ⏰ Page on-call engineer |
-| ⏱️ **High Latency** | Avg response > 2 sec for 2 min | 🔔 Alert + 📋 Create ticket |
-| 💸 **Cost Anomaly** | Daily cost > 150% baseline | 📧 Email billing team |
-| 🔒 **Security Issue** | Failed auth > 10/min | 🔔 Immediate + 🚀 Block IP |
+| **High Error Rate** | Errors > 5% for 5 minutes | Email ops team, trigger auto-remediation |
+| **Rate Limiting** | Throttled requests > 10/min | Page on-call engineer |
+| **High Latency** | Avg response > 2 sec for 2 min | Alert team, create support ticket |
+| **Cost Anomaly** | Daily cost > 150% of baseline | Email billing team |
+| **Security Issue** | Failed auth attempts > 10/min | Immediate alert, block suspicious IP |
 
-**Step-by-Step: Create an Error Rate Alert**
+**How to Create an Error Rate Alert:**
 
-<div style="background: #F5F5F5; padding: 1rem; border-radius: 8px; margin: 1rem 0;">
-
-**Step 1:** 🏠 Open your **AI service** in Azure Portal  
-**Step 2:** 🔔 Click **Alerts** in the left menu  
-**Step 3:** ➕ Click **New alert rule**  
-**Step 4:** 📊 Set **Scope** to your AI service  
-**Step 5:** 📈 Select **Metric**: "Failed Requests"  
-**Step 6:** ⚙️ Set **Condition**: "Greater than 5%" / "For 5 minutes"  
-**Step 7:** ➕ Add **Action Group** to define notifications  
-**Step 8:** 📧 Choose action type: Email, SMS, Webhook, etc.  
-**Step 9:** 💾 **Save alert rule** with a descriptive name
-
-</div>
+**Step 1:** Open your AI service in Azure Portal  
+**Step 2:** Click Alerts in the left menu  
+**Step 3:** Click New alert rule  
+**Step 4:** Set Scope to your AI service  
+**Step 5:** Select Metric: "Failed Requests"  
+**Step 6:** Set Condition: "Greater than 5%" for "5 minutes"  
+**Step 7:** Add Action Group to define notifications  
+**Step 8:** Choose action type: Email, SMS, Webhook, etc.  
+**Step 9:** Save alert rule with a descriptive name  
 
 **Available Alert Actions:**
 
 | Action Type | Details | Use Case |
 |------------|---------|----------|
-| 📧 **Email** | Send to individuals or groups | All scenarios |
-| 💬 **SMS** | Text message to phone | Critical issues |
-| 🔔 **Push Notification** | Mobile app notification | On-call teams |
-| 🚀 **Azure Functions** | Trigger code automation | Auto-remediation |
-| 🔗 **Webhook** | POST to custom endpoint | External tools |
-| 📋 **Logic Apps** | Trigger workflow automation | Complex orchestration |
-| 🎫 **ITSM Integration** | Create tickets automatically | ServiceNow, Jira, etc. |
+| **Email** | Send to individuals or groups | All scenarios |
+| **SMS** | Text message to phone | Critical issues |
+| **Push Notification** | Mobile app notification | On-call teams |
+| **Azure Functions** | Trigger code automation | Auto-remediation |
+| **Webhook** | POST to custom endpoint | External tools |
+| **Logic Apps** | Trigger workflow automation | Complex orchestration |
+| **ITSM Integration** | Create tickets automatically | ServiceNow, Jira, etc. |
 
-**Advanced: Alert Suppression**
+**Best Practices for Alerts:**
 
-- ⏱️ **Suppress during maintenance windows** - Avoid false alerts during updates
-- 📅 **Weekend/off-hours rules** - Don't alert for non-critical issues at night
-- 🔄 **Action throttling** - Limit notification frequency to avoid alert fatigue
-- 👥 **Escalation policies** - Alert different teams based on severity
+- Create alerts for business-critical thresholds (error rate, latency)
+- Include cost anomaly alerts to catch unexpected usage spikes
+- Set up security alerts for authentication failures
+- Route alerts to appropriate teams using action groups
+- Tune thresholds to avoid alert fatigue
+- Suppress alerts during maintenance windows
+- Establish escalation policies for severity levels
 
 </div>
 
