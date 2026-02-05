@@ -34,19 +34,11 @@ description: Master production-grade Azure AI deployment with enterprise securit
 
 By the end of this section, you will be able to:
 
-<div style="background: #E3F2FD; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #1976D2; margin: 1rem 0;">
-
-- ✅ **Authenticate and secure AI services** using key rotation, Azure Key Vault, and managed identities
-
-- ✅ **Monitor and optimize AI usage** by tracking metrics, viewing logs, and analyzing performance data
-
-- ✅ **Deploy AI services in containers** for local processing while maintaining billing and licensing with Azure
-
-- ✅ **Operate AI services in production environments** with enterprise-grade security and observability
-
-- ✅ **Implement data isolation and compliance** requirements for sensitive workloads
-
-</div>
+- Authenticate and secure AI services using key rotation, Azure Key Vault, and managed identities
+- Monitor and optimize AI usage by tracking metrics, viewing logs, and analyzing performance data
+- Deploy AI services in containers for local processing while maintaining billing and licensing with Azure
+- Operate AI services in production environments with enterprise-grade security and observability
+- Implement data isolation and compliance requirements for sensitive workloads
 
 ---
 
@@ -54,24 +46,14 @@ By the end of this section, you will be able to:
 
 Building AI solutions is just the beginning. True success in enterprise environments requires:
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+**Security Management**
+Protect API keys, manage credentials, and ensure only authorized applications access your AI services.
 
-<div style="background: #FFF3E0; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #F57C00;">
-  <h3 style="margin-top: 0; color: #F57C00;">🔐 Security Management</h3>
-  <p>Protect API keys, manage credentials, and ensure only authorized applications access your AI services.</p>
-</div>
+**Observability**
+Track performance, identify issues, and optimize costs through comprehensive monitoring and analytics.
 
-<div style="background: #E8F5E9; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #388E3C;">
-  <h3 style="margin-top: 0; color: #388E3C;">📊 Observability</h3>
-  <p>Track performance, identify issues, and optimize costs through comprehensive monitoring and analytics.</p>
-</div>
-
-<div style="background: #E0F7FA; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #00838F;">
-  <h3 style="margin-top: 0; color: #00838F;">📦 Containerization</h3>
-  <p>Run AI models locally in controlled environments while maintaining compliance and data sovereignty.</p>
-</div>
-
-</div>
+**Containerization**
+Run AI models locally in controlled environments while maintaining compliance and data sovereignty.
 
 ---
 
