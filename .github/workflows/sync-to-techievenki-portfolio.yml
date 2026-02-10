@@ -16,6 +16,10 @@ jobs:
         with:
           fetch-depth: 0  # Get full history
           token: ${{ secrets.OMNISTACK_TOKEN }}
+          lfs: true  # Add this line to fetch LFS files
+
+      - name: Checkout LFS objects
+        run: git lfs pull  # Ensure all LFS objects are downloaded
 
       - name: Push to techievenki portfolio repository
         env:
