@@ -15,18 +15,18 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Get full history
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.OMNISTACK_TOKEN }}
 
       - name: Push to techievenki portfolio repository
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OMNISTACK_TOKEN: ${{ secrets.OMNISTACK_TOKEN }}
         run: |
           # Configure git
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           
           # Add the techievenki portfolio repo as a remote
-          git remote add techievenki https://x-access-token:${GITHUB_TOKEN}@github.com/techyvenki/omnistack.git
+          git remote add techievenki https://x-access-token:${OMNISTACK_TOKEN}@github.com/techyvenki/omnistack.git
           
           # Push to techievenki portfolio repo (force push to keep them identical)
           git push techievenki HEAD:main --force
