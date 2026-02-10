@@ -25,7 +25,7 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           
-          # Add the techievenki portfolio repo as a remote
+          # Add the techievenki portfolio repo as a remote.
           git remote add techievenki https://x-access-token:${OMNISTACK_TOKEN}@github.com/techyvenki/omnistack.git
           
           # Push to techievenki portfolio repo (force push to keep them identical)
