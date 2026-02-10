@@ -26,9 +26,9 @@ jobs:
           git config --global user.email "actions@github.com"
           
           # Add the techievenki portfolio repo as a remote
-          git remote add techievenki https://x-access-token:${GITHUB_TOKEN}@github.com/techyvenki/techievenki-portfolio.git
+          git remote add techievenki https://x-access-token:${GITHUB_TOKEN}@github.com/techyvenki/omnistack.git
           
           # Push to techievenki portfolio repo (force push to keep them identical)
           git push techievenki HEAD:main --force
           
-          echo "✅ Successfully synced to techievenki-portfolio repository!"
+          echo "✅ Successfully synced to omnistack repository!"
