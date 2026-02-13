@@ -97,7 +97,7 @@ block-beta
 Building production AI applications typically requires assembling multiple packages:
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#EA4335', 'primaryTextColor': '#fff', 'primaryBorderColor': '#C5221F', 'lineColor': '#5F6368'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#151152', 'primaryTextColor': '#fff', 'primaryBorderColor': '#C5221F', 'lineColor': '#5F6368'}}}%%
 block-beta
     columns 6
     
@@ -111,9 +111,8 @@ block-beta
         langchain["🔗 LangChain<br/>(Chains)"]
         langgraph["📊 LangGraph<br/>(State)"]
         langsmith["🔍 LangSmith<br/>(Monitor)"]
-        memoryPkg["🧠 Memory<br/>(External)"]
         vectordb["🗄️ Vector DB<br/>(External)"]
-        result["= 5+ packages"]
+        result["= 4+ packages"]
     end
     
     space:6
@@ -127,11 +126,10 @@ block-beta
         space
     end
 
-    style tradTitle fill:#EA4335,stroke:#C5221F,color:#fff
+    style tradTitle fill:#151152,stroke:#C5221F,color:#fff
     style langchain fill:#5F6368,stroke:#3C4043,color:#fff
     style langgraph fill:#5F6368,stroke:#3C4043,color:#fff
     style langsmith fill:#5F6368,stroke:#3C4043,color:#fff
-    style memoryPkg fill:#5F6368,stroke:#3C4043,color:#fff
     style vectordb fill:#5F6368,stroke:#3C4043,color:#fff
     style result fill:#FBBC05,stroke:#F9AB00,color:#202124
     style issue1 fill:#FCE8E6,stroke:#F5C6C2,color:#C5221F
