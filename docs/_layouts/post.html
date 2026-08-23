@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<style>
+  .post-meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+
+  .post-meta-right {
+    margin-left: auto;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 768px) {
+    .post-meta-right {
+      width: 100%;
+      text-align: right;
+    }
+  }
+</style>
+
+<div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1><b>{{ page.title }}</b></h1>
+
+  <p class="post-metadata text-muted">
+    <span class="post-meta-row">
+      <span>
+        <b>
+        {%- assign words = content | number_of_words -%}
+        {%- if words < 360 -%}
+          less than 1 min read time
+        {%- else -%}
+          {{ words | divided_by: 180 }} mins read time
+        {%- endif -%}
+        </b>
+      </span>
+      <span class="post-meta-right">Published: {{ page.date | date_to_long_string }}</span>
+    </span>
+
+    {%- if page.tags != empty -%}
+      Tags:
+      {% for tag in page.tags %}
+      <a class="text-decoration-none no-underline" href="{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
+        <span class="tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
+      </a>
+      {% endfor %}
+    {%- endif -%}
+  </p>
+
+  {{ content }}
+</div>

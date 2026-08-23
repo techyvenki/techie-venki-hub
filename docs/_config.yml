@@ -46,6 +46,7 @@ defaults:
       path: ""
       type: "posts"
     values:
+      layout: "post"
       comments: false
 
 ### Exclude from processing ###
