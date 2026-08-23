@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compression — LLM from scratch · Stage 5</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#182430; --ink-soft:#4b5b6a; --ink-faint:#7d8b98;
+    --paper:#eef1f3; --surface:#ffffff; --surface-2:#f6f8f9;
+    --line:#d7dee2; --line-soft:#e6ebee;
+    --accent:#0e7c86; --accent-ink:#0a5158; --accent-bg:#dcecee;
+    --amber:#9a6a12; --amber-bg:#f4e9d4;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:"Inter",system-ui,sans-serif; line-height:1.65; padding:clamp(20px,5vw,64px) clamp(16px,5vw,40px)}
+  .brandbar{display:flex; align-items:center; gap:9px; margin-bottom:22px; font-family:"JetBrains Mono",monospace; font-size:12.5px}
+  .brandbar a{color:var(--ink); text-decoration:none; font-weight:700; letter-spacing:.01em}
+  .brandbar a:hover{color:var(--accent-ink)}
+  .brandbar .sep{color:var(--line)}
+  .brandbar .series{color:var(--ink-faint)}
+  .wrap{max-width:860px;margin:0 auto}
+
+  .eyebrow{font-family:"JetBrains Mono",monospace; font-size:12px; font-weight:500; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-ink); display:flex; align-items:center; gap:10px; margin:0 0 18px}
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--accent)}
+  h1{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:clamp(30px,6vw,46px); line-height:1.08; letter-spacing:-.02em; margin:0 0 14px}
+  .thesis{font-size:clamp(16px,2.4vw,19px); color:var(--ink-soft); max-width:62ch; margin:0}
+
+  .panel{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:clamp(20px,3.5vw,32px); margin-top:clamp(28px,5vw,44px)}
+  .panel-head{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; margin-bottom:6px}
+  .panel-num{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:13px; color:var(--accent); border:1px solid var(--accent); border-radius:6px; padding:2px 8px}
+  h2{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:clamp(20px,3vw,25px); margin:0; letter-spacing:-.01em}
+  .lede{color:var(--ink-soft); font-size:15px; margin:10px 0 22px; max-width:62ch}
+  label.field{display:block; font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-faint); margin:0 0 8px}
+  button:focus-visible,input:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+  .seg{display:inline-flex; flex-wrap:wrap; border:1px solid var(--line); border-radius:10px; overflow:hidden}
+  .seg button{font-family:"JetBrains Mono",monospace; font-size:13px; padding:9px 15px; border:0; background:var(--surface); color:var(--ink-soft); cursor:pointer; border-right:1px solid var(--line)}
+  .seg button:last-child{border-right:0}
+  .seg button[aria-pressed="true"]{background:var(--accent); color:#fff}
+
+  .qviz{overflow-x:auto; margin:18px 0 10px}
+  .qviz svg{display:block; min-width:460px; width:100%; height:auto}
+
+  .readouts{display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden; margin-top:16px}
+  @media(max-width:600px){.readouts{grid-template-columns:1fr 1fr}}
+  .ro{background:var(--surface); padding:14px 16px}
+  .ro .num{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:clamp(18px,3.5vw,24px); color:var(--ink); line-height:1}
+  .ro .num.accent{color:var(--accent)}
+  .ro .cap{font-family:"JetBrains Mono",monospace; font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-faint); margin-top:6px}
+  .qverdict{margin-top:14px; padding:13px 16px; border-radius:10px; background:var(--surface-2); border:1px solid var(--line); font-size:14px; color:var(--ink-soft)}
+  .qverdict b{color:var(--accent-ink)}
+
+  /* distillation */
+  .barcmp{display:flex; flex-direction:column; gap:12px; margin:8px 0 18px}
+  .brow{display:flex; align-items:center; gap:12px}
+  .brow .lab{width:150px; font-size:13px; color:var(--ink-soft)}
+  .brow .lab b{display:block; font-family:"JetBrains Mono",monospace; font-size:11px; color:var(--ink-faint); font-weight:500}
+  .brow .track{flex:1; background:var(--line-soft); border-radius:6px; height:26px; overflow:hidden}
+  .brow .fill{height:100%; border-radius:6px; display:flex; align-items:center; justify-content:flex-end; padding-right:8px; font-family:"JetBrains Mono",monospace; font-size:12px; color:#fff}
+  .fill.teacher{background:var(--ink-soft)}
+  .fill.scratch{background:#b98a3e}
+  .fill.distilled{background:var(--accent)}
+  .dk-toggle{margin:10px 0 14px}
+  .dk-box{border:1px solid var(--line); border-radius:10px; padding:16px; background:var(--surface-2)}
+  .dk-box .prompt{font-family:"JetBrains Mono",monospace; font-size:13.5px; margin-bottom:12px; color:var(--ink)}
+  .dk-bars .r{display:flex; align-items:center; gap:10px; margin:4px 0}
+  .dk-bars .w{font-family:"JetBrains Mono",monospace; font-size:12px; width:64px; text-align:right; color:var(--ink-soft)}
+  .dk-bars .t{flex:1; background:var(--line-soft); border-radius:4px; height:16px; overflow:hidden}
+  .dk-bars .f{display:block; height:100%; background:var(--accent); border-radius:4px}
+  .dk-bars .p{font-family:"JetBrains Mono",monospace; font-size:11px; width:38px; color:var(--ink-faint)}
+  .dk-cap{font-family:"JetBrains Mono",monospace; font-size:11.5px; color:var(--accent-ink); margin-top:10px}
+
+  /* MoE */
+  .moe-ctl{display:flex; flex-wrap:wrap; gap:20px; align-items:center; margin-bottom:18px}
+  .moe-ctl .g{display:flex; align-items:center; gap:12px}
+  input[type=range]{accent-color:var(--accent); height:22px; width:150px}
+  .kval{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:14px; color:var(--accent-ink); min-width:64px}
+  .nextbtn{font-family:"JetBrains Mono",monospace; font-size:13px; font-weight:700; color:#fff; background:var(--accent); border:0; border-radius:9px; padding:10px 16px; cursor:pointer}
+  .nextbtn:hover{background:var(--accent-ink)}
+  .router{font-family:"JetBrains Mono",monospace; font-size:12px; color:var(--ink-soft); text-align:center; margin-bottom:6px}
+  .router b{color:var(--accent-ink)}
+  .expert-grid{display:grid; grid-template-columns:repeat(8,1fr); gap:7px; margin:12px 0}
+  @media(max-width:600px){.expert-grid{grid-template-columns:repeat(6,1fr)}}
+  .exp{aspect-ratio:1; border-radius:7px; background:var(--surface-2); border:1px solid var(--line); display:flex; align-items:center; justify-content:center; font-family:"JetBrains Mono",monospace; font-size:10px; color:var(--ink-faint); transition:.18s}
+  .exp.on{background:var(--accent); color:#fff; border-color:var(--accent); transform:scale(1.05)}
+  .exp.shared{background:var(--amber-bg); border-color:var(--amber); color:var(--amber)}
+  .shared-row{display:flex; gap:7px; align-items:center; margin-bottom:12px; font-family:"JetBrains Mono",monospace; font-size:11px; color:var(--ink-faint)}
+  .shared-row .exp{width:38px; flex:none}
+
+  .note{font-size:14px; color:var(--ink-soft); background:var(--amber-bg); border-left:3px solid var(--amber); border-radius:0 8px 8px 0; padding:12px 16px; margin-top:20px}
+  .note b{color:var(--amber)}
+
+  .nav{display:flex; justify-content:space-between; margin-top:30px; font-family:"JetBrains Mono",monospace; font-size:13px; gap:16px}
+  .nav a{color:var(--accent-ink); text-decoration:none}
+  .nav a:hover{text-decoration:underline}
+  .nav .disabled{color:var(--ink-faint)}
+  footer{margin-top:30px; padding-top:20px; border-top:1px solid var(--line); font-size:13px; color:var(--ink-faint); font-family:"JetBrains Mono",monospace; letter-spacing:.04em}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brandbar"><a href="https://techievenki.ai">TechieVenki</a><span class="sep">/</span><span class="series">LLM from scratch</span></div>
+
+  <p class="eyebrow">LLM from scratch · Stage 5</p>
+  <h1>Compression</h1>
+  <p class="thesis">A trained model is enormous. Three techniques make it small and cheap enough to actually run — and each is a different trick: shrink every number (quantization), train a small model to copy a big one (distillation), or only switch on part of the model per token (mixture-of-experts).</p>
+
+  <section class="panel" aria-labelledby="p1">
+    <div class="panel-head"><span class="panel-num">A</span><h2 id="p1">Quantization — fewer bits per weight</h2></div>
+    <p class="lede">A weight is just a number. Store it in fewer bits and the whole model shrinks. The cost is precision: with fewer bits, each weight snaps to a coarser grid. Change the precision and watch the grid — and the trade-offs — move. This is the <a href="01-tokens-and-parameters.html">4-bit / 8-bit / bf16</a> choice you'll see on every open-weight model card.</p>
+
+    <label class="field">Bits per weight</label>
+    <div class="seg" id="qseg" role="group" aria-label="Precision">
+      <button data-b="16" aria-pressed="false">16-bit</button>
+      <button data-b="8" aria-pressed="false">8-bit</button>
+      <button data-b="4" aria-pressed="true">4-bit</button>
+      <button data-b="3" aria-pressed="false">3-bit</button>
+      <button data-b="2" aria-pressed="false">2-bit</button>
+    </div>
+
+    <div class="qviz" id="qviz"></div>
+
+    <div class="readouts">
+      <div class="ro"><div class="num" id="q-bpw">0.5</div><div class="cap">Bytes / weight</div></div>
+      <div class="ro"><div class="num accent" id="q-size">15 GB</div><div class="cap">27B model on disk</div></div>
+      <div class="ro"><div class="num" id="q-spd">3.0×</div><div class="cap">Relative speed</div></div>
+      <div class="ro"><div class="num" id="q-qual">97%</div><div class="cap">Quality retained</div></div>
+    </div>
+    <div class="qverdict" id="q-verdict"></div>
+
+    <p class="note"><b>Why fewer bits runs faster.</b> Generating a token means reading every weight from memory. Local inference is limited by memory bandwidth, not math — so halving the bytes per weight roughly doubles the tokens per second. That's the counterintuitive part: <b>4-bit is both the smallest and the fastest</b>, and nearly lossless. Below 4-bit, quality falls off a cliff.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="p2">
+    <div class="panel-head"><span class="panel-num">B</span><h2 id="p2">Distillation — a big model teaches a small one</h2></div>
+    <p class="lede">Train a small "student" to imitate a large "teacher" instead of learning from raw text alone. The student ends up far better than an identical model trained from scratch — this is the main reason a 27B model can rival something many times its size.</p>
+
+    <div class="barcmp" id="distbars"></div>
+
+    <div class="dk-toggle">
+      <button class="seg" style="padding:0"><span></span></button>
+    </div>
+    <label class="field">The secret: "dark knowledge"</label>
+    <p class="lede" style="margin-top:0">A hard label says only the right answer. A teacher hands over its <em>whole</em> probability distribution — including which wrong answers are almost right. That richer signal is what the student learns from. Toggle to compare.</p>
+    <div class="seg" id="dkseg" role="group" style="margin-bottom:14px">
+      <button data-dk="hard" aria-pressed="true">Hard label</button>
+      <button data-dk="soft" aria-pressed="false">Teacher's soft targets</button>
+    </div>
+    <div class="dk-box">
+      <div class="prompt">Input: “The capital of France is ___”</div>
+      <div class="dk-bars" id="dkbars"></div>
+      <div class="dk-cap" id="dkcap"></div>
+    </div>
+
+    <p class="note" style="background:var(--surface-2);border-left-color:var(--accent);color:var(--ink-soft)">The soft targets quietly teach geography: the student learns Lyon is a French city (plausible) while London is not (a different country) — a distinction a one-hot label can't convey. Modern small models are almost always distilled from a much larger sibling; it's the compression step that happens <b style="color:var(--accent-ink)">during</b> training, not after.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="p3">
+    <div class="panel-head"><span class="panel-num">C</span><h2 id="p3">Mixture-of-experts — only pay for what you use</h2></div>
+    <p class="lede">Instead of one big network, use many small "expert" networks and a router that picks just a few per token. The model can be huge in total knowledge while only a fraction switches on for any given word. Drag the router and step through tokens.</p>
+
+    <div class="moe-ctl">
+      <div class="g"><label class="field" style="margin:0">Experts used per token</label><input type="range" id="k" min="1" max="8" value="4"><span class="kval" id="kval">4 of 32</span></div>
+      <button class="nextbtn" id="nexttok">↻ next token</button>
+    </div>
+
+    <div class="router" id="routerline"></div>
+    <div class="shared-row"><span>Always on:</span><div class="exp shared">S1</div><div class="exp shared">S2</div><span>shared experts</span></div>
+    <div class="expert-grid" id="grid"></div>
+
+    <div class="readouts" style="grid-template-columns:repeat(3,1fr)">
+      <div class="ro"><div class="num" id="m-total">102B</div><div class="cap">Total parameters</div></div>
+      <div class="ro"><div class="num accent" id="m-active">18B</div><div class="cap">Active this token</div></div>
+      <div class="ro"><div class="num" id="m-ratio">18%</div><div class="cap">Switched on</div></div>
+    </div>
+
+    <p class="note"><b>This is Kimi K3, and why it isn't Qwen3.8.</b> The real Kimi K3 has <b>2.8 trillion</b> total parameters but activates only about <b>104 billion</b> per token — 16 routed experts out of 896, plus 2 shared. It "knows" like a 2.8T model but "runs" like a 104B one. Qwen3.8-27B is <i>dense</i> — every parameter fires every token — which is why it's simpler and smaller. Same efficiency goal, two different answers.</p>
+  </section>
+
+  <div class="nav">
+    <a href="04-post-training.html">← Stage 4 · Post-training</a>
+    <a href="06-architecture-patterns.html">Stage 6 · Architecture patterns →</a>
+  </div>
+  <footer><a href="https://techievenki.ai" style="color:inherit;text-decoration:none">techievenki.ai</a> — LLM from scratch — 05 / 07</footer>
+</div>
+
+<script>
+/* ---------------- Panel A: quantization ---------------- */
+const BITS={
+  16:{bpw:2,    ov:1.0,  q:100, spd:1.0, note:'Full precision — the reference every other setting is judged against.'},
+  8: {bpw:1,    ov:1.06, q:99.5,spd:1.8, note:'Effectively lossless. If you have the memory, you pay almost nothing in quality.'},
+  4: {bpw:0.5,  ov:1.12, q:97,  spd:3.0, note:'Tiny loss — the sweet spot most people run. Smallest useful size, fastest tokens.'},
+  3: {bpw:0.375,ov:1.15, q:90,  spd:3.6, note:'Noticeable degradation on hard reasoning and long tasks. Use only when memory forces it.'},
+  2: {bpw:0.25, ov:1.18, q:68,  spd:4.0, note:'Usually breaks down — still mostly research territory.'}
+};
+const SAMPLE=[-0.82,-0.44,-0.12,0.06,0.35,0.63,0.9];
+let qb=4;
+
+function drawQ(){
+  const W=560,H=150,PL=20,PR=20,AY=95;
+  const L=Math.pow(2,qb);
+  const x=v=>PL+((v+1)/2)*(W-PL-PR);
+  let g=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+  g+=`<text x="${PL}" y="24" font-family="JetBrains Mono" font-size="11" fill="var(--ink-faint)">${L>1024?L.toLocaleString():L} levels available ${L<=16?'':'— effectively continuous'}</text>`;
+  g+=`<line x1="${PL}" y1="${AY}" x2="${W-PR}" y2="${AY}" stroke="var(--line)" stroke-width="1.5"/>`;
+  // level ticks (only when few enough to see)
+  if(L<=16){
+    for(let i=0;i<L;i++){ const v=-1+i*(2/(L-1)); const xx=x(v);
+      g+=`<line x1="${xx}" y1="${AY-6}" x2="${xx}" y2="${AY+6}" stroke="var(--accent)" stroke-width="1.5" opacity="0.55"/>`; }
+  } else {
+    for(let i=0;i<=40;i++){ const xx=PL+i/40*(W-PL-PR); g+=`<line x1="${xx}" y1="${AY-3}" x2="${xx}" y2="${AY+3}" stroke="var(--accent)" stroke-width="1" opacity="0.25"/>`; }
+  }
+  // samples: original (faint, above) snapped (accent, on axis), error connector
+  let err=0;
+  SAMPLE.forEach(v=>{
+    let snapped;
+    if(L<=1) snapped=0; else { const step=2/(L-1); snapped=-1+Math.round((v+1)/step)*step; }
+    err+=Math.abs(v-snapped);
+    const ox=x(v), oy=AY-42, sx=x(snapped);
+    g+=`<line x1="${ox}" y1="${oy}" x2="${sx}" y2="${AY}" stroke="var(--amber)" stroke-width="1" opacity="0.5"/>`;
+    g+=`<circle cx="${ox}" cy="${oy}" r="4" fill="none" stroke="var(--ink-faint)" stroke-width="1.3"/>`;
+    g+=`<circle cx="${sx}" cy="${AY}" r="4.5" fill="var(--accent)"/>`;
+  });
+  g+=`<text x="${PL}" y="${H-8}" font-family="JetBrains Mono" font-size="10.5" fill="var(--ink-faint)">○ true weight &#160;&#160; ● stored (snapped) &#160;&#160; avg rounding error: ${(err/SAMPLE.length).toFixed(3)}</text>`;
+  g+=`</svg>`;
+  document.getElementById('qviz').innerHTML=g;
+}
+function renderQ(){
+  const d=BITS[qb];
+  drawQ();
+  document.getElementById('q-bpw').textContent = qb===4?'0.5':qb===3?'0.38':qb===2?'0.25':d.bpw.toFixed(0);
+  const gb=27e9*d.bpw*d.ov/1e9;
+  document.getElementById('q-size').textContent=(gb>=100?Math.round(gb):gb.toFixed(0))+' GB';
+  document.getElementById('q-spd').textContent=d.spd.toFixed(1)+'×';
+  document.getElementById('q-qual').textContent=d.q+'%';
+  document.getElementById('q-verdict').innerHTML='<b>'+qb+'-bit:</b> '+d.note;
+}
+document.getElementById('qseg').addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b)return; qb=+b.dataset.b; [...e.currentTarget.children].forEach(c=>c.setAttribute('aria-pressed',c===b)); renderQ(); });
+
+/* ---------------- Panel B: distillation ---------------- */
+const DIST=[
+  {lab:'Teacher', sub:'400B, trained on raw text', q:100, cls:'teacher'},
+  {lab:'Student, from scratch', sub:'27B, raw text only', q:78, cls:'scratch'},
+  {lab:'Student, distilled', sub:'27B, learns from teacher', q:93, cls:'distilled'}
+];
+document.getElementById('distbars').innerHTML=DIST.map(d=>
+  `<div class="brow"><div class="lab">${d.lab}<b>${d.sub}</b></div><div class="track"><div class="fill ${d.cls}" style="width:${d.q}%">${d.q}</div></div></div>`).join('');
+
+const DK={
+  hard:{bars:[['Paris',100]], cap:'A one-hot label: right answer, nothing else. The student learns "Paris" and no relationships.'},
+  soft:[['Paris',88],['Lyon',5],['Marseille',3],['Nice',2],['London',1],['the',1]]
+};
+function renderDK(mode){
+  const box=document.getElementById('dkbars');
+  const bars = mode==='hard'?DK.hard.bars:DK.soft;
+  box.innerHTML=bars.map(([w,p])=>`<div class="r"><span class="w">${w}</span><span class="t"><span class="f" style="width:${p}%"></span></span><span class="p">${p}%</span></div>`).join('');
+  document.getElementById('dkcap').textContent = mode==='hard'
+    ? '▸ Hard label — one bar, no nuance.'
+    : '▸ Soft targets — the teacher reveals that Lyon and Marseille are plausible (French cities) and London is not.';
+}
+document.getElementById('dkseg').addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b)return; [...e.currentTarget.children].forEach(c=>c.setAttribute('aria-pressed',c===b)); renderDK(b.dataset.dk); });
+
+/* ---------------- Panel C: MoE ---------------- */
+const N=32, PER=3, SHARED=2; // per-expert 3B (illustrative)
+let k=4, active=[];
+function reroute(){
+  const idx=[...Array(N).keys()];
+  for(let i=idx.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [idx[i],idx[j]]=[idx[j],idx[i]]; }
+  active=idx.slice(0,k).sort((a,b)=>a-b);
+}
+function renderMoE(){
+  document.getElementById('kval').textContent=k+' of '+N;
+  const grid=document.getElementById('grid'); grid.innerHTML='';
+  for(let i=0;i<N;i++){ const d=document.createElement('div'); d.className='exp'+(active.includes(i)?' on':''); d.textContent='E'+(i+1); grid.appendChild(d); }
+  const totalActiveExperts=k+SHARED, totalExperts=N+SHARED;
+  const total=totalExperts*PER, act=totalActiveExperts*PER;
+  document.getElementById('m-total').textContent=total+'B';
+  document.getElementById('m-active').textContent=act+'B';
+  document.getElementById('m-ratio').textContent=Math.round(act/total*100)+'%';
+  document.getElementById('routerline').innerHTML=`Router sends this token to <b>${k}</b> routed experts (${active.map(i=>'E'+(i+1)).join(', ')}) + 2 shared`;
+}
+document.getElementById('k').addEventListener('input',e=>{ k=+e.target.value; reroute(); renderMoE(); });
+document.getElementById('nexttok').addEventListener('click',()=>{ reroute(); renderMoE(); });
+
+renderQ(); renderDK('hard'); reroute(); renderMoE();
+</script>
+</body>
+</html>

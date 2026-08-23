@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Serving &amp; inference — LLM from scratch · Stage 7</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#182430; --ink-soft:#4b5b6a; --ink-faint:#7d8b98;
+    --paper:#eef1f3; --surface:#ffffff; --surface-2:#f6f8f9;
+    --line:#d7dee2; --line-soft:#e6ebee;
+    --accent:#0e7c86; --accent-ink:#0a5158; --accent-bg:#dcecee;
+    --coral:#c0563d; --coral-bg:#f4ddd5;
+    --amber:#9a6a12; --amber-bg:#f4e9d4;
+    --green:#2f7d4f; --green-bg:#dcefe2;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:"Inter",system-ui,sans-serif; line-height:1.65; padding:clamp(20px,5vw,64px) clamp(16px,5vw,40px)}
+  .brandbar{display:flex; align-items:center; gap:9px; margin-bottom:22px; font-family:"JetBrains Mono",monospace; font-size:12.5px}
+  .brandbar a{color:var(--ink); text-decoration:none; font-weight:700; letter-spacing:.01em}
+  .brandbar a:hover{color:var(--accent-ink)}
+  .brandbar .sep{color:var(--line)}
+  .brandbar .series{color:var(--ink-faint)}
+  .wrap{max-width:860px;margin:0 auto}
+
+  .eyebrow{font-family:"JetBrains Mono",monospace; font-size:12px; font-weight:500; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-ink); display:flex; align-items:center; gap:10px; margin:0 0 18px}
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--accent)}
+  h1{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:clamp(30px,6vw,46px); line-height:1.08; letter-spacing:-.02em; margin:0 0 14px}
+  .thesis{font-size:clamp(16px,2.4vw,19px); color:var(--ink-soft); max-width:62ch; margin:0}
+  .thesis a{color:var(--accent-ink)}
+
+  .panel{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:clamp(20px,3.5vw,32px); margin-top:clamp(28px,5vw,44px)}
+  .panel-head{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; margin-bottom:6px}
+  .panel-num{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:13px; color:var(--accent); border:1px solid var(--accent); border-radius:6px; padding:2px 8px}
+  h2{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:clamp(20px,3vw,25px); margin:0; letter-spacing:-.01em}
+  .lede{color:var(--ink-soft); font-size:15px; margin:10px 0 22px; max-width:62ch}
+  .lede a{color:var(--accent-ink)}
+  label.field{display:block; font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-faint); margin:0 0 8px}
+  button:focus-visible,input:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+  .seg{display:inline-flex; flex-wrap:wrap; border:1px solid var(--line); border-radius:10px; overflow:hidden}
+  .seg button{font-family:"JetBrains Mono",monospace; font-size:13px; padding:9px 15px; border:0; background:var(--surface); color:var(--ink-soft); cursor:pointer; border-right:1px solid var(--line)}
+  .seg button:last-child{border-right:0}
+  .seg button[aria-pressed="true"]{background:var(--accent); color:#fff}
+
+  /* prefill/decode */
+  .phasebtns{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:18px}
+  .pbtn{font-family:"JetBrains Mono",monospace; font-size:13px; font-weight:700; border-radius:9px; padding:10px 16px; cursor:pointer; border:1px solid var(--line); background:var(--surface); color:var(--accent-ink)}
+  .pbtn.primary{background:var(--accent); color:#fff; border-color:var(--accent)}
+  .pbtn.ghost{color:var(--ink-faint)}
+  .pbtn:hover:not(:disabled){border-color:var(--accent)}
+  .pbtn:disabled{opacity:.5; cursor:default}
+  .seqrow{display:flex; flex-wrap:wrap; gap:5px; min-height:40px; margin-bottom:12px; align-items:center}
+  .tk{font-family:"JetBrains Mono",monospace; font-size:12px; padding:7px 9px; border-radius:6px; background:var(--surface-2); border:1px solid var(--line); color:var(--ink-soft)}
+  .tk.prompt{background:var(--accent-bg); border-color:var(--accent); color:var(--accent-ink)}
+  .tk.gen{background:var(--coral-bg); border-color:var(--coral); color:var(--coral)}
+  @media (prefers-reduced-motion:no-preference){ .tk.new{animation:pop .18s ease-out} @keyframes pop{from{opacity:0;transform:translateY(3px)}to{opacity:1}} }
+  .cachebar{height:22px; background:var(--line-soft); border-radius:6px; overflow:hidden; margin:4px 0 6px}
+  .cachefill{height:100%; background:var(--accent); width:0; transition:width .2s}
+  .phaselbl{font-family:"JetBrains Mono",monospace; font-size:12px; color:var(--ink-soft); margin-bottom:14px}
+  .phaselbl b{color:var(--accent-ink)}
+
+  .twocol{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:6px}
+  @media(max-width:600px){.twocol{grid-template-columns:1fr}}
+  .pcard{border:1px solid var(--line); border-radius:10px; padding:14px 16px; background:var(--surface-2)}
+  .pcard h4{margin:0 0 6px; font-family:"Space Grotesk",sans-serif; font-size:15px}
+  .pcard.pf h4{color:var(--accent-ink)} .pcard.dc h4{color:var(--coral)}
+  .pcard p{margin:0; font-size:13.5px; color:var(--ink-soft)}
+
+  .ctlrow{display:flex; flex-wrap:wrap; gap:20px; align-items:center; margin-bottom:16px}
+  .ctlrow .g{display:flex; align-items:center; gap:12px}
+  input[type=range]{accent-color:var(--accent); height:22px; width:160px}
+  .rngval{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:14px; color:var(--accent-ink); min-width:78px}
+  .chk{display:flex; align-items:center; gap:8px; font-size:14px; color:var(--ink-soft); cursor:pointer}
+  .chk input{width:17px;height:17px;accent-color:var(--accent)}
+
+  .readouts{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden; margin-top:14px}
+  @media(max-width:600px){.readouts{grid-template-columns:1fr}}
+  .ro{background:var(--surface); padding:14px 16px}
+  .ro .num{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:clamp(20px,4vw,28px); color:var(--ink); line-height:1}
+  .ro .num.accent{color:var(--accent)}
+  .ro .cap{font-family:"JetBrains Mono",monospace; font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-faint); margin-top:6px}
+
+  .breakdown{display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden; margin-top:16px}
+  .bd{background:var(--surface); padding:13px 16px}
+  .bd .k{font-family:"JetBrains Mono",monospace; font-size:11px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.06em}
+  .bd .v{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:19px; margin-top:4px}
+
+  .fitbanner{margin-top:18px; padding:18px 20px; border-radius:12px; border:1px solid var(--line)}
+  .fitbanner .st{font-family:"Space Grotesk",sans-serif; font-weight:700; font-size:20px}
+  .fitbanner .dt{font-size:14px; margin-top:4px}
+  .fit-ok{background:var(--green-bg); border-color:var(--green)} .fit-ok .st{color:var(--green)}
+  .fit-tight{background:var(--amber-bg); border-color:var(--amber)} .fit-tight .st{color:var(--amber)}
+  .fit-no{background:var(--coral-bg); border-color:var(--coral)} .fit-no .st{color:var(--coral)}
+
+  .note{font-size:14px; color:var(--ink-soft); background:var(--amber-bg); border-left:3px solid var(--amber); border-radius:0 8px 8px 0; padding:12px 16px; margin-top:20px}
+  .note b{color:var(--amber)}
+
+  .closer{background:linear-gradient(180deg,var(--surface),var(--surface-2)); border:1px solid var(--line); border-radius:var(--radius); padding:clamp(24px,4vw,36px); margin-top:clamp(28px,5vw,44px); text-align:center}
+  .closer h3{font-family:"Space Grotesk",sans-serif; font-size:24px; margin:0 0 10px}
+  .closer p{color:var(--ink-soft); max-width:54ch; margin:0 auto 18px; font-size:15px}
+  .closer a.btn{display:inline-block; font-family:"JetBrains Mono",monospace; font-size:13px; font-weight:700; color:#fff; background:var(--accent); text-decoration:none; border-radius:10px; padding:12px 22px}
+  .closer a.btn:hover{background:var(--accent-ink)}
+
+  .nav{display:flex; justify-content:space-between; margin-top:30px; font-family:"JetBrains Mono",monospace; font-size:13px; gap:16px}
+  .nav a{color:var(--accent-ink); text-decoration:none}
+  .nav a:hover{text-decoration:underline}
+  footer{margin-top:30px; padding-top:20px; border-top:1px solid var(--line); font-size:13px; color:var(--ink-faint); font-family:"JetBrains Mono",monospace; letter-spacing:.04em}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brandbar"><a href="https://techievenki.ai">TechieVenki</a><span class="sep">/</span><span class="series">LLM from scratch</span></div>
+
+  <p class="eyebrow">LLM from scratch · Stage 7</p>
+  <h1>Serving &amp; inference</h1>
+  <p class="thesis">Everything so far built the model. This is running it — where the weights, the <a href="06-architecture-patterns.html">KV cache</a>, and the <a href="01-tokens-and-parameters.html">precision</a> you chose collide into two practical questions: how fast does it generate, and will it even fit? This is exactly where a question like "will a 27B model run on my Mac?" gets answered.</p>
+
+  <section class="panel" aria-labelledby="p1">
+    <div class="panel-head"><span class="panel-num">A</span><h2 id="p1">Two phases: prefill, then decode</h2></div>
+    <p class="lede">Generation isn't one uniform process. First the model reads your whole prompt at once (prefill), then it produces the answer one token at a time (decode). They have completely different speeds — and understanding why explains everything about performance.</p>
+
+    <div class="phasebtns">
+      <button class="pbtn primary" id="do-prefill">① Prefill the prompt</button>
+      <button class="pbtn" id="do-decode" disabled>② Generate a token</button>
+      <button class="pbtn ghost" id="do-reset">reset</button>
+    </div>
+
+    <label class="field">Sequence</label>
+    <div class="seqrow" id="seq"></div>
+    <label class="field">KV cache</label>
+    <div class="cachebar"><div class="cachefill" id="cachefill"></div></div>
+    <div class="phaselbl" id="phaselbl">Press <b>Prefill</b> to process the prompt.</div>
+
+    <div class="twocol">
+      <div class="pcard pf"><h4>Prefill</h4><p>The whole prompt goes through in parallel — all tokens at once. It's compute-bound and fast per token, but it's the wait before the first word appears ("time to first token").</p></div>
+      <div class="pcard dc"><h4>Decode</h4><p>Each new token must read <em>every weight</em> from memory, one step at a time. It can't be parallelized across future tokens — so this is the slow part, and it's limited by memory bandwidth, not math.</p></div>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="p2">
+    <div class="panel-head"><span class="panel-num">B</span><h2 id="p2">Why precision decides speed</h2></div>
+    <p class="lede">Because decode reads all the weights for every single token, tokens per second is roughly <em>memory bandwidth ÷ model size</em>. Fewer bits means a smaller model means more tokens per second — the counterintuitive result, turned into an actual formula.</p>
+
+    <div class="ctlrow">
+      <div class="g"><label class="field" style="margin:0">Precision</label>
+        <div class="seg" id="pseg" role="group" aria-label="Precision">
+          <button data-bpw="2" aria-pressed="false">16-bit</button>
+          <button data-bpw="1" aria-pressed="false">8-bit</button>
+          <button data-bpw="0.5" aria-pressed="true">4-bit</button>
+        </div>
+      </div>
+    </div>
+    <div class="ctlrow">
+      <div class="g"><label class="field" style="margin:0">Hardware</label>
+        <div class="seg" id="hseg" role="group" aria-label="Hardware">
+          <button data-bw="60" aria-pressed="false">Phone</button>
+          <button data-bw="400" aria-pressed="true">Mac (unified)</button>
+          <button data-bw="3300" aria-pressed="false">High-end GPU</button>
+        </div>
+      </div>
+      <label class="chk"><input type="checkbox" id="spec"> Speculative decoding</label>
+    </div>
+
+    <div class="readouts">
+      <div class="ro"><div class="num" id="s-size">15 GB</div><div class="cap">27B model size</div></div>
+      <div class="ro"><div class="num accent" id="s-tps">26</div><div class="cap">Tokens / second</div></div>
+      <div class="ro"><div class="num" id="s-bw">400</div><div class="cap">GB/s bandwidth</div></div>
+    </div>
+
+    <p class="note"><b>Speculative decoding</b> gets around the one-token-at-a-time wall: a small, fast draft proposes several tokens and the big model verifies them all in one pass, keeping the ones it agrees with. Qwen3.8's <span style="font-family:JetBrains Mono,monospace">MTP</span> heads do this <i>without</i> a separate draft model. Numbers here are theoretical peaks — real throughput is 50–70% of these — but the ratios are what matter: 4-bit beats 8-bit beats 16-bit, every time.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="p3">
+    <div class="panel-head"><span class="panel-num">C</span><h2 id="p3">Will it run on my machine?</h2></div>
+    <p class="lede">The whole series in one calculator. Total memory = weights + KV cache + overhead. Weights come from size and precision; the KV cache grows with context (Stage 6). Set it up and find out. Start with the defaults — a 27B, 4-bit, on 48 GB — then push the context and watch it break.</p>
+
+    <div class="ctlrow">
+      <div class="g"><label class="field" style="margin:0">Model</label>
+        <div class="seg" id="mseg" role="group" aria-label="Model size">
+          <button data-p="0.5" aria-pressed="false">0.5B</button>
+          <button data-p="8" aria-pressed="false">8B</button>
+          <button data-p="27" aria-pressed="true">27B</button>
+          <button data-p="671" aria-pressed="false">671B</button>
+        </div>
+      </div>
+      <div class="g"><label class="field" style="margin:0">Precision</label>
+        <div class="seg" id="fpseg" role="group" aria-label="Precision">
+          <button data-bpw="2" aria-pressed="false">16</button>
+          <button data-bpw="1" aria-pressed="false">8</button>
+          <button data-bpw="0.5" aria-pressed="true">4-bit</button>
+        </div>
+      </div>
+    </div>
+    <div class="ctlrow">
+      <div class="g"><label class="field" style="margin:0">Context</label><input type="range" id="fctx" min="0" max="1000" value="500"><span class="rngval" id="fctx-val">32K</span></div>
+      <div class="g"><label class="field" style="margin:0">Your RAM</label><input type="range" id="ram" min="8" max="192" value="48" step="8"><span class="rngval" id="ram-val">48 GB</span></div>
+    </div>
+
+    <div class="breakdown">
+      <div class="bd"><div class="k">Weights</div><div class="v" id="f-w">15 GB</div></div>
+      <div class="bd"><div class="k">KV cache</div><div class="v" id="f-kv">8 GB</div></div>
+      <div class="bd"><div class="k">+ overhead</div><div class="v" id="f-ov">2 GB</div></div>
+      <div class="bd"><div class="k">Total needed</div><div class="v accent" id="f-total" style="color:var(--accent)">25 GB</div></div>
+    </div>
+
+    <div class="fitbanner" id="fitbanner"><div class="st" id="fit-st">—</div><div class="dt" id="fit-dt"></div></div>
+
+    <p class="note" style="background:var(--surface-2);border-left-color:var(--accent);color:var(--ink-soft)"><b style="color:var(--accent-ink)">Context is a memory tax.</b> A model trained for, say, 256K tokens can be stretched further (with tricks like YaRN) — but every extra token of context adds KV cache. That's why "the weights fit" isn't the same as "it runs": a long conversation can quietly blow past your RAM even when the model itself was comfortable. Hybrid architectures (Stage 6) soften this by keeping the cache small.</p>
+  </section>
+
+  <div class="closer">
+    <h3>That's the whole pipeline.</h3>
+    <p>Model cards throw around terms like "4-bit," "27B," "MoE," and "hybrid attention" as if they're self-explanatory. They rarely are — until you've built up the pieces yourself. Across these seven stages — tokens, parameters, pretraining, alignment, compression, architecture, and serving — you now have everything you need to read any model card end to end, and to know whether that model will actually run on your machine.</p>
+    <a class="btn" href="index.html">↺ Back to the overview</a>
+  </div>
+
+  <div class="nav">
+    <a href="06-architecture-patterns.html">← Stage 6 · Architecture patterns</a>
+    <a href="index.html">Overview ↺</a>
+  </div>
+  <footer><a href="https://techievenki.ai" style="color:inherit;text-decoration:none">techievenki.ai</a> — LLM from scratch — 07 / 07 — series complete</footer>
+</div>
+
+<script>
+/* ---------------- Panel A: prefill / decode ---------------- */
+const PROMPT=['The','best','way','to','learn','is','to'];
+const GENS=['build','things','and','explain','them','.'];
+let phase='idle', gi=0;
+const seq=document.getElementById('seq'), cf=document.getElementById('cachefill');
+const MAXSLOTS=PROMPT.length+GENS.length;
+function renderSeq(){
+  seq.innerHTML='';
+  PROMPT.forEach(t=>{ const s=document.createElement('span'); s.className='tk prompt'; s.textContent=t; if(phase!=='idle')seq.appendChild(s); });
+  for(let i=0;i<gi;i++){ const s=document.createElement('span'); s.className='tk gen'+(i===gi-1?' new':''); s.textContent=GENS[i]; seq.appendChild(s); }
+  const slots = phase==='idle'?0:PROMPT.length+gi;
+  cf.style.width=(slots/MAXSLOTS*100)+'%';
+}
+document.getElementById('do-prefill').onclick=()=>{
+  phase='prefill'; gi=0; renderSeq();
+  document.getElementById('phaselbl').innerHTML='<b>Prefill done.</b> All '+PROMPT.length+' prompt tokens processed in one parallel pass — cache filled at once. Now decode.';
+  document.getElementById('do-prefill').disabled=true; document.getElementById('do-decode').disabled=false;
+};
+document.getElementById('do-decode').onclick=()=>{
+  if(phase==='idle')return;
+  phase='decode';
+  if(gi<GENS.length){ gi++; renderSeq();
+    document.getElementById('phaselbl').innerHTML='<b>Decode.</b> One token generated — the model read every weight to produce it, and added one slot to the cache. ('+gi+'/'+GENS.length+')';
+  }
+  if(gi>=GENS.length){ document.getElementById('do-decode').disabled=true; document.getElementById('phaselbl').innerHTML='<b>Done.</b> Notice: prefill was one step for the whole prompt; decode took one step per token. That asymmetry is why long <i>outputs</i> feel slow.'; }
+};
+document.getElementById('do-reset').onclick=()=>{ phase='idle'; gi=0; renderSeq(); document.getElementById('phaselbl').innerHTML='Press <b>Prefill</b> to process the prompt.'; document.getElementById('do-prefill').disabled=false; document.getElementById('do-decode').disabled=true; };
+renderSeq();
+
+/* ---------------- Panel B: speed ---------------- */
+let bpw=0.5, bw=400, spec=false;
+function ov(b){ return b===0.5?1.12:b===1?1.06:1.0; }
+function renderSpeed(){
+  const size=27e9*bpw*ov(bpw)/1e9;
+  let tps=bw/size; if(spec) tps*=2.0;
+  document.getElementById('s-size').textContent=(size>=100?Math.round(size):size.toFixed(0))+' GB';
+  document.getElementById('s-tps').textContent=Math.round(tps)+(spec?'*':'');
+  document.getElementById('s-bw').textContent=bw.toLocaleString();
+}
+document.getElementById('pseg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;bpw=+b.dataset.bpw;[...e.currentTarget.children].forEach(c=>c.setAttribute('aria-pressed',c===b));renderSpeed();});
+document.getElementById('hseg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;bw=+b.dataset.bw;[...e.currentTarget.children].forEach(c=>c.setAttribute('aria-pressed',c===b));renderSpeed();});
+document.getElementById('spec').addEventListener('change',e=>{spec=e.target.checked;renderSpeed();});
+
+/* ---------------- Panel C: fit ---------------- */
+let fp=27, fbpw=0.5;
+const CMIN=1e3,CMAX=1e6;
+const sToCtx=v=>CMIN*Math.pow(CMAX/CMIN,v/1000);
+const fmtCtx=c=>c>=1e6?(c/1e6).toFixed(c>=9.5e5?0:1)+'M':(c/1e3).toFixed(0)+'K';
+function kvPerTok(pB){ return 262144*Math.pow(pB/27,0.5); } // ~256KB/tok at 27B, scales mildly
+function fmtGB(g){ return g<1?(g*1000).toFixed(0)+' MB':g<10?g.toFixed(1)+' GB':Math.round(g)+' GB'; }
+function renderFit(){
+  const ctx=sToCtx(+document.getElementById('fctx').value);
+  const ram=+document.getElementById('ram').value;
+  document.getElementById('fctx-val').textContent=fmtCtx(ctx);
+  document.getElementById('ram-val').textContent=ram+' GB';
+  const w=fp*1e9*fbpw*ov(fbpw)/1e9;
+  const kv=kvPerTok(fp)*ctx/1e9;
+  const ovh=2;
+  const total=w+kv+ovh;
+  document.getElementById('f-w').textContent=fmtGB(w);
+  document.getElementById('f-kv').textContent=fmtGB(kv);
+  document.getElementById('f-ov').textContent=fmtGB(ovh);
+  document.getElementById('f-total').textContent=fmtGB(total);
+  const bn=document.getElementById('fitbanner');
+  const st=document.getElementById('fit-st'), dt=document.getElementById('fit-dt');
+  bn.className='fitbanner';
+  if(total<=0.75*ram){ bn.classList.add('fit-ok'); st.textContent='✓ Fits comfortably'; dt.textContent='Total '+fmtGB(total)+' of '+ram+' GB — room to spare for the OS and other apps.'; }
+  else if(total<=0.95*ram){ bn.classList.add('fit-tight'); st.textContent='◑ Fits, but tight'; dt.textContent='Total '+fmtGB(total)+' of '+ram+' GB — close other apps; raise the GPU memory limit if you can.'; }
+  else if(total<=ram*1.15){ bn.classList.add('fit-tight'); st.textContent='⚠ Right at the edge'; dt.textContent='Total '+fmtGB(total)+' vs '+ram+' GB — likely to swap and slow down badly.'; }
+  else { bn.classList.add('fit-no'); st.textContent='✕ Won\u2019t load'; dt.textContent='Needs '+fmtGB(total)+' but you have '+ram+' GB. Drop to a smaller quant, shorten the context, or pick a smaller model.'; }
+}
+document.getElementById('mseg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;fp=+b.dataset.p;[...e.currentTarget.children].forEach(c=>c.setAttribute('aria-pressed',c===b));renderFit();});
+document.getElementById('fpseg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;fbpw=+b.dataset.bpw;[...e.currentTarget.children].forEach(c=>c.setAttribute('aria-pressed',c===b));renderFit();});
+document.getElementById('fctx').addEventListener('input',renderFit);
+document.getElementById('ram').addEventListener('input',renderFit);
+
+renderSpeed(); renderFit();
+</script>
+</body>
+</html>

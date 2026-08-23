@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tokens &amp; parameters — LLM from scratch · Stage 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#182430; --ink-soft:#4b5b6a; --ink-faint:#7d8b98;
+    --paper:#eef1f3; --surface:#ffffff; --surface-2:#f6f8f9;
+    --line:#d7dee2; --line-soft:#e6ebee;
+    --accent:#0e7c86; --accent-ink:#0a5158; --accent-bg:#dcecee;
+    --amber:#9a6a12; --amber-bg:#f4e9d4;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:"Inter",system-ui,sans-serif; line-height:1.65;
+    padding:clamp(20px,5vw,64px) clamp(16px,5vw,40px);
+  }
+  .brandbar{display:flex; align-items:center; gap:9px; margin-bottom:22px; font-family:"JetBrains Mono",monospace; font-size:12.5px}
+  .brandbar a{color:var(--ink); text-decoration:none; font-weight:700; letter-spacing:.01em}
+  .brandbar a:hover{color:var(--accent-ink)}
+  .brandbar .sep{color:var(--line)}
+  .brandbar .series{color:var(--ink-faint)}
+  .wrap{max-width:860px;margin:0 auto}
+
+  .eyebrow{
+    font-family:"JetBrains Mono",monospace; font-size:12px; font-weight:500;
+    letter-spacing:.18em; text-transform:uppercase; color:var(--accent-ink);
+    display:flex; align-items:center; gap:10px; margin:0 0 18px;
+  }
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--accent)}
+  h1{
+    font-family:"Space Grotesk",sans-serif; font-weight:600;
+    font-size:clamp(30px,6vw,46px); line-height:1.08; letter-spacing:-.02em;
+    margin:0 0 14px;
+  }
+  .thesis{font-size:clamp(16px,2.4vw,19px); color:var(--ink-soft); max-width:60ch; margin:0 0 8px}
+
+  .panel{
+    background:var(--surface); border:1px solid var(--line);
+    border-radius:var(--radius); padding:clamp(20px,3.5vw,32px);
+    margin-top:clamp(28px,5vw,44px);
+  }
+  .panel-head{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; margin-bottom:6px}
+  .panel-num{
+    font-family:"JetBrains Mono",monospace; font-weight:700; font-size:13px;
+    color:var(--accent); border:1px solid var(--accent); border-radius:6px;
+    padding:2px 8px;
+  }
+  h2{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:clamp(20px,3vw,25px); margin:0; letter-spacing:-.01em}
+  .lede{color:var(--ink-soft); font-size:15px; margin:10px 0 22px; max-width:62ch}
+
+  label.field{display:block; font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-faint); margin:0 0 8px}
+
+  textarea{
+    width:100%; min-height:96px; resize:vertical; padding:14px 16px;
+    font-family:"JetBrains Mono",monospace; font-size:15px; line-height:1.6;
+    color:var(--ink); background:var(--surface-2);
+    border:1px solid var(--line); border-radius:10px;
+  }
+  textarea:focus,button:focus-visible,input:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+  .chips{display:flex; flex-wrap:wrap; gap:8px; margin:14px 0 22px}
+  .chip{
+    font-family:"Inter",sans-serif; font-size:13px; color:var(--ink-soft);
+    background:var(--surface-2); border:1px solid var(--line);
+    border-radius:999px; padding:6px 13px; cursor:pointer; transition:border-color .15s,color .15s;
+  }
+  .chip:hover{border-color:var(--accent); color:var(--accent-ink)}
+
+  .tokenstrip{
+    display:flex; flex-wrap:wrap; gap:5px; min-height:52px; align-content:flex-start;
+    padding:14px; background:var(--surface-2); border:1px dashed var(--line); border-radius:10px;
+  }
+  .tok{
+    font-family:"JetBrains Mono",monospace; font-size:14px; line-height:1;
+    padding:7px 8px; border-radius:6px; white-space:pre;
+  }
+  .tok .lead{opacity:.4}
+  .tok.ws{color:var(--ink-faint); background:var(--line-soft)}
+  @media (prefers-reduced-motion:no-preference){
+    .tok{animation:pop .18s ease-out}
+    @keyframes pop{from{opacity:0;transform:translateY(2px)}to{opacity:1;transform:none}}
+  }
+
+  .readouts{display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden; margin-top:18px}
+  .ro{background:var(--surface); padding:16px 18px}
+  .ro .num{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:clamp(26px,5vw,34px); color:var(--ink); line-height:1}
+  .ro .num.accent{color:var(--accent)}
+  .ro .cap{font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint); margin-top:7px}
+
+  .note{
+    font-size:14px; color:var(--ink-soft); background:var(--amber-bg);
+    border-left:3px solid var(--amber); border-radius:0 8px 8px 0;
+    padding:12px 16px; margin-top:20px;
+  }
+  .note b{color:var(--amber)}
+
+  .controls{display:grid; grid-template-columns:1fr; gap:22px}
+  .presetrow{display:flex; flex-wrap:wrap; gap:8px}
+  .preset{font-family:"JetBrains Mono",monospace; font-size:13px; padding:7px 12px; border-radius:8px; border:1px solid var(--line); background:var(--surface-2); color:var(--ink-soft); cursor:pointer}
+  .preset[aria-pressed="true"]{border-color:var(--accent); background:var(--accent-bg); color:var(--accent-ink)}
+  input[type=range]{width:100%; accent-color:var(--accent); height:22px}
+  .seg{display:inline-flex; border:1px solid var(--line); border-radius:10px; overflow:hidden}
+  .seg button{font-family:"JetBrains Mono",monospace; font-size:14px; padding:9px 16px; border:0; background:var(--surface); color:var(--ink-soft); cursor:pointer; border-right:1px solid var(--line)}
+  .seg button:last-child{border-right:0}
+  .seg button[aria-pressed="true"]{background:var(--accent); color:#fff}
+
+  .verdict{margin-top:6px; padding:16px 18px; border:1px solid var(--line); border-radius:10px; background:var(--surface-2)}
+  .verdict .lbl{font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint)}
+  .verdict .val{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:19px; color:var(--ink); margin-top:4px}
+
+  .nav{display:flex; justify-content:space-between; margin-top:44px; font-family:"JetBrains Mono",monospace; font-size:13px}
+  .nav a{color:var(--accent-ink); text-decoration:none}
+  .nav a:hover{text-decoration:underline}
+  .nav .disabled{color:var(--ink-faint)}
+  footer{margin-top:30px; padding-top:20px; border-top:1px solid var(--line); font-size:13px; color:var(--ink-faint); font-family:"JetBrains Mono",monospace; letter-spacing:.04em}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brandbar"><a href="https://techievenki.ai">TechieVenki</a><span class="sep">/</span><span class="series">LLM from scratch</span></div>
+
+  <p class="eyebrow">LLM from scratch · Stage 1</p>
+  <h1>Tokens &amp; parameters</h1>
+  <p class="thesis">Before any of the hard words — pretraining, distillation, mixture-of-experts — two numbers run underneath all of them: how a model reads text, and how big it is. Type into the first panel, drag the second. That's the whole vocabulary of a model card.</p>
+
+  <section class="panel" aria-labelledby="p1">
+    <div class="panel-head"><span class="panel-num">A</span><h2 id="p1">How a model reads: tokens</h2></div>
+    <p class="lede">A model never sees letters. It sees <em>tokens</em> — chunks of text, roughly ¾ of a word each. Common words are one token; rare or long words get chopped into pieces. Watch it happen.</p>
+
+    <label class="field" for="ta">Your text</label>
+    <textarea id="ta" spellcheck="false">Attention is all you need</textarea>
+    <div class="chips" id="chips"></div>
+
+    <label class="field">Tokens</label>
+    <div class="tokenstrip" id="strip" aria-live="polite"></div>
+
+    <div class="readouts">
+      <div class="ro"><div class="num" id="ro-chars">0</div><div class="cap">Characters</div></div>
+      <div class="ro"><div class="num accent" id="ro-tokens">0</div><div class="cap">Tokens</div></div>
+      <div class="ro"><div class="num" id="ro-ratio">0</div><div class="cap">Chars / token</div></div>
+      <div class="ro"><div class="num" id="ro-words">0</div><div class="cap">≈ Words</div></div>
+    </div>
+    <p class="note">This is an <b>illustrative</b> tokenizer — it shows how subword splitting <i>behaves</i>. Each model ships its own exact tokenizer; see the code comment for a one-line swap to real GPT counts.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="p2">
+    <div class="panel-head"><span class="panel-num">B</span><h2 id="p2">How big it is: parameters &amp; precision</h2></div>
+    <p class="lede">A <em>parameter</em> is one learned number — a weight. "27B parameters" is 27 billion of them. How much disk and memory that needs depends on how many <em>bits</em> you store each weight in. This is the 4-bit / 8-bit / bf16 choice, made concrete.</p>
+
+    <div class="controls">
+      <div>
+        <label class="field">Model size</label>
+        <div class="presetrow" id="presets"></div>
+        <input type="range" id="slider" min="0" max="1000" value="595" aria-label="Parameter count">
+      </div>
+      <div>
+        <label class="field">Precision — bits per weight</label>
+        <div class="seg" id="seg" role="group" aria-label="Precision">
+          <button data-bpw="2" aria-pressed="false">16-bit (bf16)</button>
+          <button data-bpw="1" aria-pressed="false">8-bit</button>
+          <button data-bpw="0.5" aria-pressed="true">4-bit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="readouts" style="margin-top:24px">
+      <div class="ro"><div class="num" id="ro-params">27B</div><div class="cap">Parameters</div></div>
+      <div class="ro"><div class="num" id="ro-bpw">0.5</div><div class="cap">Bytes / weight</div></div>
+      <div class="ro"><div class="num accent" id="ro-size">15 GB</div><div class="cap">Weights on disk</div></div>
+    </div>
+
+    <div class="verdict" style="margin-top:22px">
+      <div class="lbl">Realistically runs on</div>
+      <div class="val" id="verdict">—</div>
+    </div>
+
+    <p class="note"><b>Weights only.</b> Running the model needs extra memory for the growing context (the KV cache) — that's Stage 7. And a heads-up you may have hit already: a 4-bit repo can <i>report</i> fewer parameters than it has, because the tiny weights are packed several-to-a-slot and the counter miscounts. Same model, wrong-looking number.</p>
+  </section>
+
+  <div class="nav">
+    <a href="index.html">← Overview</a>
+    <a href="02-transformer-block.html">Stage 2 · The transformer block →</a>
+  </div>
+  <footer><a href="https://techievenki.ai" style="color:inherit;text-decoration:none">techievenki.ai</a> — LLM from scratch — 01 / 07</footer>
+</div>
+
+<script>
+/* ---------- Panel A: illustrative tokenizer ----------
+   Swap for EXACT GPT token counts on your own site:
+   1) add <script type="module"> import {encode} from 'https://esm.sh/gpt-tokenizer'; window.__enc = encode; <\/script>
+   2) replace tokenize(text) below with: return __enc(text).map(id => ({text:''+id})) ... (or map ids back to strings)
+   The illustrative version needs no dependency and always runs offline. */
+const PALETTE=['#0e5a62|#dbeaec','#3a3f86|#e1e3f2','#7a3a63|#efe0ec','#7a5410|#f3e7d3','#45632a|#e2ecdd','#7a3e28|#f0e1da'];
+
+function tokenize(text){
+  const out=[];
+  const chunks=text.match(/ ?[A-Za-z]+| ?\d+| ?[^\sA-Za-z\d]|\s+/g)||[];
+  for(const raw of chunks){
+    if(/^\s+$/.test(raw)){                       // whitespace run (newlines, double spaces)
+      const n=Math.max(1,Math.round(raw.length/2));
+      for(let i=0;i<n;i++) out.push({text:'␣',ws:true});
+      continue;
+    }
+    const lead = raw.startsWith(' ');
+    const core = raw.trimStart();
+    const mark = lead ? '·' : '';
+    if(/^[A-Za-z]+$/.test(core)){
+      if(core.length<=5){ out.push({text:core,lead:mark}); }
+      else{ for(let i=0;i<core.length;i+=4){ out.push({text:core.slice(i,i+4),lead:i===0?mark:''}); } }
+    } else if(/^\d+$/.test(core)){
+      for(let i=0;i<core.length;i+=3){ out.push({text:core.slice(i,i+3),lead:i===0?mark:''}); }
+    } else {
+      out.push({text:core,lead:mark});          // single punctuation char
+    }
+  }
+  return out;
+}
+
+const ta=document.getElementById('ta'), strip=document.getElementById('strip');
+function renderTokens(){
+  const text=ta.value;
+  const toks=tokenize(text);
+  strip.innerHTML='';
+  toks.forEach((t,i)=>{
+    const el=document.createElement('span');
+    el.className='tok'+(t.ws?' ws':'');
+    if(!t.ws){ const [ink,bg]=PALETTE[i%PALETTE.length].split('|'); el.style.background=bg; el.style.color=ink; }
+    el.innerHTML=(t.lead?'<span class="lead">'+t.lead+'</span>':'')+escapeHtml(t.text);
+    strip.appendChild(el);
+  });
+  const chars=text.length, tokens=toks.length;
+  set('ro-chars',chars.toLocaleString());
+  set('ro-tokens',tokens.toLocaleString());
+  set('ro-ratio',tokens?(chars/tokens).toFixed(1):'0');
+  set('ro-words',Math.round(tokens*0.75).toLocaleString());
+}
+function escapeHtml(s){return s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+function set(id,v){document.getElementById(id).textContent=v}
+
+const EXAMPLES=[
+  {label:'A plain sentence',t:'The quick brown fox jumps over the lazy dog'},
+  {label:'A long rare word',t:'antidisestablishmentarianism'},
+  {label:'Code',t:'const sum = arr.reduce((a,b) => a+b, 0);'},
+  {label:'Numbers',t:'Order 100047 shipped on 2026-08-23 for $1,299.00'},
+  {label:'Emoji + unicode',t:'café ☕ déjà vu 🚀 naïve'}
+];
+const chipbox=document.getElementById('chips');
+EXAMPLES.forEach(ex=>{
+  const b=document.createElement('button'); b.className='chip'; b.textContent=ex.label;
+  b.onclick=()=>{ta.value=ex.t;renderTokens()};
+  chipbox.appendChild(b);
+});
+ta.addEventListener('input',renderTokens);
+
+/* ---------- Panel B: model size ---------- */
+const MINB=0.1, MAXB=1000;
+const PRESETS=[{l:'0.5B',b:0.5},{l:'8B',b:8},{l:'27B',b:27},{l:'671B',b:671}];
+let paramB=27, bpw=0.5;
+
+const slider=document.getElementById('slider');
+const presetbox=document.getElementById('presets');
+PRESETS.forEach(p=>{
+  const b=document.createElement('button'); b.className='preset'; b.textContent=p.l; b.dataset.b=p.b;
+  b.onclick=()=>{paramB=p.b; slider.value=bToSlider(p.b); renderSize()};
+  presetbox.appendChild(b);
+});
+function bToSlider(b){return Math.round(1000*Math.log(b/MINB)/Math.log(MAXB/MINB))}
+function sliderToB(v){return MINB*Math.pow(MAXB/MINB, v/1000)}
+slider.addEventListener('input',()=>{paramB=sliderToB(+slider.value); renderSize()});
+
+document.getElementById('seg').addEventListener('click',e=>{
+  const btn=e.target.closest('button'); if(!btn)return;
+  bpw=+btn.dataset.bpw;
+  [...e.currentTarget.children].forEach(c=>c.setAttribute('aria-pressed', c===btn));
+  renderSize();
+});
+
+function fmtParams(b){
+  if(b>=1000) return (b/1000).toFixed(b>=9995?0:1)+'T';
+  if(b>=100) return Math.round(b)+'B';
+  if(b>=10) return b.toFixed(0)+'B';
+  return b.toFixed(1)+'B';
+}
+function overhead(bpw){ return bpw===0.5?1.12 : bpw===1?1.06 : 1.0; } // quant scale metadata
+function renderSize(){
+  const gb = paramB*1e9 * bpw * overhead(bpw) / 1e9;
+  set('ro-params',fmtParams(paramB));
+  set('ro-bpw', bpw===0.5?'0.5':bpw.toFixed(0));
+  set('ro-size', (gb>=100?Math.round(gb):gb.toFixed(1))+' GB');
+  set('verdict', verdictFor(gb));
+  // reflect active preset
+  [...presetbox.children].forEach(c=>c.setAttribute('aria-pressed', Math.abs(+c.dataset.b-paramB)<0.01));
+}
+function verdictFor(gb){
+  if(gb<=6)   return 'A phone or a Raspberry Pi';
+  if(gb<=16)  return 'A laptop with 16 GB RAM';
+  if(gb<=48)  return 'A 24–48 GB Mac or one big GPU';
+  if(gb<=180) return 'A workstation / multi-GPU rig';
+  return 'A data-center server (many accelerators)';
+}
+
+renderTokens();
+renderSize();
+</script>
+</body>
+</html>

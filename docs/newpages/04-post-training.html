@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Post-training — LLM from scratch · Stage 4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#182430; --ink-soft:#4b5b6a; --ink-faint:#7d8b98;
+    --paper:#eef1f3; --surface:#ffffff; --surface-2:#f6f8f9;
+    --line:#d7dee2; --line-soft:#e6ebee;
+    --accent:#0e7c86; --accent-ink:#0a5158; --accent-bg:#dcecee;
+    --amber:#9a6a12; --amber-bg:#f4e9d4;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:"Inter",system-ui,sans-serif; line-height:1.65; padding:clamp(20px,5vw,64px) clamp(16px,5vw,40px)}
+  .brandbar{display:flex; align-items:center; gap:9px; margin-bottom:22px; font-family:"JetBrains Mono",monospace; font-size:12.5px}
+  .brandbar a{color:var(--ink); text-decoration:none; font-weight:700; letter-spacing:.01em}
+  .brandbar a:hover{color:var(--accent-ink)}
+  .brandbar .sep{color:var(--line)}
+  .brandbar .series{color:var(--ink-faint)}
+  .wrap{max-width:860px;margin:0 auto}
+
+  .eyebrow{font-family:"JetBrains Mono",monospace; font-size:12px; font-weight:500; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-ink); display:flex; align-items:center; gap:10px; margin:0 0 18px}
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--accent)}
+  h1{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:clamp(30px,6vw,46px); line-height:1.08; letter-spacing:-.02em; margin:0 0 14px}
+  .thesis{font-size:clamp(16px,2.4vw,19px); color:var(--ink-soft); max-width:62ch; margin:0}
+
+  .panel{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:clamp(20px,3.5vw,32px); margin-top:clamp(28px,5vw,44px)}
+  .panel-head{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; margin-bottom:6px}
+  .panel-num{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:13px; color:var(--accent); border:1px solid var(--accent); border-radius:6px; padding:2px 8px}
+  h2{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:clamp(20px,3vw,25px); margin:0; letter-spacing:-.01em}
+  .lede{color:var(--ink-soft); font-size:15px; margin:10px 0 22px; max-width:62ch}
+  label.field{display:block; font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-faint); margin:0 0 8px}
+  button:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+  .promptsel{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px}
+  .psel{font-family:"Inter",sans-serif; font-size:13.5px; color:var(--ink-soft); background:var(--surface-2); border:1px solid var(--line); border-radius:999px; padding:8px 15px; cursor:pointer; transition:.15s}
+  .psel:hover{border-color:var(--accent)}
+  .psel[aria-pressed="true"]{background:var(--accent-bg); border-color:var(--accent); color:var(--accent-ink)}
+
+  .prompt-box{font-family:"Inter",sans-serif; font-size:15px; color:var(--ink); background:var(--surface-2); border:1px solid var(--line); border-left:3px solid var(--accent); border-radius:0 10px 10px 0; padding:12px 16px; margin-bottom:22px}
+  .prompt-box .who{font-family:"JetBrains Mono",monospace; font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint); display:block; margin-bottom:4px}
+
+  /* stepper */
+  .stepper{display:flex; gap:0; margin-bottom:6px; counter-reset:s}
+  .step{flex:1; text-align:center; position:relative; cursor:pointer; padding-bottom:16px}
+  .step .dot{width:26px; height:26px; border-radius:50%; margin:0 auto 8px; background:var(--surface); border:2px solid var(--line); display:flex; align-items:center; justify-content:center; font-family:"JetBrains Mono",monospace; font-weight:700; font-size:12px; color:var(--ink-faint); position:relative; z-index:1; transition:.15s}
+  .step .nm{font-family:"JetBrains Mono",monospace; font-size:11px; color:var(--ink-faint); line-height:1.3; transition:.15s}
+  .step::before{content:""; position:absolute; top:13px; left:-50%; width:100%; height:2px; background:var(--line)}
+  .step:first-child::before{display:none}
+  .step[data-on="1"] .dot{border-color:var(--accent); background:var(--accent); color:#fff}
+  .step[data-on="1"] .nm{color:var(--accent-ink); font-weight:700}
+  .step[data-done="1"] .dot{border-color:var(--accent); color:var(--accent)}
+  .step[data-done="1"]::before{background:var(--accent)}
+
+  .stepbtns{display:flex; justify-content:space-between; margin:12px 0 20px}
+  .stepbtns button{font-family:"JetBrains Mono",monospace; font-size:13px; padding:9px 16px; border-radius:9px; border:1px solid var(--line); background:var(--surface); color:var(--accent-ink); cursor:pointer}
+  .stepbtns button:hover:not(:disabled){border-color:var(--accent)}
+  .stepbtns button.primary{background:var(--accent); color:#fff; border-color:var(--accent)}
+  .stepbtns button:disabled{color:var(--ink-faint); cursor:default; opacity:.6}
+
+  .think{font-family:"JetBrains Mono",monospace; font-size:12.5px; line-height:1.6; color:var(--ink-soft); background:#f0f4f0; border:1px dashed #b9cdbf; border-radius:10px; padding:13px 15px; margin-bottom:12px; white-space:pre-wrap}
+  .think .lbl{font-size:10px; letter-spacing:.12em; text-transform:uppercase; color:#5c7a63; display:block; margin-bottom:6px}
+  .response{font-size:15px; color:var(--ink); background:var(--surface-2); border:1px solid var(--line); border-radius:10px; padding:16px 18px; min-height:80px}
+  .response .who{font-family:"JetBrains Mono",monospace; font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--accent-ink); display:block; margin-bottom:8px}
+
+  .added{display:flex; gap:12px; align-items:flex-start; margin-top:16px; padding:14px 16px; background:var(--surface); border:1px solid var(--line); border-radius:10px}
+  .added .tag{font-family:"JetBrains Mono",monospace; font-size:10px; letter-spacing:.08em; text-transform:uppercase; color:#fff; background:var(--accent); border-radius:5px; padding:3px 7px; white-space:nowrap; margin-top:2px}
+  .added p{margin:0; font-size:14px; color:var(--ink-soft)}
+  .added .src{font-family:"JetBrains Mono",monospace; font-size:11.5px; color:var(--ink-faint); margin-top:6px}
+
+  .note{font-size:14px; color:var(--ink-soft); background:var(--amber-bg); border-left:3px solid var(--amber); border-radius:0 8px 8px 0; padding:12px 16px; margin-top:22px}
+  .note b{color:var(--amber)}
+
+  /* pipeline diagram */
+  .blockdiag{overflow-x:auto}
+  .blockdiag svg{display:block; min-width:520px; width:100%; height:auto}
+  .bnode rect{fill:var(--surface-2); stroke:var(--line)}
+  .bnode.hi rect{fill:var(--accent-bg); stroke:var(--accent)}
+  .bnode .t{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:12.5px; fill:var(--ink)}
+  .bnode .s{font-family:"JetBrains Mono",monospace; font-size:9.5px; fill:var(--ink-faint)}
+  .bflow{stroke:var(--accent); stroke-width:1.5; fill:none}
+  .bloop{stroke:var(--amber); stroke-width:1.5; fill:none; stroke-dasharray:5 4}
+  .blooplbl{font-family:"JetBrains Mono",monospace; font-size:10.5px; fill:var(--amber)}
+
+  /* labeler */
+  .ab{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:8px 0 16px}
+  @media(max-width:600px){.ab{grid-template-columns:1fr}}
+  .abcard{border:1px solid var(--line); border-radius:10px; padding:16px; background:var(--surface-2); cursor:pointer; transition:.15s}
+  .abcard:hover{border-color:var(--accent)}
+  .abcard .h{font-family:"JetBrains Mono",monospace; font-size:11px; color:var(--ink-faint); margin-bottom:8px}
+  .abcard .body{font-size:14px; color:var(--ink)}
+  .abcard.picked{border-color:var(--accent); background:var(--accent-bg)}
+  .abcard.picked .h{color:var(--accent-ink)}
+  .lab-feedback{font-size:14px; color:var(--ink-soft); min-height:24px; margin-bottom:10px}
+  .lab-feedback b{color:var(--accent-ink)}
+  .labnext{font-family:"JetBrains Mono",monospace; font-size:13px; padding:8px 14px; border-radius:9px; border:1px solid var(--line); background:var(--surface); color:var(--accent-ink); cursor:pointer}
+
+  .nav{display:flex; justify-content:space-between; margin-top:30px; font-family:"JetBrains Mono",monospace; font-size:13px; gap:16px}
+  .nav a{color:var(--accent-ink); text-decoration:none}
+  .nav a:hover{text-decoration:underline}
+  .nav .disabled{color:var(--ink-faint)}
+  footer{margin-top:30px; padding-top:20px; border-top:1px solid var(--line); font-size:13px; color:var(--ink-faint); font-family:"JetBrains Mono",monospace; letter-spacing:.04em}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brandbar"><a href="https://techievenki.ai">TechieVenki</a><span class="sep">/</span><span class="series">LLM from scratch</span></div>
+
+  <p class="eyebrow">LLM from scratch · Stage 4</p>
+  <h1>Post-training</h1>
+  <p class="thesis">A base model is a brilliant autocomplete that has never been taught to <em>answer</em>. Post-training is where it becomes an assistant — in three stages, each teaching a different thing: how to reply, what people prefer, and how to reason. Pick a question and walk it through.</p>
+
+  <section class="panel" aria-labelledby="p1">
+    <div class="panel-head"><span class="panel-num">A</span><h2 id="p1">From autocomplete to assistant</h2></div>
+    <p class="lede">Same question, same weights being gradually retrained. Step through the pipeline and watch one answer transform — and note what each stage actually adds.</p>
+
+    <label class="field">Choose a question</label>
+    <div class="promptsel" id="promptsel"></div>
+
+    <div class="prompt-box"><span class="who">You ask</span><span id="prompt-q"></span></div>
+
+    <div class="stepper" id="stepper"></div>
+    <div class="stepbtns">
+      <button id="prev">← earlier stage</button>
+      <button id="next" class="primary">next stage →</button>
+    </div>
+
+    <div id="think-slot"></div>
+    <div class="response"><span class="who" id="resp-who">Base model replies</span><div id="resp-body"></div></div>
+    <div class="added"><span class="tag" id="add-tag">—</span><div><p id="add-note"></p><div class="src" id="add-src"></div></div></div>
+
+    <p class="note"><b>Authored examples, real pipeline.</b> The responses are written to illustrate; the three-stage stack — SFT, then preference optimization, then RL with verifiable rewards — is the actual modular recipe behind 2025–26 models. The reasoning trace in the last stage is exactly what a "thinking" model produces, and why Qwen3.8's <span style="font-family:JetBrains Mono,monospace">reasoning_effort</span> setting, for instance, defaults so high.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="p2">
+    <div class="panel-head"><span class="panel-num">B</span><h2 id="p2">The pipeline, and why versions exist</h2></div>
+    <p class="lede">Each stage takes the previous model and specializes it further. Crucially, this whole run sits <em>on top of</em> the base model — so a "new version" is usually the same or a lightly-updated base pushed through fresh post-training, not a rebuild from zero.</p>
+    <div class="blockdiag">
+      <svg viewBox="0 0 660 200" role="img" aria-label="Post-training pipeline: base model, then supervised fine-tuning, then preference optimization, then RL with verifiable rewards, producing an aligned reasoning model. New versions rerun post-training on the base.">
+        <defs><marker id="pah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker><marker id="pah2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="var(--amber)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+        <g class="bnode"><rect x="6" y="46" width="118" height="56" rx="9"/><text class="t" x="65" y="70" text-anchor="middle">Base model</text><text class="s" x="65" y="87" text-anchor="middle">from Stage 3</text></g>
+        <g class="bnode hi"><rect x="160" y="46" width="118" height="56" rx="9"/><text class="t" x="219" y="68" text-anchor="middle">SFT</text><text class="s" x="219" y="85" text-anchor="middle">learn to reply</text></g>
+        <g class="bnode hi"><rect x="314" y="46" width="118" height="56" rx="9"/><text class="t" x="373" y="68" text-anchor="middle">Preference opt.</text><text class="s" x="373" y="85" text-anchor="middle">learn what's better</text></g>
+        <g class="bnode hi"><rect x="468" y="46" width="118" height="56" rx="9"/><text class="t" x="527" y="68" text-anchor="middle">RLVR</text><text class="s" x="527" y="85" text-anchor="middle">learn to reason</text></g>
+        <g class="bnode"><rect x="612" y="46" width="44" height="56" rx="9"/><text class="t" x="634" y="77" text-anchor="middle" style="font-size:11px">Ship</text></g>
+        <line class="bflow" x1="124" y1="74" x2="160" y2="74" marker-end="url(#pah)"/>
+        <line class="bflow" x1="278" y1="74" x2="314" y2="74" marker-end="url(#pah)"/>
+        <line class="bflow" x1="432" y1="74" x2="468" y2="74" marker-end="url(#pah)"/>
+        <line class="bflow" x1="586" y1="74" x2="612" y2="74" marker-end="url(#pah)"/>
+        <path class="bloop" d="M65 102 L65 165 L373 165 L373 102" marker-end="url(#pah2)"/>
+        <text class="blooplbl" x="219" y="182" text-anchor="middle">a new version = rerun post-training on the base</text>
+      </svg>
+    </div>
+    <p class="note" style="background:var(--surface-2);border-left-color:var(--accent);color:var(--ink-soft)"><b style="color:var(--accent-ink)">A note on the preference stage.</b> Classic RLHF trains a separate reward model from human A/B choices, then optimizes against it. Simpler successors (DPO and friends) skip the reward model and learn straight from the comparisons. And <b style="color:var(--accent-ink)">Constitutional AI</b> replaces the human labeler with the model itself applying a written set of principles — alignment from rules rather than from millions of hand judgments.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="p3">
+    <div class="panel-head"><span class="panel-num">C</span><h2 id="p3">You be the labeler</h2></div>
+    <p class="lede">Where does "what people prefer" come from? From choices exactly like this one. Pick the better answer — that single bit of signal, multiplied by millions, is the entire preference stage.</p>
+
+    <div class="prompt-box"><span class="who">Prompt</span><span id="lab-q"></span></div>
+    <div class="ab" id="ab"></div>
+    <div class="lab-feedback" id="lab-fb">Click the answer you'd prefer.</div>
+    <button class="labnext" id="lab-next" style="display:none">Try another →</button>
+
+    <p class="note"><b>That's the whole idea.</b> A model can't be told "be helpful" directly — helpfulness isn't a formula. So we show it countless pairs and let it infer the pattern from which one wins. When a written constitution makes these picks instead of a person, the same machine runs without the human bottleneck.</p>
+  </section>
+
+  <div class="nav">
+    <a href="03-pretraining.html">← Stage 3 · Pretraining</a>
+    <a href="05-compression.html">Stage 5 · Compression →</a>
+  </div>
+  <footer><a href="https://techievenki.ai" style="color:inherit;text-decoration:none">techievenki.ai</a> — LLM from scratch — 04 / 07</footer>
+</div>
+
+<script>
+/* ---------------- Panel A ---------------- */
+const STEPS=[
+  {nm:'Base',        who:'Base model replies',            tag:'pretrained',        src:'— straight out of Stage 3'},
+  {nm:'+ SFT',       who:'After fine-tuning',             tag:'SFT',               src:'Data: human-written question → answer demos'},
+  {nm:'+ Preference',who:'After preference tuning',       tag:'Preference opt.',   src:'Data: A/B comparisons (human, or a constitution)'},
+  {nm:'+ RLVR',      who:'After reasoning RL',            tag:'RLVR',              src:'Signal: verifiable rewards — is the answer correct?'}
+];
+const PROMPTS=[
+  {id:'focus', label:'How do I stay focused while studying?', q:'How do I stay focused while studying?', stages:[
+    {body:'How do I stay focused while studying? How do I study for exams? What foods boost concentration? Why can’t I focus at night? — 15 study hacks that actually…',
+     note:'The base model just continues the text. It has read the whole internet but was never taught that a question expects an answer.'},
+    {body:'Remove distractions, study in short focused blocks with breaks, and set a clear goal for each session.',
+     note:'Supervised fine-tuning teaches the shape of a reply: direct, on-topic, finished. It imitates thousands of human-written answers.'},
+    {body:'A few things that reliably help:\n• Silence your phone and leave it in another room.\n• Work in 25-minute blocks with 5-minute breaks.\n• Decide the one thing you’ll finish before you start.\nStart small — ten focused minutes beats an hour of half-attention.',
+     note:'Preference optimization tunes tone, clarity, structure and safety by learning which of two answers people prefer.'},
+    {think:'The user wants focus that lasts. Strongest answers lead with environment (biggest lever), then a concrete technique, then a low-friction way to begin so motivation isn’t the blocker.',
+     body:'Start with your environment, then technique:\n• Phone in another room — proximity alone drains attention.\n• 25-on / 5-off blocks to keep effort sustainable.\n• Name the single task you’ll finish first, then start with just 10 minutes.',
+     note:'RLVR mainly builds reasoning, but the planning habit carries over — the model organizes before answering. On checkable tasks it’s transformative; see the next question.'}
+  ]},
+  {id:'math', label:'A discount-plus-tax word problem', q:'A shirt is $40 with 25% off, then 10% tax on the discounted price. What’s the total?', stages:[
+    {body:'$30 — that’s 25% off $40, a great deal! You might also like our jeans at 30% off. Sign up for the newsletter for more savings →',
+     note:'It pattern-matches to sale copy and forgets the tax entirely. Fluent, confident, and wrong.'},
+    {body:'The discounted price is $30, and with 10% tax the total is $33.',
+     note:'Now it answers the real question in a clean format. But the working is hidden — if it slipped, you couldn’t tell.'},
+    {body:'The total is **$33.00**.\n• $40 − 25% = $30\n• $30 + 10% tax = $33',
+     note:'Same answer, laid out so it’s easy to follow and check. Preference tuning rewards exactly this kind of clarity.'},
+    {think:'Discount first: 25% of 40 = 10 → 40 − 10 = 30.\nTax on the discounted price: 10% of 30 = 3.\nTotal: 30 + 3 = 33.\nCheck: prompt says discount then tax — order matches. ✓',
+     body:'**$33.00**',
+     note:'It reasons step by step and verifies its own arithmetic before answering. That self-checking is precisely what verifiable rewards reinforce — the heart of a “thinking” model.'}
+  ]}
+];
+
+let pi=0, si=0;
+
+function fmt(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\n/g,'<br>'); }
+
+function renderStepper(){
+  const el=document.getElementById('stepper'); el.innerHTML='';
+  STEPS.forEach((s,i)=>{
+    const d=document.createElement('div'); d.className='step';
+    d.dataset.on=i===si?'1':'0'; d.dataset.done=i<si?'1':'0';
+    d.innerHTML=`<div class="dot">${i<si?'✓':i+1}</div><div class="nm">${s.nm}</div>`;
+    d.onclick=()=>{ si=i; renderA(); };
+    el.appendChild(d);
+  });
+}
+function renderA(){
+  const p=PROMPTS[pi], st=p.stages[si], meta=STEPS[si];
+  document.getElementById('prompt-q').textContent=p.q;
+  renderStepper();
+  const ts=document.getElementById('think-slot');
+  ts.innerHTML = st.think ? `<div class="think"><span class="lbl">▸ the model thinking (chain-of-thought)</span>${fmt(st.think)}</div>` : '';
+  document.getElementById('resp-who').textContent=meta.who;
+  document.getElementById('resp-body').innerHTML=fmt(st.body);
+  document.getElementById('add-tag').textContent=meta.tag;
+  document.getElementById('add-note').textContent=st.note;
+  document.getElementById('add-src').textContent=meta.src;
+  document.getElementById('prev').disabled=si===0;
+  document.getElementById('next').disabled=si===STEPS.length-1;
+}
+const psel=document.getElementById('promptsel');
+PROMPTS.forEach((p,i)=>{ const b=document.createElement('button'); b.className='psel'; b.textContent=p.label; b.setAttribute('aria-pressed',i===0);
+  b.onclick=()=>{ pi=i; si=0; [...psel.children].forEach((c,j)=>c.setAttribute('aria-pressed',j===i)); renderA(); }; psel.appendChild(b); });
+document.getElementById('prev').onclick=()=>{ if(si>0){si--;renderA();} };
+document.getElementById('next').onclick=()=>{ if(si<STEPS.length-1){si++;renderA();} };
+
+/* ---------------- Panel C ---------------- */
+const PAIRS=[
+  {q:'Explain briefly why the sky is blue.',
+   a:{h:'Answer A', t:'Blue light has a shorter wavelength, so air molecules scatter it far more than other colors. That scattered blue reaches your eyes from every direction, so the whole sky looks blue.'},
+   b:{h:'Answer B', t:'Because of science and light doing scattering things with the colors in the air basically.'},
+   better:'a', why:'A is specific and actually explains the mechanism; B gestures at it without saying anything checkable.'},
+  {q:'A user asks for help writing a resignation letter.',
+   a:{h:'Answer A', t:'Sure — here’s a short, professional template you can adapt: “Dear [name], I’m writing to formally resign from [role], effective [date]…”'},
+   b:{h:'Answer B', t:'Quitting is a huge decision and you should really think hard about whether you’re making a mistake before doing anything.'},
+   better:'a', why:'A does what was asked, helpfully. B is unsolicited judgment — preference data teaches the model to answer the request, not lecture.'}
+];
+let ri=0, picks=0;
+function renderLab(){
+  const p=PAIRS[ri];
+  document.getElementById('lab-q').textContent=p.q;
+  const ab=document.getElementById('ab'); ab.innerHTML='';
+  ['a','b'].forEach(k=>{
+    const c=document.createElement('div'); c.className='abcard';
+    c.innerHTML=`<div class="h">${p[k].h}</div><div class="body">${p[k].t}</div>`;
+    c.onclick=()=>pick(k,c);
+    ab.appendChild(c);
+  });
+  document.getElementById('lab-fb').innerHTML='Click the answer you’d prefer.';
+  document.getElementById('lab-next').style.display='none';
+}
+function pick(k,card){
+  const p=PAIRS[ri];
+  [...document.getElementById('ab').children].forEach(c=>c.classList.remove('picked'));
+  card.classList.add('picked');
+  picks++;
+  const agree = k===p.better;
+  const line = agree ? 'Most people agree.' : 'Reasonable — but most labelers pick the other one.';
+  document.getElementById('lab-fb').innerHTML=`<b>Signal recorded.</b> ${line} ${p.why} <br>× a few million choices = the preference stage.`;
+  document.getElementById('lab-next').style.display= ri<PAIRS.length-1 ? 'inline-block' : 'none';
+}
+document.getElementById('lab-next').onclick=()=>{ if(ri<PAIRS.length-1){ri++;renderLab();} };
+
+renderA(); renderLab();
+</script>
+</body>
+</html>

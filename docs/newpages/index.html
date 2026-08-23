@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How an open-weight LLM works — LLM from scratch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#182430; --ink-soft:#4b5b6a; --ink-faint:#7d8b98;
+    --paper:#eef1f3; --surface:#ffffff; --surface-2:#f6f8f9;
+    --line:#d7dee2; --line-soft:#e6ebee;
+    --accent:#0e7c86; --accent-ink:#0a5158; --accent-bg:#dcecee;
+    --amber:#9a6a12; --amber-bg:#f4e9d4;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:"Inter",system-ui,sans-serif; line-height:1.65;
+    padding:clamp(20px,5vw,64px) clamp(16px,5vw,40px);
+  }
+  .brandbar{display:flex; align-items:center; gap:9px; margin-bottom:22px; font-family:"JetBrains Mono",monospace; font-size:12.5px}
+  .brandbar a{color:var(--ink); text-decoration:none; font-weight:700; letter-spacing:.01em}
+  .brandbar a:hover{color:var(--accent-ink)}
+  .brandbar .sep{color:var(--line)}
+  .brandbar .series{color:var(--ink-faint)}
+  .wrap{max-width:960px;margin:0 auto}
+
+  .eyebrow{
+    font-family:"JetBrains Mono",monospace; font-size:12px; font-weight:500;
+    letter-spacing:.18em; text-transform:uppercase; color:var(--accent-ink);
+    display:flex; align-items:center; gap:10px; margin:0 0 18px;
+  }
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--accent)}
+  h1{
+    font-family:"Space Grotesk",sans-serif; font-weight:600;
+    font-size:clamp(32px,6.5vw,52px); line-height:1.06; letter-spacing:-.02em;
+    margin:0 0 16px; max-width:16ch;
+  }
+  .thesis{font-size:clamp(16px,2.4vw,20px); color:var(--ink-soft); max-width:62ch; margin:0}
+
+  section{margin-top:clamp(40px,7vw,72px)}
+  .sec-eyebrow{
+    font-family:"JetBrains Mono",monospace; font-size:12px; font-weight:500;
+    letter-spacing:.16em; text-transform:uppercase; color:var(--ink-faint); margin:0 0 14px;
+  }
+  h2{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:clamp(22px,3.4vw,30px); margin:0 0 16px; letter-spacing:-.01em; max-width:20ch}
+  p.body{font-size:16px; color:var(--ink-soft); max-width:64ch; margin:0 0 14px}
+  p.body b{color:var(--ink)}
+
+  .callout{
+    background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--accent);
+    border-radius:0 var(--radius) var(--radius) 0; padding:20px 24px; max-width:64ch;
+  }
+  .callout p{margin:0; color:var(--ink-soft); font-size:15.5px}
+  .callout b{color:var(--accent-ink)}
+
+  /* ---- diagrams ---- */
+  .diagram{
+    background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+    padding:22px; overflow-x:auto;
+  }
+  .diagram svg{display:block; min-width:640px; width:100%; height:auto}
+  .dcap{font-family:"JetBrains Mono",monospace; font-size:12px; color:var(--ink-faint); letter-spacing:.05em; margin:12px 2px 0}
+  .node rect{fill:var(--surface-2); stroke:var(--line); stroke-width:1}
+  .node .t{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:14px; fill:var(--ink)}
+  .node .s{font-family:"JetBrains Mono",monospace; font-size:10.5px; fill:var(--ink-faint)}
+  .payoff rect{fill:var(--accent-bg); stroke:var(--accent); stroke-width:1.2}
+  .payoff .t{fill:var(--accent-ink)}
+  .big rect{fill:#eef6f6; stroke:var(--accent); stroke-width:1.2; stroke-dasharray:4 3}
+  .proc{font-family:"JetBrains Mono",monospace; font-size:11px; font-weight:500; fill:var(--accent-ink); letter-spacing:.04em}
+  .flowline{stroke:var(--accent); stroke-width:1.6; fill:none}
+  .loopline{stroke:var(--amber); stroke-width:1.6; fill:none; stroke-dasharray:5 4}
+  .looplbl{font-family:"JetBrains Mono",monospace; font-size:11px; fill:var(--amber)}
+
+  /* ---- stage grid ---- */
+  .stagegrid{display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:14px}
+  .card{
+    display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--line);
+    border-radius:var(--radius); padding:22px; text-decoration:none; color:inherit;
+    transition:border-color .15s, transform .15s;
+  }
+  a.card:hover{border-color:var(--accent); transform:translateY(-2px)}
+  .card-top{display:flex; align-items:center; justify-content:space-between; margin-bottom:12px}
+  .cnum{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:13px; color:var(--accent)}
+  .pill{font-family:"JetBrains Mono",monospace; font-size:10px; letter-spacing:.08em; text-transform:uppercase; padding:3px 8px; border-radius:999px}
+  .pill.ready{color:var(--accent-ink); background:var(--accent-bg)}
+  .pill.planned{color:var(--ink-faint); background:var(--line-soft)}
+  .card h3{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:18px; margin:0 0 8px; letter-spacing:-.01em}
+  .card p{font-size:14px; color:var(--ink-soft); margin:0 0 14px; flex:1}
+  .card .go{font-family:"JetBrains Mono",monospace; font-size:12.5px; color:var(--accent-ink)}
+  .card .go.muted{color:var(--ink-faint)}
+  .phasetag{font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-faint); margin:26px 0 12px}
+  .phasetag:first-of-type{margin-top:0}
+
+  footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--line); font-size:13px; color:var(--ink-faint); font-family:"JetBrains Mono",monospace; letter-spacing:.04em}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brandbar"><a href="https://techievenki.ai">TechieVenki</a><span class="sep">/</span><span class="series">LLM from scratch</span></div>
+
+  <p class="eyebrow">LLM from scratch · The series</p>
+  <h1>How an open-weight LLM actually works</h1>
+  <p class="thesis">From a pile of raw text to a file you download and run on your own machine — the whole journey, in seven interactive stops. Every stage is a concept, a flow diagram, and code you can run yourself. No black boxes.</p>
+
+  <section>
+    <p class="sec-eyebrow">Start here</p>
+    <h2>Why "open weights" is what makes this possible</h2>
+    <p class="body">A model's <b>weights</b> are the billions of learned numbers that <i>are</i> the model. A closed model keeps them behind an API — you send text, you get text, you never see inside. An <b>open-weight</b> model publishes those numbers, usually on a hub like Hugging Face.</p>
+    <div class="callout">
+      <p>Because the weights are public, you can <b>download them, run them offline, inspect them, shrink them, and fine-tune them</b>. That's the only reason a series like this can end each stage in working code instead of hand-waving. If you've ever pulled a model with a few commands and watched it generate on your laptop — you've already used the last step of the diagram below.</p>
+    </div>
+  </section>
+
+  <section>
+    <p class="sec-eyebrow">The big picture · 1 of 2</p>
+    <h2>How a model is built, and how it reaches you</h2>
+    <p class="body">Four artifacts, three training processes, one hand-off. Each arrow is a stage in this series.</p>
+    <div class="diagram">
+      <svg viewBox="0 0 980 170" role="img" aria-label="Lifecycle: raw text through pretraining to a base model, post-training to an aligned model, compression to open weights, then downloaded and served on your machine.">
+        <defs>
+          <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M2 1L8 5L2 9" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+        </defs>
+        <!-- nodes -->
+        <g class="node"><rect x="8" y="66" width="150" height="60" rx="10"/><text class="t" x="83" y="90" text-anchor="middle">Raw text</text><text class="s" x="83" y="108" text-anchor="middle">trillions of tokens</text></g>
+        <g class="node"><rect x="212" y="66" width="150" height="60" rx="10"/><text class="t" x="287" y="90" text-anchor="middle">Base model</text><text class="s" x="287" y="108" text-anchor="middle">raw word predictor</text></g>
+        <g class="node"><rect x="416" y="66" width="150" height="60" rx="10"/><text class="t" x="491" y="90" text-anchor="middle">Aligned model</text><text class="s" x="491" y="108" text-anchor="middle">follows instructions</text></g>
+        <g class="node"><rect x="620" y="66" width="150" height="60" rx="10"/><text class="t" x="695" y="90" text-anchor="middle">Open weights</text><text class="s" x="695" y="108" text-anchor="middle">published to a hub</text></g>
+        <g class="node payoff"><rect x="824" y="66" width="150" height="60" rx="10"/><text class="t" x="899" y="90" text-anchor="middle">Your machine</text><text class="s" x="899" y="108" text-anchor="middle" style="fill:var(--accent-ink)">download &amp; run</text></g>
+        <!-- arrows + process labels -->
+        <text class="proc" x="185" y="80" text-anchor="middle">Pretraining</text>
+        <line class="flowline" x1="158" y1="96" x2="212" y2="96" marker-end="url(#ah)"/>
+        <text class="proc" x="389" y="80" text-anchor="middle">Post-training</text>
+        <line class="flowline" x1="362" y1="96" x2="416" y2="96" marker-end="url(#ah)"/>
+        <text class="proc" x="593" y="80" text-anchor="middle">Compression</text>
+        <line class="flowline" x1="566" y1="96" x2="620" y2="96" marker-end="url(#ah)"/>
+        <text class="proc" x="797" y="80" text-anchor="middle">Serving</text>
+        <line class="flowline" x1="770" y1="96" x2="824" y2="96" marker-end="url(#ah)"/>
+      </svg>
+    </div>
+    <p class="dcap">Stages 3–4 build it · stage 5 shrinks it · stage 7 runs it.</p>
+  </section>
+
+  <section>
+    <p class="sec-eyebrow">The big picture · 2 of 2</p>
+    <h2>What happens inside, one token at a time</h2>
+    <p class="body">Generation is a loop. The model turns your prompt into tokens, pushes them through a stack of identical layers, predicts the next token, appends it, and does the whole thing again — until it decides to stop.</p>
+    <div class="diagram">
+      <svg viewBox="0 0 980 210" role="img" aria-label="Inference loop: text in, tokenize, embed, pass through N transformer layers, produce next-token probabilities, sample one token, append and repeat, finally text out.">
+        <defs>
+          <marker id="ah2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M2 1L8 5L2 9" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+          <marker id="ah3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M2 1L8 5L2 9" fill="none" stroke="var(--amber)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+        </defs>
+        <g class="node"><rect x="6" y="40" width="120" height="52" rx="10"/><text class="t" x="66" y="70" text-anchor="middle">Text in</text></g>
+        <g class="node"><rect x="150" y="40" width="120" height="52" rx="10"/><text class="t" x="210" y="65" text-anchor="middle">Tokenize</text><text class="s" x="210" y="81" text-anchor="middle">stage 1</text></g>
+        <g class="node"><rect x="294" y="40" width="120" height="52" rx="10"/><text class="t" x="354" y="65" text-anchor="middle">Embed</text><text class="s" x="354" y="81" text-anchor="middle">stage 2</text></g>
+        <g class="node big"><rect x="438" y="30" width="150" height="72" rx="10"/><text class="t" x="513" y="60" text-anchor="middle">Transformer</text><text class="t" x="513" y="78" text-anchor="middle">layers ×N</text></g>
+        <g class="node"><rect x="612" y="40" width="130" height="52" rx="10"/><text class="t" x="677" y="65" text-anchor="middle">Next-token</text><text class="s" x="677" y="81" text-anchor="middle">probabilities</text></g>
+        <g class="node"><rect x="766" y="40" width="120" height="52" rx="10"/><text class="t" x="826" y="65" text-anchor="middle">Pick one</text><text class="s" x="826" y="81" text-anchor="middle">sample</text></g>
+        <g class="node payoff"><rect x="6" y="40" width="120" height="52" rx="10" style="display:none"/></g>
+        <g class="node payoff"><rect x="906" y="40" width="68" height="52" rx="10"/><text class="t" x="940" y="70" text-anchor="middle" style="font-size:12px">Text</text></g>
+
+        <line class="flowline" x1="126" y1="66" x2="150" y2="66" marker-end="url(#ah2)"/>
+        <line class="flowline" x1="270" y1="66" x2="294" y2="66" marker-end="url(#ah2)"/>
+        <line class="flowline" x1="414" y1="66" x2="438" y2="66" marker-end="url(#ah2)"/>
+        <line class="flowline" x1="588" y1="66" x2="612" y2="66" marker-end="url(#ah2)"/>
+        <line class="flowline" x1="742" y1="66" x2="766" y2="66" marker-end="url(#ah2)"/>
+        <line class="flowline" x1="886" y1="66" x2="906" y2="66" marker-end="url(#ah2)"/>
+
+        <!-- loop: sample back to layers -->
+        <path class="loopline" d="M826 92 L826 165 L513 165 L513 102" marker-end="url(#ah3)"/>
+        <text class="looplbl" x="669" y="182" text-anchor="middle">append the new token, run again — until a stop token</text>
+      </svg>
+    </div>
+    <p class="dcap">The dashed loop is why long outputs are slow and why the KV cache exists — stage 7.</p>
+  </section>
+
+  <section>
+    <p class="sec-eyebrow">The path</p>
+    <h2>Seven stages, entrance to exit</h2>
+    <p class="body">Read them in order for the full arc, or jump to whatever a model card just threw at you. Each links to its own interactive page.</p>
+
+    <p class="phasetag">Phase 1 — Foundations</p>
+    <div class="stagegrid">
+      <a class="card" href="01-tokens-and-parameters.html">
+        <div class="card-top"><span class="cnum">01</span><span class="pill ready">Ready</span></div>
+        <h3>Tokens &amp; parameters</h3>
+        <p>What a model reads, and what "27B" and "4-bit" actually cost in gigabytes.</p>
+        <span class="go">Open explainer →</span>
+      </a>
+      <a class="card" href="02-transformer-block.html">
+        <div class="card-top"><span class="cnum">02</span><span class="pill ready">Ready</span></div>
+        <h3>The transformer block</h3>
+        <p>Embeddings, attention, and the one layer that repeats to make the whole model.</p>
+        <span class="go">Open explainer →</span>
+      </a>
+    </div>
+
+    <p class="phasetag">Phase 2 — Training</p>
+    <div class="stagegrid">
+      <a class="card" href="03-pretraining.html">
+        <div class="card-top"><span class="cnum">03</span><span class="pill ready">Ready</span></div>
+        <h3>Pretraining</h3>
+        <p>One objective, trillions of tokens: predict the next one. Where the base model is born.</p>
+        <span class="go">Open explainer →</span>
+      </a>
+      <a class="card" href="04-post-training.html">
+        <div class="card-top"><span class="cnum">04</span><span class="pill ready">Ready</span></div>
+        <h3>Post-training</h3>
+        <p>Turning a raw predictor into an assistant — and how each new version reruns this pipeline.</p>
+        <span class="go">Open explainer →</span>
+      </a>
+    </div>
+
+    <p class="phasetag">Phase 3 — Efficiency</p>
+    <div class="stagegrid">
+      <a class="card" href="05-compression.html">
+        <div class="card-top"><span class="cnum">05</span><span class="pill ready">Ready</span></div>
+        <h3>Compression</h3>
+        <p>Quantization, distillation, and mixture-of-experts: smaller and cheaper, still smart.</p>
+        <span class="go">Open explainer →</span>
+      </a>
+      <a class="card" href="06-architecture-patterns.html">
+        <div class="card-top"><span class="cnum">06</span><span class="pill ready">Ready</span></div>
+        <h3>Architecture patterns</h3>
+        <p>Linear vs full attention, hybrid stacks, and why Qwen and Kimi look so different.</p>
+        <span class="go">Open explainer →</span>
+      </a>
+      <a class="card" href="07-serving-inference.html">
+        <div class="card-top"><span class="cnum">07</span><span class="pill ready">Ready</span></div>
+        <h3>Serving &amp; inference</h3>
+        <p>The KV cache, context length, and why 4-bit counterintuitively runs fastest.</p>
+        <span class="go">Open explainer →</span>
+      </a>
+    </div>
+  </section>
+
+  <footer><a href="https://techievenki.ai" style="color:inherit;text-decoration:none">techievenki.ai</a> — LLM from scratch — Overview</footer>
+</div>
+</body>
+</html>

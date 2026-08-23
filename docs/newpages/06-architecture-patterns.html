@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Architecture patterns — LLM from scratch · Stage 6</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#182430; --ink-soft:#4b5b6a; --ink-faint:#7d8b98;
+    --paper:#eef1f3; --surface:#ffffff; --surface-2:#f6f8f9;
+    --line:#d7dee2; --line-soft:#e6ebee;
+    --accent:#0e7c86; --accent-ink:#0a5158; --accent-bg:#dcecee;
+    --coral:#c0563d; --coral-bg:#f4ddd5;
+    --amber:#9a6a12; --amber-bg:#f4e9d4;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:"Inter",system-ui,sans-serif; line-height:1.65; padding:clamp(20px,5vw,64px) clamp(16px,5vw,40px)}
+  .brandbar{display:flex; align-items:center; gap:9px; margin-bottom:22px; font-family:"JetBrains Mono",monospace; font-size:12.5px}
+  .brandbar a{color:var(--ink); text-decoration:none; font-weight:700; letter-spacing:.01em}
+  .brandbar a:hover{color:var(--accent-ink)}
+  .brandbar .sep{color:var(--line)}
+  .brandbar .series{color:var(--ink-faint)}
+  .wrap{max-width:860px;margin:0 auto}
+
+  .eyebrow{font-family:"JetBrains Mono",monospace; font-size:12px; font-weight:500; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-ink); display:flex; align-items:center; gap:10px; margin:0 0 18px}
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--accent)}
+  h1{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:clamp(30px,6vw,46px); line-height:1.08; letter-spacing:-.02em; margin:0 0 14px}
+  .thesis{font-size:clamp(16px,2.4vw,19px); color:var(--ink-soft); max-width:62ch; margin:0}
+
+  .panel{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:clamp(20px,3.5vw,32px); margin-top:clamp(28px,5vw,44px)}
+  .panel-head{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; margin-bottom:6px}
+  .panel-num{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:13px; color:var(--accent); border:1px solid var(--accent); border-radius:6px; padding:2px 8px}
+  h2{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:clamp(20px,3vw,25px); margin:0; letter-spacing:-.01em}
+  .lede{color:var(--ink-soft); font-size:15px; margin:10px 0 22px; max-width:62ch}
+  .lede a{color:var(--accent-ink)}
+  label.field{display:block; font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-faint); margin:0 0 8px}
+  button:focus-visible,input:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+  .seg{display:inline-flex; flex-wrap:wrap; border:1px solid var(--line); border-radius:10px; overflow:hidden}
+  .seg button{font-family:"JetBrains Mono",monospace; font-size:13px; padding:9px 15px; border:0; background:var(--surface); color:var(--ink-soft); cursor:pointer; border-right:1px solid var(--line)}
+  .seg button:last-child{border-right:0}
+  .seg button[aria-pressed="true"]{background:var(--accent); color:#fff}
+
+  .ctlrow{display:flex; flex-wrap:wrap; gap:20px; align-items:center; margin-bottom:16px}
+  .ctlrow .g{display:flex; align-items:center; gap:12px}
+  input[type=range]{accent-color:var(--accent); height:22px; width:160px}
+  .rngval{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:14px; color:var(--accent-ink); min-width:96px}
+
+  .viz{overflow-x:auto; margin:6px 0}
+  .viz svg{display:block; min-width:440px; width:100%; height:auto}
+
+  .readouts{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden; margin-top:14px}
+  @media(max-width:600px){.readouts{grid-template-columns:1fr}}
+  .ro{background:var(--surface); padding:14px 16px}
+  .ro .num{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:clamp(18px,3.5vw,24px); color:var(--ink); line-height:1}
+  .ro .num.accent{color:var(--accent)}
+  .ro .num.coral{color:var(--coral)}
+  .ro .cap{font-family:"JetBrains Mono",monospace; font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-faint); margin-top:6px}
+
+  .tradeoff{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:16px}
+  @media(max-width:600px){.tradeoff{grid-template-columns:1fr}}
+  .tcard{border:1px solid var(--line); border-radius:10px; padding:14px 16px; background:var(--surface-2)}
+  .tcard h4{font-family:"Space Grotesk",sans-serif; margin:0 0 6px; font-size:15px}
+  .tcard.full h4{color:var(--coral)} .tcard.lin h4{color:var(--accent-ink)}
+  .tcard p{margin:0; font-size:13.5px; color:var(--ink-soft)}
+
+  /* stack builder */
+  .stackrow{display:flex; gap:18px; flex-wrap:wrap}
+  .stackviz{flex:1; min-width:180px}
+  .stackgrid{display:grid; grid-template-columns:repeat(8,1fr); gap:4px; margin-top:4px}
+  .lyr{aspect-ratio:1; border-radius:4px; background:var(--accent); opacity:.9}
+  .lyr.full{background:var(--coral)}
+  .stacklegend{font-family:"JetBrains Mono",monospace; font-size:11.5px; color:var(--ink-faint); margin-top:10px; display:flex; gap:16px; flex-wrap:wrap}
+  .stacklegend span{display:inline-flex; align-items:center; gap:6px}
+  .sw{width:11px;height:11px;border-radius:3px;display:inline-block}
+  .sw.a{background:var(--accent)} .sw.c{background:var(--coral)}
+  .chartwrap{flex:2; min-width:280px}
+  .chart svg{display:block; width:100%; height:auto}
+
+  .cmp{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:8px 0 6px}
+  @media(max-width:600px){.cmp{grid-template-columns:1fr}}
+  .mcard{border:1px solid var(--line); border-radius:12px; padding:18px; background:var(--surface-2)}
+  .mcard .nm{font-family:"Space Grotesk",sans-serif; font-weight:700; font-size:18px; margin-bottom:2px}
+  .mcard .tag{font-family:"JetBrains Mono",monospace; font-size:11px; color:var(--ink-faint); margin-bottom:12px}
+  .mcard.qwen .nm{color:var(--accent-ink)} .mcard.kimi .nm{color:var(--coral)}
+  .mrow{display:flex; justify-content:space-between; gap:10px; font-size:13.5px; padding:6px 0; border-top:1px solid var(--line)}
+  .mrow .k{color:var(--ink-faint); font-family:"JetBrains Mono",monospace; font-size:11.5px}
+  .mrow .v{color:var(--ink); text-align:right}
+
+  .note{font-size:14px; color:var(--ink-soft); background:var(--amber-bg); border-left:3px solid var(--amber); border-radius:0 8px 8px 0; padding:12px 16px; margin-top:20px}
+  .note b{color:var(--amber)}
+
+  .nav{display:flex; justify-content:space-between; margin-top:30px; font-family:"JetBrains Mono",monospace; font-size:13px; gap:16px}
+  .nav a{color:var(--accent-ink); text-decoration:none}
+  .nav a:hover{text-decoration:underline}
+  .nav .disabled{color:var(--ink-faint)}
+  footer{margin-top:30px; padding-top:20px; border-top:1px solid var(--line); font-size:13px; color:var(--ink-faint); font-family:"JetBrains Mono",monospace; letter-spacing:.04em}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brandbar"><a href="https://techievenki.ai">TechieVenki</a><span class="sep">/</span><span class="series">LLM from scratch</span></div>
+
+  <p class="eyebrow">LLM from scratch · Stage 6</p>
+  <h1>Architecture patterns</h1>
+  <p class="thesis">The <a href="02-transformer-block.html">attention</a> you met in Stage 2 is powerful but expensive — it re-compares every token with every other, and the memory to do that grows with the conversation. The frontier trick of 2025–26 is to use it <em>sparingly</em>: cheap layers most of the time, real attention only now and then. This distinction — cheap most of the time, real attention only when it counts — is exactly what separates two of 2026's most-discussed open models.</p>
+
+  <section class="panel" aria-labelledby="p1">
+    <div class="panel-head"><span class="panel-num">A</span><h2 id="p1">Two ways a layer can mix tokens</h2></div>
+    <p class="lede">A layer's job is to let tokens share information. There are two ways to do it, with opposite cost profiles. Toggle between them and drag the context length to see what happens as the text gets longer.</p>
+
+    <div class="ctlrow">
+      <div class="seg" id="mseg" role="group" aria-label="Layer type">
+        <button data-m="full" aria-pressed="true">Full attention</button>
+        <button data-m="linear" aria-pressed="false">Linear attention</button>
+      </div>
+      <div class="g"><label class="field" style="margin:0">Tokens</label><input type="range" id="ntok" min="3" max="8" value="6"><span class="rngval" id="ntok-val">6</span></div>
+    </div>
+
+    <div class="viz" id="mviz"></div>
+
+    <div class="readouts">
+      <div class="ro"><div class="num" id="a-comp">—</div><div class="cap">Comparisons this layer</div></div>
+      <div class="ro"><div class="num" id="a-mem">—</div><div class="cap">Memory slots kept</div></div>
+      <div class="ro"><div class="num" id="a-scale">—</div><div class="cap">Grows with length as</div></div>
+    </div>
+
+    <div class="tradeoff">
+      <div class="tcard full"><h4>Full attention</h4><p>Every token can look up any earlier token exactly. Perfect recall — but it stores one memory slot per token (the KV cache) and cost grows with the square of the length.</p></div>
+      <div class="tcard lin"><h4>Linear attention</h4><p>Each token is folded into one fixed-size running state. Constant memory, cost grows only linearly — but recall is a lossy summary, not an exact lookup.</p></div>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="p2">
+    <div class="panel-head"><span class="panel-num">B</span><h2 id="p2">The hybrid stack — and the memory payoff</h2></div>
+    <p class="lede">You don't have to choose. Interleave them: mostly cheap linear layers, with a full-attention layer every so often to restore precise recall. Pick a design and drag the context length — the chart is the answer to "why does long context cost so much?"</p>
+
+    <div class="ctlrow">
+      <div class="seg" id="pset" role="group" aria-label="Architecture">
+        <button data-p="full" aria-pressed="false">All full attention</button>
+        <button data-p="hybrid" aria-pressed="true">3:1 hybrid</button>
+        <button data-p="linear" aria-pressed="false">All linear</button>
+      </div>
+    </div>
+
+    <div class="stackrow">
+      <div class="stackviz">
+        <label class="field">64-layer stack</label>
+        <div class="stackgrid" id="stackgrid"></div>
+        <div class="stacklegend">
+          <span><i class="sw c"></i>full attention</span>
+          <span><i class="sw a"></i>linear</span>
+        </div>
+        <div style="font-family:JetBrains Mono,monospace;font-size:12px;color:var(--ink-soft);margin-top:10px" id="stackcount"></div>
+      </div>
+      <div class="chartwrap">
+        <label class="field">KV-cache memory vs context length</label>
+        <div class="chart" id="chart"></div>
+      </div>
+    </div>
+
+    <div class="ctlrow" style="margin-top:14px">
+      <div class="g"><label class="field" style="margin:0">Context</label><input type="range" id="ctx" min="0" max="1000" value="700"><span class="rngval" id="ctx-val">128K</span></div>
+    </div>
+
+    <div class="readouts">
+      <div class="ro"><div class="num coral" id="c-full">—</div><div class="cap">All-full cache</div></div>
+      <div class="ro"><div class="num accent" id="c-hybrid">—</div><div class="cap">3:1 hybrid cache</div></div>
+      <div class="ro"><div class="num" id="c-linear">—</div><div class="cap">All-linear cache</div></div>
+    </div>
+
+    <p class="note"><b>This is why hybrid models fit on modest hardware.</b> With only a quarter of the layers holding a growing cache, a hybrid model's memory rises far more slowly with context. That's why a design like this can offer huge context windows on a single Mac or workstation GPU rather than a data-center rack. It's also a common sizing mistake: estimating a hybrid model's memory as if every layer were full attention overstates the real cost substantially.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="p3">
+    <div class="panel-head"><span class="panel-num">C</span><h2 id="p3">Where Qwen and Kimi land</h2></div>
+    <p class="lede">Both models use the same 3:1 skeleton from the panel above. Everything else — dense vs sparse, and how each layer type is implemented — is where they diverge. It's the vocabulary buried in most model cards, translated into something you can actually picture.</p>
+
+    <div class="cmp">
+      <div class="mcard qwen">
+        <div class="nm">Qwen3.8-27B</div>
+        <div class="tag">dense · runs on a Mac</div>
+        <div class="mrow"><span class="k">skeleton</span><span class="v">3 linear : 1 full</span></div>
+        <div class="mrow"><span class="k">linear layer</span><span class="v">Gated DeltaNet</span></div>
+        <div class="mrow"><span class="k">full layer</span><span class="v">Gated Attention (GQA)</span></div>
+        <div class="mrow"><span class="k">experts</span><span class="v">none — dense FFN</span></div>
+        <div class="mrow"><span class="k">size</span><span class="v">27B, all active</span></div>
+      </div>
+      <div class="mcard kimi">
+        <div class="nm">Kimi K3</div>
+        <div class="tag">sparse MoE · data-center scale</div>
+        <div class="mrow"><span class="k">skeleton</span><span class="v">3 linear : 1 full</span></div>
+        <div class="mrow"><span class="k">linear layer</span><span class="v">KDA (Kimi Delta Attn)</span></div>
+        <div class="mrow"><span class="k">full layer</span><span class="v">Gated MLA (latent KV)</span></div>
+        <div class="mrow"><span class="k">experts</span><span class="v"><a href="05-compression.html" style="color:var(--coral)">MoE</a>, 16 of 896 + 2</span></div>
+        <div class="mrow"><span class="k">size</span><span class="v">2.8T total / ~104B active</span></div>
+      </div>
+    </div>
+
+    <p class="note" style="background:var(--surface-2);border-left-color:var(--accent);color:var(--ink-soft)"><b style="color:var(--accent-ink)">One more Kimi trick: MLA.</b> Even its full-attention layers shrink the cache further by compressing the stored keys and values into a small <i>latent</i> space instead of keeping them full-size — so the chart above would sit lower still for Kimi. Qwen keeps it simpler with grouped-query attention. Same goal — cheap memory — reached two different ways, which is the whole story of why two models with the same skeleton look so different.</p>
+  </section>
+
+  <div class="nav">
+    <a href="05-compression.html">← Stage 5 · Compression</a>
+    <a href="07-serving-inference.html">Stage 7 · Serving &amp; inference →</a>
+  </div>
+  <footer><a href="https://techievenki.ai" style="color:inherit;text-decoration:none">techievenki.ai</a> — LLM from scratch — 06 / 07</footer>
+</div>
+
+<script>
+/* ---------------- Panel A ---------------- */
+let amode='full', an=6;
+function drawA(){
+  const W=560,H=170,ML=30,MR=30, ty=64, cy=118;
+  const xs=[]; for(let i=0;i<an;i++) xs.push(ML+(an===1?0:i*(W-ML-MR)/(an-1)));
+  let g=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+  if(amode==='full'){
+    // all-pairs arcs
+    for(let i=0;i<an;i++)for(let j=0;j<i;j++){
+      const x1=xs[i],x2=xs[j],mx=(x1+x2)/2, h=18+(i-j)*8;
+      g+=`<path d="M${x1} ${ty} Q ${mx} ${ty-h} ${x2} ${ty}" fill="none" stroke="var(--coral)" stroke-width="1.2" opacity="0.5"/>`;
+    }
+  }else{
+    // each token -> single state box
+    const sx=W/2;
+    for(let i=0;i<an;i++){ g+=`<path d="M${xs[i]} ${ty+8} C ${xs[i]} ${cy-14}, ${sx} ${cy-14}, ${sx} ${cy-8}" fill="none" stroke="var(--accent)" stroke-width="1.2" opacity="0.5"/>`; }
+    g+=`<rect x="${sx-46}" y="${cy-6}" width="92" height="26" rx="7" fill="var(--accent-bg)" stroke="var(--accent)"/>`;
+    g+=`<text x="${sx}" y="${cy+11}" text-anchor="middle" font-family="JetBrains Mono" font-size="11" fill="var(--accent-ink)">fixed state</text>`;
+  }
+  for(let i=0;i<an;i++){
+    g+=`<circle cx="${xs[i]}" cy="${ty}" r="9" fill="var(--surface-2)" stroke="var(--line)"/>`;
+    g+=`<text x="${xs[i]}" y="${ty+4}" text-anchor="middle" font-family="JetBrains Mono" font-size="10" fill="var(--ink-soft)">${i+1}</text>`;
+  }
+  // cache strip label
+  if(amode==='full'){
+    g+=`<text x="${ML}" y="${H-10}" font-family="JetBrains Mono" font-size="10.5" fill="var(--ink-faint)">KV cache: ${an} slots — one per token, and growing</text>`;
+  }else{
+    g+=`<text x="${ML}" y="${H-10}" font-family="JetBrains Mono" font-size="10.5" fill="var(--ink-faint)">KV cache: 1 fixed state — never grows</text>`;
+  }
+  g+=`</svg>`;
+  document.getElementById('mviz').innerHTML=g;
+  document.getElementById('a-comp').textContent = amode==='full'? (an*(an-1)/2) : an;
+  document.getElementById('a-mem').textContent = amode==='full'? an : '1';
+  document.getElementById('a-scale').textContent = amode==='full'? 'length²' : 'length';
+}
+document.getElementById('mseg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;amode=b.dataset.m;[...e.currentTarget.children].forEach(c=>c.setAttribute('aria-pressed',c===b));drawA();});
+document.getElementById('ntok').addEventListener('input',e=>{an=+e.target.value;document.getElementById('ntok-val').textContent=an;drawA();});
+
+/* ---------------- Panel B ---------------- */
+const LAYERS=64, BYTES_PER_TOK_PER_FULL=4096; // 2(K,V)*4 kv-heads*256 head-dim*2 bytes
+const FULL_COUNT={full:64, hybrid:16, linear:0};
+let preset='hybrid';
+const CMIN=1e3, CMAX=1e6;
+const sToCtx=v=>CMIN*Math.pow(CMAX/CMIN, v/1000);
+function fmtCtx(c){ return c>=1e6?(c/1e6).toFixed(c>=1e6*9.5?0:1)+'M':(c/1e3).toFixed(0)+'K'; }
+function cacheGB(fullLayers, ctx){ if(fullLayers===0) return 0.3; return fullLayers*BYTES_PER_TOK_PER_FULL*ctx/1e9; }
+function fmtGB(g){ return g<1?(g*1000).toFixed(0)+' MB':g<10?g.toFixed(1)+' GB':Math.round(g)+' GB'; }
+
+function drawStack(){
+  const grid=document.getElementById('stackgrid'); grid.innerHTML='';
+  for(let i=0;i<LAYERS;i++){
+    const isFull = preset==='full' ? true : preset==='linear' ? false : (i%4===3);
+    const d=document.createElement('div'); d.className='lyr'+(isFull?' full':''); grid.appendChild(d);
+  }
+  const fc=FULL_COUNT[preset];
+  document.getElementById('stackcount').textContent=`${fc} of 64 layers hold a growing KV cache`;
+}
+function drawChart(){
+  const W=380,H=230,PL=44,PR=14,PT=14,PB=34;
+  const lx=Math.log10(CMIN), hx=Math.log10(CMAX);
+  const ly=Math.log10(0.1), hy=Math.log10(400);
+  const X=c=>PL+(Math.log10(c)-lx)/(hx-lx)*(W-PL-PR);
+  const Y=g=>PT+(1-(Math.log10(Math.max(g,0.1))-ly)/(hy-ly))*(H-PT-PB);
+  const ctx=sToCtx(+document.getElementById('ctx').value);
+  let s=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+  // grid
+  [1e3,1e4,1e5,1e6].forEach(c=>{ const x=X(c); s+=`<line x1="${x}" y1="${PT}" x2="${x}" y2="${H-PB}" stroke="var(--line-soft)"/><text x="${x}" y="${H-PB+16}" text-anchor="middle" font-family="JetBrains Mono" font-size="9" fill="var(--ink-faint)">${fmtCtx(c)}</text>`; });
+  [0.1,1,10,100].forEach(v=>{ const y=Y(v); s+=`<line x1="${PL}" y1="${y}" x2="${W-PR}" y2="${y}" stroke="var(--line-soft)"/><text x="${PL-6}" y="${y+3}" text-anchor="end" font-family="JetBrains Mono" font-size="9" fill="var(--ink-faint)">${v<1?v:v+'G'}</text>`; });
+  // lines
+  const line=(fl,color,wd)=>{ let p=''; for(let i=0;i<=40;i++){ const c=CMIN*Math.pow(CMAX/CMIN,i/40); p+=(i?'L':'M')+X(c).toFixed(1)+' '+Y(cacheGB(fl,c)).toFixed(1)+' '; } s+=`<path d="${p}" fill="none" stroke="${color}" stroke-width="${wd}"/>`; };
+  line(64,'var(--coral)', preset==='full'?3:1.4);
+  line(16,'var(--accent)', preset==='hybrid'?3:1.4);
+  line(0,'var(--ink-faint)', preset==='linear'?3:1.4);
+  // marker
+  const mx=X(ctx); s+=`<line x1="${mx}" y1="${PT}" x2="${mx}" y2="${H-PB}" stroke="var(--ink-soft)" stroke-dasharray="3 3"/>`;
+  [[64,'var(--coral)'],[16,'var(--accent)'],[0,'var(--ink-faint)']].forEach(([fl,c])=>{ s+=`<circle cx="${mx}" cy="${Y(cacheGB(fl,ctx))}" r="3.5" fill="${c}"/>`; });
+  s+=`</svg>`;
+  document.getElementById('chart').innerHTML=s;
+}
+function renderB(){
+  drawStack(); drawChart();
+  const ctx=sToCtx(+document.getElementById('ctx').value);
+  document.getElementById('ctx-val').textContent=fmtCtx(ctx);
+  document.getElementById('c-full').textContent=fmtGB(cacheGB(64,ctx));
+  document.getElementById('c-hybrid').textContent=fmtGB(cacheGB(16,ctx));
+  document.getElementById('c-linear').textContent=fmtGB(cacheGB(0,ctx));
+}
+document.getElementById('pset').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;preset=b.dataset.p;[...e.currentTarget.children].forEach(c=>c.setAttribute('aria-pressed',c===b));renderB();});
+document.getElementById('ctx').addEventListener('input',renderB);
+
+drawA(); renderB();
+</script>
+</body>
+</html>

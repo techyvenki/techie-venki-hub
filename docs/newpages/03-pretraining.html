@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pretraining — LLM from scratch · Stage 3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#182430; --ink-soft:#4b5b6a; --ink-faint:#7d8b98;
+    --paper:#eef1f3; --surface:#ffffff; --surface-2:#f6f8f9;
+    --line:#d7dee2; --line-soft:#e6ebee;
+    --accent:#0e7c86; --accent-ink:#0a5158; --accent-bg:#dcecee;
+    --amber:#9a6a12; --amber-bg:#f4e9d4;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:"Inter",system-ui,sans-serif; line-height:1.65; padding:clamp(20px,5vw,64px) clamp(16px,5vw,40px)}
+  .brandbar{display:flex; align-items:center; gap:9px; margin-bottom:22px; font-family:"JetBrains Mono",monospace; font-size:12.5px}
+  .brandbar a{color:var(--ink); text-decoration:none; font-weight:700; letter-spacing:.01em}
+  .brandbar a:hover{color:var(--accent-ink)}
+  .brandbar .sep{color:var(--line)}
+  .brandbar .series{color:var(--ink-faint)}
+  .wrap{max-width:860px;margin:0 auto}
+
+  .eyebrow{font-family:"JetBrains Mono",monospace; font-size:12px; font-weight:500; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-ink); display:flex; align-items:center; gap:10px; margin:0 0 18px}
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--accent)}
+  h1{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:clamp(30px,6vw,46px); line-height:1.08; letter-spacing:-.02em; margin:0 0 14px}
+  .thesis{font-size:clamp(16px,2.4vw,19px); color:var(--ink-soft); max-width:62ch; margin:0}
+
+  .panel{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:clamp(20px,3.5vw,32px); margin-top:clamp(28px,5vw,44px)}
+  .panel-head{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; margin-bottom:6px}
+  .panel-num{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:13px; color:var(--accent); border:1px solid var(--accent); border-radius:6px; padding:2px 8px}
+  h2{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:clamp(20px,3vw,25px); margin:0; letter-spacing:-.01em}
+  .lede{color:var(--ink-soft); font-size:15px; margin:10px 0 22px; max-width:62ch}
+  label.field{display:block; font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-faint); margin:0 0 8px}
+
+  /* training control */
+  .trainctl{display:flex; align-items:center; gap:14px; margin-bottom:20px}
+  .playbtn{font-family:"JetBrains Mono",monospace; font-size:13px; font-weight:700; color:#fff; background:var(--accent); border:0; border-radius:9px; padding:11px 20px; cursor:pointer; white-space:nowrap}
+  .playbtn:hover{background:var(--accent-ink)}
+  input[type=range]{flex:1; accent-color:var(--accent); height:22px}
+  button:focus-visible,input:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+  .readouts{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden; margin-bottom:22px}
+  .ro{background:var(--surface); padding:14px 16px}
+  .ro .num{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:clamp(20px,4vw,26px); color:var(--ink); line-height:1}
+  .ro .num.accent{color:var(--accent)}
+  .ro .cap{font-family:"JetBrains Mono",monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-faint); margin-top:6px}
+
+  .dash{display:grid; grid-template-columns:1fr 1fr; gap:18px}
+  @media(max-width:620px){.dash{grid-template-columns:1fr} .readouts{grid-template-columns:1fr}}
+  .card2{border:1px solid var(--line); border-radius:10px; padding:16px; background:var(--surface-2)}
+  .card2 .lbl{font-family:"JetBrains Mono",monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:10px}
+  .chart svg{display:block; width:100%; height:auto}
+  .sample-txt{font-family:"JetBrains Mono",monospace; font-size:14px; line-height:1.7; color:var(--ink); min-height:118px; word-break:break-word}
+  .sample-note{font-family:"JetBrains Mono",monospace; font-size:11px; color:var(--accent-ink); margin-top:10px}
+
+  .ntk{margin-top:22px}
+  .ntk .prompt{font-family:"JetBrains Mono",monospace; font-size:14px; color:var(--ink); background:var(--surface-2); border:1px solid var(--line); border-radius:8px; padding:11px 14px; margin-bottom:14px}
+  .ntk .prompt .blank{color:var(--accent); border-bottom:2px solid var(--accent); padding:0 14px}
+  .bar-row{display:flex; align-items:center; gap:10px; margin:5px 0}
+  .bar-row .w{font-family:"JetBrains Mono",monospace; font-size:13px; width:82px; text-align:right; color:var(--ink-soft)}
+  .bar-row .track{flex:1; background:var(--line-soft); border-radius:5px; height:20px; overflow:hidden}
+  .bar-row .fill{display:block; height:100%; background:var(--accent); border-radius:5px; transition:width .12s}
+  .bar-row.true .w{color:var(--accent-ink); font-weight:700}
+  .bar-row.true .fill{background:var(--accent)}
+  .bar-row .pct{font-family:"JetBrains Mono",monospace; font-size:12px; width:44px; color:var(--ink-faint)}
+  .loss-def{font-family:"JetBrains Mono",monospace; font-size:12.5px; color:var(--ink-soft); margin-top:14px; padding:11px 14px; background:var(--amber-bg); border-radius:8px}
+  .loss-def b{color:var(--amber)}
+
+  /* learning loop diagram */
+  .blockdiag{overflow-x:auto}
+  .blockdiag svg{display:block; min-width:460px; width:100%; height:auto}
+  .bnode rect{fill:var(--surface-2); stroke:var(--line)}
+  .bnode.hi rect{fill:var(--accent-bg); stroke:var(--accent)}
+  .bnode .t{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:13px; fill:var(--ink)}
+  .bnode .s{font-family:"JetBrains Mono",monospace; font-size:10px; fill:var(--ink-faint)}
+  .bflow{stroke:var(--accent); stroke-width:1.5; fill:none}
+  .bloop{stroke:var(--amber); stroke-width:1.5; fill:none; stroke-dasharray:5 4}
+  .blooplbl{font-family:"JetBrains Mono",monospace; font-size:11px; fill:var(--amber)}
+
+  /* scaling calc */
+  .sctl{display:grid; grid-template-columns:1fr 1fr; gap:22px; margin-bottom:20px}
+  @media(max-width:620px){.sctl{grid-template-columns:1fr}}
+  .sliderrow{display:flex; align-items:center; gap:12px}
+  .sval{font-family:"JetBrains Mono",monospace; font-weight:700; font-size:14px; color:var(--accent-ink); min-width:70px; text-align:right}
+  .presetrow{display:flex; flex-wrap:wrap; gap:8px; margin-top:8px}
+  .preset{font-family:"JetBrains Mono",monospace; font-size:12px; padding:7px 11px; border-radius:8px; border:1px solid var(--line); background:var(--surface-2); color:var(--ink-soft); cursor:pointer}
+  .preset:hover{border-color:var(--accent); color:var(--accent-ink)}
+  .verdict{margin-top:6px; padding:16px 18px; border:1px solid var(--line); border-radius:10px; background:var(--surface-2)}
+  .verdict .lbl{font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint)}
+  .verdict .val{font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:18px; color:var(--ink); margin-top:4px}
+
+  .note{font-size:14px; color:var(--ink-soft); background:var(--amber-bg); border-left:3px solid var(--amber); border-radius:0 8px 8px 0; padding:12px 16px; margin-top:20px}
+  .note b{color:var(--amber)}
+
+  .nav{display:flex; justify-content:space-between; margin-top:30px; font-family:"JetBrains Mono",monospace; font-size:13px; gap:16px}
+  .nav a{color:var(--accent-ink); text-decoration:none}
+  .nav a:hover{text-decoration:underline}
+  .nav .disabled{color:var(--ink-faint)}
+  footer{margin-top:30px; padding-top:20px; border-top:1px solid var(--line); font-size:13px; color:var(--ink-faint); font-family:"JetBrains Mono",monospace; letter-spacing:.04em}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brandbar"><a href="https://techievenki.ai">TechieVenki</a><span class="sep">/</span><span class="series">LLM from scratch</span></div>
+
+  <p class="eyebrow">LLM from scratch · Stage 3</p>
+  <h1>Pretraining</h1>
+  <p class="thesis">There's only one task behind all of it: <em>predict the next token</em>. Show the model trillions of tokens, hide the next one, let it guess, and nudge its weights toward the right answer — billions of times. Press play and watch a model teach itself to write.</p>
+
+  <section class="panel" aria-labelledby="p1">
+    <div class="panel-head"><span class="panel-num">A</span><h2 id="p1">Watch it learn</h2></div>
+    <p class="lede">One control — training progress. As it moves, the loss (how wrong the model is) falls, the text it generates turns from noise into language, and its guess for the next word sharpens onto the right answer. Same run, three views.</p>
+
+    <div class="trainctl">
+      <button class="playbtn" id="play">▶ Play run</button>
+      <input type="range" id="prog" min="0" max="1000" value="0" aria-label="Training progress">
+    </div>
+
+    <div class="readouts">
+      <div class="ro"><div class="num" id="ro-prog">0%</div><div class="cap">Training progress</div></div>
+      <div class="ro"><div class="num" id="ro-tok">0</div><div class="cap">Tokens seen</div></div>
+      <div class="ro"><div class="num accent" id="ro-loss">10.40</div><div class="cap">Loss (cross-entropy)</div></div>
+    </div>
+
+    <div class="dash">
+      <div class="card2 chart">
+        <div class="lbl">Training loss</div>
+        <div id="chart"></div>
+      </div>
+      <div class="card2">
+        <div class="lbl">The model generating, right now</div>
+        <div class="sample-txt" id="sample"></div>
+        <div class="sample-note" id="sample-note"></div>
+      </div>
+    </div>
+
+    <div class="ntk">
+      <label class="field">Its guess for the next word</label>
+      <div class="prompt">The cat sat on the <span class="blank" id="blank">?</span></div>
+      <div id="bars"></div>
+      <div class="loss-def">Loss is just <b>surprise at the true word</b>: −ln(probability it gave to "mat"). Right now that's <b id="ex-loss">1.95</b> nats. Lower = less surprised = better.</div>
+    </div>
+
+    <p class="note"><b>A recorded run, sped up.</b> A real pretraining run of a model like this takes weeks on thousands of GPUs and burns through ~15 trillion tokens. The loss values and sample stages here are authored to show the shape of what happens; the mechanism — predict, measure surprise, adjust — is exactly real.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="p2">
+    <div class="panel-head"><span class="panel-num">B</span><h2 id="p2">The loop that does it</h2></div>
+    <p class="lede">Every step is the same four moves. There's no labeling, no human in the loop — the text itself is both the question and the answer, which is why the internet can be the training set. This is <em>self-supervised</em> learning.</p>
+    <div class="blockdiag">
+      <svg viewBox="0 0 640 210" role="img" aria-label="Training loop: take text, hide the next token, model predicts it, compare to the truth to get loss, adjust the weights, repeat billions of times.">
+        <defs><marker id="lah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker><marker id="lah2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="var(--amber)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+        <g class="bnode"><rect x="8" y="40" width="130" height="56" rx="9"/><text class="t" x="73" y="64" text-anchor="middle">Take text</text><text class="s" x="73" y="82" text-anchor="middle">hide next token</text></g>
+        <g class="bnode hi"><rect x="178" y="40" width="130" height="56" rx="9"/><text class="t" x="243" y="64" text-anchor="middle">Model predicts</text><text class="s" x="243" y="82" text-anchor="middle">a probability guess</text></g>
+        <g class="bnode"><rect x="348" y="40" width="130" height="56" rx="9"/><text class="t" x="413" y="64" text-anchor="middle">Measure loss</text><text class="s" x="413" y="82" text-anchor="middle">guess vs. truth</text></g>
+        <g class="bnode"><rect x="510" y="40" width="122" height="56" rx="9"/><text class="t" x="571" y="64" text-anchor="middle">Adjust weights</text><text class="s" x="571" y="82" text-anchor="middle">a tiny nudge</text></g>
+        <line class="bflow" x1="138" y1="68" x2="178" y2="68" marker-end="url(#lah)"/>
+        <line class="bflow" x1="308" y1="68" x2="348" y2="68" marker-end="url(#lah)"/>
+        <line class="bflow" x1="478" y1="68" x2="510" y2="68" marker-end="url(#lah)"/>
+        <path class="bloop" d="M571 96 L571 165 L73 165 L73 96" marker-end="url(#lah2)"/>
+        <text class="blooplbl" x="322" y="182" text-anchor="middle">repeat billions of times — this is the whole of pretraining</text>
+      </svg>
+    </div>
+    <p class="note" style="background:var(--surface-2);border-left-color:var(--accent);color:var(--ink-soft)">The result is a <b style="color:var(--accent-ink)">base model</b>: a brilliant autocomplete that has read a huge slice of humanity's writing. It is <i>not</i> yet an assistant — ask it a question and it may just continue with more questions. Teaching it to answer is <a href="04-post-training.html" style="color:var(--accent-ink)">Stage 4</a>.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="p3">
+    <div class="panel-head"><span class="panel-num">C</span><h2 id="p3">How big, how much data? Scaling laws</h2></div>
+    <p class="lede">Loss falls predictably as you add parameters and training tokens — this is one of the most reliable facts in the field. Drag both and watch the estimated loss. The presets show a deep truth about 2025-era models.</p>
+
+    <div class="sctl">
+      <div>
+        <label class="field">Parameters</label>
+        <div class="sliderrow"><input type="range" id="sp" min="0" max="1000" value="573" aria-label="Parameters"><span class="sval" id="sp-val">27B</span></div>
+      </div>
+      <div>
+        <label class="field">Training tokens</label>
+        <div class="sliderrow"><input type="range" id="sd" min="0" max="1000" value="895" aria-label="Training tokens"><span class="sval" id="sd-val">15T</span></div>
+      </div>
+    </div>
+    <div class="presetrow" id="spresets"></div>
+
+    <div class="readouts" style="grid-template-columns:1fr 1fr; margin-top:20px">
+      <div class="ro"><div class="num accent" id="sc-loss">1.89</div><div class="cap">Estimated loss</div></div>
+      <div class="ro"><div class="num" id="sc-ratio">556</div><div class="cap">Tokens per parameter</div></div>
+    </div>
+    <div class="verdict" style="margin-top:16px">
+      <div class="lbl">What this training budget means</div>
+      <div class="val" id="sc-verdict">—</div>
+    </div>
+
+    <p class="note"><b>Why small open models keep punching above their weight.</b> The compute-optimal recipe (Chinchilla) says about <b>20 tokens per parameter</b>. Modern open models blow past that — 27B on 15T tokens is ~550× the parameters in data — <i>deliberately</i>. Over-training a small model costs more up front but produces something far cheaper to run forever. That's why a 27B model you can fit on a laptop keeps out-punching its size.</p>
+  </section>
+
+  <div class="nav">
+    <a href="02-transformer-block.html">← Stage 2 · The transformer block</a>
+    <a href="04-post-training.html">Stage 4 · Post-training →</a>
+  </div>
+  <footer><a href="https://techievenki.ai" style="color:inherit;text-decoration:none">techievenki.ai</a> — LLM from scratch — 03 / 07</footer>
+</div>
+
+<script>
+/* ---------------- Panel A: training run ---------------- */
+const CKPT=[
+  {p:0.00, tok:'0',    loss:10.40, txt:'xq7 vk;e  rrn aoe t*  hh,dl  eii  zt pm', note:'random characters — knows nothing'},
+  {p:0.05, tok:'30B',  loss:6.20,  txt:'e the a th the of the the to the the a of', note:'learning the most frequent tokens'},
+  {p:0.15, tok:'0.3T', loss:4.50,  txt:'the of and to in a the was on for that it as', note:'picking up word statistics'},
+  {p:0.35, tok:'1.5T', loss:3.40,  txt:'the cat the was on and sat the mat to it a dog', note:'real words, grammar not yet'},
+  {p:0.60, tok:'5T',   loss:2.80,  txt:'the cat was on the mat. it was to the dog and then', note:'phrases starting to hold together'},
+  {p:0.82, tok:'10T',  loss:2.30,  txt:'The cat sat on the mat. It was warm and the sun', note:'mostly coherent English'},
+  {p:1.00, tok:'15T',  loss:1.90,  txt:'The cat sat on the mat, warm in the afternoon sun, and slowly fell asleep.', note:'fluent — this is the base model'}
+];
+const TARGET=[['mat',0.60],['floor',0.14],['table',0.10],['roof',0.06],['the',0.05],['and',0.03],['xylophone',0.02]];
+
+let prog=0, playing=false, raf=null, lastT=0;
+
+function lossAt(p){
+  for(let i=0;i<CKPT.length-1;i++){
+    if(p<=CKPT[i+1].p){
+      const a=CKPT[i], b=CKPT[i+1], t=(p-a.p)/(b.p-a.p||1);
+      return a.loss+(b.loss-a.loss)*t;
+    }
+  }
+  return CKPT[CKPT.length-1].loss;
+}
+function activeCkpt(p){ let c=CKPT[0]; for(const k of CKPT){ if(p>=k.p) c=k; } return c; }
+
+function drawChart(p){
+  const W=340,H=180,PL=40,PR=10,PT=12,PB=28;
+  const x=t=>PL+t*(W-PL-PR);
+  const lo=1.5,hi=10.8, y=v=>PT+(1-(v-lo)/(hi-lo))*(H-PT-PB);
+  let full='', bold='';
+  CKPT.forEach((k,i)=>{ full+=(i?'L':'M')+x(k.p).toFixed(1)+' '+y(k.loss).toFixed(1)+' '; });
+  // bold path up to prog
+  const pts=[];
+  for(const k of CKPT){ if(k.p<=p) pts.push([k.p,k.loss]); }
+  pts.push([p,lossAt(p)]);
+  pts.forEach((pt,i)=>{ bold+=(i?'L':'M')+x(pt[0]).toFixed(1)+' '+y(pt[1]).toFixed(1)+' '; });
+  const cx=x(p), cy=y(lossAt(p));
+  let g=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+  // axes
+  g+=`<line x1="${PL}" y1="${PT}" x2="${PL}" y2="${H-PB}" stroke="var(--line)"/>`;
+  g+=`<line x1="${PL}" y1="${H-PB}" x2="${W-PR}" y2="${H-PB}" stroke="var(--line)"/>`;
+  [2,4,6,8,10].forEach(v=>{ g+=`<text x="${PL-6}" y="${y(v)+3}" text-anchor="end" font-family="JetBrains Mono" font-size="9" fill="var(--ink-faint)">${v}</text>`; });
+  g+=`<text x="${PL}" y="${H-8}" font-family="JetBrains Mono" font-size="9" fill="var(--ink-faint)">start</text>`;
+  g+=`<text x="${W-PR}" y="${H-8}" text-anchor="end" font-family="JetBrains Mono" font-size="9" fill="var(--ink-faint)">done</text>`;
+  g+=`<path d="${full}" fill="none" stroke="var(--line)" stroke-width="1.5"/>`;
+  g+=`<path d="${bold}" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>`;
+  g+=`<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="4.5" fill="var(--accent)"/>`;
+  g+=`</svg>`;
+  document.getElementById('chart').innerHTML=g;
+}
+
+function drawBars(p){
+  const k=Math.pow(p,1.05); // temperature anneal: uniform -> target
+  const raw=TARGET.map(([w,t])=>[w, Math.pow(t, k)]);
+  const s=raw.reduce((a,b)=>a+b[1],0);
+  const dist=raw.map(([w,v])=>[w, v/s]);
+  let html='';
+  dist.forEach(([w,pr])=>{
+    const isTrue=w==='mat';
+    html+=`<div class="bar-row${isTrue?' true':''}"><span class="w">${w}</span><span class="track"><span class="fill" style="width:${(pr*100).toFixed(1)}%"></span></span><span class="pct">${Math.round(pr*100)}%</span></div>`;
+  });
+  document.getElementById('bars').innerHTML=html;
+  const pmat=dist[0][1];
+  document.getElementById('ex-loss').textContent=(-Math.log(pmat)).toFixed(2);
+}
+
+function fmtTokProgress(p){
+  const c=activeCkpt(p); return c.tok==='0'?'0':c.tok;
+}
+function render(){
+  const p=prog/1000;
+  document.getElementById('prog').value=prog;
+  document.getElementById('ro-prog').textContent=Math.round(p*100)+'%';
+  document.getElementById('ro-tok').textContent=fmtTokProgress(p);
+  document.getElementById('ro-loss').textContent=lossAt(p).toFixed(2);
+  const c=activeCkpt(p);
+  document.getElementById('sample').textContent='“'+c.txt+'”';
+  document.getElementById('sample-note').textContent='▸ '+c.note;
+  document.getElementById('blank').textContent = p>0.6?'mat':'?';
+  drawChart(p); drawBars(p);
+}
+
+const progEl=document.getElementById('prog'), playEl=document.getElementById('play');
+progEl.addEventListener('input',()=>{ prog=+progEl.value; stop(); render(); });
+function stop(){ playing=false; playEl.textContent='▶ Play run'; if(raf)cancelAnimationFrame(raf); raf=null; }
+function tick(ts){
+  if(!lastT)lastT=ts; const dt=ts-lastT; lastT=ts;
+  prog=Math.min(1000, prog + dt/6000*1000); // ~6s full run
+  render();
+  if(prog>=1000){ stop(); return; }
+  raf=requestAnimationFrame(tick);
+}
+playEl.addEventListener('click',()=>{
+  if(playing){ stop(); return; }
+  if(prog>=1000) prog=0;
+  playing=true; playEl.textContent='❚❚ Pause'; lastT=0; raf=requestAnimationFrame(tick);
+});
+
+/* ---------------- Panel C: scaling law ---------------- */
+const PMIN=0.1,PMAX=1000, DMIN=0.1,DMAX=30; // params in B, tokens in T
+const sToVal=(v,min,max)=>min*Math.pow(max/min, v/1000);
+const valToS=(x,min,max)=>Math.round(1000*Math.log(x/min)/Math.log(max/min));
+function fmtB(b){ return b>=1000?(b/1000).toFixed(1)+'T':(b>=100?Math.round(b):b>=10?b.toFixed(0):b.toFixed(1))+'B'; }
+function fmtT(t){ return t>=1?t.toFixed(t>=10?0:1)+'T':(t*1000).toFixed(0)+'B'; }
+
+const spEl=document.getElementById('sp'), sdEl=document.getElementById('sd');
+function chinchillaLoss(N,D){ return 1.69 + 406.4/Math.pow(N,0.34) + 410.7/Math.pow(D,0.28); }
+function renderScale(){
+  const pB=sToVal(+spEl.value,PMIN,PMAX), dT=sToVal(+sdEl.value,DMIN,DMAX);
+  const N=pB*1e9, D=dT*1e12;
+  document.getElementById('sp-val').textContent=fmtB(pB);
+  document.getElementById('sd-val').textContent=fmtT(dT);
+  document.getElementById('sc-loss').textContent=chinchillaLoss(N,D).toFixed(2);
+  const ratio=D/N;
+  document.getElementById('sc-ratio').textContent=ratio>=100?Math.round(ratio):ratio.toFixed(0);
+  let v;
+  if(ratio<12) v='Under-trained — this model could learn more from more data.';
+  else if(ratio<=40) v='Near compute-optimal (Chinchilla ≈ 20 tokens/param).';
+  else v='Over-trained on purpose — pricier to train, cheaper to run forever.';
+  document.getElementById('sc-verdict').textContent=v;
+}
+const SPRESETS=[{l:'Chinchilla-optimal 27B',p:27,d:0.54},{l:'Qwen-style 27B · 15T',p:27,d:15},{l:'Frontier 400B · 15T',p:400,d:15}];
+const spr=document.getElementById('spresets');
+SPRESETS.forEach(x=>{ const b=document.createElement('button'); b.className='preset'; b.textContent=x.l;
+  b.onclick=()=>{ spEl.value=valToS(x.p,PMIN,PMAX); sdEl.value=valToS(x.d,DMIN,DMAX); renderScale(); }; spr.appendChild(b); });
+spEl.addEventListener('input',renderScale); sdEl.addEventListener('input',renderScale);
+
+render(); renderScale();
+</script>
+</body>
+</html>

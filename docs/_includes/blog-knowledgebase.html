@@ -195,6 +195,163 @@
   color: #2054a6;
 }
 
+.kb-trending-wrap {
+  background: linear-gradient(135deg, #eaf2ff 0%, #f5f8ff 58%, #eef4ff 100%);
+  border-radius: 18px;
+  border: 1px solid #cfe0ff;
+  border-top: 4px solid #2f66c9;
+  padding: 24px;
+  margin-bottom: 36px;
+  box-shadow: 0 16px 30px rgba(35, 78, 150, 0.16);
+}
+
+.kb-trending-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.kb-trending-head h2 {
+  margin: 0;
+  color: #16315f;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.kb-trending-head p {
+  margin: 4px 0 0;
+  color: #38527f;
+  font-size: 0.95rem;
+}
+
+.kb-trending-nav {
+  display: flex;
+  gap: 8px;
+}
+
+.kb-trending-btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #adc5eb;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #1f4f96;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
+}
+
+.kb-trending-btn:hover {
+  background: #eaf2ff;
+  transform: translateY(-1px);
+}
+
+.kb-trending-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+  transform: none;
+}
+
+.kb-trending-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(280px, 1fr);
+  gap: 14px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding: 2px 2px 8px;
+  scrollbar-gutter: stable;
+}
+
+.kb-trending-track::-webkit-scrollbar {
+  height: 8px;
+}
+
+.kb-trending-track::-webkit-scrollbar-thumb {
+  background: #9db8e6;
+  border-radius: 999px;
+}
+
+.kb-trending-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 238px;
+  scroll-snap-align: start;
+  padding: 18px;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid #d6e3f8;
+  text-decoration: none;
+  box-shadow: 0 8px 16px rgba(28, 64, 122, 0.10);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.kb-trending-card:hover {
+  text-decoration: none;
+  transform: translateY(-3px);
+  box-shadow: 0 14px 24px rgba(28, 64, 122, 0.18);
+  border-color: #90b0e1;
+}
+
+.kb-trending-badge {
+  display: inline-block;
+  padding: 4px 9px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #e8f0ff;
+  color: #2459ad;
+}
+
+.kb-trending-card h4 {
+  margin: 10px 0 8px;
+  color: #132f5f;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.kb-trending-card p {
+  margin: 0;
+  color: #4a628a;
+  font-size: 0.86rem;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.kb-trending-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  font-size: 0.83rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #1f4f96;
+}
+
+@media (max-width: 767.98px) {
+  .kb-trending-wrap {
+    padding: 18px;
+  }
+
+  .kb-trending-head {
+    align-items: flex-start;
+  }
+
+  .kb-trending-head h2 {
+    font-size: 1.2rem;
+  }
+
+  .kb-trending-track {
+    grid-auto-columns: minmax(250px, 85vw);
+  }
+}
+
 /* Certification Styles */
 .cert-container {
   background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
@@ -298,6 +455,58 @@
   <p class="kb-section-subtitle">
     Comprehensive guides and deep-dives into modern software architecture, cloud computing, data engineering, and emerging technologies.
   </p>
+
+  <div class="kb-trending-wrap">
+    <div class="kb-trending-head">
+      <div>
+        <h2><i class="fas fa-bolt"></i> Trending & Latest Topics</h2>
+        <p>Quick previews of recently added content. Open a card to read the full page.</p>
+      </div>
+      <div class="kb-trending-nav">
+        <button class="kb-trending-btn" type="button" data-kb-scroll="left" aria-label="Previous topics"><i class="fas fa-chevron-left"></i></button>
+        <button class="kb-trending-btn" type="button" data-kb-scroll="right" aria-label="Next topics"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+
+    <div class="kb-trending-track" id="kbTrendingTrack">
+      <a href="{{ site.baseurl }}/newpages/index.html" class="kb-trending-card">
+        <span class="kb-trending-badge">New Series</span>
+        <h4>How an Open-Weight LLM Works</h4>
+        <p>Start the 7-stage interactive LLM from scratch journey with linked deep-dive pages.</p>
+        <span class="kb-trending-cta">Read article <i class="fas fa-arrow-right"></i></span>
+      </a>
+      <a href="{{ site.baseurl }}/2025/01/31/mastra-ai-framework.html" class="kb-trending-card">
+        <span class="kb-trending-badge">Latest AI</span>
+        <h4>Mastra AI Framework</h4>
+        <p>TypeScript-first framework patterns for building production-grade AI agents.</p>
+        <span class="kb-trending-cta">Read article <i class="fas fa-arrow-right"></i></span>
+      </a>
+      <a href="{{ site.baseurl }}/2025/01/24/langchain-framework.html" class="kb-trending-card">
+        <span class="kb-trending-badge">Popular</span>
+        <h4>LangChain Framework Guide</h4>
+        <p>Prompts, chains, tools, and RAG orchestration for enterprise GenAI apps.</p>
+        <span class="kb-trending-cta">Read article <i class="fas fa-arrow-right"></i></span>
+      </a>
+      <a href="{{ site.baseurl }}/2025/01/24/langgraph.html" class="kb-trending-card">
+        <span class="kb-trending-badge">Workflows</span>
+        <h4>LangGraph for Agent Flows</h4>
+        <p>Stateful graph-based design for multi-step and controllable LLM workflows.</p>
+        <span class="kb-trending-cta">Read article <i class="fas fa-arrow-right"></i></span>
+      </a>
+      <a href="{{ site.baseurl }}/2025/01/24/langsmith.html" class="kb-trending-card">
+        <span class="kb-trending-badge">Observability</span>
+        <h4>LangSmith LLMOps</h4>
+        <p>Tracing, evals, monitoring, and deployment practices for AI applications.</p>
+        <span class="kb-trending-cta">Read article <i class="fas fa-arrow-right"></i></span>
+      </a>
+      <a href="{{ site.baseurl }}/2025/01/25/ai-102-azure-ai-engineer-study-guide.html" class="kb-trending-card">
+        <span class="kb-trending-badge">Certification</span>
+        <h4>AI-102 Azure AI Engineer Guide</h4>
+        <p>Structured study plan covering Azure AI services, RAG, and model deployment topics.</p>
+        <span class="kb-trending-cta">Read article <i class="fas fa-arrow-right"></i></span>
+      </a>
+    </div>
+  </div>
   
   <!-- Row 1: System Design & Platform Engineering -->
   <div class="row mb-4">
@@ -416,6 +625,9 @@
             </a>
             <a href="{{ site.baseurl }}/2025/01/07/ai-driven-software-development.html" class="kb-link-item">
               <i class="fas fa-code"></i> AI-Powered Software Development
+            </a>
+            <a href="{{ site.baseurl }}/newpages/index.html" class="kb-link-item">
+              <i class="fas fa-book-reader"></i> LLM From Scratch (7-Stage Series)
             </a>
           </div>
         </div>
@@ -633,3 +845,52 @@
   </div>
   
 </div>
+
+<script>
+(function () {
+  var track = document.getElementById('kbTrendingTrack');
+  if (!track) {
+    return;
+  }
+
+  var wrap = track.closest('.kb-trending-wrap');
+  if (!wrap) {
+    return;
+  }
+
+  var leftBtn = wrap.querySelector('[data-kb-scroll="left"]');
+  var rightBtn = wrap.querySelector('[data-kb-scroll="right"]');
+
+  function updateButtons() {
+    var maxScroll = track.scrollWidth - track.clientWidth;
+    var leftReached = track.scrollLeft <= 2;
+    var rightReached = track.scrollLeft >= maxScroll - 2;
+
+    if (leftBtn) {
+      leftBtn.disabled = leftReached;
+    }
+
+    if (rightBtn) {
+      rightBtn.disabled = rightReached;
+    }
+  }
+
+  function scrollTrack(direction) {
+    var card = track.querySelector('.kb-trending-card');
+    var amount = card ? card.offsetWidth + 14 : Math.max(280, Math.round(track.clientWidth * 0.7));
+    track.scrollBy({ left: direction * amount, behavior: 'smooth' });
+  }
+
+  if (leftBtn) {
+    leftBtn.addEventListener('click', function () { scrollTrack(-1); });
+  }
+
+  if (rightBtn) {
+    rightBtn.addEventListener('click', function () { scrollTrack(1); });
+  }
+
+  track.addEventListener('scroll', updateButtons, { passive: true });
+  window.addEventListener('resize', updateButtons);
+  updateButtons();
+})();
+</script>
