@@ -1,3 +1,7 @@
+---
+published_date: 2026-08-23
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,6 +46,14 @@
     margin:0 0 16px; max-width:16ch;
   }
   .thesis{font-size:clamp(16px,2.4vw,20px); color:var(--ink-soft); max-width:62ch; margin:0}
+  .hero-meta{
+    display:flex; justify-content:flex-end; align-items:center;
+    margin:14px 0 0;
+  }
+  .hero-date{
+    font-family:"Inter",system-ui,sans-serif; font-size:clamp(13px,2vw,16px);
+    color:var(--ink-faint); font-weight:500;
+  }
 
   section{margin-top:clamp(40px,7vw,72px)}
   .sec-eyebrow{
@@ -107,6 +119,9 @@
 
   <p class="eyebrow">LLM from scratch · The series</p>
   <h1>How an open-weight LLM actually works</h1>
+  <div class="hero-meta">
+    <span class="hero-date">Published: {{ page.published_date | date: "%d %B %Y" }}</span>
+  </div>
   <p class="thesis">From a pile of raw text to a file you download and run on your own machine — the whole journey, in seven interactive stops. Every stage is a concept, a flow diagram, and code you can run yourself. No black boxes.</p>
 
   <section>
