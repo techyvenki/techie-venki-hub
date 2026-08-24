@@ -48,7 +48,8 @@ jobs:
 
           git add docs/_data/tech_news.yml
           git commit -m "news: daily refresh"
-          if ! git pull --rebase origin main; then
+          git fetch origin main
+          if ! git rebase origin/main; then
             echo "Rebase failed (likely another run updated the same file). Skipping push."
             git rebase --abort || true
             exit 0
