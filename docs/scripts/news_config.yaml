@@ -1,0 +1,106 @@
+# techievenki.ai/news — tile configuration.
+#
+# This is the only file you should need to touch by hand. Rename a tile,
+# add or remove a feed, change how many items show — edit here, commit,
+# and the next scheduled run (or a manual one) picks it up. The script
+# reads this file and writes the results into _data/tech_news.yml, which
+# the Jekyll page renders.
+#
+# Ranking is deterministic, no LLM: items are sorted by recency, with
+# `weight` breaking ties (and softening how much a noisy aggregator can
+# crowd out a quieter primary source). Lower weight wins a tie.
+
+items_per_tile: 8
+
+# Items older than this are dropped before ranking.
+window_hours: 120
+
+# Titles below are placeholders — rename them to whatever you want the
+# page to show. The `id` is internal and should NOT change once you've
+# gone live (it's just a stable key; renaming id vs title are independent).
+tiles:
+  - id: general-tech
+    title: "General Tech"
+    feeds:
+      - name: Ars Technica
+        url: https://feeds.arstechnica.com/arstechnica/index
+        weight: 1
+      - name: TechCrunch
+        url: https://techcrunch.com/feed/
+        weight: 1
+      - name: The Verge
+        url: https://www.theverge.com/rss/index.xml
+        weight: 1
+      - name: Hacker News (300+ points)
+        url: https://hnrss.org/frontpage?points=300
+        weight: 2
+
+  - id: quantum-computing
+    title: "Quantum Computing"
+    feeds:
+      - name: arXiv quant-ph
+        url: https://rss.arxiv.org/rss/quant-ph
+        weight: 2
+      - name: arXiv quantum physics (Atom)
+        url: https://export.arxiv.org/api/query?search_query=cat:quant-ph&start=0&max_results=50
+        weight: 2
+      - name: The Quantum Insider
+        url: https://thequantuminsider.com/feed/
+        weight: 1
+      - name: Quantum Computing Report
+        url: https://quantumcomputingreport.com/feed/
+        weight: 1
+      - name: Quanta Magazine (Quantum tag)
+        url: https://www.quantamagazine.org/tag/quantum-computing/feed/
+        weight: 2
+
+  - id: ai-and-llms
+    title: "AI & LLMs"
+    feeds:
+      - name: OpenAI News
+        url: https://openai.com/news/rss.xml
+        weight: 1
+      - name: Hugging Face Blog
+        url: https://huggingface.co/blog/feed.xml
+        weight: 1
+      - name: vLLM Releases
+        url: https://github.com/vllm-project/vllm/releases.atom
+        weight: 1
+      - name: llama.cpp Releases
+        url: https://github.com/ggml-org/llama.cpp/releases.atom
+        weight: 1
+      - name: arXiv cs.AI
+        url: https://rss.arxiv.org/rss/cs.AI
+        weight: 2
+      - name: arXiv cs.CL
+        url: https://rss.arxiv.org/rss/cs.CL
+        weight: 2
+      - name: arXiv cs.LG
+        url: https://rss.arxiv.org/rss/cs.LG
+        weight: 2
+      # OpenRouter has no confirmed public RSS endpoint as of writing —
+      # https://openrouter.ai/blog/ exists but no working feed URL was
+      # found. Verify with the probe in the script docstring before
+      # uncommenting:
+      # - name: OpenRouter Blog
+      #   url: https://openrouter.ai/blog/rss.xml
+      #   weight: 1
+
+  - id: claude-and-anthropic
+    title: "Claude & Anthropic"
+    feeds:
+      - name: Claude Code Releases
+        url: https://github.com/anthropics/claude-code/releases.atom
+        weight: 1
+      - name: Anthropic SDK (Python) Releases
+        url: https://github.com/anthropics/anthropic-sdk-python/releases.atom
+        weight: 1
+      - name: Anthropic SDK (TypeScript) Releases
+        url: https://github.com/anthropics/anthropic-sdk-typescript/releases.atom
+        weight: 1
+      - name: Anthropic SDK (Go) Releases
+        url: https://github.com/anthropics/anthropic-sdk-go/releases.atom
+        weight: 1
+      - name: Claude Code Action Releases
+        url: https://github.com/anthropics/claude-code-action/releases.atom
+        weight: 1

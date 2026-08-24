@@ -1,0 +1,138 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+{% comment %}
+  IMPORTANT — check before you deploy:
+  `layout: default` above assumes your theme has a layout literally named
+  "default" in _layouts/. If yours is named something else (check the
+  _layouts folder in this repo), change that one line — everything else
+  on this page is self-contained and doesn't depend on the layout's
+  internals beyond wrapping page content normally.
+{% endcomment %}
+
+<div class="tv-news">
+  <header class="tv-news__header">
+    <h1 class="tv-news__heading">News</h1>
+    <p class="tv-news__subheading">
+      Refreshed daily
+      {% if site.data.tech_news.generated_at %}
+        &middot; last updated {{ site.data.tech_news.generated_at | date: "%b %-d, %Y %H:%M" }} UTC
+      {% endif %}
+    </p>
+  </header>
+
+  {% if site.data.tech_news.tiles %}
+    <div class="tv-news__grid">
+      {% for tile in site.data.tech_news.tiles %}
+        {% include news-tile.html tile=tile %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="tv-news__empty">
+      News hasn't run yet. Trigger the "Update tech news" workflow from the
+      Actions tab, or wait for the next scheduled run.
+    </p>
+  {% endif %}
+</div>
+
+<style>
+  /* Scoped to .tv-news so this never fights the site's existing theme.
+     Adjust the custom properties below to match your palette — these are
+     placeholders, not a commitment to a particular look. */
+  .tv-news {
+    --tv-ink: #1d2321;
+    --tv-muted: #6b7069;
+    --tv-rule: #dedad0;
+    --tv-accent: #2e3a73;
+    --tv-card: #ffffff;
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 2rem 1rem 4rem;
+    color: var(--tv-ink);
+  }
+
+  .tv-news__header { margin-bottom: 2rem; }
+  .tv-news__heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 0.35rem;
+    letter-spacing: -0.02em;
+  }
+  .tv-news__subheading {
+    font-size: 0.85rem;
+    color: var(--tv-muted);
+    margin: 0;
+  }
+
+  .tv-news__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  @media (max-width: 56rem) {
+    .tv-news__grid { grid-template-columns: 1fr; }
+  }
+
+  .tv-news-tile {
+    background: var(--tv-card);
+    border: 1px solid var(--tv-rule);
+    border-radius: 10px;
+    padding: 1.25rem 1.4rem 1.5rem;
+  }
+  .tv-news-tile__title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0 0 1rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--tv-accent);
+  }
+  .tv-news-tile__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .tv-news-tile__empty {
+    color: var(--tv-muted);
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+
+  .tv-news-item {
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--tv-rule);
+  }
+  .tv-news-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .tv-news-item:first-child { padding-top: 0; }
+
+  .tv-news-item__title {
+    display: block;
+    font-size: 0.98rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--tv-ink);
+    text-decoration: none;
+  }
+  .tv-news-item__title:hover {
+    color: var(--tv-accent);
+    text-decoration: underline;
+  }
+  .tv-news-item__summary {
+    font-size: 0.85rem;
+    color: var(--tv-muted);
+    margin: 0.35rem 0 0;
+    line-height: 1.45;
+  }
+  .tv-news-item__meta {
+    margin-top: 0.5rem;
+    font-size: 0.72rem;
+    color: var(--tv-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .tv-news-item__source { font-weight: 600; }
+  .tv-news-item__dot { margin: 0 0.4rem; }
+</style>

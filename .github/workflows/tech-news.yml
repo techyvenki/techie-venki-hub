@@ -1,0 +1,45 @@
+name: Update tech news
+
+# Runs daily, fetches feeds, and commits docs/_data/tech_news.yml if it changed.
+# No secrets required — this is pure RSS/Atom fetching, no LLM call.
+#
+# Also runnable by hand from the Actions tab (workflow_dispatch) — useful
+# right after you edit docs/scripts/news_config.yaml and want the site to pick
+# it up immediately instead of waiting for the next scheduled run.
+
+on:
+  schedule:
+    # 11:00 UTC daily ≈ 6-7am US Eastern, adjust to taste.
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tech-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install feedparser pyyaml
+
+      - name: Fetch and rank
+        run: python docs/scripts/news_fetch.py --verbose
+
+      - name: Commit if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "news: daily refresh"
+          file_pattern: "docs/_data/tech_news.yml"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
