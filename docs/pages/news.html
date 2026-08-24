@@ -14,9 +14,31 @@ permalink: /news/
 
 <div class="tv-news">
   <header class="tv-news__header">
-    <h1 class="tv-news__heading">News</h1>
+    <div class="tv-news__header-top">
+      <p class="tv-news__kicker">TechieVenki Briefing</p>
+      <div class="tv-news__header-actions">
+        <a
+          class="tv-news__action tv-news__action--primary"
+          href="https://github.com/techyvenki/techie-venki-hub/actions/workflows/tech-news.yml"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Opens GitHub Actions so you can run the refresh workflow on demand"
+        >
+          Refresh Now
+        </a>
+        <button
+          type="button"
+          class="tv-news__action tv-news__action--ghost"
+          id="tv-news-reload-view"
+          title="Reload this page to display the latest generated data"
+        >
+          Reload View
+        </button>
+      </div>
+    </div>
+    <h1 class="tv-news__heading">Daily Tech News Radar</h1>
     <p class="tv-news__subheading">
-      Refreshed daily
+      Curated, feed-driven, refreshed daily
       {% if site.data.tech_news.generated_at %}
         &middot; last updated {{ site.data.tech_news.generated_at | date: "%b %-d, %Y %H:%M" }} UTC
       {% endif %}
@@ -38,30 +60,87 @@ permalink: /news/
 </div>
 
 <style>
-  /* Scoped to .tv-news so this never fights the site's existing theme.
-     Adjust the custom properties below to match your palette — these are
-     placeholders, not a commitment to a particular look. */
   .tv-news {
-    --tv-ink: #1d2321;
-    --tv-muted: #6b7069;
-    --tv-rule: #dedad0;
-    --tv-accent: #2e3a73;
+    --tv-ink: #182430;
+    --tv-muted: #5f6f7d;
+    --tv-rule: #d4dde3;
+    --tv-rule-soft: #e8edf1;
+    --tv-accent: #0f8a95;
+    --tv-accent-soft: #d9eff1;
     --tv-card: #ffffff;
-    max-width: 72rem;
+    --tv-bg: linear-gradient(180deg, #f6f9fc 0%, #eef3f6 100%);
+    max-width: 74rem;
     margin: 0 auto;
-    padding: 2rem 1rem 4rem;
+    padding: 2.4rem 1.1rem 4rem;
     color: var(--tv-ink);
+    background: var(--tv-bg);
+    border: 1px solid var(--tv-rule-soft);
+    border-radius: 18px;
+    box-shadow: 0 16px 42px rgba(19, 45, 66, 0.06);
   }
 
-  .tv-news__header { margin-bottom: 2rem; }
-  .tv-news__heading {
-    font-size: 2rem;
+  .tv-news__header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--tv-rule-soft);
+    padding-bottom: 1rem;
+  }
+  .tv-news__header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .tv-news__kicker {
+    margin: 0;
+    font-size: 0.78rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--tv-accent);
     font-weight: 700;
-    margin: 0 0 0.35rem;
-    letter-spacing: -0.02em;
+  }
+  .tv-news__header-actions {
+    display: inline-flex;
+    gap: 0.45rem;
+    align-items: center;
+  }
+  .tv-news__action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    border: 1px solid var(--tv-rule);
+    padding: 0.38rem 0.8rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    color: var(--tv-ink);
+  }
+  .tv-news__action--primary {
+    background: #0f8a95;
+    border-color: #0f8a95;
+    color: #fff;
+  }
+  .tv-news__action--primary:hover {
+    background: #0d7983;
+    color: #fff;
+  }
+  .tv-news__action--ghost:hover {
+    background: #f0f5f8;
+  }
+  .tv-news__heading {
+    font-size: clamp(1.9rem, 3.8vw, 2.8rem);
+    line-height: 1.05;
+    font-weight: 800;
+    margin: 0 0 0.5rem;
+    letter-spacing: -0.03em;
   }
   .tv-news__subheading {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: var(--tv-muted);
     margin: 0;
   }
@@ -69,32 +148,96 @@ permalink: /news/
   .tv-news__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 1.1rem;
   }
   @media (max-width: 56rem) {
     .tv-news__grid { grid-template-columns: 1fr; }
+    .tv-news { padding: 1.6rem 0.8rem 2.4rem; }
+    .tv-news__header-actions {
+      width: 100%;
+    }
   }
 
   .tv-news-tile {
     background: var(--tv-card);
     border: 1px solid var(--tv-rule);
-    border-radius: 10px;
-    padding: 1.25rem 1.4rem 1.5rem;
+    border-radius: 14px;
+    padding: 1rem 1rem 0.85rem;
+    min-height: 31rem;
+    display: flex;
+    flex-direction: column;
   }
+
+  .tv-news-tile__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+    margin-bottom: 0.85rem;
+  }
+
   .tv-news-tile__title {
-    font-size: 1.05rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
-    margin: 0 0 1rem;
-    padding-bottom: 0.6rem;
+    letter-spacing: 0.08em;
+    margin: 0;
+    padding-bottom: 0.55rem;
     border-bottom: 2px solid var(--tv-accent);
+    width: 100%;
   }
+
+  .tv-news-tile__scroller {
+    max-height: 24.5rem;
+    overflow-y: auto;
+    padding-right: 0.25rem;
+    scrollbar-width: thin;
+    scrollbar-color: #c1d2db transparent;
+  }
+
+  .tv-news-tile__scroller::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .tv-news-tile__scroller::-webkit-scrollbar-thumb {
+    background: #c1d2db;
+    border-radius: 999px;
+  }
+
   .tv-news-tile__list {
     list-style: none;
     margin: 0;
     padding: 0;
   }
+
+  .tv-news-tile__actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.7rem;
+    border-top: 1px solid var(--tv-rule-soft);
+    padding-top: 0.7rem;
+  }
+
+  .tv-news-tile__more {
+    border: 1px solid var(--tv-rule);
+    background: var(--tv-accent-soft);
+    color: #0d5f66;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    border-radius: 999px;
+    padding: 0.34rem 0.8rem;
+    font-size: 0.78rem;
+    cursor: pointer;
+  }
+
+  .tv-news-tile__more:hover {
+    background: #cae8eb;
+  }
+
+  .tv-news-item--extra.is-hidden {
+    display: none;
+  }
+
   .tv-news-tile__empty {
     color: var(--tv-muted);
     font-size: 0.9rem;
@@ -102,17 +245,17 @@ permalink: /news/
   }
 
   .tv-news-item {
-    padding: 0.85rem 0;
-    border-bottom: 1px solid var(--tv-rule);
+    padding: 0.76rem 0;
+    border-bottom: 1px solid var(--tv-rule-soft);
   }
   .tv-news-item:last-child { border-bottom: none; padding-bottom: 0; }
   .tv-news-item:first-child { padding-top: 0; }
 
   .tv-news-item__title {
     display: block;
-    font-size: 0.98rem;
-    font-weight: 600;
-    line-height: 1.35;
+    font-size: 0.93rem;
+    font-weight: 650;
+    line-height: 1.32;
     color: var(--tv-ink);
     text-decoration: none;
   }
@@ -121,14 +264,14 @@ permalink: /news/
     text-decoration: underline;
   }
   .tv-news-item__summary {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--tv-muted);
     margin: 0.35rem 0 0;
-    line-height: 1.45;
+    line-height: 1.38;
   }
   .tv-news-item__meta {
     margin-top: 0.5rem;
-    font-size: 0.72rem;
+    font-size: 0.68rem;
     color: var(--tv-muted);
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -136,3 +279,44 @@ permalink: /news/
   .tv-news-item__source { font-weight: 600; }
   .tv-news-item__dot { margin: 0 0.4rem; }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var reloadButton = document.getElementById('tv-news-reload-view');
+    if (reloadButton) {
+      reloadButton.addEventListener('click', function () {
+        window.location.reload();
+      });
+    }
+
+    var toggles = document.querySelectorAll('[data-tile-toggle]');
+
+    toggles.forEach(function (toggle) {
+      toggle.addEventListener('click', function () {
+        var listId = toggle.getAttribute('data-tile-toggle');
+        var list = document.getElementById(listId);
+        if (!list) {
+          return;
+        }
+
+        var extras = list.querySelectorAll('.tv-news-item--extra');
+        var isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+
+        extras.forEach(function (item) {
+          if (isExpanded) {
+            item.classList.add('is-hidden');
+          } else {
+            item.classList.remove('is-hidden');
+          }
+        });
+
+        toggle.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
+        toggle.textContent = isExpanded ? 'More' : 'Show less';
+
+        if (isExpanded) {
+          list.scrollTop = 0;
+        }
+      });
+    });
+  });
+</script>

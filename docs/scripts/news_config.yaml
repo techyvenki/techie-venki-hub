@@ -10,7 +10,7 @@
 # `weight` breaking ties (and softening how much a noisy aggregator can
 # crowd out a quieter primary source). Lower weight wins a tie.
 
-items_per_tile: 8
+items_per_tile: 20
 
 # Items older than this are dropped before ranking.
 window_hours: 120
