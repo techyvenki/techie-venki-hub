@@ -1,8 +1,17 @@
-generated_at: '2026-08-24T03:26:20.671664+00:00'
+generated_at: '2026-08-24T11:14:03.556909+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
+  - title: Humanoid robots smash Usain Bolt’s 100-meter record
+    url: https://www.theverge.com/tech/983688/world-humanoid-robot-games-sprint-record-2026
+    summary: 'The 9.58-second 100-meter dash record set by Usain Bolt in 2009 has been outpaced by Chinese
+      robots participating at the World Humanoid Robot Games in Beijing. In a preliminary heat on Saturday,
+      Tiangong Ultra, made by the Beijing Humanoid '
+    source: The Verge
+    weight: 1
+    published_at: '2026-08-24T09:10:40+00:00'
+    dupe_count: 0
   - title: Who’s behind the new ‘stealth model’ Ox Alpha?
     url: https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/
     summary: A mysterious new AI model called Ox Alpha has driven certain corners of the internet into
@@ -157,349 +166,379 @@ tiles:
     weight: 1
     published_at: '2026-08-22T17:00:00+00:00'
     dupe_count: 0
-  - title: OpenAI says California should strengthen its AI safety bill
-    url: https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/
-    summary: OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company
-      previously opposed.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-08-22T16:30:34+00:00'
-    dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
-  - title: Brookhaven And Stony Brook Researchers Demonstrate ‘Wireless’ Capability for Quantum Network
-    url: https://thequantuminsider.com/2026/08/23/wireless-capability-quantum-network/
-    summary: Insider Brief PRESS RELEASE — Researchers at the U.S. Department of Energy’s (DOE) Brookhaven
-      National Laboratory and the State University of New York at Stony Brook (Stony Brook University)
-      have successfully transmitted light particles con
+  - title: RFI and Safeheron Test Post-Quantum Cryptography for Digital Asset Transactions
+    url: https://thequantuminsider.com/2026/08/24/rfi-safeheron-post-quantum-security-digital-assets/
+    summary: Insider Brief Press release – The Responsible Fintech Institute (RFI) and Safeheron have
+      launched a pilot initiative to evaluate post-quantum cryptography for digital asset transactions,
+      with participation from selected financial institutio
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-08-23T15:32:07+00:00'
+    published_at: '2026-08-24T08:49:41+00:00'
     dupe_count: 0
-  - title: 'Who’s News: Strategic Appointments at D-Wave, BTQ Technologies, Symmatrics, and Rigetti Computing'
-    url: https://quantumcomputingreport.com/whos-news-strategic-appointments-at-d-wave-btq-technologies-symmatrics-and-rigetti-computing/
-    summary: D-Wave Quantum Inc. has appointed Kevan P. Krysler to its Board of Directors and Audit Committee.
-      Krysler currently serves as Chief Financial Officer of Carbon Robotics and brings over two decades
-      of financial leadership experience from pre
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-22T17:22:52+00:00'
-    dupe_count: 0
-  - title: 'Lionel Martellini (EDHEC Quantum Institute): Why business leaders need quantum awareness,
-      not quantum washing'
-    url: https://thequantuminsider.com/2026/08/22/lionel-martellini-edhec-quantum-institute-why-business-leaders-need-quantum-awareness-not-quantum-washing/
-    summary: Yuval Boger interviews Lionel Martellini, finance professor at the EDHEC and founding director
-      of the EDHEC Quantum Institute. Lionel describes his unusual path from finance to astrophysics and
-      why business schools should teach quantum awar
+  - title: China Puts Quantum Technology Among Priorities in New 2030 Cyber Industry Plan
+    url: https://thequantuminsider.com/2026/08/24/china-puts-quantum-technology-among-priorities-in-new-2030-cyber-industry-plan/
+    summary: Insider Brief China has identified quantum technology as one of a group of frontier fields
+      targeted for development under a new five-year plan aimed at strengthening the country’s cybersecurity
+      and information technology companies. Accordin
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-08-22T07:30:00+00:00'
+    published_at: '2026-08-24T08:30:36+00:00'
     dupe_count: 0
-  - title: Brookhaven Lab and Stony Brook Demonstrate First US Free-Space Quantum Network Link Across
-      13 Miles
-    url: https://quantumcomputingreport.com/brookhaven-lab-and-stony-brook-demonstrate-first-us-free-space-quantum-network-link-across-13-miles/
-    summary: A map shows Brookhaven National Laboratory, Stony Brook University, and Yale University —
-      the three institutions hosting facilities that form a free-space optical (FSO) link. Researchers
-      at the U.S. Department of Energy’s (DOE) Brookhaven N
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-22T02:48:24+00:00'
-    dupe_count: 0
-  - title: 'What Is NISQ Quantum Computing: The Current Era of Quantum Machines'
-    url: https://thequantuminsider.com/2026/08/21/what-is-nisq-quantum-computing-guide/
-    summary: Insider Brief Every quantum computer commercially available today belongs to the same category.
-      Whether it is IBM‘s quantum systems, Google‘s superconducting processors, or IonQ‘s trapped-ion
-      hardware. All of these are NISQ devices, whether
+  - title: Microsoft’s Skala AI Model Joins CP2K to Improve Quantum Mechanical Simulations
+    url: https://thequantuminsider.com/2026/08/24/microsofts-skala-ai-model-joins-cp2k-to-improve-quantum-mechanical-simulations/
+    summary: Insider Brief PRESS RELEASE — The Skala AI model, developed by Microsoft Research AI for
+      Science, is now available through the CP2K software ecosystem. Thanks to Skala, researchers can
+      perform quantum mechanical simulations of larger molecu
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-08-21T15:36:30+00:00'
+    published_at: '2026-08-24T08:04:47+00:00'
     dupe_count: 0
-  - title: Quantum X Labs Outperforms PyMatching Benchmarks on Google Quantum Hardware Surface-Code Dataset
-      Using NVIDIA CUDA-Q
-    url: https://quantumcomputingreport.com/quantum-x-labs-outperforms-pymatching-benchmarks-on-google-quantum-hardware-surface-code-dataset-using-nvidia-cuda-q/
-    summary: 'Quantum software developer Quantum X Labs Inc. (Nasdaq: QXL) has announced new performance
-      results from its AI-driven quantum error correction (QEC) decoder program. Testing its updated model
-      against Google’s public surface-code experimenta'
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-21T15:21:13+00:00'
-    dupe_count: 0
-  - title: Quantum X Labs Tests AI Quantum Error Decoder on Google Hardware Dataset
-    url: https://thequantuminsider.com/2026/08/21/quantum-x-labs-ai-quantum-error-correction-results/
-    summary: 'Insider Brief Press release – Quantum X Labs Inc. (Nasdaq: QXL) (“Quantum X” or the “Company”),
-      an advanced technologies company, today announced new results from its AI-driven quantum error-correction
-      program, advancing the Company’s roadm'
+  - title: Japan’s Full-Stack Neutral-Atom Quantum Computer is Operational
+    url: https://thequantuminsider.com/2026/08/24/japans-full-stack-neutral-atom-quantum-computer-is-operational/
+    summary: Insider Brief PRESS RELEASE — Institute for Molecular Science (IMS), National Institutes
+      of Natural Sciences, announced on Aug. 24 that Japan’s first full-stack neutral-atom quantum computer
+      “Shunkai,” developed by a research team led by Pr
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-08-21T13:39:20+00:00'
+    published_at: '2026-08-24T07:51:08+00:00'
     dupe_count: 0
-  - title: Berkeley Lab-Led Project Secures Funding to Develop a Transportable Muon Imager
-    url: https://thequantuminsider.com/2026/08/21/berkeley-lab-led-project-secures-funding-to-develop-a-transportable-muon-imager/
-    summary: Insider Brief PRESS RELEASE — The U.S. Department of Energy (DOE)’s Lawrence Berkeley National
-      Laboratory (Berkeley Lab), in partnership with Ideon Technologies, has received funding from the
-      DOE’s Advanced Research Projects Agency-Energy (
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-08-21T11:13:40+00:00'
-    dupe_count: 0
-  - title: ORNL Researcher Advances Particle Detection for the Electron-Ion Collider
-    url: https://thequantuminsider.com/2026/08/21/ornl-physicist-detectors-nuclear-physics-research/
-    summary: Insider Brief Press release – John Lajoie is a builder—not of buildings or everyday machines,
-      but of detectors with a special purpose. A physicist at the Department of Energy’s (DOE’s) Oak Ridge
-      National Laboratory (ORNL), Lajoie has shaped
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-08-21T11:07:40+00:00'
-    dupe_count: 0
-  - title: Q2B Copenhagen 2026 to Focus on Quantum Technology and Commercial Adoption
-    url: https://thequantuminsider.com/2026/08/21/q2b-copenhagen-2026-quantum-industry-leaders-denmark/
-    summary: Insider Brief Press release – QC Ware, the organizer of Q2B conferences and a developer of
-      computational chemistry and quantum computing software, has announced that the 2026 Q2B Copenhagen
-      Conference will take place on September 9-10, 2026
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-08-21T10:42:13+00:00'
-    dupe_count: 0
-  - title: Crypto4A QASM Module Achieves FIPS 140-3 Level 3 Validation
-    url: https://thequantuminsider.com/2026/08/21/crypto4a-fips-140-3-level-3-quantum-safe-hsm/
-    summary: Insider Brief Press release – Canadian cybersecurity company Crypto4A Technologies Inc. has
-      achieved a global first in the race to protect governments, financial systems, critical infrastructure
-      and defence networks from the emerging threat
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-08-21T10:29:11+00:00'
-    dupe_count: 1
-  - title: Who Will Actually Use Quantum Computers? Study Identifies 11 User Types
-    url: https://thequantuminsider.com/2026/08/21/who-will-actually-use-quantum-computers-study-identifies-11-user-types/
-    summary: Insider Brief Quantum computing might have a user problem as well as a hardware problem,
-      according to a new study that identifies 11 types of people likely to interact with quantum software.
-      The researchers also found that that these differ
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-08-21T08:19:39+00:00'
-    dupe_count: 0
-  - title: ORNL Quantum Computing User Forum Highlights Quantum-HPC Research
-    url: https://thequantuminsider.com/2026/08/21/ornl-quantum-computing-user-forum-quantum-hpc-research/
-    summary: Insider Brief Press release – Researchers, software developers and technology leaders from
-      across the global quantum computing ecosystem gathered at the Department of Energy’s (DOE) Oak Ridge
-      National Laboratory (ORNL) in July for the seven
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-08-21T07:30:00+00:00'
-    dupe_count: 0
-  - title: AI Coding Assistants are Getting Smarter
-    url: https://quantumcomputingreport.com/ai-coding-assistants-are-getting-smarter/
-    summary: By Doug Finke Last year, we published an article titled Quantum SDKs are Dying, Long Live
-      Quantum AI SDK describing how the classical computing concept of "Vibe Coding" is entering the quantum
-      programming space. (Perhaps we should call it V
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-21T00:20:01+00:00'
-    dupe_count: 0
-  - title: Caltech Researchers Measure Conformal Field Theory Spectra on a Neutral-Atom Quantum Simulator
-    url: https://quantumcomputingreport.com/caltech-researchers-measure-conformal-field-theory-spectra-on-a-neutral-atom-quantum-simulator/
-    summary: 'Credit: Caltech/Gyohei Nomura A physics collaboration led by Caltech—combining the experimental
-      laboratory of Professor Manuel Endres and the theoretical group of Professor Jason Alicea, alongside
-      theorists from Université Paris-Saclay and '
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-20T19:41:51+00:00'
-    dupe_count: 0
-  - title: Rigetti Establishes Dedicated Systems Delivery Organization to Scale On-Premises Deployments
-    url: https://quantumcomputingreport.com/rigetti-establishes-systems-delivery-unit-and-names-new-coo-and-cto-to-scale-on-premises-deployments/
-    summary: 'Superconducting quantum hardware developer Rigetti Computing, Inc. (Nasdaq: RGTI) has reorganized
-      its operating structure to separate commercial system deployments from core quantum processor R&D.
-      The company has established a dedicated Sys'
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-20T18:37:17+00:00'
-    dupe_count: 0
-  - title: Dirac Labs Raises $1.8M Pre-Seed Round to Scale Diamond-Based Quantum Navigation Sensors
-    url: https://quantumcomputingreport.com/dirac-labs-raises-1-8m-pre-seed-round-to-scale-diamond-based-quantum-navigation-sensors/
-    summary: University of Wisconsin-Madison spinout Dirac Labs Inc. has raised $1.8 million USD in pre-seed
-      funding to prototype and field-test its diamond-based quantum positioning sensors. Led by venture
-      firm TitletownTech (a joint initiative of Micr
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-20T18:07:28+00:00'
-    dupe_count: 0
-  - title: Superpositions Partners with EBU Luxembourg to Integrate Quantum Workflows into Business Curricula
-    url: https://quantumcomputingreport.com/superpositions-partners-with-ebu-luxembourg-to-integrate-quantum-workflows-into-business-curricula/
-    summary: European quantum software company Superpositions has entered into a strategic educational
-      partnership with the European Business Institute of Luxembourg (EBU) to power its Q-Ready academic
-      initiative. Under the agreement, EBU is incorporati
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-20T17:50:40+00:00'
-    dupe_count: 0
-  - title: FormationQ and STFC Hartree Centre Partner to Drive Enterprise Quantum and AI Adoption in the
-      UK
-    url: https://quantumcomputingreport.com/formationq-and-stfc-hartree-centre-partner-to-drive-enterprise-quantum-and-ai-adoption-in-the-uk/
-    summary: Quantum enablement company FormationQ and the STFC Hartree Centre—part of the Science and
-      Technology Facilities Council (STFC) and UK Research and Innovation (UKRI)—have announced a strategic
-      partnership to accelerate the commercial adoptio
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-20T17:40:42+00:00'
-    dupe_count: 0
-  - title: Building a Quantum Computer, One Fragile Qubit at a Time
-    url: https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/
-    summary: No one yet knows which technology will power the quantum computers of the future, but the
-      race to create them has already produced some of science’s most intricate machinery. The post Building
-      a Quantum Computer, One Fragile Qubit at a Time
-    source: Quanta Magazine (Quantum tag)
+  - title: 'Comment on "Scalable Quantum Machine Learning: Trainability, Expressivity and Efficiency":
+      Polynomial Evaluation of the Triplet-Block Readout'
+    url: https://arxiv.org/abs/2608.20435
+    summary: 'arXiv:2608.20435v1 Announce Type: new Abstract: We examine the classical-cost claim for
+      the triplet-block two-body readout in arXiv:2607.24014v1. The Gaussian-state expansion used there
+      gives an $O(2^{2k/3}\mathrm{poly}(n))$ classical algor'
+    source: arXiv quant-ph
     weight: 2
-    published_at: '2026-08-19T14:16:03+00:00'
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'Granthi: Higher-Order Quantum Programming via Unitary Wiring'
+    url: https://arxiv.org/abs/2608.20443
+    summary: 'arXiv:2608.20443v1 Announce Type: new Abstract: Existing quantum programming languages confine
+      higher order structure to a classical host while restricting the quantum layer to first order operations
+      on qubits. This paper presents Granthi, '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: Practical Error Suppression and Mitigation for Reliable Quantum Computing
+    url: https://arxiv.org/abs/2608.20453
+    summary: 'arXiv:2608.20453v1 Announce Type: new Abstract: Quantum computing is entering a transitional
+      regime between noisy intermediate-scale quantum (NISQ) processing and early fault-tolerant quantum
+      computation (FTQC), in which increasingly capabl'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'To Scale Up or To Scale Out: Evaluating Space-Time Costs of Compiled Logical Circuits on Modular
+      Superconducting Quantum Processors'
+    url: https://arxiv.org/abs/2608.20462
+    summary: 'arXiv:2608.20462v1 Announce Type: new Abstract: Modular integration has emerged as the main
+      pathway for scaling superconducting quantum processing units (QPUs) beyond the constraints of fabrication
+      yield and physical footprint. Currently, t'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: Collective Quantum Logic Spectroscopy
+    url: https://arxiv.org/abs/2608.20471
+    summary: 'arXiv:2608.20471v1 Announce Type: new Abstract: Scaling trapped-ion quantum sensors from
+      single ions to large ensembles is a key challenge for next-generation precision measurements. At
+      the same time, many ion species of interest for optica'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: Energetics in daemonic work extraction protocols via non-ideal QND-energy measurement
+    url: https://arxiv.org/abs/2608.20487
+    summary: 'arXiv:2608.20487v1 Announce Type: new Abstract: We address the problem of extracting work
+      from a quantum system assisted by a quantum non-demolition (QND) energy measurement. When a perfect
+      QND measurement can be performed and an auxiliary '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: Nonlinear Diamagnetic Interactions in Ultrastrongly Coupled 2D Electrons
+    url: https://arxiv.org/abs/2608.20578
+    summary: 'arXiv:2608.20578v1 Announce Type: new Abstract: The quantum Hopfield model is widely used
+      to describe ultrastrong light--matter coupling between cavity photons and collective bosonic excitations
+      in solids, where the diamagnetic interaction '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: Clifford-efficient sparse state preparation for molecular wavefunctions
+    url: https://arxiv.org/abs/2608.20593
+    summary: 'arXiv:2608.20593v1 Announce Type: new Abstract: Sparse quantum state preparation concerns
+      an $n$-qubit target state that is a superposition of only $d \ll 2^n$ computational basis states.
+      Existing approaches exploit this sparsity by compres'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: Scaling Behavior of Parameterized Quantum Circuits from a Lie-Algebraic Perspective
+    url: https://arxiv.org/abs/2608.20603
+    summary: 'arXiv:2608.20603v1 Announce Type: new Abstract: Understanding how the performance of parameterized
+      quantum circuits scales with available resources is important for characterizing their trainability
+      and effective model capacity. In this stu'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: Predicting Resource Efficient Hamiltonian Decomposition for Continuous-Time Quantum Walk Simulations
+    url: https://arxiv.org/abs/2608.20660
+    summary: 'arXiv:2608.20660v1 Announce Type: new Abstract: Simulating a continuous-time quantum walk
+      (CTQW) on a graph in the circuit model of quantum computing requires decomposing its Hamiltonian
+      into terms that can be Trotterized into hardware-nati'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: Continuous-angle logical rotations in the Steane code
+    url: https://arxiv.org/abs/2608.20676
+    summary: 'arXiv:2608.20676v1 Announce Type: new Abstract: We experimentally demonstrate continuous-angle
+      logical $Z$ rotations in the $[[7,1,3]]$ Steane code on the IonQ Forte trapped-ion processor. A
+      round of the protocol applies a transversal physi'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'Quantum Zeno and Anti-Zeno Responses: Universal Spectral Criterion for Measurement-Induced
+      Decay'
+    url: https://arxiv.org/abs/2608.20702
+    summary: 'arXiv:2608.20702v1 Announce Type: new Abstract: We develop a general framework for characterizing
+      the response of an evolving quantum system to repetitive quantum measurements. Modeling each evolution-measurement
+      cycle as a quantum channel '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'Difference-Set Weyl Channels: Exact Capacity, Optimizer Bifurcation, and Scalable Entanglement
+      Separation'
+    url: https://arxiv.org/abs/2608.20726
+    summary: 'arXiv:2608.20726v1 Announce Type: new Abstract: In odd local dimension $D$, complete Wigner
+      positivity yields stochastic phase-space dynamics on Wigner-nonnegative states but does not control
+      signed inputs, entanglement across channel uses,'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: Restoring heat and particle flow in strongly coupled non-equilibrium devices
+    url: https://arxiv.org/abs/2608.20737
+    summary: 'arXiv:2608.20737v1 Announce Type: new Abstract: Under non-equilibrium conditions, energy/particle
+      currents flow through a quantum system coupled to multiple baths. Although the fluxes increase in
+      the weak coupling regime as the coupling str'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: Activate genuine nonlocality from distinguishable sets in tripartite systems
+    url: https://arxiv.org/abs/2608.20741
+    summary: 'arXiv:2608.20741v1 Announce Type: new Abstract: A set of orthogonal quantum states in multipartite
+      systems is of genuine nonlocality if it is locally indistinguishable in every bipartition. If it
+      is locally reducible when the parties are se'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 0
+  - title: Hybrid dynamical decoupling and coherent driving for high-fidelity nuclear-spin control in
+      diamond
+    url: https://arxiv.org/abs/2608.20742
+    summary: 'arXiv:2608.20742v1 Announce Type: new Abstract: Nitrogen-vacancy (NV) centers in diamond
+      provide room-temperature electron-nuclear spin registers for quantum sensing and quantum information
+      processing, with surrounding 13C nuclear spins ser'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
-  - title: b10603
-    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10603
-    summary: 'model : support MTP in GLM-4.5-Air ( #26534 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42447665
-      macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED'
+  - title: b10605
+    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10605
+    summary: 'mamba2 : Flatten in/out projections to dispatch GEMM instead of GEMV ( #27513 ) mamba2 :
+      flatten mamba2 in/out projections to dispatch gemm instead of gemv mamba2 : remove redundant output
+      reshape Website: https://llama.app Attestations: ht'
     source: llama.cpp Releases
     weight: 1
-    published_at: '2026-08-23T18:47:30+00:00'
+    published_at: '2026-08-24T08:59:34+00:00'
     dupe_count: 0
-  - title: b10599
-    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10599
-    summary: 'test: move tools/parser to tests ( #27548 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42442638
-      macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED m'
+  - title: b10604
+    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10604
+    summary: 'Deepseek 4: -sm tensor ( #26490 ) DSV4: sm tensor set coarser granularity for head splits
+      fix dspark add model saving for dsv4 + allow dflash to return on specific device add comment about
+      dsv4 seq_rm simplify add shared expert delayed allr'
     source: llama.cpp Releases
     weight: 1
-    published_at: '2026-08-23T17:41:07+00:00'
+    published_at: '2026-08-24T07:18:55+00:00'
     dupe_count: 0
-  - title: b10598
-    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10598
-    summary: 'mtmd: use pillow-accurate algo, correct resize_algo for all models ( #27594 ) mtmd: use
-      pillow-accurate resize algo, correct resize_algo for all models speed optimization Website: https://llama.app
-      Attestations: https://github.com/ggml-org/'
-    source: llama.cpp Releases
-    weight: 1
-    published_at: '2026-08-23T17:18:03+00:00'
+  - title: 'SDAD: Spec-Driven Agentic Development for the AI-Native SDLC'
+    url: https://arxiv.org/abs/2608.20341
+    summary: 'arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language
+      models with context windows from hundreds of thousands to millions of tokens are restructuring the
+      Software Development Life Cycle (SDLC). Rich '
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: b10595
-    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10595
-    summary: 'server : add LLAMA_SERVER_SLOTS_N_DIFF ( #27600 ) Website: https://llama.app Attestations:
-      https://github.com/ggml-org/llama.cpp/attestations/42423433 macOS/iOS: macOS Apple Silicon (arm64)
-      macOS Apple Silicon (arm64, KleidiAI enabled) DISA'
-    source: llama.cpp Releases
-    weight: 1
-    published_at: '2026-08-23T13:45:46+00:00'
+  - title: 'PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure'
+    url: https://arxiv.org/abs/2608.20342
+    summary: 'arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents
+      start each session with an empty context window, discarding accumulated knowledge from prior work.
+      We present PrimeAgentOrchestrator (PAO), a system th'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: b10594
-    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10594
-    summary: 'common : skip device_info loop if it''s not going to be printed ( #26692 ) The device_info
-      loop iterates over the discovered devices and gets the available and total memory counts. With the
-      CUDA backend (and possibly others too) this require'
-    source: llama.cpp Releases
-    weight: 1
-    published_at: '2026-08-23T13:23:17+00:00'
+  - title: 'Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification'
+    url: https://arxiv.org/abs/2608.20378
+    summary: 'arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models
+      (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages
+      of generation without erasing the foundational knowle'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: b10593
-    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10593
-    summary: 'DeepseekV4: fix rollback with multi-seq ( #26756 ) DeepseekV4: fix rollback with multi-seq
-      fix model loading make pending rollback single use only clear cache for seq_id for full load add
-      assert for compress ratio make graph topology static'
-    source: llama.cpp Releases
-    weight: 1
-    published_at: '2026-08-23T11:41:45+00:00'
+  - title: 'A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications'
+    url: https://arxiv.org/abs/2608.20379
+    summary: 'arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs)
+      have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has
+      produced agentic frameworks that orchestrate percepti'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: b10590
-    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10590
-    summary: 'vendor : update subprocess.h ( #27409 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42402532
-      macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS'
-    source: llama.cpp Releases
-    weight: 1
-    published_at: '2026-08-23T08:22:24+00:00'
+  - title: Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles
+    url: https://arxiv.org/abs/2608.20384
+    summary: 'arXiv:2608.20384v1 Announce Type: new Abstract: Multimodal affect and behaviour classifiers
+      that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive
+      accuracy and produce human-understandable explanatio'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: b10589
-    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10589
-    summary: 'cuda : add POOL_1D support ( #27573 ) cuda : add POOL_1D support fix: add missing trailing
-      newline for editorconfig compliance Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42401257
-      macOS/iOS: m'
-    source: llama.cpp Releases
-    weight: 1
-    published_at: '2026-08-23T08:00:34+00:00'
+  - title: 'Representation Affects Retrieval: A Case Study of Skill Discovery and Routing in a Multimodal
+      Agent Harness'
+    url: https://arxiv.org/abs/2608.20389
+    summary: 'arXiv:2608.20389v1 Announce Type: new Abstract: A production agent harness must discover
+      and rank, from a growing library of skills, the one most appropriate for a user''s task. At small
+      scale this selection happens in context: the LLM plann'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: b10588
-    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10588
-    summary: 'common: json.h: fix clang lto ( #27575 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42368523
-      macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macO'
-    source: llama.cpp Releases
-    weight: 1
-    published_at: '2026-08-22T23:42:17+00:00'
+  - title: 'Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs
+      on Unified Memory'
+    url: https://arxiv.org/abs/2608.20397
+    summary: 'arXiv:2608.20397v1 Announce Type: new Abstract: Agentic large language models (LLMs) on
+      the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic
+      in sequence length - dominates time-to-first-token (T'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: b10587
-    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10587
-    summary: 'vulkan : added the PAD_REFLECT_1D operation ( #26586 ) vulkan : added PAD_REFLECT_1D operation
-      Implemented the GGML_OP_PAD_REFLECT_1D operation for the Vulkan backend Changes: pad_reflect_1d.comp:
-      implemented the GLSL compute shader with re'
-    source: llama.cpp Releases
-    weight: 1
-    published_at: '2026-08-22T20:13:41+00:00'
+  - title: 'Environmental Slow AI: Design Principles for Generative Systems'
+    url: https://arxiv.org/abs/2608.20398
+    summary: 'arXiv:2608.20398v1 Announce Type: new Abstract: Generative AI (genAI) systems produce cultural
+      artefacts at scale, but they also reflect embedded cultural values through their design. Once identified,
+      these values become open to deliberate '
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: 'v0.28.0rc2: [Spec Decode] DFlash2: local convolution + candidate selector (#52816)'
-    url: https://github.com/vllm-project/vllm/releases/tag/v0.28.0rc2
-    summary: '(cherry picked from commit b389ac2 ) Signed-off-by: khluu khluu000@gmail.com'
-    source: vLLM Releases
-    weight: 1
-    published_at: '2026-08-21T06:47:39+00:00'
+  - title: 'When Retrieval Fails Before It Begins: Structurally Indirect Prerequisite Eviction as a Retention
+      Failure in Agentic Memory'
+    url: https://arxiv.org/abs/2608.20400
+    summary: 'arXiv:2608.20400v1 Announce Type: new Abstract: Agentic memory under a fixed budget involves
+      two stages: retention and retrieval. Existing retrieval-centered paradigms implicitly assume necessary
+      evidence survives eviction, but we challenge'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 2
+  - title: World models of environment, agent and joint agent-environment systems
+    url: https://arxiv.org/abs/2608.20401
+    summary: 'arXiv:2608.20401v1 Announce Type: new Abstract: World models are a central component of
+      model-based reinforcement learning. They are usually discussed in terms of what variables they predict,
+      such as observations, rewards, states, latent or'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
+    dupe_count: 1
+  - title: 'StateSight: Benchmarking Latent Spatial-State Reconstruction in Vision-Language Models'
+    url: https://arxiv.org/abs/2608.20414
+    summary: 'arXiv:2608.20414v1 Announce Type: new Abstract: Vision-language models are increasingly
+      used for multimodal question answering, yet their ability to reconstruct latent spatial structure
+      from a single image remains difficult to isolate. Broa'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: Measuring benchmark optimization in speech recognition
-    url: https://huggingface.co/blog/asr-benchmark-optimization
-    summary: ''
-    source: Hugging Face Blog
-    weight: 1
-    published_at: '2026-08-21T00:00:00+00:00'
+  - title: 'Categorical AI phenomenology: A first-person approach'
+    url: https://arxiv.org/abs/2608.20420
+    summary: 'arXiv:2608.20420v1 Announce Type: new Abstract: This paper develops a phenomenology-first
+      approach to artificial consciousness by reframing consciousness as the subjective experience enacted
+      through an agent''s interface with the world. We s'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: Up to 3.2x Faster Inference with LFM2.5-DSpark
-    url: https://huggingface.co/blog/LiquidAI/lfm25-dspark
-    summary: ''
-    source: Hugging Face Blog
-    weight: 1
-    published_at: '2026-08-20T16:52:57+00:00'
+  - title: Who Delegates to AI? Evidence from 53,000 Agent Configurations
+    url: https://arxiv.org/abs/2608.20425
+    summary: 'arXiv:2608.20425v1 Announce Type: new Abstract: A growing literature measures how far occupations
+      are exposed to AI, but these measures capture where AI could perform tasks, not whether workers
+      have adopted it. We propose a new layer of exp'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: v0.28.0rc1
-    url: https://github.com/vllm-project/vllm/releases/tag/v0.28.0rc1
-    summary: '[Bugfix][Security] Guard _load_ov2_processor with resolve_trust_remot…'
-    source: vLLM Releases
-    weight: 1
-    published_at: '2026-08-20T09:30:39+00:00'
+  - title: 'STCO: Conditional Neural Operators for Time-Dependent PDEs'
+    url: https://arxiv.org/abs/2608.20477
+    summary: 'arXiv:2608.20477v1 Announce Type: new Abstract: Neural operators have emerged as efficient
+      surrogates for time-dependent physical systems governed by partial differential equations (PDEs),
+      but their future-state predictions are often condit'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: Introducing AI Futures
-    url: https://openai.com/index/introducing-ai-futures
-    summary: Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power,
-      governance, the economy, and individual freedom.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-08-20T07:00:00+00:00'
+  - title: 'Terminal Agents: A Survey of AI Agents in Command-Line Environments'
+    url: https://arxiv.org/abs/2608.20485
+    summary: 'arXiv:2608.20485v1 Announce Type: new Abstract: Large language model agents increasingly
+      act through terminals, yet existing surveys disperse terminal-mediated behavior across software
+      engineering, tool use, and computer-use research. We re'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: Stampli cuts launch hours by 68% using ChatGPT Work
-    url: https://openai.com/index/stampli
-    summary: With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT
-      Work to compress weeks of launch production into days.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-08-20T00:00:00+00:00'
+  - title: 'Lost in Translation: How Universal Ethical Values Fail to Translate Across Global Contexts'
+    url: https://arxiv.org/abs/2608.20490
+    summary: 'arXiv:2608.20490v1 Announce Type: new Abstract: AI ethics frameworks treat values such as
+      fairness, transparency, and accountability as universal and uniformly operationalizable across contexts.
+      We examined how 14 experts across 10 countrie'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: Offering Zero Data Retention for frontier models
-    url: https://openai.com/index/offering-zero-data-retention-for-frontier-models
-    summary: OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety
-      Processing for advanced AI safety without compromising data privacy.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-08-19T19:00:00+00:00'
+  - title: A Temporal Planning Approach for Intelligent Flood Response
+    url: https://arxiv.org/abs/2608.20510
+    summary: 'arXiv:2608.20510v1 Announce Type: new Abstract: Effective response to multiple, simultaneously
+      flooded areas requires coordinating appropriate actions in the correct temporal order, under severe
+      resource constraints. Automated planning prov'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: Replit expands access to software creation with GPT-5.6 Luna
-    url: https://openai.com/index/replit
-    summary: Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working
-      software without worrying about token costs.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-08-19T07:00:00+00:00'
+  - title: 'FL-MAESTRO: Multi-Agent LLM Orchestration for Resource-Constrained Federated Learning'
+    url: https://arxiv.org/abs/2608.20518
+    summary: 'arXiv:2608.20518v1 Announce Type: new Abstract: In Federated Learning (FL), the communication
+      topology is a runtime variable rather than a fixed design choice, since links and edge devices drop
+      in and out during training. Each round, the se'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
