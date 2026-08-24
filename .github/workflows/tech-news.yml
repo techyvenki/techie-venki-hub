@@ -50,8 +50,13 @@ jobs:
           git commit -m "news: daily refresh"
           git fetch origin main
           if ! git rebase origin/main; then
-            echo "Rebase failed (likely another run updated the same file). Skipping push."
+            if git diff --name-only --diff-filter=U | grep -q "^docs/_data/tech_news.yml$"; then
+              echo "Rebase conflict on docs/_data/tech_news.yml (likely updated by another run). Skipping push."
+              git rebase --abort || true
+              exit 0
+            fi
+            echo "Rebase failed unexpectedly."
             git rebase --abort || true
-            exit 0
+            exit 1
           fi
           git push origin HEAD:main
