@@ -1,174 +1,255 @@
-generated_at: '2026-08-24T11:14:03.556909+00:00'
+generated_at: '2026-08-24T21:09:43.799936+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
-  - title: Humanoid robots smash Usain Bolt’s 100-meter record
-    url: https://www.theverge.com/tech/983688/world-humanoid-robot-games-sprint-record-2026
-    summary: 'The 9.58-second 100-meter dash record set by Usain Bolt in 2009 has been outpaced by Chinese
-      robots participating at the World Humanoid Robot Games in Beijing. In a preliminary heat on Saturday,
-      Tiangong Ultra, made by the Beijing Humanoid '
+  - title: Zillow and Redfin settle FTC antitrust case
+    url: https://techcrunch.com/2026/08/24/zillow-and-redfin-settle-ftc-antitrust-case/
+    summary: Zillow and Redfin reached a settlement with the FTC, which requires Redfin to reenter the
+      rental advertising business.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-08-24T20:45:33+00:00'
+    dupe_count: 1
+  - title: Showcase your startup at TechCrunch Disrupt 2026 and book an exhibit table while there’s still
+      space
+    url: https://techcrunch.com/2026/08/24/showcase-your-startup-at-techcrunch-disrupt-2026-and-book-an-exhibit-table-while-theres-still-space/
+    summary: Make the most of Disrupt's crowds of potential investors and partners by exhibiting your
+      startup from October 13-15.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-08-24T20:16:34+00:00'
+    dupe_count: 0
+  - title: Alabama launches investigation into OpenAI’s hack of Hugging Face
+    url: https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/
+    summary: Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked
+      AI dataset company Hugging Face, Alabama’s Attorney General announced an investigation into the
+      incident.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-08-24T19:58:17+00:00'
+    dupe_count: 0
+  - title: Amazon hikes hardware prices by 60%, blaming memory shortage
+    url: https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/
+    summary: As the memory shortage continues to cause trouble for hardware makers, Amazon says it is
+      now being forced to pass on the costs to its consumers.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-08-24T19:54:50+00:00'
+    dupe_count: 0
+  - title: Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026
+    url: https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/
+    summary: At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future
+      of programming and Replit's role in developing it.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-08-24T19:54:19+00:00'
+    dupe_count: 0
+  - title: The cat-and-mouse game over 3D-printed guns has begun
+    url: https://www.theverge.com/tech/983244/3d-printed-guns-hashes-hochul
+    summary: The creator of the world's first 3D-printed gun claims he's developed a way to thwart government-mandated
+      software meant to block 3D printers from making firearms. It's an opening volley in what's shaping
+      up to be an evolving battle between
     source: The Verge
     weight: 1
-    published_at: '2026-08-24T09:10:40+00:00'
+    published_at: '2026-08-24T19:50:00+00:00'
     dupe_count: 0
-  - title: Who’s behind the new ‘stealth model’ Ox Alpha?
-    url: https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/
-    summary: A mysterious new AI model called Ox Alpha has driven certain corners of the internet into
-      a frenzy of speculation.
+  - title: Apply now to host a Side Event at TechCrunch Disrupt 2026
+    url: https://techcrunch.com/2026/08/24/apply-now-to-host-a-side-event-at-techcrunch-disrupt-2026/
+    summary: Apply before September 4 to be a part of the TechCrunch Disrupt community by hosting your
+      own Side Event.
     source: TechCrunch
     weight: 1
-    published_at: '2026-08-23T20:01:36+00:00'
+    published_at: '2026-08-24T19:44:13+00:00'
     dupe_count: 0
-  - title: Uber faces fine of nearly $1B over automated driver suspensions
-    url: https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/
-    summary: The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty
-      issued under Europe’s GDPR.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-08-23T19:30:00+00:00'
-    dupe_count: 0
-  - title: 'GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series'
-    url: https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games
-    summary: It’s been over a decade and two console generations since GTA V came out, and its sequel
-      is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping
-      back its predicted release date twice, first to Ma
-    source: The Verge
-    weight: 1
-    published_at: '2026-08-23T19:14:37+00:00'
-    dupe_count: 0
-  - title: Linkdaze’s smart calendar is built to run a household, not just track a schedule
-    url: https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/
-    summary: Linkdaze's smart digital calendar stands out for not putting its features behind a paywall,
-      including an AI meal planner tool.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-08-23T19:14:08+00:00'
-    dupe_count: 0
-  - title: 'TechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions'
-    url: https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions/
-    summary: Welcome back to TechCrunch Mobility — your central hub for news and insights on the future
-      of transportation.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-08-23T16:03:00+00:00'
-    dupe_count: 0
-  - title: Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash
-    url: https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/
-    summary: Flock Safety faces a growing public outcry over concerns that its surveillance technology
-      could be misused.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-08-23T15:30:00+00:00'
-    dupe_count: 0
-  - title: Is it legal to train AI models on copyrighted books? It’s complicated
-    url: https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/
-    summary: Most published authors have, without their knowledge or consent, contributed to the development
-      of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-08-23T15:00:00+00:00'
-    dupe_count: 0
-  - title: We’re All Going to the World’s Fair is an intimate coming-of-age horror film
-    url: https://www.theverge.com/entertainment/983177/jane-schoenbrun-were-all-going-to-the-worlds-fair-horror-movie-review
-    summary: Jane Schoenbrun's latest film, Teenage Sex and Death at Camp Miasma, is making a splash in
-      theaters right now. So it seems like the perfect time to revisit their first film, We're All Going
-      to the World's Fair. I fell in love with this film
-    source: The Verge
-    weight: 1
-    published_at: '2026-08-23T15:00:00+00:00'
-    dupe_count: 0
-  - title: Due to need for 'absolute success,' China delays critical Moon launch to 2027
-    url: https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/
-    summary: '"The Chang’e 7 mission does not meet the conditions for launch."'
+  - title: GM vehicles under federal scrutiny after hundreds of reports
+    url: https://arstechnica.com/cars/2026/08/feds-deepen-probe-into-general-motors-brake-failures/
+    summary: The eBoost brake-by-wire system is responsible for at least 22 crashes now.
     source: Ars Technica
     weight: 1
-    published_at: '2026-08-23T14:30:16+00:00'
+    published_at: '2026-08-24T19:42:50+00:00'
     dupe_count: 0
-  - title: Grand Theft Auto VI exists in its own universe
-    url: https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe
-    summary: This is The Stepback, a weekly newsletter breaking down one essential story from the tech
-      world. For more on GTA VI and the state of the video game industry, follow Andrew Webster. The Stepback
-      arrives in our subscribers' inboxes at 8AM ET.
-    source: The Verge
-    weight: 1
-    published_at: '2026-08-23T12:00:00+00:00'
-    dupe_count: 0
-  - title: Volcanoes that made history
-    url: https://arstechnica.com/science/2026/08/volcanoes-that-made-history/
-    summary: Enormous eruptions altered Earth’s climate and societies all over the globe.
+  - title: Inaudible sounds used to fingerprint browsers catch AliExpress red-handed
+    url: https://arstechnica.com/security/2026/08/aliexpress-caught-fingerprinting-visitors-after-sending-inaudible-sounds-to-browsers/
+    summary: Is the technique outdated? Yes. Is it still creepy? Also yes.
     source: Ars Technica
     weight: 1
-    published_at: '2026-08-23T11:02:54+00:00'
+    published_at: '2026-08-24T19:19:21+00:00'
     dupe_count: 0
-  - title: To become a better writer, read as much as you can
-    url: https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/
-    summary: 'Article URL: https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/ Comments
-      URL: https://news.ycombinator.com/item?id=49405870 Points: 316 # Comments: 208'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-08-23T03:32:25+00:00'
-    dupe_count: 0
-  - title: Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders
-    url: https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/
-    summary: Flipkart's quick-commerce venture is delivering 1.1 million to 1.2 million orders a day,
-      nearly triple its November volume.
+  - title: Instinct’s powerful AI assistant is raising privacy and security concerns
+    url: https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/
+    summary: Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping
+      access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.
     source: TechCrunch
     weight: 1
-    published_at: '2026-08-23T03:00:00+00:00'
+    published_at: '2026-08-24T18:03:55+00:00'
     dupe_count: 0
-  - title: Harvard’s $699 startup bootcamp offers AI avatars of its instructors
-    url: https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/
-    summary: In the HBS Foundry program, AI avatars provide feedback during practice pitches and board
-      meetings.
-    source: TechCrunch
+  - title: 'Buyer beware: Those mummified remains might carry toxic spores'
+    url: https://arstechnica.com/science/2026/08/modern-trade-of-mummified-remains-may-carry-its-own-mummys-curse/
+    summary: '"Mummified remains sold online exhibit signs of biodeterioration, yet sellers provide no
+      safety guidance."'
+    source: Ars Technica
     weight: 1
-    published_at: '2026-08-22T21:46:56+00:00'
+    published_at: '2026-08-24T16:59:07+00:00'
     dupe_count: 0
-  - title: Will the DOJ’s investigation into a16z spook other VCs?
-    url: https://techcrunch.com/2026/08/22/will-the-dojs-investigation-into-a16z-spook-other-vcs/
-    summary: On the latest episode of Equity, we wonder why the DOJ is investigating startup board seats.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-08-22T20:24:20+00:00'
-    dupe_count: 0
-  - title: Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and
-      OpenAI at replicating research
-    url: https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/
-    summary: Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability
-      to replicate scientific papers could be a stepping stone for innovation.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-08-22T19:00:00+00:00'
-    dupe_count: 0
-  - title: Why your local LLM feels dumber than it is
-    url: https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917
-    summary: 'Article URL: https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917
-      Comments URL: https://news.ycombinator.com/item?id=49402232 Points: 417 # Comments: 171'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-08-22T18:14:16+00:00'
-    dupe_count: 0
-  - title: Scrap (2006)
-    url: https://twitter.com/moxie/status/2091218652133732491
-    summary: 'https://xcancel.com/moxie/status/2091218652133732491 Comments URL: https://news.ycombinator.com/item?id=49402189
-      Points: 386 # Comments: 212'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-08-22T18:08:56+00:00'
-    dupe_count: 0
-  - title: Doodle generative compositions in your browser with Musical Spirograph
-    url: https://www.theverge.com/entertainment/983322/musical-spirograph-generative-composition
-    summary: I remember having a Spirograph as a kid and being obsessed with it. Its geometric patterns
-      are hypnotic and gorgeous. I also love generative music composition. So bringing those two things
-      together in a browser tab, I'm hooked. Musical Spir
+  - title: Robotaxis are real now — so is the pushback
+    url: https://www.theverge.com/transportation/983765/robotaxi-waymo-zoox-tesla-rules-pushback-nhtsa
+    summary: Robotaxis are expanding. So is the fight over the rules governing them. In New York, Gov.
+      Kathy Hochul withdrew a proposal earlier this year that would have opened the door to driverless
+      robotaxis outside New York City after taxi drivers, u
     source: The Verge
     weight: 1
-    published_at: '2026-08-22T17:00:00+00:00'
+    published_at: '2026-08-24T16:42:37+00:00'
+    dupe_count: 0
+  - title: Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China
+    url: https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/
+    summary: Nvidia worker indicted after Jensen Huang scolded Supermicro for AI server smuggling.
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-08-24T16:41:45+00:00'
+    dupe_count: 0
+  - title: 'F1 in the Netherlands: The driver you most want to beat is your teammate'
+    url: https://arstechnica.com/cars/2026/08/f1-in-the-netherlands-the-driver-you-most-want-to-beat-is-your-teammate/
+    summary: Formula 1 returned from its summer break with this weekend's Dutch Grand Prix.
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-08-24T16:02:54+00:00'
+    dupe_count: 0
+  - title: The Witcher 4 developers target a 2028 release
+    url: https://www.theverge.com/games/983822/the-witcher-4-release-window-gamescom
+    summary: 'CD Projekt Red is aiming to launch The Witcher 4 sometime in 2028, joint CEO Michał Nowakowski
+      says in a new video. CD Projekt Red has been working on its next mainline Witcher title for years
+      and has shown videos of it, but now the studio '
+    source: The Verge
+    weight: 1
+    published_at: '2026-08-24T15:48:53+00:00'
+    dupe_count: 0
+  - title: Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics
+    url: https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/
+    summary: General Intuition, the startup building a foundation model that trains generalized AI agents
+      how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from
+      new investors including Valor Ventures, Point72 V
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-08-24T15:24:18+00:00'
+    dupe_count: 0
+  - title: ESPN streaming plans are getting more expensive
+    url: https://www.theverge.com/streaming/983794/espn-disney-plus-bundles-price-increase
+    summary: ESPN is hiking the price of its subscription on September 17th, a change that will also impact
+      its bundles with Disney Plus. In a support page spotted earlier by Sports Media Watch, ESPN says
+      its ad-supported Select membership will cost $13
+    source: The Verge
+    weight: 1
+    published_at: '2026-08-24T15:06:24+00:00'
+    dupe_count: 0
+  - title: OpenAI is building AI agents for everything. Will everyone use them?
+    url: https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/
+    summary: Inside the frontier lab’s push to bring AI agents from software engineers to the masses.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-08-24T15:00:00+00:00'
+    dupe_count: 0
+  - title: Raspberry Pi shares its official tutorial for making a cyberdeck
+    url: https://www.theverge.com/tech/983786/raspberry-pi-cyberdeck-tutorial-price-increases
+    summary: Raspberry Pi's head of social, Ashley Whittaker, acknowledged the cyberdeck trend today,
+      saying "we haven't been able to get away from cyberdecks this year." Tiny portable computers made
+      out of things like purses, jewelry boxes, and other t
+    source: The Verge
+    weight: 1
+    published_at: '2026-08-24T14:49:44+00:00'
+    dupe_count: 0
+  - title: Trump tried to curb clean energy. It’s booming anyway.
+    url: https://arstechnica.com/science/2026/08/trump-tried-to-curb-clean-energy-its-booming-anyway/
+    summary: Capacity will rise by a record 45GW this year, according to S&P Global Energy.
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-08-24T14:43:56+00:00'
     dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
+  - title: Infleqtion Helps Launch Japan’s First Operational Neutral-Atom Quantum Computer
+    url: https://thequantuminsider.com/2026/08/24/infleqtion-japan-operational-neutral-atom-quantum-computer/
+    summary: 'Insider Brief Press release – Infleqtion (NYSE: INFQ), a global leader in quantum computing
+      and quantum sensing powered by neutral-atom technology, has helped Japan reach a major quantum milestone,
+      supporting a research team led by Professo'
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-08-24T17:36:46+00:00'
+    dupe_count: 0
+  - title: EuroHPC Opens €119M in Funding Calls for Quantum Technologies
+    url: https://thequantuminsider.com/2026/08/24/eurohpc-119m-funding-calls-quantum-technologies/
+    summary: Insider Brief Press release – The EuroHPC Joint Undertaking (EuroHPC JU) has launched six
+      new calls to advance strategic quantum technologies and the infrastructure needed to accelerate
+      the development and deployment of next-generation quan
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-08-24T17:28:43+00:00'
+    dupe_count: 0
+  - title: Nations at the Quantum Table
+    url: https://thequantuminsider.com/2026/08/24/nations-at-the-quantum-table/
+    summary: Who’s Playing, Who’s Ahead, and What It Means Insider Brief A year ago, quantum computing
+      read like a research story. Here was a technology that might eventually matter. Now, things are
+      getting very, very real … and nations are preparing. S
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-08-24T16:54:34+00:00'
+    dupe_count: 0
+  - title: 'Guest Post: How One of Europe’s Smallest Countries Became NATO’s Precision Photonics Capital'
+    url: https://thequantuminsider.com/2026/08/24/guest-post-how-one-of-europes-smallest-countries-became-natos-precision-photonics-capital/
+    summary: 'Guest Post by Aktyvus Photonics Lithuania is becoming NATO’s precision photonics capital
+      because it has what almost no one else does: 60 years of laser science, and companies fast enough
+      to move at the speed the technology demands. Lithuani'
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-08-24T14:25:04+00:00'
+    dupe_count: 0
+  - title: IonQ’s Skyloom Optical Communications Terminals Reach 84 On-Orbit Installations Following Latest
+      Launch
+    url: https://thequantuminsider.com/2026/08/24/ionq-skyloom-optical-communication-terminals-orbit/
+    summary: 'Insider Brief Press release – Skyloom Global, LLC, an IonQ (NYSE:IONQ) company specializing
+      in the development of space-based optical technology for secure, high-performance communications,
+      today announced that dozens of additional optical '
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-08-24T13:07:47+00:00'
+    dupe_count: 0
+  - title: Pasqal and Eleven Ventures Form Joint Venture for Quantum Computing in Saudi Arabia
+    url: https://thequantuminsider.com/2026/08/24/pasqal-eleven-ventures-joint-venture-quantum-computing-saudi-arabia/
+    summary: Insider Brief Press release – Pasqal, a global leader in neutral-atom quantum computing,
+      and Eleven Ventures, a Kingdom of Saudi Arabia based investment platform and venture capital firm,
+      today announced an agreement to establish a commerci
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-08-24T12:58:17+00:00'
+    dupe_count: 0
+  - title: Sweden Sets 2036 Deadline for National Quantum Technology Strategy
+    url: https://thequantuminsider.com/2026/08/24/sweden-sets-2036-deadline-for-national-quantum-technology-strategy/
+    summary: Insider Brief Sweden has laid out a decade-long plan to turn its strong quantum research
+      base into a more coordinated industry while preparing government and businesses for the security
+      risks posed by future quantum computers. The Swedish g
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-08-24T12:39:15+00:00'
+    dupe_count: 0
+  - title: University of Göttingen Researchers Map Molecular Wave Functions in 3D
+    url: https://thequantuminsider.com/2026/08/24/university-gottingen-maps-molecular-wave-functions-3d/
+    summary: 'Insider Brief Press release – Electrons cannot be fixed to a single location. This is one
+      of the central insights of quantum mechanics. The wave function takes the place of the location:
+      a mathematical quantity that contains all the importa'
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-08-24T11:38:44+00:00'
+    dupe_count: 0
+  - title: TCG Defines Requirements for PQC-Ready Trusted Platform Modules
+    url: https://thequantuminsider.com/2026/08/24/tcg-requirements-pqc-ready-trusted-platform-modules/
+    summary: Insider Brief Press release – Businesses have been provided a clear benchmark for judging
+      whether electronic device vendors’ claims of protection against quantum enabled attacks are valid,
+      through new guidance released today from the Truste
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-08-24T10:27:48+00:00'
+    dupe_count: 0
   - title: RFI and Safeheron Test Post-Quantum Cryptography for Digital Asset Transactions
     url: https://thequantuminsider.com/2026/08/24/rfi-safeheron-post-quantum-security-digital-assets/
     summary: Insider Brief Press release – The Responsible Fintech Institute (RFI) and Safeheron have
@@ -177,33 +258,6 @@ tiles:
     source: The Quantum Insider
     weight: 1
     published_at: '2026-08-24T08:49:41+00:00'
-    dupe_count: 0
-  - title: China Puts Quantum Technology Among Priorities in New 2030 Cyber Industry Plan
-    url: https://thequantuminsider.com/2026/08/24/china-puts-quantum-technology-among-priorities-in-new-2030-cyber-industry-plan/
-    summary: Insider Brief China has identified quantum technology as one of a group of frontier fields
-      targeted for development under a new five-year plan aimed at strengthening the country’s cybersecurity
-      and information technology companies. Accordin
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-08-24T08:30:36+00:00'
-    dupe_count: 0
-  - title: Microsoft’s Skala AI Model Joins CP2K to Improve Quantum Mechanical Simulations
-    url: https://thequantuminsider.com/2026/08/24/microsofts-skala-ai-model-joins-cp2k-to-improve-quantum-mechanical-simulations/
-    summary: Insider Brief PRESS RELEASE — The Skala AI model, developed by Microsoft Research AI for
-      Science, is now available through the CP2K software ecosystem. Thanks to Skala, researchers can
-      perform quantum mechanical simulations of larger molecu
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-08-24T08:04:47+00:00'
-    dupe_count: 0
-  - title: Japan’s Full-Stack Neutral-Atom Quantum Computer is Operational
-    url: https://thequantuminsider.com/2026/08/24/japans-full-stack-neutral-atom-quantum-computer-is-operational/
-    summary: Insider Brief PRESS RELEASE — Institute for Molecular Science (IMS), National Institutes
-      of Natural Sciences, announced on Aug. 24 that Japan’s first full-stack neutral-atom quantum computer
-      “Shunkai,” developed by a research team led by Pr
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-08-24T07:51:08+00:00'
     dupe_count: 0
   - title: 'Comment on "Scalable Quantum Machine Learning: Trainability, Expressivity and Efficiency":
       Polynomial Evaluation of the Triplet-Block Readout'
@@ -297,66 +351,53 @@ tiles:
     weight: 2
     published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: Continuous-angle logical rotations in the Steane code
-    url: https://arxiv.org/abs/2608.20676
-    summary: 'arXiv:2608.20676v1 Announce Type: new Abstract: We experimentally demonstrate continuous-angle
-      logical $Z$ rotations in the $[[7,1,3]]$ Steane code on the IonQ Forte trapped-ion processor. A
-      round of the protocol applies a transversal physi'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-08-24T04:00:00+00:00'
-    dupe_count: 0
-  - title: 'Quantum Zeno and Anti-Zeno Responses: Universal Spectral Criterion for Measurement-Induced
-      Decay'
-    url: https://arxiv.org/abs/2608.20702
-    summary: 'arXiv:2608.20702v1 Announce Type: new Abstract: We develop a general framework for characterizing
-      the response of an evolving quantum system to repetitive quantum measurements. Modeling each evolution-measurement
-      cycle as a quantum channel '
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-08-24T04:00:00+00:00'
-    dupe_count: 0
-  - title: 'Difference-Set Weyl Channels: Exact Capacity, Optimizer Bifurcation, and Scalable Entanglement
-      Separation'
-    url: https://arxiv.org/abs/2608.20726
-    summary: 'arXiv:2608.20726v1 Announce Type: new Abstract: In odd local dimension $D$, complete Wigner
-      positivity yields stochastic phase-space dynamics on Wigner-nonnegative states but does not control
-      signed inputs, entanglement across channel uses,'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-08-24T04:00:00+00:00'
-    dupe_count: 0
-  - title: Restoring heat and particle flow in strongly coupled non-equilibrium devices
-    url: https://arxiv.org/abs/2608.20737
-    summary: 'arXiv:2608.20737v1 Announce Type: new Abstract: Under non-equilibrium conditions, energy/particle
-      currents flow through a quantum system coupled to multiple baths. Although the fluxes increase in
-      the weak coupling regime as the coupling str'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-08-24T04:00:00+00:00'
-    dupe_count: 0
-  - title: Activate genuine nonlocality from distinguishable sets in tripartite systems
-    url: https://arxiv.org/abs/2608.20741
-    summary: 'arXiv:2608.20741v1 Announce Type: new Abstract: A set of orthogonal quantum states in multipartite
-      systems is of genuine nonlocality if it is locally indistinguishable in every bipartition. If it
-      is locally reducible when the parties are se'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-08-24T04:00:00+00:00'
-    dupe_count: 0
-  - title: Hybrid dynamical decoupling and coherent driving for high-fidelity nuclear-spin control in
-      diamond
-    url: https://arxiv.org/abs/2608.20742
-    summary: 'arXiv:2608.20742v1 Announce Type: new Abstract: Nitrogen-vacancy (NV) centers in diamond
-      provide room-temperature electron-nuclear spin registers for quantum sensing and quantum information
-      processing, with surrounding 13C nuclear spins ser'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-08-24T04:00:00+00:00'
-    dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
+  - title: b10612
+    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10612
+    summary: 'tests : disable DOTS3NOTE arch test for WebGPU ( #27654 ) Co-authored-by: Stanisław Szymczyk
+      sszymczy@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42591112
+      macOS/iOS: macOS Apple Sili'
+    source: llama.cpp Releases
+    weight: 1
+    published_at: '2026-08-24T13:43:27+00:00'
+    dupe_count: 0
+  - title: b10610
+    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10610
+    summary: 'ggml : shorten virtual device naming in CUDA and Metal ( #27608 ) ggml : shorten virtual
+      device naming in CUDA and Metal Assisted-by: llama.cpp:DeepSeek-V4-Flash-0731 ggml-metal : build
+      device description at init Assisted-by: llama.cpp:Deep'
+    source: llama.cpp Releases
+    weight: 1
+    published_at: '2026-08-24T13:18:48+00:00'
+    dupe_count: 0
+  - title: b10608
+    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10608
+    summary: 'mtmd: video: fix moov atom at the end of file ( #27596 ) mtmd: video: fix moov at the end
+      of file Co-authored-by: rkfg rkfg@rkfg.me fix SIGPIPE windows: handle broken pipe case Co-authored-by:
+      rkfg rkfg@rkfg.me Website: https://llama.app At'
+    source: llama.cpp Releases
+    weight: 1
+    published_at: '2026-08-24T12:56:57+00:00'
+    dupe_count: 0
+  - title: b10606
+    url: https://github.com/ggml-org/llama.cpp/releases/tag/b10606
+    summary: 'ggml : fix ggml_clamp ( #27644 ) ggml : fix ggml_clamp cont : update ggml-alloc Website:
+      https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42576162 macOS/iOS:
+      macOS Apple Silicon (arm64) macOS Apple Silicon '
+    source: llama.cpp Releases
+    weight: 1
+    published_at: '2026-08-24T12:33:17+00:00'
+    dupe_count: 0
+  - title: Advancing price-performance for developers with GPT‑5.6 in Kiro
+    url: https://openai.com/index/gpt-5-6-in-kiro
+    summary: GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software
+      with better price-performance.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-08-24T12:00:00+00:00'
+    dupe_count: 0
   - title: b10605
     url: https://github.com/ggml-org/llama.cpp/releases/tag/b10605
     summary: 'mamba2 : Flatten in/out projections to dispatch GEMM instead of GEMV ( #27513 ) mamba2 :
@@ -495,51 +536,6 @@ tiles:
     weight: 2
     published_at: '2026-08-24T04:00:00+00:00'
     dupe_count: 0
-  - title: 'STCO: Conditional Neural Operators for Time-Dependent PDEs'
-    url: https://arxiv.org/abs/2608.20477
-    summary: 'arXiv:2608.20477v1 Announce Type: new Abstract: Neural operators have emerged as efficient
-      surrogates for time-dependent physical systems governed by partial differential equations (PDEs),
-      but their future-state predictions are often condit'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-08-24T04:00:00+00:00'
-    dupe_count: 0
-  - title: 'Terminal Agents: A Survey of AI Agents in Command-Line Environments'
-    url: https://arxiv.org/abs/2608.20485
-    summary: 'arXiv:2608.20485v1 Announce Type: new Abstract: Large language model agents increasingly
-      act through terminals, yet existing surveys disperse terminal-mediated behavior across software
-      engineering, tool use, and computer-use research. We re'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-08-24T04:00:00+00:00'
-    dupe_count: 0
-  - title: 'Lost in Translation: How Universal Ethical Values Fail to Translate Across Global Contexts'
-    url: https://arxiv.org/abs/2608.20490
-    summary: 'arXiv:2608.20490v1 Announce Type: new Abstract: AI ethics frameworks treat values such as
-      fairness, transparency, and accountability as universal and uniformly operationalizable across contexts.
-      We examined how 14 experts across 10 countrie'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-08-24T04:00:00+00:00'
-    dupe_count: 0
-  - title: A Temporal Planning Approach for Intelligent Flood Response
-    url: https://arxiv.org/abs/2608.20510
-    summary: 'arXiv:2608.20510v1 Announce Type: new Abstract: Effective response to multiple, simultaneously
-      flooded areas requires coordinating appropriate actions in the correct temporal order, under severe
-      resource constraints. Automated planning prov'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-08-24T04:00:00+00:00'
-    dupe_count: 0
-  - title: 'FL-MAESTRO: Multi-Agent LLM Orchestration for Resource-Constrained Federated Learning'
-    url: https://arxiv.org/abs/2608.20518
-    summary: 'arXiv:2608.20518v1 Announce Type: new Abstract: In Federated Learning (FL), the communication
-      topology is a runtime variable rather than a fixed design choice, since links and edge devices drop
-      in and out during training. Each round, the se'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-08-24T04:00:00+00:00'
-    dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
   items:
@@ -622,7 +618,7 @@ tiles:
     source: Anthropic SDK (Python) Releases
     weight: 1
     published_at: '2026-08-20T19:58:48+00:00'
-    dupe_count: 3
+    dupe_count: 1
   - title: v1.0.197
     url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.197
     summary: 'What''s Changed fix: neutralize the checkout credential under actions/checkout v6+ include
@@ -672,7 +668,7 @@ tiles:
     source: Anthropic SDK (Python) Releases
     weight: 1
     published_at: '2026-08-19T22:00:31+00:00'
-    dupe_count: 2
+    dupe_count: 1
   - title: 'bedrock-sdk: v0.33.1'
     url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.33.1
     summary: '0.33.1 (2026-08-19) Full Changelog: bedrock-sdk-v0.33.0...bedrock-sdk-v0.33.1 Chores internal:
@@ -688,21 +684,4 @@ tiles:
     source: Anthropic SDK (TypeScript) Releases
     weight: 1
     published_at: '2026-08-19T22:00:22+00:00'
-    dupe_count: 0
-  - title: v2.1.236
-    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.236
-    summary: 'What''s changed Added ANTHROPIC_DEFAULT_MODEL environment variable: sets the model new sessions
-      start on, while a /model pick still overrides it and persists across restarts (unlike ANTHROPIC_MODEL
-      ) Added notify_when_idle to cross-session S'
-    source: Claude Code Releases
-    weight: 1
-    published_at: '2026-08-19T20:02:05+00:00'
-    dupe_count: 0
-  - title: v0.124.0
-    url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.124.0
-    summary: '0.124.0 (2026-08-19) Full Changelog: v0.123.0...v0.124.0 Features api: Files and Skills
-      APIs are now GA; add computer use and browser use toolsets ( 9a09e84 )'
-    source: Anthropic SDK (Python) Releases
-    weight: 1
-    published_at: '2026-08-19T16:51:20+00:00'
     dupe_count: 0
