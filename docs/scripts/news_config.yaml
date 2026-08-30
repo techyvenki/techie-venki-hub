@@ -9,11 +9,14 @@
 # Ranking is deterministic, no LLM: items are sorted by recency, with
 # `weight` breaking ties (and softening how much a noisy aggregator can
 # crowd out a quieter primary source). Lower weight wins a tie.
+#
+# Optional per-tile `priority_keywords` can boost matching items to the top
+# before recency sorting is applied.
 
 items_per_tile: 20
 
 # Items older than this are dropped before ranking.
-window_hours: 120
+window_hours: 240
 
 # Titles below are placeholders — rename them to whatever you want the
 # page to show. The `id` is internal and should NOT change once you've
@@ -41,9 +44,6 @@ tiles:
       - name: arXiv quant-ph
         url: https://rss.arxiv.org/rss/quant-ph
         weight: 2
-      - name: arXiv quantum physics (Atom)
-        url: https://export.arxiv.org/api/query?search_query=cat:quant-ph&start=0&max_results=50
-        weight: 2
       - name: The Quantum Insider
         url: https://thequantuminsider.com/feed/
         weight: 1
@@ -56,18 +56,26 @@ tiles:
 
   - id: ai-and-llms
     title: "AI & LLMs"
+    priority_keywords:
+      - openrouter
+      - model router
+      - architecture
+      - framework
+      - benchmark
+      - agent
+      - agentic
     feeds:
       - name: OpenAI News
         url: https://openai.com/news/rss.xml
+        weight: 1
+      - name: OpenRouter Changelog
+        url: https://openrouter.ai/docs/changelog/rss.xml
         weight: 1
       - name: Hugging Face Blog
         url: https://huggingface.co/blog/feed.xml
         weight: 1
       - name: vLLM Releases
         url: https://github.com/vllm-project/vllm/releases.atom
-        weight: 1
-      - name: llama.cpp Releases
-        url: https://github.com/ggml-org/llama.cpp/releases.atom
         weight: 1
       - name: arXiv cs.AI
         url: https://rss.arxiv.org/rss/cs.AI
@@ -78,17 +86,24 @@ tiles:
       - name: arXiv cs.LG
         url: https://rss.arxiv.org/rss/cs.LG
         weight: 2
-      # OpenRouter has no confirmed public RSS endpoint as of writing —
-      # https://openrouter.ai/blog/ exists but no working feed URL was
-      # found. Verify with the probe in the script docstring before
-      # uncommenting:
-      # - name: OpenRouter Blog
-      #   url: https://openrouter.ai/blog/rss.xml
-      #   weight: 1
 
   - id: claude-and-anthropic
     title: "Claude & Anthropic"
+    priority_keywords:
+      - claude code
+      - sdlc
+      - workbook
+      - anthropic
+      - quickstart
+      - mcp
+      - prompt
     feeds:
+      - name: Anthropic Cookbook Commits
+        url: https://github.com/anthropics/anthropic-cookbook/commits/main.atom
+        weight: 1
+      - name: Anthropic Quickstarts Commits
+        url: https://github.com/anthropics/anthropic-quickstarts/commits/main.atom
+        weight: 1
       - name: Claude Code Releases
         url: https://github.com/anthropics/claude-code/releases.atom
         weight: 1

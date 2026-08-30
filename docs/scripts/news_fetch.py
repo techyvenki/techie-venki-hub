@@ -193,10 +193,33 @@ def dedupe(items: list[dict], window_hours: int = 48) -> list[dict]:
     return out
 
 
-def rank(items: list[dict], limit: int) -> list[dict]:
-    """Freshest first; weight breaks ties so a primary source edges out an
-    aggregator that happened to post at the same moment."""
-    items.sort(key=lambda i: (-i["_sort_time"].timestamp(), i["weight"]))
+def _keyword_boost(item: dict, priority_keywords: list[str]) -> int:
+    if not priority_keywords:
+        return 0
+
+    haystack = " ".join(
+        [
+            item.get("title", ""),
+            item.get("summary", ""),
+            item.get("source", ""),
+        ]
+    ).lower()
+
+    # Count how many configured phrases are present.
+    return sum(1 for keyword in priority_keywords if keyword.lower() in haystack)
+
+
+def rank(items: list[dict], limit: int, priority_keywords: list[str] | None = None) -> list[dict]:
+    """Sort by keyword relevance first, then by recency. Weight breaks ties.
+
+    This keeps feeds fresh while lifting tile-specific terms (for example
+    "sdlc" or "openrouter") toward the top when present.
+    """
+    keywords = priority_keywords or []
+    for item in items:
+        item["_boost"] = _keyword_boost(item, keywords)
+
+    items.sort(key=lambda i: (-i["_boost"], -i["_sort_time"].timestamp(), i["weight"]))
     return items[:limit]
 
 
@@ -210,10 +233,11 @@ def build(verbose: bool = False) -> dict:
         print(f"  {tile['id']}")
         raw = fetch_tile(tile, window_hours, verbose=verbose)
         deduped = dedupe(raw)
-        top = rank(deduped, per_tile)
+        top = rank(deduped, per_tile, priority_keywords=tile.get("priority_keywords", []))
         for it in top:
             it.pop("_sort_time", None)
             it.pop("canonical_url", None)
+            it.pop("_boost", None)
         tiles_out.append({
             "id": tile["id"],
             "title": tile["title"],
