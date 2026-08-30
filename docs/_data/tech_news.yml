@@ -1,8 +1,24 @@
-generated_at: '2026-08-30T03:13:30.842607+00:00'
+generated_at: '2026-08-30T11:15:02.493650+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
+  - title: California lawmakers unanimously pass Linux exemption from age-verification law
+    url: https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt
+    summary: 'Article URL: https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt
+      Comments URL: https://news.yc'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-08-30T03:15:36+00:00'
+    dupe_count: 0
+  - title: Lawmakers added $1 to car insurance policies. That money paid for Flock cameras
+    url: https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/
+    summary: 'Article URL: https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/
+      Comments URL: https://news.ycombinator.com/item?id=49494182 Points: 314 # Comments: 178'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-08-29T23:17:17+00:00'
+    dupe_count: 0
   - title: Vicariously hike the Appalachian in the gorgeous A Trail Tale
     url: https://www.theverge.com/entertainment/986461/hike-appalachian-trail-pixel-art-a-trail-tale
     summary: I used to be an avid hiker and would try to go backpacking a few times a year. I always dreamed
@@ -21,13 +37,13 @@ tiles:
     weight: 1
     published_at: '2026-08-29T19:49:59+00:00'
     dupe_count: 0
-  - title: DHS is using obscure law to snoop on journalists, non-profits, unions
-    url: https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits
-    summary: 'Article URL: https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits
-      Comments URL: https://news.ycombinator.com/item?id=49492219 Points: 332 # Comments: 55'
+  - title: Hy4 preview
+    url: https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/
+    summary: 'Article URL: https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/
+      Comments URL: https://news.ycombinator.com/item?id=49492632 Points: 312 # Comments: 192'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-08-29T18:44:37+00:00'
+    published_at: '2026-08-29T19:33:23+00:00'
     dupe_count: 0
   - title: Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft
     url: https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/
@@ -139,14 +155,6 @@ tiles:
     weight: 1
     published_at: '2026-08-28T23:24:27+00:00'
     dupe_count: 0
-  - title: Boot a Virtual iPhone via Apple's Virtualization.framework
-    url: https://github.com/Lakr233/vphone-cli
-    summary: 'Article URL: https://github.com/Lakr233/vphone-cli Comments URL: https://news.ycombinator.com/item?id=49485267
-      Points: 385 # Comments: 103'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-08-28T23:02:21+00:00'
-    dupe_count: 0
   - title: Google further buries search results under AI mode
     url: https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand
     summary: Google is now automatically expanding its AI search summaries at the top of the results page
@@ -163,44 +171,9 @@ tiles:
     weight: 1
     published_at: '2026-08-28T22:42:48+00:00'
     dupe_count: 0
-  - title: Court rules Kalshi sports bets aren't "swaps," just gambling with a different name
-    url: https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules/
-    summary: Kalshi can't evade Nevada gambling laws by calling bets "swaps," judges rule.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-08-28T22:14:52+00:00'
-    dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
-  - title: 'Who’s News: Strategic Appointments at Quantum Sky, IonQ, Pasqal, and Global Quantum Intelligence'
-    url: https://quantumcomputingreport.com/whos-news-strategic-appointments-at-quantum-sky-ionq-pasqal-and-global-quantum-intelligence/
-    summary: 'Quantum Sky (formerly Tyto Athene, LLC) has appointed Sean Thompson as Chief Growth Officer
-      (CGO). Thompson brings over 25 years of executive experience across defense and federal technology
-      operations. He previously served as Chief Growth '
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-29T15:14:06+00:00'
-    dupe_count: 0
-  - title: IBM Releases Open-Source Qiskit Fermions 0.1.0 to Preserve System Structure During Transpilation
-    url: https://quantumcomputingreport.com/ibm-releases-open-source-qiskit-fermions-0-1-0-to-preserve-system-structure-during-transpilation/
-    summary: IBM Quantum has officially launched Qiskit Fermions (v0.1.0), an open-source software library
-      and transpiler extension designed to express fermionic operators, construct domain-specific fermionic
-      circuits, and optimize mappings to qubit arc
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-29T14:49:16+00:00'
-    dupe_count: 0
-  - title: iAccess Partners and QAI Ventures Partner to Lower Entry Threshold for Early-Stage Quantum
-      VC Fund
-    url: https://quantumcomputingreport.com/iaccess-partners-and-qai-ventures-partner-to-lower-entry-threshold-for-early-stage-quantum-vc-fund/
-    summary: Swiss fintech firm iAccess Partners and Basel-headquartered venture capital firm QAI Ventures
-      have established a strategic partnership designed to broaden access to early-stage quantum technology
-      and advanced computing investments. By lever
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-29T14:17:47+00:00'
-    dupe_count: 0
   - title: Pasqal Shares Nearly Double in Nasdaq Debut
     url: https://thequantuminsider.com/2026/08/29/pasqal-shares-nearly-double-in-nasdaq-debut/
     summary: Insider Brief Pasqal shares nearly doubled during the French quantum computing company’s
@@ -219,34 +192,6 @@ tiles:
     source: The Quantum Insider
     weight: 1
     published_at: '2026-08-29T07:00:00+00:00'
-    dupe_count: 0
-  - title: New Mexico Adds DARPA QBI Stage C and QuantumEAGLe to Targeted Federal Match Grant Program
-    url: https://quantumcomputingreport.com/new-mexico-adds-darpa-qbi-stage-c-and-quantumeagle-to-targeted-federal-match-grant-program/
-    summary: 'The Technology and Innovation Office (TIO) within Economic Development New Mexico has expanded
-      its Targeted Federal Match grant solicitation to include two major defense and national security
-      quantum initiatives: DARPA’s Quantum Benchmarkin'
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-29T04:01:42+00:00'
-    dupe_count: 0
-  - title: Governor Newsom Awards $9.74M to Scale Southern California Quantum Ecosystem
-    url: https://quantumcomputingreport.com/governor-newsom-awards-9-74m-to-scale-southern-california-quantum-ecosystem/
-    summary: 'California Governor Gavin Newsom has announced a $48.5 million state investment under the
-      California Jobs First Regional Investment Initiative (Round II Implementation Phase) to advance
-      high-growth technology sectors and regional workforce '
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-29T03:29:06+00:00'
-    dupe_count: 0
-  - title: Canada Commits CAD $195M ($140.2 M USD) to Xanadu for $893M ($642.2M USD) “Inception” Quantum
-      Manufacturing Facility
-    url: https://quantumcomputingreport.com/canada-commits-cad-195m-140-2-m-usd-to-xanadu-for-893m-642-2m-usd-inception-quantum-manufacturing-facility/
-    summary: 'Photonic quantum computing developer Xanadu (NASDAQ/TSX: XNDU) has signed a definitive agreement
-      with the Government of Canada securing CAD $195 million ($140.2 million USD) in federal funding
-      through the Strategic Response Fund, administer'
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-29T02:56:59+00:00'
     dupe_count: 0
   - title: Canada Invests CAD $195 Million in Xanadu for Quantum Manufacturing
     url: https://thequantuminsider.com/2026/08/28/canada-195-million-xanadu-quantum-manufacturing/
@@ -275,15 +220,6 @@ tiles:
     weight: 1
     published_at: '2026-08-28T18:19:41+00:00'
     dupe_count: 0
-  - title: India’s First Dedicated Quantum and AI University Campus Approved for Amaravati
-    url: https://quantumcomputingreport.com/indias-first-dedicated-quantum-and-ai-university-campus-approved-for-amaravati/
-    summary: The Andhra Pradesh State government has approved the establishment of India’s first dedicated
-      Quantum and Artificial Intelligence University campus in Amaravati. Set up by the National Institute
-      of Electronics and Information Technology (NI
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-28T15:24:57+00:00'
-    dupe_count: 1
   - title: California Awards $9.7 Million to Build Southern Quantum Workforce and Industry Network
     url: https://thequantuminsider.com/2026/08/28/california-awards-9-7-million-to-build-southern-quantum-workforce-and-industry-network/
     summary: Insider Brief California has awarded $9.7 million to a Southern California quantum initiative
@@ -293,16 +229,6 @@ tiles:
     weight: 1
     published_at: '2026-08-28T15:15:31+00:00'
     dupe_count: 0
-  - title: Pasqal Completes Business Combination with Bleichroeder Acquisition Corp. II, Begins Trading
-      on Nasdaq
-    url: https://quantumcomputingreport.com/pasqal-completes-business-combination-with-bleichroeder-acquisition-corp-ii-begins-trading-on-nasdaq/
-    summary: 'Neutral-atom quantum computing provider Pasqal has completed its previously announced business
-      combination with special purpose acquisition company Bleichroeder Acquisition Corp. II (NASDAQ:
-      BBCQ). The combined entity now operates as Pasqal'
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-28T14:31:29+00:00'
-    dupe_count: 0
   - title: Three Law Firms Hold Nearly Two-Thirds of Recorded Quantum Legal Work
     url: https://thequantuminsider.com/2026/08/28/three-law-firms-hold-nearly-two-thirds-of-recorded-quantum-legal-work/
     summary: Insider Brief A quantum computer depends on layers of hardware, control systems and software.
@@ -311,6 +237,15 @@ tiles:
     source: The Quantum Insider
     weight: 1
     published_at: '2026-08-28T13:12:06+00:00'
+    dupe_count: 0
+  - title: India to Establish Quantum and AI University Campus in Amaravati
+    url: https://thequantuminsider.com/2026/08/28/india-quantum-ai-university-campus-amaravati/
+    summary: 'Insider Brief Andhra Pradesh Chief Minister N. Chandrababu Naidu has approved the establishment
+      of India’s first dedicated Quantum and AI University campus in Amaravati, to be set up by the National
+      Institute of Electronics and Information '
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-08-28T12:43:51+00:00'
     dupe_count: 0
   - title: 'Guest Post: Quantum Readiness Starts With the Infrastructure We’re Building Today'
     url: https://thequantuminsider.com/2026/08/28/quantum-readiness-infrastructure-around-qpus/
@@ -329,24 +264,6 @@ tiles:
     source: The Quantum Insider
     weight: 1
     published_at: '2026-08-28T10:00:00+00:00'
-    dupe_count: 0
-  - title: IonQ Demonstrates Real-Time QEC Decoding at MegaQuOp Scale on a Single Apple M4 Max CPU
-    url: https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-a-single-apple-m4-max-cpu/
-    summary: IonQ quantum information researchers Min Ye, Andrii Maksymov, and Nicolas Delfosse have published
-      research on arXiv (arXiv:2608.25027) detailing an end-to-end real-time Quantum Error Correction
-      (QEC) decoding pipeline for large-scale trappe
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-28T03:02:35+00:00'
-    dupe_count: 0
-  - title: Postquant Labs Launches QuipSwap Bridgeless Protocol for Quantum-Safe Cross-Chain Transactions
-    url: https://quantumcomputingreport.com/postquant-labs-launches-quipswap-bridgeless-protocol-for-quantum-safe-cross-chain-transactions/
-    summary: Decentralized quantum network developer Postquant Labs has announced the public launch of
-      QuipSwap, a trustless, bridgeless cross-chain swap protocol engineered to eliminate bridge vulnerabilities
-      and mitigate quantum decryption risks acros
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-08-27T19:57:23+00:00'
     dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
