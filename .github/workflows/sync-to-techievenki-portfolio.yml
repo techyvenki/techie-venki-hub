@@ -42,10 +42,9 @@ jobs:
           git -C "${export_dir}" add --all
           git -C "${export_dir}" commit -m "Sync from techie-venki-hub"
 
-          # Add the techievenki portfolio repo as a remote.
-          git -C "${export_dir}" remote add techievenki https://x-access-token:${OMNISTACK_TOKEN}@github.com/techyvenki/omnistack.git
-
           # Push the current snapshot to the portfolio repo (force push to keep them identical).
-          git -C "${export_dir}" push techievenki HEAD:main --force
+          git -C "${export_dir}" \
+            -c "url.https://x-access-token:${OMNISTACK_TOKEN}@github.com/.insteadOf=https://github.com/" \
+            push https://github.com/techyvenki/omnistack.git HEAD:main --force
           
           echo "✅ Successfully synced to omnistack repository!"
