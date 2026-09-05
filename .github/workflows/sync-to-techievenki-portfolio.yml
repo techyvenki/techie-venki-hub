@@ -34,10 +34,7 @@ jobs:
           
           # Publish only the current snapshot, not the source repository history.
           # This prevents secrets from older source commits being sent to the destination.
-          git switch --orphan sync-snapshot
-          git reset
-          git add --all
-          git commit -m "Sync snapshot from techie-venki-hub"
-          git push techievenki sync-snapshot:main --force
+          snapshot_commit="$(git commit-tree HEAD^{tree} -m "Sync snapshot from techie-venki-hub")"
+          git push techievenki "$snapshot_commit:refs/heads/main" --force
           
           echo "✅ Successfully synced to omnistack repository!"
