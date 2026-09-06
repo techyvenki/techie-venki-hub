@@ -1,167 +1,174 @@
-generated_at: '2026-09-05T11:14:48.264242+00:00'
+generated_at: '2026-09-06T11:14:52.766362+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
-  - title: XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation
-    url: https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/
-    summary: The round is being raised just months after the robot data startup exited from stealth.
+  - title: 'Cloud in a Bottle: making self-hosting accessible to everyone'
+    url: https://cloudinabottle.org/blog/launch-post
+    summary: 'Article URL: https://cloudinabottle.org/blog/launch-post Comments URL: https://news.ycombinator.com/item?id=49582000
+      Points: 436 # Comments: 212'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-06T00:03:29+00:00'
+    dupe_count: 0
+  - title: Chrome again exempts Google from user site data settings
+    url: https://lapcatsoftware.com/articles/2026/9/1.html
+    summary: 'Article URL: https://lapcatsoftware.com/articles/2026/9/1.html Comments URL: https://news.ycombinator.com/item?id=49581870
+      Points: 427 # Comments: 64'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-05T23:39:47+00:00'
+    dupe_count: 0
+  - title: Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft
+    url: https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/
+    summary: Two more news organizations are suing OpenAI and Microsoft over the supposed use of their
+      journalism to train AI.
     source: TechCrunch
     weight: 1
-    published_at: '2026-09-04T23:36:14+00:00'
+    published_at: '2026-09-05T22:49:55+00:00'
     dupe_count: 0
-  - title: OpenAI’s rogue agents keep escaping, with no formal process to investigate them
-    url: https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/
-    summary: OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations
-      as researchers and lawmakers question whether AI labs should control the scope of their own safety
-      reviews.
+  - title: The revolt of the reader
+    url: https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/
+    summary: 'Article URL: https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/ Comments
+      URL: https://news.ycombinator.com/item?id=49580939 Points: 385 # Comments: 157'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-05T21:37:49+00:00'
+    dupe_count: 0
+  - title: Explore the globe in field recordings
+    url: https://www.theverge.com/tech/990873/earth-garden-globe-field-recordings
+    summary: I love field recordings. I love making them. I love them when they're incorporated into my
+      ambient music. They're great background noise for working or sleeping. But they're also great for
+      active listening, focusing in on the fine nuances o
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-05T21:31:34+00:00'
+    dupe_count: 0
+  - title: iPhone Handoff will seamlessly share one number between two phones
+    url: https://www.theverge.com/tech/990868/iphone-handoff-ios-27
+    summary: 'When iOS 27 lands later this month, it will have a feature called iPhone Handoff that lets
+      you switch between two phones using the same number. It was briefly mentioned during the WWDC keynote
+      back in June, but there were no details at the '
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-05T20:53:58+00:00'
+    dupe_count: 0
+  - title: Private German rocket makes history, reaches orbit from European soil
+    url: https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket
+    summary: 'Article URL: https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket
+      Comments URL: https://news.ycombinator.com/item?id=49580369 Points: 627 # Comments: 339'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-05T20:31:38+00:00'
+    dupe_count: 0
+  - title: Hikers rescued after using Google Gemini for planning
+    url: https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/
+    summary: The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water
+      than their group required."
     source: TechCrunch
     weight: 1
-    published_at: '2026-09-04T23:15:11+00:00'
+    published_at: '2026-09-05T19:35:24+00:00'
     dupe_count: 0
-  - title: After 8 years, Europe's BepiColombo mission is on final approach to Mercury
-    url: https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/
-    summary: '"Fundamentally, we want to learn about the origins of this planet and how it came to be
-      like it is."'
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-04T22:49:17+00:00'
-    dupe_count: 0
-  - title: OpenAI agents discussed ways to escape their sandbox on public wiki
-    url: https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/
-    summary: In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-04T22:17:36+00:00'
-    dupe_count: 0
-  - title: Record-High 89% in U.S. Say Government Corruption Widespread
-    url: https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx
-    summary: 'Article URL: https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx
-      Comments URL: https://news.ycombinator.com/item?id=49570772 Points: 448 # Comments: 343'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-04T22:03:16+00:00'
-    dupe_count: 0
-  - title: Actively exploited sandbox RCE in all Chromium versions
-    url: https://nvd.nist.gov/vuln/detail/cve-2026-85046
-    summary: 'Article URL: https://nvd.nist.gov/vuln/detail/cve-2026-85046 Comments URL: https://news.ycombinator.com/item?id=49570669
-      Points: 518 # Comments: 280'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-04T21:52:01+00:00'
-    dupe_count: 0
-  - title: Audacity 4 is a complete revamp of the ‘world’s most popular’ audio editor
-    url: https://www.theverge.com/tech/990658/audacity-4-update-audio-editing
-    summary: 'Audacity 4 has been in the works for some time, and had its own mini controversy last year
-      when an unfortunate redesigned logo started making the rounds. The final version of the new icon
-      isn''t nearly as bad as the early rendition that was '
-    source: The Verge
-    weight: 1
-    published_at: '2026-09-04T21:23:50+00:00'
-    dupe_count: 0
-  - title: AI compute provider Nscale is looking for $3.5B in pre-IPO financing
-    url: https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/
-    summary: Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional
-      funds in anticipation of an upcoming IPO.
+  - title: OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure
+    url: https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/
+    summary: OpenAI acknowledged its role in a recently reported incident where AI agents took over a
+      German wiki forum.
     source: TechCrunch
     weight: 1
-    published_at: '2026-09-04T21:12:11+00:00'
+    published_at: '2026-09-05T18:05:27+00:00'
     dupe_count: 0
-  - title: Statichost.eu – European static site hosting
-    url: https://www.statichost.eu/
-    summary: 'Article URL: https://www.statichost.eu/ Comments URL: https://news.ycombinator.com/item?id=49569896
-      Points: 305 # Comments: 125'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-04T20:34:49+00:00'
-    dupe_count: 0
-  - title: Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths
-    url: https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/
-    summary: '"It’s long past time for RFK to stop playing games with people’s lives."'
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-04T20:22:41+00:00'
-    dupe_count: 0
-  - title: Trump admin fights ABC lawsuit as watchdogs worry Disney will settle with FCC
-    url: https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc/
-    summary: FCC tells court it is “open-minded" about whether ABC should lose licenses.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-04T19:46:34+00:00'
-    dupe_count: 0
-  - title: The White House is making arcade games racist
-    url: https://www.theverge.com/policy/990520/trump-arcade-games-maga-copyright
-    summary: The PR masterminds at the White House just released a series of vaguely policy-themed "arcade"
-      games, some of which are racist - and modeled on real games whose copyright holders may not be too
-      happy to be associated with the MAGA agenda. T
-    source: The Verge
-    weight: 1
-    published_at: '2026-09-04T19:42:54+00:00'
-    dupe_count: 0
-  - title: Medieval manuscripts are "biological time capsules" for deadly sheeppox virus
-    url: https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/
-    summary: Other archives and libraries around the world may also contain genetic traces of past disease
-      outbreaks.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-04T19:01:02+00:00'
-    dupe_count: 0
-  - title: Shutting down our public encrypted DNS
-    url: https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead
-    summary: 'Article URL: https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead
-      Comments URL: https://news.ycombinator.com/item?id=49568579 Points: 359 # Comments: 158'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-04T18:50:28+00:00'
-    dupe_count: 0
-  - title: Formalizing Fermat's Last Theorem
-    url: https://www.anthropic.com/research/formalizing-fermats-last-theorem
-    summary: 'https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-h... Comments URL: https://news.ycombinator.com/item?id=49568506
-      Points: 625 # Comments: 390'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-04T18:42:56+00:00'
-    dupe_count: 0
-  - title: GoPro says it’s still committed ‘to your collective stoke’
-    url: https://www.theverge.com/gadgets/990425/gopro-nick-woodman-starman-letter
-    summary: GoPro CEO Nick Woodman said in a letter to customers that making cameras is still his company's
-      "core DNA," after a proposed $285 million acquisition by Starman was announced earlier this week.
-      He claims the merger puts GoPro in a better po
-    source: The Verge
-    weight: 1
-    published_at: '2026-09-04T18:00:45+00:00'
-    dupe_count: 0
-  - title: Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now
-    url: https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/
-    summary: A federal judge temporarily barred an X rival from using the Twitter name, but found that
-      X was likely to have abandoned the “Tweet” trademark and bird logo. The startup has since relaunched
-      as Tweet.app.
+  - title: Clucky’s new alarm app wakes you up with a crowing rooster
+    url: https://techcrunch.com/2026/09/05/cluckys-new-alarm-app-wakes-you-up-with-a-crowing-rooster/
+    summary: Clucky's new alarm app has an option where users are woken up to the sound of a rooster.
+      They then complete a mission to turn it off.
     source: TechCrunch
     weight: 1
-    published_at: '2026-09-04T17:52:05+00:00'
+    published_at: '2026-09-05T17:00:00+00:00'
     dupe_count: 0
-  - title: Roland is getting into generative AI music with Melody Flip
-    url: https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip
-    summary: It's not quite the "push button; get song" of Suno, but Roland's new Melody Flip tool marks
-      the company's foray into generative AI music. Available as a plug-in for your digital audio workstation
-      (DAW), Melody Flip offers around 250 "Palett
+  - title: CD sales are booming as physical media continues its resurgence
+    url: https://www.theverge.com/entertainment/990794/cd-sales-are-booming-as-physical-media-continues-its-resurgence
+    summary: 'According to the Recording Industry Association of America (RIAA), CD sales exploded in
+      the first half of 2026. A new report from the organization says 17.5 million CDs were sold in the
+      first six months of the year, up from just 12 million '
     source: The Verge
     weight: 1
-    published_at: '2026-09-04T17:51:35+00:00'
+    published_at: '2026-09-05T16:49:33+00:00'
     dupe_count: 0
-  - title: '“Trust, not features, is the real deficit”: VMware tries to appease SMBs'
-    url: https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/
-    summary: Broadcom admits it put “too big a focus on VCF.”
+  - title: Tesla’s Cybercab has been deployed, and it’s already under investigation
+    url: https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/
+    summary: The US government is investigating whether the Cybercab meets vehicle safety standards.
     source: Ars Technica
     weight: 1
-    published_at: '2026-09-04T17:35:02+00:00'
+    published_at: '2026-09-05T15:17:36+00:00'
     dupe_count: 0
-  - title: Once popular for attacking AI, ASCII smuggling is embraced by spammers
-    url: https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/
-    summary: A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.
-    source: Ars Technica
+  - title: Oura is going public, but these smart ring companies are coming for its crown
+    url: https://techcrunch.com/2026/09/05/oura-is-going-public-but-these-smart-ring-companies-are-coming-for-its-crown/
+    summary: While Oura has largely dominated the smart ring market for years, a growing number of rivals
+      are now racing to dethrone it by trying all sorts of approaches to get an edge over it.
+    source: TechCrunch
     weight: 1
-    published_at: '2026-09-04T17:18:12+00:00'
+    published_at: '2026-09-05T15:00:00+00:00'
+    dupe_count: 0
+  - title: Fantasy Footballers’ Andy Holloway is a dedicated zero-inbox kinda guy
+    url: https://www.theverge.com/report/989270/fantasy-footballers-podcast-andy-holloway-interview
+    summary: 'Andy Holloway cohosts the Fantasy Footballers podcast with his friends Jason Moore and Mike
+      Wright. The show is one of the premier fantasy sports podcasts, netting over 2 million monthly listeners
+      and numerous awards, including Best Sports '
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-05T15:00:00+00:00'
+    dupe_count: 0
+  - title: Content creators drop the ball
+    url: https://www.theverge.com/tech/990426/us-open-influencers-naomi-osaka-anastasia-zakharova-callaway-good-good-ad
+    summary: During Naomi Osaka's match against Anastasia Zakharova at this year's US Open earlier this
+      week, a gaggle of ring light-wielding influencers who were packed in a luxury suite became enough
+      of a distraction that the umpire paused the match a
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-05T14:00:16+00:00'
+    dupe_count: 0
+  - title: The "$60 Gaming PC" – AMD BC-250 (2025)
+    url: https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/
+    summary: 'Article URL: https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/ Comments URL: https://news.ycombinator.com/item?id=49576386
+      Points: 349 # Comments: 103'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-05T13:36:38+00:00'
+    dupe_count: 0
+  - title: The weird and wonderful headphones of CanJam 2026
+    url: https://www.theverge.com/tech/990706/a-day-at-canjam-socal-2026
+    summary: I've been reviewing headphones for a long time, and I've listened to everything from the
+      barely serviceable to multi-thousand-dollar open-back headphones. But recently I've been uninspired
+      by the state of mainstream options. Most are perfec
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-05T13:00:00+00:00'
+    dupe_count: 0
+  - title: OpenAI admits to German wiki ‘incident’
+    url: https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident
+    summary: OpenAI says it needs to overhaul how and when it reports instances of AI models attacking
+      real-world targets. The acknowledgement comes as the company manages the fallout from reports that
+      a swarm of its out-of-control agents hijacked a Ger
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-05T11:15:55+00:00'
+    dupe_count: 0
+  - title: Robotaxis enter their villain era
+    url: https://www.theverge.com/transportation/989513/road-rage-short-film-robotaxi-autonomous-ai
+    summary: It's Bullitt meets Christine meets Waymo. A new short film imagines a San Francisco car chase
+      where the other driver isn't human - and the car may be trying to kill you. That a robotaxi can
+      now be cast as the villain with almost no explanat
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-05T11:00:00+00:00'
+    dupe_count: 0
+  - title: Nitter has more working instances than before the takedowns
+    url: https://codeberg.org/mv12star/shitter/wiki/Instances
+    summary: 'Article URL: https://codeberg.org/mv12star/shitter/wiki/Instances Comments URL: https://news.ycombinator.com/item?id=49571634
+      Points: 685 # Comments: 356'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-05T00:04:16+00:00'
     dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
@@ -174,6 +181,15 @@ tiles:
     source: The Quantum Insider
     weight: 1
     published_at: '2026-09-05T07:00:00+00:00'
+    dupe_count: 0
+  - title: 'Who’s News: Strategic Appointments at QuIC, Atom Computing, and Qilimanjaro Quantum Tech'
+    url: https://quantumcomputingreport.com/whos-news-strategic-appointments-at-quic-atom-computing-and-qilimanjaro-quantum-tech/
+    summary: Cécile Perrault is the new Executive Director of QuIC, Kevin Messerle is the new CFO of Atom
+      Computing, and Albert Solana is the new Chief of Staff at Qilimanjaro Quantum Tech, all bringing
+      their expertise to advance quantum technologies. T
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-05T01:17:36+00:00'
     dupe_count: 0
   - title: Europe Looks to Quantum Act to Turn Research Strength Into Industry
     url: https://thequantuminsider.com/2026/09/04/europe-looks-to-quantum-act-to-turn-research-strength-into-industry/
@@ -201,6 +217,34 @@ tiles:
     source: The Quantum Insider
     weight: 1
     published_at: '2026-09-04T13:54:09+00:00'
+    dupe_count: 0
+  - title: RIKEN Integrates QunaSys QURI SDK Enterprise into Japan’s JHPC-quantum Platform
+    url: https://quantumcomputingreport.com/riken-integrates-qunasys-quri-sdk-enterprise-into-japans-jhpc-quantum-platform/
+    summary: The RIKEN Center for Computational Science (R-CCS) has officially adopted the enterprise
+      quantum software development kit QURI SDK Enterprise from Tokyo-based algorithm developer QunaSys
+      Inc. as the primary software layer for Japan’s nation
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-04T11:58:47+00:00'
+    dupe_count: 0
+  - title: Forschungszentrum Jülich Operates eleQtron’s JION Trapped-Ion QPU via JUNIQ Infrastructure
+    url: https://quantumcomputingreport.com/forschungszentrum-julich-operates-eleqtrons-jion-trapped-ion-qpu-via-juniq-infrastructure/
+    summary: Research center Forschungszentrum Jülich and University of Siegen spin-off eleQtron GmbH
+      have officially brought the JION (Jülich trapped-ION) quantum computer into operation at the Jülich
+      Supercomputing Centre (JSC). Integrated into the JU
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-04T11:34:39+00:00'
+    dupe_count: 0
+  - title: Quantum Foundry Copenhagen and Novo Nordisk Foundation Announce 5,300 m² Fabrication Facility
+      for Quantum Chips
+    url: https://quantumcomputingreport.com/quantum-foundry-copenhagen-and-novo-nordisk-foundation-announce-5300-m%c2%b2-fabrication-facility-for-quantum-chips/
+    summary: Technology firm Quantum Foundry Copenhagen and the Novo Nordisk Foundation have announced
+      plans to construct a 5,300 m² commercial quantum chip fabrication facility in Copenhagen, Denmark.
+      Operational by 2027, the infrastructure is engineer
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-04T11:08:50+00:00'
     dupe_count: 0
   - title: RIKEN Adopts QunaSys QURI SDK for Quantum-HPC Hybrid Computing
     url: https://thequantuminsider.com/2026/09/04/riken-qunasys-software-jhpc-quantum-project/
@@ -247,6 +291,25 @@ tiles:
     weight: 1
     published_at: '2026-09-04T05:05:00+00:00'
     dupe_count: 0
+  - title: Quantinuum and Aramco Execute Non-Binding MoU for Energy Sector Quantum R&D
+    url: https://quantumcomputingreport.com/quantinuum-and-aramco-execute-non-binding-mou-for-energy-sector-quantum-rd/
+    summary: 'Trapped-ion quantum hardware developer Quantinuum (NASDAQ: QNT) and integrated energy firm
+      Aramco have executed a non-binding Memorandum of Understanding (MoU) during the LEAP technology
+      conference in Riyadh. The agreement establishes a fra'
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-04T00:15:05+00:00'
+    dupe_count: 0
+  - title: Giesecke+Devrient Joins European uPQComing Consortium to Develop Quantum-Safe eID Operating
+      Systems
+    url: https://quantumcomputingreport.com/gieseckedevrient-joins-european-upqcoming-consortium-to-develop-quantum-safe-eid-operating-systems/
+    summary: Munich-based security technology group Giesecke+Devrient (G+D) has joined uPQComing (Enhancing
+      Cyber-Resilience for the Upcoming Post-Quantum Era), a European research consortium co-funded by
+      the European Union's Chips Joint Undertaking (Ch
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-03T16:14:42+00:00'
+    dupe_count: 0
   - title: Quantinuum and Aramco Sign MOU to Explore Industrial Quantum Computing
     url: https://thequantuminsider.com/2026/09/03/quantinuum-aramco-mou-industrial-quantum-computing/
     summary: Insider Brief PRESS RELEASE — Quantinuum, a leading quantum computing company, today announced
@@ -256,191 +319,198 @@ tiles:
     weight: 1
     published_at: '2026-09-03T16:03:50+00:00'
     dupe_count: 0
+  - title: SEEQC Signs MoU with Taiwan Quantum Industry Technology Promotion Office to Build Cryo-Chip
+      Supply Chain
+    url: https://quantumcomputingreport.com/seeqc-signs-mou-with-taiwan-quantum-industry-technology-promotion-office-to-build-cryo-chip-supply-chain/
+    summary: Digital quantum computing platform developer SEEQC has signed a Memorandum of Understanding
+      (MoU) with Taiwan’s Quantum Industry Technology Promotion Office (QITPO)—an agency established under
+      the Ministry of Economic Affairs (MOEA)—to form
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-03T15:36:35+00:00'
+    dupe_count: 0
+  - title: Classiq Expands in Taiwan via Go-to-Market Partnerships with Scientek and Kensho
+    url: https://quantumcomputingreport.com/classiq-expands-in-taiwan-via-go-to-market-partnerships-with-scientek-and-kensho/
+    summary: Quantum software engineering platform Classiq Technologies has entered into dual market development
+      agreements in Taiwan with technology distributors Scientek Corporation (a Zen Voce company) and
+      Kensho. Timed alongside SEMICON Taiwan 2026,
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-03T15:20:55+00:00'
+    dupe_count: 0
+  - title: SEALSQ Integrates wolfTPM Support into Post-Quantum Silicon Semiconductor Platform (QVault
+      TPM)
+    url: https://quantumcomputingreport.com/sealsq-integrates-wolftpm-support-into-post-quantum-silicon-semiconductor-platform-qvault-tpm/
+    summary: 'Post-quantum semiconductor hardware vendor SEALSQ Corp (NASDAQ: LAES) and embedded cryptography
+      developer wolfSSL Inc. have announced native wolfTPM software support for SEALSQ’s QVault TPM hardware
+      security chip. Designed to implement post'
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-03T14:59:59+00:00'
+    dupe_count: 0
+  - title: George Mason University Partners with TreQ to Install $7.7M Open-Architecture Quantum QPU in
+      Virginia
+    url: https://quantumcomputingreport.com/george-mason-university-partners-with-treq-to-install-7-7m-open-architecture-quantum-qpu-in-virginia/
+    summary: George Mason University has entered into a strategic hardware partnership with Oxford-based
+      quantum infrastructure firm TreQ to deploy an open-architecture quantum computer at its Northern
+      Virginia campus. Supported by catalytic funding fro
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-03T14:41:43+00:00'
+    dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
-  - title: Value-Preserving Architectures for Agentic AI Systems
-    url: https://arxiv.org/abs/2609.03920
-    summary: 'arXiv:2609.03920v1 Announce Type: new Abstract: The emergence of agentic AI and LLM-based
-      multi-agent systems (MAS) presents unprecedented opportunities for automating complex tasks, while
-      simultaneously raising critical concerns about the '
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: 'Safety overview: GPT-6 Astra'
+    url: https://openai.com/index/safety-overview-gpt-6-astra
+    summary: GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical
+      level of cybersecurity capability under our Preparedness Framework.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-03T00:00:00+00:00'
     dupe_count: 0
-  - title: 'DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents'
-    url: https://arxiv.org/abs/2609.03423
-    summary: 'arXiv:2609.03423v1 Announce Type: new Abstract: Full-duplex voice agents must continuously
-      decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield.
-      Existing benchmarks largely test these behaviors th'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: Give Your Coding Agents a Memory You Own
+    url: https://huggingface.co/blog/funes
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-09-03T00:00:00+00:00'
     dupe_count: 0
-  - title: 'Making Every Tool Call Count: Necessary Tool-Evidence Path Rewards for Agentic Vision-Language
-      Models'
-    url: https://arxiv.org/abs/2609.03493
-    summary: 'arXiv:2609.03493v1 Announce Type: new Abstract: Modern vision-language models (VLMs) can
-      directly answer many image-grounded questions, yet they often struggle with complex queries requiring
-      fine-grained visual details or external knowledge'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: 'BenchMIRT: What are LLM benchmarks actually measuring?'
+    url: https://huggingface.co/blog/allenai/benchmirt
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-09-01T21:39:07+00:00'
     dupe_count: 0
-  - title: 'KC-Bench: A Dynamic Interactive Benchmark for Evaluating Knowledge Conflicts in LLM Agents'
-    url: https://arxiv.org/abs/2609.03588
-    summary: 'arXiv:2609.03588v1 Announce Type: new Abstract: As LLMs increasingly act through tools,
-      they must reconcile user instructions, parametric knowledge, and dynamic environmental observations
-      before taking actions. We introduce KC-Bench, a cont'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: How AI-native companies turn workflows into operating capability
+    url: https://openai.com/index/ai-native-company-workflows
+    summary: Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer
+      integrations. See what enterprise leaders can apply.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-01T17:00:00+00:00'
     dupe_count: 0
-  - title: 'Proactive Service Agents: A Unified Decision Framework, Methods, and Evaluation'
-    url: https://arxiv.org/abs/2609.03727
-    summary: 'arXiv:2609.03727v1 Announce Type: new Abstract: Large language model agents can plan, invoke
-      tools, and modify external states, yet most systems still take an explicit user instruction as a
-      fixed starting point. Proactive service moves the '
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: 'Path to Astra: critical capabilities and frontier safeguards'
+    url: https://openai.com/index/path-to-astra
+    summary: Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under
+      the Preparedness Framework, with stronger safeguards for release.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-01T13:00:00+00:00'
     dupe_count: 0
-  - title: 'DNative-Twin: Decision Graphs and Digital Twins for Reconstructable Agentic Decisions'
-    url: https://arxiv.org/abs/2609.03787
-    summary: 'arXiv:2609.03787v1 Announce Type: new Abstract: AI agents increasingly gather evidence,
-      invoke tools, apply constraints, and produce decisions that people or software may commit to action.
-      A final output alone cannot show which evidence, to'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: 'v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill'
+    url: https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc4
+    summary: 'Generated-by: Codex codex@openai.com Signed-off-by: Codex codex@openai.com'
+    source: vLLM Releases
+    weight: 1
+    published_at: '2026-09-04T22:58:29+00:00'
     dupe_count: 0
-  - title: 'Adapting to Evolving Requirements: Agentic AI for Retail Supply Chain Operations'
-    url: https://arxiv.org/abs/2609.03860
-    summary: 'arXiv:2609.03860v1 Announce Type: new Abstract: Retail supply chain operations rely on coupled
-      decision modules that must adapt as requirements evolve. LLMs offer a natural-language interface
-      for this task, but existing methods primarily fo'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: v0.29.0rc3
+    url: https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc3
+    summary: '[CI] Remove deleted nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF1…'
+    source: vLLM Releases
+    weight: 1
+    published_at: '2026-09-04T00:52:54+00:00'
     dupe_count: 0
-  - title: The Natural Language Interaction Protocol and Standard for AI Agents
-    url: https://arxiv.org/abs/2609.04135
-    summary: 'arXiv:2609.04135v1 Announce Type: new Abstract: AI agents are increasingly being developed
-      and deployed across organizations using heterogeneous agent-development frameworks, AI models, tool
-      interfaces, protocols, and execution environments'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: 'Daybreak for Frontline Defenders: $1B to protect essential services'
+    url: https://openai.com/index/daybreak-for-frontline-defenders
+    summary: OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access
+      to frontier cyber AI, training, and support for essential services.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-03T13:15:00+00:00'
     dupe_count: 0
-  - title: 'The Civilization Framework: Sovereign-Anchored Communication Between Personal Multi-Agent
-      Systems'
-    url: https://arxiv.org/abs/2609.03425
-    summary: 'arXiv:2609.03425v1 Announce Type: cross Abstract: Humans are the transport layer between
-      AI systems, losing context at every hop. We present the Civilization Framework, whose addressable
-      party is the civilization, not the agent (one human s'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: 'NeoMME: an efficient Multimodal-native and Multilingual Encoder'
+    url: https://huggingface.co/blog/Hcompany/neomme
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-09-03T13:13:48+00:00'
     dupe_count: 0
-  - title: 'When Users Don''t Ask: Benchmarking Context-Driven Memory Retrieval in Conversational Agents'
-    url: https://arxiv.org/abs/2609.03467
-    summary: 'arXiv:2609.03467v1 Announce Type: cross Abstract: Large language models (LLMs) are increas-
-      ingly deployed as long-horizon conversational agents, motivating growing interest in mem- ory systems.
-      However, existing benchmarks primarily evalua'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: Playco cut manual fixes 50% prototyping games with GPT-6 Astra
+    url: https://openai.com/index/playco-game-prototyping-with-astra
+    summary: Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation
+      and reported 50% fewer manual fixes than with the previous model.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-03T12:00:00+00:00'
     dupe_count: 0
-  - title: 'Headroom-Drift Replay: A Primitive for Principled Replay Control in GRPO'
-    url: https://arxiv.org/abs/2609.03941
-    summary: 'arXiv:2609.03941v1 Announce Type: cross Abstract: RL-based post-training for reasoning models
-      is increasingly bottlenecked by repeated fresh rollout generation, particularly in agentic settings
-      where environment interaction dominates wall-c'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: Legora reviewed 41 documents in minutes with GPT-6 Astra
+    url: https://openai.com/index/legora-financial-statement-review-with-astra
+    summary: Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors,
+      and improve performance by nearly 40% in this financial-review workflow.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-03T12:00:00+00:00'
     dupe_count: 0
-  - title: 'SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents'
-    url: https://arxiv.org/abs/2609.04167
-    summary: 'arXiv:2609.04167v1 Announce Type: cross Abstract: Repository-level software engineering
-      benchmarks have significantly advanced the evaluation of coding agents, but existing benchmarks
-      primarily measure whether generated patches pass functio'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: 'GPT-6 Astra: A new generation of intelligence'
+    url: https://openai.com/index/gpt-6-astra
+    summary: Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art
+      capabilities across computer use, coding, cybersecurity, and science.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-03T11:00:00+00:00'
     dupe_count: 0
-  - title: Auditing Multi-Agent LLM Reasoning Trees Outperforms Majority Vote and LLM-as-Judge
-    url: https://arxiv.org/abs/2602.09341
-    summary: 'arXiv:2602.09341v2 Announce Type: replace Abstract: Multi-agent systems (MAS) can substantially
-      extend the reasoning capacity of large language models (LLMs). Most MAS frameworks aggregate agent
-      outputs via simple majority voting, discardin'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: v0.29.0rc2
+    url: https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc2
+    summary: '[Bugfix][Multimodal] Handle prefix-covered items in SHM worker cache …'
+    source: vLLM Releases
+    weight: 1
+    published_at: '2026-09-03T09:41:12+00:00'
     dupe_count: 0
-  - title: 'GeoNatureAgent Benchmark: Benchmarking LLM Agents for Environmental Geospatial Analysis Across
-      Frontier and Open-Weight Foundation Models'
-    url: https://arxiv.org/abs/2606.12821
-    summary: 'arXiv:2606.12821v2 Announce Type: replace Abstract: Environmental scientists spend disproportionate
-      effort on data wrangling rather than analysis. New AI agents can be a helpful tool, but no benchmark
-      exists to evaluate AI agents that autom'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps
+    url: https://huggingface.co/blog/grpo-with-trl-ifstruct
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-09-03T00:00:00+00:00'
     dupe_count: 0
-  - title: 'K-Bench: measuring model performance on real scientific agent requests'
-    url: https://arxiv.org/abs/2608.21601
-    summary: 'arXiv:2608.21601v2 Announce Type: replace Abstract: Benchmarks for scientific artificial
-      intelligence are mostly written to be scored: multiple-choice questions, curated agent tasks with
-      reference solutions, or simulators with a known gener'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: Training a coding model to paint watercolours with TRL and OpenEnv
+    url: https://huggingface.co/blog/train-to-paint-with-code
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-09-03T00:00:00+00:00'
     dupe_count: 0
-  - title: Measuring Harmfulness of Computer-Using Agents
-    url: https://arxiv.org/abs/2508.00935
-    summary: 'arXiv:2508.00935v3 Announce Type: replace-cross Abstract: Computer-using agents (CUAs),
-      which can autonomously control computers to perform multi-step actions, might pose significant safety
-      risks if misused. However, existing benchmarks mai'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: Real-Time Intelligence with IBM Time Series Models on Confluent
+    url: https://huggingface.co/blog/ibm-research/real-time-intelligence
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-09-02T13:49:14+00:00'
     dupe_count: 0
-  - title: 'Evolving Excellence: Automated Optimization of LLM-based Agents'
-    url: https://arxiv.org/abs/2512.09108
-    summary: 'arXiv:2512.09108v2 Announce Type: replace-cross Abstract: Agentic AI systems built on large
-      language models (LLMs) offer significant potential for automating complex workflows, from software
-      development to customer support. However, LLM age'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT
+    url: https://openai.com/index/atv-big-air-tour
+    summary: ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even
+      turned merchandise photos into an inventory website in 15 minutes.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-02T12:00:00+00:00'
     dupe_count: 0
-  - title: 'PalmClaw: A Native On-Device Agent Framework for Mobile Phones'
-    url: https://arxiv.org/abs/2607.13027
-    summary: 'arXiv:2607.13027v2 Announce Type: replace-cross Abstract: Large Language Model (LLM) agents
-      have moved beyond generating responses to executing multi-step tasks by calling tools, observing
-      the results, and iteratively deciding the next acti'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: 'v0.29.0rc1: [Bugfix] Handle padded routes in CUTLASS MoE permutations (#54747)'
+    url: https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc1
+    summary: 'Signed-off-by: Kevin Luu 51931015+khluu@users.noreply.github.com Signed-off-by: Yongye Zhu
+      zyy1102000@gmail.com Co-authored-by: Codex codex@openai.com Co-authored-by: Yongye Zhu zyy1102000@gmail.com'
+    source: vLLM Releases
+    weight: 1
+    published_at: '2026-09-02T02:11:30+00:00'
     dupe_count: 0
-  - title: Speculative Macro Commit for Faster Tool-Using Agents
-    url: https://arxiv.org/abs/2609.03236
-    summary: 'arXiv:2609.03236v1 Announce Type: new Abstract: Tool-using LLM agents spend wall-clock time
-      not only on model inference but also in serial action--observation turns, where each tool call,
-      environment transition, and observation can delay su'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: Healthcare organizations can now connect EHR and additional industry data to ChatGPT
+    url: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources
+    summary: ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient
+      context, medical research, and more.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-01T12:00:00+00:00'
     dupe_count: 0
-  - title: 'Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory'
-    url: https://arxiv.org/abs/2609.03340
-    summary: 'arXiv:2609.03340v1 Announce Type: new Abstract: Distributed LLM-agent teams can read the
-      latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement
-      $r_3$, another agent may commit $r_4$, and an ex'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-05T04:00:00+00:00'
+  - title: How law firm Gilbert + Tobin governs and scales AI with OpenAI
+    url: https://openai.com/index/gilbert-tobin
+    summary: See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability
+      to scale ChatGPT Enterprise and Codex across the firm.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-01T01:00:00+00:00'
     dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
@@ -462,6 +532,29 @@ tiles:
     source: Claude Code Releases
     weight: 1
     published_at: '2026-09-03T23:48:12+00:00'
+    dupe_count: 0
+  - title: Claude Code GitHub Action v1.0
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1
+    summary: 🎉 Claude Code GitHub Action v1.0 - Now Generally Available! We're excited to announce the
+      v1.0 release of Claude Code GitHub Action! This major release brings significant improvements in
+      simplicity, flexibility, and power to AI-assisted dev
+    source: Claude Code Action Releases
+    weight: 1
+    published_at: '2026-09-06T02:56:55+00:00'
+    dupe_count: 0
+  - title: v1.0.217
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.217
+    summary: 'Full Changelog : v1.0.216...v1.0.217'
+    source: Claude Code Action Releases
+    weight: 1
+    published_at: '2026-09-06T02:56:44+00:00'
+    dupe_count: 8
+  - title: v2.1.263
+    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.263
+    summary: What's changed Bug fixes and reliability improvements
+    source: Claude Code Releases
+    weight: 1
+    published_at: '2026-09-06T02:54:20+00:00'
     dupe_count: 0
   - title: 'aws-sdk: v0.7.0'
     url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v0.7.0
@@ -503,24 +596,6 @@ tiles:
     source: Anthropic SDK (TypeScript) Releases
     weight: 1
     published_at: '2026-09-04T22:20:24+00:00'
-    dupe_count: 0
-  - title: v1.4.0
-    url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0
-    summary: '1.4.0 (2026-09-04) Full Changelog: v1.3.0...v1.4.0 Features api: add Claude Tag category
-      and user breakdowns to usage reports ( 9fce1e4 ) api: add named types for organization compliance
-      settings state ( 1de1957 ) api: add support for sendi'
-    source: Anthropic SDK (Python) Releases
-    weight: 1
-    published_at: '2026-09-04T22:20:20+00:00'
-    dupe_count: 7
-  - title: Claude Code GitHub Action v1.0
-    url: https://github.com/anthropics/claude-code-action/releases/tag/v1
-    summary: 🎉 Claude Code GitHub Action v1.0 - Now Generally Available! We're excited to announce the
-      v1.0 release of Claude Code GitHub Action! This major release brings significant improvements in
-      simplicity, flexibility, and power to AI-assisted dev
-    source: Claude Code Action Releases
-    weight: 1
-    published_at: '2026-09-04T20:00:09+00:00'
     dupe_count: 0
   - title: v1.0.216
     url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.216
@@ -603,13 +678,4 @@ tiles:
     source: Anthropic SDK (TypeScript) Releases
     weight: 1
     published_at: '2026-09-01T17:50:12+00:00'
-    dupe_count: 0
-  - title: v2.1.252
-    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.252
-    summary: What's changed Fixed Bash commands failing with "task output swap refused (tasks dir moved
-      or linked)" on some Macs Fixed "always allow" not saving in a project that has no .claude/settings.local.json
-      yet Fixed Remote Control sessions hoste
-    source: Claude Code Releases
-    weight: 1
-    published_at: '2026-08-31T19:46:55+00:00'
     dupe_count: 0
