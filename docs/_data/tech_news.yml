@@ -1,517 +1,547 @@
-generated_at: '2026-09-08T11:17:24.338868+00:00'
+generated_at: '2026-09-09T11:21:21.235041+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
-  - title: Stoke Space raises another billion to rival SpaceX at re-flying rockets
-    url: https://techcrunch.com/2026/09/08/stoke-space-raises-another-billion-to-rival-spacex-at-re-flying-rockets/
-    summary: Stoke has "completed the initial closing" of a $1B Series E round intended to help it reach
-      orbit and prepare a new, larger rocket for operations.
+  - title: Worried Anthropic researchers warn that AI ‘could kill all humans’
+    url: https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans
+    summary: A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial
+      intelligence "could kill all humans" by the end of the decade, just hours after a colleague resigned
+      over fears the AI lab and its rivals are ca
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-09T09:56:28+00:00'
+    dupe_count: 0
+  - title: Google DeepMind alumni are building tools to accelerate fusion power for the grid
+    url: https://techcrunch.com/2026/09/08/google-deepmind-alumni-are-building-tools-to-accelerate-fusion-power-for-the-grid/
+    summary: Fusionality is developing control systems and simulation environments to help fusion power
+      startups move faster.
     source: TechCrunch
     weight: 1
-    published_at: '2026-09-08T09:00:00+00:00'
+    published_at: '2026-09-09T06:00:00+00:00'
     dupe_count: 0
-  - title: Xiaomi’s wide foldable promises more power than Samsung’s
-    url: https://www.theverge.com/tech/991008/xiaomi-18-fold-hands-on-impressions-specs-wide
-    summary: Xiaomi is the latest manufacturer to release a short, wide foldable phone, in the week Apple
-      is expected to do the same. I got to try the 18 Fold behind closed doors at IFA last week, and while
-      it looks and feels similar enough to Samsung's
+  - title: Apple’s foldable ‘iPhone Duo’ will reportedly start at $2,000
+    url: https://www.theverge.com/tech/991884/apple-iphone-duo-rumor-foldable
+    summary: 'With only a few hours left until the first iPhone launch event since John Ternus took over
+      as the CEO of Apple, Bloomberg reporter Mark Gurman says the name of the company''s long-rumored
+      folding phone is the iPhone Duo. The midnight report '
     source: The Verge
     weight: 1
-    published_at: '2026-09-08T07:00:00+00:00'
+    published_at: '2026-09-09T05:26:53+00:00'
     dupe_count: 0
-  - title: Mistral raises €3B
-    url: https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/
-    summary: 'Article URL: https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/
-      Comments URL: https://news.ycombinator.com/item?id=49605767 Points: 507 # Comments: 355'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-08T05:06:23+00:00'
-    dupe_count: 0
-  - title: Eric Wu’s newest company, out of stealth since May, is going after construction’s labor crunch
-    url: https://techcrunch.com/2026/09/07/eric-wus-newest-company-out-of-stealth-since-may-is-going-after-constructions-labor-crunch/
-    summary: Eric Wu, who built and ran Opendoor before stepping away in 2022, has had his new company,
-      NavigateAI, out of stealth since May — building AI copilots that give construction workers real-time,
-      hands-free guidance through smartphones and Met
+  - title: CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks
+    url: https://techcrunch.com/2026/09/08/cloudnc-raises-20m-to-automate-manufacturings-most-pressing-bottlenecks/
+    summary: UK-based manufacturing software startup CloudNC announced Wednesday a $20 million B extension
+      round, bringing its lifetime total raised amount to $128 million.
     source: TechCrunch
     weight: 1
-    published_at: '2026-09-08T02:16:39+00:00'
+    published_at: '2026-09-09T04:01:00+00:00'
     dupe_count: 0
-  - title: 'First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost'
-    url: https://www.theverge.com/games/990676/arm-neural-rendering-mali-g2-ultra-xiaomi-xring-o3
-    summary: China is getting first crack at a British technology that might change how mobile games are
-      made and played. Today, the Xiaomi 18 Fold launches in mainland China with an Arm Mali G2-Ultra
-      NX graphics processor inside its custom Xring O3 chi
-    source: The Verge
-    weight: 1
-    published_at: '2026-09-08T02:00:00+00:00'
-    dupe_count: 0
-  - title: Jellyfin 12.0
-    url: https://jellyfin.org/posts/jellyfin-release-12.0/
-    summary: 'Article URL: https://jellyfin.org/posts/jellyfin-release-12.0/ Comments URL: https://news.ycombinator.com/item?id=49604861
-      Points: 393 # Comments: 168'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-08T01:56:35+00:00'
-    dupe_count: 0
-  - title: I've factored the RSA keys of a Certificate Authority from the 90s
-    url: https://mcpherrin.ca/2026/09/07/rsa.html
-    summary: 'Article URL: https://mcpherrin.ca/2026/09/07/rsa.html Comments URL: https://news.ycombinator.com/item?id=49604637
-      Points: 358 # Comments: 59'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-08T01:16:59+00:00'
-    dupe_count: 0
-  - title: Audi’s new A2 E-tron is its most affordable and efficient EV yet
-    url: https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price
-    summary: When shopping for an electric vehicle, affordability is becoming a more common trait. But
-      affordable and energy efficient is truly a rare breed. Often you have to sacrifice one for the other.
-      Want something affordable? Great, here's a range
-    source: The Verge
-    weight: 1
-    published_at: '2026-09-07T20:03:41+00:00'
-    dupe_count: 0
-  - title: Opaque recurrence, and other AI terms that you should probably know
-    url: https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/
-    summary: The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions
-      of some of the most important words and phrases you might encounter.
+  - title: White House takes down ‘Build the Wall’ game after the Tetris Company complains
+    url: https://techcrunch.com/2026/09/08/white-house-takes-down-build-the-wall-game-after-the-tetris-company-complains/
+    summary: The Trump administration's short-lived arcade game "Build the Wall" is now nowhere to be
+      found after the Tetris Company posted that it takes "copyright infringement very seriously."
     source: TechCrunch
     weight: 1
-    published_at: '2026-09-07T19:24:00+00:00'
+    published_at: '2026-09-08T23:23:23+00:00'
     dupe_count: 0
-  - title: Watch Los Angeles get built, one building at a time (1880–2026)
-    url: https://lax-skyline.parcelscope.net/
-    summary: 'Article URL: https://lax-skyline.parcelscope.net/ Comments URL: https://news.ycombinator.com/item?id=49601655
-      Points: 300 # Comments: 147'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-07T18:52:06+00:00'
-    dupe_count: 0
-  - title: A secret new Elizabeth Holmes documentary stuns Telluride
-    url: https://techcrunch.com/2026/09/07/a-secret-new-elizabeth-holmes-documentary-stuns-telluride/
-    summary: Nathan Fielder and Lance Oppenheim's secret Elizabeth Holmes documentary, "You Can See Everything,"
-      stunned Telluride audiences Sunday night with its generous access to the Theranos founder.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-07T18:02:29+00:00'
-    dupe_count: 0
-  - title: Six years later, Sony revisits its legendary XM4 headphones
-    url: https://www.theverge.com/tech/990687/sony-announces-xm4c-headphones
-    summary: 'Six years ago Sony and Bose were in the middle of a noise-canceling battle, with each new
-      model of headphones better than the last. In the fall of 2020, Sony released the WH-1000XM4 headphones
-      to wide acclaim. They sat atop best headphones '
-    source: The Verge
-    weight: 1
-    published_at: '2026-09-07T16:00:00+00:00'
-    dupe_count: 0
-  - title: What we expect from the upcoming Apple launch
-    url: https://techcrunch.com/2026/09/07/what-we-expect-from-the-upcoming-apple-launch/
-    summary: While Apple's first foldable iPhone Ultra will headline the September 9 launch, we're also
-      expecting news about AirPods and HomePods.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-07T15:58:00+00:00'
-    dupe_count: 0
-  - title: EcoFlow makes the miniature power station even smaller
-    url: https://www.theverge.com/science/991033/ecoflow-makes-the-miniature-power-station-even-smaller
-    summary: 'If you''re in the market for a tiny power station that punches well above its size and weight
-      then have a look at EcoFlow''s new fourth-generation River series. The River 260 Gen4 features a
-      256Wh capacity battery while the 520 Gen4 packs in '
-    source: The Verge
-    weight: 1
-    published_at: '2026-09-07T14:59:41+00:00'
-    dupe_count: 0
-  - title: The real reason your phone is getting more expensive
-    url: https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone
-    summary: 'When Apple debuts the next generation of iPhones this week, they''re likely to come with
-      an unwanted change: a higher price tag. A price hike from the supply-chain powerhouse would be the
-      clearest sign yet that soaring memory costs have beco'
-    source: The Verge
-    weight: 1
-    published_at: '2026-09-07T12:00:00+00:00'
-    dupe_count: 0
-  - title: The complex corporate web behind a $3.2 billion AI data center
-    url: https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/
-    summary: When multiple companies are behind one project, who bears responsibility for problems?
+  - title: LG TV shown scanning LAN for third-party phones and other devices
+    url: https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/
+    summary: “It doesn’t cost a lot to store text forever.”
     source: Ars Technica
     weight: 1
-    published_at: '2026-09-07T11:00:03+00:00'
+    published_at: '2026-09-08T21:52:29+00:00'
     dupe_count: 0
-  - title: Bentley’s Torcal EV tries to balance authenticity with fake V8 sounds
-    url: https://www.theverge.com/transportation/990319/bentley-torcal-ev-power-ride-sound-v8
-    summary: 'Thanks to their ability to provide a smooth ride and quiet powertrain with ease, electric
-      vehicles are a true shoo-in for the high-end luxury automotive segment. Rolls-Royce has the Spectre,
-      Cadillac''s Celestiq is taking bespoke to a whole '
+  - title: Sony isn’t phasing out discs quite as quickly as we thought
+    url: https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent
+    summary: Sony isn't backing away from its decision to kill the video game disc in January 2028. But
+      Sony isn't shutting down production as quickly as we thought, either. Two months after reports that
+      Sony's last discmaking plant was already being re
     source: The Verge
     weight: 1
-    published_at: '2026-09-07T11:00:00+00:00'
+    published_at: '2026-09-08T21:52:13+00:00'
     dupe_count: 0
-  - title: Huawei copies Samsung’s privacy display in its latest trifold
-    url: https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display
-    summary: 'Huawei has released its third trifold phone in China, and the company has clearly had half
-      an eye on Samsung during development. Not only does the Mate XT 2 adopt the inward-folding form
-      factor used on Samsung''s Galaxy Z TriFold, it''s also '
-    source: The Verge
+  - title: GOG brings back "big box" PC games, one printable template at a time
+    url: https://arstechnica.com/gaming/2026/09/gog-brings-back-big-box-pc-games-one-printable-template-at-a-time/
+    summary: Preservation "goodies" also includes downloadable 3D models for desktop perusal.
+    source: Ars Technica
     weight: 1
-    published_at: '2026-09-07T10:09:42+00:00'
+    published_at: '2026-09-08T21:23:13+00:00'
     dupe_count: 0
-  - title: Seattle Times and Newsday sue OpenAI and Microsoft for infringement
-    url: https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft
-    summary: The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging
-      copyright infringement. The two outlets say the company used their journalism as training data for
-      its AI models without permission and often rep
-    source: The Verge
+  - title: How to build a printer
+    url: https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/
+    summary: 'Article URL: https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/ Comments URL: https://news.ycombinator.com/item?id=49617255
+      Points: 352 # Comments: 76'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-08T21:22:11+00:00'
+    dupe_count: 0
+  - title: Why this month's Microsoft patch release is a doozy
+    url: https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/
+    summary: Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.
+    source: Ars Technica
     weight: 1
-    published_at: '2026-09-06T23:36:04+00:00'
-    dupe_count: 1
-  - title: Phil Schiller’s App Store exit reportedly driven by wariness over future plans
-    url: https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/
-    summary: Schiller reportedly had reservations about new CEO John Ternus' goal of bringing in more
-      recurring revenue from the App Store.
+    published_at: '2026-09-08T21:11:46+00:00'
+    dupe_count: 0
+  - title: Hackers are stealing Claude tokens from subscribers
+    url: https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/
+    summary: Last month, a Claude user noticed his account was consuming tokens even though he wasn't
+      working. Anthropic has since warned users about hackers.
     source: TechCrunch
     weight: 1
-    published_at: '2026-09-06T21:41:06+00:00'
+    published_at: '2026-09-08T21:10:27+00:00'
+    dupe_count: 0
+  - title: Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all
+      market
+    url: https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/
+    summary: Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-08T21:04:06+00:00'
+    dupe_count: 0
+  - title: 'Tao: Open math problems being non-renewably mined by AI'
+    url: https://mathstodon.xyz/@tao/117237320796901560
+    summary: 'Article URL: https://mathstodon.xyz/@tao/117237320796901560 Comments URL: https://news.ycombinator.com/item?id=49616968
+      Points: 376 # Comments: 332'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-08T21:00:52+00:00'
+    dupe_count: 0
+  - title: Drama swirls around OpenAI’s legendary mathematical milestone
+    url: https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution
+    summary: OpenAI says it found a solution to a major math problem that has remained unsolved for around
+      90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI
+      announced that it discovered a solution to the Na
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-08T20:53:52+00:00'
+    dupe_count: 0
+  - title: The Exploration Company nabs $450 million to challenge SpaceX
+    url: https://techcrunch.com/2026/09/08/the-exploration-company-nabs-450-million-to-challenge-spacex/
+    summary: The Exploration Company (TEC) has raised $450 million to build reusable spacecraft, in what
+      it describes as “the largest-ever Series C by a European space company.”
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-08T20:47:34+00:00'
+    dupe_count: 0
+  - title: Rivian spinout Also apologizes for delays in shipping futuristic e-bikes
+    url: https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology
+    summary: Rivian's futuristic e-bike is delayed, and customers are not happy. Last year, Rivian's micromobility
+      spinoff Also unveiled a new, software-controlled electric bike called the TM-B that immediately
+      set the e-bike world ablaze. With USB-C ch
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-08T20:46:56+00:00'
+    dupe_count: 0
+  - title: Razer’s ANC-equipped gaming headset for PS5 and Xbox is almost $100 off
+    url: https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale
+    summary: It’s rare to find high-end features like active noise cancellation in a gaming headset under
+      $200, so we’re thrilled that the Razer BlackShark V3 Pro on sale at Woot for $164.99. There are
+      specific models marketed to Xbox and PlayStation, b
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-08T20:39:49+00:00'
+    dupe_count: 0
+  - title: The universal language of space is... Star Trek? Mais oui.
+    url: https://arstechnica.com/space/2026/09/astronaut-on-iss-celebrates-60-years-of-star-trek-with-prop-badge/
+    summary: '"Science fiction imagines the future. We build it."'
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-09-08T20:20:20+00:00'
+    dupe_count: 0
+  - title: ChatGPT Sketch turns your bad drawings into detailed AI images
+    url: https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch
+    summary: 'OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what
+      you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can
+      just draw something right inside ChatGPT and then te'
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-08T20:16:09+00:00'
+    dupe_count: 0
+  - title: NIH to use part of its budget to pay for Department of Defense research
+    url: https://arstechnica.com/science/2026/09/nih-to-use-part-of-its-budget-to-pay-for-department-of-defense-research/
+    summary: Money would ostensibly fund research the NIH leadership said it no longer wanted.
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-09-08T20:06:44+00:00'
     dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
-  - title: Qoro and Hartree Centre Partner on Hybrid Quantum-HPC Computing
-    url: https://thequantuminsider.com/2026/09/08/qoro-mou-hartree-centre-uk-quantum-hpc-demonstrator/
-    summary: Insider Brief PRESS RELEASE — Qoro announced today a collaboration under a new Memorandum
-      of Understanding (MoU) with the STFC Hartree Centre to develop hybrid quantum-classical computing
-      capabilities. The project integrates Qoro’s software
+  - title: Cleveland Clinic, RIKEN and IBM Team Advance to Finals for 2026 ACM Gordon Bell Prize
+    url: https://thequantuminsider.com/2026/09/09/cleveland-clinic-riken-and-ibm-team-advance-to-finals-for-2026-acm-gordon-bell-prize/
+    summary: 'Insider Brief PRESS RELEASE — A multidisciplinary team from Cleveland Clinic, RIKEN and
+      IBM (NYSE: IBM) has been named as a finalist for the 2026 Association for Computing Machinery (ACM)
+      Gordon Bell Prize for simulating the largest biologi'
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-09-08T10:54:30+00:00'
+    published_at: '2026-09-09T08:30:20+00:00'
     dupe_count: 0
-  - title: Singapore, Luxembourg Target Deeper Cooperation in Quantum, AI And Space
-    url: https://thequantuminsider.com/2026/09/08/singapore-luxembourg-target-deeper-cooperation-in-quantum-ai-and-space/
-    summary: Insider Brief Singapore and Luxembourg plan to deepen cooperation in quantum computing, artificial
-      intelligence, space technology and satellite communications as the two small, trade-dependent nations
-      seek closer economic and strategic ties
+  - title: OpenAI Says AI Agents May Make Great Quantum Lab Assistants
+    url: https://thequantuminsider.com/2026/09/09/openai-says-ai-agents-may-make-great-quantum-lab-assistants/
+    summary: Insider Brief Artificial intelligence agents can independently run many routine quantum-computing
+      experiments, potentially reducing days of hands-on laboratory work while leaving scientists responsible
+      for difficult measurements and unexpec
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-09-08T07:59:16+00:00'
+    published_at: '2026-09-09T08:20:24+00:00'
     dupe_count: 0
-  - title: 'Guest Post: How Tokenized Finance Can Prepare for Post-Quantum Security'
-    url: https://thequantuminsider.com/2026/09/08/quantum-ready-tokenized-finance-requirements/
-    summary: 'Guest Post by Edwin Mata, Co-Founder and CEO of Brickken Building financial infrastructure
-      is strange: you have to make decisions today for assets that may still exist long after the underlying
-      technology has changed. That is especially tru'
+  - title: QNu Labs Raises ₹200 Crore ($21 Million USD) Led by National Quantum Mission And Speciale Invest
+    url: https://thequantuminsider.com/2026/09/09/qnu-labs-raises-%e2%82%b9200-crore-25-million-usd-led-by-national-quantum-mission-and-speciale-invest/
+    summary: Insider Brief PRESS RELEASE — QNu Labs, a leading deep-tech cybersecurity company building
+      quantum-safe solutions, has raised ₹200 crore (about $21 million USD) in Series A1 round led by
+      the National Quantum Mission and Speciale Invest with
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-09-08T07:30:00+00:00'
+    published_at: '2026-09-09T07:34:02+00:00'
     dupe_count: 0
-  - title: Fujitsu develops diamond-spin quantum computer prototype
-    url: https://thequantuminsider.com/2026/09/08/fujitsu-develops-diamond-spin-quantum-computer-prototype/
-    summary: Insider Brief PRESS RELEASE — Fujitsu today announced that it has developed the world’s first
-      working prototype of a diamond-spin quantum computer incorporating tin-vacancy (SnV) centers into
-      photonic integrated circuits [1] [2]. The protot
+  - title: Fujitsu And Yaqumo Begin Testing on Neutral-Atom Quantum Computer Hardware
+    url: https://thequantuminsider.com/2026/09/09/fujitsu-and-yaqumo-begin-testing-on-neutral-atom-quantum-computer-hardware/
+    summary: Insider Brief PRESS RELEASE — Fujitsu Limited (Fujitsu) and Yaqumo Inc. (Yaqumo) today announced
+      that they have begun verifying quantum computing architectures and basic software on actual neutral-atom
+      quantum computers (1) to accelerate th
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-09-08T07:23:37+00:00'
+    published_at: '2026-09-09T07:15:23+00:00'
     dupe_count: 0
-  - title: India’s Global Fintech Fest 2026 to Highlight Quantum Technology, AI and Tokenization
-    url: https://thequantuminsider.com/2026/09/07/global-fintech-fest-2026-quantum-technology-ai-mumbai/
-    summary: Insider Brief Prime Minister Narendra Modi is set to open the seventh Global Fintech Fest
-      (GFF) in Mumbai on Tuesday, kicking off a four-day programme running September 8 through 11 that
-      brings together regulators, financial institutions, t
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-09-07T16:53:19+00:00'
+  - title: 'Lee-Yang zeros of modulated XY spin chains with Dzyaloshinskii-Moriya interaction: zero-contour
+      topology and quantum phase-diagram reconstruction'
+    url: https://arxiv.org/abs/2609.05469
+    summary: 'arXiv:2609.05469v1 Announce Type: new Abstract: We investigate the Lee--Yang zeros (LYZ)
+      of inhomogeneous anisotropic XY spin chains with Dzyaloshinskii--Moriya (DM) interactions in the
+      complex transverse-field plane, focusing on their fund'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: NEC Discontinues Superconducting Quantum Computer Development to Focus on Annealing and Classical
-      Emulation
-    url: https://quantumcomputingreport.com/nec-discontinues-superconducting-quantum-computer-development-to-focus-on-annealing-and-classical-emulation/
-    summary: NEC Corporation has ceased its research and development into superconducting quantum computers,
-      shifting focus to quantum-inspired annealing and classical emulation due to long commercialization
-      timelines and high capital investment. This m
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-07T15:26:49+00:00'
+  - title: Quantum phase transitions and quantum-information characterization of a non-Hermitian XY chain
+      with staggered Dzyaloshinskii--Moriya interactions
+    url: https://arxiv.org/abs/2609.05470
+    summary: 'arXiv:2609.05470v1 Announce Type: new Abstract: We investigate the phase diagram of a non-Hermitian
+      XY chain with staggered Dzyaloshinskii--Moriya (DM) interactions using quantum-information methods.
+      Through an alternating local-spin-rotati'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: 'Guest Post: QML4Africa Highlights Growth of Africa’s Quantum Research Community'
-    url: https://thequantuminsider.com/2026/09/07/qml4africa-quantum-researchers-lagos/
-    summary: Guest Post by Somtochukwu Igwegbe, African Quantum Consortium Correspondent, Research & Development,
-      Quantum Africa. Quantum computing hardware is being built almost entirely outside Africa, in laboratories
-      across North America, Europe, and
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-09-07T10:27:46+00:00'
+  - title: Atmospheric Turbulence-Aware Optimization of Generalized Kennedy Receivers for Coherent-State
+      BPSK Quantum Communication
+    url: https://arxiv.org/abs/2609.05471
+    summary: 'arXiv:2609.05471v1 Announce Type: new Abstract: We investigate generalized Kennedy receivers
+      for coherent-state BPSK communication over turbulent free-space optical channels. An ergodic mutual-information
+      framework is developed to jointly o'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: Sparrow Quantum Sets Record With 500 Million Usable Photons Per Second
-    url: https://thequantuminsider.com/2026/09/07/sparrow-quantum-sets-record-with-500-million-usable-photons-per-second/
-    summary: 'Insider Brief PRESS RELEASE — Quantum computers are being built in several ways: superconducting
-      circuits, trapped ions, neutral atoms, semiconductor spins and photonics. Photonic quantum systems
-      have one fundamental advantage: their inform'
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-09-07T07:21:59+00:00'
+  - title: Quantum information spreading via higher-order operator correlators
+    url: https://arxiv.org/abs/2609.05472
+    summary: 'arXiv:2609.05472v1 Announce Type: new Abstract: We provide a perspective into measuring
+      the quantum information spreading by introducing N-operator correlators. Leveraging the idea from
+      N-point correlation function from cosmology, we formul'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: NEC Halts Development of Quantum Computer Hardware
-    url: https://thequantuminsider.com/2026/09/06/nec-halts-development-of-quantum-computer-hardware/
-    summary: Insider Brief NEC has ended its effort to build a working quantum computer, pulling back
-      from a field that the company helped pioneer. The company discontinued development of a physical
-      quantum computing system at the end of March, Nikkei A
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-09-06T18:34:34+00:00'
+  - title: Can a Local Quantum-Mechanical Description of Physical Reality Be Considered Complete?
+    url: https://arxiv.org/abs/2609.05478
+    summary: 'arXiv:2609.05478v1 Announce Type: new Abstract: In a complete quantum theory, one would
+      construct it based on what we can observe in a system and operationally define in our universe.
+      This philosophy goes back to some of the original ideals'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: 'Brian Gaucher (ERVA): Why engineering, not physics, now limits quantum progress'
-    url: https://thequantuminsider.com/2026/09/05/brian-gaucher-erva-why-engineering-not-physics-now-limits-quantum-progress/
-    summary: Yuval Boger interviews Brian Gaucher, an experienced engineer and IBM veteran who co-chaired
-      ERVA’s report Engineering Research to Advance Quantum Technologies. Brian explains that while U.S.
-      quantum science remains strong, global competiti
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-09-05T07:00:00+00:00'
+  - title: The I3322 quantum value is attained spatially but not in finite dimension
+    url: https://arxiv.org/abs/2609.05555
+    summary: 'arXiv:2609.05555v1 Announce Type: new Abstract: Let $S$ be the quantum supremum of the $I_{3322}$
+      Bell functional in the Collins-Gisin normalization (classical bound 0; two-qubit maximum exactly
+      1/4). From a certified window $S\in(0.2508753'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: 'Who’s News: Strategic Appointments at QuIC, Atom Computing, and Qilimanjaro Quantum Tech'
-    url: https://quantumcomputingreport.com/whos-news-strategic-appointments-at-quic-atom-computing-and-qilimanjaro-quantum-tech/
-    summary: Cécile Perrault is the new Executive Director of QuIC, Kevin Messerle is the new CFO of Atom
-      Computing, and Albert Solana is the new Chief of Staff at Qilimanjaro Quantum Tech, all bringing
-      their expertise to advance quantum technologies. T
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-05T01:17:36+00:00'
+  - title: Matrix Product Belief Propagation
+    url: https://arxiv.org/abs/2609.05598
+    summary: 'arXiv:2609.05598v1 Announce Type: new Abstract: We introduce "matrix product belief propagation"
+      (MP-BP) as a controlled method for the approximate contraction of two-dimensional tensor networks
+      and graphical models, which generically leads'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: Europe Looks to Quantum Act to Turn Research Strength Into Industry
-    url: https://thequantuminsider.com/2026/09/04/europe-looks-to-quantum-act-to-turn-research-strength-into-industry/
-    summary: 'Insider Brief PRESS RELEASE — Europe’s quantum community gathered yesterday at the European
-      Parliament for “Europe’s Quantum Moment: From Lab to Leadership”, an event hosted by MEP Dr. Sergey
-      Lagodinskythat brought together representatives '
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-09-04T17:59:10+00:00'
+  - title: Computing 256-bit elliptic curve discrete logarithms in 26 days on a fault-tolerant trapped-ion
+      quantum computer with 20,000 qubits
+    url: https://arxiv.org/abs/2609.05625
+    summary: 'arXiv:2609.05625v1 Announce Type: new Abstract: One of the strengths of our recently proposed
+      Walking Cat Architecture for a trapped-ion quantum computer is that it is straightforward to extend
+      and optimize for a specific application. As a '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: RIKEN Integrates QunaSys QURI SDK Enterprise into Japan’s JHPC-quantum Platform
-    url: https://quantumcomputingreport.com/riken-integrates-qunasys-quri-sdk-enterprise-into-japans-jhpc-quantum-platform/
-    summary: The RIKEN Center for Computational Science (R-CCS) has officially adopted the enterprise
-      quantum software development kit QURI SDK Enterprise from Tokyo-based algorithm developer QunaSys
-      Inc. as the primary software layer for Japan’s nation
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-04T11:58:47+00:00'
+  - title: Hawking Radiation in non-Hermitian Microscopic Analogues
+    url: https://arxiv.org/abs/2609.05632
+    summary: 'arXiv:2609.05632v1 Announce Type: new Abstract: Non-Hermitian systems have recently emerged
+      as a convenient platform to realize black-hole physics. Here, we propose a microscopic open quantum
+      system, namely a fermionic tight-binding chain c'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: Forschungszentrum Jülich Operates eleQtron’s JION Trapped-Ion QPU via JUNIQ Infrastructure
-    url: https://quantumcomputingreport.com/forschungszentrum-julich-operates-eleqtrons-jion-trapped-ion-qpu-via-juniq-infrastructure/
-    summary: Research center Forschungszentrum Jülich and University of Siegen spin-off eleQtron GmbH
-      have officially brought the JION (Jülich trapped-ION) quantum computer into operation at the Jülich
-      Supercomputing Centre (JSC). Integrated into the JU
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-04T11:34:39+00:00'
+  - title: $N$-dimensional discrete Fourier transform via bosonic Hamiltonian
+    url: https://arxiv.org/abs/2609.05644
+    summary: 'arXiv:2609.05644v1 Announce Type: new Abstract: The discrete Fourier transform (DFT) underpins
+      many classical algorithms and is a fundamental unitary operator for quantum information processing.
+      Implementing the $N$-dimensional DFT in photo'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: Quantum Foundry Copenhagen and Novo Nordisk Foundation Announce 5,300 m² Fabrication Facility
-      for Quantum Chips
-    url: https://quantumcomputingreport.com/quantum-foundry-copenhagen-and-novo-nordisk-foundation-announce-5300-m%c2%b2-fabrication-facility-for-quantum-chips/
-    summary: Technology firm Quantum Foundry Copenhagen and the Novo Nordisk Foundation have announced
-      plans to construct a 5,300 m² commercial quantum chip fabrication facility in Copenhagen, Denmark.
-      Operational by 2027, the infrastructure is engineer
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-04T11:08:50+00:00'
+  - title: Ordered-Angle Coding for Exact Multiuser Unanimity Testing
+    url: https://arxiv.org/abs/2609.05645
+    summary: 'arXiv:2609.05645v1 Announce Type: new Abstract: We introduce ordered-angle coding for binary-unanimity
+      testing among $n$ transformation-only users in a serial quantum architecture inherited from Loop-Back
+      communication. User $B_i$ fixes one'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: Quantinuum and Aramco Execute Non-Binding MoU for Energy Sector Quantum R&D
-    url: https://quantumcomputingreport.com/quantinuum-and-aramco-execute-non-binding-mou-for-energy-sector-quantum-rd/
-    summary: 'Trapped-ion quantum hardware developer Quantinuum (NASDAQ: QNT) and integrated energy firm
-      Aramco have executed a non-binding Memorandum of Understanding (MoU) during the LEAP technology
-      conference in Riyadh. The agreement establishes a fra'
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-04T00:15:05+00:00'
+  - title: Minimum Cardinalities of Multipartite Unextendible Product Bases
+    url: https://arxiv.org/abs/2609.05657
+    summary: 'arXiv:2609.05657v1 Announce Type: new Abstract: In quantum information theory, the state
+      space of a multipartite quantum system is modeled by a tensor product. In the tensor-product space
+      $\mathbb C^{d_1}\otimes\cdots\otimes\mathbb C^{d_p}$'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: Giesecke+Devrient Joins European uPQComing Consortium to Develop Quantum-Safe eID Operating
-      Systems
-    url: https://quantumcomputingreport.com/gieseckedevrient-joins-european-upqcoming-consortium-to-develop-quantum-safe-eid-operating-systems/
-    summary: Munich-based security technology group Giesecke+Devrient (G+D) has joined uPQComing (Enhancing
-      Cyber-Resilience for the Upcoming Post-Quantum Era), a European research consortium co-funded by
-      the European Union's Chips Joint Undertaking (Ch
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-03T16:14:42+00:00'
+  - title: Robustness of Dynamical Casimir Effect-Induced Quantum Synchronization
+    url: https://arxiv.org/abs/2609.05659
+    summary: 'arXiv:2609.05659v1 Announce Type: new Abstract: The robustness of quantum synchronization
+      induced by the dynamical Casimir effect (DCE) is analyzed within a circuit quantum electrodynamics
+      (cQED) architecture consisting of two superconducti'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: SEEQC Signs MoU with Taiwan Quantum Industry Technology Promotion Office to Build Cryo-Chip
-      Supply Chain
-    url: https://quantumcomputingreport.com/seeqc-signs-mou-with-taiwan-quantum-industry-technology-promotion-office-to-build-cryo-chip-supply-chain/
-    summary: Digital quantum computing platform developer SEEQC has signed a Memorandum of Understanding
-      (MoU) with Taiwan’s Quantum Industry Technology Promotion Office (QITPO)—an agency established under
-      the Ministry of Economic Affairs (MOEA)—to form
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-03T15:36:35+00:00'
+  - title: Kerr Induced Control of Synchronization and Quantum State Recovery in a Driven van der Pol
+      Oscillator
+    url: https://arxiv.org/abs/2609.05672
+    summary: 'arXiv:2609.05672v1 Announce Type: new Abstract: We investigate how Kerr nonlinearity modifies
+      quantum synchronization in a squeezed quantum van der Pol oscillator. We show that the Kerr interaction
+      produces an amplitude-dependent frequency '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: Classiq Expands in Taiwan via Go-to-Market Partnerships with Scientek and Kensho
-    url: https://quantumcomputingreport.com/classiq-expands-in-taiwan-via-go-to-market-partnerships-with-scientek-and-kensho/
-    summary: Quantum software engineering platform Classiq Technologies has entered into dual market development
-      agreements in Taiwan with technology distributors Scientek Corporation (a Zen Voce company) and
-      Kensho. Timed alongside SEMICON Taiwan 2026,
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-03T15:20:55+00:00'
+  - title: Quantum lower bounds for convex optimization and real matrix-vector query problems
+    url: https://arxiv.org/abs/2609.05679
+    summary: 'arXiv:2609.05679v1 Announce Type: new Abstract: We (the author and the AI systems that did
+      the heavy lifting) show that the quantum query complexity of minimizing a convex function over a
+      convex subset of $\mathbb{R}^n$ with evaluation and '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: SEALSQ Integrates wolfTPM Support into Post-Quantum Silicon Semiconductor Platform (QVault
-      TPM)
-    url: https://quantumcomputingreport.com/sealsq-integrates-wolftpm-support-into-post-quantum-silicon-semiconductor-platform-qvault-tpm/
-    summary: 'Post-quantum semiconductor hardware vendor SEALSQ Corp (NASDAQ: LAES) and embedded cryptography
-      developer wolfSSL Inc. have announced native wolfTPM software support for SEALSQ’s QVault TPM hardware
-      security chip. Designed to implement post'
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-03T14:59:59+00:00'
+  - title: Characterizing Privacy Risks of Quantum Machine Learning with Emergent Quantum-Native Access
+    url: https://arxiv.org/abs/2609.05702
+    summary: 'arXiv:2609.05702v1 Announce Type: new Abstract: Quantum Machine Learning (QML) has shown
+      rapid advances by utilizing quantum computing for machine learning tasks. Meanwhile, the privacy
+      risks accompanying QML is also starting to be studied,'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
-  - title: 'Research acceleration: The view inside OpenAI'
-    url: https://openai.com/index/research-acceleration-view-inside-openai
-    summary: Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage,
-      experiment velocity, task complexity, and research acceleration.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-06T08:00:00+00:00'
+  - title: 'Agentic BAIM-LLM Evaluation (ABLE): Benchmarking LLM Use of Protein Design Tools'
+    url: https://arxiv.org/abs/2609.05818
+    summary: 'arXiv:2609.05818v1 Announce Type: new Abstract: We introduce ABLE, a benchmark for evaluating
+      LLM agents'' ability to use biological AI models (BAIMs), such as ProteinMPNN and AlphaFold3, in
+      dual-use protein design workflows. ABLE assesses a'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: 'Safety overview: GPT-6 Astra'
-    url: https://openai.com/index/safety-overview-gpt-6-astra
-    summary: GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical
-      level of cybersecurity capability under our Preparedness Framework.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-03T00:00:00+00:00'
+  - title: 'Building Trustworthy Graph-Agentic RAG for Social Good: Architectures, Failure Propagation,
+      and Assurance by Construction'
+    url: https://arxiv.org/abs/2609.06391
+    summary: 'arXiv:2609.06391v1 Announce Type: new Abstract: Graph-agentic retrieval-augmented generation
+      combines structured evidence with adaptive controllers that can plan retrieval, traverse relations,
+      verify intermediate claims, delegate subtasks, '
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
+    dupe_count: 1
+  - title: A Three-Tier Persona Vector for Controllable User Simulation in Agentic Evaluation
+    url: https://arxiv.org/abs/2609.08592
+    summary: 'arXiv:2609.08592v1 Announce Type: new Abstract: Evaluating tool-augmented LLM agents requires
+      diverse, realistic user inputs yet most evaluation frameworks use flat role descriptions ("you are
+      an angry customer") that produce near-identical'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
+    dupe_count: 1
+  - title: 'Intent Drift at SME Scale: Deployment Practice, Not Model Capability, Determines Agentic Compliance'
+    url: https://arxiv.org/abs/2609.05975
+    summary: 'arXiv:2609.05975v1 Announce Type: cross Abstract: We introduce Chain of Intent, a governance
+      framework for agentic AI at small regulated firms, and validate it against a failure it was built
+      to address. Existing agentic governance research '
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: Give Your Coding Agents a Memory You Own
-    url: https://huggingface.co/blog/funes
-    summary: ''
-    source: Hugging Face Blog
-    weight: 1
-    published_at: '2026-09-03T00:00:00+00:00'
+  - title: 'Towards Embodied Air-Ground Cooperative Object Search: Benchmark, Dataset and Agentic Method'
+    url: https://arxiv.org/abs/2609.08402
+    summary: 'arXiv:2609.08402v1 Announce Type: cross Abstract: Air-Ground Object Search (AGOS) in urban
+      environments is a challenging embodied task, which requires an Unmanned Aerial Vehicle (UAV) and
+      an Unmanned Ground Vehicle (UGV) to jointly search f'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: 'BenchMIRT: What are LLM benchmarks actually measuring?'
-    url: https://huggingface.co/blog/allenai/benchmirt
-    summary: ''
-    source: Hugging Face Blog
-    weight: 1
-    published_at: '2026-09-01T21:39:07+00:00'
+  - title: Omni Interaction Agent Technical Report
+    url: https://arxiv.org/abs/2609.08977
+    summary: 'arXiv:2609.08977v1 Announce Type: cross Abstract: In this work, we present Gander, an end-to-end
+      model that unifies omni perception, realtime interaction, and agentic capabilities within a single
+      framework. In contrast to turn-based convent'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
+    dupe_count: 1
+  - title: Empowering VLMs for Few-Shot Multimodal Time Series Classification via Tailored Agentic Reasoning
+    url: https://arxiv.org/abs/2605.09395
+    summary: 'arXiv:2605.09395v3 Announce Type: replace Abstract: In this paper, we propose the first
+      VL\underline{\textbf{M}} \underline{\textbf{a}}gentic \underline{\textbf{r}}easoning framework for
+      few-\underline{\textbf{s}}hot multimodal \underline{\'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
+    dupe_count: 1
+  - title: Discoverable Agent Knowledge -- A Formal Framework for Agentic KG Affordances (Extended Version)
+    url: https://arxiv.org/abs/2605.19186
+    summary: 'arXiv:2605.19186v3 Announce Type: replace Abstract: Two decades ago, the Semantic Web Services
+      community was asked how agents with different ontological commitments could discover, compose, and
+      invoke web services coherently. The response w'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: How AI-native companies turn workflows into operating capability
-    url: https://openai.com/index/ai-native-company-workflows
-    summary: Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer
-      integrations. See what enterprise leaders can apply.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-01T17:00:00+00:00'
+  - title: Teaching agentic AI to generalize expert diagnostic reasoning in rare diseases
+    url: https://arxiv.org/abs/2606.16149
+    summary: 'arXiv:2606.16149v5 Announce Type: replace Abstract: Rare disease diagnosis depends on expert
+      reasoning that is scarce and difficult to transfer. Large language models rank the correct disease
+      first in only 35.4% of benchmark cases and often'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: 'Path to Astra: critical capabilities and frontier safeguards'
-    url: https://openai.com/index/path-to-astra
-    summary: Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under
-      the Preparedness Framework, with stronger safeguards for release.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-01T13:00:00+00:00'
+  - title: An agentic framework for gravitational-wave counterpart association in the multi-messenger
+      era
+    url: https://arxiv.org/abs/2605.10584
+    summary: 'arXiv:2605.10584v2 Announce Type: replace-cross Abstract: With the detection of gravitational
+      waves (GWs), multi-messenger astronomy has opened a new window for advancing our understanding of
+      astrophysics, dense matter, gravitation, and cos'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: v0.29.0rc6
-    url: https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc6
-    summary: '[Bugfix][Core] Apply dense prefix cache default to hybrid models ( #55 …'
-    source: vLLM Releases
-    weight: 1
-    published_at: '2026-09-08T08:34:20+00:00'
+  - title: 'LongDS-Bench: On the Failure of Long-Horizon Agentic Data Analysis'
+    url: https://arxiv.org/abs/2605.30434
+    summary: 'arXiv:2605.30434v3 Announce Type: replace-cross Abstract: Real-world data analysis is inherently
+      iterative, yet existing benchmarks mostly evaluate isolated or short interactive tasks, leaving
+      agents'' ability to track evolving analytical co'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
+    dupe_count: 2
+  - title: Hierarchical Server Architecture for Agentic Science
+    url: https://arxiv.org/abs/2608.05332
+    summary: 'arXiv:2608.05332v2 Announce Type: replace-cross Abstract: Agentic science is transforming
+      the landscape of computational work, and is applied to scientific pipelines and workload managers.
+      Scientific workloads require specialized hardware w'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: v0.29.0rc5
-    url: https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc5
-    summary: '[Core] Default prefix_cache_retention_interval to dense for Mamba + E…'
-    source: vLLM Releases
-    weight: 1
-    published_at: '2026-09-08T08:20:33+00:00'
+  - title: 'Fusing Perceptual Vision Experts with Multimodal Large Language Models for Explainable Plant
+      Disease Diagnosis: From Benchmark Imagery to Real-World Robotic Field Validation'
+    url: https://arxiv.org/abs/2608.24934
+    summary: 'arXiv:2608.24934v2 Announce Type: replace-cross Abstract: Accurate field plant disease diagnosis
+      requires reliable fusion of uncertain and conflicting perceptual evidence. We present the Hybrid
+      Hierarchical Multi-Agent Framework (H$^{2}$MAF'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: Supporting independent journalism in Ukraine
-    url: https://openai.com/index/supporting-independent-journalism-in-ukraine
-    summary: OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen
-      innovation, resilience, and independent journalism.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-07T00:00:00+00:00'
+  - title: 'Q2D-Web: A Large-Scale Benchmark for Retrieval in Agentic RAG Systems'
+    url: https://arxiv.org/abs/2609.08887
+    summary: 'arXiv:2609.08887v1 Announce Type: cross Abstract: Evaluating first-stage retrievers in large-scale
+      production RAG requires a benchmark that pairs a large-scale corpus with a large set of agent-reformulated
+      search queries based on real user '
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: An Alien Mind
-    url: https://openai.com/index/an-alien-mind
-    summary: Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned.
-      He calls for stronger safeguards and international coordination.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-06T09:00:00+00:00'
+  - title: 'PRISM: An Agentic Multi-Model Architecture for Proactive Safety in Autonomous Transportation
+      Systems'
+    url: https://arxiv.org/abs/2609.01623
+    summary: 'arXiv:2609.01623v2 Announce Type: replace-cross Abstract: Autonomous and intelligent transportation
+      systems operate in complex urban environments where safety depends on interactions among vehicle
+      behavior, environmental conditions, and vul'
+    source: arXiv cs.LG
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: 'v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill'
-    url: https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc4
-    summary: 'Generated-by: Codex codex@openai.com Signed-off-by: Codex codex@openai.com'
-    source: vLLM Releases
-    weight: 1
-    published_at: '2026-09-04T22:58:29+00:00'
+  - title: When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents
+    url: https://arxiv.org/abs/2609.05441
+    summary: 'arXiv:2609.05441v1 Announce Type: new Abstract: Long-term memory for LLM agents is evaluated
+      today by conversational recall benchmarks (LoCoMo, LongMemEval), which measure question answering
+      over dialogue history, not whether remembered fac'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: v0.29.0rc3
-    url: https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc3
-    summary: '[CI] Remove deleted nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF1…'
-    source: vLLM Releases
-    weight: 1
-    published_at: '2026-09-04T00:52:54+00:00'
+  - title: 'Beyond "AI Helps Humans": Decision-Targeted Evaluation Design for Human-Agent Teams in the
+      Agentic Era'
+    url: https://arxiv.org/abs/2609.05527
+    summary: 'arXiv:2609.05527v1 Announce Type: new Abstract: Wherever a coding agent works under engineer
+      supervision, or a clinical model assists a radiologist, the deployment question is whether to keep
+      the human-AI workflow or replace it with the hum'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: 'Daybreak for Frontline Defenders: $1B to protect essential services'
-    url: https://openai.com/index/daybreak-for-frontline-defenders
-    summary: OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access
-      to frontier cyber AI, training, and support for essential services.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-03T13:15:00+00:00'
+  - title: 'EnvCraft: Synthesizing Executable Environments in Agentic RL for Claw-like Agent'
+    url: https://arxiv.org/abs/2609.05576
+    summary: 'arXiv:2609.05576v1 Announce Type: new Abstract: The paradigm of LLMs has rapidly shifted
+      from passive language interfaces to autonomous Claw-like agents that execute long-horizon tasks
+      across stateful workspaces. While Agentic Reinforcement'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
+    dupe_count: 1
+  - title: 'From Monolithic Blending to Agentic Orchestration: Dynamic Response for Conversational Assistants
+      at Scale'
+    url: https://arxiv.org/abs/2609.05758
+    summary: 'arXiv:2609.05758v1 Announce Type: new Abstract: Conversational assistants can blend retrieval,
+      action selection, escalation, and wording in a single model path, or separate those roles. We report
+      a production migration of a customer-support'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
-  - title: 'NeoMME: an efficient Multimodal-native and Multilingual Encoder'
-    url: https://huggingface.co/blog/Hcompany/neomme
-    summary: ''
-    source: Hugging Face Blog
-    weight: 1
-    published_at: '2026-09-03T13:13:48+00:00'
-    dupe_count: 0
-  - title: Legora reviewed 41 documents in minutes with GPT-6 Astra
-    url: https://openai.com/index/legora-financial-statement-review-with-astra
-    summary: Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors,
-      and improve performance by nearly 40% in this financial-review workflow.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-03T12:00:00+00:00'
-    dupe_count: 0
-  - title: Playco cut manual fixes 50% prototyping games with GPT-6 Astra
-    url: https://openai.com/index/playco-game-prototyping-with-astra
-    summary: Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation
-      and reported 50% fewer manual fixes than with the previous model.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-03T12:00:00+00:00'
-    dupe_count: 0
-  - title: 'GPT-6 Astra: A new generation of intelligence'
-    url: https://openai.com/index/gpt-6-astra
-    summary: Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art
-      capabilities across computer use, coding, cybersecurity, and science.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-03T11:00:00+00:00'
-    dupe_count: 0
-  - title: v0.29.0rc2
-    url: https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc2
-    summary: '[Bugfix][Multimodal] Handle prefix-covered items in SHM worker cache …'
-    source: vLLM Releases
-    weight: 1
-    published_at: '2026-09-03T09:41:12+00:00'
-    dupe_count: 0
-  - title: Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps
-    url: https://huggingface.co/blog/grpo-with-trl-ifstruct
-    summary: ''
-    source: Hugging Face Blog
-    weight: 1
-    published_at: '2026-09-03T00:00:00+00:00'
-    dupe_count: 0
-  - title: Training a coding model to paint watercolours with TRL and OpenEnv
-    url: https://huggingface.co/blog/train-to-paint-with-code
-    summary: ''
-    source: Hugging Face Blog
-    weight: 1
-    published_at: '2026-09-03T00:00:00+00:00'
+  - title: 'DI-Bench: Systematically Generating In-Domain Data Intelligence Benchmarks for Enterprise
+      Agents'
+    url: https://arxiv.org/abs/2609.05776
+    summary: 'arXiv:2609.05776v1 Announce Type: new Abstract: Evaluating enterprise agents on domain-specific
+      benchmarks is critical, yet public benchmarks rarely evaluate whether agents can integrate business
+      knowledge with analytical computation, and c'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-09T04:00:00+00:00'
     dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
@@ -524,6 +554,15 @@ tiles:
     source: Claude Code Releases
     weight: 1
     published_at: '2026-09-02T22:33:51+00:00'
+    dupe_count: 0
+  - title: v2.1.266
+    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.266
+    summary: 'What''s changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented
+      CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN
+      were both set, began forc'
+    source: Claude Code Releases
+    weight: 1
+    published_at: '2026-09-08T23:55:14+00:00'
     dupe_count: 0
   - title: v2.1.260
     url: https://github.com/anthropics/claude-code/releases/tag/v2.1.260
@@ -541,7 +580,30 @@ tiles:
       simplicity, flexibility, and power to AI-assisted dev
     source: Claude Code Action Releases
     weight: 1
-    published_at: '2026-09-06T02:56:55+00:00'
+    published_at: '2026-09-08T23:57:28+00:00'
+    dupe_count: 0
+  - title: v1.0.219
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.219
+    summary: 'Full Changelog : v1.0.218...v1.0.219'
+    source: Claude Code Action Releases
+    weight: 1
+    published_at: '2026-09-08T23:57:14+00:00'
+    dupe_count: 0
+  - title: v1.0.218
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.218
+    summary: 'Full Changelog : v1.0.217...v1.0.218'
+    source: Claude Code Action Releases
+    weight: 1
+    published_at: '2026-09-08T20:39:25+00:00'
+    dupe_count: 0
+  - title: v2.1.265
+    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.265
+    summary: 'What''s changed Added user.email and user.groups to the telemetry Claude Desktop and Cowork
+      send through a Claude apps gateway, matching terminal sessions Added support for pointing --plugin-dir
+      at a folder of plugins: each child folder with'
+    source: Claude Code Releases
+    weight: 1
+    published_at: '2026-09-08T20:37:31+00:00'
     dupe_count: 0
   - title: v1.0.217
     url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.217
@@ -644,39 +706,4 @@ tiles:
     source: Anthropic SDK (Go) Releases
     weight: 1
     published_at: '2026-09-03T22:05:37+00:00'
-    dupe_count: 0
-  - title: Retire claude-opus-4-1 across cookbooks; align validator model mappin…
-    url: https://github.com/anthropics/claude-cookbooks/commit/26b5cdce81d357596f5df7f44f50908a80be40cf
-    summary: Retire claude-opus-4-1 across cookbooks; align validator model mappings to CLAUDE.md; !pip
-      -> %pip (#807)
-    source: Anthropic Cookbook Commits
-    weight: 1
-    published_at: '2026-09-02T13:40:24+00:00'
-    dupe_count: 0
-  - title: v2.1.258
-    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.258
-    summary: What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced
-      in 2.1.255 Fixed remote and scheduled sessions failing with "user messages must have non-empty content"
-      after a re-sent permission approval c
-    source: Claude Code Releases
-    weight: 1
-    published_at: '2026-09-01T22:33:20+00:00'
-    dupe_count: 0
-  - title: v2.1.257
-    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.257
-    summary: 'What''s changed Added Claude Fable 5.1 ( claude-fable-5-1 ), now the default Fable model
-      — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added "Time format" ( timeFormat ) and
-      timeZone settings: 12-hour, 24-hour, 24-hour UTC, or a'
-    source: Claude Code Releases
-    weight: 1
-    published_at: '2026-09-01T17:53:52+00:00'
-    dupe_count: 0
-  - title: 'sdk: v0.123.0'
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.123.0
-    summary: '0.123.0 (2026-09-01) Full Changelog: sdk-v0.122.0...sdk-v0.123.0 Features api: beta user
-      profiles: add external_user_onboarded_at, remove relationship in favor of access_type ( 3efb1a1
-      ) api: manual updates ( c6f0bda ) api: organization com'
-    source: Anthropic SDK (TypeScript) Releases
-    weight: 1
-    published_at: '2026-09-01T17:50:12+00:00'
     dupe_count: 0
