@@ -37,9 +37,26 @@ jobs:
         run: python docs/scripts/news_fetch.py --verbose
 
       - name: Commit if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "news: daily refresh"
-          file_pattern: "docs/_data/tech_news.yml"
-          commit_user_name: "github-actions[bot]"
-          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+        run: |
+          if git diff --quiet -- docs/_data/tech_news.yml; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add docs/_data/tech_news.yml
+          git commit -m "news: daily refresh"
+          git fetch origin main
+          if ! git rebase origin/main; then
+            if git ls-files --unmerged | awk '{print $4}' | sort -u | grep -qx "docs/_data/tech_news.yml"; then
+              echo "Rebase conflict on docs/_data/tech_news.yml (likely updated by another run). Skipping push."
+              git rebase --abort || true
+              exit 0
+            fi
+            echo "Rebase failed unexpectedly."
+            git rebase --abort || true
+            exit 1
+          fi
+          git push origin HEAD:main
