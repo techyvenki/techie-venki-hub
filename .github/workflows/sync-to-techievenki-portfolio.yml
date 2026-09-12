@@ -14,7 +14,6 @@ jobs:
       - name: Checkout main repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Get full history
           token: ${{ secrets.OMNISTACK_TOKEN }}
           lfs: true  # Add this line to fetch LFS files
 
@@ -25,14 +24,40 @@ jobs:
         env:
           OMNISTACK_TOKEN: ${{ secrets.OMNISTACK_TOKEN }}
         run: |
+          set -euo pipefail
+
           # Configure git
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          
-          # Add the techievenki portfolio repo as a remote.
-          git remote add techievenki https://x-access-token:${OMNISTACK_TOKEN}@github.com/techyvenki/omnistack.git
-          
-          # Push to techievenki portfolio repo (force push to keep them identical)
-          git push techievenki HEAD:main --force
+
+          # Create a clean snapshot commit so old history with blocked secrets is not mirrored.
+          export_dir="$(mktemp -d)"
+          askpass_script="$(mktemp)"
+          trap 'rm -rf "${export_dir}" "${askpass_script}"' EXIT
+
+          rsync -a --delete --exclude='.git' ./ "${export_dir}/"
+          find "${export_dir}" -type d -name .git -prune -exec rm -rf {} +
+
+          git init "${export_dir}"
+          git -C "${export_dir}" symbolic-ref HEAD refs/heads/main
+          git -C "${export_dir}" config user.name "GitHub Actions Bot"
+          git -C "${export_dir}" config user.email "actions@github.com"
+          git -C "${export_dir}" lfs install --local
+
+          git -C "${export_dir}" add --all
+          git -C "${export_dir}" commit -m "Sync from techie-venki-hub"
+
+          cat <<'EOF' > "${askpass_script}"
+          #!/bin/sh
+          case "$1" in
+            *Username*) echo "x-access-token" ;;
+            *Password*) echo "${OMNISTACK_TOKEN}" ;;
+          esac
+          EOF
+          chmod 700 "${askpass_script}"
+
+          # Push the current snapshot to the portfolio repo (force push to keep them identical).
+          GIT_ASKPASS="${askpass_script}" GIT_TERMINAL_PROMPT=0 \
+            git -C "${export_dir}" push https://github.com/techyvenki/omnistack.git HEAD:main --force
           
           echo "✅ Successfully synced to omnistack repository!"
