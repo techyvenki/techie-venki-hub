@@ -1,8 +1,159 @@
-generated_at: '2026-09-12T11:14:35.232799+00:00'
+generated_at: '2026-09-13T11:14:40.316724+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
+  - title: Everyone should slow down AI development except for me
+    url: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/
+    summary: 'Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683
+      Points: 507 # Comments: 308'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-13T00:30:44+00:00'
+    dupe_count: 0
+  - title: Automattic confirms Mullenweg has returned as CEO after attempted ouster by board
+    url: https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/
+    summary: Automattic says Mullenweg is back as "chairman and CEO of Automattic, with full support of
+      the board."
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-12T23:25:38+00:00'
+    dupe_count: 0
+  - title: OpenAI’s rogue AI tried to hack another company in May
+    url: https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack
+    summary: In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious
+      disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were
+      responsible for the attack. Not only that, but th
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-12T21:41:36+00:00'
+    dupe_count: 0
+  - title: Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’
+    url: https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised
+    summary: OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview
+      with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the
+      Hugging Face hacking incident, recursive self-im
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-12T21:16:28+00:00'
+    dupe_count: 1
+  - title: StarCraft returns in 2030 as an open-world shooter
+    url: https://www.theverge.com/games/994371/starcraft-returns-in-2030-as-an-open-world-shooter
+    summary: 'Blizzard originally tried to bring the StarCraft universe to the world of 3D shooters way
+      back in 2002 with StarCraft: Ghost. It sat in development hell for years until Blizzard president
+      Mike Morhaime confirmed that it had been canceled in'
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-12T20:08:09+00:00'
+    dupe_count: 0
+  - title: Anthropic CEO outlines plan to slow AI development
+    url: https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/
+    summary: Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to "pace the
+      frontier." What would that actually look like?
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-12T19:34:44+00:00'
+    dupe_count: 0
+  - title: Tesla says it will finally unveil the second generation Roadster on October 1
+    url: https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/
+    summary: Tesla’s halo sports car was first announced in November 2017.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-12T19:21:19+00:00'
+    dupe_count: 0
+  - title: Sylvan Esso think you should splurge on good-quality yogurt
+    url: https://www.theverge.com/entertainment/994340/sylvan-esso-ow-infinity-interview-music
+    summary: Amelia Meath and Nick Sanborn, better known as Sylvan Esso, have been bringing their low-key
+      electro-pop to the masses since 2014, bursting onto the scene with their self-titled debut album
+      and the single "Hey Mami." Over the years, they've
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-12T16:35:00+00:00'
+    dupe_count: 0
+  - title: Make your first edit to OpenStreetMap
+    url: https://high5apps.github.io/josm-plugin-website-wizard/
+    summary: 'Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050
+      Points: 476 # Comments: 120'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-12T16:25:08+00:00'
+    dupe_count: 0
+  - title: Anthropic CEO says it’s time to pump the brakes on AI
+    url: https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development
+    summary: Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give
+      third-party evaluators like METR access to its models to help ensure its "adherence to safety practices
+      and commitments." In a winding essay, Amodei
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-12T16:23:40+00:00'
+    dupe_count: 0
+  - title: LG responds to TV spying allegations
+    url: https://www.theverge.com/tech/994333/lg-responds-to-tv-spying-allegations
+    summary: Earlier this week, Gamers Nexus, Level1Techs, and independent security researchers detailed
+      some alarming findings about how LG's TVs are logging and uploading data on its users. Now the company
+      is pushing back against those allegations, sa
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-12T15:19:44+00:00'
+    dupe_count: 0
+  - title: Nvidia is the central bank of AI
+    url: https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai
+    summary: 'https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points:
+      494 # Comments: 343'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-12T15:08:27+00:00'
+    dupe_count: 0
+  - title: Trump is giving data centers a pass to pollute
+    url: https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa
+    summary: President Donald Trump is weakening environmental regulations in the name of speeding up
+      the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials
+      said this week in a briefing and new report. T
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-12T14:41:27+00:00'
+    dupe_count: 0
+  - title: Revolut confirms customer data breach through fake government requests
+    url: https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/
+    summary: Revolut said it notified affected customers and alerted the relevant government agency, law
+      enforcement, and financial regulators.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-12T14:40:00+00:00'
+    dupe_count: 0
+  - title: We must pace the frontier
+    url: https://darioamodei.com/post/we-must-pace-the-frontier
+    summary: 'Article URL: https://darioamodei.com/post/we-must-pace-the-frontier Comments URL: https://news.ycombinator.com/item?id=49672510
+      Points: 656 # Comments: 924'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-12T14:10:49+00:00'
+    dupe_count: 0
+  - title: Laika’s stop-motion fantasy Wildwood looks so smooth
+    url: https://www.theverge.com/entertainment/994314/tiff-2026-wildwood-stuffed-julian
+    summary: Due to a scheduling mishap, I was only able to check out two movies on my second day at the
+      Toronto International Film Festival - but I did manage to get an early look at and some fascinating
+      details on one of my most anticipated films this
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-12T13:00:00+00:00'
+    dupe_count: 0
+  - title: Where to preorder the iPhone 18 Pro and Pro Max
+    url: https://www.theverge.com/gadgets/988337/iphone-18-pro-max-preorder-buy
+    summary: The iPhone 18 Pro and 18 Pro Max are almost here. Announced at Apple's September 2026 "Sunrise
+      and shine" event alongside the iPhone Duo and other new gear, the two upgraded phones feature the
+      faster A20 Pro processor with more GPU power as
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-12T12:00:00+00:00'
+    dupe_count: 0
+  - title: I spent $4,000 on a robot dog from China
+    url: https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/
+    summary: Unitree might be the world’s most important robotics company.
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-09-12T11:00:53+00:00'
+    dupe_count: 0
   - title: OpenAI just wants to win
     url: https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition
     summary: 'OpenAI has spent the last few years planting flags across the increasingly difficult terrain
@@ -12,14 +163,6 @@ tiles:
     weight: 1
     published_at: '2026-09-12T11:00:00+00:00'
     dupe_count: 0
-  - title: 'google.com/goto: Google''s anti-scraping update'
-    url: https://www.autom.dev/blog/google-search-goto-links
-    summary: 'Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?id=49668386
-      Points: 453 # Comments: 358'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-12T03:14:20+00:00'
-    dupe_count: 0
   - title: Some satellite companies still have an appetite for boutique launch services
     url: https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/
     summary: '"Dedicated launch is pretty essential for us for most of our missions."'
@@ -27,146 +170,18 @@ tiles:
     weight: 1
     published_at: '2026-09-11T23:34:45+00:00'
     dupe_count: 0
-  - title: OpenAI agents carried out an undisclosed attack on RubyGems
-    url: https://www.rubyhack.ai/
-    summary: 'https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735
-      Points: 732 # Comments: 408'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-11T23:17:42+00:00'
-    dupe_count: 0
-  - title: Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data
-    url: https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/
-    summary: The round for the two-year-old startup is coming together months after Mecka announced its
-      Series A.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-11T22:58:17+00:00'
-    dupe_count: 0
-  - title: Random rewards enrich classic game-theory insights
-    url: https://arstechnica.com/science/2026/09/random-rewards-enrich-classic-game-theory-contests/
-    summary: Simple games gain rich strategies in the face of noise.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-11T21:41:16+00:00'
-    dupe_count: 0
-  - title: Khosla Ventures is opening a New York office this fall — its first outpost outside Sand Hill
-      Road
-    url: https://techcrunch.com/2026/09/11/khosla-ventures-is-opening-a-new-york-office-this-fall-its-first-outpost-outside-sand-hill-road/
-    summary: '"It''s actually allegedly being built out now," said Rabois, who has clearly dealt with
-      a missed construction timeline or two.'
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-11T21:19:05+00:00'
-    dupe_count: 0
-  - title: Bouncy castle launches horrifying MRSA outbreak, striking 48 kids in Ireland
-    url: https://arstechnica.com/health/2026/09/bouncy-castle-launches-horrifying-mrsa-outbreak-striking-48-kids-in-ireland/
-    summary: The strain lurking in the inflatable structure was hypervirulent.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-11T21:14:26+00:00'
-    dupe_count: 0
-  - title: Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
-    url: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/
-    summary: Tan wants smaller, American open-weight AI labs to use the same kind of training techniques
-      on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t
-      Chinese.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-11T20:59:47+00:00'
-    dupe_count: 0
-  - title: OpenAI’s feud with mathematicians is only escalating
-    url: https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/
-    summary: Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening
-      their intellectual work.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-11T20:57:36+00:00'
-    dupe_count: 0
-  - title: Lawyer fined $5K over AI-hallucinated witnesses in a murder case
-    url: https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal
-    summary: 'New Mexico''s Supreme Court is punishing a lawyer for including AI-fabricated witnesses
-      and fake police testimony in an appeal for his client''s murder conviction, according to a report
-      from Reuters. In a filing on Wednesday, the court fined '
-    source: The Verge
-    weight: 1
-    published_at: '2026-09-11T20:44:02+00:00'
-    dupe_count: 0
-  - title: One week left to book your exhibit table at TechCrunch Disrupt 2026
-    url: https://techcrunch.com/2026/09/11/one-week-left-to-book-your-exhibit-table-at-techcrunch-disrupt-2026/
-    summary: Only one week left to secure your exhibit table. Tables are limited and can sell out before
-      the September 18 deadline.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-11T20:33:18+00:00'
-    dupe_count: 0
-  - title: Trump's forced coal plant extensions thrown out by judge
-    url: https://arstechnica.com/science/2026/09/court-rejects-governments-energy-emergency-that-kept-coal-plant-open/
-    summary: The Department of Energy declared an "emergency" when none existed.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-11T20:32:59+00:00'
-    dupe_count: 0
-  - title: Final, final, final call for TechCrunch Disrupt 2026 Side Events
-    url: https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/
-    summary: The absolute last chance to apply to host an official Side Event during TechCrunch Disrupt
-      2026 is tonight, September 11, at 11:59 p.m. PT.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-11T20:30:17+00:00'
-    dupe_count: 0
-  - title: Kimi-maker Moonshot AI targets $2B in annual revenue
-    url: https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/
-    summary: While K3's usage figures have declined slightly in recent months, OpenRouter data currently
-      shows as many as 300 billion tokens being generated each day by K3 models on the system.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-11T19:35:54+00:00'
-    dupe_count: 0
-  - title: ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses
-    url: https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/
-    summary: '"I didn''t know that AI could hallucinate facts," New Mexico defense lawyer says.'
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-11T19:34:09+00:00'
-    dupe_count: 0
-  - title: Roblox is making it easier to build games with AI — and play them outside Roblox
-    url: https://techcrunch.com/2026/09/11/roblox-is-making-it-easier-to-build-games-with-ai-and-play-them-outside-roblox/
-    summary: At its annual Roblox Developer Conference (RDC), the company announced several new features,
-      including new game-creation tools, expanded NPC capabilities, and the ability to make games available
-      across platforms, including the web.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-11T19:00:00+00:00'
-    dupe_count: 0
-  - title: 'Central Eurasia names its 2026 Road to Battlefield winners: Cerberus, WeGlobal AI, and LOOQ'
-    url: https://techcrunch.com/2026/09/11/central-eurasia-names-its-2026-road-to-battlefield-winners-cerberus-weglobal-ai-and-looq/
-    summary: Cerberus, WeGlobal AI, and LOOQ took the top three spots at the regional final of Road to
-      TechCrunch Startup Battlefield 2026 and will represent Central Eurasia in the Startup Battlefield
-      200 at TechCrunch Disrupt in San Francisco this Octo
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-11T18:58:01+00:00'
-    dupe_count: 0
-  - title: Scientists unlock secrets of ancient Egyptian materials with proteomics
-    url: https://arstechnica.com/science/2026/09/scientists-unlock-secrets-of-ancient-egyptian-materials-with-proteomics/
-    summary: Analysis revealed seed proteins from sesame and moringa, which held religious and symbolic
-      significance.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-11T18:49:39+00:00'
-    dupe_count: 0
-  - title: I spent $220 on Google app ads and 60% of the installs were robots
-    url: https://dayzlegame.com/blog/google-ads-bot-farm/
-    summary: 'Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990
-      Points: 561 # Comments: 296'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-11T18:24:55+00:00'
-    dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
+  - title: GÉANT and Quantum Internet Alliance Partner to Advance European Quantum Networking Architecture
+    url: https://quantumcomputingreport.com/geant-and-quantum-internet-alliance-partner-to-advance-european-quantum-networking-architecture/
+    summary: GÉANT and the Quantum Internet Alliance (QIA) have partnered to advance European quantum
+      networking by signing an MoU on September 8, 2026. This collaboration leverages GÉANT's optical
+      network and QIA's quantum networking expertise to devel
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-12T23:03:31+00:00'
+    dupe_count: 0
   - title: 'Klea Dhmitri (Hamamatsu): Photonics as the hidden backbone of quantum hardware scaling'
     url: https://thequantuminsider.com/2026/09/12/klea-dhmitri-hamamatsu-photonics-as-the-hidden-backbone-of-quantum-hardware-scaling/
     summary: Klea Dhmitri of Hamamatsu joins Yuval to discuss the company’s role as a photonic component
@@ -324,217 +339,168 @@ tiles:
     weight: 1
     published_at: '2026-09-11T03:25:34+00:00'
     dupe_count: 0
-  - title: Altera and Riverlane Partner on QEC Interfaces for Agilex FPGAs Following Post-Quantum Security
-      Rollout
-    url: https://quantumcomputingreport.com/altera-and-riverlane-partner-on-qec-interfaces-for-agilex-fpgas-following-post-quantum-security-rollout/
-    summary: Altera and Riverlane have partnered to optimize quantum error correction (QEC) interfaces
-      for Altera's Agilex FPGAs, enabling real-time QEC data movement and low-latency control. This collaboration,
-      which includes an open-source QEC Interfa
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-11T03:11:03+00:00'
-    dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
-  - title: An Agentic Evaluation Framework for AI-Generated Scientific Code in PETSc
-    url: https://arxiv.org/abs/2603.15976
-    summary: 'arXiv:2603.15976v2 Announce Type: replace Abstract: While LLMs have accelerated scientific
-      code generation, comprehensively evaluating generated code remains challenging. Many benchmarks
-      emphasize functional correctness or task completion, '
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: Now everyone can put data to work
+    url: https://openai.com/index/put-data-to-work
+    summary: Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive
+      dashboards with AI using natural language.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-10T15:00:00+00:00'
     dupe_count: 0
-  - title: 'EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale'
-    url: https://arxiv.org/abs/2604.17406
-    summary: 'arXiv:2604.17406v5 Announce Type: replace Abstract: The convergence of large language models
-      and agents is catalyzing a new era of scientific discovery: Agentic Science. However, common agent
-      infrastructure is repeatedly rebuilt across scie'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: Introducing the Agents API
+    url: https://openai.com/index/introducing-the-agents-api
+    summary: Build and launch cloud agents with the Agents API, a managed service powered by the Codex
+      harness for orchestration, long-running sessions, and tool use.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-10T00:00:00+00:00'
     dupe_count: 0
-  - title: 'Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale
-      Agentic Evaluation'
-    url: https://arxiv.org/abs/2609.04298
-    summary: 'arXiv:2609.04298v3 Announce Type: replace Abstract: Evaluating agents on the growing number
-      of agentic benchmarks is challenging because they often require complex environments and agent integrations.
-      We introduce Harbor Adapters, a unified'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: 'Research acceleration: The view inside OpenAI'
+    url: https://openai.com/index/research-acceleration-view-inside-openai
+    summary: Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage,
+      experiment velocity, task complexity, and research acceleration.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-06T08:00:00+00:00'
     dupe_count: 0
-  - title: 'AI Economist Agent: An Agentic Framework for Evidence-Based Economic and Financial Analysis
-      with RAG, Knowledge Graphs, and Large Language Models'
-    url: https://arxiv.org/abs/2606.20041
-    summary: 'arXiv:2606.20041v2 Announce Type: replace-cross Abstract: We propose an AI economist agent
-      for economic and financial scenario analysis. Scenario design often requires analysts to assess
-      emerging risks with limited historical precedent, com'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: Perplexity trusts GPT-6 Astra with end-to-end systems
+    url: https://openai.com/index/perplexity-improving-accuracy-with-astra
+    summary: Perplexity uses Astra to write communications, change software, and monitor production systems,
+      and checks in much less frequently than with earlier models.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-14T00:00:00+00:00'
     dupe_count: 0
-  - title: A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning
-    url: https://arxiv.org/abs/2609.10654
-    summary: 'arXiv:2609.10654v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus (ARC)
-      benchmarks cognitive generalization, the ability to infer and apply abstract rules from limited
-      examples. This paper presents a multi-stage rule-chai'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: v0.29.1rc0
+    url: https://github.com/vllm-project/vllm/releases/tag/v0.29.1rc0
+    summary: '[watermarking] Dual-key gumbel-max watermarking for speculative decod…'
+    source: vLLM Releases
+    weight: 1
+    published_at: '2026-09-12T18:42:01+00:00'
     dupe_count: 0
-  - title: Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows
-    url: https://arxiv.org/abs/2609.10964
-    summary: 'arXiv:2609.10964v1 Announce Type: new Abstract: Agentic LLM workflows consist of sequences
-      of model turns interleaved with tool interactions, so their end-to-end completion time depends not
-      only on inference speed but also on when ready tur'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: Cognition helps Devin test its own work with GPT‑6 Astra
+    url: https://openai.com/index/cognition-devin-testing-with-astra
+    summary: GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal
+      of helping engineers review less code and ship more.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-11T16:00:00+00:00'
     dupe_count: 0
-  - title: 'Defining AI Agents: A Compendium of Criteria, Metrics, and Benchmarks'
-    url: https://arxiv.org/abs/2609.11018
-    summary: 'arXiv:2609.11018v1 Announce Type: new Abstract: The term agent in artificial intelligence
-      lacks a standard definition, complicating the evaluation, comparison, and reproducibility of AI
-      agent research. We address this ambiguity through a su'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: Rapidly scaling online storage to serve over 1 billion ChatGPT users
+    url: https://openai.com/index/scaling-storage-one-billion-users-part-one
+    summary: Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage
+      platform serving 1 billion ChatGPT users and 22M requests per second.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-11T10:00:00+00:00'
     dupe_count: 0
-  - title: Autonomous Chemical Mechanistic Discovery through Agentic Reasoning and Validation
-    url: https://arxiv.org/abs/2609.11147
-    summary: 'arXiv:2609.11147v1 Announce Type: new Abstract: Unraveling reaction mechanisms is central
-      to modern chemistry, yet automating these investigations remains challenging because computational
-      workflows still rely heavily on expert intervention'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: proto-v0.1.0
+    url: https://github.com/vllm-project/vllm/releases/tag/proto-v0.1.0
+    summary: vllm-proto 0.1.0
+    source: vLLM Releases
+    weight: 1
+    published_at: '2026-09-11T08:30:05+00:00'
     dupe_count: 0
-  - title: 'SemVerBench: Benchmarking LLM Comprehension of Version-Constraint Resolution Semantics'
-    url: https://arxiv.org/abs/2609.11180
-    summary: 'arXiv:2609.11180v1 Announce Type: new Abstract: Large language model (LLM) coding agents
-      constantly decide whether a version satisfies a constraint such as ^1.2.3 or >=2.0, 1.2 means >=1.3.0)
-      traps every model on Cargo (near 60%), and altho'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: v0.29.0
+    url: https://github.com/vllm-project/vllm/releases/tag/v0.29.0
+    summary: 'v0.29.0 Highlights This release features 594 commits from 277 contributors (91 new)! Model
+      Runner V2 is now the default for all models ( #53183 ), completing the rollout that began with pooling
+      models ( #48290 ). MRV2 also gained CUDA graph'
+    source: vLLM Releases
+    weight: 1
+    published_at: '2026-09-10T23:53:36+00:00'
     dupe_count: 0
-  - title: 'Agentic Share-of-Search: A Multi-Agent AI System for Competitive Decision-Making in LLM-Mediated
-      E-Commerce'
-    url: https://arxiv.org/abs/2609.11190
-    summary: 'arXiv:2609.11190v1 Announce Type: new Abstract: AI shopping assistants increasingly redirect
-      consumer discovery, creating an urgent need for tools that support seller-side competitive decision-making.
-      We present a multi-agent AI system that'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
+    url: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
+    summary: César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for
+      antimicrobial candidates to fight drug-resistant infections.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-10T16:00:00+00:00'
     dupe_count: 0
-  - title: 'A Voice-Interactive Multi-Agent System for Smart Operating Rooms: Architecture Design and
-      Key Technologies'
-    url: https://arxiv.org/abs/2609.11231
-    summary: 'arXiv:2609.11231v1 Announce Type: new Abstract: This paper presents SurgicalRoomAgent, a
-      voice-interactive multi-agent system for smart operating rooms based on large language models (LLMs).
-      The system achieves natural language understandin'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: Introducing ChatGPT for Financial Services
+    url: https://openai.com/index/introducing-chatgpt-financial-services
+    summary: Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra
+      for research, modeling, and client-ready materials.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-10T07:00:00+00:00'
     dupe_count: 0
-  - title: 'Sci-MMR: Benchmarking Multi-Step Evidence-Grounded Scientific Reasoning in Multimodal Agents'
-    url: https://arxiv.org/abs/2609.11243
-    summary: 'arXiv:2609.11243v1 Announce Type: new Abstract: Autonomous research agents are increasingly
-      expected to search the literature, analyze experimental evidence, and generate scientific hypotheses.
-      These capabilities require multi-step evidence'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: Expanding AI access and cyber defense for federal, state, local, and tribal governments
+    url: https://openai.com/index/expanding-ai-access-us-government
+    summary: OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license
+      fees, 50% off usage, and expanded cyber defense support.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-10T07:00:00+00:00'
     dupe_count: 0
-  - title: 'Mr.LHDR: A Benchmark for Multimodal Real-World Long-Horizon Deep Research Agents'
-    url: https://arxiv.org/abs/2609.11318
-    summary: 'arXiv:2609.11318v1 Announce Type: new Abstract: Deep research agents are increasingly capable
-      of web search, tool use, multimodal evidence analysis, and information synthesis. However, existing
-      benchmarks mainly evaluate medium-horizon expl'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: Build more natural voice experiences with GPT‑Live‑1 in the API
+    url: https://openai.com/index/introducing-gpt-live-1-in-the-api
+    summary: GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction
+      following, custom voices, and telephony support.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-10T00:00:00+00:00'
     dupe_count: 0
-  - title: 'Autonomy, Social Norms, and Alignment: Towards a Developmental Framework for Autonomous Artificial
-      Agents'
-    url: https://arxiv.org/abs/2609.11660
-    summary: 'arXiv:2609.11660v1 Announce Type: new Abstract: In recent years, artificial intelligence
-      has made extraordinary progress thanks to large-scale models capable of generalization and the generation
-      of complex outputs. However, transferring thi'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: Rebuilding AUTOMATIC1111 with Gradio Workflow
+    url: https://huggingface.co/blog/gradio-workflow-1111
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-09-10T00:00:00+00:00'
     dupe_count: 0
-  - title: 'Artificial Id: Drive and Persistent Alignment in Agentic AI'
-    url: https://arxiv.org/abs/2609.11911
-    summary: 'arXiv:2609.11911v1 Announce Type: new Abstract: Agentic AI is moving from bounded task execution
-      toward systems that retain consequential state, continue operating and adapt across task boundaries.
-      That shift creates a control problem that '
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: Paul Christiano joins OpenAI Foundation Board
+    url: https://openai.com/index/paul-christiano-joins-openai-foundation-board
+    summary: Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee,
+      bringing experience in AI alignment, safety, and standards.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-09T17:00:00+00:00'
     dupe_count: 0
-  - title: 'Tapes Together Strong: The Co-evolution of Computation and Cooperation'
-    url: https://arxiv.org/abs/2609.10817
-    summary: 'arXiv:2609.10817v1 Announce Type: cross Abstract: How does cooperation evolve in complex
-      agentic systems? Prior work in evolutionary game theory studies why individuals are incentivized
-      to cooperate by isolating social interactions from the'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license
+    url: https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-09-09T15:36:24+00:00'
     dupe_count: 0
-  - title: 'BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation
-      Infrastructure'
-    url: https://arxiv.org/abs/2609.11028
-    summary: 'arXiv:2609.11028v1 Announce Type: cross Abstract: LM-agent benchmarks increasingly function
-      as interactive evaluation infrastructure. Agents observe state, call tools, modify workspaces, submit
-      artifacts, and receive rewards from outcome pr'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: The AI policy window is open. We need to act.
+    url: https://openai.com/index/ai-policy-window
+    summary: Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared
+      standards, and durable policy action while the policy window remains open.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-09T13:00:00+00:00'
     dupe_count: 0
-  - title: 'terms.txt: A Consent and Compensation Protocol for Agentic Web Access'
-    url: https://arxiv.org/abs/2609.11152
-    summary: 'arXiv:2609.11152v1 Announce Type: cross Abstract: The open web ran on an unwritten bargain:
-      sites admitted crawlers, and search engines sent visitors back. Public measurements show that bargain
-      breaking under AI crawlers and agents. Automat'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: 'GPT-6 Astra: The next generation in intelligence for work'
+    url: https://openai.com/index/gpt-6-astra-next-generation-work
+    summary: Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer
+      use, and stronger writing and design judgment.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-09T11:00:00+00:00'
     dupe_count: 0
-  - title: '2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation'
-    url: https://arxiv.org/abs/2609.11308
-    summary: 'arXiv:2609.11308v1 Announce Type: cross Abstract: Long-horizon robot manipulation requires
-      memory, but not necessarily inside the action policy. To address such tasks, current agentic systems
-      often combine VLAs with planners and geometric t'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: How GPT-5.6 Sol helps run quantum computing experiments
+    url: https://openai.com/index/codex-quantum-computing-experiments
+    summary: See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing
+      experiments, analyze results, and calibrate qubits.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-08T17:00:00+00:00'
     dupe_count: 0
-  - title: A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design
-    url: https://arxiv.org/abs/2606.12040
-    summary: 'arXiv:2606.12040v3 Announce Type: replace Abstract: The design of reinforced concrete (RC)
-      highway barriers is a safety-critical engineering task that requires strict compliance with regulatory
-      provisions such as the AASHTO LRFD Bridge Desi'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-09-12T04:00:00+00:00'
+  - title: Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic
+    url: https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-09-08T14:23:07+00:00'
     dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
   items:
-  - title: v2.1.259
-    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.259
-    summary: 'What''s changed Added managedMcpServers managed setting: organizations can provide HTTP/SSE
-      MCP servers to every user (same entry shape as .mcp.json ); entries that name a command to run are
-      skipped Added --permission-prompts none for unatte'
-    source: Claude Code Releases
-    weight: 1
-    published_at: '2026-09-02T22:33:51+00:00'
-    dupe_count: 0
   - title: v2.1.267
     url: https://github.com/anthropics/claude-code/releases/tag/v2.1.267
     summary: 'What''s changed Added maxEffortLevel setting (top-level or per model under modelSettings
@@ -569,7 +535,22 @@ tiles:
       simplicity, flexibility, and power to AI-assisted dev
     source: Claude Code Action Releases
     weight: 1
-    published_at: '2026-09-11T19:20:16+00:00'
+    published_at: '2026-09-12T19:48:05+00:00'
+    dupe_count: 0
+  - title: v1.0.223
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.223
+    summary: 'Full Changelog : v1.0.222...v1.0.223'
+    source: Claude Code Action Releases
+    weight: 1
+    published_at: '2026-09-12T19:47:51+00:00'
+    dupe_count: 0
+  - title: v2.1.270
+    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.270
+    summary: What's changed Fixed read-only git commands in Bash unexpectedly asking for permission after
+      a session had been running for a while (regression in 2.1.269)
+    source: Claude Code Releases
+    weight: 1
+    published_at: '2026-09-12T19:45:44+00:00'
     dupe_count: 0
   - title: v1.0.222
     url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.222
@@ -662,7 +643,7 @@ tiles:
     source: Claude Code Action Releases
     weight: 1
     published_at: '2026-09-06T02:56:44+00:00'
-    dupe_count: 3
+    dupe_count: 2
   - title: v2.1.263
     url: https://github.com/anthropics/claude-code/releases/tag/v2.1.263
     summary: What's changed Bug fixes and reliability improvements
@@ -677,12 +658,4 @@ tiles:
     source: Anthropic SDK (TypeScript) Releases
     weight: 1
     published_at: '2026-09-04T22:20:48+00:00'
-    dupe_count: 0
-  - title: 'foundry-sdk: v0.4.5'
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/foundry-sdk-v0.4.5
-    summary: '0.4.5 (2026-09-04) Full Changelog: foundry-sdk-v0.4.4...foundry-sdk-v0.4.5 Chores examples:
-      refresh platform model IDs ( #376 ) ( 2637d11 )'
-    source: Anthropic SDK (TypeScript) Releases
-    weight: 1
-    published_at: '2026-09-04T22:20:42+00:00'
     dupe_count: 0
