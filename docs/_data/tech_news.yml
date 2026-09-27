@@ -1,8 +1,153 @@
-generated_at: '2026-09-26T11:15:30.228620+00:00'
+generated_at: '2026-09-27T11:16:15.463550+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
+  - title: PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair
+    url: https://techcrunch.com/2026/09/26/pnoes-new-face-mask-wants-to-make-lab-grade-breath-testing-a-self-serve-affair/
+    summary: PNOĒ, the Malden, Mass.-based startup whose breath-analyzing mask used to bear an unfortunate
+      resemblance to Bane's, is launching a sleeker self-serve version on October 1 that lets gym-goers
+      measure their VO₂ max and other metabolic marker
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-27T01:40:30+00:00'
+    dupe_count: 0
+  - title: Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India
+    url: https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/
+    summary: The limited test covers select products and users, with a broader rollout planned for later
+      in October.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-27T01:30:00+00:00'
+    dupe_count: 0
+  - title: Apple hit with $5.7 billion in damages over haptic patents
+    url: https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents
+    summary: Haptics tech company Taction sued Apple in 2021, alleging it infringed two of its patents.
+      Now a federal jury in San Diego has awarded Taction over $5.7 billion in damages. According to CNBC,
+      "The lawsuit centered around U.S. Patent Nos. 10
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-26T21:30:01+00:00'
+    dupe_count: 0
+  - title: Insurers claim AI is already increasing healthcare costs
+    url: https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/
+    summary: Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare
+      spending over a two-year period.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-26T21:02:06+00:00'
+    dupe_count: 0
+  - title: TikTok agrees to pay at least $100M in Alabama settlement
+    url: https://techcrunch.com/2026/09/26/tiktok-agrees-to-pay-at-least-100m-in-alabama-settlement/
+    summary: TikTok will pay Alabama at least $100 million in a settlement tied to allegations that the
+      short-form video platform misled users about safety and was designed to addict children.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-26T20:24:45+00:00'
+    dupe_count: 0
+  - title: Decap is the man behind the drums behind your favorite song
+    url: https://www.theverge.com/report/1000994/decap-drums-that-knock-interview
+    summary: I don't think I'm going to hurt anyone's feelings by pointing out that Decap doesn't have
+      the name recognition of Kendrick Lamar, Olivia Rodrigo, or Charli XCX. But his fingerprints are
+      all over tracks from them, as well as many other artis
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-26T19:30:00+00:00'
+    dupe_count: 0
+  - title: Meta and YouTube say they will run ads for ‘Musk’ documentary after all
+    url: https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all/
+    summary: Two companies now say they will accept advertising for director Alex Gibney’s upcoming documentary
+      about Elon Musk, following earlier reporting that a number of social media platforms had rejected
+      the ads.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-26T17:44:00+00:00'
+    dupe_count: 0
+  - title: Kids turned the comment section of an NPR podcast into a group chat
+    url: https://www.theverge.com/entertainment/1001056/this-american-life-npr-kids-group-chat-comment-section
+    summary: Middle schoolers, likely blocked from other apps and social networks, apparently turned the
+      Spotify comment section under an episode of NPR's Wild Card into an impromptu group chat. In a new
+      episode of This American Life, host Ira Glass dig
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-26T17:32:35+00:00'
+    dupe_count: 0
+  - title: 'Show HN: Reladraw – A diagram language where you decide where to place things'
+    url: https://github.com/reladraw/reladraw
+    summary: 'I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement
+      languages like Mermaid or Graphviz (which don''t let me decide how the diagram looks), or (B) software
+      like Draw.io which are powerful but are '
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-26T17:10:40+00:00'
+    dupe_count: 0
+  - title: Levoit’s new air purifier is for the pet odors that have taken over your apartment
+    url: https://techcrunch.com/2026/09/26/levoits-new-air-purifier-is-for-the-pet-odors-that-have-taken-over-your-apartment/
+    summary: This $189.99 air purifier is specifically designed to tackle pet odors, removing up to 70%
+      in one hour.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-26T17:00:00+00:00'
+    dupe_count: 0
+  - title: OpenAI pauses training of its ‘most capable models’
+    url: https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause
+    summary: As reports of OpenAI's models breaking containment, hacking sites, and generally getting
+      out of control pile up, the company has made the decision to pause training of its most powerful
+      models. The decision was made after a model being test
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-26T16:34:59+00:00'
+    dupe_count: 0
+  - title: I created an interactive digital avatar of myself — and you can talk to it
+    url: https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/
+    summary: After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed
+      feelings about making AI clones of ourselves.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-09-26T14:00:00+00:00'
+    dupe_count: 0
+  - title: Can Cloudflare CEO Matthew Prince save the web from AI?
+    url: https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising
+    summary: Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of
+      a two-part series on the future of business. Matthew last joined us on the show about two and a
+      half years ago, at what we thought then was a wild piv
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-26T14:00:00+00:00'
+    dupe_count: 0
+  - title: Control Resonant is a great game — it’s even better when you read everything
+    url: https://www.theverge.com/games/1000818/control-resonant-reading-collectibles-documents-logs
+    summary: In Control Resonant, the entire world is at stake. But that didn't stop the diligent employees
+      of the Federal Bureau of Control from filing reams of paperwork, and it didn't stop me from reading
+      everything I could find, either. Reading is o
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-26T13:00:00+00:00'
+    dupe_count: 0
+  - title: Pokémon card resellers have turned collecting into an online blood sport
+    url: https://www.theverge.com/games/1001002/pokemon-30th-celebration-scalping-resellers
+    summary: Earlier this month, Pokémon card content creator Natalie Roush posted a video to her YouTube
+      and Instagram pages that enraged the larger collection community. In the now-deleted video, Roush
+      shows off two premium boxes of cards that had not
+    source: The Verge
+    weight: 1
+    published_at: '2026-09-26T12:00:00+00:00'
+    dupe_count: 0
+  - title: Tesla’s big electric truck faces an even bigger infrastructure challenge
+    url: https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/
+    summary: The 500-mile Semi arrives as charging gaps still limit electric trucking.
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-09-26T10:45:09+00:00'
+    dupe_count: 0
+  - title: Fifteen years later, the Apple Cards origin story
+    url: https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story
+    summary: 'Article URL: https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story Comments
+      URL: https://news.ycombinator.com/item?id=49854693 Points: 400 # Comments: 103'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-09-26T09:13:41+00:00'
+    dupe_count: 0
   - title: Can ‘eSUV’ e-bikes really go from trail to town?
     url: https://www.theverge.com/transportation/999785/amflow-tl-review-avinox-esuv-e-bike-avinox
     summary: 'Have you ever wanted an electric bike that easily transitions from the drudgery of urban
@@ -28,138 +173,47 @@ tiles:
     weight: 1
     published_at: '2026-09-25T23:11:10+00:00'
     dupe_count: 0
-  - title: Automattic has a new board after failed attempt to put CEO on leave
-    url: https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/
-    summary: After days of upheaval at Automattic, following a failed attempt to remove CEO Matt Mullenweg,
-      the company has a new board.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-25T23:04:34+00:00'
-    dupe_count: 0
-  - title: Can Trump ever be wrong? His pick to lead FDA refused to say.
-    url: https://arstechnica.com/health/2026/09/can-trump-ever-be-wrong-his-pick-to-lead-fda-refused-to-say/
-    summary: Heidi Overton faced questions focused on vaccines, birth control, and vapes.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-25T23:00:26+00:00'
-    dupe_count: 0
-  - title: Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge
-    url: https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/
-    summary: AI agents operating in OpenAI's research environment posted user images on public image-hosting
-      sites without the lab's knowledge.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-25T22:20:47+00:00'
-    dupe_count: 0
-  - title: Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features
-    url: https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/
-    summary: '"Overly constrained AI models" could cause military operations to fail, judges say.'
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-25T21:36:20+00:00'
-    dupe_count: 0
-  - title: Tesla workers balk at training Optimus humanoid robots as replacements
-    url: https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/
-    summary: Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-25T21:10:51+00:00'
-    dupe_count: 0
-  - title: Revealing the details of how OpenAI agents hacked Hugging Face
-    url: https://swarmtraces.org/
-    summary: 'Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985
-      Points: 503 # Comments: 310'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-25T21:09:27+00:00'
-    dupe_count: 0
-  - title: Meta opens early access program for new Muse features
-    url: https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/
-    summary: Anyone interested in joining has to ask Muse to put them on the list.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-25T20:34:53+00:00'
-    dupe_count: 0
-  - title: The hottest new hangout for middle schoolers is NPR’s comment section?
-    url: https://techcrunch.com/2026/09/25/the-hottest-new-hangout-for-middle-schoolers-is-nprs-comment-section/
-    summary: When NPR staffers flagged strange comments under their podcasts on Spotify as bots, it took
-      a Gen Z colleague to (immediately) figure out the mystery.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-25T20:33:58+00:00'
-    dupe_count: 0
-  - title: Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?
-    url: https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/
-    summary: Ads appearing all over the Internet are trying to scam people.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-25T19:38:59+00:00'
-    dupe_count: 0
-  - title: 'Review: The iPhone 18 Pro is Apple''s coolest smartphone (but only literally)'
-    url: https://arstechnica.com/apple/2026/09/review-the-iphone-18-pro-is-apples-coolest-smartphone-but-only-literally/
-    summary: Better thermals and battery life make this iterative update nicer to use.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-25T19:34:42+00:00'
-    dupe_count: 0
-  - title: Anthropic to pay Akamai $11.6 billion over seven years in cloud deal
-    url: https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/
-    summary: Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure,
-      a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving
-      Anthropic a potential stake of up to 5% of its stoc
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-25T19:13:38+00:00'
-    dupe_count: 0
-  - title: AI was supposed to hit new grads hard. So far, unemployment data says otherwise.
-    url: https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/
-    summary: '"There is no evidence of any significant, widespread displacement or reduction in hiring.”'
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-25T19:11:05+00:00'
-    dupe_count: 0
-  - title: Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not
-      his
-    url: https://techcrunch.com/2026/09/25/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/
-    summary: Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare,
-      wellness, and building businesses.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-25T18:48:33+00:00'
-    dupe_count: 0
-  - title: Paramount/WBD merger conditions give the public "virtually nothing," judge is told
-    url: https://arstechnica.com/tech-policy/2026/09/paramount-wbd-merger-conditions-give-the-public-virtually-nothing-judge-is-told/
-    summary: US judge reviews deal with California, says it must not be result of collusion.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-25T18:42:57+00:00'
-    dupe_count: 0
-  - title: Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing
-    url: https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/
-    summary: The funding, which comes from Third Point, Nvidia, and others, will fuel the company's massive
-      AI data center buildout.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-09-25T18:33:59+00:00'
-    dupe_count: 0
-  - title: Ollaya – Ollama for open-source, Jev-style decision models
-    url: https://ollaya.dev/
-    summary: 'Article URL: https://ollaya.dev/ Comments URL: https://news.ycombinator.com/item?id=49848269
-      Points: 470 # Comments: 117'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-09-25T18:33:50+00:00'
-    dupe_count: 0
-  - title: Is solar's growth finally slowing in the US?
-    url: https://arstechnica.com/science/2026/09/is-solars-growth-finally-slowing-in-the-us/
-    summary: Renewables easily cover changes in US demand, which is rising by 2% in 2026.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-09-25T18:27:18+00:00'
-    dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
+  - title: 'Sebastian Hassinger (The New Quantum Era): why neutral atoms lead the qubit race for now'
+    url: https://thequantuminsider.com/2026/09/26/sebastian-hassinger-the-new-quantum-era-why-neutral-atoms-lead-the-qubit-race-for-now/
+    summary: Yuval Boger interviews Sebastian Hassinger, host of The New Quantum Era podcast, and author
+      of a new book by the same name. Sebastian and I have many things in common beyond our jobs in quantum.
+      We are both podcasters, neither of us has a P
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-09-26T19:00:00+00:00'
+    dupe_count: 0
+  - title: MANA Reveals Atomic-Scale Rails for Guiding Superconducting Vortices
+    url: https://thequantuminsider.com/2026/09/26/mana-reveals-atomic-scale-rails-for-guiding-superconducting-vortices/
+    summary: Insider Brief PRESS RELEASE — Researchers at the Research Center for Materials Nanoarchitectonics
+      (MANA), one of the centers under the National Institute for Materials Science (NIMS), Japan, discovered
+      that atomic-scale steps can guide supe
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-09-26T13:46:41+00:00'
+    dupe_count: 0
+  - title: 'Who’s News: Strategic Appointments at D-Wave Quantum, Oxford Quantum Circuits, and Bifrost
+      Electronics'
+    url: https://quantumcomputingreport.com/whos-news-strategic-appointments-at-d-wave-quantum-oxford-quantum-circuits-and-bifrost-electronics/
+    summary: 'Bernard Gavgani joins D-Wave Quantum''s board, bringing fintech and cybersecurity expertise.
+      Simon Phillips is now CPO at Oxford Quantum Circuits, focusing on commercializing Quantum-AI platforms,
+      and Doug Campbell is the new CEO of Bifrost '
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-26T09:54:59+00:00'
+    dupe_count: 0
+  - title: ETSI Identifies Technical Limitations and Implementation Vulnerabilities in Quantum Random
+      Number Generators (ETSI TR 104 171)
+    url: https://quantumcomputingreport.com/etsi-identifies-technical-limitations-and-implementation-vulnerabilities-in-quantum-random-number-generators-etsi-tr-104-171/
+    summary: ETSI's new report, TR 104 171, addresses vulnerabilities in Quantum Random Number Generators
+      (QRNGs) due to practical hardware limitations. It provides guidelines across the QRNG lifecycle,
+      including the Entropy Zero Trust (EZT) framework t
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-09-26T09:38:41+00:00'
+    dupe_count: 0
   - title: 'Pasqal Reports H1 2026 Financial Results: €312.9M Post-SPAC Cash Balance, 14% Revenue Growth,
       and 1,000-Atom Scale'
     url: https://quantumcomputingreport.com/pasqal-reports-h1-2026-financial-results-e312-9m-post-spac-cash-balance-14-revenue-growth-and-1000-atom-scale/
@@ -272,24 +326,6 @@ tiles:
     weight: 1
     published_at: '2026-09-25T09:54:38+00:00'
     dupe_count: 0
-  - title: DigiCert Launches Quantum Central for Post-Quantum Cryptography Readiness
-    url: https://thequantuminsider.com/2026/09/25/digicert-quantum-central-pqc-plans-action/
-    summary: 'Insider Brief PRESS RELEASE — DigiCert, a global leader in intelligent trust, today announced
-      the general availability of DigiCert Quantum Central, part of the DigiCert ONE platform, that helps
-      organizations manage and demonstrate progress '
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-09-25T08:35:42+00:00'
-    dupe_count: 0
-  - title: Evaluating Quantum Generative Models on Real Satellite Radar
-    url: https://thequantuminsider.com/2026/09/25/evaluating-quantum-generative-models-on-real-satellite-radar/
-    summary: Insider Brief PRESS RELEASE — IonQ researchers applied a quantum generative machine learning
-      model to help detect changes in highly complex satellite image data. The results, detailed in a
-      recently published paper, reveal that using quantum
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-09-25T07:56:35+00:00'
-    dupe_count: 0
   - title: DigiCert Announces General Availability of Quantum Central Platform for PQC Migration Management
     url: https://quantumcomputingreport.com/digicert-announces-general-availability-of-quantum-central-platform-for-pqc-migration-management/
     summary: DigiCert has launched Quantum Central, an enterprise management suite within its DigiCert
@@ -299,209 +335,164 @@ tiles:
     weight: 1
     published_at: '2026-09-25T07:17:59+00:00'
     dupe_count: 0
-  - title: Qambria Secures $2.4M Pre-Seed Funding to Commercialize Sub-Microsecond Classical Control Infrastructure
-      for Fault-Tolerant Quantum Systems
-    url: https://quantumcomputingreport.com/qambria-secures-2-4m-pre-seed-funding-to-commercialize-sub-microsecond-classical-control-infrastructure-for-fault-tolerant-quantum-systems/
-    summary: Qambria AG, a Swiss quantum infrastructure developer, has successfully closed a $2.4 million
-      pre-seed funding round led by Syntropy. The company aims to commercialize a classical engine for
-      quantum computing, focusing on software and contro
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-25T07:09:26+00:00'
-    dupe_count: 0
-  - title: QuiX Quantum Partners with Tohoku Electronic Industrial for Exclusive Distribution in Japan
-    url: https://quantumcomputingreport.com/quix-quantum-partners-with-tohoku-electronic-industrial-for-exclusive-distribution-in-japan/
-    summary: 'QuiX Quantum has partnered with Tohoku Electronic Industrial Co., Ltd. (TEI-C) for exclusive
-      distribution of its integrated photonic processing hardware in Japan. This includes the Alquor 2.0
-      quantum photonic processor and the PACU control '
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-09-25T06:48:54+00:00'
-    dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
-  - title: 'ASIRF: An Agentic Framework for Context-Dependent Sensitive Information Redaction'
-    url: https://arxiv.org/abs/2609.29191
-    summary: 'arXiv:2609.29191v1 Announce Type: cross Abstract: Sensitive information is defined by domain
-      and intent, not a universal category, yet redaction systems such as privacy filters and named-entity
-      recognizers fix a taxonomy at training time, r'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: Ringg’s AI agents resolve up to 65% of customer calls with OpenAI
+    url: https://openai.com/index/ringg
+    summary: Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for
+      90% less cost vs. GPT-4.1.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-23T12:00:00+00:00'
     dupe_count: 0
-  - title: Graph, Loop, and Harness Engineering for Zero-Trust Agentic Data Engineering and Analytical
-      Processing
-    url: https://arxiv.org/abs/2609.29668
-    summary: 'arXiv:2609.29668v1 Announce Type: new Abstract: Large language model agents increasingly
-      automate data workflows, but end-to-end cloud data engineering and analytical execution require
-      reliable coordination across code, data, infrastructure'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: Introducing MentalHealthBench
+    url: https://openai.com/index/introducing-mentalhealthbench
+    summary: MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses
+      across realistic mental health conversations.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-23T10:00:00+00:00'
     dupe_count: 0
-  - title: 'RADAR: Readiness for AI Discovery and Agentic Reach'
-    url: https://arxiv.org/abs/2609.28480
-    summary: 'arXiv:2609.28480v1 Announce Type: cross Abstract: Governments increasingly meet citizens
-      through an AI system rather than a website. RADAR (Readiness for AI Discovery and Agentic Reach)
-      measures whether that system works, across 166 countri'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: Parallel cut research time and cost in half with GPT‑6 Astra
+    url: https://openai.com/index/parallel-cuts-time-and-cost-with-astra
+    summary: GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half
+      the time and at half the cost vs. prior models.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-22T12:00:00+00:00'
     dupe_count: 0
-  - title: 'Don''t Read the Log: Execution Traces Contaminate Verifiers in Video-Generation Agents'
-    url: https://arxiv.org/abs/2609.28564
-    summary: 'arXiv:2609.28564v1 Announce Type: cross Abstract: Agentic video-generation systems close
-      a loop between a generator and a verifier: an LLM plans shots, calls a text-to-video model, and
-      a multimodal judge decides whether the result satisfies'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: How UK AISI and EvalEval Are Making Benchmark Results Reproducible
+    url: https://huggingface.co/blog/evaleval-aisi
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-09-22T00:00:00+00:00'
     dupe_count: 0
-  - title: 'When Fancy Eviction Fails: Rethinking Cache Replacement For LLM Prefix Reuse'
-    url: https://arxiv.org/abs/2609.28870
-    summary: 'arXiv:2609.28870v1 Announce Type: cross Abstract: Long-running LLM applications repeatedly
-      send growing context, making prefix caching critical for reducing prefill cost. Yet prefix-cache
-      behavior under agentic workloads remains poorly unde'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna
+    url: https://openai.com/index/v7
+    summary: Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex,
+      source-linked work.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-21T00:00:00+00:00'
     dupe_count: 0
-  - title: 'Forecast-Dojo: Replayable Environments for Benchmarking and Training LLM Forecasting Agents'
-    url: https://arxiv.org/abs/2609.28876
-    summary: 'arXiv:2609.28876v1 Announce Type: cross Abstract: We introduce Forecast-Dojo, a replayable
-      environment for benchmarking and training LLM forecasting agents. It combines resolved prediction-market
-      questions with dated news, allowing agents t'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: Proaction boosts sales 60% and saves 75+ hours with Codex
+    url: https://openai.com/index/proaction
+    summary: With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet
+      management faster.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-25T19:00:00+00:00'
     dupe_count: 0
-  - title: 'EvoTreeNAD: Genealogy-Guided Evolution for LLM-Driven Neural Architecture Discovery'
-    url: https://arxiv.org/abs/2609.29016
-    summary: 'arXiv:2609.29016v1 Announce Type: cross Abstract: AI-driven scientific discovery accelerates
-      research by autonomously developing solutions and designs. Large language model (LLM) agents support
-      this process through iterative generation and '
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: Accelerating vision-language models with LFM2.5-VL-DSpark
+    url: https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-09-24T14:08:57+00:00'
     dupe_count: 0
-  - title: 'Where Hallucinations Live: A Cross-Architecture Circuit in VQ-Tokenized Vision-Language Models'
-    url: https://arxiv.org/abs/2609.29048
-    summary: 'arXiv:2609.29048v1 Announce Type: cross Abstract: Unified vision-language models (VLMs)
-      that tokenize images through a vector-quantized (VQ) codebook routinely hallucinate objects on grounded
-      yes/no benchmarks, yet existing decoding-time fi'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows
+    url: https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-09-23T18:41:40+00:00'
     dupe_count: 0
-  - title: Towards Deployable Underwater Vessel Classification
-    url: https://arxiv.org/abs/2609.29179
-    summary: 'arXiv:2609.29179v1 Announce Type: cross Abstract: We propose a compact underwater acoustic
-      classification framework combining multi-representation feature engineering, temporal statistical
-      pooling, and compact convolutional architectures de'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: Two years of OpenAI Academy
+    url: https://openai.com/index/two-years-of-openai-academy
+    summary: Marking two years of OpenAI Academy and bringing AI skills to even more communities.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-23T16:00:00+00:00'
     dupe_count: 0
-  - title: 'KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization'
-    url: https://arxiv.org/abs/2609.30059
-    summary: 'arXiv:2609.30059v1 Announce Type: cross Abstract: Deep learning inference and training performance
-      depends critically on GPU kernel efficiency. Modern compilers such as PyTorch Inductor automatically
-      generate GPU kernels from high-level mod'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: OpenAI extends cyber access to Ukraine for civilian defense
+    url: https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense
+    summary: OpenAI is extending access to its Daybreak program to the Government of Ukraine to support
+      the cyber defense of civilian infrastructure.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-23T13:00:00+00:00'
     dupe_count: 0
-  - title: 'GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI'
-    url: https://arxiv.org/abs/2609.30147
-    summary: 'arXiv:2609.30147v1 Announce Type: cross Abstract: Large Language Models (LLMs) typically
-      exhibit a performance profile where reliability degrades as task complexity increases. We address
-      the challenge of generating high-quality natural lang'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: Sam Altman’s remarks at the United Nations Security Council
+    url: https://openai.com/index/sam-altman-un-security-council-remarks
+    summary: OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in
+      remarks to the United Nations Security Council.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-23T12:00:00+00:00'
     dupe_count: 0
-  - title: Agentic Detection of Online Conspiracies
-    url: https://arxiv.org/abs/2609.30250
-    summary: 'arXiv:2609.30250v1 Announce Type: cross Abstract: Conspiratorial discourse on social media
-      is not always expressed through explicit claims or stable lexical markers. The same surface content
-      may express endorsement, legitimate concerns, cri'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: Harvey turns legal context into stronger drafts with GPT-6 Astra
+    url: https://openai.com/index/harvey-from-context-to-confidence-with-astra
+    summary: GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus
+      on strategy.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-23T12:00:00+00:00'
     dupe_count: 0
-  - title: 'ProCredit: From Outcome Rewards to Progress Credit in Agentic Reinforcement Learning'
-    url: https://arxiv.org/abs/2609.27532
-    summary: 'arXiv:2609.27532v2 Announce Type: replace Abstract: Long-horizon agentic tasks require an
-      agent to modify an environment through a sequence of tool calls, with success determined by the
-      final state. The standard recipe assigns a single outc'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: How invideo improves color grading 3x with GPT‑6 Astra
+    url: https://openai.com/index/invideo-builds-with-gpt-6-astra
+    summary: With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and
+      grading threefold, and produces 50 custom effects in one day.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-23T12:00:00+00:00'
     dupe_count: 0
-  - title: 'Trident : How to Break Deep Reinforcement Learning Cyber Defenses (Agentic)'
-    url: https://arxiv.org/abs/2608.04317
-    summary: 'arXiv:2608.04317v2 Announce Type: replace-cross Abstract: Autonomous cyber defense systems
-      based on Deep Reinforcement Learning (DRL) have attracted significant research attention, yet remain
-      evaluated almost exclusively against static, heu'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: 'v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)'
+    url: https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0
+    summary: 'Signed-off-by: Andreas Karatzas akaratza@amd.com Co-authored-by: OpenAI Codex noreply@openai.com'
+    source: vLLM Releases
+    weight: 1
+    published_at: '2026-09-23T08:06:15+00:00'
     dupe_count: 0
-  - title: 'Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture'
-    url: https://arxiv.org/abs/2608.06130
-    summary: 'arXiv:2608.06130v2 Announce Type: replace-cross Abstract: AI agents increasingly sign Git
-      commits, certify documents, and attest release artifacts on behalf of their operators, using private
-      keys that live in software-accessible locations ('
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: ChatGPT Ads expands to Southeast Asia and Taiwan
+    url: https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan
+    summary: ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways
+      to reach people across more than 60 countries.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-23T02:00:00+00:00'
     dupe_count: 0
-  - title: 'Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts'
-    url: https://arxiv.org/abs/2609.18366
-    summary: 'arXiv:2609.18366v3 Announce Type: replace-cross Abstract: Reliable agent evaluation is complicated
-      by automatic harness optimization, which repeatedly uses a released benchmark $B_{\mathrm{rel}}$
-      to guide a Proposer that edits prompts, memo'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: Airbnb widens access to GPT-6 Astra and OpenAI frontier models
+    url: https://openai.com/index/airbnb-gpt-6-astra
+    summary: Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering
+      teams solve bugs, design systems, and ship faster.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-23T01:00:00+00:00'
     dupe_count: 0
-  - title: 'SpaFactor: Lightweight Spatial Context-Aware Gene Program Modeling for Histology-to-Transcriptomics
-      Inference'
-    url: https://arxiv.org/abs/2609.28563
-    summary: 'arXiv:2609.28563v1 Announce Type: new Abstract: Spatial transcriptomics (ST) profiles gene
-      expression within tissue architecture, but its cost and experimental complexity limit routine use.
-      Predicting spatial expression from routinely avail'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: Grab and OpenAI bring practical AI skills to Southeast Asia
+    url: https://openai.com/index/grab-openai-ai-skills-southeast-asia
+    summary: OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build
+      practical AI skills across Southeast Asia.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-23T00:00:00+00:00'
     dupe_count: 0
-  - title: 'fable.intermittent: benchmarking probabilistic forecasting methods for intermittent time series'
-    url: https://arxiv.org/abs/2609.28607
-    summary: 'arXiv:2609.28607v1 Announce Type: new Abstract: Intermittent time series are common in spare-parts
-      demand and retail sales. Since the cost of forecast errors is typically asymmetric, decisions such
-      as inventory control require the full pred'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: Better prompt caching for GPT-6
+    url: https://openai.com/index/better-prompt-caching-for-gpt-6
+    summary: Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit
+      breakpoints, and controls that reduce latency and costs.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-22T21:00:00+00:00'
     dupe_count: 0
-  - title: Federated Learning of AnDE Classifiers
-    url: https://arxiv.org/abs/2609.28695
-    summary: 'arXiv:2609.28695v1 Announce Type: new Abstract: This work presents a federated framework
-      for training Averaged $n$-Dependence Estimators (AnDE) in distributed environments. The proposed
-      method focuses on the discriminative setting, where mo'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: Introducing GPT-6 Sol and Luna
+    url: https://openai.com/index/introducing-gpt-6-sol-and-luna
+    summary: Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with
+      different balances of capability and cost.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-09-22T18:00:00+00:00'
     dupe_count: 0
-  - title: Policy Complexity, Reaction Time, and Bounded Rationality in Reinforcement Learning
-    url: https://arxiv.org/abs/2609.28737
-    summary: 'arXiv:2609.28737v1 Announce Type: new Abstract: Biological agents do not learn under conditions
-      of unlimited computation. For humans, learning and choice are shaped by constraints on perception,
-      attention, and working memory, which limit ho'
-    source: arXiv cs.LG
-    weight: 2
-    published_at: '2026-09-26T04:00:00+00:00'
+  - title: v0.30.0
+    url: https://github.com/vllm-project/vllm/releases/tag/v0.30.0
+    summary: 'v0.30.0 Highlights This release features 762 commits from 315 contributors (104 new)! New
+      models : DeepSeek-V4.1-Flash ( #56214 , #56228 , #56208 ) with the whole KV stored in MXFP8 through
+      the FlashMLA V4.1 record on SM100 ( #56893 ), Deep'
+    source: vLLM Releases
+    weight: 1
+    published_at: '2026-09-22T05:20:54+00:00'
     dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
@@ -658,29 +649,26 @@ tiles:
     weight: 1
     published_at: '2026-09-17T15:17:58+00:00'
     dupe_count: 0
-  - title: v2.1.274
-    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.274
-    summary: 'What''s changed Added a visible warning when memory usage is critical, with steps to free
-      memory or restart safely Added CLAUDE_CODE_MCP_STARTUP_WAIT_MS to bound how long the first non-interactive
-      turn waits for connecting MCP servers ( 0 = '
-    source: Claude Code Releases
+  - title: Claude Code GitHub Action v1.0
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1
+    summary: 🎉 Claude Code GitHub Action v1.0 - Now Generally Available! We're excited to announce the
+      v1.0 release of Claude Code GitHub Action! This major release brings significant improvements in
+      simplicity, flexibility, and power to AI-assisted dev
+    source: Claude Code Action Releases
     weight: 1
-    published_at: '2026-09-17T00:12:02+00:00'
+    published_at: '2026-09-25T21:52:12+00:00'
     dupe_count: 0
-  - title: 'Merge pull request #879 from anthropics/cj-ant/move-slack-sentry-apps…'
-    url: https://github.com/anthropics/claude-cookbooks/commit/c245d39f91e5bbc0bf88f6a66a9af5e15f5c3462
-    summary: 'Merge pull request #879 from anthropics/cj-ant/move-slack-sentry-apps-to-quickstarts docs(managed_agents):
-      move the Slack and Sentry apps to claude-quickstarts'
-    source: Anthropic Cookbook Commits
+  - title: v1.0.235
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.235
+    summary: 'Full Changelog : v1.0.234...v1.0.235'
+    source: Claude Code Action Releases
     weight: 1
-    published_at: '2026-09-16T16:50:30+00:00'
+    published_at: '2026-09-25T21:51:57+00:00'
     dupe_count: 0
-  - title: 'docs(managed_agents): move the Slack and Sentry apps to claude-quicks…'
-    url: https://github.com/anthropics/claude-cookbooks/commit/b18fd7f01197976a622ec6a99d3176cd15740bb8
-    summary: 'docs(managed_agents): move the Slack and Sentry apps to claude-quickstarts This repo is
-      for notebook demos. managed_agents/slack and managed_agents/sentry are runnable apps, so they now
-      live under managed-agents/ in claude-quickstarts. Each'
-    source: Anthropic Cookbook Commits
+  - title: v1.0.234
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.234
+    summary: 'Full Changelog : v1.0.233...v1.0.234'
+    source: Claude Code Action Releases
     weight: 1
-    published_at: '2026-09-16T16:44:30+00:00'
+    published_at: '2026-09-24T20:27:59+00:00'
     dupe_count: 0
