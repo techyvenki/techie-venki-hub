@@ -1,168 +1,197 @@
-generated_at: '2026-10-03T11:52:27.536283+00:00'
+generated_at: '2026-10-04T12:59:33.730228+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
-  - title: Extra Big Ass Intelligence
-    url: https://www.extrabigassintelligence.com/
-    summary: 'Article URL: https://www.extrabigassintelligence.com/ Comments URL: https://news.ycombinator.com/item?id=49941114
-      Points: 316 # Comments: 69'
+  - title: The MacBook Air M5 is $200 off for the first time in months
+    url: https://www.theverge.com/gadgets/1000832/macbook-air-m5-amazon-prime-big-deal-sale
+    summary: 'Amazon’s October Prime Day has effectively chopped off Apple’s June price increases. Usually
+      $1,299, the 13-inch MacBook Air with the M5 chip and 512GB of storage is on sale for $1,099 at Amazon.
+      That’s a more palatable price for a machine '
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-04T12:34:01+00:00'
+    dupe_count: 0
+  - title: The iPad Mini is slightly cheaper again during Prime Day
+    url: https://www.theverge.com/gadgets/1000323/apple-ipad-mini-amazon-prime-big-deal-days-sale
+    summary: 'Apple bumped up prices on several of its devices in June, and we haven’t seen a good discount
+      on the iPad Mini since. Just ahead of Amazon’s October Prime Big Deals Days, however, both Wi-Fi
+      only and cellular-connected models are $100 off. '
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-04T12:31:50+00:00'
+    dupe_count: 0
+  - title: The forgotten Chromebook that started it all
+    url: https://www.theverge.com/podcast/1001215/the-forgotten-chromebook-that-started-it-all
+    summary: Google didn't even call the first Chromebook a "Chromebook." The Cr-48 had no interesting
+      design and no bright logos - it wasn't even designed to be a product you could buy. Instead, it
+      was a portal to a big new idea about computers. In thi
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-04T12:00:00+00:00'
+    dupe_count: 0
+  - title: The rise, fall, and rise of portable MP3 players
+    url: https://www.theverge.com/column/1003566/history-apple-ipod-mp3-music-player
+    summary: This is The Stepback, a weekly newsletter breaking down one essential story from the tech
+      world. For more on the collapse and the resurgence of the portable media player, follow Terrence
+      O'Brien. The Stepback arrives in our subscribers' inb
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-04T12:00:00+00:00'
+    dupe_count: 0
+  - title: Amazon’s colorful and sturdy new Kindles
+    url: https://www.theverge.com/tech/1004199/amazon-kindle-openai-dots-witcher-3-remastered-bose-wired-headphones
+    summary: 'Hi, friends! Welcome to Installer No. 146, your guide to the best and Verge-iest stuff in
+      the world. (If you''re new here, welcome, it''s October already?, and also you can read all the
+      old editions at the Installer homepage.) This week, I''m '
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-04T12:00:00+00:00'
+    dupe_count: 0
+  - title: All hail electrification. But let’s talk about the hard part.
+    url: https://arstechnica.com/science/2026/10/all-hail-electrification-but-lets-talk-about-the-hard-part/
+    summary: The IEA and climate negotiators want to set a target for shifting the economy to run on electricity.
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-10-04T11:05:53+00:00'
+    dupe_count: 0
+  - title: 'Tell HN: Bob Cringely has died'
+    url: https://news.ycombinator.com/item?id=49949438
+    summary: 'I heard from a friend of the family that Bob passed away in his sleep early Saturday. Very
+      sad news. Bob, who''s real name was Mark Stevens, was an early employee of Apple and was best known
+      for his PBS documentaries, especially "Triumph of '
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-10-03T03:19:10+00:00'
+    published_at: '2026-10-04T00:50:52+00:00'
     dupe_count: 0
-  - title: Meta wants your next gadget to be Muse-infused
-    url: https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/
-    summary: Meta wants Muse in your TV and your toaster, so it's giving the code away for free.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-03T00:45:39+00:00'
-    dupe_count: 0
-  - title: Sanders introduces bill to ban the federal government from using Flock
-    url: https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/
-    summary: The proposed legislation would extend to all automotica license plate readers.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-03T00:21:57+00:00'
-    dupe_count: 0
-  - title: Apple changes full-disk access permissions to curb abuse from AI agents
-    url: https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/
-    summary: Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-02T23:03:16+00:00'
-    dupe_count: 0
-  - title: Someone got Doom in an SQL database
-    url: https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/
-    summary: 1,300 lines of SQL querying renders accurate bitmapped views of Hell at 35 fps.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-02T21:19:05+00:00'
-    dupe_count: 0
-  - title: Sean Parker is rebuilding Stability AI around music
-    url: https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/
-    summary: Sean Parker, who once taught the music industry what asking for forgiveness looks like, is
-      now back with the labels' blessing and money.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-02T21:09:14+00:00'
-    dupe_count: 0
-  - title: Meta open sources code to let you make Muse AI gadgets
-    url: https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link
-    summary: Meta now lets you make your own Muse gadgets that feature the company's new AI agent with
-      code that the company open sourced. The company suggests projects like loading Muse on a color E
-      Ink display to show reminders, adding it to an HDMI s
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-02T21:08:37+00:00'
-    dupe_count: 0
-  - title: Amazon’s $1B plan to combat data center backlash draws more backlash
-    url: https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/
-    summary: Amazon praised for ending NDAs but slammed for downplaying data center pollution.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-02T20:30:27+00:00'
-    dupe_count: 0
-  - title: Netflix is pivoting away from prestige
-    url: https://www.theverge.com/streaming/1004323/netflix-david-fincher-shawn-levy-mike-flanagan-duffer-brothers-greta-gerwig
-    summary: Many of Netflix's biggest critically acclaimed hits have been the products of its multiyear
-      production deals with noted directors like David Fincher and Shawn Levy. In the past few weeks,
-      though, the streamer has brought some of those partn
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-02T20:30:26+00:00'
-    dupe_count: 0
-  - title: Apple will limit Mac disk access as AI agents ‘substantially’ increase risk
-    url: https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents
-    summary: Apple will add new limits for "full disk access" on Mac in response to risks posed by AI
-      agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new
-      controls to "ensure that users who genuinely wish to
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-02T20:08:40+00:00'
-    dupe_count: 0
-  - title: Patient-zero drill put health facilities to the test—40% of them failed
-    url: https://arstechnica.com/health/2026/10/patient-zero-drill-put-health-facilities-to-the-test-40-of-them-failed/
-    summary: Actors with makeup and fake symptoms staggered into 73 healthcare facilities.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-02T20:07:59+00:00'
-    dupe_count: 0
-  - title: Sling TV drops its one-day cable passes
-    url: https://www.theverge.com/streaming/1004300/sling-tv-pass-cable-drops
-    summary: 'Dish-owned Sling TV will no longer be offering its Sling Pass feature that allowed people
-      to buy a single day of cable TV programming at a time, as reported by The Desk. The feature was
-      announced last year and offered a day pass, a weekend '
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-02T20:00:20+00:00'
-    dupe_count: 0
-  - title: Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass
-    url: https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/
-    summary: Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited
-      to the first 100 qualifying people.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-02T19:15:51+00:00'
-    dupe_count: 0
-  - title: Lyft settles landmark driver misclassification lawsuit for $272.5M
-    url: https://arstechnica.com/tech-policy/2026/10/lyft-settles-landmark-driver-misclassification-lawsuit-for-272-5m/
-    summary: Critics say workers are still owed far more.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-02T19:09:49+00:00'
-    dupe_count: 0
-  - title: Apple Pass Designer
-    url: https://developer.apple.com/pass-designer/
-    summary: 'Article URL: https://developer.apple.com/pass-designer/ Comments URL: https://news.ycombinator.com/item?id=49937276
-      Points: 444 # Comments: 275'
+  - title: We're going to need default hard budget caps on pretty much everything
+    url: https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
+    summary: 'Article URL: https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/ Comments URL:
+      https://news.ycombinator.com/item?id=49949235 Points: 491 # Comments: 245'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-10-02T19:06:56+00:00'
+    published_at: '2026-10-04T00:20:16+00:00'
     dupe_count: 0
-  - title: The 2008 economic crisis changed the US's relationship with energy
-    url: https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/
-    summary: It wasn't obvious at the time, but the US uncoupled carbon emissions and GDP growth.
+  - title: Milt Windler, NASA flight director who helped save Apollo 13, dies at 94
+    url: https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/
+    summary: '"...we were making history."'
     source: Ars Technica
     weight: 1
-    published_at: '2026-10-02T18:56:21+00:00'
+    published_at: '2026-10-03T19:45:17+00:00'
     dupe_count: 0
-  - title: US arrests tech CEO accused of smuggling $300M in Nvidia chips into China
-    url: https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/
-    summary: Nvidia’s chip-smuggling problem won’t go away as arrests continue.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-02T18:39:36+00:00'
-    dupe_count: 0
-  - title: 'Research roundup: 6 cool science stories we almost missed'
-    url: https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/
-    summary: 'Also: Spooky action at the LHC, Ice Age psychoactive use, yeast for building homes on Mars,
-      and more.'
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-02T18:17:27+00:00'
-    dupe_count: 0
-  - title: Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents
-    url: https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/
-    summary: Apple says it will add new controls around macOS’s Full Disk Access permission, warning that
-      increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history
-      riskier.
+  - title: Federal judge calls Flock ‘indiscriminate mass surveillance’
+    url: https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/
+    summary: A federal judge ruled that a sheriff’s deputy violated a woman’s Fourth Amendment rights
+      when using Flock to search for her license plate without a warrant.
     source: TechCrunch
     weight: 1
-    published_at: '2026-10-02T18:11:27+00:00'
+    published_at: '2026-10-03T19:33:15+00:00'
     dupe_count: 0
-  - title: OpenAI’s Dot agent is enterprise software that can also order your dinner
-    url: https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent
-    summary: 'It''s a tale as old as last week: OpenAI''s new agent platform, called Dots, is full of
-      cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel
-      very much like using workplace software that happens to b'
+  - title: The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux
+    url: https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU
+    summary: 'Article URL: https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU Comments URL: https://news.ycombinator.com/item?id=49946895
+      Points: 333 # Comments: 56'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-10-03T19:14:48+00:00'
+    dupe_count: 0
+  - title: Amazon responds to data center backlash, says it no longer uses NDAs
+    url: https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/
+    summary: The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-03T18:43:57+00:00'
+    dupe_count: 0
+  - title: 'Hole Punch: Sling your spaceship around gravitational fields'
+    url: https://notoriousbfg.com/hole-punch/
+    summary: 'Article URL: https://notoriousbfg.com/hole-punch/ Comments URL: https://news.ycombinator.com/item?id=49946393
+      Points: 308 # Comments: 71'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-10-03T18:06:45+00:00'
+    dupe_count: 0
+  - title: Capcom is preparing for a ‘future where we create games together with AI’
+    url: https://www.theverge.com/games/1004418/capcom-ai-game-development
+    summary: 'Capcom''s Pragmata might be all about the horrors of AI, but in practice the studio doesn''t
+      seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave
+      a presentation with the mouthful of a title: "The'
     source: The Verge
     weight: 1
-    published_at: '2026-10-02T18:00:00+00:00'
+    published_at: '2026-10-03T16:49:10+00:00'
+    dupe_count: 0
+  - title: OpenAI safety employee resigns, claiming the company’s ‘culture is broken’
+    url: https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/
+    summary: 'By his own admission, David Robinson is “something of a cliché”: an employee at a leading
+      AI company who issues a dire warning while resigning from their job.'
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-03T16:30:01+00:00'
+    dupe_count: 0
+  - title: The best early October Prime Day deals happening now
+    url: https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october
+    summary: It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts
+      on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime
+      Day, which starts October 6th at 3AM ET and lasts
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-03T16:22:40+00:00'
+    dupe_count: 0
+  - title: Jack Dorsey’s Bitchat disappears from app stores in India after government order
+    url: https://techcrunch.com/2026/10/03/jack-dorseys-bitchat-disappears-from-app-stores-in-india-after-government-order/
+    summary: Bitchat has become largely unavailable in India as a result of the restrictions.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-03T15:02:01+00:00'
+    dupe_count: 0
+  - title: Splice CEO Kakul Srivastava thinks AI emails are killing conversations
+    url: https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview
+    summary: Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for
+      one-shots and melodic loops. Samples pulled from the service have found their way into massive hits
+      like Lisa's "Money" and "Espresso" by Sabrina Car
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-03T15:00:00+00:00'
+    dupe_count: 0
+  - title: Vessev built an electric ferry that almost flies
+    url: https://techcrunch.com/2026/10/03/vessev-built-an-electric-ferry-that-almost-flies/
+    summary: Vessev hopes its electric hydrofoil ferry will change the way people and cities think about
+      boats.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-03T14:42:00+00:00'
+    dupe_count: 0
+  - title: An OpenAI safety employee has quit and is sounding the alarm
+    url: https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm
+    summary: 'David Robinson used to write the safety reports that accompanied every major model release
+      at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The
+      Atlantic. It''s understandable if you''re feeling a '
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-03T14:31:56+00:00'
     dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
+  - title: 'Who’s News: Strategic Appointments at Quantum eMotion, Pasqal, Royal Bank of Canada, and 01
+      Quantum Inc.'
+    url: https://quantumcomputingreport.com/whos-news-strategic-appointments-at-quantum-emotion-pasqal-royal-bank-of-canada-and-01-quantum-inc/
+    summary: Bernard Crotty joined Quantum eMotion, Florence Lao became CLO at Pasqal, Dr. Elizabeth Iwasawa
+      was appointed Director of Quantum at RBC, and Jeffrey Kilborn is the new CFO at 01 Quantum Inc.,
+      all in strategic leadership roles. The post Who
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-10-03T11:27:00+00:00'
+    dupe_count: 0
+  - title: Silicon Quantum Computing and Schneider Electric Advance Energy Grid Forecasting via Watermelon
+      Quantum-Enhanced AI System
+    url: https://quantumcomputingreport.com/silicon-quantum-computing-and-schneider-electric-advance-energy-grid-forecasting-via-watermelon-quantum-enhanced-ai-system/
+    summary: Silicon Quantum Computing (SQC) and Schneider Electric are advancing to Stage 2 of the Australian
+      Government’s Critical Technologies Challenge Program, securing A$3.6 million. They are deploying
+      hybrid quantum-classical machine learning mod
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-10-03T10:55:38+00:00'
+    dupe_count: 1
   - title: IBM Expands Research Collaborations with IISc and IIT Bombay to Advance Quantum-Centric Supercomputing
       and Sovereign AI
     url: https://quantumcomputingreport.com/ibm-expands-research-collaborations-with-iisc-and-iit-bombay-to-advance-quantum-centric-supercomputing-and-sovereign-ai/
@@ -228,15 +257,6 @@ tiles:
     source: Quantum Computing Report
     weight: 1
     published_at: '2026-10-02T11:22:14+00:00'
-    dupe_count: 0
-  - title: SQC and Schneider Electric Advance Quantum-Enhanced Energy Forecasting
-    url: https://thequantuminsider.com/2026/10/02/sqc-schneider-electric-quantum-energy-forecasting/
-    summary: Insider Brief PRESS RELEASE — Silicon Quantum Computing (SQC) and Schneider Electric, a global
-      energy technology leader, have progressed to Stage 2 of the Australian Government’s Critical Technologies
-      Challenge Program (CTCP), receiving A$3
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-10-02T11:17:37+00:00'
     dupe_count: 0
   - title: Quantum Computing Could Cut Industrial Emissions Without an AI-Sized Footprint, BCG Finds
     url: https://thequantuminsider.com/2026/10/02/quantum-computing-could-cut-industrial-emissions-without-an-ai-sized-footprint-bcg-finds/
@@ -321,28 +341,16 @@ tiles:
     weight: 1
     published_at: '2026-10-01T15:16:22+00:00'
     dupe_count: 0
-  - title: NATO Releases Official Quantum Technology Roadmap Establishing Operational Timelines and Standardization
-      Frameworks
-    url: https://quantumcomputingreport.com/nato-releases-official-quantum-technology-roadmap-establishing-operational-timelines-and-standardization-frameworks/
-    summary: NATO has released its Quantum Technology Roadmap, effective July 2026, to implement its 2023
-      Quantum Technology Strategy. The roadmap outlines Lines of Effort in quantum computing, sensing,
-      and communications, with target milestones to acce
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-01T14:56:14+00:00'
-    dupe_count: 0
-  - title: Classiq Launches Fault Tolerance Engine for Hardware-Aware Quantum Application Synthesis
-    url: https://quantumcomputingreport.com/classiq-launches-fault-tolerance-engine-for-hardware-aware-quantum-application-synthesis/
-    summary: Classiq has launched its Fault Tolerance Engine, a new tool integrated into the Classiq SDK.
-      This engine translates high-level quantum circuits into detailed, hardware-aware execution plans
-      for fault-tolerant quantum processors, specificall
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-01T14:09:09+00:00'
-    dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
+  - title: The Agent Said It Was Done. The Database Disagreed.
+    url: https://huggingface.co/blog/microsoft/thinkingbox
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-10-03T22:56:48+00:00'
+    dupe_count: 0
   - title: 'AutoSynthData: Generating Training Data for Enterprise Agents'
     url: https://huggingface.co/blog/ServiceNow-AI/autosynthdata
     summary: ''
@@ -363,14 +371,6 @@ tiles:
     source: Hugging Face Blog
     weight: 1
     published_at: '2026-09-28T09:44:05+00:00'
-    dupe_count: 0
-  - title: Ringg’s AI agents resolve up to 65% of customer calls with OpenAI
-    url: https://openai.com/index/ringg
-    summary: Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for
-      90% less cost vs. GPT-4.1.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-09-23T12:00:00+00:00'
     dupe_count: 0
   - title: 'v0.31.0: [Misc] Add Transformers version upper bound in requirements (#59614)'
     url: https://github.com/vllm-project/vllm/releases/tag/v0.31.0
@@ -568,15 +568,6 @@ tiles:
     weight: 1
     published_at: '2026-09-24T13:55:35+00:00'
     dupe_count: 0
-  - title: 'Self-hosted sandboxes: add five webhook-started providers (#498)'
-    url: https://github.com/anthropics/claude-quickstarts/commit/8e946ff70a07db07b535edab7437a301f100ada0
-    summary: 'Self-hosted sandboxes: add five webhook-started providers (#498) Cloudflare Containers,
-      a Cloudflare Worker with no container, Daytona, Modal, and Vercel Sandbox. Each starts one sandbox
-      per session from the session.status_run_started webho'
-    source: Anthropic Quickstarts Commits
-    weight: 1
-    published_at: '2026-09-23T17:19:54+00:00'
-    dupe_count: 0
   - title: Claude Code GitHub Action v1.0
     url: https://github.com/anthropics/claude-code-action/releases/tag/v1
     summary: 🎉 Claude Code GitHub Action v1.0 - Now Generally Available! We're excited to announce the
@@ -584,7 +575,23 @@ tiles:
       simplicity, flexibility, and power to AI-assisted dev
     source: Claude Code Action Releases
     weight: 1
-    published_at: '2026-10-02T20:30:34+00:00'
+    published_at: '2026-10-03T23:16:22+00:00'
+    dupe_count: 0
+  - title: v1.0.241
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.241
+    summary: 'Full Changelog : v1.0.240...v1.0.241'
+    source: Claude Code Action Releases
+    weight: 1
+    published_at: '2026-10-03T23:16:10+00:00'
+    dupe_count: 0
+  - title: v2.1.289
+    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.289
+    summary: What's changed Fixed a deny or ask rule on a nested part of a compound shell command not
+      holding over a user-installed mod's approval on managed machines Fixed the terminal freezing on
+      short code blocks with many unclosed <script> tags or d
+    source: Claude Code Releases
+    weight: 1
+    published_at: '2026-10-03T23:07:17+00:00'
     dupe_count: 0
   - title: v1.0.240
     url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.240
@@ -656,12 +663,4 @@ tiles:
     source: Anthropic SDK (TypeScript) Releases
     weight: 1
     published_at: '2026-09-30T22:58:29+00:00'
-    dupe_count: 0
-  - title: 'sdk: v0.131.0'
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.131.0
-    summary: '0.131.0 (2026-09-30) Full Changelog: sdk-v0.130.0...sdk-v0.131.0 Features api: add list
-      spend limits endpoint ( cfb78c8 ) Chores client: deprecate sonnet 4.5 ( d72cfaf )'
-    source: Anthropic SDK (TypeScript) Releases
-    weight: 1
-    published_at: '2026-09-30T22:58:20+00:00'
     dupe_count: 0
