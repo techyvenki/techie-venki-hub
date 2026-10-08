@@ -14,12 +14,12 @@ jobs:
       - name: Checkout main repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Get full history
+          fetch-depth: 1
           token: ${{ secrets.OMNISTACK_TOKEN }}
-          lfs: true  # Add this line to fetch LFS files
+          lfs: true
 
       - name: Checkout LFS objects
-        run: git lfs pull  # Ensure all LFS objects are downloaded
+        run: git lfs pull
 
       - name: Push to techievenki portfolio repository
         env:
@@ -32,7 +32,9 @@ jobs:
           # Add the techievenki portfolio repo as a remote.
           git remote add techievenki https://x-access-token:${OMNISTACK_TOKEN}@github.com/techyvenki/omnistack.git
           
-          # Push to techievenki portfolio repo (force push to keep them identical)
-          git push techievenki HEAD:main --force
+          # Publish only the current snapshot, not the source repository history.
+          # This prevents secrets from older source commits being sent to the destination.
+          snapshot_commit="$(git commit-tree HEAD^{tree} -m "Sync snapshot from techie-venki-hub")"
+          git push techievenki "$snapshot_commit:refs/heads/main" --force
           
           echo "✅ Successfully synced to omnistack repository!"
