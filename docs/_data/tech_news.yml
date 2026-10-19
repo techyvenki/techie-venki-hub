@@ -1,539 +1,550 @@
-generated_at: '2026-10-18T11:14:38.825705+00:00'
+generated_at: '2026-10-19T11:18:32.184146+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
-  - title: NY announces game ownership bill requiring ownership rather than licensing
-    url: https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends
-    summary: 'Article URL: https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends'
+  - title: The Maeving RM2 is high-style electric riding with a few compromises
+    url: https://www.theverge.com/transportation/1013049/maeving-rm2-electric-motorcycle-review-specs
+    summary: There's a fast-growing category of two-wheeled electric vehicles splitting the difference
+      between high-end scooters and entry-level motorcycles, fresh bikes with avant-garde style but approachable
+      performance. I'm talking about offerings li
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-19T11:00:00+00:00'
+    dupe_count: 0
+  - title: Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics
+    url: https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics/
+    summary: Even Healthcare reaches a $300 million valuation in a Khosla Ventures-led round as it plans
+      to expand its hospital network in India.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-19T07:30:00+00:00'
+    dupe_count: 0
+  - title: A Savannah police officer gave her Flock login to her ICE agent husband
+    url: https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband
+    summary: Now, former Savannah police officer Amber Harpe was fired in August following a department
+      investigation that found she had shared her Flock login information with her husband, Tyler Harpe,
+      an ICE agent. SPD does not share its Flock data wi
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-18T22:20:53+00:00'
+    dupe_count: 0
+  - title: 'No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied
+      market'
+    url: https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market/
+    summary: Benchmark may have grown its funds and swapped out some partners, but onstage the five who
+      are left sounded like friends who just happen to be running one of the Valley’s most storied firms
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-18T21:00:00+00:00'
+    dupe_count: 0
+  - title: 'Hybrid Reasoning Agents: LLM agents that think in latent space, act through text'
+    url: https://arxiv.org/abs/2610.18861
+    summary: 'https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent
+      https://huggingface.co/collections/togethercomputer/hybridag... Evaluations: https://arxiv.org/html/2610.18861v1#S5
+      Comments URL: https://new'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-10-18T00:14:22+00:00'
+    published_at: '2026-10-18T20:48:14+00:00'
     dupe_count: 0
-  - title: Meta removes language that raised scraping and AI training concerns
-    url: https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/
-    summary: A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta
-      crawls the web.
+  - title: Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’
+    url: https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/
+    summary: Anthropic said that it will commit 5% of its shares to the fund.
     source: TechCrunch
     weight: 1
-    published_at: '2026-10-17T21:31:32+00:00'
+    published_at: '2026-10-18T20:37:40+00:00'
     dupe_count: 0
-  - title: TikTok permanently bans ‘Musk’ documentary advertising account
-    url: https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/
-    summary: A four-hour documentary about Elon Musk continues to meet resistance from social media platforms.
+  - title: Mister Organ is one of the most unsettling documentaries I’ve ever seen
+    url: https://www.theverge.com/entertainment/1013545/mister-organ-horror-documentary-review
+    summary: Mister Organ doesn't reach the level of societal horror of The Act of Killing or the creepypasta-meets-true-crime
+      gruesomeness of Beware the Slenderman, but there's something deeply unsettling about Michael Organ
+      and his intimate campaign o
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-18T19:30:00+00:00'
+    dupe_count: 0
+  - title: Everyone’s watching the Elizabeth Holmes documentary ‘You Can See Everything’
+    url: https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything/
+    summary: '"You Can See Everything" is having the second biggest opening weekend ever for a documentary
+      film.'
     source: TechCrunch
     weight: 1
-    published_at: '2026-10-17T20:55:52+00:00'
-    dupe_count: 1
-  - title: Anthropic says its workforce has become less junior and is spending more time in meetings
-    url: https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/
-    summary: The composition of Anthropic’s workforce and the type of work getting done have changed significantly
-      in the past year.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-17T20:21:19+00:00'
+    published_at: '2026-10-18T19:03:38+00:00'
     dupe_count: 0
-  - title: Replit makes OpenAI its default over Anthropic, CEO says
-    url: https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/
-    summary: Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model
-      provider. Claude will still be available to customers on the platform.
-    source: TechCrunch
+  - title: A woman was arrested in Philly for blocking a delivery robot
+    url: https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot
+    summary: Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of
+      an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 "I know
+      they're taking the jobs of human delivery workers
+    source: The Verge
     weight: 1
-    published_at: '2026-10-17T18:48:08+00:00'
+    published_at: '2026-10-18T18:28:10+00:00'
     dupe_count: 0
-  - title: Gold is now the top U.S. export
-    url: https://www.numismaticnews.net/gold-now-top-u-s-export
-    summary: 'Article URL: https://www.numismaticnews.net/gold-now-top-u-s-export Comments URL: https://news.ycombinator.com/item?id=50132870
-      Points: 343 # Comments: 188'
+  - title: Someone behind the software
+    url: https://karrisaarinen.com/posts/someone-behind-the-software/
+    summary: 'Article URL: https://karrisaarinen.com/posts/someone-behind-the-software/ Comments URL:
+      https://news.ycombinator.com/item?id=50142573 Points: 457 # Comments: 167'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-10-17T17:06:07+00:00'
+    published_at: '2026-10-18T16:32:00+00:00'
     dupe_count: 0
-  - title: Mercedes-AMG’s first ground-up SUV is a 1,150hp electric beast
-    url: https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance
-    summary: Earlier this year, Mercedes' AMG performance brand grabbed our attention with the GT four-door
-      coupe, a souped-up sports sedan with three axial flux motors delivering over 1,150 horsepower. Well,
-      now meet its beefier cousin, the 2028 Merced
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-17T17:00:00+00:00'
-    dupe_count: 0
-  - title: Elon Musk settles lawsuits over $1 million voter giveaway
-    url: https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway
-    summary: In 2024, Elon Musk promised to give away $1 million a day to a randomly selected registered
-      voter in a swing state. That prompted legal challenges, raised questions about its legality, and
-      drew lawsuits from two Arizona residents claiming t
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-17T16:39:44+00:00'
-    dupe_count: 0
-  - title: Pele – Mermaid diagrams as themeable SVG
-    url: https://pele.run/
-    summary: 'Article URL: https://pele.run/ Comments URL: https://news.ycombinator.com/item?id=50132193
-      Points: 451 # Comments: 39'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-10-17T15:55:09+00:00'
-    dupe_count: 0
-  - title: Ember’s new temperature-controlled mug makes my nightly tea ritual even better
-    url: https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better/
-    summary: The biggest change about Ember's new mug is that you no longer have to open the app to adjust
-      your drink’s temperature.
+  - title: Disney agrees to hire the majority of Character.AI’s workforce
+    url: https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/
+    summary: The filing also says that the “vast majority” of Character.AI employees who were offered
+      jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come
+      forward with a higher offer.
     source: TechCrunch
     weight: 1
-    published_at: '2026-10-17T15:30:00+00:00'
+    published_at: '2026-10-18T16:30:00+00:00'
     dupe_count: 0
-  - title: Meta removes language that may have allowed it to scrape news sites
-    url: https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites
-    summary: After backlash, Meta is updating its terms again to remove language that suggested it could
-      scrape content from sites, including news sites, to train its AI. Specifically, the following language
-      no longer appears on the commercial terms pag
+  - title: Video game ownership bill introduced in Congress
+    url: https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act
+    summary: Rep. Ritchie Torres of New York's 15th congressional district in the Bronx introduced the
+      Power To The Players Act this week. If passed, the bill would direct the Federal Trade Commission
+      to establish regulations that guarantee consumers ow
     source: The Verge
     weight: 1
-    published_at: '2026-10-17T15:04:36+00:00'
+    published_at: '2026-10-18T16:27:51+00:00'
     dupe_count: 0
-  - title: Pikmin 4 is $20 off ahead of its $10 Nintendo Switch 2 update
-    url: https://www.theverge.com/gadgets/1013105/pikmin-4-nintendo-switch-deal-sale
-    summary: If you’re wondering what video game to play this weekend, my colleague Sheena Vasani spotted
-      a discounted Nintendo Switch title with instant digital delivery. Walmart has the digital version
-      of Pikmin 4 for Switch discounted to $39.88, just
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-17T15:00:00+00:00'
-    dupe_count: 0
-  - title: Jad Abumrad loves a butterfly knife and a good springy pillow
-    url: https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview
-    summary: 'It''s hard to overstate Jad Abumrad''s impact on the podcasting world. He created and hosted
-      Dolly Parton''s America and Fela Kuti: Fear No Man, two Peabody Award-winning shows that offered
-      unprecedented looks at the lives of two of the most i'
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-17T14:30:00+00:00'
-    dupe_count: 0
-  - title: SpaceX’s ambitious, expensive gamble to replace AT&T, T-Mobile, and Verizon
-    url: https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile
-    summary: Today, I’m talking with Walter Piecyk, a partner and analyst at LightShed Partners who covers
-      tech, media, and telecom, about SpaceX’s recently announced plan to become a major wireless carrier.
-      Last week, SpaceX agreed to buy a big chunk o
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-17T14:00:00+00:00'
-    dupe_count: 0
-  - title: Making chicken transparent using Dorito dust
-    url: https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using
-    summary: 'Article URL: https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using
-      Comments URL: https://news.ycombinator.com/item?id=50131213 Points: 310 # Comments: 82'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-10-17T13:55:28+00:00'
-    dupe_count: 0
-  - title: Websites are closing their doors to AI agents
-    url: https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web
-    summary: Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others
-      promise their agents can scour the internet on your behalf, doing anything from booking a dinner
-      reservation and cleaning out your inbox to buying new
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-17T13:00:00+00:00'
-    dupe_count: 0
-  - title: Bose’s new wired earbuds are simple in the best way
-    url: https://www.theverge.com/tech/1013320/bose-noise-cancelling-wired-earbuds-review
-    summary: 'After Apple courageously removed the headphone jack from the iPhone in 2016, most people
-      switched to Bluetooth earbuds and never looked back. But their wired counterparts have stuck around,
-      and their sales even went up this year after five '
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-17T13:00:00+00:00'
-    dupe_count: 0
-  - title: Apple’s HomeView is just the latest threat to online recipe writers
-    url: https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting
-    summary: 'When Apple revealed the HomeView to the world, it did so with an unusual ad for the company:
-      Instead of pristine, polished tech in immaculate rooms, it''s a three-minute look at the messy,
-      frantic morning routine of a family of five. Apple''s'
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-17T12:00:00+00:00'
-    dupe_count: 0
-  - title: Science says your boss should talk less in meetings
-    url: https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings/
-    summary: Research suggests listening more while talking less. Killing aimless meetings can help, too.
+  - title: Anthropic gives outside AI watchdog “employee-like” access
+    url: https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/
+    summary: The outside watchdog can publish its findings without Anthropic's approval.
     source: Ars Technica
     weight: 1
-    published_at: '2026-10-17T11:15:11+00:00'
+    published_at: '2026-10-18T16:25:19+00:00'
     dupe_count: 0
-  - title: Why BioWare's Neverwinter Nights still has thousands of active players
-    url: https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players/
-    summary: The single-player is just OK, but according to the players, that doesn't matter.
-    source: Ars Technica
+  - title: 'TechCrunch Mobility: Rivian’s next act'
+    url: https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/
+    summary: Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more
+      than ever, the role AI is playing in it.
+    source: TechCrunch
     weight: 1
-    published_at: '2026-10-17T11:00:21+00:00'
+    published_at: '2026-10-18T16:05:00+00:00'
+    dupe_count: 0
+  - title: Lenovo’s fast, comfy SteamOS handheld is hundreds off
+    url: https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale
+    summary: The Legion Go S with SteamOS is a pretty solid alternative to the $789 Steam Deck OLED. It
+      runs identical software, but ships in a design with two-stage triggers, a bigger eight-inch IPS
+      screen (1080p and up to 120Hz versus 800p and 90Hz in
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-18T15:00:00+00:00'
+    dupe_count: 0
+  - title: J Mascis has nothing better to do
+    url: https://www.theverge.com/entertainment/1012442/j-mascis-dinosaur-jr-fender-interview
+    summary: Dinosaur Jr. frontman J Mascis is known as something of a slacker guitar god. He stands stoically
+      onstage, barely moving, as he seemingly effortlessly works through deft guitar solos and lopsided
+      riffs. Unfortunately, Mascis has developed a
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-18T14:00:00+00:00'
+    dupe_count: 0
+  - title: RepRapMicron
+    url: https://github.com/VikOlliver/RepRapMicron/wiki
+    summary: 'Article URL: https://github.com/VikOlliver/RepRapMicron/wiki Comments URL: https://news.ycombinator.com/item?id=50141076
+      Points: 398 # Comments: 64'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-10-18T13:48:48+00:00'
+    dupe_count: 0
+  - title: Trump says Google kisses his ass
+    url: https://www.theverge.com/policy/1013485/trump-google-kiss-my-ass
+    summary: During a rally on Saturday, October 17th, in Highland Heights, Kentucky, Donald Trump bragged
+      about how much more powerful and influential he was during his second term. While listing off his
+      accomplishments, he mentioned his decision to re
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-18T13:25:01+00:00'
+    dupe_count: 0
+  - title: The best gadget I bought this year is a milk frother
+    url: https://www.theverge.com/gadgets/1013257/milk-frother-cold-foam-gadget
+    summary: Back in February, I went to Los Angeles to take in some art and stayed in Koreatown. Down
+      the street from my hotel, there was this little coffee shop - Stagger - that is, I think, best known
+      for its matcha, which is good. But the drink I un
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-18T13:00:00+00:00'
+    dupe_count: 0
+  - title: How overhead projectors took over your classroom
+    url: https://www.theverge.com/podcast/1013473/overhead-projector-version-history
+    summary: It used to be so easy to get away with things in school. The teacher, after all, was always
+      turned around writing at the chalkboard! But then came a bit of technology, previously mostly used
+      for military purposes, called the overhead projec
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-18T12:55:01+00:00'
     dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
-  - title: Podcast with Johannes Pollanen, Co-founder of EeroQ and a Professor of Physics at Michigan
-      State University
-    url: https://quantumcomputingreport.com/podcast-with-johannes-pollanen/
-    summary: 'Johannes Pollanen, co-founder of EeroQ and a professor of physics at Michigan State University,
-      explains how EeroQ builds qubits from single electrons floating on a film of superfluid helium,
-      and why he thinks the semiconductor chip is the '
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-17T19:39:40+00:00'
-    dupe_count: 0
-  - title: Review Evaluates AI and Quantum Computing Paradigms for Adaptive Combinatorial Optimization
-    url: https://quantumcomputingreport.com/review-evaluates-ai-and-quantum-computing-paradigms-for-adaptive-combinatorial-optimization/
-    summary: 'A new review paper by Hoong Chuin Lau examines the intersection of AI and quantum computing
-      for combinatorial optimization, categorizing research into three paradigms: AI-for-Quantum Optimization
-      (AI-for-QO), Quantum-for-AI (Q-for-AI), and '
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-17T17:32:22+00:00'
-    dupe_count: 0
-  - title: RIKEN Demonstrates High-Fidelity Simultaneous Control of Silicon Spin Qubits Above 99.9% Threshold
-    url: https://quantumcomputingreport.com/riken-demonstrates-high-fidelity-simultaneous-control-of-silicon-spin-qubits-above-99-9-threshold/
-    summary: Researchers at RIKEN and collaborators have achieved high-fidelity simultaneous control of
-      five silicon spin qubits, maintaining over 99.9% accuracy. They overcame crosstalk caused by AC-Stark
-      shifts through a new calibration protocol, enab
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-17T16:27:43+00:00'
-    dupe_count: 0
-  - title: Harvard, Anthropic, and QuEra Use LLMs to Discover Quantum Circuits with Up to 9,100x Lower
-      Resource Costs
-    url: https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs/
-    summary: Researchers from Harvard, Anthropic, and QuEra Computing developed an AI framework that uses
-      Large Language Models (LLMs) to discover and optimize fault-tolerant quantum circuits. This framework
-      significantly reduces the resource costs of c
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-17T10:28:31+00:00'
-    dupe_count: 0
-  - title: MIT Physicists Use First-Principles AI to Resolve Non-Abelian Anyon Order at Strong Landau
-      Level Mixing
-    url: https://quantumcomputingreport.com/mit-physicists-use-first-principles-ai-to-resolve-non-abelian-anyon-order-at-strong-landau-level-mixing/
-    summary: MIT researchers used a specialized self-attention neural network to solve complex equations
-      related to quantum particles, confirming the existence of anti-Pfaffian topological states. This
-      breakthrough provides a roadmap for building noise-
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-17T09:57:46+00:00'
-    dupe_count: 0
-  - title: D-Wave Demonstrates 3D Analog-Digital Quantum Simulation of Higher-Order Topological Insulators
-      Using 728 Qubits
-    url: https://quantumcomputingreport.com/d-wave-demonstrates-3d-analog-digital-quantum-simulation-of-higher-order-topological-insulators-using-728-qubits/
-    summary: D-Wave has successfully demonstrated 3D analog-digital quantum simulation of higher-order
-      topological insulators using up to 728 qubits on an Advantage2 superconducting quantum annealing
-      processor. This achievement, detailed in a research s
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-17T09:18:12+00:00'
-    dupe_count: 0
-  - title: Open Quantum Launches Native Qrisp Integration for High-Level QPU Execution Across IonQ, Rigetti,
-      IQM, and AQT Hardware
-    url: https://quantumcomputingreport.com/open-quantum-launches-native-qrisp-integration-for-high-level-qpu-execution-across-ionq-rigetti-iqm-and-aqt-hardware/
-    summary: Open Quantum has launched a native Qrisp integration, enabling high-level QPU execution across
-      IonQ, Rigetti, IQM, and AQT hardware. This allows developers to compile and execute Qrisp programs
-      directly on physical QPUs without writing vend
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-17T08:56:59+00:00'
-    dupe_count: 0
-  - title: Chalmers Next Labs, ConScience, and NQFF Validate Superconducting Qubit Chip Stability Across
-      International Testbeds
-    url: https://quantumcomputingreport.com/chalmers-next-labs-conscience-and-nqff-validate-superconducting-qubit-chip-stability-across-international-testbeds/
-    summary: A joint study by Chalmers Next Labs AB, ConScience AB, and Singapore’s National Quantum Federated
-      Foundry (NQFF) validated the stability of a superconducting quantum processor (QiB1) when transported
-      between international research facilitie
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-17T08:22:29+00:00'
-    dupe_count: 0
-  - title: Anthropic’s Claude Designs Leaner Quantum Circuits, Reducing Resources Needed for Key Calculations
-    url: https://thequantuminsider.com/2026/10/17/anthropics-claude-designs-leaner-quantum-circuits-reducing-resources-needed-for-key-calculations/
-    summary: Insider Brief A team of researchers from Anthropic and Harvard used an artificial intelligence
-      (AI) system to design quantum circuits that require fewer operations and qubits, potentially lowering
-      the hardware demands of useful quantum comp
+  - title: Advance Could Lead to Bigger, More Reliable Quantum Computers, University of Edinburgh Scientists
+      Say
+    url: https://thequantuminsider.com/2026/10/19/advance-could-lead-to-bigger-more-reliable-quantum-computers-university-of-edinburgh-scientists-say/
+    summary: Insider Brief PRESS RELEASE — Researchers have developed an algorithm that enables off-the-shelf
+      computers to run quantum simulations previously only possible using the world’s most powerful supercomputers.
+      It means the simulations can be r
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-10-17T08:11:10+00:00'
+    published_at: '2026-10-19T08:12:39+00:00'
     dupe_count: 0
-  - title: MIT Bengaluru Inaugurates Q-HUB@MAHE and Deploys QuantrolOx’s Open-Architecture VIDYAQAR Quantum
-      System
-    url: https://quantumcomputingreport.com/mit-bengaluru-inaugurates-q-hubmahe-and-deploys-quantroloxs-open-architecture-vidyaqar-quantum-system/
-    summary: Manipal Institute of Technology (MIT Bengaluru) has inaugurated the Manipal House of Quantum
-      (Q-HUB@MAHE) in Bengaluru, India, on October 13, 2026. This facility features QuantrolOx’s VIDYAQAR
-      open-architecture quantum system, a 25-qubit-ca
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-17T08:08:29+00:00'
-    dupe_count: 0
-  - title: 'Robert Wille (Munich Quantum Software Company): Quantum software needs design automation,
-      not just algorithms'
-    url: https://thequantuminsider.com/2026/10/17/robert-wille-munich-quantum-software-company-quantum-software-needs-design-automation-not-just-algorithms/
-    summary: Yuval interviews Robert Wille, a computer scientist and co-founder focused on quantum computing
-      software. They discuss the field’s transition from research to practical deployment, the need for
-      heterogeneous and hardware-agnostic software s
+  - title: RIKEN Team Improves Parallel Control of Silicon Spin Qubits
+    url: https://thequantuminsider.com/2026/10/19/riken-team-improves-parallel-control-of-silicon-spin-qubits/
+    summary: Insider Brief PRESS RELEASE — Silicon spin qubits are a promising platform for building scalable
+      quantum computers as they are compatible with the semiconductor manufacturing technologies used
+      to produce today’s computer chips. However, the
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-10-17T07:40:00+00:00'
+    published_at: '2026-10-19T07:52:31+00:00'
     dupe_count: 0
-  - title: Kipu Quantum Demonstrates Neutral-Atom Quantum Feature Extraction for Molecular Toxicity Classification
-      on QuEra Hardware
-    url: https://quantumcomputingreport.com/kipu-quantum-demonstrates-neutral-atom-quantum-feature-extraction-for-molecular-toxicity-classification-on-quera-hardware/
-    summary: Kipu Quantum demonstrated a novel method for molecular toxicity classification using analog
-      quantum feature extraction on QuEra's 256-qubit Aquila neutral-atom quantum processor. This approach,
-      detailed in their technical report, utilizes 2
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-17T07:13:35+00:00'
-    dupe_count: 0
-  - title: 'Guest Post: AI Infrastructure Investment and the Future of Quantum Computing'
-    url: https://thequantuminsider.com/2026/10/17/ai-infrastructure-investment-future-quantum-computing/
-    summary: Guest Post By George Varghese, Head of Investment, 0G Labs We’re witnessing one of the largest
-      infrastructure investment cycles in modern technology, and I believe we’re still early in understanding
-      its economic potential. AI has already ch
+  - title: UKRI Backs UK Quantum Businesses With Share of £50 Million
+    url: https://thequantuminsider.com/2026/10/19/ukri-backs-uk-quantum-businesses-with-share-of-50-million/
+    summary: 'Insider Brief A share of £50 million is going to British businesses developing quantum technologies
+      for uses that include keeping railways running, shortening eye scan waits and maintaining military
+      connectivity, UKRI said. The money forms '
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-10-17T07:00:00+00:00'
+    published_at: '2026-10-19T07:00:00+00:00'
     dupe_count: 0
-  - title: Anderon Releases First Superconducting Quantum PDK
-    url: https://thequantuminsider.com/2026/10/16/anderon-superconducting-quantum-pdk/
-    summary: Insider Brief Anderon has released its first Superconducting Quantum Process Design Kit (PDK),
-      the company said in a blog post. According to Anderon, the kit is meant to give quantum device and
-      circuit developers a more efficient, standardi
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-10-16T13:15:52+00:00'
+  - title: Typical Superpositions are Magical
+    url: https://arxiv.org/abs/2610.22476
+    summary: 'arXiv:2610.22476v1 Announce Type: new Abstract: The non-stabilizerness, or "magic", of a
+      quantum state is a common metric for the hardness of simulation on a classical computer, and is
+      often quantified by the stabilizer R\''enyi entropy (SRE'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: Germany Publishes National Post-Quantum Cryptography Migration Guideline
-    url: https://thequantuminsider.com/2026/10/16/transition-post-quantum-cryptography-national-eu-roadmap-guideline/
-    summary: Insider Brief PRESS RELEASE — Quantum computers pose an increasingly real threat to the security
-      of cryptographic methods and thus to cybersecurity itself. The Federal Ministry of the Interior
-      (BMI), the Federal Ministry for Digital Affairs
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-10-16T12:43:02+00:00'
+  - title: Exploring Quantum Phase Transitions Beyond Landau Theory on a Quantum Processor
+    url: https://arxiv.org/abs/2610.22482
+    summary: 'arXiv:2610.22482v1 Announce Type: new Abstract: Direct continuous quantum phase transitions
+      between phases that break distinct symmetries challenge the conventional Landau-Ginzburg-Wilson
+      paradigm and provide a framework for deconfined quan'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: QuEra Scientists Named Co-Principal Investigators on Three of Nine Teams in DOE’s Quantum Chemistry
-      Program
-    url: https://thequantuminsider.com/2026/10/16/quera-three-teams-doe-quantum-chemistry-program/
-    summary: Insider Brief PRESS RELEASE — QuEra Computing, the leader in quantum computing, today announced
-      that its scientists will work with three of the nine teams selected for the Quantum Computing for
-      Computational Chemistry (QC3) program at the A
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-10-16T12:23:53+00:00'
+  - title: 'Multi-Time States in Quantum and Operational Probabilistic Theories: An Axiomatic Framework'
+    url: https://arxiv.org/abs/2610.22489
+    summary: 'arXiv:2610.22489v1 Announce Type: new Abstract: Quantum states over time were introduced,
+      in part, to extend Bayesian probability to quantum theory and have since found applications across
+      diverse areas, ranging from quantum causality and o'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: In ‘Quantum 101’ Session, WTO Trade Officials Hear Quantum Encryption Window May Close Within
-      Five Years
-    url: https://thequantuminsider.com/2026/10/16/in-quantum-101-session-wto-trade-officials-hear-quantum-encryption-window-may-close-within-five-years/
-    summary: Insider Brief The World Trade Organization’s (WTO) member delegations were told this week
-      that the encryption underpinning international trade could be broken by quantum computers within
-      roughly five years, and that the trading system has n
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-10-16T11:51:18+00:00'
+  - title: Resonant pair production and flat band melting in a driven Rydberg chain
+    url: https://arxiv.org/abs/2610.22532
+    summary: 'arXiv:2610.22532v1 Announce Type: new Abstract: We study a Rydberg chain subjected to a
+      two-tone periodic drive of the detuning $\Delta(t)$ and Rabi frequency $\Omega(t)$ at frequencies
+      $\omega_1$ and $\omega_2=\nu \omega_1$ respectively wi'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: Terra Quantum Joins QuEra Quantum Alliance
-    url: https://thequantuminsider.com/2026/10/16/terra-quantum-quera-quantum-alliance/
-    summary: 'Insider Brief PRESS RELEASE — Terra Quantum, a global leader in the development of quantum
-      technologies and their industrial application, the leader in neutral-atom quantum computing, today
-      announced that Terra Quantum has joined the QuEra '
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-10-16T10:36:51+00:00'
+  - title: A thermally and perturbatively stable classical spin model in two dimensions
+    url: https://arxiv.org/abs/2610.22548
+    summary: 'arXiv:2610.22548v1 Announce Type: new Abstract: We show that the 2D classical spin model
+      constructed in arXiv:2605.10943 hosts many metastable states at non-zero temperature which are stable
+      to arbitrary Hamiltonian perturbations, providing'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: Google Demonstrates Method to Cut Errors in Quantum Computing’s ‘Magic States’
-    url: https://thequantuminsider.com/2026/10/16/google-demonstrates-method-to-cut-errors-in-quantum-computings-magic-states/
-    summary: Insider Brief Google researchers reduced errors in a crucial quantum computing resource about
-      40-fold, demonstrating a method that could lower the hardware demands of useful, error-corrected
-      machines. The experiment, published in Science, s
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-10-16T07:55:57+00:00'
+  - title: 'Circuit Synthesis for Variational Quantum Algorithms: The Depth of Algebra and Geometry'
+    url: https://arxiv.org/abs/2610.22689
+    summary: 'arXiv:2610.22689v1 Announce Type: new Abstract: The analysis of Hamiltonian Variational
+      Ans\"atze centers on three fundamental questions: which states are exactly reachable from a given
+      initial state, what native control depth suffices for '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: Stony Brook Quantum Memory Named to TIME’s Best Inventions of 2026
-    url: https://thequantuminsider.com/2026/10/15/stony-brook-patented-quantum-memory-time-best-inventions/
-    summary: Insider Brief PRESS RELEASE — A quantum technology invented at the State University of New
-      York (SUNY) at Stony Brook (Stony Brook University) is earning international recognition. Qunnect’s
-      Qu-MEM, a commercial room-temperature quantum mem
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-10-15T19:50:58+00:00'
+  - title: Quantum-Classical Neural Networks for Solving Lindblad Master Equations
+    url: https://arxiv.org/abs/2610.22691
+    summary: 'arXiv:2610.22691v1 Announce Type: new Abstract: Variational quantum algorithms have emerged
+      as a promising approach for simulating open quantum systems, yet their expressive power and trainability
+      remain poorly understood. We propose a vari'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 0
+  - title: Metric and Dispersive Dynamics of Phase Perturbations in Bohmian Quantum Mechanics
+    url: https://arxiv.org/abs/2610.22737
+    summary: 'arXiv:2610.22737v1 Announce Type: new Abstract: By linearizing the hydrodynamic equations
+      associated with the Madelung transformation in the context of Bohmian dynamics, we derive an effective
+      metric for the phase perturbation around a back'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 0
+  - title: Programmable Preparation of Topological Entangled States
+    url: https://arxiv.org/abs/2610.22738
+    summary: 'arXiv:2610.22738v1 Announce Type: new Abstract: Programmable preparation of entangled quantum
+      states is a central requirement for scalable quantum information processing, quantum networking
+      and photonic quantum computing. Topological photon'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'The Classical Boundary of Quantum Computation: History-Resolved Causal Stochastic Machines
+      and the Cost of Classicalization'
+    url: https://arxiv.org/abs/2610.22750
+    summary: 'arXiv:2610.22750v1 Announce Type: new Abstract: What separates quantum computation from
+      classical computation when a classical model may retain every branch history and arbitrary causal
+      memory? We study this question using history-resolved '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 0
+  - title: Quantumness of Entanglement in Schwarzschild de Sitter Spacetime
+    url: https://arxiv.org/abs/2610.22761
+    summary: 'arXiv:2610.22761v1 Announce Type: new Abstract: We investigate genuine multipartite entanglement
+      and genuine tripartite nonlocality of a noisy generalized GHZ state in Schwarzschild-de Sitter spacetime.
+      The genuine multipartite concurrence '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 0
+  - title: On the relationship between the POVM framework and the no-signaling hypothesis
+    url: https://arxiv.org/abs/2610.22823
+    summary: 'arXiv:2610.22823v1 Announce Type: new Abstract: The quantum foundations literature contains
+      dozens of "no-signaling" arguments that rely on the Born rule or, more generally, the positive operator-valued
+      measure (POVM) framework to show that'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 0
+  - title: Quantum approximate stochastic combinatorial optimisation
+    url: https://arxiv.org/abs/2610.22876
+    summary: 'arXiv:2610.22876v1 Announce Type: new Abstract: Two-stage stochastic combinatorial optimisation
+      concerns discrete decisions made before all relevant information is known. An initial decision is
+      made; once uncertainty is resolved, it can be '
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 0
+  - title: Quantum-Assisted Unambiguous Discrimination of Pure States with Robustness Bounds
+    url: https://arxiv.org/abs/2610.22954
+    summary: 'arXiv:2610.22954v1 Announce Type: new Abstract: We propose a hybrid quantum-classical framework
+      for the unambiguous discrimination of pure states by combining the noisy intermediate-scale quantum
+      semidefinite program solver (NSS) with the r'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'Encodings and Node Architecture: Lessons from the Fault-Tolerant Distributed Transversal Fanout'
+    url: https://arxiv.org/abs/2610.22966
+    summary: 'arXiv:2610.22966v1 Announce Type: new Abstract: An encoding choice specifies the quantum
+      error-correcting code used to encode logical qubits at a given node. Different encoding choices
+      may differ in the number of physical qubits, the number'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'Quantum Tsallis Entropy Estimation: Near-Optimal Bounds and High-Precision Improvements'
+    url: https://arxiv.org/abs/2610.22983
+    summary: 'arXiv:2610.22983v1 Announce Type: new Abstract: Estimating statistical properties of probability
+      distributions is a fundamental problem in statistics and theoretical computer science. We develop
+      quantum algorithms for estimating the $q$-Tsa'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 0
+  - title: Discrete time crystals and classical logic gates in coupled open Dicke models
+    url: https://arxiv.org/abs/2610.23043
+    summary: 'arXiv:2610.23043v1 Announce Type: new Abstract: We investigate the dynamics of coupled discrete
+      time crystals (DTCs) in the coupled Dicke model or Dicke dimer (DD) with dissipation. By numerically
+      simulating the mean-field dynamics of the s'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
-  - title: The EU’s next chapter in AI is agentic
-    url: https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic
-    summary: New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and
-      where deeper use could unlock more value.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-10-14T00:00:00+00:00'
+  - title: 'AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language
+      Models and Agentic Systems'
+    url: https://arxiv.org/abs/2610.22511
+    summary: 'arXiv:2610.22511v1 Announce Type: new Abstract: Evaluating language models and agents requires
+      combining benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and
+      retrieval quality. Differences in interfaces, m'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: Stack Overflow for Agents triples signups with ChatGPT plugin
-    url: https://openai.com/index/stack-overflow-chatgpt-plugin
-    summary: Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT
-      plugin helped drive up to 10× growth in agent creation.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-10-16T00:00:00+00:00'
+  - title: 'MuninAI: A Self-Hosted Agentic Framework for Independent Research Groups'
+    url: https://arxiv.org/abs/2610.23480
+    summary: 'arXiv:2610.23480v1 Announce Type: new Abstract: Research groups that want a language model
+      grounded in their own literature face a choice between hosted services that receive their unpublished
+      work and self-hosted deployments that keep the '
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: Amp puts AI agents to work beyond code with OpenAI models
-    url: https://openai.com/index/amp-beyond-coding
-    summary: See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1,
-      and Sign in with ChatGPT.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-10-14T12:00:00+00:00'
+  - title: 'LoongSage: A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with
+      Validated Recipes'
+    url: https://arxiv.org/abs/2610.16352
+    summary: 'arXiv:2610.16352v2 Announce Type: replace-cross Abstract: Reinforcement learning (RL) has
+      emerged as a critical phase in the post-training pipeline of large language models (LLMs). As the
+      frontier of LLM capabilities shifts from static reas'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 1
+  - title: Benchmarking and Enhancing Agentic Causal Discovery
+    url: https://arxiv.org/abs/2610.22846
+    summary: 'arXiv:2610.22846v1 Announce Type: new Abstract: LLM agents can now run causal discovery
+      algorithms on a dataset and report what comes out. Whether they do more than that, such as noticing
+      where an algorithm went wrong and fixing it with fur'
+    source: arXiv cs.LG
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: How Third Moment Research runs 10,000 agents for 36+ hours
-    url: https://openai.com/index/third-moment-research
-    summary: With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds
-      agents that focus for days and improve with use.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-10-14T07:00:00+00:00'
+  - title: 'RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents'
+    url: https://arxiv.org/abs/2610.22507
+    summary: 'arXiv:2610.22507v1 Announce Type: new Abstract: Command-line interface (CLI) agents increasingly
+      execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain
+      fixed throughout execution or evaluate task o'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: Run fast, private agents on-device with LFM2.5-24B-A2B
-    url: https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
-    summary: ''
-    source: Hugging Face Blog
-    weight: 1
-    published_at: '2026-10-13T17:05:48+00:00'
+  - title: 'KiranaBench: Can a Language Model Run a Neighbourhood Shop?'
+    url: https://arxiv.org/abs/2610.22980
+    summary: 'arXiv:2610.22980v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly
+      evaluated on long-horizon tasks, including autonomously running a business. Existing benchmarks
+      for this setting are almost exclusively Engli'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: October 9, 2026
-    url: https://openrouter.ai/docs/changelog#october-9-2026
-    summary: 'Breaking changes CreateEndUserRequest : maxLength 256 modifiedNo action needed No action
-      required for existing consumers. The maximum end-user ID length increased from 256 to 512 characters.
-      Used by POST /end-users CreateEndUserRequest : pa'
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
+  - title: 'Ignored, Not Refused: What Low Prompt-Injection Success Rates Hide in Small Tool-Using Agents'
+    url: https://arxiv.org/abs/2610.23254
+    summary: 'arXiv:2610.23254v1 Announce Type: new Abstract: Tool-using agents read untrusted external
+      content, which exposes them to indirect prompt injection (IPI), where hidden instructions hijack
+      the agent''s tool calls. Benchmarks measure IPI securi'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: October 8, 2026
-    url: https://openrouter.ai/docs/changelog#october-8-2026
-    summary: 'Modified endpoints GET /keys : new parameter include_expired POST /interns : description
-      updated; response schema updated Modified schemas PublicEndpoint : description updated Used by GET
-      /endpoints/zdr , GET /models/{author}/{slug}/endpoin'
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
+  - title: 'GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative
+      Search'
+    url: https://arxiv.org/abs/2610.23709
+    summary: 'arXiv:2610.23709v1 Announce Type: new Abstract: Optimizing product listings for generative
+      search requires language agents not only to rewrite effectively but also to continually self-improve
+      by retaining successful strategies across divers'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: October 7, 2026
-    url: https://openrouter.ai/docs/changelog#october-7-2026
-    summary: 'New endpoints POST /interns/{internId}/daemon-access/sign : Sign a daemon request with the
-      caller''s identity (deprecated alias) POST /interns/{internId}/daemon/sign : Sign a daemon request
-      with the caller''s identity New schemas ToolSearchCa'
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
+  - title: 'DLite: History-free Speculative Decoding for Agentic AI'
+    url: https://arxiv.org/abs/2610.23787
+    summary: 'arXiv:2610.23787v1 Announce Type: new Abstract: Speculative decoding has become a mainstream
+      technique for accelerating large language model (LLM) inference by using a lightweight draft model
+      to generate candidate tokens that are subsequent'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: October 6, 2026
-    url: https://openrouter.ai/docs/changelog#october-6-2026
-    summary: 'Breaking changes BYOKKey : required declared_region property addedNo action needed No action
-      required for existing consumers. Responses from BYOK endpoints now include declared_region ( "global"
-      , "europe" , "us" , or null ) indicating the '
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
+  - title: 'Not All Graphs Are Maps: A Task-Agnostic Exploration Framework for Mobile GUI Navigation'
+    url: https://arxiv.org/abs/2610.22672
+    summary: 'arXiv:2610.22672v1 Announce Type: cross Abstract: Modern mobile GUI agents can perceive
+      visible screens and execute local actions, but they still lack persistent app-specific navigation
+      knowledge: where functions live, which pages contain t'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: October 5, 2026
-    url: https://openrouter.ai/docs/changelog#october-5-2026
-    summary: 'Modified schemas BatchProviderPreferences : description updated; new property allow_fallbacks
-      Used by POST /batches'
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
+  - title: 'SAFE-Mem: Secure Agentic Memory with Fine-Grained Authority and Governance-Aware Retrieval'
+    url: https://arxiv.org/abs/2610.22959
+    summary: 'arXiv:2610.22959v1 Announce Type: cross Abstract: Large language model (LLM) agents increasingly
+      rely on persistent memory to support long-term reasoning and personalized interactions. However,
+      information collected from external sources ca'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: October 2, 2026
-    url: https://openrouter.ai/docs/changelog#october-2-2026
-    summary: 'Breaking changes spec: ^ a-z0-9* ?(. a-z0-9* ?)*$ modifiedNo action needed Modified endpoints
-      POST /audio/transcriptions : description updated Modified schemas ObservabilityClickhouseDestination
-      : new property shouldIncludeCacheWriteTokens '
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
+  - title: Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning
+    url: https://arxiv.org/abs/2610.23181
+    summary: 'arXiv:2610.23181v1 Announce Type: cross Abstract: Reinforcement learning with verifiable
+      rewards has become a scalable post-training paradigm for large language models. However, training
+      agents over long-horizon interactions presents two ch'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 1
+  - title: Language Model Goal Selection Differs from Humans' in a Self-Directed Learning Task
+    url: https://arxiv.org/abs/2603.03295
+    summary: 'arXiv:2603.03295v3 Announce Type: replace Abstract: Whether in agentic workflows, social
+      studies, or chat settings, large language models (LLMs) are increasingly being asked to replace
+      humans in choosing which goals to pursue, rather than c'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: October 1, 2026
-    url: https://openrouter.ai/docs/changelog#october-1-2026
-    summary: 'Breaking changes ActivityItem : required cached_tokens property addedNo action needed Used
-      by GET /activity Modified endpoints GET /generation : parameter id updated GET /generation/content
-      : parameter id updated GET /activity : response sc'
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
+  - title: Group-Graph Policy Optimization for Long-Horizon Agentic Reinforcement Learning
+    url: https://arxiv.org/abs/2606.22995
+    summary: 'arXiv:2606.22995v2 Announce Type: replace-cross Abstract: Group-based Reinforcement Learning
+      (RL) has significantly enhanced Large Language Models (LLMs) in agentic scenarios. To achieve finer-grained
+      policy updates, recent agentic RL frame'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
+    dupe_count: 1
+  - title: 'SEA-HELM Audio: Evaluating Multilingual ASR-LLM Pipeline Performance Across SEA-HELM Subsets'
+    url: https://arxiv.org/abs/2610.19869
+    summary: 'arXiv:2610.19869v2 Announce Type: replace-cross Abstract: We introduce SEA-HELM Audio, a
+      Southeast Asian (SEA) multilingual evaluation framework that extends the text-based SEA-HELM benchmark
+      to assess performance degradation in cascaded au'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: September 30, 2026
-    url: https://openrouter.ai/docs/changelog#september-30-2026
-    summary: 'New endpoints GET /end-users : List registered end users POST /end-users : Register an end
-      user GET /end-users/{user} : Get a registered end user PATCH /end-users/{user} : Update a registered
-      end user DELETE /end-users/{user} : Deactivate a'
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
+  - title: 'WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking
+      and Training Code Agents'
+    url: https://arxiv.org/abs/2610.22039
+    summary: 'arXiv:2610.22039v2 Announce Type: replace-cross Abstract: Real-world software engineering
+      rarely consists of isolated changes. Features, migrations, and systematic fixes often unfold across
+      multiple pull requests (PRs), requiring coordinate'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: September 29, 2026
-    url: https://openrouter.ai/docs/changelog#september-29-2026
-    summary: 'Breaking changes JevRouterPlugin : additionalProperties false object addedNo action needed
-      * [`POST /chat/completions`](/api/api-reference/chat/create-a-chat-completion) * [`POST /messages`](/api/api-reference/anthropic-messages/create-a-me'
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
+  - title: 'Lean4AgenticRL: Advancing Agentic RL with Verifiable Multi-level Process Rewards'
+    url: https://arxiv.org/abs/2610.22448
+    summary: 'arXiv:2610.22448v1 Announce Type: new Abstract: Enhancing the agentic capabilities of Large
+      Language Models (LLMs) to tackle complex software engineering (SWE) and general terminal-usage problems
+      is a pressing challenge. Current state-of-th'
+    source: arXiv cs.LG
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: September 28, 2026
-    url: https://openrouter.ai/docs/changelog#september-28-2026
-    summary: 'Breaking changes PublicEndpoint : required native_tools property addedNo action needed Used
-      by GET /endpoints/zdr , GET /models/{author}/{slug}/endpoints New endpoints GET /interns/{internId}/daemon
-      : Get an intern''s daemon access GET /priv'
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
+  - title: 'MetaCurate: Evolving Curation Filters for High-Quality Agentic Coding Data'
+    url: https://arxiv.org/abs/2610.23134
+    summary: 'arXiv:2610.23134v1 Announce Type: new Abstract: Supervised fine-tuning on agent trajectories
+      is an effective way to improve coding agents, but selecting useful training examples requires more
+      than identifying successful runs. A resolved pat'
+    source: arXiv cs.LG
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: September 27, 2026
-    url: https://openrouter.ai/docs/changelog#september-27-2026
-    summary: 'New response codes POST /embeddings : now returns 504'
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
+  - title: 'JAXtari: High-Throughput and Easy-to-Modify Arcade Learning Environment'
+    url: https://arxiv.org/abs/2610.23650
+    summary: 'arXiv:2610.23650v1 Announce Type: new Abstract: The Arcade Learning Environment (ALE) has
+      been a cornerstone of Deep Reinforcement Learning research, providing a standardized benchmark for
+      evaluating general agents. However, its lack of nat'
+    source: arXiv cs.LG
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
-  - title: September 25, 2026
-    url: https://openrouter.ai/docs/changelog#september-25-2026
-    summary: 'Breaking changes GET /interns/{internId}/daemon-access : codes 429 object removedNo action
-      needed SpeechInputReferenceAudioInput : required data property removedNo action needed Used by POST
-      /audio/speech New endpoints GET /batches : List b'
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
-    dupe_count: 0
-  - title: September 24, 2026
-    url: https://openrouter.ai/docs/changelog#september-24-2026
-    summary: 'New endpoints GET /interns/{internId}/daemon-access : Get an intern''s daemon access Modified
-      endpoints GET /scim/groups : new parameter display_name ; new parameter external_id GET /byok :
-      parameter provider updated New schemas InternDaemon'
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
-    dupe_count: 0
-  - title: September 23, 2026
-    url: https://openrouter.ai/docs/changelog#september-23-2026
-    summary: 'Breaking changes spec: arguments property addedNo action needed spec: call_id property addedNo
-      action needed spec: input property addedNo action needed spec: name property addedNo action needed
-      spec: type property addedNo action needed $.co'
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
-    dupe_count: 0
-  - title: September 22, 2026
-    url: https://openrouter.ai/docs/changelog#september-22-2026
-    summary: 'Modified endpoints GET /workspaces : response schema updated POST /workspaces : response
-      schema updated GET /workspaces/{id} : response schema updated PATCH /workspaces/{id} : response
-      schema updated POST /api/alpha/decisions : description '
-    source: OpenRouter Changelog
-    weight: 1
-    published_at: '2026-10-09T19:39:14+00:00'
+  - title: How language model agents reshape price competition
+    url: https://arxiv.org/abs/2610.21711
+    summary: 'arXiv:2610.21711v1 Announce Type: cross Abstract: Repeated Bertrand competition is a stringent
+      benchmark for algorithmic pricing: in homogeneous-goods markets, standard learning procedures typically
+      select the stage-game Nash outcome with p'
+    source: arXiv cs.LG
+    weight: 2
+    published_at: '2026-10-19T04:00:00+00:00'
     dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
@@ -554,13 +565,6 @@ tiles:
     weight: 1
     published_at: '2026-10-10T09:24:54+00:00'
     dupe_count: 0
-  - title: 'feat(managed_agents): add agent security review cookbook (#926)'
-    url: https://github.com/anthropics/claude-cookbooks/commit/a162e0184e71b60290808a43961a6cbc8060123c
-    summary: 'feat(managed_agents): add agent security review cookbook (#926)'
-    source: Anthropic Cookbook Commits
-    weight: 1
-    published_at: '2026-10-17T00:28:08+00:00'
-    dupe_count: 0
   - title: Claude Code GitHub Action v1.0
     url: https://github.com/anthropics/claude-code-action/releases/tag/v1
     summary: 🎉 Claude Code GitHub Action v1.0 - Now Generally Available! We're excited to announce the
@@ -568,7 +572,28 @@ tiles:
       simplicity, flexibility, and power to AI-assisted dev
     source: Claude Code Action Releases
     weight: 1
-    published_at: '2026-10-16T21:01:20+00:00'
+    published_at: '2026-10-18T22:35:59+00:00'
+    dupe_count: 0
+  - title: v1.0.253
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.253
+    summary: 'Full Changelog : v1.0.252...v1.0.253'
+    source: Claude Code Action Releases
+    weight: 1
+    published_at: '2026-10-18T22:35:48+00:00'
+    dupe_count: 0
+  - title: v2.1.303
+    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.303
+    summary: What's changed Bug fixes and reliability improvements
+    source: Claude Code Releases
+    weight: 1
+    published_at: '2026-10-18T22:26:54+00:00'
+    dupe_count: 0
+  - title: 'feat(managed_agents): add agent security review cookbook (#926)'
+    url: https://github.com/anthropics/claude-cookbooks/commit/a162e0184e71b60290808a43961a6cbc8060123c
+    summary: 'feat(managed_agents): add agent security review cookbook (#926)'
+    source: Anthropic Cookbook Commits
+    weight: 1
+    published_at: '2026-10-17T00:28:08+00:00'
     dupe_count: 0
   - title: v1.0.252
     url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.252
@@ -691,20 +716,4 @@ tiles:
     source: Claude Code Releases
     weight: 1
     published_at: '2026-10-14T02:49:42+00:00'
-    dupe_count: 0
-  - title: v1.0.248
-    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.248
-    summary: 'Full Changelog : v1.0.247...v1.0.248'
-    source: Claude Code Action Releases
-    weight: 1
-    published_at: '2026-10-09T19:37:39+00:00'
-    dupe_count: 2
-  - title: v2.1.296
-    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.296
-    summary: 'What''s changed Added a code key to the Claude apps gateway''s managed.policies[] : the
-      same settings as cli , also applied in Claude Desktop''s Code tab; beside desktop , it turns on
-      Claude Desktop''s gateway mode Added autoCompactWindow to su'
-    source: Claude Code Releases
-    weight: 1
-    published_at: '2026-10-09T19:28:59+00:00'
     dupe_count: 0
