@@ -1,173 +1,171 @@
-generated_at: '2026-10-24T11:15:03.791335+00:00'
+generated_at: '2026-10-25T11:15:09.703386+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
-  - title: Startups don’t need to go viral to win customers
-    url: https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/
-    summary: At TechCrunch Disrupt last week, two founders and a VC discussed how to not just gain an
-      early following but keep one.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-23T23:07:45+00:00'
-    dupe_count: 0
-  - title: OpenAI says it will no longer train its AI models on the live internet, citing “significant
-      risks”
-    url: https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/
-    summary: OpenAI will cut frontier models off from the internet weeks after one of its engineers said
-      that solution wouldn't work.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-23T23:05:49+00:00'
-    dupe_count: 0
-  - title: NASA updates lander plans for Moon landings, finally solves long-festering Orion issue
-    url: https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/
-    summary: '"We have the mandate, we have the resources, and the support from our stakeholders."'
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-23T22:48:25+00:00'
-    dupe_count: 0
-  - title: Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell
-    url: https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/
-    summary: The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead
-      for a "nap," and summersaulted on voice command.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-23T21:59:19+00:00'
-    dupe_count: 0
-  - title: Xbox’s first chief operating officer is out after just a few months
-    url: https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure
-    summary: Xbox's first chief operating officer (COO) is leaving after the new role was created just
-      a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox memo seen
-      by The Verge. Chiang has been at Microsoft for 21 y
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-23T21:39:26+00:00'
-    dupe_count: 0
-  - title: OpenAI now trains its frontier AI models with no internet access
-    url: https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet
-    summary: OpenAI is now training its most advanced AI models without internet access following a string
-      of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment
-      where AI models can interact with indexe
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-23T21:11:07+00:00'
-    dupe_count: 0
-  - title: VCs, Superhuman Mail founder share red flags about product-market fit
-    url: https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit/
-    summary: Top investors from Iconiq and Sapphire Ventures, along with Rahul Vohra, the founder of Superhuman
-      Mail, share the do's and don'ts for building hit products.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-23T20:57:13+00:00'
-    dupe_count: 0
-  - title: Hegseth warns prediction market bets warp military judgment, endanger troops
-    url: https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/
-    summary: 'Pentagon memo: Insider trading gives US enemies key intel on military operations.'
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-23T20:28:43+00:00'
-    dupe_count: 0
-  - title: Updated Google privacy policy says your Gmail might be used for advertising
-    url: https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/
-    summary: Turning on Personal Intelligence gives the company more data for ad targeting.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-23T20:19:55+00:00'
-    dupe_count: 0
-  - title: 'TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving
-      right now'
-    url: https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/
-    summary: 'TechCrunch Founder Summit 2026 is coming to SoWa Power Station in Boston on November 4,
-      bringing founders, investors, and operators together for a full day of candid conversations, practical
-      sessions, live pitching, networking, and smaller '
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-23T20:03:14+00:00'
-    dupe_count: 0
-  - title: Abandoned Popcorn Time apps had to be disabled to prevent a zombie army
-    url: https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided
-    summary: Remember Popcorn Time, the app that served as an easy-to-use front end for streaming torrents
-      of movies and TV shows? Development of the MPAA's least-favorite app of the 2010s has been abandoned
-      for years, but the "Netflix of Piracy" softwa
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-23T19:35:15+00:00'
-    dupe_count: 0
-  - title: Inside the Pentagon, the pressure is on to find a home for a new spaceport
-    url: https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/
-    summary: 'Space Force considering options: public-private, federal installation, state land.'
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-23T19:33:58+00:00'
-    dupe_count: 0
-  - title: Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend
-    url: https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech
-    summary: Jack Dorsey's Block announced an AI model called Dessa that's trained "from scratch on nothing
-      but human conversation," and to show off the model, Block shared chats it has had with humans that
-      can occasionally be a little awkward and uncan
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-23T19:32:39+00:00'
-    dupe_count: 0
-  - title: Carta and NewView partner, hoping to entice more startups to let employees sell shares early
-    url: https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/
-    summary: A new program wants to encourage more startups to allow workers to cash out early by making
-      it easier to transact tender offers.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-23T19:25:13+00:00'
-    dupe_count: 0
-  - title: Spotify ramps up policy enforcement on family plans
-    url: https://arstechnica.com/gadgets/2026/10/spotify-ramps-up-policy-enforcement-on-family-plans/
-    summary: If you share Spotify sub with family, you may need to scan QR code to prove it.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-23T19:20:27+00:00'
-    dupe_count: 0
-  - title: 'Dessa: Conversation Model trained only on speech'
-    url: https://block.xyz/dessa
-    summary: 'Article URL: https://block.xyz/dessa Comments URL: https://news.ycombinator.com/item?id=50213925
-      Points: 395 # Comments: 145'
+  - title: America has lost 200k of jobs in media, film and the arts. How much is AI?
+    url: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class
+    summary: 'Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL:
+      https://news.ycombinator.com/item?id=50226419 Points: 376 # Comments: 382'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-10-23T19:09:54+00:00'
+    published_at: '2026-10-24T23:11:54+00:00'
     dupe_count: 0
-  - title: 'From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026'
-    url: https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/
-    summary: Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes
-      beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening
-      a pitch, developing founder leadership, and scalin
+  - title: We should be more ambitious with the software we build
+    url: https://danluu.com/ambitious/
+    summary: 'Article URL: https://danluu.com/ambitious/ Comments URL: https://news.ycombinator.com/item?id=50225695
+      Points: 457 # Comments: 406'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-10-24T21:47:31+00:00'
+    dupe_count: 0
+  - title: Blue Planet III is keeping the rough edges in the age of AI
+    url: https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai
+    summary: BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect
+      shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear
+      footage that seemed almost too good to be real. B
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-24T21:29:12+00:00'
+    dupe_count: 0
+  - title: Starlink seems to be working normally again in Ukraine
+    url: https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/
+    summary: Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access.
     source: TechCrunch
     weight: 1
-    published_at: '2026-10-23T19:06:23+00:00'
+    published_at: '2026-10-24T20:46:34+00:00'
     dupe_count: 0
-  - title: Soundcore’s latest noise-crushing headphones are on sale for a new low price
-    url: https://www.theverge.com/gadgets/1017667/anker-soundcore-space-2-noise-canceling-headphones-deal-sale
-    summary: My colleague John Higgins considered Soundcore’s Space One some of the best budget noise-canceling
-      headphones you could buy when they launched in 2023 — and their successor has only improved upon
-      their winning formula, albeit with a $30 pri
+  - title: Will AI expose the rickety infrastructure of the internet?
+    url: https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/
+    summary: The moment you realize the internet is "held together by glue and dreams."
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-24T20:15:33+00:00'
+    dupe_count: 0
+  - title: The Goose Programming Language
+    url: https://aardappel.github.io/goose/
+    summary: 'https://twitter.com/ID_AA_Carmack/status/2113704269274636568 Comments URL: https://news.ycombinator.com/item?id=50224100
+      Points: 426 # Comments: 259'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-10-24T19:06:55+00:00'
+    dupe_count: 0
+  - title: 'The AI graveyard: a running list of projects and startups that didn’t make it'
+    url: https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/
+    summary: From Apple's repeatedly delayed Siri AI to OpenAI's messy "super app" launch, here's a look
+      at the AI projects that shut down or missed expectations.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-24T19:00:00+00:00'
+    dupe_count: 0
+  - title: Pennsylvania will require labels on AI-generated ads
+    url: https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act
+    summary: 'On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive
+      Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether
+      it''s a still image, video, audio, or text - '
     source: The Verge
     weight: 1
-    published_at: '2026-10-23T18:43:30+00:00'
+    published_at: '2026-10-24T18:32:21+00:00'
     dupe_count: 0
-  - title: Fi’s GPS-equipped dog trackers are on sale for 30 percent off
-    url: https://www.theverge.com/gadgets/1017196/fi-ultra-gps-dog-tracker-kirby-air-riders-deal-sale
-    summary: If your dog or cat is prone to getting lost, or you frequently go on adventures together,
-      you can save 30 percent on Fi pet trackers through October 25th when you enter coupon code SCARY
-      at checkout. The sale includes several satellite-conn
+  - title: Instacart reportedly discussed selling itself with DoorDash and Uber
+    url: https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/
+    summary: Instacart might sell itself to a larger competitor.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-24T16:30:00+00:00'
+    dupe_count: 0
+  - title: Block’s new voice model sounds eerily human
+    url: https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/
+    summary: Block said that the voice model can run locally on a MacBook M4 Max
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-24T16:00:00+00:00'
+    dupe_count: 0
+  - title: 'PHP-ocalypse: How two critical web bugs almost broke the internet'
+    url: https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/
+    summary: Two critical bugs in the PHP web programming language, used by the majority of the internet,
+      threatened to upend the internet — and it's unlikely to be the last major software scare.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-24T15:30:00+00:00'
+    dupe_count: 0
+  - title: These clever apps show off the iPhone Duo’s potential
+    url: https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/
+    summary: From retro cassette players and virtual notebooks to flight trackers and even a digital toaster,
+      developers are finding creative ways to take advantage of Apple's first foldable iPhone.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-24T15:00:00+00:00'
+    dupe_count: 0
+  - title: Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.
+    url: https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/
+    summary: A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's
+      GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election
+      races.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-24T15:00:00+00:00'
+    dupe_count: 0
+  - title: Fielded is obsessed with scammers and unhinged Japanese cyberpunk
+    url: https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview
+    summary: 'Lindsay Powell, who releases records under the name Fielded, has spent most of her career
+      subverting expectations and genre conventions. According to their Bandcamp page, Fielded started
+      as an experimental noise project before growing into '
     source: The Verge
     weight: 1
-    published_at: '2026-10-23T17:55:03+00:00'
+    published_at: '2026-10-24T15:00:00+00:00'
     dupe_count: 0
-  - title: Elon Musk’s dangerous grip on outer space
-    url: https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly
-    summary: Last week, Starshield - the version of SpaceX's Starlink used by the Ukrainian military -
-      was throttled to block terminals traveling above certain speeds from accessing the service. The
-      Ukrainian army's interceptors, which counter Russian d
+  - title: LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday
+    url: https://www.theverge.com/gadgets/1017768/lg-c6-oled-tv-early-black-friday-2026-deal-sale
+    summary: Black Friday is still over a month away, but if you’re hoping to upgrade your TV, you don’t
+      need to wait until November. LG has already kicked off its early Black Friday sale, letting you
+      save on the LG C6 and various soundbars through Nove
     source: The Verge
     weight: 1
-    published_at: '2026-10-23T17:35:15+00:00'
+    published_at: '2026-10-24T15:00:00+00:00'
+    dupe_count: 0
+  - title: The Boox Palma 2 Pro finally got me to stop reading on my phone
+    url: https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/
+    summary: The $400 Boox Palma 2 Pro is a smartphone-sized e-reader designed for people who want to
+      read books, articles, and documents on a small E Ink display.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-24T14:15:00+00:00'
+    dupe_count: 0
+  - title: What to expect from Apple’s ‘Pro and tell’ event
+    url: https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro
+    summary: It feels like Apple's Welcome Home event just happened. And the iPhone Duo announcement isn't
+      all that far in our rearview mirror, either. Yet, the company is back with another launch, focused
+      on the MacBook Pro, it looks like. Its "Pro and
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-24T14:15:00+00:00'
+    dupe_count: 0
+  - title: Here are the top AI agents that can live in your text messages
+    url: https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/
+    summary: We created a list of the most notable AI agents that can live in your text messages, from
+      general assistants to agents designed for families, travel, and work.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-24T14:00:00+00:00'
+    dupe_count: 0
+  - title: I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop
+    url: https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis
+    summary: 'It looks like the long-rumored touchscreen MacBook might actually get announced next week,
+      and after using the Lenovo Yoga 9n for our testing of Nvidia''s RTX Spark platform, it got me thinking:
+      this is a lot of what I want from a touchscree'
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-24T14:00:00+00:00'
+    dupe_count: 0
+  - title: Lee Chang Dong ponders the ethics of the camera
+    url: https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview
+    summary: Lee Chang Dong's seventh feature film, Possible Love, is inspired by true events from 2009,
+      when a Korean conglomerate fired a third of its staff - 2,600 employees - after which many died
+      by suicide. Possible Love is the latest in a long li
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-24T12:30:00+00:00'
     dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
@@ -180,105 +178,6 @@ tiles:
     source: The Quantum Insider
     weight: 1
     published_at: '2026-10-24T07:00:00+00:00'
-    dupe_count: 0
-  - title: All Nine Award Winners in Japan’s NEDO Quantum Challenge Leverage IBM Hardware; Four Dedicated
-      Industry Sponsor Prizes Awarded
-    url: https://quantumcomputingreport.com/all-nine-award-winners-in-japans-nedo-quantum-challenge-leverage-ibm-hardware-four-dedicated-industry-sponsor-prizes-awarded/
-    summary: In October 2026, Japan's NEDO Quantum Challenge announced the winners of its first season,
-      recognizing nine projects for their advancements in quantum computing, all of which utilized IBM
-      Quantum hardware. The competition aimed to bridge th
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-24T02:01:08+00:00'
-    dupe_count: 0
-  - title: QCentroid Unveils “Missions” on NVIDIA CUDA-Q to Benchmark Classical, Quantum-Inspired, and
-      QPU Workloads
-    url: https://quantumcomputingreport.com/qcentroid-unveils-missions-on-nvidia-cuda-q-to-benchmark-classical-quantum-inspired-and-qpu-workloads/
-    summary: QCentroid launched "Missions," a new platform integrated with NVIDIA CUDA-Q, to evaluate
-      the best solutions for enterprise computational challenges. It uses autonomous AI to determine if
-      classical, quantum-inspired, or QPU algorithms are mo
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-24T01:27:54+00:00'
-    dupe_count: 0
-  - title: South Korea Launches Nationwide Open Quantum Testbed Expansion Led by KT and SK Broadband
-    url: https://quantumcomputingreport.com/south-korea-launches-nationwide-open-quantum-testbed-expansion-led-by-kt-and-sk-broadband/
-    summary: South Korea is expanding its Open Quantum Testbed nationwide from 2026-2028, with a 7.4 billion
-      won initial investment. KT Corporation and SK Broadband are leading the project, focusing on terrestrial,
-      cross-border, and future quantum commu
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-24T01:11:13+00:00'
-    dupe_count: 0
-  - title: FPT Corporation and Niels Bohr Institute Partner to Advance Quantum Research and Talent Development
-      in Vietnam and Denmark
-    url: https://quantumcomputingreport.com/fpt-corporation-and-niels-bohr-institute-partner-to-advance-quantum-research-and-talent-development-in-vietnam-and-denmark/
-    summary: FPT Corporation and the Niels Bohr Institute have partnered to advance quantum research and
-      talent development in Vietnam and Denmark. The collaboration, formalized during the Vietnam–Denmark
-      Business Forum, will focus on joint research pro
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-24T00:53:43+00:00'
-    dupe_count: 0
-  - title: Cloudflare Launches Post-Quantum GeoKey Manager with Hybrid ML-KEM-768 Encryption for Regional
-      Data Sovereignty
-    url: https://quantumcomputingreport.com/cloudflare-launches-post-quantum-geokey-manager-with-hybrid-ml-kem-768-encryption-for-regional-data-sovereignty/
-    summary: Cloudflare has launched its Post-Quantum GeoKey Manager in closed beta, integrating NIST-standardized
-      post-quantum cryptography to enforce strict geographical boundaries on customer private key access.
-      This new system protects sensitive ent
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-24T00:46:28+00:00'
-    dupe_count: 0
-  - title: UK and Singapore Align on Post-Quantum Cryptography Migration and Quantum Security Standards
-      in Financial Sector
-    url: https://quantumcomputingreport.com/uk-and-singapore-align-on-post-quantum-cryptography-migration-and-quantum-security-standards-in-financial-sector/
-    summary: 'During the 11th UK-Singapore Financial Dialogue in October 2026, both nations agreed to
-      strengthen cooperation on quantum security in the financial sector. They plan to harmonize post-quantum
-      cryptography (PQC) migration roadmaps and share '
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-24T00:29:09+00:00'
-    dupe_count: 0
-  - title: Palm Beach State College and FAU Activate First Operational Segment of Florida’s Statewide
-      Quantum-Safe Network
-    url: https://quantumcomputingreport.com/palm-beach-state-college-and-fau-activate-first-operational-segment-of-floridas-statewide-quantum-safe-network/
-    summary: Palm Beach State College (PBSC) and Florida Atlantic University (FAU) have activated Florida’s
-      first operational quantum-safe network link, connecting their campuses using IonQ’s quantum key
-      distribution (QKD) hardware. This initiative, sup
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-24T00:13:38+00:00'
-    dupe_count: 0
-  - title: Ericsson Canada and ÉTS Partner to Develop Scalable Variational Quantum Algorithms for Telecom
-      Network Optimization
-    url: https://quantumcomputingreport.com/ericsson-canada-and-ets-partner-to-develop-scalable-variational-quantum-algorithms-for-telecom-network-optimization/
-    summary: Ericsson Canada and ÉTS are collaborating on a research project to develop scalable quantum
-      algorithms for telecom network optimization. The project, supported by Mitacs, focuses on advancing
-      variational quantum algorithms (VQAs) to optimiz
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-23T23:55:32+00:00'
-    dupe_count: 1
-  - title: ZuriQ and Rhonexum Form Multi-Year Partnership to Integrate Cryogenic Control ICs into 2D Trapped-Ion
-      Processors
-    url: https://quantumcomputingreport.com/zuriq-and-rhonexum-form-multi-year-partnership-to-integrate-cryogenic-control-ics-into-2d-trapped-ion-processors/
-    summary: ZuriQ and Rhonexum have partnered to integrate low-temperature control electronics into ZuriQ's
-      2D trapped-ion processors. This collaboration aims to overcome the I/O wiring bottleneck in quantum
-      computing by using Rhonexum's cryogenic inte
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-23T23:47:16+00:00'
-    dupe_count: 0
-  - title: RhymeQ Joins NVIDIA Inception Program and Announces Technical Collaboration on NOOA Agentic
-      AI Framework
-    url: https://quantumcomputingreport.com/rhymeq-joins-nvidia-inception-program-and-announces-technical-collaboration-on-nooa-agentic-ai-framework/
-    summary: RhymeQ Technologies has joined the NVIDIA Inception program, aligning its RHYME abstraction
-      layer with NVIDIA's CUDA-Q platform. They are also collaborating on research to integrate agentic
-      AI with quantum computing using NVIDIA's NOOA fram
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-10-23T18:04:10+00:00'
     dupe_count: 0
   - title: Governor Hochul Announces New Study Highlighting New York’s Position as a National Leader in
       Quantum Technology
@@ -353,193 +252,183 @@ tiles:
     weight: 1
     published_at: '2026-10-22T13:28:24+00:00'
     dupe_count: 0
+  - title: Ericsson Canada and ÉTS Partner on Quantum Computing Research
+    url: https://thequantuminsider.com/2026/10/22/ericsson-canada-ets-quantum-computing-research/
+    summary: Insider Brief PRESS RELEASE — Ericsson Canada and École de technologie supérieure (ÉTS) have
+      teamed up to further quantum computing research in Quebec, one of the country’s primary quantum
+      computing centres. With support from the Mitacs Acc
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-10-22T13:20:37+00:00'
+    dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
-  - title: 'IFC-MCQ: Automatically Generating Multiple-Choice Benchmarks for Evaluating LLM Agents on
-      IFC Data Retrieval'
-    url: https://arxiv.org/abs/2610.30533
-    summary: 'arXiv:2610.30533v1 Announce Type: new Abstract: Industry Foundation Classes (IFC), the standard
-      for building information exchange in architecture, engineering, and construction (AEC), is increasingly
-      queried through large language models (L'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 23, 2026
+    url: https://openrouter.ai/docs/changelog#october-23-2026
+    summary: 'New response codes GET /generation : now returns 403'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-23T03:13:05+00:00'
     dupe_count: 0
-  - title: 'TabAgent: Distilling LLM Agent Components into Cheap Classifiers'
-    url: https://arxiv.org/abs/2602.16429
-    summary: 'arXiv:2602.16429v3 Announce Type: replace Abstract: Agentic systems, AI architectures that
-      autonomously execute multi-step workflows to achieve complex goals, are often built using repeated
-      large language model (LLM) calls for closed-set de'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: 'Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox'
+    url: https://huggingface.co/blog/microsoft/thinkingbox-training
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-10-22T22:24:34+00:00'
     dupe_count: 0
-  - title: 'SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots'
-    url: https://arxiv.org/abs/2610.30412
-    summary: 'arXiv:2610.30412v1 Announce Type: new Abstract: LLM-based chat agents are increasingly used
-      for complex, multi-turn, multilingual medical triage in low- and middle-income countries (LMICs),
-      yet evaluation methods focus on single-turn, Engli'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 22, 2026
+    url: https://openrouter.ai/docs/changelog#october-22-2026
+    summary: 'Modified endpoints GET /interns : description updated POST /interns : description updated;
+      response schema updated DELETE /interns/{internId} : description updated; response schema updated
+      GET /interns/{internId} : description updated PATCH'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-22T18:02:48+00:00'
     dupe_count: 0
-  - title: 'What the Specification Did Not Say: Specification-Oracle Gaps in Test-Graded Coding-Agent
-      Benchmarks'
-    url: https://arxiv.org/abs/2610.30635
-    summary: 'arXiv:2610.30635v1 Announce Type: new Abstract: Coding-agent benchmarks often describe a
-      task in natural language but grade it with tests taken from the upstream project. Passing those
-      tests can require information the description never sta'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 21, 2026
+    url: https://openrouter.ai/docs/changelog#october-21-2026
+    summary: 'Breaking changes CreateEndUserRequest : schema object removedAction required Renamed to
+      CreateExternalUserRequest ; the shape is unchanged, so HTTP callers need no change. The Python SDK
+      ( openrouter 1.3.70 and later) and TypeScript SDK ( @'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-22T18:02:48+00:00'
     dupe_count: 0
-  - title: 'UniGuard: Multi-View Guardrail Learning for Cross-Interface Safety Generalization'
-    url: https://arxiv.org/abs/2610.30742
-    summary: 'arXiv:2610.30742v1 Announce Type: new Abstract: Guardrail models are increasingly used as
-      safety layers for LLMs and agentic systems, but most are trained on fixed prompt or response interfaces
-      and become unreliable when the same safety cas'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 20, 2026
+    url: https://openrouter.ai/docs/changelog#october-20-2026
+    summary: 'Modified endpoints GET /byok : parameter provider updated Modified schemas BYOKProviderSlug
+      : enum property_added Added enum value pareto-alpha . - [`GET /byok`](/api/api-reference/byok/list-byok-provider-credentials)
+      - [`GET /byok/{id}`](/'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-22T18:02:48+00:00'
     dupe_count: 0
-  - title: 'IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems'
-    url: https://arxiv.org/abs/2610.30949
-    summary: 'arXiv:2610.30949v1 Announce Type: new Abstract: We present IQuest-Q1, a sparse Mixture-of-Experts
-      (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed
-      through a three-stage process: (1) stable an'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 19, 2026
+    url: https://openrouter.ai/docs/changelog#october-19-2026
+    summary: 'New endpoints GET /interns/{internId}/icon : Get an intern''s icon Modified endpoints GET
+      /interns : response schema updated POST /interns : response schema updated GET /interns/{internId}
+      : response schema updated PATCH /interns/{internId} '
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-22T18:02:48+00:00'
     dupe_count: 0
-  - title: Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2
-    url: https://arxiv.org/abs/2610.31636
-    summary: 'arXiv:2610.31636v1 Announce Type: new Abstract: Multilingual pipelines such as FineWeb2
-      apply one recipe across a thousand languages, leaving the failure modes of individual languages
-      unanticipated. We use an LLM once, as a corpus debugger '
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 18, 2026
+    url: https://openrouter.ai/docs/changelog#october-18-2026
+    summary: 'New endpoints GET /vault/interns/{internId}/connections : List the connections an intern
+      can use Modified endpoints GET /interns/{internId}/daemon : description updated Modified schemas
+      SignInternDaemonRequest : new property route Used by P'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-22T18:02:48+00:00'
     dupe_count: 0
-  - title: 'Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems'
-    url: https://arxiv.org/abs/2610.30418
-    summary: 'arXiv:2610.30418v1 Announce Type: cross Abstract: Modern LLM agents can retrieve information
-      from accessible documents, and then disclose a sensitive conclusion assembled from them. This mosaic
-      effect creates a critical risk for agents oper'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 17, 2026
+    url: https://openrouter.ai/docs/changelog#october-17-2026
+    summary: 'Modified schemas BatchSubmitBody : new property callback_url Used by POST /batches'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-22T18:02:48+00:00'
     dupe_count: 0
-  - title: Why Bother Me Again? Benchmarking Personal Agent Memory for Interaction Preferences
-    url: https://arxiv.org/abs/2610.30485
-    summary: 'arXiv:2610.30485v1 Announce Type: cross Abstract: Personal intelligence systems are taking
-      on increasingly complex everyday tasks, yet repeated questions, unnecessary confirmations, and unwanted
-      outreach can turn capable assistance into int'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 16, 2026
+    url: https://openrouter.ai/docs/changelog#october-16-2026
+    summary: 'Breaking changes BatchListItem : required expires_at property addedNo action needed No action
+      required for existing consumers. New response-only field. Used by GET /batches BatchListItem : required
+      provider property addedNo action needed No'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-22T18:02:48+00:00'
     dupe_count: 0
-  - title: 'Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports'
-    url: https://arxiv.org/abs/2610.31158
-    summary: 'arXiv:2610.31158v1 Announce Type: cross Abstract: Deep research agents synthesize open-web
-      evidence into long reports, but current benchmarks do not evaluate research centered on a source
-      video. We introduce Video-Centered Deep Research Rep'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 15, 2026
+    url: https://openrouter.ai/docs/changelog#october-15-2026
+    summary: 'Breaking changes PublicEndpoint : required service_tier property addedNo action needed No
+      action required for existing consumers. New response-only field. Used by GET /endpoints/zdr , GET
+      /models/{author}/{slug}/endpoints Modified endpoints'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-22T18:02:48+00:00'
     dupe_count: 0
-  - title: 'MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery'
-    url: https://arxiv.org/abs/2606.06473
-    summary: 'arXiv:2606.06473v2 Announce Type: replace-cross Abstract: Large language model (LLM) agents
-      are increasingly applied to long-horizon tasks such as scientific discovery and machine learning
-      engineering (MLE), where sustained self-evolution b'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 14, 2026
+    url: https://openrouter.ai/docs/changelog#october-14-2026
+    summary: 'Breaking changes AlignmentRuleRecord : required applicable property addedNo action needed
+      No action required for existing consumers. New response-only field. - [`GET /batches/{id}`](/api/api-reference/batch/get-a-batch)
+      - [`POST /batches`]('
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-22T18:02:48+00:00'
     dupe_count: 0
-  - title: Initial Evaluation of Potential Bias in Coverage of Humans in Wikidata
-    url: https://arxiv.org/abs/2609.22375
-    summary: 'arXiv:2609.22375v2 Announce Type: replace-cross Abstract: Introduction. Open collaborative
-      knowledge graphs such as Wikidata increasingly ground agentic artificial intelligence, information
-      retrieval, and language modeling systems, making s'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 13, 2026
+    url: https://openrouter.ai/docs/changelog#october-13-2026
+    summary: 'Breaking changes ObservabilityArizeDestination : required broadcast_generation_cost_allocation
+      property addedNo action needed No action required for existing consumers. New required response
+      field; the corresponding field remains optional o'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-22T18:02:48+00:00'
     dupe_count: 0
-  - title: 'TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational
-      Agents'
-    url: https://arxiv.org/abs/2610.30161
-    summary: 'arXiv:2610.30161v1 Announce Type: new Abstract: Many Indian banks serve customers through
-      FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry
-      out requests such as blocking a card, but only if '
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 11, 2026
+    url: https://openrouter.ai/docs/changelog#october-11-2026
+    summary: 'Modified endpoints GET /embeddings/models : response schema updated'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-22T18:02:48+00:00'
     dupe_count: 0
-  - title: 'FusionEval: Benchmarking Model Fusion for Large Language Models'
-    url: https://arxiv.org/abs/2610.30162
-    summary: 'arXiv:2610.30162v1 Announce Type: new Abstract: Model fusion aims to integrate the capabilities
-      of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning
-      with long chains of thought and tool use, w'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: October 10, 2026
+    url: https://openrouter.ai/docs/changelog#october-10-2026
+    summary: 'Breaking changes GET /key : required budgets property addedNo action needed No action required
+      for existing consumers. New response-only field. GET /key : required effective_budget property addedNo
+      action needed No action required for exist'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-10-22T18:02:48+00:00'
     dupe_count: 0
-  - title: 'MemPlan: Memory-Conditioned PDDL Planning for Partially Observable Text Environments'
-    url: https://arxiv.org/abs/2610.30379
-    summary: 'arXiv:2610.30379v1 Announce Type: new Abstract: LLM agents are flexible in language interaction,
-      but using them as long-horizon planners is costly and prone to hallucinated or invalid actions.
-      This paper targets a different role for LLMs: c'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: 'Patch the Planet: global response coordination as agents uncover critical vulnerabilities'
+    url: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities
+    summary: Patch the Planet connects security researchers, maintainers, and incident responders to help
+      address critical vulnerabilities across open source.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-10-21T07:00:00+00:00'
     dupe_count: 0
-  - title: Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large
-      Language Models
-    url: https://arxiv.org/abs/2610.30435
-    summary: 'arXiv:2610.30435v1 Announce Type: new Abstract: Recent advances in search agents have enabled
-      large language models to tackle complex tasks by retrieving and synthesizing external information.
-      However, existing search agents often lack sear'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: Using thousands of AI agents to uncover new leads in biological data
+    url: https://openai.com/index/scaling-ai-research-for-complex-biological-data
+    summary: See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising
+      research leads in data from millions of brain cells.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-10-21T04:50:00+00:00'
     dupe_count: 0
-  - title: Protegrity-PII Technical Report
-    url: https://arxiv.org/abs/2610.30518
-    summary: 'arXiv:2610.30518v1 Announce Type: new Abstract: We present Protegrity-PII, a new PII decision
-      model for structured and unstructured text. Protegrity-PII achieves a typed recall of 0.915 with
-      a precision of 0.907 on a new benchmark we propos'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: Terminal X matches senior investor judgment 88.6% with GPT-6.1
+    url: https://openai.com/index/terminal-x
+    summary: Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances
+      from a fund’s mandate with GPT-6.1 Sol.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-10-20T07:00:00+00:00'
     dupe_count: 0
-  - title: 'TutorCaseBench: A Case-Grounded Benchmark for Evaluating LLM Tutors in Supporting Students
-      with Challenging Behaviors'
-    url: https://arxiv.org/abs/2610.30828
-    summary: 'arXiv:2610.30828v1 Announce Type: new Abstract: LLMs are increasingly used as AI tutors,
-      yet existing benchmarks overlook the challenging behaviors common among students with learning and
-      behavioral difficulties. We introduce TutorCaseBench'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: Stack Overflow for Agents triples signups with ChatGPT plugin
+    url: https://openai.com/index/stack-overflow-chatgpt-plugin
+    summary: Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT
+      plugin helped drive up to 10× growth in agent creation.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-10-16T00:00:00+00:00'
     dupe_count: 0
-  - title: 'TRIAD: Benchmarking Omni-Modal Ambiguity in Multimodal Large Language Models'
-    url: https://arxiv.org/abs/2610.30841
-    summary: 'arXiv:2610.30841v1 Announce Type: new Abstract: Ambiguity is a central feature of natural
-      communication: a sentence, image, or sound may remain underspecified until evidence from the other
-      channels is considered. Yet current multimodal benc'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)
+    url: https://openai.com/index/scaling-storage-one-billion-users-part-two
+    summary: Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos
+      DB to deliver 12× faster reads for ChatGPT.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-10-23T17:00:00+00:00'
     dupe_count: 0
-  - title: 'Synthetic-to-Real Code-Switched ASR: A Spontaneous Nepali-English Podcast Benchmark'
-    url: https://arxiv.org/abs/2610.30860
-    summary: 'arXiv:2610.30860v1 Announce Type: new Abstract: Nepali-English code-switched conversational
-      speech presents severe challenges for automatic speech recognition (ASR), chiefly through script
-      confusion (inappropriate mixing of Devanagari and L'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-24T04:00:00+00:00'
+  - title: 'LitPivot: Developing research ideas through dynamic contextualization within the literature
+      landscape'
+    url: https://huggingface.co/blog/allenai/litpivot
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-10-23T16:15:50+00:00'
     dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
@@ -569,15 +458,23 @@ tiles:
       simplicity, flexibility, and power to AI-assisted dev
     source: Claude Code Action Releases
     weight: 1
-    published_at: '2026-10-23T23:48:56+00:00'
+    published_at: '2026-10-24T18:57:40+00:00'
     dupe_count: 0
-  - title: v1.0.261
-    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.261
-    summary: 'Full Changelog : v1.0.260...v1.0.261'
+  - title: v1.0.262
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.262
+    summary: 'What''s Changed chore: bump Bun to 1.4.4 by @dylan-conway in #1916 New Contributors @dylan-conway
+      made their first contribution in #1916 Full Changelog : v1.0.261...v1.0.262'
     source: Claude Code Action Releases
     weight: 1
-    published_at: '2026-10-23T23:48:45+00:00'
-    dupe_count: 13
+    published_at: '2026-10-24T18:57:30+00:00'
+    dupe_count: 14
+  - title: Bump cookbook defaults to Opus 5.5, Sonnet 5.5 and Fable 5.1 (#924)
+    url: https://github.com/anthropics/claude-cookbooks/commit/bfe50e59dbb4f5546a0af9ca36ebb77e637c9ce1
+    summary: Bump cookbook defaults to Opus 5.5, Sonnet 5.5 and Fable 5.1 (#924)
+    source: Anthropic Cookbook Commits
+    weight: 1
+    published_at: '2026-10-24T18:54:16+00:00'
+    dupe_count: 0
   - title: google-cloud-sdk-v1.1.1
     url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/google-cloud-sdk-v1.1.1
     summary: 'Bug Fixes google-cloud: send user profile routes to the organization endpoint Chores internal:
@@ -693,12 +590,4 @@ tiles:
     source: Claude Code Action Releases
     weight: 1
     published_at: '2026-10-21T03:19:41+00:00'
-    dupe_count: 1
-  - title: v1.84.0
-    url: https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.84.0
-    summary: 'Features api: add org webhook endpoints and user profile enforcement events Chores ci: run
-      the changelog check on a standard runner'
-    source: Anthropic SDK (Go) Releases
-    weight: 1
-    published_at: '2026-10-20T22:10:31+00:00'
-    dupe_count: 1
+    dupe_count: 2
