@@ -1,342 +1,356 @@
-generated_at: '2026-10-28T11:14:18.185268+00:00'
+generated_at: '2026-10-29T11:13:06.606857+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
-  - title: Jio shares surge 21% in market debut after blockbuster India IPO
-    url: https://techcrunch.com/2026/10/27/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/
-    summary: Jio has debuted as India's second-most valuable listed company, behind its parent, Reliance
-      Industries.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-28T05:20:32+00:00'
-    dupe_count: 0
-  - title: VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more
-    url: https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/
-    summary: Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-28T01:15:28+00:00'
-    dupe_count: 0
-  - title: Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication
-    url: https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/
-    summary: A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her
-      seizure medication and keep it from her doctors before she died in February.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-27T23:34:27+00:00'
-    dupe_count: 0
-  - title: 'The data center boom has an upside: innovation for the US grid'
-    url: https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/
-    summary: As the AI boom stresses the existing power grid, all sorts of new opportunities for grid
-      modernization are also emerging as a result, industry insiders say.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-27T22:55:41+00:00'
-    dupe_count: 0
-  - title: Here’s why the iPhone Duo’s hinge could be cracking the screen
-    url: https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge
-    summary: 'Within hours of the iPhone Duo launch last Friday, people reported that the inner screen
-      on some brand new foldable phones was already broken. The issue was similar across many photos shared
-      on social media: some kind of issue or crack woul'
+  - title: AI has come for Arizona’s water
+    url: https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc
+    summary: A hulking gray giant rises from the desert. Inside, engineers create the force behind our
+      phones and computers and appliances, our streaming services and search engines and chatbots and
+      vibe-coded apps and websites. The complex is simultane
     source: The Verge
     weight: 1
-    published_at: '2026-10-27T22:55:05+00:00'
+    published_at: '2026-10-29T10:00:04+00:00'
     dupe_count: 0
-  - title: Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip
-    url: https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/
-    summary: Additionally, the N1 chip brings Wi-Fi 7 and Bluetooth 6.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-27T22:37:30+00:00'
-    dupe_count: 0
-  - title: Guidewire buys Hyperexponential for $1.7B in cash
-    url: https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/
-    summary: The deal, expected to close sometime next year, is to help bring AI agents to work alongside
-      humans to underwrite, analyze, and price decisions.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-27T22:26:03+00:00'
-    dupe_count: 0
-  - title: South Carolina's measles outbreak jumped to Washington state 5 times in 2 weeks
-    url: https://arstechnica.com/health/2026/10/domestic-travel-poses-growing-risk-for-measles-and-a-new-challenge-for-states/
-    summary: International travel used to be the main risk of measles cases in the US—not anymore.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-27T22:22:32+00:00'
-    dupe_count: 0
-  - title: From 8VC to Benchmark, here’s what’s hiding in October SEC filings
-    url: https://techcrunch.com/2026/10/27/from-8vc-to-benchmark-heres-whats-hiding-in-october-sec-filings/
-    summary: A whole crop of venture capital firms are raising significant new funds.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-27T22:17:18+00:00'
-    dupe_count: 0
-  - title: China's top-secret spaceplane can't hide in low-Earth orbit
-    url: https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/
-    summary: The DIA's threat assessment suggests China may soon place directed energy weapons in space.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-27T22:04:50+00:00'
-    dupe_count: 0
-  - title: '"No human at the helm": Delaware plan would let AI agents run entire businesses'
-    url: https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/
-    summary: Owners of AI-run firms would evade liability for "reckless" AI, US Rep. Comer says.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-27T21:50:04+00:00'
-    dupe_count: 0
-  - title: GM is embracing hybrids now
-    url: https://techcrunch.com/2026/10/27/gm-is-embracing-hybrids-now/
-    summary: GM eschewed hybrids in favor of battery-electric vehicles. Now it's gearing up to offer hybrid
-      versions of its SUVs.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-27T21:47:02+00:00'
-    dupe_count: 0
-  - title: Bank of America kindly asks that you don’t share your banking password with your AI assistant
-    url: https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/
-    summary: The banking giant reminds customers that "you're responsible for activity" resulting from
-      your AI agents' access.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-27T21:44:34+00:00'
-    dupe_count: 0
-  - title: Who’s really in charge at Anthropic after the IPO?
-    url: https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/
-    summary: Here's a clear explanation of Anthropic's incredibly complex governance structure.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-27T21:38:28+00:00'
-    dupe_count: 0
-  - title: Anthropic IPO warns its AI could blackmail people, become sentient, end humanity
-    url: https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/
-    summary: Seven potential AI nightmares pulled from Anthropic's 93-page "Risk Factor" tome.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-27T21:31:14+00:00'
-    dupe_count: 0
-  - title: Discord is making its public communities more searchable, and people have concerns
-    url: https://techcrunch.com/2026/10/27/discord-is-making-its-public-communities-more-searchable-and-people-have-concerns/
-    summary: In December, messages from Discord's public discoverable servers will begin appearing in
-      search engine results.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-27T21:22:35+00:00'
-    dupe_count: 0
-  - title: Researchers are getting tired of OpenAI gatekeeping its breakthroughs
-    url: https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics
-    summary: On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and
-      physics, along with what the company says is an evolving approach to communicating its findings.
-      But despite its apparent course correction, research
-    source: The Verge
-    weight: 1
-    published_at: '2026-10-27T20:48:58+00:00'
-    dupe_count: 0
-  - title: Re:Build, which spun out Slate Auto, raises $2.1B
-    url: https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/
-    summary: The manufacturing accelerator bills itself as "America’s answer to Shenzhen."
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-10-27T20:31:17+00:00'
-    dupe_count: 0
-  - title: Code-execution flaw in UEFI firmware affects most servers on planet Earth
-    url: https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/
-    summary: Critical flaw in EDK2 allows attackers to execute code early in the boot process.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-10-27T20:25:55+00:00'
-    dupe_count: 0
-  - title: 'Survival LLM: AI assistant and emergency library that runs on your own computer'
-    url: https://www.brangus.io/survival-llm
-    summary: 'Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853
-      Points: 371 # Comments: 144'
+  - title: Claude Code regularly sends each background agent’s transcript to its model
+    url: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce
+    summary: 'Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments
+      URL: https://news.ycombinator.com/item?id=50284255 Points: 406 # Comments: 149'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-10-27T19:55:06+00:00'
+    published_at: '2026-10-29T03:33:42+00:00'
+    dupe_count: 0
+  - title: Anduril now says its BlueChip laptop will meet Buy American standards at launch
+    url: https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american
+    summary: On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to
+      build laptops entirely in the United States, starting with a single model in 2027. They also announced
+      a "long-term goal" of pushing the computer indus
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-29T02:22:46+00:00'
+    dupe_count: 0
+  - title: 'Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5'
+    url: https://divagr.com/blog/qwenputer
+    summary: 'Article URL: https://divagr.com/blog/qwenputer Comments URL: https://news.ycombinator.com/item?id=50282838
+      Points: 501 # Comments: 104'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-10-29T00:25:45+00:00'
+    dupe_count: 0
+  - title: StackOverflow now gets fewer than 1000 questions a month
+    url: https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1
+    summary: 'Article URL: https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1 Comments
+      URL: https://news.ycombinator.com/item?id=50282454 Points: 494 # Comments: 413'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-10-28T23:35:02+00:00'
+    dupe_count: 0
+  - title: Upwind raises $400M after walking away from Datadog acquisition offer
+    url: https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/
+    summary: The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself
+      for the same price.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-28T23:15:00+00:00'
+    dupe_count: 0
+  - title: Adam Mosseri says negativity around AI is ‘going to get worse’
+    url: https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity
+    summary: Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies,
+      Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like
+      AI, and it's not just young people and creatives. Ap
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-28T23:05:39+00:00'
+    dupe_count: 0
+  - title: ULA's Vulcan rocket is set to return to flight on Friday the 13th
+    url: https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/
+    summary: This Vulcan launch will be the first to utilize a full complement of six solid rocket boosters.
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-10-28T22:51:15+00:00'
+    dupe_count: 0
+  - title: Apple’s touchscreen MacBook Pro pushes laptop pricing to a new extreme
+    url: https://techcrunch.com/2026/10/28/apples-touchscreen-macbook-pro-pushes-laptop-pricing-to-a-new-extreme/
+    summary: Prepare to cough up around $14,549 if you want the new touchscreen MacBook Pro to have every
+      upgrade.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-28T22:47:50+00:00'
+    dupe_count: 0
+  - title: As US ties fray, Europe plans first undersea cable link to Greenland
+    url: https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/
+    summary: Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-10-28T22:35:50+00:00'
+    dupe_count: 0
+  - title: Peptide peddlers cheer as RFK Jr. unilaterally grants access, overruling FDA
+    url: https://arstechnica.com/health/2026/10/peptide-peddlers-cheer-as-rfk-jr-unilaterally-grants-access-overruling-fda/
+    summary: Six unproven peptides popular with MAHA now under "enforcement discretion policy."
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-10-28T22:17:15+00:00'
+    dupe_count: 0
+  - title: 'Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion'
+    url: https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/
+    summary: Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time,
+      we can see just how close it is getting to besting the biggest competitor in the market, AWS.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-28T21:58:32+00:00'
+    dupe_count: 0
+  - title: A hacker stole more than 40,000 DHS employee records
+    url: https://www.theverge.com/tech/1021528/ice-cbp-data-leak
+    summary: 'A hacker stole a trove of personal information from the Department of Homeland Security
+      (DHS). The breach exposes the names, job titles, phone numbers, email addresses, and office locations
+      of more than 41,000 employees, including those in '
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-28T21:57:45+00:00'
+    dupe_count: 0
+  - title: Google expands AI Search ads globally as core ad growth slows
+    url: https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/
+    summary: The announcement came alongside parent company Alphabet's third-quarter earnings report,
+      which saw revenue grow 25% year over year to $127.6 billion.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-28T21:48:37+00:00'
+    dupe_count: 0
+  - title: Microsoft recorded $10 billion in revenue from OpenAI
+    url: https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/
+    summary: Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including
+      revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous
+      financial dependency of the partnership.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-28T21:34:30+00:00'
+    dupe_count: 0
+  - title: Akai is embracing vibe-coded mods with an open-source MPC
+    url: https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key
+    summary: The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what
+      the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion
+      of hackers and custom firmware developers by givin
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-28T21:34:04+00:00'
+    dupe_count: 0
+  - title: Microsoft hits 10 quarters of record-breaking revenue in a row
+    url: https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/
+    summary: 'Whatever the future of AI might be, the current situation is still very good for Microsoft.
+      The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a
+      19% increase over the year-ago quarter.'
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-10-28T21:25:30+00:00'
+    dupe_count: 0
+  - title: Readwise is taking on Kindle and Kobo for ebook supremacy
+    url: https://www.theverge.com/tech/1020264/readwise-books-launch-ebook-store
+    summary: 'For the last several years, Readwise has been building tools for power readers. There''s
+      the eponymous product, Readwise, which stores and categorizes your Kindle highlights to help you
+      remember what you''ve read. There''s Readwise Reader, an '
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-28T21:16:18+00:00'
+    dupe_count: 0
+  - title: Google says its investments in AI are driving more searches
+    url: https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026
+    summary: Google parent company Alphabet says that its AI investments are leading to a big growth in
+      searches year-over-year, as noted in its Q3 2026 earnings today. "Our AI investments are driving
+      overall Search query growth, including commercial qu
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-28T20:22:26+00:00'
+    dupe_count: 0
+  - title: Microsoft reveals strong cloud growth amid financial reporting overhaul
+    url: https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027
+    summary: Microsoft just posted the first quarter of its 2027 fiscal financial results. The software
+      maker made $92.3 billion in revenue and a net income of $33.6 billion during Q1. Revenue is up 19
+      percent, and net income has increased by 32 percent
+    source: The Verge
+    weight: 1
+    published_at: '2026-10-28T20:20:00+00:00'
     dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
-  - title: Intel’s Classiq Deal May Signal a Pivot From Quiet Quantum Effort To Active Commercialization
-    url: https://thequantuminsider.com/2026/10/28/intels-classiq-deal-may-signal-a-pivot-from-quiet-quantum-effort-to-active-commercialization/
-    summary: 'Insider Brief Intel, a pioneer in quantum computing, has been relatively quiet about its
-      technology and nearly silent about how it is pursing commercialization. That silence has been shattered.
-      Intel executives said during a media briefing '
+  - title: IQM Demonstrates Entanglement Across a Complete 54-Qubit Processor
+    url: https://thequantuminsider.com/2026/10/29/iqm-full-chip-entanglement-54-qubit-processor/
+    summary: 'Insider Brief PRESS RELEASE — IQM Quantum Computers (Nasdaq: IQMX), a global leader in superconducting
+      quantum computers, today announced that its cloud-accessible IQM Emerald system has fully entangled
+      all 54 qubits on the chip simultaneou'
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-10-28T08:06:07+00:00'
+    published_at: '2026-10-29T09:58:29+00:00'
     dupe_count: 0
-  - title: 'The Cost of a Real Grover Oracle: Minecraft Seed Search from Software to Quantum Hardware'
-    url: https://arxiv.org/abs/2610.33139
-    summary: 'arXiv:2610.33139v1 Announce Type: new Abstract: We present the resource estimation of how
-      known-constant arithmetic changes the cost of a Grover oracle for Minecraft 1.13.1 seed recovery,
-      an application of quantum search to procedural conte'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: Pasqal’s 256-Qubit Processor Finds Unexpected Quantum Magnet Behavior
+    url: https://thequantuminsider.com/2026/10/29/pasqal-processor-unexpected-quantum-magnet-behavior/
+    summary: 'Insider Brief PRESS RELEASE — Pasqal (Nasdaq: PSQL), a global leader in neutral-atom quantum
+      computing, today announced that its 256-qubit quantum processor has revealed an unexpected behavior
+      in a two-dimensional quantum magnet: under cert'
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-10-29T09:51:12+00:00'
     dupe_count: 0
-  - title: Fully quantum training of parametric circuits with Quantum Hamiltonian Descent
-    url: https://arxiv.org/abs/2610.33144
-    summary: 'arXiv:2610.33144v1 Announce Type: new Abstract: Parametric quantum circuits are usually
-      trained by classical, local optimizers, which use the quantum computer only to evaluate the cost
-      function, or its gradient, one point at a time. Quantum'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: Nord Quantique Secures $10 Million DARPA Funding Extension
+    url: https://thequantuminsider.com/2026/10/29/nord-quantique-10-million-darpa-funding-extension/
+    summary: 'Insider Brief PRESS RELEASE — Nord Quantique, a Canadian quantum computing company pioneering
+      hardware-efficient quantum error correction, today announced a US$10 million extension of its Defense
+      Advanced Research Projects Agency’s (DARPA) '
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-10-29T09:45:00+00:00'
+    dupe_count: 1
+  - title: Shionogi Wins NEDO Award for Quantum-Assisted Drug Discovery
+    url: https://thequantuminsider.com/2026/10/29/shionogi-nedo-quantum-drug-discovery/
+    summary: 'Insider Brief PRESS RELEASE — D-Wave Quantum Inc. (NASDAQ: QBTS) (“D-Wave“), the only dual-platform
+      quantum computing company providing both annealing and gate-model systems, software and services,
+      today announced that its customer Shionogi'
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-10-29T09:22:24+00:00'
     dupe_count: 0
-  - title: 'Direct tests of conformal symmetry with Rydberg atoms: assessment and proposals'
-    url: https://arxiv.org/abs/2610.33156
-    summary: 'arXiv:2610.33156v1 Announce Type: new Abstract: We propose a direct test of conformal symmetry
-      using Rydberg-atom arrays. By arranging the atoms on a circle and measuring equal-time two-point
-      correlation functions, the characteristic functi'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: Delft Researchers Control The Magnetic Core of a Single Atom
+    url: https://thequantuminsider.com/2026/10/29/delft-researchers-control-the-magnetic-core-of-a-single-atom/
+    summary: 'Insider Brief PRESS RELEASE — Researchers at Delft University of Technology (The Netherlands)
+      have succeeded in controlling the magnetism in the nucleus of a single atom with radio waves. This
+      came as a surprise: until now, physicists belie'
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-10-29T08:19:14+00:00'
     dupe_count: 0
-  - title: 'Genuinely multipartite entangled qudits: one rule to link them all'
-    url: https://arxiv.org/abs/2610.33160
-    summary: 'arXiv:2610.33160v1 Announce Type: new Abstract: Links of rings offer an intuitive picture
-      of multipartite entanglement. Cutting one ring can free some of the others, just as losing a particle,
-      i.e. tracing it out, can disentangle some of th'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: Researchers Curb Unwanted Transitions in Ultrafast Quantum Gates
+    url: https://thequantuminsider.com/2026/10/29/researchers-curb-unwanted-transitions-in-ultrafast-quantum-gates/
+    summary: Insider Brief PRESS RELEASE — Researchers from Jülich, Aachen and Cologne have performed
+      a quantum operation on a qubit in just 6.8 nanoseconds – with more than 99.98 percent accuracy.
+      Such operations typically take several tens of nanoseco
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-10-29T08:09:03+00:00'
     dupe_count: 0
-  - title: Post-Quantum Perfect Zero-Knowledge Arguments for NP From Any One-Way Permutation
-    url: https://arxiv.org/abs/2610.33185
-    summary: 'arXiv:2610.33185v1 Announce Type: new Abstract: In this paper, we show for the first time
-      that post-quantum one-way permutations are sufficient for perfect zero-knowledge classical arguments
-      for all of NP with security guaranteed against qu'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: UK Space Agency and DSIT Publish Quantum Technology Roadmap for Space Targeting 2035–2040 Sovereign
+      Capabilities
+    url: https://quantumcomputingreport.com/uk-space-agency-and-dsit-publish-quantum-technology-roadmap-for-space-targeting-2035-2040-sovereign-capabilities/
+    summary: 'The UK Space Agency and DSIT have published a Quantum Technology Roadmap for Space, outlining
+      strategic priorities for 2035–2040. The roadmap identifies four investment themes: assured timing,
+      resilient sensing, sovereign communications, an'
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-10-29T03:39:30+00:00'
     dupe_count: 0
-  - title: Quantum Heuristic Separation of Comb Inequalities for the Travelling Salesman Problem
-    url: https://arxiv.org/abs/2610.33188
-    summary: 'arXiv:2610.33188v1 Announce Type: new Abstract: Comb inequalities are essential cutting
-      planes for the travelling salesman problem, yet their separation remains computationally challenging.
-      We propose a quantum heuristic separation algorith'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: Pasqal 256-Qubit Neutral-Atom Processor Observes Unpredicted Slowdown in 2D Quantum Magnet
+      Dynamics
+    url: https://quantumcomputingreport.com/pasqal-256-qubit-neutral-atom-processor-observes-unpredicted-slowdown-in-2d-quantum-magnet-dynamics/
+    summary: Pasqal's 256-qubit neutral-atom processor observed an unexpected slowdown in a 2D quantum
+      magnet's dynamics, diverging from classical simulations. This research, detailed in a preprint,
+      explores the relaxation landscape of a 2D transverse-f
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-10-29T02:47:07+00:00'
     dupe_count: 0
-  - title: Study of localization properties under subsystem periodic driving
-    url: https://arxiv.org/abs/2610.33189
-    summary: 'arXiv:2610.33189v1 Announce Type: new Abstract: Periodic driving provides a powerful route
-      for controlling localization and engineering effective Hamiltonians in quantum systems. A localized
-      one-dimensional Aubry-Andr\''e chain can be driven'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: BlueQubit Benchmarks Quantum Computational Advantage in Random-Circuit Sampling on IBM Nighthawk
+      r2 Hardware
+    url: https://quantumcomputingreport.com/bluequbit-benchmarks-quantum-computational-advantage-in-random-circuit-sampling-on-ibm-nighthawk-r2-hardware/
+    summary: BlueQubit, in collaboration with EPFL and the XPRIZE Foundation, has demonstrated quantum
+      computational advantage using IBM Quantum's 120-qubit ibm_phoenix processor. Their random-circuit
+      sampling experiment, involving 61 active qubits, ach
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-10-29T02:21:59+00:00'
     dupe_count: 0
-  - title: A New Non-Affine Family in the Karlsson-Szollosi Intersection
-    url: https://arxiv.org/abs/2610.33207
-    summary: 'arXiv:2610.33207v1 Announce Type: new Abstract: We show that $K_6^{(2)} \cap X_6^{(2)} =
-      D_6^{(1)} \cup C_6^{(1)}$ up to standard Hadamard equivalence, where $C_6^{(1)}$ is a new non-affine
-      one-parameter family of complex Hadamard matrices.'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: Gothenburg and Chalmers Researchers Develop Modular Graph Neural Decoder for Surface Code Memory
+      and Lattice Surgery
+    url: https://quantumcomputingreport.com/gothenburg-and-chalmers-researchers-develop-modular-graph-neural-decoder-for-surface-code-memory-and-lattice-surgery/
+    summary: Researchers from the University of Gothenburg and Chalmers University of Technology have
+      developed a modular neural decoder for surface code quantum error correction (QEC). This decoder
+      demonstrates superior performance compared to traditio
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-10-29T02:12:19+00:00'
     dupe_count: 0
-  - title: Quantum-Relativistic Anomalous Proper Time
-    url: https://arxiv.org/abs/2610.33220
-    summary: 'arXiv:2610.33220v1 Announce Type: new Abstract: We investigate surprising consequences of
-      the hypothesis that gravity and proper time obey the quantum superposition principle. We show that,
-      for a massive body prepared in a superposition of '
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: Yonsei University Researchers Develop Mamba State-Space Neural Decoder to Enable Real-Time
+      Quantum Error Correction
+    url: https://quantumcomputingreport.com/yonsei-university-researchers-develop-mamba-state-space-neural-decoder-to-enable-real-time-quantum-error-correction/
+    summary: Researchers at Yonsei University have developed a Mamba-based neural decoder for quantum
+      error correction, significantly reducing computational complexity from O(d4) to O(d2) compared to
+      Transformer-based models. This new decoder matches th
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-10-29T02:04:03+00:00'
     dupe_count: 0
-  - title: Trial-space co-design for quantum simulation on noisy hardware
-    url: https://arxiv.org/abs/2610.33246
-    summary: 'arXiv:2610.33246v1 Announce Type: new Abstract: Quantum simulations on noisy hardware are
-      often designed as if the machine were ideal, with device limitations considered only after the basis
-      and measurement plan have been chosen. We instead'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: University of Sydney Demonstrates Multi-Qubit Logical Entanglement and 170-Round Stability
+      on IBM Square-Lattice Nighthawk r2 Processor
+    url: https://quantumcomputingreport.com/university-of-sydney-demonstrates-multi-qubit-logical-entanglement-and-170-round-stability-on-ibm-square-lattice-nighthawk-r2-processor/
+    summary: University of Sydney researchers have demonstrated significant advancements in quantum error
+      correction on IBM Quantum's ibm_phoenix processor. They achieved multi-qubit fault-tolerant logic
+      and sustained error suppression for up to 170 rou
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-10-29T01:49:00+00:00'
     dupe_count: 0
-  - title: Variational Quantum Optimization of Noisy Polarization Qubit Experiments
-    url: https://arxiv.org/abs/2610.33290
-    summary: 'arXiv:2610.33290v1 Announce Type: new Abstract: Quantum networking enables advanced communication
-      protocols, distributed quantum computing, and enhanced sensing. These applications are often hindered
-      by current realizations of quantum netwo'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: LANL and Cornell Researchers Demonstrate Extraction of Quantum Information Structures from
+      Condensed-Matter Dynamical Simulations
+    url: https://quantumcomputingreport.com/lanl-and-cornell-researchers-demonstrate-extraction-of-quantum-information-structures-from-condensed-matter-dynamical-simulations/
+    summary: Researchers from LANL and Cornell have developed a framework to extract quantum information
+      from dynamical quantum simulations, revealing how information propagates and reorganizes in many-body
+      states. Their work demonstrates that tradition
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-10-29T01:15:02+00:00'
     dupe_count: 0
-  - title: 'Twirled and swirled worlds: a compositional approach'
-    url: https://arxiv.org/abs/2610.33294
-    summary: 'arXiv:2610.33294v1 Announce Type: new Abstract: Twirled and swirled worlds describe generalised
-      probabilistic theories (GPTs) restricted by symmetry-imposed superselection rules. We extend these
-      constructions to a fully compositional settin'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: EPB and IonQ Deploy Hybrid Trapped-Ion Algorithms on Forte Enterprise to Optimize Power Grid
+      Topology
+    url: https://quantumcomputingreport.com/epb-and-ionq-deploy-hybrid-trapped-ion-algorithms-on-forte-enterprise-to-optimize-power-grid-topology/
+    summary: EPB and IonQ have successfully deployed hybrid quantum-classical algorithms on IonQ Forte
+      Enterprise to optimize power grid topology, significantly reducing power loss and improving efficiency.
+      Their research, funded by a $4 million NIST gr
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-10-29T01:07:36+00:00'
     dupe_count: 0
-  - title: A new analytical finding for the Born-Infeld integral potential
-    url: https://arxiv.org/abs/2610.33326
-    summary: 'arXiv:2610.33326v1 Announce Type: new Abstract: A new finding regarding the Born-Infeld
-      potential for short range distances from the charge revealed that its integral form can be almost
-      exact written as the difference between a Coulomb-type'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: NQCP Spins Out Pelagic Systems to Commercialize Real-Time Hardware Calibration Software
+    url: https://quantumcomputingreport.com/nqcp-spins-out-pelagic-systems-to-commercialize-real-time-hardware-calibration-software/
+    summary: 'Pelagic Systems, a spin-out from the Novo Nordisk Foundation Quantum Computing Programme
+      (NQCP), is commercializing software for real-time control, calibration, and characterization of
+      quantum processors. Their platform addresses parameter '
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-10-29T00:35:24+00:00'
     dupe_count: 0
-  - title: Junction Hook Errors in the Color Code
-    url: https://arxiv.org/abs/2610.33347
-    summary: 'arXiv:2610.33347v1 Announce Type: new Abstract: Color-dependent syndrome extraction schedules
-      have been proposed to mitigate hook errors in the triangular color code. Recent work by Kishony
-      and Fowler (arXiv:2603.28852) identifies distance-'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: Hogan Lovells Cadwalader Advises Intel in Pending Acquisition of Classiq Technologies
+    url: https://thequantuminsider.com/2026/10/28/hogan-lovells-cadwalader-advises-intel-in-pending-acquisition-of-classiq-technologies/
+    summary: 'Insider Brief PRESS RELEASE — Global law firm Hogan Lovells Cadwalader advised Intel Corporation
+      (Nasdaq: INTC) as it entered into a definitive agreement to acquire Classiq Technologies Ltd, a
+      leading provider of quantum computing software.'
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-10-28T16:48:49+00:00'
     dupe_count: 0
-  - title: 'Semiclassical dynamics of higher-order squeezing: self-adjoint extensions and coherent returns'
-    url: https://arxiv.org/abs/2610.33378
-    summary: 'arXiv:2610.33378v1 Announce Type: new Abstract: Higher-order squeezing Hamiltonians have
-      several self-adjoint realizations, while their classical trajectories reach infinity in finite time.
-      We relate these extension problems through boundar'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: PsiQuantum Unveils Optical Circuit Switch for AI Data Centers
+    url: https://thequantuminsider.com/2026/10/28/psiquantum-optical-circuit-switch-ai-data-centers/
+    summary: Insider Brief PRESS RELEASE — PsiQuantum today unveiled its Optical Circuit Switching (OCS)
+      technology, demonstrating how the company’s advanced, low-loss silicon photonics platform can be
+      applied to some of the most significant scaling cha
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-10-28T16:26:36+00:00'
     dupe_count: 0
-  - title: Decision-aware validation of zero-noise extrapolation in QAOA optimization landscapes
-    url: https://arxiv.org/abs/2610.33386
-    summary: 'arXiv:2610.33386v1 Announce Type: new Abstract: Zero-noise extrapolation (ZNE) is usually
-      validated by the accuracy of mitigated observables, yet variational quantum optimization uses those
-      observables to select parameters. We ask whether, '
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: NVision and HyperLight Partner to Develop Photonic Quantum Chips
+    url: https://thequantuminsider.com/2026/10/28/nvision-nature-molecular-qubits-hyperlight/
+    summary: Insider Brief PRESS RELEASE — NVision, a quantum technology company, announced the publication
+      of landmark peer-reviewed research in Nature and a strategic partnership with HyperLight Corporation
+      (“HyperLight”), an industry leader in thin-f
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-10-28T16:05:00+00:00'
     dupe_count: 0
-  - title: Exact operator bounds on Leggett-Garg violations
-    url: https://arxiv.org/abs/2610.33429
-    summary: 'arXiv:2610.33429v1 Announce Type: new Abstract: Leggett-Garg (LG) inequalities test whether
-      correlations measured at different times admit a positive joint probability distribution over histories.
-      A violation requires negative values in any'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
-    dupe_count: 0
-  - title: Designing Quantum Solutions to the Closest String Problem with the Non-Variational QWOA
-    url: https://arxiv.org/abs/2610.33532
-    summary: 'arXiv:2610.33532v1 Announce Type: new Abstract: Quantum computing offers promising approaches
-      to combinatorial optimization problems whose search spaces grow exponentially with problem size.
-      The Closest String problem belongs to this catego'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
-    dupe_count: 0
-  - title: When is a bosonic operator a Hamiltonian?
-    url: https://arxiv.org/abs/2610.33545
-    summary: 'arXiv:2610.33545v1 Announce Type: new Abstract: Hermitian polynomials in the quadrature
-      operators $x$ and $p$ are the basic ingredients of continuous-variable quantum information, and
-      increasingly exotic ones are now routinely engineered in'
-    source: arXiv quant-ph
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+  - title: UbiQD Wins New Mexico Grant for Quantum Light Source Development
+    url: https://thequantuminsider.com/2026/10/28/ubiqd-new-mexico-quantum-light-source-grant/
+    summary: Insider Brief PRESS RELEASE — UbiQD, Inc., a global leader in quantum dot technology and
+      manufacturing, has received a $200,000 grant through New Mexico’s Quantum Technologies Award from
+      the Economic Development New Mexico (EDNM) Department
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-10-28T14:10:10+00:00'
     dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
@@ -348,33 +362,7 @@ tiles:
       reassembles a prompt from role instructions, tool and '
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
-    dupe_count: 0
-  - title: Agentic Data Sampling Framework for Multilingual ASR via Linguistic-Aware Error-Driven Optimization
-    url: https://arxiv.org/abs/2610.36538
-    summary: 'arXiv:2610.36538v1 Announce Type: new Abstract: Multilingual automatic speech recognition
-      (ASR) has achieved rapid progress with large-scale pretrained models and multilingual speech corpora.
-      Previous studies have proved the pivotal role of'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
-    dupe_count: 0
-  - title: 'Agent Planning Benchmark: A Diagnostic Framework for Planning Capabilities in LLM Agents'
-    url: https://arxiv.org/abs/2606.04874
-    summary: 'arXiv:2606.04874v4 Announce Type: replace Abstract: Planning is central to LLM agents: before
-      acting, an agent must decompose goals, select tools, reason over constraints, and decide when a
-      task is infeasible. Yet existing agent evaluations'
-    source: arXiv cs.CL
-    weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
-    dupe_count: 0
-  - title: Legora is building the agentic operating system for legal work
-    url: https://openai.com/index/legora-agentic-operating-system-for-legal-work
-    summary: See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand
-      contract analysis, and free lawyers to focus on higher-value work.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-10-28T09:30:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: 'When Retrieval Is Not Enough: Obsolete Facts in Agent Memory'
     url: https://arxiv.org/abs/2610.36308
@@ -383,7 +371,7 @@ tiles:
       an update or from not using an update that wa'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: 'OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning'
     url: https://arxiv.org/abs/2610.36335
@@ -392,7 +380,7 @@ tiles:
       such as biomedicine and healthcare, where answer'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: 'MAREval: A Multi-Agent Framework for Evaluating Natural Language Recommendation Explanations'
     url: https://arxiv.org/abs/2610.36389
@@ -401,7 +389,7 @@ tiles:
       existing evaluation approaches like human evaluati'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: 'RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG'
     url: https://arxiv.org/abs/2610.36444
@@ -410,7 +398,7 @@ tiles:
       across pages, tables, and figures. Agentic r'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: 'CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments'
     url: https://arxiv.org/abs/2610.36484
@@ -419,7 +407,7 @@ tiles:
       bypassing the visual interfaces and time pressure t'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: 'Monitor Accuracy Isn''t the Answer: A Decision-Value Framework for Evaluating AI Agent Restart
       Monitors'
@@ -429,7 +417,7 @@ tiles:
       Using an exact alarm-to-action identity for an indepe'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: 'InfraDev: Can Coding Agents Develop AI Infrastructure, and How Can We Tell?'
     url: https://arxiv.org/abs/2610.36589
@@ -438,7 +426,7 @@ tiles:
       cover only single kernels or single-GPU tasks, and gr'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: 'God Does Not Play Dice: Enforcing Batch Invariance in Agentic Kernel Generation'
     url: https://arxiv.org/abs/2610.36623
@@ -447,8 +435,8 @@ tiles:
       different requests across runs. If the GPU kernels '
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
-    dupe_count: 1
+    published_at: '2026-10-29T04:00:00+00:00'
+    dupe_count: 0
   - title: 'Batching the Reflective Optimization Loop: Parallel Proposals Make GEPA Faster and Better'
     url: https://arxiv.org/abs/2610.36774
     summary: 'arXiv:2610.36774v1 Announce Type: new Abstract: Reflective text optimization makes agentic
@@ -456,8 +444,8 @@ tiles:
       structure leaves parallel evaluation capacity idle. W'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
-    dupe_count: 2
+    published_at: '2026-10-29T04:00:00+00:00'
+    dupe_count: 0
   - title: 'AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations'
     url: https://arxiv.org/abs/2610.36980
     summary: 'arXiv:2610.36980v1 Announce Type: new Abstract: Large language model (LLM) agents are extending
@@ -465,8 +453,8 @@ tiles:
       In online-to-offline (O2O) commerce, decisio'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
-    dupe_count: 1
+    published_at: '2026-10-29T04:00:00+00:00'
+    dupe_count: 0
   - title: 'OpenGray: a benchmark for evaluating the decisions of radiotherapy planning agents'
     url: https://arxiv.org/abs/2610.37081
     summary: 'arXiv:2610.37081v1 Announce Type: new Abstract: Background and purpose: Radiotherapy planning
@@ -474,7 +462,7 @@ tiles:
       are evaluated mainly by dose. This study developed'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: 'LiveSearch: Questions as Executable Verifier Code for a Live Benchmark of Professional-Source
       Financial Search Agents'
@@ -484,7 +472,7 @@ tiles:
       facts is a core capability of a financial a'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: Does Your Generalist Skill Optimizer Really Incentivize Agentic Tasks? Rethinking Skill Optimization
       via Bipartite Attribution
@@ -494,7 +482,7 @@ tiles:
       in its context, and keeping the edits that'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: Aligning Institutional Power and Operational Ability
     url: https://arxiv.org/abs/2610.37342
@@ -503,7 +491,7 @@ tiles:
       incongruences such as unsatisfiable expectatio'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: 'Constraining the Commit Boundary: A DIO/ODI-Informed Authorization Guardrail for Agentic Entity
       Resolution'
@@ -513,7 +501,7 @@ tiles:
       hypothesis may condition later retriev'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
   - title: 'TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information'
     url: https://arxiv.org/abs/2610.37571
@@ -522,11 +510,46 @@ tiles:
       and benchmarked in isolation. We introduce TeamGym, '
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-10-28T04:00:00+00:00'
+    published_at: '2026-10-29T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'AgentBaton: Efficient Model Collaboration in Agentic Tasks'
+    url: https://arxiv.org/abs/2610.35959
+    summary: 'arXiv:2610.35959v1 Announce Type: cross Abstract: Solving long-horizon agentic tasks requires
+      language agents to interact with their environments over multiple steps, and reliable performance
+      often comes from the expensive capable models av'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-10-29T04:00:00+00:00'
+    dupe_count: 0
+  - title: 'When Connectivity Misleads: Guiding Agentic Search with Contrastive Evidence Paths'
+    url: https://arxiv.org/abs/2610.36134
+    summary: 'arXiv:2610.36134v1 Announce Type: cross Abstract: Search agents can use cross-document graphs
+      to discover sources through multi-hop connections and choose subsequent actions based on candidate
+      rankings and relationships within a limited obs'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-10-29T04:00:00+00:00'
+    dupe_count: 0
+  - title: Replication or Corroboration? An Axiomatic Framework for Evidential Dependence in Multi-Agent
+      Debate
+    url: https://arxiv.org/abs/2610.36151
+    summary: 'arXiv:2610.36151v1 Announce Type: cross Abstract: In multi-agent debates, matching reports
+      can arise for two different reasons: agents may repeat the same evidence (replication), or they
+      may provide separate evidential roots that support th'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-10-29T04:00:00+00:00'
     dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
   items:
+  - title: 'computer-use-demo: read the system''s CA store (#530)'
+    url: https://github.com/anthropics/claude-quickstarts/commit/12349bb27f860fa924780ba6c0d8c011dfecf540
+    summary: 'computer-use-demo: read the system''s CA store (#530)'
+    source: Anthropic Quickstarts Commits
+    weight: 1
+    published_at: '2026-10-29T01:02:40+00:00'
+    dupe_count: 0
   - title: Pin the quickstarts to anthropic 2.0, @anthropic-ai/sdk 1.0 and ant 2…
     url: https://github.com/anthropics/claude-quickstarts/commit/930ad10bb2e21a9ef97fe1a88d2037e18a24465c
     summary: 'Pin the quickstarts to anthropic 2.0, @anthropic-ai/sdk 1.0 and ant 2.0 (#521) * Pin the
@@ -677,11 +700,4 @@ tiles:
     source: Claude Code Releases
     weight: 1
     published_at: '2026-10-22T22:18:57+00:00'
-    dupe_count: 0
-  - title: v2.1.308
-    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.308
-    summary: What's changed Bug fixes and reliability improvements
-    source: Claude Code Releases
-    weight: 1
-    published_at: '2026-10-22T04:34:55+00:00'
     dupe_count: 0
