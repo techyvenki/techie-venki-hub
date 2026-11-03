@@ -1,552 +1,556 @@
-generated_at: '2026-11-02T11:13:09.058433+00:00'
+generated_at: '2026-11-03T11:15:30.350162+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
-  - title: Ford launches a ‘privacy promise’ and explains how and why it uses customer data
-    url: https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/
-    summary: Ford said it's making an "explicit commitment" to its customers that "their vehicle data
-      is safe" with the company.
+  - title: Yvonne Bajela is bringing $17M in fresh capital to Europe’s startup scene
+    url: https://techcrunch.com/2026/11/03/yvonne-bajela-is-bringing-17m-in-fresh-capital-to-europes-startup-scene/
+    summary: Evertrue Capital announces $17M debut fund to back early stage AI and fintech.
     source: TechCrunch
     weight: 1
-    published_at: '2026-11-02T11:00:00+00:00'
+    published_at: '2026-11-03T08:01:00+00:00'
     dupe_count: 0
-  - title: Jackery made its portable power stations even smaller
-    url: https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate
-    summary: Jackery announced a new portable power station that uses the safer and longer-lasting lithium
-      iron phosphate (LFP) batteries the company first introduced in 2023. But what makes the new Explorer
-      100D stand out is that it's Jackery's smalles
+  - title: Apple Watch’s AI features for rewinding and recapping conversations begin beta testing
+    url: https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/
+    summary: 'Now in beta: Apple''s new Audio Intelligence features can help you remember what someone
+      said or take notes on conversations.'
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-03T07:20:00+00:00'
+    dupe_count: 0
+  - title: Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses
+    url: https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/
+    summary: Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-03T03:30:00+00:00'
+    dupe_count: 0
+  - title: Apple may try to increase revenue by doing…something with third-party AI apps
+    url: https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/
+    summary: Apple hinted at ways that it could spur revenue through third-party "opportunities" during
+      its Monday night earnings call.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-03T01:49:52+00:00'
+    dupe_count: 0
+  - title: Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them
+    url: https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/
+    summary: A Kyiv startup’s pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds
+      of Russian drones, though Russian moves toward digital video and AI-guided drones that emit no signals
+      could make the victory short-lived.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-03T01:12:55+00:00'
+    dupe_count: 0
+  - title: Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens
+    url: https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/
+    summary: Y Combinator Garry Tan has jokingly admitted that he's suffered from "cyber psychosis” and
+      barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode
+      of Walter Isaacson’s podcast, The Builders, Tan pu
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-03T00:35:52+00:00'
+    dupe_count: 0
+  - title: Hinge tests a cheaper plan as users become more fed up paying for dating apps
+    url: https://techcrunch.com/2026/11/02/hinge-tests-a-cheaper-plan-as-users-become-more-fed-up-paying-for-dating-apps/
+    summary: At a time when people are increasingly tired of dating apps, Hinge is testing a cheaper subscription
+      plan.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-03T00:14:51+00:00'
+    dupe_count: 0
+  - title: '"At Home in Space" opens, caps Air and Space Museum renovation'
+    url: https://arstechnica.com/space/2026/11/at-home-in-space-opens-caps-air-and-space-museum-renovation/
+    summary: The Smithsonian's National Air and Space Museum has all of its "space" back open.
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-11-02T23:30:16+00:00'
+    dupe_count: 0
+  - title: Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve
+    url: https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/
+    summary: Apple says iPhone Duo production is ramping up, but it still can't say when supply will catch
+      up with demand as shipping delays stretch into next year.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-02T23:25:32+00:00'
+    dupe_count: 0
+  - title: Trajectory raises $45M to make AI model training accessible to nontechnical experts
+    url: https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/
+    summary: The one-year-old startup is now valued at $300 million.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-02T23:13:53+00:00'
+    dupe_count: 0
+  - title: Apple’s inventory surges 154% as memory chip costs climb
+    url: https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/
+    summary: Apple says unprecedented memory chip costs will continue to rise, raising questions about
+      future device prices as its inventory climbs to $14.5 billion.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-02T23:04:57+00:00'
+    dupe_count: 0
+  - title: Apple is ‘not able to predict’ when it’ll have enough iPhone Duos to go around
+    url: https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints
+    summary: Apple CEO John Ternus doesn't have a timeline for when iPhone Duo supply constraints could
+      lift. During an interview with Reuters, Ternus said the company is "working hard to get it to as
+      many customers as quickly as possible, but at this ​
     source: The Verge
     weight: 1
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-02T22:56:11+00:00'
     dupe_count: 0
-  - title: 'Borrowed reading: stories from our extended colleagues'
-    url: https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/
-    summary: Five stories worth your time from our extended colleagues at CIO, Computerworld, Macworld,
-      and PCWorld.
-    source: TechCrunch
+  - title: Why large dogs age faster than small ones, and other October research highlights
+    url: https://arstechnica.com/science/2026/11/research-roundup-6-cool-science-stories-we-almost-missed-7/
+    summary: Plus invisible tattoos, medieval skeleton gets an ID, trapping a single antimatter particle,
+      and more.
+    source: Ars Technica
     weight: 1
-    published_at: '2026-11-02T04:23:48+00:00'
+    published_at: '2026-11-02T22:54:35+00:00'
     dupe_count: 0
-  - title: OpenAI might rebrand its data centers as ‘AI compute campuses’
-    url: https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/
-    summary: Data centers are deeply unpopular. But what if we called them something else?
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-01T21:55:23+00:00'
-    dupe_count: 0
-  - title: NASA hopes the commercial space industry can help save Hubble
-    url: https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble
-    summary: Gravity is a cruel mistress, slowly dragging the famed telescope ever closer to its ultimate
-      demise with every day. Hubble is in no immediate danger of burning up in the Earth's atmosphere,
-      but its time will run out in the early to mid 2030
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-01T21:09:21+00:00'
-    dupe_count: 0
-  - title: AI can make tech CEOs’ lives easier. What about everyone else?
-    url: https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/
-    summary: On Equity, we discuss why tech CEO statements can seem so tone deaf.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-01T20:57:58+00:00'
-    dupe_count: 0
-  - title: Flock keeps ignoring requests to cancel its contracts
-    url: https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts
-    summary: While more cities are canceling their contracts with Flock Safety, just as many are discovering
-      how difficult that can be in some instances. Plymouth, Minnesota's city council voted to terminate
-      its contract with Flock in September, but fai
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-01T19:58:02+00:00'
-    dupe_count: 0
-  - title: 'Ask HN: Which TV do you recommend for privacy?'
-    url: https://news.ycombinator.com/item?id=50328896
-    summary: I haven’t owned a TV in years and would like one that respects my privacy. Are there any
-      TV’s which do this well? I am looking for something in the 60”to 80”range and would like a 4k display
-      with at least 60hz display. I don’t mind paying a
+  - title: The SEC Should Block Anthropic's IPO to Protect the Public
+    url: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/
+    summary: 'Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/
+      Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 362 # Comments: 267'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-11-01T19:35:27+00:00'
+    published_at: '2026-11-02T22:30:47+00:00'
     dupe_count: 0
-  - title: Mathematics has changed. Let's act like it
-    url: https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/
-    summary: 'Article URL: https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/
-      Comments URL: https://news.ycombinator.com/item?id=50328251 Points: 320 # Comments: 358'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-11-01T18:28:42+00:00'
-    dupe_count: 0
-  - title: Apple’s HomeView could add security camera features
-    url: https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features
-    summary: Reddit user pdfu found hints hidden in the HomeView 27.2 code that Apple could be adding
-      security camera features to its smart home hub. The strings describe a security camera mode with
-      motion detection, live streaming, and recording option
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-01T17:16:07+00:00'
-    dupe_count: 0
-  - title: 'TechCrunch Mobility: A new, bigger AV boom is here'
-    url: https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/
-    summary: Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more
-      than ever, the role AI is playing in it.
+  - title: Anthropic warns that it’s very close to RSI capability, aka self-building AI
+    url: https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/
+    summary: RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration
+      of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.
     source: TechCrunch
     weight: 1
-    published_at: '2026-11-01T17:04:00+00:00'
+    published_at: '2026-11-02T22:14:50+00:00'
     dupe_count: 0
-  - title: Binance resumes withdrawals following $6.3 billion breach
-    url: https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/
-    summary: The cryptocurrency exchange said it's now covered 95% of the stolen assets.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-01T16:20:10+00:00'
-    dupe_count: 0
-  - title: A fully playable version of Portal prequel F-Stop leaked
-    url: https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak
-    summary: Leakers have pieced together a playable version of the canceled Portal prequel F-Stop. Most
-      of the assets came from the massive 12-terabyte leak that dropped this August. That didn't include
-      the game's source code or map data, but those fin
+  - title: Apple set an iPhone sales record even without a new standard iPhone
+    url: https://www.theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings
+    summary: Apple had a record-breaking quarter for iPhone sales - despite not releasing a standard model
+      during its latest refresh. In its fourth-quarter earnings report released on Monday, Apple says
+      it earned $57.58 billion in iPhone revenue, a 17 p
     source: The Verge
     weight: 1
-    published_at: '2026-11-01T16:19:21+00:00'
+    published_at: '2026-11-02T22:02:36+00:00'
     dupe_count: 0
-  - title: 'Show HN: HackerBooks – HackerTube, but for books mentioned on HN'
-    url: https://hackerbooks.org
-    summary: Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one
-      (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till
-      now. Each book links back to the comments that menti
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-11-01T15:58:28+00:00'
-    dupe_count: 0
-  - title: 'Pixel 11 Pro Fold: Sturdy rectangle in a wide wide world'
-    url: https://techcrunch.com/2026/11/01/pixel-11-pro-fold-sturdy-rectengale-in-a-wide-wide-world/
-    summary: Google made a sturdy phone, but there is increasing competition in the foldable world.
-    source: TechCrunch
+  - title: Third person dies of bird flu since virus started jumping to livestock
+    url: https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock/
+    summary: The threat is still considered to be low, but the virus continues to spread.
+    source: Ars Technica
     weight: 1
-    published_at: '2026-11-01T15:00:00+00:00'
+    published_at: '2026-11-02T21:21:43+00:00'
     dupe_count: 0
-  - title: Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case
-    url: https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/
-    summary: 'Article URL: https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/
-      Comments URL: https://news.ycombinator.com/item?id=50326099 Points: 497 # Comments: 166'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-11-01T14:34:43+00:00'
-    dupe_count: 0
-  - title: North Korea linked to massive Binance crypto heist
-    url: https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist
-    summary: 'The FBI says North Korea was behind the massive $6.3 billion crypto heist that hit Binance
-      on October 29th. The FBI labeled the activity "TraderTraitor" and said that it had observed actors
-      it has connected to hack converting the tokens to '
+  - title: Meta will end Quest 2 OS updates in 2027
+    url: https://www.theverge.com/tech/1024835/meta-vr-quest-2-pro-os-end-updates
+    summary: Meta is planning to release the last OS update for its Quest 2 and Quest Pro VR headsets
+      by March 2027, the company announced today. The last OS update for those devices is planned to be
+      v213, and after that, Meta will continue to ship secu
     source: The Verge
     weight: 1
-    published_at: '2026-11-01T14:33:11+00:00'
+    published_at: '2026-11-02T21:04:20+00:00'
     dupe_count: 0
-  - title: Here’s what ‘renoa’ — the first new fiber in 25 years — feels like
-    url: https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like/
-    summary: Startup Everbloom's new material, renoa, is the first new fiber in 25 years, and it feels
-      very familiar.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-01T14:00:00+00:00'
-    dupe_count: 0
-  - title: 'HomePod Mini 2 first look: Three things I love and one disappointment'
-    url: https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker
-    summary: When I first heard about the new $149 HomePod Mini 2 at Apple's Welcome Home event last month,
-      I was disappointed. It's been six years since Apple launched its entry-level smart speaker, and
-      all it got in the second gen was a chip bump, som
+  - title: One of Google’s Android partners turned 1.3 million set-top boxes into a botnet
+    url: https://www.theverge.com/1024807/google-botnet-android-tv-shut-down
+    summary: Google says one of its Android manufacturing partners secretly built a backdoor in 1.3 million
+      devices and turned them into a botnet. The company says it has now dismantled the backdoor and "cut
+      ties" with the manufacturer, the Shenzhen, Ch
     source: The Verge
     weight: 1
-    published_at: '2026-11-01T14:00:00+00:00'
+    published_at: '2026-11-02T20:37:49+00:00'
     dupe_count: 0
-  - title: New Zelda and GTA represent a games industry that no longer exists
-    url: https://www.theverge.com/column/1022402/new-zelda-and-gta-represent-a-games-industry-that-no-longer-exists
-    summary: This is The Stepback, a weekly newsletter breaking down one essential story from the tech
-      world. For more on the biggest game releases of the year, follow Andrew Webster. The Stepback arrives
-      in our subscribers' inboxes on Sunday at 8AM ET.
+  - title: BMW is taking on Tesla’s FSD with urban driver assist starting in 2027
+    url: https://www.theverge.com/transportation/1024616/bmw-level-2-city-driver-assist-2027
+    summary: BMW says that it will expand its navigation-guided, partially automated driving capabilities
+      into urban environments starting in 2027, launching first in Germany with other markets to follow.
+      The new system can help steer, speed up, and slo
     source: The Verge
     weight: 1
-    published_at: '2026-11-01T13:00:00+00:00'
+    published_at: '2026-11-02T20:03:52+00:00'
     dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
-  - title: Chattanooga Accelerator Selects Four Quantum Startups For Commercialization Program
-    url: https://thequantuminsider.com/2026/11/02/chattanooga-accelerator-selects-four-quantum-startups-for-commercialization-program/
-    summary: Insider Brief Chattanooga’s CO.LAB has selected four quantum startups for a yearlong program
-      aimed at turning their technologies into commercial products. The inaugural CO.LAB Q cohort includes
-      Ridge Quantum, which is commercializing encryp
+  - title: SpecterAI and HPT Set Out PQC Migration Plans for Vietnam
+    url: https://thequantuminsider.com/2026/11/03/specterai-hpt-pqc-migration-vietnam/
+    summary: 'Insider Brief PRESS RELEASE — SpecterAI Quantum Security, a post-quantum cryptography (PQC)
+      company, and HPT Vietnam Corporation signed the detailed schedules and action roadmap of their Strategic
+      Partnership Agreement on October 28, 2026. '
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-11-02T09:29:12+00:00'
+    published_at: '2026-11-03T09:07:31+00:00'
     dupe_count: 0
-  - title: BTQ Technologies Brings MIMIQ Quantum Emulator to qBraid
-    url: https://thequantuminsider.com/2026/11/02/mimiq-quantum-emulator-available-qbraid/
-    summary: 'Insider Brief PRESS RELEASE — BTQ Technologies Corp. (the “Company” or “BTQ“) (Nasdaq: BTQ)
-      (Cboe CA: BTQ), a quantum technology company focused on accelerating the transition from classical
-      networks to the quantum internet, today announced'
+  - title: Germany’s Quint Raises 9.1 Million Euros to Develop Quantum Chips With Fewer Errors
+    url: https://thequantuminsider.com/2026/11/03/germanys-quint-raises-9-1-million-euros-to-develop-quantum-chips-with-fewer-errors/
+    summary: Insider Brief German quantum computing startup Quint has raised 9.1 million euros in its
+      first funding round to develop chips designed to reduce errors and lower the cost of building reliable
+      quantum computers, Handelsblatt reported. The fi
     source: The Quantum Insider
     weight: 1
-    published_at: '2026-11-02T09:07:06+00:00'
+    published_at: '2026-11-03T09:00:34+00:00'
     dupe_count: 0
-  - title: IDEMIA Secure Transactions Receives EMVCo Certification for PQC Payment Cards
-    url: https://thequantuminsider.com/2026/11/02/idemia-payment-cards-post-quantum-transition/
-    summary: 'Insider Brief PRESS RELEASE — As quantum computing advances, industries are preparing for
-      a future in which today’s cryptographic methods may no longer provide the same level of protection.
-      For banks and issuers, the challenge is clear: ens'
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-11-02T09:01:00+00:00'
-    dupe_count: 0
-  - title: Adelaide Researchers Develop Simpler Design for Highly Sensitive Quantum Sensors
-    url: https://thequantuminsider.com/2026/11/02/adelaide-researchers-develop-simpler-design-for-highly-sensitive-quantum-sensors/
-    summary: Insider Brief PRESS RELEASE — Adelaide University quantum engineers have found a new way
-      to improve some of the world’s most sensitive sensors of electromagnetic fields, a breakthrough
-      that could help advance brain imaging, medical diagnost
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-11-02T08:50:32+00:00'
-    dupe_count: 0
-  - title: Finite-Element Electromagnetic Analysis and Evaluation of Antenna Performance Metrics Using
-      a Quantum Linear System Solver
-    url: https://arxiv.org/abs/2610.40693
-    summary: 'arXiv:2610.40693v1 Announce Type: new Abstract: Electromagnetic analysis based on the finite
-      element method is widely used in antenna design. At higher frequencies, however, the required mesh
-      refinement makes solving large sparse linear sys'
+  - title: R\'enyi-2 entanglement of purification of the symmetric Werner state
+    url: https://arxiv.org/abs/2611.00144
+    summary: 'arXiv:2611.00144v1 Announce Type: new Abstract: This paper determines exactly the R\''enyi-2
+      entanglement of purification of the normalized symmetric Werner state in every local dimension $d\ge2$
+      \begin{equation*} \mathrm{EoP}_2(W_{+,d})=\lo'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Finite-resource cooling of qudits beyond thermodynamic length
-    url: https://arxiv.org/abs/2610.40709
-    summary: 'arXiv:2610.40709v1 Announce Type: new Abstract: Cooling a quantum system with $N$ thermal
-      machines costs more than Landauer''s bound. For swap-based collision models the excess is set by
-      thermodynamic length, which is optimal for qubits and '
+  - title: Quantum simulation of real-time Yukawa dynamics with qubits and qumodes
+    url: https://arxiv.org/abs/2611.00201
+    summary: 'arXiv:2611.00201v1 Announce Type: new Abstract: Real-time quantum simulation of field theories
+      offers access to scattering and decay dynamics, circumventing the limitations of Euclidean lattice
+      methods. However, representing bosonic fields '
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Quantum manifestations of converse symmetry breaking
-    url: https://arxiv.org/abs/2610.40762
-    summary: 'arXiv:2610.40762v1 Announce Type: new Abstract: Quantum synchronization holds promise in
-      advancing quantum technologies such as sensing, communication, and computation. A key challenge
-      in this rapidly developing field is to identify mechani'
+  - title: Exhaustive Construction of Generalized Parent Hamiltonians for Matrix Product States
+    url: https://arxiv.org/abs/2611.00203
+    summary: 'arXiv:2611.00203v1 Announce Type: new Abstract: Characterizing local Hamiltonians that host
+      interesting many-body states as eigenstates has been an important problem in quantum many-body physics.
+      For matrix product states (MPS), there is a '
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: A Universal Approach to Hydrodynamics in Higher Dimensions via Tensor Networks
-    url: https://arxiv.org/abs/2610.40776
-    summary: 'arXiv:2610.40776v1 Announce Type: new Abstract: Extracting late-time hydrodynamic transport
-      properties directly from microscopic quantum models, especially in dimensions beyond one, is believed
-      to be classically intractable. This owes, in p'
+  - title: Distance to integrability and complexity
+    url: https://arxiv.org/abs/2611.00233
+    summary: 'arXiv:2611.00233v1 Announce Type: new Abstract: We consider nearest-neighbour interactions
+      on spin-1/2 chains. We find the full set of integrable models of this form and apply a numerical
+      algorithm to determine the "closest" integrable mode'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Fock-space delocalization and its control in scarred-vs-ergodic dynamics
-    url: https://arxiv.org/abs/2610.40805
-    summary: 'arXiv:2610.40805v1 Announce Type: new Abstract: Quantum many-body scarred dynamics in Rydberg-atom
-      arrays is characterized by revivals, in which the system repeatedly returns to its initial state
-      despite its many-body complexity. But how ex'
+  - title: Benchmarking Quantum Convolutional Neural Networks and their classical surrogates on long-range
+      strongly correlated models
+    url: https://arxiv.org/abs/2611.00255
+    summary: 'arXiv:2611.00255v1 Announce Type: new Abstract: We benchmark quantum convolutional neural
+      networks (QCNNs) and their classical surrogates for phase differentiation in one-dimensional strongly
+      correlated systems with beyond-nearest-neighbour'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: 'Liouvillian spectral snapshots: A reduced-subspace approach for time-dependent and noisy open
-      quantum systems'
-    url: https://arxiv.org/abs/2610.40808
-    summary: 'arXiv:2610.40808v1 Announce Type: new Abstract: Driven-dissipative quantum devices are routinely
-      operated with time-dependent drives and exposed to temporally correlated classical noise. When these
-      perturbations vary on timescales comparabl'
+  - title: Triple descent in quantum linear regression
+    url: https://arxiv.org/abs/2611.00272
+    summary: 'arXiv:2611.00272v1 Announce Type: new Abstract: Quantum linear regression models, such as
+      quantum extreme learning machines and quantum fidelity kernels, are trained on features that can
+      only be estimated from finitely many measurement shot'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: 'Beyond the Kubo formula: unification of adiabatic and isothermal response in quantum systems'
-    url: https://arxiv.org/abs/2610.40810
-    summary: 'arXiv:2610.40810v1 Announce Type: new Abstract: The static limit of the Kubo susceptibility
-      describes the adiabatic response of an isolated quantum system, in which energy-level occupations
-      remain unchanged, and generally differs from the i'
+  - title: Application a quantum machine learning algorithm to the applied problem of modeling the thermal
+      regime of a servers
+    url: https://arxiv.org/abs/2611.00303
+    summary: 'arXiv:2611.00303v1 Announce Type: new Abstract: Quantum computing is a rapidly developed
+      field of science. In the NISC era, quantum machine learning stands out, potentially outperforming
+      classical machine learning. In this paper, we explore'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Witnessing and quantifying stellar rank with the Wigner function
-    url: https://arxiv.org/abs/2610.40827
-    summary: 'arXiv:2610.40827v1 Announce Type: new Abstract: Quantifying non-Gaussianity is essential
-      for assessing the computational power of bosonic quantum systems. We introduce a framework to witness
-      and quantify non-Gaussianity from displaced parit'
+  - title: 'Zero mode, Zero influence: Spatial-derivative coupling in particle detectors'
+    url: https://arxiv.org/abs/2611.00309
+    summary: 'arXiv:2611.00309v1 Announce Type: new Abstract: It is common in particle detector models
+      in cavity QED to often omit zero modes or assume their state, compromising causality or introducing
+      ambiguity in their predictions. We show that spatia'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Electronic-Structure-Informed Many-Body Encoding for Quantum Machine Learning
-    url: https://arxiv.org/abs/2610.40840
-    summary: 'arXiv:2610.40840v1 Announce Type: new Abstract: Data encoding is a central challenge in
-      quantum machine learning (QML), as it determines how classical information is mapped onto quantum
-      states and influences the expressive power and efficie'
+  - title: Early Fault-Tolerant Magic State Synthesis and Spacetime Efficient Analog Rotations with Color
+      Code on a Superconducting Quantum Processor
+    url: https://arxiv.org/abs/2611.00404
+    summary: 'arXiv:2611.00404v1 Announce Type: new Abstract: With recent improvements to syndrome extraction
+      scheduling and decoding, and the availability of complete transversal Clifford operations and lattice
+      surgery, color code is an especially promi'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: 'Predictive Maintenance at the Edge: An Embedded Anomaly Detection Pipeline Trained with Quantum
-      Optimization'
-    url: https://arxiv.org/abs/2610.40848
-    summary: 'arXiv:2610.40848v1 Announce Type: new Abstract: This article presents a predictive-maintenance
-      pipeline that detects anomalies in bearings from vibration signals, adapted for deployment at the
-      edge on low-cost microcontrollers, and that use'
+  - title: 'Measurement-angle control of a continuously monitored quantum oscillator: purification limits
+      and optimal protocols'
+    url: https://arxiv.org/abs/2611.00410
+    summary: 'arXiv:2611.00410v1 Announce Type: new Abstract: We study the dynamic purification of a continuously
+      monitored quantum harmonic oscillator coupled to a thermal bath, where the control is the quadrature
+      measurement angle of up to two detector'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: 'Colloquium: Quantum information processing with ensembles of identical particles'
-    url: https://arxiv.org/abs/2610.40852
-    summary: 'arXiv:2610.40852v1 Announce Type: new Abstract: Identical particles underpin most quantum
-      technologies, but the role of indistinguishability in these processes extends far beyond the symmetrization
-      of many-particle states. This Colloquium p'
+  - title: Detector Placement Relaxes Efficiency Requirements for Detecting a Weak Coherent Link
+    url: https://arxiv.org/abs/2611.00500
+    summary: 'arXiv:2611.00500v1 Announce Type: new Abstract: A weak coherent link can produce unusually
+      early arrivals without changing stationary count rates. Missed jumps along routes available without
+      the link can produce similar records, obscuring i'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Clifford synthesis is NP-complete
-    url: https://arxiv.org/abs/2610.40886
-    summary: 'arXiv:2610.40886v1 Announce Type: new Abstract: We show that the problem of synthesizing
-      a quantum circuit for a given Clifford operator using at most a specified amount of resources is
-      NP-complete for several resource models of practical i'
+  - title: Optimal Estimation in Weak Value Amplification with a Position Pointer
+    url: https://arxiv.org/abs/2611.00521
+    summary: 'arXiv:2611.00521v1 Announce Type: new Abstract: We experimentally evaluate five estimators
+      for weak-value amplification (WVA) using a position pointer to measure birefringence time delays.
+      Two general approaches are considered: measuring th'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Optical Quantum Memory Processing for Quantum Hashing
-    url: https://arxiv.org/abs/2610.40904
-    summary: 'arXiv:2610.40904v1 Announce Type: new Abstract: Sender authentication is an important requirement
-      for secure quantum communication networks. We propose programmable photon-echo quantum memory processing
-      of a multi-time-bin photonic qudit fo'
+  - title: Ultra-broadband quantum infrared spectroscopy extending to 20 {\textmu}m
+    url: https://arxiv.org/abs/2611.00561
+    summary: 'arXiv:2611.00561v1 Announce Type: new Abstract: Quantum infrared spectroscopy (QIRS), which
+      exploits quantum interference between photon-pair generation processes, enables infrared spectroscopy
+      using only visible and near-infrared (VNIR) li'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Hypergraph cycle enumeration for efficient inference of planted k-XOR with smooth trade-off
-    url: https://arxiv.org/abs/2610.40941
-    summary: 'arXiv:2610.40941v1 Announce Type: new Abstract: We introduce hypergraph cycle enumeration
-      (HCE), a simple spectral framework for detecting and recovering planted signals in noisy hypergraph
-      inference problems. We study HCE on one representa'
+  - title: Scaling Laws for Parameter Setting in Digitized Counterdiabatic QAOA
+    url: https://arxiv.org/abs/2611.00573
+    summary: 'arXiv:2611.00573v1 Announce Type: new Abstract: Optimizing parameters separately for each
+      problem instance limits the reuse of variational quantum algorithms. We develop empirical scaling
+      laws for parameter setting in the digitized counterd'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Variational Programs with Open Clocks
-    url: https://arxiv.org/abs/2610.40988
-    summary: 'arXiv:2610.40988v1 Announce Type: new Abstract: Variational quantum algorithms leave the
-      durations of Hamiltonian evolutions open for a classical optimizer to set. We present VHamilton,
-      a minimal extension of the Hamilton quantum programmin'
+  - title: The exact information cost of randomized measurements in quantum metrology
+    url: https://arxiv.org/abs/2611.00599
+    summary: 'arXiv:2611.00599v1 Announce Type: new Abstract: Randomized measurements provide state-independent
+      readout for multiparameter quantum sensing. Although 3-designs retain a constant fraction of the
+      quantum Fisher information (QFI) for every pu'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Preparation of a Laughlin-like fractional Chern insulator on a superconducting quantum processor
-    url: https://arxiv.org/abs/2610.41017
-    summary: 'arXiv:2610.41017v1 Announce Type: new Abstract: Fractional Chern insulators (FCIs) are lattice
-      analogues of fractional quantum Hall states, hosting topological order and fractionalized anyonic
-      excitations. Their realization poses a demandin'
+  - title: Enhanced shortcuts to adiabaticity in an interacting giant-atom-atomic-waveguide system
+    url: https://arxiv.org/abs/2611.00601
+    summary: 'arXiv:2611.00601v1 Announce Type: new Abstract: In realistic quantum systems, isolated few-level
+      models usually provide only an approximate description, since the controlled subsystem is generally
+      coupled to additional degrees of freedom. A'
     source: arXiv quant-ph
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
+    dupe_count: 0
+  - title: Implications of the PXP ground-state sign structure for neural-network variational Monte Carlo
+    url: https://arxiv.org/abs/2611.00603
+    summary: 'arXiv:2611.00603v1 Announce Type: new Abstract: Positive-definite neural-network quantum
+      states cannot directly represent the ground state of the PXP Hamiltonian, since the ground-state
+      wavefunction carries a nontrivial relative-sign struct'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-11-03T05:00:00+00:00'
+    dupe_count: 0
+  - title: 'Compressed Oracle Duality: A simple framework for knowing what quantum adversaries know'
+    url: https://arxiv.org/abs/2611.00609
+    summary: 'arXiv:2611.00609v1 Announce Type: new Abstract: Given a quantum adversary that queries a
+      random oracle, how do we characterize the information that they "know"? The Compressed Oracle method
+      of Zhandry (CRYPTO 2019) is one method that record'
+    source: arXiv quant-ph
+    weight: 2
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
-  - title: 'Ax-Prover: A Deep Reasoning Agentic Framework for Theorem Proving in Mathematics and Quantum
-      Physics'
-    url: https://arxiv.org/abs/2510.12787
-    summary: 'arXiv:2510.12787v5 Announce Type: replace Abstract: We present Ax-Prover, a multi-agent
-      system for automated theorem proving in Lean that can solve problems across diverse scientific domains
-      and operate either autonomously or collaborativel'
-    source: arXiv cs.AI
+  - title: 'Agent Skill Evaluation and Evolution: Frameworks and Benchmarks'
+    url: https://arxiv.org/abs/2606.11435
+    summary: 'arXiv:2606.11435v2 Announce Type: replace Abstract: The growth of agent skills has transformed
+      how agentic systems are built, evaluated, and deployed. As skill libraries continue to scale, rigorous
+      evaluation becomes critical to ensuring th'
+    source: arXiv cs.CL
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: 'SoK: Agentic Retrieval-Augmented Generation (RAG): Taxonomy, Architectures, Evaluation, and
-      Research Directions'
-    url: https://arxiv.org/abs/2603.07379
-    summary: 'arXiv:2603.07379v2 Announce Type: replace Abstract: Retrieval-Augmented Generation (RAG)
-      systems are increasingly evolving into agentic architectures where large language models autonomously
-      coordinate multi-step reasoning, dynamic memory m'
+  - title: Self-Evolving Agentic Workflows via Semantic Decomposition of Complex Tasks
+    url: https://arxiv.org/abs/2611.01840
+    summary: 'arXiv:2611.01840v1 Announce Type: new Abstract: Agentic workflows organize complex tasks
+      into reusable procedures. However, invoking an LLM at every step incurs repeated inference costs
+      and delays. We propose a framework for self-evolving a'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 1
-  - title: Physics-Audited Agentic Discovery in Scientific Machine Learning
-    url: https://arxiv.org/abs/2607.07379
-    summary: 'arXiv:2607.07379v2 Announce Type: replace Abstract: Agentic discovery can yield mechanics
-      surrogates with low validation error that nonetheless violate physical requirements. We present
-      Physics-Audited Agentic SciML (PA-SciML), a framework '
+  - title: 'TLAPS-Bench: Formally Proving Correctness of Real-World System Specifications with TLA+ Proof
+      System'
+    url: https://arxiv.org/abs/2611.02849
+    summary: 'arXiv:2611.02849v1 Announce Type: new Abstract: TLAPS-Bench is a benchmark and execution
+      harness for constructing machine-checked proofs for real-world system specifications in TLA+ with
+      agentic AI. Proving correctness of complex system spe'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
+    dupe_count: 0
+  - title: 'ComplianceAtlas: A Taxonomy-Driven Agentic AI Framework for Automated AI Act Gap Analysis
+      and Remediation'
+    url: https://arxiv.org/abs/2611.03121
+    summary: 'arXiv:2611.03121v1 Announce Type: new Abstract: Assessing regulatory compliance for high-risk
+      AI systems requires systematic identification of technical gaps such as missing controls, in- adequate
+      processes, or shallow evaluation of practic'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-11-03T05:00:00+00:00'
+    dupe_count: 0
+  - title: An Agentic Framework for Automated Power System Studies and Grid Connection Assessment
+    url: https://arxiv.org/abs/2611.03534
+    summary: 'arXiv:2611.03534v1 Announce Type: new Abstract: Connecting new generation and demand to
+      the grid depends on two scarce skills: checking applications against a large, changing body of regulation,
+      and running the network studies that decide w'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-11-03T05:00:00+00:00'
+    dupe_count: 0
+  - title: 'Silent Reward and Environment Defects in EV Charging Simulation Benchmarks: A Diagnostic Checklist'
+    url: https://arxiv.org/abs/2611.01769
+    summary: 'arXiv:2611.01769v1 Announce Type: cross Abstract: Reinforcement-learning (RL) benchmarks
+      built on microscopic traffic simulators such as SUMO are increasingly used to compare agent architectures
+      for electric vehicle (EV) charging assignment'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 1
-  - title: 'LazyAgent: Demand-Driven Materialization and Physical Optimization of Agentic Programs'
-    url: https://arxiv.org/abs/2609.23058
-    summary: 'arXiv:2609.23058v2 Announce Type: replace Abstract: Agent runtimes that plan before acting
-      run every step as soon as it is ready. Neither these runtimes nor their benchmarks distinguish a
-      step that is ready from a step the request needs, an'
+  - title: 'MCP Tool Poisoning in Agentic AI Frameworks: A Cross-Framework Measurement Study'
+    url: https://arxiv.org/abs/2611.03555
+    summary: 'arXiv:2611.03555v1 Announce Type: cross Abstract: The Model Context Protocol (MCP) lets
+      agentic AI frameworks connect language models to external tool providers, but it carries attacker-controlled
+      content (tool descriptions, schema fields, '
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: 'STRIATUM-CTF: A Protocol-Driven Agentic Framework for Autonomous CTF Solving'
-    url: https://arxiv.org/abs/2603.22577
-    summary: 'arXiv:2603.22577v2 Announce Type: replace-cross Abstract: Autonomous cyber operations increasingly
-      depend on agents that can chain reconnaissance, exploitation, and analysis across many tools while
-      maintaining state over long task horizons.'
+  - title: 'Switchcraft: AI Model Router for Agentic Tool Calling'
+    url: https://arxiv.org/abs/2605.07112
+    summary: 'arXiv:2605.07112v2 Announce Type: replace Abstract: Agentic AI systems that invoke external
+      tools are powerful but costly, leading developers to default to large models and overspend inference
+      budgets. Existing model routers target chat res'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?
-    url: https://arxiv.org/abs/2610.33509
-    summary: 'arXiv:2610.33509v2 Announce Type: replace-cross Abstract: LLM agents have been increasingly
-      adopted for security-focused code review, but existing benchmarks mostly derive the reviewed changes
-      from their later fixes instead of the real-worl'
+  - title: 'AgentHop: A Diagnostic Benchmark for Agentic Multi-Hop Question Answering over Scientific
+      Citation Graphs'
+    url: https://arxiv.org/abs/2609.34428
+    summary: 'arXiv:2609.34428v2 Announce Type: replace-cross Abstract: Agentic tasks require a large
+      language model to interact with the world, navigating information and gathering evidence across
+      multiple steps with restricted resources. Due to this co'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
-    dupe_count: 0
-  - title: More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum
-    url: https://arxiv.org/abs/2610.40758
-    summary: 'arXiv:2610.40758v1 Announce Type: new Abstract: Self-evolving agents rewrite a persistent
-      state from feedback, but it is largely untested whether this lets them learn a rule nobody told
-      them. An agent can also pass by writing down each corr'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
-    dupe_count: 0
-  - title: Agentic World Modeling for Agent Test-time Scaling without Environment Replica
-    url: https://arxiv.org/abs/2610.40927
-    summary: 'arXiv:2610.40927v1 Announce Type: new Abstract: Test-time scaling (TTS) improves large language
-      model agents by sampling and selecting among multiple candidate trajectories, but common realizations
-      assume that these trajectories can be exec'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 1
-  - title: Benchmarking Forecasting Agents on Yesterday's Tomorrows
-    url: https://arxiv.org/abs/2610.40940
-    summary: 'arXiv:2610.40940v1 Announce Type: new Abstract: Digital agents can now gather and organize
-      information, reason over it, and use tools to complete complex tasks. Forecasting puts all of these
-      abilities to the test: it requires integrating in'
+  - title: 'Beyond Self-Reflection: An Execute-Distill-Verify Framework for Agentic Experience Learning'
+    url: https://arxiv.org/abs/2606.24428
+    summary: 'arXiv:2606.24428v2 Announce Type: replace Abstract: Experience learning lets large language
+      model agents reuse lessons through external memory without updating model parameters. However, reflection
+      can endorse execution errors and store the'
+    source: arXiv cs.CL
+    weight: 2
+    published_at: '2026-11-03T05:00:00+00:00'
+    dupe_count: 0
+  - title: 'SpBench: An Agent-Native Framework for Cross-Engine Lakehouse Benchmarking'
+    url: https://arxiv.org/abs/2611.00449
+    summary: 'arXiv:2611.00449v1 Announce Type: cross Abstract: SpBench is an agent-native framework for
+      cross-engine lakehouse benchmarking, in production use for benchmarking Snowpark, Snowpark Connect
+      for Apache Spark, and other execution environments'
+    source: arXiv cs.LG
+    weight: 2
+    published_at: '2026-11-03T05:00:00+00:00'
+    dupe_count: 0
+  - title: How Safe Are AI-Generated Patches? A Large-scale Study on Security Risks in LLM and Agentic
+      Automated Program Repair on SWE-bench
+    url: https://arxiv.org/abs/2507.02976
+    summary: 'arXiv:2507.02976v4 Announce Type: replace-cross Abstract: Large language models (LLMs) and
+      agentic frameworks are increasingly used for development tasks such as automated program repair
+      (APR). Prior work has identified security risks in LL'
+    source: arXiv cs.LG
+    weight: 2
+    published_at: '2026-11-03T05:00:00+00:00'
+    dupe_count: 0
+  - title: 'MemU-Bench: Benchmarking GUI Agents on Long-Horizon User Interactions'
+    url: https://arxiv.org/abs/2611.00191
+    summary: 'arXiv:2611.00191v1 Announce Type: new Abstract: Existing Graphical User Interface (GUI)
+      benchmarks predominantly rely on precise and stateless user instructions. In everyday usage, however,
+      instructions are often \emph{vague and history-dep'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
+    dupe_count: 0
+  - title: 'Exo: An Architecture for Self-Improving Systems at Runtime'
+    url: https://arxiv.org/abs/2611.00463
+    summary: 'arXiv:2611.00463v1 Announce Type: new Abstract: Agent harnesses govern how language models
+      act in an environment; designing their policies by hand is difficult, while automated techniques
+      require representative datasets and costly execution'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-11-03T05:00:00+00:00'
+    dupe_count: 0
+  - title: Agentic Context Management for Multi-Turn Human-AI Conversations
+    url: https://arxiv.org/abs/2611.00518
+    summary: 'arXiv:2611.00518v1 Announce Type: new Abstract: LLMs degrade in multi-turn conversation
+      partly because of context pollution: the model''s own earlier outputs stay in context and anchor
+      later turns, so an early misreading of the user''s intent'
+    source: arXiv cs.AI
+    weight: 2
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 1
-  - title: 'ReplayRCA: Measuring Post-hoc Diagnosis and Live Oversight of Agent Failures by Counterfactual
-      Replay'
-    url: https://arxiv.org/abs/2610.41025
-    summary: 'arXiv:2610.41025v1 Announce Type: new Abstract: When a language-model agent fails a multi-step
-      task, can another model find the decisive mistake and fix it with a single action? We introduce
-      ReplayRCA, a benchmark that scores such diagnoses'
+  - title: Autonomous Analysis of Thermoelectric Materials Big Data by Multi-Agentic AI and Construction
+      of a Knowledge Base and Specialized AI
+    url: https://arxiv.org/abs/2611.00627
+    summary: 'arXiv:2611.00627v1 Announce Type: new Abstract: Extracting knowledge from large databases
+      of experimental materials data requires repeated analyses and reusable records of their choices
+      and results. We developed Multi-Agentic AI (MAA), a mu'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Capability-Grounded Agentic Planning
-    url: https://arxiv.org/abs/2610.41040
-    summary: 'arXiv:2610.41040v1 Announce Type: new Abstract: LLM agents serve natural-language requests
-      through tools, data sources, and other agents, and even simple requests often need several interdependent
-      calls. Typically, the LLM picks these calls'
+  - title: 'Decision-Centric Research: A Calibrated Decision Model and Benchmark for Scientific Agents'
+    url: https://arxiv.org/abs/2611.00774
+    summary: 'arXiv:2611.00774v1 Announce Type: new Abstract: Scientific agents make consequential choices
+      about evidence, next actions and research strategy, but choices embedded in generated text are difficult
+      to evaluate independently. Decision-Centri'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
-    dupe_count: 1
-  - title: 'LanG 2.0: Energy-Efficient Agentic AI for Semi-Automated Security Operations at Scale'
-    url: https://arxiv.org/abs/2610.41072
-    summary: 'arXiv:2610.41072v1 Announce Type: new Abstract: Security operations centers (SOCs) need
-      to turn terabytes of alerts, logs and flows into trusted, affordable decisions to unveil hidden
-      threats. We present LanG 2.0, an agentic system that det'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their
-      Static Internal Memory
-    url: https://arxiv.org/abs/2610.41124
-    summary: 'arXiv:2610.41124v1 Announce Type: new Abstract: Agentic LLM assistants must repeatedly decide
-      whether to answer from memory or to call a tool such as web search. Unnecessary searches cost latency
-      and money; missing ones yield confident but '
+  - title: Can Agentic AI Undermine Its Own Assurance Loop? Closed-Loop Dependency Assurance for Cognitive
+      Network Digital Twins
+    url: https://arxiv.org/abs/2611.00838
+    summary: 'arXiv:2611.00838v1 Announce Type: new Abstract: Agentic Artificial Intelligence (AI) and
+      Network Digital Twins (NDTs) are increasingly combined to form Cognitive Digital Twins (CDTs) that
+      translate operational intents into network changes a'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: Counterfactual Pairwise Augmentation Improves Small Pointwise LLM Judges
-    url: https://arxiv.org/abs/2610.41149
-    summary: 'arXiv:2610.41149v1 Announce Type: new Abstract: Agentic systems increasingly gate individual
-      steps with a pointwise judge that scores a response against a criterion. Small language models are
-      attractive for this role because they can be ser'
+  - title: 'CivicBench: A Benchmark and Memory Framework for Web-Based Civic Data Analytics'
+    url: https://arxiv.org/abs/2611.01145
+    summary: 'arXiv:2611.01145v1 Announce Type: new Abstract: Municipalities publish service requests,
+      geographic boundaries, weather observations, demographic estimates, and operational guidance through
+      independently maintained Web portals. Civic analys'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
-  - title: 'TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection'
-    url: https://arxiv.org/abs/2610.41232
-    summary: 'arXiv:2610.41232v1 Announce Type: new Abstract: As Large Language Models (LLMs) become increasingly
-      multilingual, distinguishing human-written from AI-generated text is essential for maintaining information
-      integrity. However, research rema'
+  - title: A Self-Exploring and Self-Evolving Paradigm for Adaptive Edge AI Development
+    url: https://arxiv.org/abs/2611.01377
+    summary: 'arXiv:2611.01377v1 Announce Type: new Abstract: Large Language Models (LLMs) exhibit powerful
+      code generation abilities, fostering agentic systems to automate edge AI application development.
+      However, existing agents typically operate via f'
     source: arXiv cs.AI
     weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
-    dupe_count: 1
-  - title: 'From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated
-      PDE Simulation?'
-    url: https://arxiv.org/abs/2610.41267
-    summary: 'arXiv:2610.41267v1 Announce Type: new Abstract: Turning an engineering request into a simulation
-      requires consistent geometry, physics, boundary conditions, and numerical settings. Recent agent-assisted
-      systems automate simulation setup, bu'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
-    dupe_count: 0
-  - title: 'Ask on Demand: Targeted Peer Communication for Parallel Agentic Systems'
-    url: https://arxiv.org/abs/2610.41378
-    summary: 'arXiv:2610.41378v1 Announce Type: new Abstract: Parallel LLM agents tackle complex tasks
-      by exploring multiple trajectories, yet useful discoveries remain isolated in individual execution
-      histories. Existing sharing methods often select or '
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
-    dupe_count: 0
-  - title: Real Computation or Merely Naming? A Pre-Registered Mechanism Audit of 25 Cognitive-Architecture
-      Modules in an LLM-Based Agent System
-    url: https://arxiv.org/abs/2610.41604
-    summary: 'arXiv:2610.41604v1 Announce Type: new Abstract: Agent systems built on local large language
-      models are increasingly marketed through the vocabulary of cognitive architecture: modules named
-      global workspace, theory of mind, causal reasoning,'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
-    dupe_count: 0
-  - title: 'TradeWar: A Benchmark for Execution-Grounded Trade Negotiation with Adaptive LLM Agents'
-    url: https://arxiv.org/abs/2610.42004
-    summary: 'arXiv:2610.42004v1 Announce Type: new Abstract: Multi-turn negotiation remains a challenging
-      problem for large language model (LLM) agents. While LLMs can conduct natural-language dialogue,
-      existing benchmarks predominantly assess only agre'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
-    dupe_count: 0
-  - title: 'Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention'
-    url: https://arxiv.org/abs/2610.42147
-    summary: 'arXiv:2610.42147v1 Announce Type: new Abstract: Agentic workflows are increasingly shifting
-      towards long-horizon tasks, such as open-ended scientific work, where models benefit from long context
-      windows. However, at ultra-long context (abov'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-02T05:00:00+00:00'
+    published_at: '2026-11-03T05:00:00+00:00'
     dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
   items:
+  - title: Add an openshell-policy extension to the OpenShell quickstart (#531)
+    url: https://github.com/anthropics/claude-quickstarts/commit/8ef47d719eba5379ff8f38133f5defcc499e856f
+    summary: Add an openshell-policy extension to the OpenShell quickstart (#531)
+    source: Anthropic Quickstarts Commits
+    weight: 1
+    published_at: '2026-11-02T14:11:21+00:00'
+    dupe_count: 0
   - title: Add a Sentry autofix quickstart for Managed Agents (#487)
     url: https://github.com/anthropics/claude-quickstarts/commit/1a18c340ca42b9137d991637afe867bdcf70a9ce
     summary: Add a Sentry autofix quickstart for Managed Agents (#487)
@@ -561,15 +565,6 @@ tiles:
     weight: 1
     published_at: '2026-10-29T01:02:40+00:00'
     dupe_count: 0
-  - title: Pin the quickstarts to anthropic 2.0, @anthropic-ai/sdk 1.0 and ant 2…
-    url: https://github.com/anthropics/claude-quickstarts/commit/930ad10bb2e21a9ef97fe1a88d2037e18a24465c
-    summary: 'Pin the quickstarts to anthropic 2.0, @anthropic-ai/sdk 1.0 and ant 2.0 (#521) * Pin the
-      quickstarts to anthropic 2.0, @anthropic-ai/sdk 1.0 and ant 2.0 * tests: pin ruff to the dev-requirements
-      version'
-    source: Anthropic Quickstarts Commits
-    weight: 1
-    published_at: '2026-10-23T15:15:01+00:00'
-    dupe_count: 1
   - title: Claude Code GitHub Action v1.0
     url: https://github.com/anthropics/claude-code-action/releases/tag/v1
     summary: 🎉 Claude Code GitHub Action v1.0 - Now Generally Available! We're excited to announce the
@@ -577,8 +572,95 @@ tiles:
       simplicity, flexibility, and power to AI-assisted dev
     source: Claude Code Action Releases
     weight: 1
-    published_at: '2026-10-31T01:05:49+00:00'
+    published_at: '2026-11-03T01:33:36+00:00'
     dupe_count: 0
+  - title: v1.0.267
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.267
+    summary: 'Full Changelog : v1.0.266...v1.0.267'
+    source: Claude Code Action Releases
+    weight: 1
+    published_at: '2026-11-03T01:33:23+00:00'
+    dupe_count: 0
+  - title: v2.1.317
+    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.317
+    summary: What's changed Added a warning to /schedule when a new cloud scheduled task gets connectors
+      you did not ask for, with how to remove them Added a check that asks before a web or shell tool
+      call sends your account email address to the network
+    source: Claude Code Releases
+    weight: 1
+    published_at: '2026-11-03T01:25:46+00:00'
+    dupe_count: 0
+  - title: Bring cookbooks up to Haiku 5.5 and the 2.0 SDK (#944)
+    url: https://github.com/anthropics/claude-cookbooks/commit/785d7a06457b3413727f386b9c470083feb23c49
+    summary: Bring cookbooks up to Haiku 5.5 and the 2.0 SDK (#944) Squash merge of 2 commits
+    source: Anthropic Cookbook Commits
+    weight: 1
+    published_at: '2026-11-02T21:46:45+00:00'
+    dupe_count: 0
+  - title: 'feat(latency_optimization): add latency optimization cookbook (#957)'
+    url: https://github.com/anthropics/claude-cookbooks/commit/41ce172f08f0f17783fb41d75267ff72fa8b33fc
+    summary: 'feat(latency_optimization): add latency optimization cookbook (#957) Adds a latency optimization
+      cookbook, an eval-driven guide to maximizing your agent''s speed without sacrificing quality. It
+      applies each latency lever on the Claude API to'
+    source: Anthropic Cookbook Commits
+    weight: 1
+    published_at: '2026-11-02T21:24:29+00:00'
+    dupe_count: 0
+  - title: google-cloud-sdk-v1.1.2
+    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/google-cloud-sdk-v1.1.2
+    summary: 'Chores internal: type-check the published declarations of every subpackage Documentation
+      examples: use current model IDs'
+    source: Anthropic SDK (TypeScript) Releases
+    weight: 1
+    published_at: '2026-11-02T19:17:27+00:00'
+    dupe_count: 0
+  - title: aws-sdk-v1.1.2
+    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v1.1.2
+    summary: 'Chores internal: type-check the published declarations of every subpackage'
+    source: Anthropic SDK (TypeScript) Releases
+    weight: 1
+    published_at: '2026-11-02T19:17:24+00:00'
+    dupe_count: 0
+  - title: foundry-sdk-v1.1.1
+    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/foundry-sdk-v1.1.1
+    summary: 'Bug Fixes foundry: make client.d.ts type-check with skipLibCheck off Chores internal: type-check
+      the published declarations of every subpackage'
+    source: Anthropic SDK (TypeScript) Releases
+    weight: 1
+    published_at: '2026-11-02T19:17:21+00:00'
+    dupe_count: 0
+  - title: bedrock-sdk-v1.1.1
+    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v1.1.1
+    summary: 'Chores internal: type-check the published declarations of every subpackage'
+    source: Anthropic SDK (TypeScript) Releases
+    weight: 1
+    published_at: '2026-11-02T19:17:18+00:00'
+    dupe_count: 0
+  - title: vertex-sdk-v1.1.1
+    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v1.1.1
+    summary: 'Chores internal: type-check the published declarations of every subpackage'
+    source: Anthropic SDK (TypeScript) Releases
+    weight: 1
+    published_at: '2026-11-02T19:17:16+00:00'
+    dupe_count: 0
+  - title: sdk-v1.4.0
+    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.4.0
+    summary: 'Features api: add GA methods for analytics, spend limits and RBAC api: add named beta types
+      for unified metrics and RBAC delete responses api: add shared analytics order and increase request
+      actor types api: add tool_use_limit_reached_error'
+    source: Anthropic SDK (TypeScript) Releases
+    weight: 1
+    published_at: '2026-11-02T19:17:13+00:00'
+    dupe_count: 0
+  - title: v2.4.0
+    url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.4.0
+    summary: 'Features api: add GA methods for analytics, spend limits and RBAC api: add named beta types
+      for unified metrics and RBAC delete responses api: add shared analytics order and increase request
+      actor types api: add tool_use_limit_reached_error'
+    source: Anthropic SDK (Python) Releases
+    weight: 1
+    published_at: '2026-11-02T19:07:19+00:00'
+    dupe_count: 1
   - title: v1.0.266
     url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.266
     summary: 'Full Changelog : v1.0.265...v1.0.266'
@@ -617,91 +699,4 @@ tiles:
     source: Anthropic Cookbook Commits
     weight: 1
     published_at: '2026-10-29T12:05:29+00:00'
-    dupe_count: 0
-  - title: v1.0.264
-    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.264
-    summary: 'What''s Changed docs: use claude-plugins-official in plugin examples by @mhegazy in #1932
-      Full Changelog : v1.0.263...v1.0.264'
-    source: Claude Code Action Releases
-    weight: 1
-    published_at: '2026-10-27T20:28:03+00:00'
-    dupe_count: 1
-  - title: v2.1.312
-    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.312
-    summary: 'What''s changed Added oidc.user_id_claim to the Claude apps gateway, to identify people
-      by an id_token claim other than sub , such as Microsoft Entra ID''s oid Added click to send: in
-      fullscreen, clicking the "to send now" hint under a queued'
-    source: Claude Code Releases
-    weight: 1
-    published_at: '2026-10-27T20:24:20+00:00'
-    dupe_count: 0
-  - title: v1.0.263
-    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.263
-    summary: 'Full Changelog : v1.0.262...v1.0.263'
-    source: Claude Code Action Releases
-    weight: 1
-    published_at: '2026-10-26T21:55:05+00:00'
-    dupe_count: 0
-  - title: v2.1.311
-    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.311
-    summary: What's changed Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep
-      an idle session while your host reports processes it left running Added a tip for the Explanatory
-      output style, shown when you ask Claude for explanati
-    source: Claude Code Releases
-    weight: 1
-    published_at: '2026-10-26T21:51:23+00:00'
-    dupe_count: 0
-  - title: v1.0.262
-    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.262
-    summary: 'What''s Changed chore: bump Bun to 1.4.4 by @dylan-conway in #1916 New Contributors @dylan-conway
-      made their first contribution in #1916 Full Changelog : v1.0.261...v1.0.262'
-    source: Claude Code Action Releases
-    weight: 1
-    published_at: '2026-10-24T18:57:30+00:00'
-    dupe_count: 7
-  - title: Bump cookbook defaults to Opus 5.5, Sonnet 5.5 and Fable 5.1 (#924)
-    url: https://github.com/anthropics/claude-cookbooks/commit/bfe50e59dbb4f5546a0af9ca36ebb77e637c9ce1
-    summary: Bump cookbook defaults to Opus 5.5, Sonnet 5.5 and Fable 5.1 (#924)
-    source: Anthropic Cookbook Commits
-    weight: 1
-    published_at: '2026-10-24T18:54:16+00:00'
-    dupe_count: 0
-  - title: google-cloud-sdk-v1.1.1
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/google-cloud-sdk-v1.1.1
-    summary: 'Bug Fixes google-cloud: send user profile routes to the organization endpoint Chores internal:
-      stop expecting the beta query param in tests Documentation google-cloud: update the product name
-      in the package description google-cloud: update '
-    source: Anthropic SDK (TypeScript) Releases
-    weight: 1
-    published_at: '2026-10-23T23:23:48+00:00'
-    dupe_count: 0
-  - title: aws-sdk-v1.1.1
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v1.1.1
-    summary: 'Chores internal: stop expecting the beta query param in tests'
-    source: Anthropic SDK (TypeScript) Releases
-    weight: 1
-    published_at: '2026-10-23T23:23:45+00:00'
-    dupe_count: 0
-  - title: sdk-v1.3.0
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.3.0
-    summary: 'Features api: add Claude Tag endpoints for Claude Enterprise organizations Bug Fixes client:
-      link the long-request error messages to the SDK documentation Chores client: stop sending query
-      params hardcoded in endpoint paths docs: improve th'
-    source: Anthropic SDK (TypeScript) Releases
-    weight: 1
-    published_at: '2026-10-23T23:23:43+00:00'
-    dupe_count: 0
-  - title: google-cloud-sdk-v1.1.0
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/google-cloud-sdk-v1.1.0
-    summary: 'Features api: add support for message threads'
-    source: Anthropic SDK (TypeScript) Releases
-    weight: 1
-    published_at: '2026-10-23T13:09:27+00:00'
-    dupe_count: 0
-  - title: aws-sdk-v1.1.0
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v1.1.0
-    summary: 'Features api: add support for message threads'
-    source: Anthropic SDK (TypeScript) Releases
-    weight: 1
-    published_at: '2026-10-23T13:09:24+00:00'
     dupe_count: 0
