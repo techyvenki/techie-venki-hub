@@ -1,176 +1,273 @@
-generated_at: '2026-11-07T11:09:46.800350+00:00'
+generated_at: '2026-11-08T11:11:01.196559+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
-  - title: Sequoia shutting down its Scouts program marks the end of an era
-    url: https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/
-    summary: Sequoia pioneered the scouts model and many VC firms followed suit, but a consensus now seems
-      to be forming that the model has reached limits in its current form.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-07T05:01:54+00:00'
-    dupe_count: 0
-  - title: From the front row to the hot seat — what the midterms mean for Big Tech
-    url: https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/
-    summary: After spending two years getting cozy with the White House, Big Tech is suddenly trying to
-      make friends with Democrats, and the open question is whether that image makeover can hold up against
-      what states, local communities, and the markets
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-07T04:16:43+00:00'
-    dupe_count: 0
-  - title: Crusoe sells troubled Wyoming data center project to Google
-    url: https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/
-    summary: The deal highlights the challenges of developing massive AI data centers.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-07T01:40:28+00:00'
-    dupe_count: 0
-  - title: OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO
-    url: https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation
-    summary: 'OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another
-      $11 billion, according to Bloomberg. That would make it one of the world''s most valuable companies,
-      not long after raising $122 billion from investors '
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-06T23:46:18+00:00'
-    dupe_count: 0
-  - title: Libghostty 1.0
-    url: https://mitchellh.com/writing/libghostty-1-0
-    summary: 'Article URL: https://mitchellh.com/writing/libghostty-1-0 Comments URL: https://news.ycombinator.com/item?id=50399933
-      Points: 680 # Comments: 111'
+  - title: Goodbye Claude, Hello Pi
+    url: https://caleb.software/posts/claude-to-pi.html
+    summary: 'Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107
+      Points: 337 # Comments: 200'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-11-06T23:30:52+00:00'
+    published_at: '2026-11-08T03:11:48+00:00'
     dupe_count: 0
-  - title: Doctors pull knife from man's eye that went through his brain—and he's fine now
-    url: https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/
-    summary: It's the exact path, not the apparent severity that matters most, doctors say.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-11-06T23:09:45+00:00'
-    dupe_count: 0
-  - title: China reportedly recruited AI exec to spy on Jensen Huang
-    url: https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy
-    summary: China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO
-      Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her
-      to glean information about American AI chips and "po
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-06T23:00:44+00:00'
-    dupe_count: 0
-  - title: OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation
-    url: https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/
-    summary: OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't
-      closed yet but is expected to in the coming weeks.
+  - title: After the midterms, things are looking rocky for Elon Musk and data centers
+    url: https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/
+    summary: On Equity, we unpacked what the midterms mean for the tech industry.
     source: TechCrunch
     weight: 1
-    published_at: '2026-11-06T22:53:46+00:00'
+    published_at: '2026-11-07T22:07:22+00:00'
     dupe_count: 0
-  - title: 'Starlink Mobile: All the news on SpaceX’s major mobile carrier ambitions'
-    url: https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news
-    summary: SpaceX has declared that it’s going to make Starlink Mobile a “major” mobile carrier. The
-      Elon Musk-owned company has already deployed thousands of direct-to-cell satellites, but its next
-      big challenge is building out its 5G network here on
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-06T22:45:43+00:00'
-    dupe_count: 0
-  - title: Ships loiter near subsea cables amid Iran's warnings to Trump
-    url: https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/
-    summary: Iran threatened to attack subsea cables if US escalates military strikes again.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-11-06T22:41:37+00:00'
-    dupe_count: 0
-  - title: Re-releases of Wing Commander, Ultima titles hit Steam and GOG
-    url: https://arstechnica.com/gaming/2026/11/ea-producer-tells-the-inside-story-behind-new-wing-commander-remasters/
-    summary: It's mostly bad news from EA lately, but preservation efforts are nice to see.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-11-06T22:08:47+00:00'
-    dupe_count: 0
-  - title: KPop Demon Hunters on 4K Blu-ray costs less than a month of Netflix Premium
-    url: https://www.theverge.com/gadgets/1028640/kpop-demon-hunters-4k-criterion-bluray-deal-sale
-    summary: Buying the 4K Blu-ray disc version of KPop Demon Hunters was already going to be a wise idea
-      for some people, especially those who primarily keep their $26.99 Netflix Premium subscription just
-      to watch the hit animated flick in 4K. But at j
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-06T21:50:32+00:00'
-    dupe_count: 0
-  - title: The Duo apps are coming, says Apple
-    url: https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/
-    summary: There are now 100,000 Duo-optimized apps, says Apple, and thousands more arrive daily.
+  - title: Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo
+    url: https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/
+    summary: A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security
+      recruited a female technology executive to spy on Nvidia's CEO.
     source: TechCrunch
     weight: 1
-    published_at: '2026-11-06T21:38:05+00:00'
+    published_at: '2026-11-07T21:17:08+00:00'
     dupe_count: 0
-  - title: Chainalysis says hackers stole credentials and tokens for all of its customers
-    url: https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/
-    summary: Company said a "multifront cyberattack" included AI agents and an on-path data snatch.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-11-06T20:56:41+00:00'
-    dupe_count: 0
-  - title: AI is dramatically accelerating AI research
-    url: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai
-    summary: 'Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments
-      URL: https://news.ycombinator.com/item?id=50397994 Points: 315 # Comments: 268'
+  - title: Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files
+    url: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again
+    summary: 'Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again
+      Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 409 # Comments: 276'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-11-06T20:27:23+00:00'
+    published_at: '2026-11-07T20:45:32+00:00'
     dupe_count: 0
-  - title: Earth's churning mantle may have created the Great Unconformity
-    url: https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity/
-    summary: Explaining the Great Unconformity, where Cambrian deposits sit on top of older rocks.
-    source: Ars Technica
+  - title: Parents want safer phones for kids. These companies are answering the call.
+    url: https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/
+    summary: As parents look for alternatives to unrestricted smartphones, a growing number of companies
+      are building phones designed specifically for kids, from feature-limited mobile devices to minimalist
+      home phones.
+    source: TechCrunch
     weight: 1
-    published_at: '2026-11-06T20:24:20+00:00'
+    published_at: '2026-11-07T19:00:00+00:00'
     dupe_count: 0
-  - title: Nvidia hardware worth $11.4M vanished between Oakland and Texas
-    url: https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/
-    summary: 6 pallets of hardware vanished en route to Texas, with no arrests 2 months later.
-    source: Ars Technica
+  - title: What I run on my $10 USD OpenStick homelab
+    url: https://blog.bosscher.ch/posts/openstick/
+    summary: 'Article URL: https://blog.bosscher.ch/posts/openstick/ Comments URL: https://news.ycombinator.com/item?id=50406670
+      Points: 594 # Comments: 112'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-11-07T18:12:12+00:00'
+    dupe_count: 0
+  - title: The end of Microsoft Research's AI Frontiers group
+    url: https://hunch.net/?p=13764006
+    summary: 'https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...
+      Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 463 # Comments: 277'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-11-07T18:02:17+00:00'
+    dupe_count: 0
+  - title: Binance CFO is leaving to ‘pursue a new venture’ after $6.3 billion hack
+    url: https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/
+    summary: The announcement comes barely more than a week after hackers stole $6.3 billion worth of
+      cryptocurrency from Binance users.
+    source: TechCrunch
     weight: 1
-    published_at: '2026-11-06T20:05:30+00:00'
+    published_at: '2026-11-07T17:24:07+00:00'
     dupe_count: 0
-  - title: All the latest updates on AI data centers
-    url: https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy
-    summary: Massive new data centers are the physical foundation for tech companies’ hopes and dreams
-      for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights
-      across the world over their impact on power grids, u
+  - title: MaxxBench – "Nice DeepSWE score. But is it true?"
+    url: https://maxxbench.unlap.ai/research/why-maxxbench/
+    summary: 'Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222
+      Points: 323 # Comments: 84'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-11-07T17:19:00+00:00'
+    dupe_count: 0
+  - title: Amazon’s new basic Kindle proves you don’t need all the bells and whistles
+    url: https://techcrunch.com/2026/11/07/amazons-new-basic-kindle-proves-you-dont-need-all-the-bells-and-whistles/
+    summary: Amazon's redesigned basic Kindle costs more than before, but its lighter build and improved
+      display make a compelling case for skipping the pricier models.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-07T17:18:00+00:00'
+    dupe_count: 0
+  - title: 'Apple’s grey list: Words and phrases your iPhone won’t help you spell'
+    url: https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you
+    summary: 'Article URL: https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you
+      Comments URL: https://news.ycombinator.com/item?id=50406111 Points: 473 # Comments: 300'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-11-07T17:06:36+00:00'
+    dupe_count: 0
+  - title: The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance
+    url: https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions
+    summary: 'With temperatures rising to the 90s in Los Angeles, avoiding the heat wasn''t exactly an
+      option while I was at a relative''s outdoor party in August. So I sat beneath a patio umbrella with
+      a powerful fan nearby, figuring I was protected from '
     source: The Verge
     weight: 1
-    published_at: '2026-11-06T20:02:22+00:00'
+    published_at: '2026-11-07T17:00:00+00:00'
     dupe_count: 0
-  - title: Developer ends lucrative screensaver deal with Roku because Fox bought it
-    url: https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition/
-    summary: 'Developer: “I can’t be part of the Fox world.”'
-    source: Ars Technica
+  - title: Costco members can get $5 off the reimagined Ocarina of Time
+    url: https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale
+    summary: 'While some retailers were offering preorder discounts on the remastered Legend of Zelda:
+      The Ocarina of Time, it’s not too late to save if you missed out. Costco members can currently get
+      $5 off the digital version online, bringing the pric'
+    source: The Verge
     weight: 1
-    published_at: '2026-11-06T19:50:18+00:00'
+    published_at: '2026-11-07T16:00:00+00:00'
     dupe_count: 0
-  - title: A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost
-    url: https://hightouch.com/blog/llm-judges-identity-resolution
-    summary: 'Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429
-      Points: 489 # Comments: 113'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-11-06T19:48:51+00:00'
+  - title: Discogs’ Kevin Lewandowski can’t live without his AeroPress
+    url: https://www.theverge.com/tech/1029474/discogs-kevin-lewandowski-aeropress-interview
+    summary: 'Twenty-five years ago, Kevin Lewandowski founded Discogs, arguably the destination online
+      for obsessive vinyl collectors and music nerds of all stripes. It is a marketplace for buying and
+      selling records, obviously, but it''s also become so '
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-07T16:00:00+00:00'
+    dupe_count: 0
+  - title: NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake
+    url: https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review
+    summary: Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide
+      on something for dinner that won't make my husband complain, "Chicken again?" Yes, I should meal
+      plan more, but I don't, so this is where I'm at. A n
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-07T15:50:00+00:00'
+    dupe_count: 0
+  - title: The US let Nvidia sell chips to an empty office in China
+    url: https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government
+    summary: 'Concerns are being raised that neither the Commerce Department nor Nvidia are doing their
+      due diligence when it comes to vetting Chinese firms cleared to handle the company''s H200 AI chips.
+      According to The New York Times, New Matrix is on '
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-07T15:43:45+00:00'
+    dupe_count: 0
+  - title: AI broke the cybersecurity world. What’s next?
+    url: https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos
+    summary: Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity
+      expert, about what a mess cybersecurity is right now. This episode is part one of a special series
+      looking at AI in real life. I’ve always e
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-07T15:00:00+00:00'
+    dupe_count: 0
+  - title: Good riddance, Cybertruck!
+    url: https://www.theverge.com/transportation/1029460/elon-musk-cybertruck-death-election-backlash
+    summary: 'I''m calling it: time of death, November 6th, 1:30 AM, by tweet. Elon Musk''s declaration
+      Friday that Tesla would be "winding down" production of the Cybertruck next year to make room for
+      the Cybercab was fascinating for a number of reasons. '
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-07T14:40:06+00:00'
+    dupe_count: 0
+  - title: Zelda is back and better than ever
+    url: https://www.theverge.com/tech/1028930/zelda-ocarina-godzilla-minus-zero-affinity-installer
+    summary: Hi, friends! Welcome to Installer No. 151, your guide to the best and Verge-iest stuff in
+      the world. (If you're new here, welcome, get psyched because it's officially Bad Holiday Movie Season,
+      and also you can read all the old editions at t
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-07T13:49:01+00:00'
+    dupe_count: 0
+  - title: Why a new report on Anthropic automating AI development is alarming researchers
+    url: https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development
+    summary: Anthropic is using AI to build more powerful AI. And it appears to be working remarkably
+      well, with the company's models improving roughly twice as quickly as a year ago, with little indication
+      of slowing down. That's according to a new rep
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-07T12:30:00+00:00'
     dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
-  - title: NQCC Signs Enterprise Agreement with Phasecraft to Provide Quantum Software via SparQ Access
-    url: https://quantumcomputingreport.com/nqcc-signs-enterprise-agreement-with-phasecraft-to-provide-quantum-software-via-sparq-access/
-    summary: In November 2026, the NQCC and Phasecraft signed an agreement to provide UK organizations
-      with access to Phasecraft's quantum software via SparQ Access. This partnership aims to lower the
-      technical barrier for evaluating quantum advantage i
+  - title: Riverlane Demonstrates Data-Driven DEM Augmentation to Reduce Surface-Code Logical Errors
+    url: https://quantumcomputingreport.com/riverlane-demonstrates-data-driven-dem-augmentation-to-reduce-surface-code-logical-errors/
+    summary: 'Riverlane has developed a data-driven method to improve quantum error correction in surface-code
+      architectures. By identifying unmodeled correlated error mechanisms from syndrome measurement data,
+      their technique augments standard Detector '
     source: Quantum Computing Report
     weight: 1
-    published_at: '2026-11-06T22:34:00+00:00'
+    published_at: '2026-11-08T03:48:31+00:00'
+    dupe_count: 0
+  - title: 'Who’s News: Strategic Appointments at Quantum eMotion, Qtonic Quantum, Chicago Quantum Exchange,
+      and Equal1'
+    url: https://quantumcomputingreport.com/whos-news-strategic-appointments-at-quantum-emotion-qtonic-quantum-chicago-quantum-exchange-and-equal1/
+    summary: Quantum eMotion, Qtonic Quantum, Chicago Quantum Exchange, and Equal1 have announced strategic
+      appointments to key leadership positions, bringing in experienced professionals to drive their respective
+      technology, operations, and quantum com
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-08T03:31:22+00:00'
+    dupe_count: 0
+  - title: CO.LAB Selects Four Startups for Inaugural CO.LAB Q Commercialization Studio in Chattanooga
+    url: https://quantumcomputingreport.com/co-lab-selects-four-startups-for-inaugural-co-lab-q-commercialization-studio-in-chattanooga/
+    summary: 'CO.LAB has launched its first CO.LAB Q commercialization studio in Chattanooga, featuring
+      four startups: RidgeQuantum, Superquantum, esoteriq, and Kottackal Business Solutions. This 12-month
+      program, starting November 2026, aims to commerci'
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-07T21:11:48+00:00'
+    dupe_count: 0
+  - title: Scottish Widows and Aberdeen Allocate UK Workplace Pension Capital to Oxford Quantum Circuits
+      and Quantum Motion via LTAF
+    url: https://quantumcomputingreport.com/scottish-widows-and-aberdeen-allocate-uk-workplace-pension-capital-to-oxford-quantum-circuits-and-quantum-motion-via-ltaf/
+    summary: Scottish Widows and Aberdeen Investments have allocated UK workplace pension capital to Oxford
+      Quantum Circuits and Quantum Motion through the CG Scottish Widows Growth LTAF. This initiative
+      aims to connect defined-contribution retirement a
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-07T20:39:51+00:00'
+    dupe_count: 0
+  - title: UK Financial Conduct Authority Launches Quantum Experimentation Group to Evaluate Financial
+      Crime Detection
+    url: https://quantumcomputingreport.com/uk-financial-conduct-authority-launches-quantum-experimentation-group-to-evaluate-financial-crime-detection/
+    summary: The UK's Financial Conduct Authority (FCA) is launching the Quantum Experimentation Group
+      (QEG) in Q1 2027 to assess if quantum machine learning (QML) can improve financial crime detection.
+      This initiative will bring together financial inst
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-07T20:19:23+00:00'
+    dupe_count: 0
+  - title: Adelaide University Engineers Synthetic Area Spread to Unlock High-Sensitivity Absolute Quantum
+      Magnetometers
+    url: https://quantumcomputingreport.com/adelaide-university-engineers-synthetic-area-spread-to-unlock-high-sensitivity-absolute-quantum-magnetometers/
+    summary: Engineers at Adelaide University have developed a new technique called "synthetic area spread"
+      for superconducting quantum magnetometers. This method allows for absolute magnetic field sensing
+      without sacrificing detector sensitivity, by us
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-07T20:11:28+00:00'
+    dupe_count: 0
+  - title: South Korea Launches 614 PFLOPS Hangang Supercomputer Ahead of May 2027 IonQ Quantum Link
+    url: https://quantumcomputingreport.com/south-korea-launches-614-pflops-hangang-supercomputer-ahead-of-may-2027-ionq-quantum-link/
+    summary: 'South Korea has launched its sixth national supercomputer, Hangang, with a peak performance
+      of 614 petaflops. It is designed to be the high-performance computing backbone for the country''s
+      first hybrid quantum-classical computing platform, '
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-07T19:43:54+00:00'
+    dupe_count: 0
+  - title: HKMA and HKUST Launch PQC Toolkit to Accelerate Banking Sector Transition by 2030
+    url: https://quantumcomputingreport.com/hkma-and-hkust-launch-pqc-toolkit-to-accelerate-banking-sector-transition-by-2030/
+    summary: The Hong Kong Monetary Authority (HKMA) and The Hong Kong University of Science and Technology
+      (HKUST) have jointly launched a Post-Quantum Cryptography (PQC) Toolkit. This toolkit provides a
+      framework for Hong Kong's banking sector to tran
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-07T19:28:57+00:00'
+    dupe_count: 0
+  - title: QNu Labs Introduces Corporate Quantum-Safe Training Supported by National Quantum Mission
+    url: https://quantumcomputingreport.com/qnu-labs-introduces-corporate-quantum-safe-training-supported-by-national-quantum-mission/
+    summary: 'QNu Labs has launched a corporate quantum-safe training program, supported by India''s National
+      Quantum Mission, to prepare security professionals for quantum threats. The program covers quantum
+      communication, post-quantum cryptography, and '
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-07T19:08:15+00:00'
+    dupe_count: 1
+  - title: IBM Deploys Quantum System Two at Hyde Park Labs to Anchor Illinois Quantum Ecosystem
+    url: https://quantumcomputingreport.com/ibm-deploys-quantum-system-two-at-hyde-park-labs-to-anchor-illinois-quantum-ecosystem/
+    summary: IBM, the University of Chicago, and the State of Illinois have deployed an on-premises IBM
+      Quantum System Two in Chicago, powered by the 120-qubit Nighthawk processor. This system, initially
+      at Hyde Park Labs, will anchor the National Quant
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-07T18:45:25+00:00'
     dupe_count: 0
   - title: AI-Assisted Proof Settles Longstanding Question About Quantum Speedups
     url: https://thequantuminsider.com/2026/11/06/ai-assisted-proof-settles-longstanding-question-about-quantum-speedups/
@@ -253,100 +350,6 @@ tiles:
     weight: 1
     published_at: '2026-11-06T09:39:30+00:00'
     dupe_count: 0
-  - title: QNu Labs Launches Corporate Training Programme on Quantum-Safe Security
-    url: https://thequantuminsider.com/2026/11/06/qnu-labs-corporate-training-quantum-safe-security/
-    summary: Insider Brief PRESS RELEASE — QNu Labs (www.qnulabs.com), a global leader in end-to-end hybrid
-      quantum cybersecurity solutions, has introduced a specialised corporate training programme in quantum
-      cryptography and security under QNu Academy
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-11-06T08:51:43+00:00'
-    dupe_count: 0
-  - title: 'IQM Quantum Computers Reports Q3 2026 Results: Backlog Expands to €102.5M, Q3 Revenue Up 51%,
-      and FY 2026 Guidance Reaffirmed'
-    url: https://quantumcomputingreport.com/iqm-quantum-computers-reports-q3-2026-results-backlog-expands-to-e102-5m-q3-revenue-up-51-and-fy-2026-guidance-reaffirmed/
-    summary: IQM Quantum Computers reported strong Q3 2026 results with revenue up 50.7% to €8.86 million,
-      and a record order intake of €42.2 million, expanding their backlog to €102.5 million. They finalized
-      a €33 million contract with LUMI AI Factory,
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-06T02:50:20+00:00'
-    dupe_count: 0
-  - title: IQM and Volkswagen Advance Quantum-Classical AFQMC to Simulate Next-Generation Battery Chemistry
-    url: https://quantumcomputingreport.com/iqm-and-volkswagen-advance-quantum-classical-afqmc-to-simulate-next-generation-battery-chemistry/
-    summary: IQM Quantum Computers and Volkswagen Group Innovation have significantly advanced Quantum-Classical
-      Auxiliary-Field Quantum Monte Carlo (QC-AFQMC) for simulating battery chemistry. They achieved up
-      to a 124x reduction in classical execution
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-06T02:46:43+00:00'
-    dupe_count: 0
-  - title: Quantinuum Unveils Nexus Roadmap to Automate Fault-Tolerant Application Deployment Through
-      2029
-    url: https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029/
-    summary: 'Quantinuum has unveiled its Nexus roadmap, outlining a platform to automate fault-tolerant
-      quantum application deployment through 2029. This platform will transition developers from physical
-      qubit experimentation to logical, fault-tolerant '
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-06T01:32:37+00:00'
-    dupe_count: 0
-  - title: Horizon Quantum Signs Letter of Intent to Acquire Entropica Labs for $27 Million
-    url: https://quantumcomputingreport.com/horizon-quantum-signs-letter-of-intent-to-acquire-entropica-labs-for-27-million/
-    summary: Horizon Quantum Holdings Ltd. intends to acquire Entropica Labs Pte. Ltd. for $27 million
-      in an all-equity deal. This acquisition combines Horizon's quantum program synthesis with Entropica's
-      quantum error correction software. The goal is t
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-06T00:53:55+00:00'
-    dupe_count: 0
-  - title: IBM, ORNL, and AMD Deploy Co-Located Quantum Error Correction Platform in Poughkeepsie
-    url: https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie/
-    summary: IBM, ORNL, and AMD have launched a co-located quantum error correction (QEC) platform in
-      Poughkeepsie, combining IBM's 120-qubit Quantum Nighthawk r2 processor with ORNL's Umbra HPC system
-      (powered by AMD) to eliminate network latency. This
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-06T00:41:31+00:00'
-    dupe_count: 0
-  - title: Yonsei University Brings IBM Quantum Nighthawk r2 Online in First International On-Premises
-      Deployment
-    url: https://quantumcomputingreport.com/yonsei-university-brings-ibm-quantum-nighthawk-r2-online-in-first-international-on-premises-deployment/
-    summary: Yonsei University in South Korea has become the first international institution to install
-      IBM's Quantum Nighthawk r2 processor, replacing the older IBM Eagle processor. This upgrade significantly
-      enhances the quantum computing capabilities
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-06T00:31:11+00:00'
-    dupe_count: 0
-  - title: University of Cologne Uncovers Spectroscopic Evidence of Topological Superconductivity in TI
-      Josephson Junctions
-    url: https://quantumcomputingreport.com/university-of-cologne-uncovers-spectroscopic-evidence-of-topological-superconductivity-in-ti-josephson-junctions/
-    summary: Physicists at the University of Cologne have found direct spectroscopic evidence for topological
-      superconductivity in topological insulator Josephson junctions. This research supports the Fu-Kane
-      theoretical model and offers a way to achiev
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-05T01:16:02+00:00'
-    dupe_count: 0
-  - title: IBM Quantum and QuICS Deploy AI Agents to Discover Over 500 High-Efficiency Magic-State Factories
-    url: https://quantumcomputingreport.com/ibm-quantum-and-quics-deploy-ai-agents-to-discover-over-500-high-efficiency-magic-state-factories/
-    summary: IBM Quantum and QuICS researchers have discovered over 500 new "magic-state factories" using
-      AI agents and deterministic solvers. These factories produce non-Clifford states with significantly
-      lower resource requirements, which is crucial f
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-04T16:20:05+00:00'
-    dupe_count: 0
-  - title: Qoro Quantum Opens Cloud GPU Simulation Tier to Accelerate Large-Scale Circuit Emulation
-    url: https://quantumcomputingreport.com/qoro-quantum-opens-cloud-gpu-simulation-tier-to-accelerate-large-scale-circuit-emulation/
-    summary: Qoro Quantum has launched a new cloud-based GPU simulation tier for its Divi Python framework,
-      allowing researchers to run tensor-network and noisy quantum circuit simulations without manual
-      cluster administration. This platform provides ma
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-04T16:02:38+00:00'
-    dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
@@ -397,22 +400,6 @@ tiles:
     source: OpenRouter Changelog
     weight: 1
     published_at: '2026-10-29T14:26:41+00:00'
-    dupe_count: 0
-  - title: How we detect frontier model misalignment
-    url: https://openai.com/index/how-we-detect-frontier-model-misalignment
-    summary: OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent
-      behavior so responders can intervene before incidents escalate.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-10-29T09:00:00+00:00'
-    dupe_count: 0
-  - title: OpenAI and ServiceNow expand partnership across enterprise workflows
-    url: https://openai.com/index/openai-servicenow-partnership-expansion
-    summary: OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow
-      and ServiceNow workflows into ChatGPT and Codex.
-    source: OpenAI News
-    weight: 1
-    published_at: '2026-10-28T13:15:00+00:00'
     dupe_count: 0
   - title: 'ToyBlocks: A controlled world for robot learning and evaluation'
     url: https://huggingface.co/blog/allenai/toyblocks
@@ -506,6 +493,22 @@ tiles:
     weight: 1
     published_at: '2026-11-04T14:30:00+00:00'
     dupe_count: 0
+  - title: A thousand fewer paths to root
+    url: https://openai.com/index/a-thousand-fewer-paths-to-root
+    summary: OpenAI built an autonomous pipeline that found, validated, and generated patches for 948
+      local privilege-escalation vulnerabilities in the Linux kernel.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-11-04T08:00:00+00:00'
+    dupe_count: 0
+  - title: Daybreak Red is now available in AWS GovCloud (US-East)
+    url: https://openai.com/index/daybreak-red-aws-govcloud
+    summary: Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through
+      Amazon Bedrock for authorized cybersecurity work.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-11-04T07:00:00+00:00'
+    dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
   items:
@@ -530,29 +533,6 @@ tiles:
     weight: 1
     published_at: '2026-10-29T12:06:05+00:00'
     dupe_count: 0
-  - title: 'computer-use-demo: read the system''s CA store (#530)'
-    url: https://github.com/anthropics/claude-quickstarts/commit/12349bb27f860fa924780ba6c0d8c011dfecf540
-    summary: 'computer-use-demo: read the system''s CA store (#530)'
-    source: Anthropic Quickstarts Commits
-    weight: 1
-    published_at: '2026-10-29T01:02:40+00:00'
-    dupe_count: 0
-  - title: Claude Code GitHub Action v1.0
-    url: https://github.com/anthropics/claude-code-action/releases/tag/v1
-    summary: 🎉 Claude Code GitHub Action v1.0 - Now Generally Available! We're excited to announce the
-      v1.0 release of Claude Code GitHub Action! This major release brings significant improvements in
-      simplicity, flexibility, and power to AI-assisted dev
-    source: Claude Code Action Releases
-    weight: 1
-    published_at: '2026-11-06T17:07:36+00:00'
-    dupe_count: 0
-  - title: v1.0.269
-    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.269
-    summary: 'Full Changelog : v1.0.268...v1.0.269'
-    source: Claude Code Action Releases
-    weight: 1
-    published_at: '2026-11-06T17:07:25+00:00'
-    dupe_count: 5
   - title: v2.1.319
     url: https://github.com/anthropics/claude-code/releases/tag/v2.1.319
     summary: 'What''s changed Changed auto mode with telemetry or feature flags off, including behind
@@ -562,41 +542,6 @@ tiles:
     weight: 1
     published_at: '2026-11-06T17:04:01+00:00'
     dupe_count: 0
-  - title: sdk-v1.6.0
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.6.0
-    summary: 'Features api: add error code for ramp limit errors api: add error codes for External Key
-      validation failures api: add support for signing organization members out everywhere Bug Fixes client:
-      set the name of each error to its class name cli'
-    source: Anthropic SDK (TypeScript) Releases
-    weight: 1
-    published_at: '2026-11-05T19:00:33+00:00'
-    dupe_count: 0
-  - title: google-cloud-sdk-v1.1.3
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/google-cloud-sdk-v1.1.3
-    summary: 'Bug Fixes google-cloud: percent-encode the project, location and workspace ID in the derived
-      base URL, and throw an AnthropicError for a value of . or ..'
-    source: Anthropic SDK (TypeScript) Releases
-    weight: 1
-    published_at: '2026-11-04T20:25:17+00:00'
-    dupe_count: 0
-  - title: vertex-sdk-v1.1.2
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v1.1.2
-    summary: 'Bug Fixes vertex: percent-encode the project ID, region and model in the request path, so
-      a / in the model can''t move the request outside /publishers/anthropic/models/ , and throw an AnthropicError
-      for an empty model or a project ID or regi'
-    source: Anthropic SDK (TypeScript) Releases
-    weight: 1
-    published_at: '2026-11-04T20:25:14+00:00'
-    dupe_count: 0
-  - title: sdk-v1.5.0
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.5.0
-    summary: 'Features api: add error details types and new error type values api: add ids filter to list
-      workspaces client: add error classes for HTTP statuses and API error codes, and apiMessage, errorCode
-      and details on APIError Bug Fixes api: capital'
-    source: Anthropic SDK (TypeScript) Releases
-    weight: 1
-    published_at: '2026-11-04T20:25:11+00:00'
-    dupe_count: 1
   - title: 'fix(registry): remove duplicate agent security review entry (#958)'
     url: https://github.com/anthropics/claude-cookbooks/commit/ce8b2629efe8b24048b127b4c79af1e9cbab93d4
     summary: 'fix(registry): remove duplicate agent security review entry (#958) Co-authored-by: Claude
@@ -611,13 +556,6 @@ tiles:
     source: Anthropic Cookbook Commits
     weight: 1
     published_at: '2026-11-04T19:06:43+00:00'
-    dupe_count: 0
-  - title: v1.0.268
-    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.268
-    summary: 'Full Changelog : v1.0.267...v1.0.268'
-    source: Claude Code Action Releases
-    weight: 1
-    published_at: '2026-11-04T00:05:32+00:00'
     dupe_count: 0
   - title: v2.1.318
     url: https://github.com/anthropics/claude-code/releases/tag/v2.1.318
@@ -637,6 +575,13 @@ tiles:
     weight: 1
     published_at: '2026-11-03T01:25:46+00:00'
     dupe_count: 0
+  - title: Bring cookbooks up to Haiku 5.5 and the 2.0 SDK (#944)
+    url: https://github.com/anthropics/claude-cookbooks/commit/785d7a06457b3413727f386b9c470083feb23c49
+    summary: Bring cookbooks up to Haiku 5.5 and the 2.0 SDK (#944) Squash merge of 2 commits
+    source: Anthropic Cookbook Commits
+    weight: 1
+    published_at: '2026-11-02T21:46:45+00:00'
+    dupe_count: 0
   - title: 'feat(latency_optimization): add latency optimization cookbook (#957)'
     url: https://github.com/anthropics/claude-cookbooks/commit/41ce172f08f0f17783fb41d75267ff72fa8b33fc
     summary: 'feat(latency_optimization): add latency optimization cookbook (#957) Adds a latency optimization
@@ -646,26 +591,28 @@ tiles:
     weight: 1
     published_at: '2026-11-02T21:24:29+00:00'
     dupe_count: 0
-  - title: google-cloud-sdk-v1.1.2
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/google-cloud-sdk-v1.1.2
-    summary: 'Chores internal: type-check the published declarations of every subpackage Documentation
-      examples: use current model IDs'
-    source: Anthropic SDK (TypeScript) Releases
+  - title: v2.1.316
+    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.316
+    summary: 'What''s changed Added CLAUDE_CODE_DISABLE_ULTRATHINK , which turns the ultrathink keyword
+      off Added pooled group budgets to the Claude apps gateway: one monthly budget that a group''s members
+      share, on top of each member''s own limit, set with'
+    source: Claude Code Releases
     weight: 1
-    published_at: '2026-11-02T19:17:27+00:00'
+    published_at: '2026-10-31T01:01:35+00:00'
     dupe_count: 0
-  - title: aws-sdk-v1.1.2
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v1.1.2
-    summary: 'Chores internal: type-check the published declarations of every subpackage'
-    source: Anthropic SDK (TypeScript) Releases
+  - title: v2.1.314
+    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.314
+    summary: 'What''s changed Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and
+      NotebookEdit refuse paths outside the working directories in every permission mode Added an optional
+      groups list to Claude apps gateway upstreams: only '
+    source: Claude Code Releases
     weight: 1
-    published_at: '2026-11-02T19:17:24+00:00'
+    published_at: '2026-10-30T01:06:26+00:00'
     dupe_count: 0
-  - title: foundry-sdk-v1.1.1
-    url: https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/foundry-sdk-v1.1.1
-    summary: 'Bug Fixes foundry: make client.d.ts type-check with skipLibCheck off Chores internal: type-check
-      the published declarations of every subpackage'
-    source: Anthropic SDK (TypeScript) Releases
+  - title: Make Claude Haiku 5.5 the default Haiku (#940)
+    url: https://github.com/anthropics/claude-cookbooks/commit/c43f56d0360b9b1f631bd090fd199231d4c880cc
+    summary: Make Claude Haiku 5.5 the default Haiku (#940)
+    source: Anthropic Cookbook Commits
     weight: 1
-    published_at: '2026-11-02T19:17:21+00:00'
+    published_at: '2026-10-29T12:05:29+00:00'
     dupe_count: 0
