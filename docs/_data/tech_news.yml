@@ -1,172 +1,195 @@
-generated_at: '2026-11-14T11:09:45.488271+00:00'
+generated_at: '2026-11-15T11:09:47.689062+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
-  - title: Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs
-    url: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus
-    summary: 'Article URL: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus
-      Comments URL: https://news.ycombinator.com/item?id=50493251 Points: 612 # Comments: 353'
+  - title: SpaceX returned its Starship rocket on Saturday—but there's a catch
+    url: https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/
+    summary: It felt like stepping into the future.
+    source: Ars Technica
+    weight: 1
+    published_at: '2026-11-15T00:40:59+00:00'
+    dupe_count: 0
+  - title: Where was Nvidia’s security team?
+    url: https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/
+    summary: Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped
+      down over his relationships, including one with an executive at a company suspected of funneling
+      chips to China, a former intelligence officer says it
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-15T00:08:07+00:00'
+    dupe_count: 0
+  - title: Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship
+    url: https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch
+    summary: After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured
+      Starship with its "Mechazilla" launch and catch tower for the first time. The company has performed
+      'chopstick' catches of its boosters before, but
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-14T21:44:44+00:00'
+    dupe_count: 0
+  - title: Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang
+    url: https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/
+    summary: The petition had attracted more than 115,000 signatures as of Saturday afternoon.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-14T21:41:22+00:00'
+    dupe_count: 0
+  - title: SpaceX catches the Starship to end Flight 15
+    url: https://www.spacex.com/launches/starship-flight-15
+    summary: 'https://x.com/SpaceX/status/2121316300702056595 https://youtu.be/jHlpfNSpBmw?t=3233 Comments
+      URL: https://news.ycombinator.com/item?id=50500963 Points: 1252 # Comments: 850'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-11-14T02:52:59+00:00'
+    published_at: '2026-11-14T21:22:24+00:00'
     dupe_count: 0
-  - title: FAA lifts nationwide ground stop that blocked takeoffs for hours
-    url: https://www.theverge.com/news/1033489/faa-ground-stop
-    summary: Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a
-      national ground stop at 3:44PM ET "due to extraordinary circumstances and for reasons of safety."
-      More than four hours after the stop was issued, offi
+  - title: Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly
+      fee
+    url: https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/
+    summary: Even Elon Musk said the monthly fee is "too high."
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-14T20:04:44+00:00'
+    dupe_count: 0
+  - title: 'Magic: The Gathering is getting a Netflix animated series. For real this time.'
+    url: https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series
+    summary: '"It''s really happening. I promise. For real." Those are the first words from Roy Graham,
+      Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the
+      animated series heading to Netflix in 2027. An animated'
     source: The Verge
     weight: 1
-    published_at: '2026-11-14T01:53:04+00:00'
+    published_at: '2026-11-14T19:47:40+00:00'
     dupe_count: 0
-  - title: Starship flight 15 powers to orbit—setting up a possible catch on Saturday
-    url: https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/
-    summary: One way or another, the company will get some more data on Saturday.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-11-14T00:49:13+00:00'
-    dupe_count: 0
-  - title: Amazon has a plan to index the world’s online shopping data
-    url: https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search
-    summary: Amazon has plans to build a vault of data on every product sold anywhere on the internet,
-      even products Amazon doesn't sell, and make the information available through its own site, according
-      to Reuters. The project, called the "World Produ
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-13T23:49:11+00:00'
-    dupe_count: 0
-  - title: FAA has lifted its third-ever nationwide ground stop
-    url: https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/
-    summary: Secretary of Transportation Sean Duffy blamed obsolete equipment for the outage.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-11-13T23:17:38+00:00'
-    dupe_count: 0
-  - title: Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price
-    url: https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/
-    summary: The latest model is lighter and thinner than its predecessor and features an edge-to-edge
-      display. But if you already own the first-generation Colorsoft, there’s little reason to upgrade.
+  - title: Got an iPhone Duo? These 9 settings make it easier to use
+    url: https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/
+    summary: From Touch ID shortcuts to smarter volume buttons and camera tricks, these tweaks make Apple's
+      foldable iPhone easier to use every day.
     source: TechCrunch
     weight: 1
-    published_at: '2026-11-13T23:00:00+00:00'
+    published_at: '2026-11-14T18:00:00+00:00'
     dupe_count: 0
-  - title: Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say
-    url: https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/
-    summary: Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders
-      and VCs are bracing for smaller checks and lower valuations.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-13T22:43:00+00:00'
-    dupe_count: 0
-  - title: Millions of Americans are not taking their GLP-1 drugs as prescribed
-    url: https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/
-    summary: Cost and access barriers are pushing people to modified use and unapproved versions.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-11-13T21:59:01+00:00'
-    dupe_count: 0
-  - title: US government grounds all flights across the United States ‘due to extraordinary circumstances’
-    url: https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/
-    summary: A spokesperson for the FAA told TechCrunch that it issued the ground stop "following communication
-      issues impacting multiple Air Route Traffic Control Centers," which manage the airspace across the
-      United States.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-13T21:44:38+00:00'
-    dupe_count: 0
-  - title: FAA expands AI advice to manage air traffic congestion across entire US airspace
-    url: https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/
-    summary: Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-11-13T21:20:47+00:00'
-    dupe_count: 0
-  - title: FAA issues national ground stop – lifted 4.5 hours later
-    url: https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247
-    summary: 'https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&a... https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&a...
-      https://www.nytimes.com/live/2026/11/13/us/ground-stop-natio... Comments URL: https://news.ycombinator.com/item?'
+  - title: A family tree of software job titles
+    url: https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/
+    summary: 'Article URL: https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/ Comments
+      URL: https://news.ycombinator.com/item?id=50499038 Points: 320 # Comments: 157'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-11-13T21:05:53+00:00'
+    published_at: '2026-11-14T17:45:19+00:00'
     dupe_count: 0
-  - title: ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you
-    url: https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet
-    summary: 'After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet
-      for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the
-      US aged 18 and older using a US billing address and '
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-13T20:45:10+00:00'
-    dupe_count: 0
-  - title: CMF’s milk carton-shaped Bluetooth speaker is down to a new low price
-    url: https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale
-    summary: Bluetooth speakers are often boring boxes in plain colors, but not this one! As part of Nothing’s
-      ongoing early Black Friday promo, you can grab its unique, milk carton-shaped CMF Speaker S from
-      Amazon and Nothing for just $39. That’s a sol
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-13T20:30:00+00:00'
-    dupe_count: 0
-  - title: This young startup wants to power floating data centers with the ocean’s heat, and investors
-      are already on board
-    url: https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/
-    summary: Drogue is harvesting heat from the ocean to power data centers on floating vessels. The first
-      prototype should be bobbing around the ocean, crunching bits, in less than two years.
+  - title: Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide
+    url: https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/
+    summary: FAA administrator Bryan Bedford also said there's "zero evidence of anything AI-related."
     source: TechCrunch
     weight: 1
-    published_at: '2026-11-13T20:07:24+00:00'
+    published_at: '2026-11-14T17:45:04+00:00'
     dupe_count: 0
-  - title: In elephants, the resilience of communities has its limits
-    url: https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/
-    summary: In Sri Lanka, ecological change is shrinking a park's elephant population.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-11-13T20:03:13+00:00'
-    dupe_count: 0
-  - title: Kalshi ditches Trump Jr. as advisor; CEO admitted "optics" weren't good
-    url: https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/
-    summary: Trump son advised Kalshi and got equity while Trump admin helped Kalshi in lawsuits.
-    source: Ars Technica
-    weight: 1
-    published_at: '2026-11-13T19:49:16+00:00'
-    dupe_count: 0
-  - title: AI agent startup LangChain hits $3B valuation
-    url: https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/
-    summary: LangChain now claims 7,000 customers of its model and platform agnostic agent management
-      tool LangSmith.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-13T19:37:57+00:00'
-    dupe_count: 0
-  - title: Here’s how you can save on your GTA VI preorder ahead of launch
-    url: https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale
-    summary: 'The long-awaited launch of GTA VI is around the corner, happening next Friday, November
-      19th. While discounts on the game itself will be rare for some time, there’s a clever workaround
-      to save you a few bucks on your digital copy. We found '
+  - title: Work to replace old copper wire led to the FAA’s ground stop
+    url: https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire
+    summary: At a press conference today, Transportation Secretary Sean Duffy said that Friday's nationwide
+      ground stop ordered by the FAA was related to work replacing outdated copper wire with a fiber optic
+      line at a "remote FAA facility." The secreta
     source: The Verge
     weight: 1
-    published_at: '2026-11-13T19:14:38+00:00'
+    published_at: '2026-11-14T17:44:28+00:00'
     dupe_count: 0
-  - title: Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!
-    url: https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/
-    summary: New research shows the most advanced AI models from China were trained on banned Nvidia chips.
+  - title: Lovable apps expose passport details and more than 200K private messages
+    url: https://www.crissyfield.de/research/lovable-en/
+    summary: 'Article URL: https://www.crissyfield.de/research/lovable-en/ Comments URL: https://news.ycombinator.com/item?id=50499017
+      Points: 842 # Comments: 319'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-11-14T17:43:10+00:00'
+    dupe_count: 0
+  - title: 'The AI graveyard: a running list of projects and startups that didn’t make it'
+    url: https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/
+    summary: From Apple's repeatedly delayed Siri AI to OpenAI's messy "super app" launch, here's a look
+      at the AI projects that shut down or missed expectations.
     source: TechCrunch
     weight: 1
-    published_at: '2026-11-13T18:40:30+00:00'
+    published_at: '2026-11-14T17:30:00+00:00'
     dupe_count: 0
-  - title: You can adjust the position of the trackball on Keychron’s new wireless mouse
-    url: https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable
-    summary: The Nape Pro was Keychron's first trackball device that was introduced at CES 2026 with a
-      slim and compact design allowing it to be positioned right up against a keyboard. The company's
-      new T1 HE instead looks more like other trackball mice
+  - title: Asian governments react to Nvidia CEO Jensen Huang’s exit
+    url: https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/
+    summary: Some governments moved to confirm chip supply commitments, while others are monitoring the
+      impact on local projects or addressing ongoing investigations.
+    source: TechCrunch
+    weight: 1
+    published_at: '2026-11-14T16:34:15+00:00'
+    dupe_count: 0
+  - title: Here are our favorite deals from REI’s giant Holiday Sale
+    url: https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026
+    summary: Black Friday has become a shopping season of its own, with retailers once again offering
+      discounts well ahead of the actual shopping holiday. We’ve already rounded up some of the best early
+      Black Friday deals we’ve come across, but if you’r
     source: The Verge
     weight: 1
-    published_at: '2026-11-13T18:10:41+00:00'
+    published_at: '2026-11-14T15:00:00+00:00'
+    dupe_count: 0
+  - title: The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs
+    url: https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview
+    summary: Today, I’m talking with Helen Toner, the executive director of the Center for Security and
+      Emerging Technology at Georgetown University. This episode is part two of our series on AI in real
+      life. Helen is a well-known figure in the AI safet
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-14T15:00:00+00:00'
+    dupe_count: 0
+  - title: Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print
+    url: https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print
+    summary: Tesla is doubling, or perhaps tripling down on its bold claims of an autonomous future with
+      the offer to "select customers" to purchase a Cybercab for "personal use." But the gilded, steering-wheel-free
+      two-seater will "only be available in
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-14T14:18:36+00:00'
+    dupe_count: 0
+  - title: This tiny gamepad with dual analog thumbsticks pushes the limits of portable controllers
+    url: https://www.theverge.com/tech/1013985/crkd-atom-plus-tmr-analog-thumbstick-controller-gamepad-switch-ios-android-hands-on
+    summary: As much as I appreciate the ingenious design of the Nintendo Switch's Joy-Con, my family
+      and I can't stand using them as standalone gamepads. So when we travel with the Switch 2, we always
+      bring at least one full-size gamepad, plus a couple
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-14T14:00:00+00:00'
+    dupe_count: 0
+  - title: 'KDE: The documentary [video]'
+    url: https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c
+    summary: 'Article URL: https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c Comments URL: https://news.ycombinator.com/item?id=50496976
+      Points: 486 # Comments: 107'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-11-14T13:43:28+00:00'
+    dupe_count: 0
+  - title: A gadget to make your dumb house smarter
+    url: https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer
+    summary: Hi, friends! Welcome to Installer No. 152, your guide to the best and Verge-iest stuff in
+      the world. (If you're new here, welcome, thank you for taking time away from Zelda to be here, and
+      also you can read all the old editions at the Insta
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-14T13:00:00+00:00'
     dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
+  - title: 'Making Quantum SDKs More Accessible: Lessons from Contributing to Qiskit'
+    url: https://quantumcomputingreport.com/making-quantum-sdks-more-accessiblelessons-from-contributing-to-qiskit/
+    summary: Software developer Gloria Amos describes her experience in making a contribution to the open
+      source Qiskit platform and provides insights into some of the things contributors should watch out
+      for. The post Making Quantum SDKs More Accessibl
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-14T22:44:27+00:00'
+    dupe_count: 0
+  - title: 'Who’s News: Strategic Appointments at SemiQon, OrangeQS, IonQ, Haiqu, and Jij'
+    url: https://quantumcomputingreport.com/whos-news-strategic-appointments-at-semiqon-orangeqs-ionq-haiqu-and-jij/
+    summary: This article announces several strategic appointments in the quantum technology sector. SemiQon
+      appointed Dr. Thierry Botter as CCO, OrangeQS named Raj Badoni as CCO, and IonQ expanded its finance
+      leadership with Gary Merrill as CFO and Tho
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-14T18:26:53+00:00'
+    dupe_count: 0
   - title: QFactorial and Monash University Secure A$1.12 Million ($$758.6K USD) Australian Government
       Grant for Quantum Logistics Optimization
     url: https://quantumcomputingreport.com/qfactorial-and-monash-university-secure-a1-12-million-758-6k-usd-australian-government-grant-for-quantum-logistics-optimization/
@@ -246,26 +269,6 @@ tiles:
     source: Quantum Computing Report
     weight: 1
     published_at: '2026-11-13T22:22:38+00:00'
-    dupe_count: 0
-  - title: Rigetti Computing Integrates Quantum Elements Constellation Platform into Error Correction
-      Pipeline
-    url: https://quantumcomputingreport.com/rigetti-computing-integrates-quantum-elements-constellation-platform-into-error-correction-pipeline/
-    summary: Rigetti Computing has integrated Quantum Elements' Constellation simulation environment into
-      its quantum error correction (QEC) workflow. This allows Rigetti to model processor behavior and
-      predict system performance, including single and t
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-13T17:00:41+00:00'
-    dupe_count: 0
-  - title: Q-CTRL Raises $290 Million in Series C Funding Led by Salesforce Ventures to Scale Quantum
-      Infrastructure Software
-    url: https://quantumcomputingreport.com/q-ctrl-raises-290-million-in-series-c-funding-led-by-salesforce-ventures-to-scale-quantum-infrastructure-software/
-    summary: Q-CTRL, a quantum infrastructure software provider, has raised $290 million in Series C funding
-      led by Salesforce Ventures, valuing the company at over $1 billion. This funding will be used to
-      expand its AI-driven control software and scale
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-13T16:46:24+00:00'
     dupe_count: 0
   - title: U.S. Quantum Ambitions Face a Supply Chain Test, Policy Analysts Warn
     url: https://thequantuminsider.com/2026/11/13/u-s-quantum-ambitions-face-a-supply-chain-test-policy-analysts-warn/
@@ -672,7 +675,7 @@ tiles:
     source: Claude Code Action Releases
     weight: 1
     published_at: '2026-11-06T17:07:25+00:00'
-    dupe_count: 4
+    dupe_count: 2
   - title: v2.1.319
     url: https://github.com/anthropics/claude-code/releases/tag/v2.1.319
     summary: 'What''s changed Changed auto mode with telemetry or feature flags off, including behind
