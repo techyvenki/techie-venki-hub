@@ -1,177 +1,329 @@
-generated_at: '2026-11-27T11:11:58.940040+00:00'
+generated_at: '2026-11-28T11:10:20.578664+00:00'
 tiles:
 - id: general-tech
   title: General Tech
   items:
-  - title: Our favorite headphones and earbuds are cheaper than ever for Black Friday
-    url: https://www.theverge.com/gadgets/1040292/best-black-friday-headphone-earbud-deals-2026
-    summary: If you haven’t already caved and bought a fresh set of wireless earbuds, over-ear headphones,
-      or bone conduction headphones this year, Black Friday is rewarding you with a colossal amount of
-      deals, including discounts on the best models ava
+  - title: The M5 MacBook Air just got its biggest discount since Apple raised the price
+    url: https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale
+    summary: If you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200
+      in June, you’re in luck. The 13-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB
+      of RAM and 512GB of storage starting at $999 ($300 off)
     source: The Verge
     weight: 1
-    published_at: '2026-11-27T10:30:00+00:00'
+    published_at: '2026-11-28T03:30:00+00:00'
     dupe_count: 0
-  - title: The absolute best Black Friday deals we’ve found (so far)
+  - title: The absolute best Black Friday deals you can still get
     url: https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas
-    summary: This year’s Black Friday deals have launched in waves over the past several weeks, but now
-      the floodgates have officially opened. You can now take advantage of the lowest prices we’ve seen
-      in-store and online for video games, wireless earbu
+    summary: Black Friday is nearly over, but many of this year’s best deals are still available. You
+      can still find some of the lowest prices we’ve seen in-store and online for video games, wireless
+      earbuds, TVs, robot vacuums, and so much more. We can
     source: The Verge
     weight: 1
-    published_at: '2026-11-27T09:35:30+00:00'
+    published_at: '2026-11-28T03:28:32+00:00'
     dupe_count: 0
-  - title: 'Volvo''s big batteries: We drive its updated 2028 plug-in hybrids'
-    url: https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/
-    summary: 'There’s just one thing we still don’t know: How much will they cost?'
+  - title: 'Unkernel: Real Linux kernel, compiled to WebAssembly'
+    url: https://unkernel.dev
+    summary: 'Article URL: https://unkernel.dev Comments URL: https://news.ycombinator.com/item?id=50674218
+      Points: 348 # Comments: 83'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-11-28T03:19:20+00:00'
+    dupe_count: 0
+  - title: We found 60-odd Black Friday deals we love for $100 or less
+    url: https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026
+    summary: Between holiday travel, gifts, and the rising cost of just about everything, expenses can
+      quickly add up during this time of year. Thankfully, you don’t have to dip too far into your savings
+      to take advantage of some of the better Black Fri
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-28T01:30:00+00:00'
+    dupe_count: 0
+  - title: This purple electric Chinese minivan can go up to 559 miles on a charge
+    url: https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge
+    summary: Electric minivans could be the ultimate in utility, with room for passengers, gear, and huge
+      batteries. While VW's ID Buzz only gave us 200 miles of real-world driving on a charge in 2023,
+      China's BYD has just announced a flagship purple pe
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-28T00:02:49+00:00'
+    dupe_count: 0
+  - title: The best Black Friday deals you can still get on AirPods, Macs, and other Apple gear
+    url: https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026
+    summary: Black Friday is entering the evening, which means one of the best times of the year to save
+      some cash on a new pair of AirPods or the latest Apple Watch is coming to a close. After all, the
+      holiday savings can help offset the unfortunate pr
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-27T23:53:19+00:00'
+    dupe_count: 0
+  - title: The best robot vacuums we’ve tested are up to 60 percent off for Black Friday
+    url: https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026
+    summary: Black Friday is here, and if you want a little help keeping your floors clean this holiday
+      season, now is a great time to pick up a robot vacuum. Some of the best models we’ve tested over
+      the last year or two are on sale for up to 60 percen
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-27T23:32:17+00:00'
+    dupe_count: 0
+  - title: Sony’s 1000XM4C headphones are a Black Friday bargain at $198
+    url: https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale
+    summary: 'Instead of purely looking forward with its headphone designs, Sony went back to its popular
+      WH-1000XM4 design and made some improvements to make it even better. The 2026 version, called the
+      WH-1000XM4C, sounds nearly as good as the pricier '
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-27T23:32:00+00:00'
+    dupe_count: 0
+  - title: Yooka-Laylee’s free upgrade is skipping Xbox
+    url: https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox
+    summary: 'Playtronic Games is getting ready to launch Yooka-Laylee and the Impossible Lair: Definitive
+      Edition as a free update on PlayStation 5, Switch 2, and PC on December 15th. Unfortunately for
+      Xbox owners, the developer says it "can''t commit to'
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-27T23:30:32+00:00'
+    dupe_count: 0
+  - title: Many of our favorite Blu-ray movies are over 50 percent off for Black Friday
+    url: https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale
+    summary: No shade to those who love their subscription services, but viewing physical movies is a
+      time-honored tradition that shouldn’t go away. Watching them doesn’t feel all that different, but
+      deciding which movie to watch feels less annoying; si
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-27T23:30:00+00:00'
+    dupe_count: 0
+  - title: Google's DeepCrossAttention achieves comparable model quality up to 3x faster
+    url: https://research.google/blog/supercharging-transformer-residual-connections/
+    summary: 'Article URL: https://research.google/blog/supercharging-transformer-residual-connections/
+      Comments URL: https://news.ycombinator.com/item?id=50672565 Points: 416 # Comments: 159'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-11-27T23:06:29+00:00'
+    dupe_count: 0
+  - title: The new iPad Mini is getting its first major discount for Black Friday
+    url: https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026
+    summary: We were big fans of Apple’s new iPad Mini when we reviewed it in early November, but its
+      steep starting price of $699 was hard to swallow. Thankfully, the small tablet is already getting
+      a sizable discount for Black Friday. Right now, Amazo
+    source: The Verge
+    weight: 1
+    published_at: '2026-11-27T22:30:00+00:00'
+    dupe_count: 0
+  - title: States sue SpaceX to stop Grok from generating child sex images, revenge porn
+    url: https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform
+    summary: 'Article URL: https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-cons'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-11-27T19:42:25+00:00'
+    dupe_count: 0
+  - title: Michael Nielsen took down his book on neural nets
+    url: https://neuralnetworksanddeeplearning.com/
+    summary: 'Article URL: https://neuralnetworksanddeeplearning.com/ Comments URL: https://news.ycombinator.com/item?id=50670757
+      Points: 548 # Comments: 341'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-11-27T19:31:01+00:00'
+    dupe_count: 0
+  - title: Convex skills send the user's app idea to a remote server without telling them
+    url: https://github.com/convex/convex-backend-skill/issues/64
+    summary: 'Article URL: https://github.com/convex/convex-backend-skill/issues/64 Comments URL: https://news.ycombinator.com/item?id=50669765
+      Points: 310 # Comments: 100'
+    source: Hacker News (300+ points)
+    weight: 2
+    published_at: '2026-11-27T18:02:45+00:00'
+    dupe_count: 0
+  - title: The best Black Friday deals Ars could find
+    url: https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/
+    summary: Perhaps some commerce, to help all the Turkey Day leftovers go down easier?
     source: Ars Technica
     weight: 1
-    published_at: '2026-11-27T08:00:53+00:00'
+    published_at: '2026-11-27T17:05:37+00:00'
     dupe_count: 0
-  - title: Hard Drive pricing has gotten bad
-    url: https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/
-    summary: 'Article URL: https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/ Comments
-      URL: https://news.ycombinator.com/item?id=50661646 Points: 369 # Comments: 279'
+  - title: Credit card skimming scripts using WebRTC found on popular shopping sites
+    url: https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer
+    summary: 'Article URL: https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer Comments
+      URL: https://news.ycombinator.com/item?id=50668145 Points: 533 # Comments: 274'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-11-27T01:13:49+00:00'
+    published_at: '2026-11-27T15:40:31+00:00'
     dupe_count: 0
-  - title: AI made self-hosting fun again
-    url: https://janlukas.blog/posts/ai-self-hosting
-    summary: 'Article URL: https://janlukas.blog/posts/ai-self-hosting Comments URL: https://news.ycombinator.com/item?id=50660180
-      Points: 732 # Comments: 363'
+  - title: 'Show HN: bouncemarket – a live prediction market game for a bouncing ball'
+    url: https://bouncemarket.minhanhday.com/
+    summary: 'a ball will fall. trade on where it lands. I made this game! Some technical details: The
+      entire drop of the ball is simulated server-side, then streamed to each client as server-sent events
+      with a small buffer. Every drop is deterministic f'
     source: Hacker News (300+ points)
     weight: 2
-    published_at: '2026-11-26T21:47:45+00:00'
+    published_at: '2026-11-27T15:01:50+00:00'
     dupe_count: 0
-  - title: 'Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad'
-    url: https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/
-    summary: 'Article URL: https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/
-      Comments URL: https://news.ycombinator.com/item?id=50659841 Points: 375 # Comments: 91'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-11-26T21:08:05+00:00'
-    dupe_count: 0
-  - title: Netflix’s coziest show has made a very quiet return
-    url: https://www.theverge.com/entertainment/1043489/midnight-diner-season3
-    summary: 'The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms,
-      of course, but it''s especially true of Netflix of late, as the streaming service''s lineup now
-      also includes a growing library of reality shows, '
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-26T21:00:00+00:00'
-    dupe_count: 0
-  - title: Company Culture = Slack Emoji ÷ √Headcount
-    url: https://lia.mg/posts/measuring-company-culture-with-slack-emoji/
-    summary: 'Article URL: https://lia.mg/posts/measuring-company-culture-with-slack-emoji/ Comments URL:
-      https://news.ycombinator.com/item?id=50659640 Points: 376 # Comments: 177'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-11-26T20:49:49+00:00'
-    dupe_count: 0
-  - title: Nvidia hits pause on chip shipments to Southeast Asia
-    url: https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/
-    summary: Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore,
-      Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-26T20:03:54+00:00'
-    dupe_count: 0
-  - title: Is Alice Huang a spy or not?
-    url: https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/
-    summary: The central, still-unproven claim in the Nvidia scandal is that Alice Huang, the former Megaspeed
-      exec with whom Nvidia CEO Jensen Huang had an extramarital affair, is a Chinese spy.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-26T20:00:00+00:00'
-    dupe_count: 0
-  - title: X finally gets parental controls after 20 years
-    url: https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/
-    summary: Elon Musk's social network X has finally added parental controls for teenagers, giving parents
-      and guardians a way to manage what their kids see on the platform.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-26T19:31:50+00:00'
-    dupe_count: 0
-  - title: The Garmin Forerunner 265S is down to $300, its best price of the year
-    url: https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday
-    summary: The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always
-      loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is pretty
-      good thanks in part to its OLED touchscreen. Whe
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-26T19:00:00+00:00'
-    dupe_count: 0
-  - title: Ford unveils the GT41 as it hopes to win Le Mans again
-    url: https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/
-    summary: Ford enters the World Endurance Championship in 2027 with the new prototype.
+  - title: 'Intel faced a choice: Give Trump 10% or face the consequences'
+    url: https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/
+    summary: Intel faced pressure to surrender a 10% stake to unlock billions in promised grants.
     source: Ars Technica
     weight: 1
-    published_at: '2026-11-26T18:00:29+00:00'
+    published_at: '2026-11-27T12:05:01+00:00'
     dupe_count: 0
-  - title: YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays
-    url: https://github.com/antonpictures/youtube-punisher
-    summary: 'Article URL: https://github.com/antonpictures/youtube-punisher Comments URL: https://news.ycombinator.com/item?id=50657530
-      Points: 416 # Comments: 475'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-11-26T17:36:47+00:00'
-    dupe_count: 0
-  - title: AMD-specific fork of llama.cpp
-    url: https://devnull.land/amd-specific-llama-cpp
-    summary: 'Article URL: https://devnull.land/amd-specific-llama-cpp Comments URL: https://news.ycombinator.com/item?id=50657265
-      Points: 367 # Comments: 87'
-    source: Hacker News (300+ points)
-    weight: 2
-    published_at: '2026-11-26T17:11:29+00:00'
-    dupe_count: 0
-  - title: The MacBook Neo is receiving a rare $100 discount for Black Friday
-    url: https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale
-    summary: If you’re looking for a new laptop or a gift for the student in your life, you can save $100
-      on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model
-      is currently discounted to $599.99 at Amazon an
-    source: The Verge
+  - title: 'Books, bikes, and The Burbs: These are Ars staff’s holiday gift picks for 2026'
+    url: https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/
+    summary: We polled the Ars staff about their favorite pickups this year; here's the list.
+    source: Ars Technica
     weight: 1
-    published_at: '2026-11-26T17:07:00+00:00'
-    dupe_count: 0
-  - title: Android app developers will soon have to share their address publicly
-    url: https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu
-    summary: Independent Android app developers are worried about their privacy after Google announced
-      that from next year many of them will be required to share a phone number and address publicly.
-      The policy change is intended to meet European Union r
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-26T17:06:24+00:00'
-    dupe_count: 0
-  - title: A month with the iPhone Duo has changed how I use my phone
-    url: https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/
-    summary: From reading more books to breaking mindless scrolling habits, Apple's foldable has changed
-      my daily routines in ways I didn't anticipate.
-    source: TechCrunch
-    weight: 1
-    published_at: '2026-11-26T17:00:00+00:00'
-    dupe_count: 0
-  - title: The best Black Friday deals we’ve already found
-    url: https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026
-    summary: Black Friday is here, so we’re no longer updating this post, which focused on deals you could
-      get ahead of the shopping event. Keep up with our latest posts right here. Original post follows
-      below The countdown to Black Friday is on, and ma
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-26T16:55:00+00:00'
-    dupe_count: 0
-  - title: Federal judge blocks the FCC from reviewing ABC’s licenses early
-    url: https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block
-    summary: US District Judge Loren AliKhan has blocked the Federal Communications Commission from conducting
-      an early review of ABC's broadcast licenses in a preliminary injunction, and rejected its efforts
-      to dismiss ABC's First Amendment lawsuit. AB
-    source: The Verge
-    weight: 1
-    published_at: '2026-11-26T16:38:00+00:00'
+    published_at: '2026-11-27T11:30:04+00:00'
     dupe_count: 0
 - id: quantum-computing
   title: Quantum Computing
   items:
+  - title: BlueQubit Releases AI-Engineered State-Vector Simulator Outperforming NVIDIA cuStateVec Benchmarks
+    url: https://quantumcomputingreport.com/bluequbit-releases-ai-engineered-state-vector-simulator-outperforming-nvidia-custatevec-benchmarks/
+    summary: BlueQubit has developed bluesv, an AI-engineered quantum state-vector simulator that outperforms
+      NVIDIA’s cuStateVec and Google's qsim in benchmark tests. It offers direct API compatibility with
+      major quantum programming frameworks and will
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-28T04:44:48+00:00'
+    dupe_count: 0
+  - title: Researchers Propose Fault-Tolerant Quantum Processor Architecture Controlled by 20 or Fewer
+      External Wires
+    url: https://quantumcomputingreport.com/researchers-propose-fault-tolerant-quantum-processor-architecture-controlled-by-20-or-fewer-external-wires/
+    summary: Researchers have proposed a new fault-tolerant quantum processor architecture that uses 20
+      or fewer external wires, a significant reduction from current designs. This design features a fixed,
+      clocked planar array where quantum data flows th
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-28T04:17:13+00:00'
+    dupe_count: 0
+  - title: Algorithmiq and IBM Quantum Execute 40-Qubit Discrete-Time Quantum Walks on Biological Networks
+    url: https://quantumcomputingreport.com/algorithmiq-and-ibm-quantum-execute-40-qubit-discrete-time-quantum-walks-on-biological-networks/
+    summary: Algorithmiq and IBM Quantum have successfully executed 40-qubit discrete-time quantum walks
+      (DTQWs) on irregular protein-protein interaction networks, overcoming limitations of conventional
+      dense encodings. They used a sparse single-excitat
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-28T04:02:59+00:00'
+    dupe_count: 0
+  - title: QuTech Demonstrates Weight-Four Stabilizer Parity Checks in a Silicon Spin-Shuttling Processor
+    url: https://quantumcomputingreport.com/qutech-demonstrates-weight-four-stabilizer-parity-checks-in-a-silicon-spin-shuttling-processor/
+    summary: Researchers at QuTech have demonstrated significant advancements in quantum computing, showcasing
+      weight-four X- and Z-type quantum error-correction parity checks and five-qubit Greenberger-Horne-Zeilinger
+      (GHZ) entanglement in a silicon sp
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-28T03:47:47+00:00'
+    dupe_count: 0
+  - title: QuTech Launches Quantum Systems Integration Unit to Build Open-Architecture Superconducting
+      Systems
+    url: https://quantumcomputingreport.com/qutech-launches-quantum-systems-integration-unit-to-build-open-architecture-superconducting-systems/
+    summary: QuTech has launched a new Quantum Systems Integration Unit to build open-architecture superconducting
+      quantum computers using a European supply chain. The unit aims to standardize modular system interfaces
+      and integrate various hardware and
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-28T03:13:18+00:00'
+    dupe_count: 0
+  - title: QuTech Coordinates €47.5 Million ($52 Million USD) European Quantum Internet Alliance Phase
+      to Build Full-Stack Prototype
+    url: https://quantumcomputingreport.com/qutech-coordinates-e47-5-million-52-million-usd-european-quantum-internet-alliance-phase-to-build-full-stack-prototype/
+    summary: QuTech is coordinating the next 3.5-year phase of the Quantum Internet Alliance (QIA), backed
+      by €47.5 million ($52 million USD) from the European Commission. The program will integrate quantum
+      repeaters, integrated photonics, control elect
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-28T02:40:53+00:00'
+    dupe_count: 0
+  - title: Dutch HAIQ Consortium Awarded €7.4 Million ($8.1 Million USD) NWO Grant to Combine Human Intuition
+      and AI for Quantum Control and Circuit Optimization
+    url: https://quantumcomputingreport.com/dutch-haiq-consortium-awarded-e7-4-million-8-1-million-usd-nwo-grant-to-combine-human-intuition-and-ai-for-quantum-control-and-circuit-optimization/
+    summary: The Dutch HAIQ Consortium, led by Leiden University, secured a €7.4 million NWO grant for
+      a project combining human intuition and AI to optimize quantum control and circuits. The 28-partner
+      initiative will use human-in-the-loop gamification
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-28T02:33:50+00:00'
+    dupe_count: 0
+  - title: TU Delft Demonstrates First Hybrid HPC-Quantum Workflow Linking DelftBlue Supercomputer and
+      Tuna-17 Processor
+    url: https://quantumcomputingreport.com/tu-delft-demonstrates-first-hybrid-hpc-quantum-workflow-linking-delftblue-supercomputer-and-tuna-17-processor/
+    summary: TU Delft and QuTech have successfully linked the DelftBlue supercomputer with QuTech's Tuna-17
+      quantum processor, demonstrating the first hybrid HPC-quantum workflow. This integration was tested
+      with an electrical power-flow calculation, ut
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-28T02:19:12+00:00'
+    dupe_count: 0
+  - title: QuTech and TU Delft Researchers Awarded ERC Synergy Grant to Co-Integrate Spin Qubits and Cryo-CMOS
+      Electronics
+    url: https://quantumcomputingreport.com/qutech-and-tu-delft-researchers-awarded-erc-synergy-grant-to-co-integrate-spin-qubits-and-cryo-cmos-electronics/
+    summary: QuTech and TU Delft researchers received a six-year ERC Synergy Grant for their UniQ project
+      to scale semiconductor spin-qubit processors. The project aims to overcome wiring and control bottlenecks
+      by co-integrating spin qubits and cryo-CM
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-28T02:12:48+00:00'
+    dupe_count: 0
+  - title: QuTech Demonstrates Coherent Control of a Majorana-Based Qubit in Coupled Kitaev Chains
+    url: https://quantumcomputingreport.com/qutech-demonstrates-coherent-control-of-a-majorana-based-qubit-in-coupled-kitaev-chains/
+    summary: Researchers at QuTech have successfully demonstrated coherent control of a Majorana-based
+      qubit using coupled Kitaev chains. This qubit, fabricated in an indium antimonide nanowire, operates
+      at 20 mK and exhibits Rabi frequencies of approxi
+    source: Quantum Computing Report
+    weight: 1
+    published_at: '2026-11-28T01:22:22+00:00'
+    dupe_count: 0
+  - title: 'Quantum Computing 101: Can a Cat be Alive and Dead at The Same Time?'
+    url: https://thequantuminsider.com/2026/11/27/quantum-computing-101-can-a-cat-be-alive-and-dead-at-the-same-time/
+    summary: What is a qubit, why do quantum computers need to be colder than outer space, and what will
+      they really be able to do? A plain-English guide to quantum computing, from Schrödinger’s cat to
+      post-quantum cryptography.
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-11-27T16:51:24+00:00'
+    dupe_count: 0
+  - title: Gyeonggi Province Holds Forum on Quantum and Semiconductor Industry Cooperation
+    url: https://thequantuminsider.com/2026/11/27/gyeonggi-province-quantum-industry-development-forum/
+    summary: Insider Brief PRESS RELEASE — The ‘Gyeonggi Quantum Innovation Forum and 2026 Gyeonggi Quantum-Semiconductor
+      Convergence Industry Networking Day’, hosted by Gyeonggi Province and the Gyeonggi Business and
+      Science Accelerator and organised b
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-11-27T16:07:06+00:00'
+    dupe_count: 0
+  - title: Equal1 Selected to Advance in EIC STEP Scale Up Program For Potential Equity Investment of
+      up to €30 Million
+    url: https://thequantuminsider.com/2026/11/27/equal1-selected-to-advance-in-eic-step-scale-up-program-for-potential-equity-investment-of-up-to-e30-million/
+    summary: Insider Brief PRESS RELEASE — Equal1 today announced it has been selected to advance to the
+      due-diligence phase with the European Innovation Council (EIC) Fund under the Strategic Technologies
+      for Europe Platform (STEP) Scale Up program. Th
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-11-27T15:13:24+00:00'
+    dupe_count: 0
+  - title: 'Guest Post: The Encryption Upgrade Needs a Backup Plan'
+    url: https://thequantuminsider.com/2026/11/27/encryption-upgrade-needs-backup-plan/
+    summary: Guest Post By Companies preparing for quantum computers may have to confront a threat that
+      requires no quantum computer at all. For the operators of critical infrastructure, from electric
+      utilities and water systems to hospitals and telecom
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-11-27T13:27:38+00:00'
+    dupe_count: 0
+  - title: Wellington Community Foundation Receives $20,000 Quantum Foundation Grant
+    url: https://thequantuminsider.com/2026/11/27/wellington-community-foundation-20000-quantum-foundation-grant/
+    summary: Insider Brief The Wellington Community Foundation (WCF) received a $20,000 grant at the sixth
+      annual Quantum in the Community Breakfast on Tuesday, Nov. 17, the Town-Crier reported. The foundation
+      was one of the nonprofit organizations reco
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-11-27T11:04:00+00:00'
+    dupe_count: 0
+  - title: Ethereum Plans Shift to Hash-Based Signatures for Post-Quantum Security
+    url: https://thequantuminsider.com/2026/11/27/ethereum-shift-hash-based-signatures-post-quantum-security/
+    summary: Insider Brief Ethereum’s core developers are preparing to phase out the elliptic-curve cryptography
+      that secures the network and switch to hash-based signatures, a change meant to protect against
+      attacks powered by quantum computers or by a
+    source: The Quantum Insider
+    weight: 1
+    published_at: '2026-11-27T10:51:41+00:00'
+    dupe_count: 0
   - title: Bank of England Urges Firms to Move Faster on Quantum Security
     url: https://thequantuminsider.com/2026/11/27/bank-of-england-urges-firms-to-move-faster-on-quantum-security/
     summary: 'Insider Brief The Bank of England urged financial firms with the greatest impact on the
@@ -208,335 +360,172 @@ tiles:
     weight: 1
     published_at: '2026-11-26T09:40:04+00:00'
     dupe_count: 0
-  - title: Global Investors to Explore Australia’s Quantum Industry at 2027 Conference
-    url: https://thequantuminsider.com/2026/11/26/global-investors-explore-australia-quantum-industry-2027-conference/
-    summary: Insider Brief PRESS RELEASE — The foundation behind Ozempic and an early Canva backer are
-      expected to join a growing lineup of international investment heavyweights heading to Sydney to
-      scout Australia’s quantum industry for investment oppo
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-11-26T09:21:40+00:00'
-    dupe_count: 0
-  - title: Quantum eMotion Completes Acquisition of Plurilock Security
-    url: https://thequantuminsider.com/2026/11/26/quantum-emotion-completes-acquisition-plurilock-security/
-    summary: 'Insider Brief PRESS RELEASE — Quantum eMotion Corp. (NYSE American: QNC) (TSXV: QNC) (FSE:
-      34Q0) (“QeM”) and Plurilock Security Inc. (TSXV: PLUR | OTCQB: PLCKF) (“Plurilock”) are pleased
-      to announce the completion of their previously announ'
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-11-26T09:14:50+00:00'
-    dupe_count: 1
-  - title: Nordic Ministers Pledge Closer Cooperation on Quantum Research
-    url: https://thequantuminsider.com/2026/11/26/nordic-ministers-pledge-closer-cooperation-on-quantum-research/
-    summary: Insider Brief Nordic education and research ministers pledged Thursday to work more closely
-      on quantum research facilities, workforce training and commercialization in a bid to attract researchers,
-      companies and investment to the region. Th
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-11-26T08:53:16+00:00'
-    dupe_count: 0
-  - title: Riverlane and Nature Research Intelligence Release 2026 Quantum Error Correction Report Highlighting
-      Shift to Full-Stack Engineering
-    url: https://quantumcomputingreport.com/riverlane-and-nature-research-intelligence-release-2026-quantum-error-correction-report-highlighting-shift-to-full-stack-engineering/
-    summary: The Quantum Error Correction Report 2026 indicates a shift in the quantum computing industry
-      from physics demonstrations to full-stack engineering of fault-tolerant machines. Key findings show
-      significant growth in QEC research, patent acti
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-26T05:14:05+00:00'
-    dupe_count: 0
-  - title: Equal1, NVIDIA, and Dell Technologies Demonstrate Real-Time Hybrid Quantum-Classical Rack Integration
-      at SC26
-    url: https://quantumcomputingreport.com/equal1-nvidia-and-dell-technologies-demonstrate-real-time-hybrid-quantum-classical-rack-integration-at-sc26/
-    summary: At SC26, Equal1, NVIDIA, and Dell Technologies showcased a real-time hybrid quantum-classical
-      computing integration. They demonstrated Equal1's RacQ quantum computer integrated with Dell servers
-      in a standard rack. This setup utilizes NVIDI
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-26T04:48:05+00:00'
-    dupe_count: 0
-  - title: Classiq Updates Qmod Compiler to Synthesize 2048-Bit Shor’s Algorithm in Under 10 Seconds
-    url: https://quantumcomputingreport.com/classiq-updates-qmod-compiler-to-synthesize-2048-bit-shors-algorithm-in-under-10-seconds/
-    summary: Classiq has upgraded its Qmod quantum programming language and compiler, allowing the Shor's
-      algorithm for a 2048-bit RSA-scale integer to compile in under ten seconds. The improvement addresses
-      a bottleneck in quantum software by preservin
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-26T04:13:57+00:00'
-    dupe_count: 0
-  - title: University of Sussex and Universal Quantum Demonstrate Laser-Free Axial-Mode Entangling Gate
-      on Doppler-Cooled Trapped Ions
-    url: https://quantumcomputingreport.com/university-of-sussex-and-universal-quantum-demonstrate-laser-free-axial-mode-entangling-gate-on-doppler-cooled-trapped-ions/
-    summary: Researchers from the University of Sussex and Universal Quantum have demonstrated a high-fidelity,
-      all-electronic two-qubit entangling gate using Doppler-cooled ytterbium ions. This laser-free gate
-      operates on the axial stretch mode, achiev
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-26T03:58:16+00:00'
-    dupe_count: 0
-  - title: European Commission Proposes EU Quantum Act and Sovereign Tech Equity Fund to Scale Industrial
-      Capacity by 2030
-    url: https://quantumcomputingreport.com/european-commission-proposes-eu-quantum-act-and-sovereign-tech-equity-fund-to-scale-industrial-capacity-by-2030/
-    summary: The European Commission has proposed the EU Quantum Act, a legislative framework for quantum
-      technologies, and a €50 billion Sovereign Tech Equity Fund to boost industrial capacity by 2030.
-      This initiative aims to align national and EU prog
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-26T02:57:24+00:00'
-    dupe_count: 0
-  - title: IQM Quantum Computers Sells 54-Qubit Radiance R3 System to South Korean Quantum-AI Infrastructure
-      Firm QAI
-    url: https://quantumcomputingreport.com/iqm-quantum-computers-sells-54-qubit-radiance-r3-system-to-south-korean-quantum-ai-infrastructure-firm-qai/
-    summary: IQM Quantum Computers sold a 54-qubit Radiance R3 system to QAI Co., Ltd. in South Korea
-      for EUR 8-10 million. The quantum computer will be installed in QAI's AI data center in Seoul by
-      the end of 2027, making it IQM's first deployment in a
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-26T02:18:06+00:00'
-    dupe_count: 0
-  - title: Zapata Quantum and University of Maryland Launch ForShor.ai Formal Verification Challenge for
-      AI-Assisted Quantum Algorithm Design
-    url: https://quantumcomputingreport.com/zapata-quantum-and-university-of-maryland-launch-forshor-ai-formal-verification-challenge-for-ai-assisted-quantum-algorithm-design/
-    summary: Zapata Quantum and the University of Maryland have launched ForShor.ai, a formal verification
-      challenge combining formal theorem proving with AI to optimize quantum factoring subroutines. The
-      initiative invites researchers to submit recursi
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-26T02:05:25+00:00'
-    dupe_count: 0
-  - title: IQM to Deploy 54-Qubit Quantum Computer at South Korean Data Centre
-    url: https://thequantuminsider.com/2026/11/25/iqm-deploy-54-qubit-quantum-computer-south-korea-data-centre/
-    summary: 'Insider Brief PRESS RELEASE — IQM Quantum Computers (Nasdaq: IQMX), a global leader in superconducting
-      quantum computers, is partnering with QAI Co., Ltd., a South Korean quantum-AI data center and cloud
-      infrastructure company, to deliver a'
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-11-25T18:08:13+00:00'
-    dupe_count: 0
-  - title: QuIC Welcomes the European Quantum Act, Pledges to ‘Mobilize Industry’
-    url: https://thequantuminsider.com/2026/11/25/quic-welcomes-the-european-quantum-act-pledges-to-mobilize-industry/
-    summary: Insider Brief PRESS RELEASE — The European Quantum Industry Consortium (QuIC) welcomes the
-      publication of the European Commission’s proposal for the European Quantum Act, marking a significant
-      milestone in Europe’s ambition to establish its
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-11-25T14:05:24+00:00'
-    dupe_count: 0
-  - title: 'Guest Post: After DeepMind’s RSA Results, The Case For QKD on Critical Links'
-    url: https://thequantuminsider.com/2026/11/25/guest-post-after-deepminds-rsa-results-the-case-for-qkd-on-critical-links/
-    summary: Guest Post by Ofir Joseph, Quantum Communication Researcher, University of Haifa, and Head
-      of the Cybersecurity Program, Academic College of Tel Aviv–Yaffo Prof. Irit Hadar, Dean, Faculty
-      of Computer and Information Science & Director, Cent
-    source: The Quantum Insider
-    weight: 1
-    published_at: '2026-11-25T12:27:15+00:00'
-    dupe_count: 0
-  - title: Forschungszentrum Jülich and ARQUE Systems Secure €35 Million ($38.4 Million USD) to Build
-      200-Qubit Silicon Spin Quantum Computer
-    url: https://quantumcomputingreport.com/forschungszentrum-julich-and-arque-systems-secure-e35-million-38-4-million-usd-to-build-200-qubit-silicon-spin-quantum-computer/
-    summary: 'Forschungszentrum Jülich and ARQUE Systems have launched Q-STAR.NRW, a €35 million initiative
-      to build a 200-qubit silicon spin quantum computer by the end of 2029. This project, primarily funded
-      by German federal funds, will integrate the '
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-24T23:05:25+00:00'
-    dupe_count: 0
-  - title: IonQ Advances Quantum-Assured Navigation and Timing with DARPA Airborne Gravimeter Award and
-      51-Day Maritime Clock Trial
-    url: https://quantumcomputingreport.com/ionq-advances-quantum-assured-navigation-and-timing-with-darpa-airborne-gravimeter-award-and-51-day-maritime-clock-trial/
-    summary: IonQ's Vector Atomic subsidiary has made significant strides in quantum sensing for navigation
-      and timing. They received a DARPA award to develop an airborne quantum gravimeter and successfully
-      completed a 51-day maritime trial of their Eve
-    source: Quantum Computing Report
-    weight: 1
-    published_at: '2026-11-24T18:02:01+00:00'
-    dupe_count: 0
 - id: ai-and-llms
   title: AI & LLMs
   items:
-  - title: 'Navigent: A Geometry-Grounded Agentic Framework for Vision Language Navigation'
-    url: https://arxiv.org/abs/2611.34249
-    summary: 'arXiv:2611.34249v1 Announce Type: new Abstract: Vision-and-Language Navigation (VLN) with
-      general-purpose multimodal large language models (MLLMs) offers a flexible alternative to task-specific
-      navigation policies, while reliable long-horiz'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: How to build and maintain an agentic evaluation
+    url: https://huggingface.co/blog/agentic-evals
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-11-23T00:00:00+00:00'
     dupe_count: 0
-  - title: 'Agentic Waterfall: An Intent-Driven Information Discovery Framework for Reclaiming User Control
-      in the Attention Economy'
-    url: https://arxiv.org/abs/2611.34407
-    summary: 'arXiv:2611.34407v1 Announce Type: new Abstract: We formalize Agentic Waterfall Feed, a new
-      problem of personalized information discovery in which users actively direct recommendations and
-      the system adapts to evolving needs inferred from bo'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: November 17, 2026
+    url: https://openrouter.ai/docs/changelog#november-17-2026
+    summary: 'Modified endpoints POST /auth/keys/code : description updated GET /keys : extension x-speakeasy-max-method-params
+      added GET /benchmarks : description updated; parameter task_type updated; response schema updated
+      GET /models : new parameter '
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-11-19T07:37:09+00:00'
     dupe_count: 0
-  - title: Attributing Agentic Failure in Reasoning Vision-Language Models with Interactive 2D Environments
-    url: https://arxiv.org/abs/2611.33162
-    summary: 'arXiv:2611.33162v1 Announce Type: cross Abstract: Agentic benchmarks report a success rate
-      that confounds distinct causes of failure: misreading the environment, never working out how components
-      of the environment operates, operating the co'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: November 27, 2026
+    url: https://openrouter.ai/docs/changelog#november-27-2026
+    summary: 'New schemas ChatAnnotation Used by GET /batches/{id} , GET /batches/{id}/results , POST
+      /batches ChatFileAnnotation Used by GET /batches/{id} , GET /batches/{id}/results , POST /batches
+      ChatUrlCitationAnnotation Used by GET /batches/{id} , '
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-11-27T20:20:45+00:00'
     dupe_count: 0
-  - title: 'Kolpona: An Agentic Framework with Gradient-Free Neuron Programming for RTL Generation'
-    url: https://arxiv.org/abs/2611.33973
-    summary: 'arXiv:2611.33973v1 Announce Type: cross Abstract: Open-weight large language models (LLMs)
-      for register-transfer level (RTL) design are usually improved by fine-tuning on curated Verilog
-      corpora, which needs large sets of verified designs a'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon
+    url: https://huggingface.co/blog/ggml-org/llamacpp-amd-bench
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-11-26T11:37:17+00:00'
     dupe_count: 0
-  - title: 'Towards Faithful Agentic XAI: A Verification Method and an Open-World Benchmark for Better
-      Model Faithfulness'
-    url: https://arxiv.org/abs/2605.27879
-    summary: 'arXiv:2605.27879v2 Announce Type: replace Abstract: Explainable AI (XAI) helps users interpret
-      model behavior and identify potential faults. Agentic XAI systems use Large Language Models (LLMs)
-      to make explanations more accessible through n'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: 'Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems'
+    url: https://huggingface.co/blog/training-swarms
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-11-26T00:00:00+00:00'
     dupe_count: 0
-  - title: 'Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows'
-    url: https://arxiv.org/abs/2611.33402
-    summary: 'arXiv:2611.33402v1 Announce Type: new Abstract: AI models vary enormously in capability
-      and price. Model routing exploits this by sending easier tasks to cheaper models. However, a single
-      agentic task often combines easy and difficult subta'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
-    dupe_count: 1
-  - title: 'SlicePlanner: Logic-Guided Agentic AI for Online QoS-Aware Network Slicing in Open RAN'
-    url: https://arxiv.org/abs/2611.33664
-    summary: 'arXiv:2611.33664v1 Announce Type: new Abstract: Adaptive network slicing in Open Radio Access
-      Network (O-RAN) demands reconfiguration decisions that respond to live traffic conditions while
-      remaining safe with respect to Service Level Agree'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: Where scientists draw the line on AI agents
+    url: https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-11-25T18:52:55+00:00'
     dupe_count: 0
-  - title: Interactive Proofs as a Unified Framework for Evaluating and Leveraging Verifiable Proof Generation
-      by LLM Agents
-    url: https://arxiv.org/abs/2611.33676
-    summary: 'arXiv:2611.33676v1 Announce Type: new Abstract: Recent advances in LLM-assisted theorem
-      proving and program verification have attracted widespread attention. Beyond determining whether
-      a proposition is true, LLM agents must produce evidence'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: An Indic Voice Agent with CUGA
+    url: https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga
+    summary: ''
+    source: Hugging Face Blog
+    weight: 1
+    published_at: '2026-11-25T10:22:09+00:00'
     dupe_count: 0
-  - title: 'P-FedSkill: A Personalized Federated Skill Learning Framework under Task Heterogeneity'
-    url: https://arxiv.org/abs/2611.33707
-    summary: 'arXiv:2611.33707v1 Announce Type: new Abstract: Skill learning has become an important way
-      to improve agent performance. However, agent trajectories often contain sensitive information and
-      cannot be shared across clients, hindering collabor'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: November 25, 2026
+    url: https://openrouter.ai/docs/changelog#november-25-2026
+    summary: 'Modified endpoints GET /videos/models : response schema updated GET /batches : description
+      updated POST /batches : description updated DELETE /batches/{id} : description updated GET /batches/{id}
+      : description updated GET /batches/{id}/resu'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-11-25T01:06:18+00:00'
     dupe_count: 0
-  - title: 'Asset4D-Bench: Benchmarking Coding Agents for Editable 3D and 4D Reconstruction'
-    url: https://arxiv.org/abs/2611.33728
-    summary: 'arXiv:2611.33728v1 Announce Type: new Abstract: A cart can follow its reference trajectory
-      while its cargo floats above the deck. Asset4D-Bench tests whether coding agents recover objects,
-      motion and interactions from visual references as e'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: 'v0.34.1rc0: [Perf][Qwen4Exp] Add SM100 TP=2 and TP=8 skinny GEMM plans (#69529)'
+    url: https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0
+    summary: 'Signed-off-by: Johnsonms lizhaofu@gmail.com Co-authored-by: vllm-agent claw@inferact.ai'
+    source: vLLM Releases
+    weight: 1
+    published_at: '2026-11-24T06:01:41+00:00'
     dupe_count: 0
-  - title: 'TransHarness: From Benchmark Overfitting to Transferable Harness Evolution'
-    url: https://arxiv.org/abs/2611.33757
-    summary: 'arXiv:2611.33757v1 Announce Type: new Abstract: Harness evolution offers a path to improving
-      coding agents without updating model weights. However, existing methods can overfit their evolution
-      benchmarks, producing gains that fail to carry '
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: November 24, 2026
+    url: https://openrouter.ai/docs/changelog#november-24-2026
+    summary: 'New endpoints GET /batches/{id}/results : Get batch results Modified endpoints GET /byok
+      : response schema updated POST /byok : response schema updated GET /byok/{id} : response schema
+      updated PATCH /byok/{id} : response schema updated POST'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-11-24T01:38:46+00:00'
     dupe_count: 0
-  - title: 'RadOncGym: An Agent-Based Framework for Radiotherapy Dose-Mimicking Optimization'
-    url: https://arxiv.org/abs/2611.33821
-    summary: 'arXiv:2611.33821v1 Announce Type: new Abstract: AI dose-prediction models generate patient-specific
-      3D dose distributions from patient anatomy, providing an important intermediate representation for
-      automated radiotherapy planning. However,'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: How iFood scales coding agents across 15,000 repositories
+    url: https://openai.com/business/customer-stories/ifood
+    summary: ''
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-11-24T00:00:00+00:00'
     dupe_count: 0
-  - title: Few-Shot Adaptation of Vision-Language Models via Agentic Model Editing
-    url: https://arxiv.org/abs/2611.34036
-    summary: 'arXiv:2611.34036v1 Announce Type: new Abstract: Few-shot adaptation transfers pretrained
-      Vision-Language Models (VLMs) to new domains using a small set of labeled images. Most methods fit
-      prompts, representations, or classifiers within an a'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: November 23, 2026
+    url: https://openrouter.ai/docs/changelog#november-23-2026
+    summary: 'Modified endpoints POST /images : request schema updated; response schema updated DELETE
+      /scim/group-mappings/{id} : description updated New schemas MessagesToolSearchToolReference Used
+      by POST /messages , POST /presets/{slug}/messages Mess'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-11-23T19:20:56+00:00'
     dupe_count: 0
-  - title: 'Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments'
-    url: https://arxiv.org/abs/2611.34254
-    summary: 'arXiv:2611.34254v1 Announce Type: new Abstract: Large language models (LLMs) perform well
-      on chemistry knowledge benchmarks, which mainly assess question answering and isolated tasks. Chemical
-      research, however, requires using specialized t'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: Richpanel helps companies automate 50% of support in 30 days
+    url: https://openai.com/business/customer-stories/richpanel-ai-customer-support
+    summary: Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and
+      procedures, and GPT-6 Luna for their conversations.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-11-23T08:00:00+00:00'
     dupe_count: 0
-  - title: 'EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent
-      Task Streams'
-    url: https://arxiv.org/abs/2611.34400
-    summary: 'arXiv:2611.34400v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving
-      from passive chatbots into autonomous systems that operate continuously in dynamic environments.
-      Such agents need not only solve current tasks bu'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: November 21, 2026
+    url: https://openrouter.ai/docs/changelog#november-21-2026
+    summary: 'Modified endpoints DELETE /scim/group-mappings/{id} : deprecated property_removed; description
+      updated; response schema updated PATCH /scim/group-mappings/{id} : deprecated property_removed;
+      description updated; response schema updated POST'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-11-21T23:42:10+00:00'
     dupe_count: 0
-  - title: 'vSFT: Learning to Verbally Tune Agents at Test Time'
-    url: https://arxiv.org/abs/2611.34440
-    summary: 'arXiv:2611.34440v1 Announce Type: new Abstract: Large language model agents are increasingly
-      improved via agentic reinforcement learning, which can be on-policy but suffers from expensive rollouts
-      and sparse rewards, limiting its applicatio'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
-    dupe_count: 1
-  - title: 'EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts'
-    url: https://arxiv.org/abs/2611.34466
-    summary: 'arXiv:2611.34466v1 Announce Type: new Abstract: AI wearables, such as smart glasses, extend
-      the context available to agents beyond digital environments to users'' physical surroundings. With
-      these devices, computer tasks can originate from u'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: November 20, 2026
+    url: https://openrouter.ai/docs/changelog#november-20-2026
+    summary: 'Breaking changes Workspace : required default_image_model property removedAction required
+      * [`GET /workspaces`](/api/api-reference/workspaces/list-workspaces) * [`GET /workspaces/{id}`](/api/api-reference/workspaces/get-a-workspace)
+      * [`PAT'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-11-20T22:19:54+00:00'
     dupe_count: 0
-  - title: 'ZeroHero: Training Small Language Agents from Scratch'
-    url: https://arxiv.org/abs/2611.34635
-    summary: 'arXiv:2611.34635v1 Announce Type: new Abstract: Large pretrained language models provide
-      capable policies for interactive tasks, but how much model capacity is necessary for a specialized
-      language agent? We introduce ZeroHero, a framework f'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: November 19, 2026
+    url: https://openrouter.ai/docs/changelog#november-19-2026
+    summary: 'Breaking changes ImageGenerationResponse.data : required b64_json property removedAction
+      required Used by POST /images CreatePrivateEndpointRequest.declared_parameters : maxItems changed
+      from 25 to 26 No action needed Used by POST /private-'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-11-19T15:23:57+00:00'
     dupe_count: 0
-  - title: 'CypherMAS: Benchmarking Routing Reliability in LLM-Based Multi-Agent Systems'
-    url: https://arxiv.org/abs/2611.33242
-    summary: 'arXiv:2611.33242v1 Announce Type: cross Abstract: Multi-agent systems (MAS) built on large
-      language models (LLMs) distribute reasoning across specialized agents that must exchange messages
-      and invoke tools reliably. Existing evaluations typ'
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
-    dupe_count: 1
-  - title: 'AI Buckingham: Agentic Discovery of Dimensionless Scaling Laws Across Physical Regimes'
-    url: https://arxiv.org/abs/2611.33961
-    summary: 'arXiv:2611.33961v1 Announce Type: cross Abstract: Classical dimensional analysis defines
-      admissible dimensionless representations but does not determine which combinations capture the dominant
-      physical dependence, whether it changes across '
-    source: arXiv cs.AI
-    weight: 2
-    published_at: '2026-11-27T05:00:00+00:00'
+  - title: November 18, 2026
+    url: https://openrouter.ai/docs/changelog#november-18-2026
+    summary: 'Breaking changes ReasoningFormat : enum google-vertex-responses-v1 property removedAction
+      required Migration: the value was renamed to google-vertex-meta-responses-v1 . It identifies encrypted
+      reasoning minted by Meta models served on Googl'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-11-19T07:37:09+00:00'
+    dupe_count: 0
+  - title: November 16, 2026
+    url: https://openrouter.ai/docs/changelog#november-16-2026
+    summary: 'Modified endpoints POST /auth/keys : description updated POST /auth/keys/code : description
+      updated New response codes GET /generation/content : now returns 503 Modified schemas SpeechRequest
+      : description updated Used by POST /audio/speech'
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-11-19T07:37:09+00:00'
+    dupe_count: 0
+  - title: November 13, 2026
+    url: https://openrouter.ai/docs/changelog#november-13-2026
+    summary: 'Breaking changes BatchSubmitBody : required requests property removedAction required Used
+      by POST /batches Modified endpoints GET /byok : parameter provider updated New schemas BatchInputReference
+      Used by POST /batches BatchOutputReference '
+    source: OpenRouter Changelog
+    weight: 1
+    published_at: '2026-11-19T07:37:09+00:00'
+    dupe_count: 0
+  - title: Deploying Daybreak Red
+    url: https://openai.com/business/learn/deploying-daybreak-red
+    summary: Explore a reference architecture for supervised security investigations with Daybreak Red,
+      including safety controls, setup, and monitoring.
+    source: OpenAI News
+    weight: 1
+    published_at: '2026-11-19T00:00:00+00:00'
     dupe_count: 0
 - id: claude-and-anthropic
   title: Claude & Anthropic
@@ -576,15 +565,6 @@ tiles:
     source: Claude Code Action Releases
     weight: 1
     published_at: '2026-11-18T16:50:35+00:00'
-    dupe_count: 0
-  - title: v2.1.327
-    url: https://github.com/anthropics/claude-code/releases/tag/v2.1.327
-    summary: What's changed Added a confirmation before /install-github-app changes a repository Added
-      claude mcp add-json <name> - to read the server's JSON from stdin, so tokens can stay off the command
-      line; not available inside a Claude Code session
-    source: Claude Code Releases
-    weight: 1
-    published_at: '2026-11-17T23:17:45+00:00'
     dupe_count: 0
   - title: Claude Code GitHub Action v1.0
     url: https://github.com/anthropics/claude-code-action/releases/tag/v1
@@ -714,3 +694,10 @@ tiles:
     weight: 1
     published_at: '2026-11-20T15:56:21+00:00'
     dupe_count: 3
+  - title: v1.0.284
+    url: https://github.com/anthropics/claude-code-action/releases/tag/v1.0.284
+    summary: 'Full Changelog : v1.0.283...v1.0.284'
+    source: Claude Code Action Releases
+    weight: 1
+    published_at: '2026-11-19T22:17:34+00:00'
+    dupe_count: 0
